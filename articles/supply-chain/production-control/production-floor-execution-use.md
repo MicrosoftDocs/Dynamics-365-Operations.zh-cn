@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022495"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069777"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>工作人员如何使用生产车间执行界面
 
@@ -217,7 +217,7 @@ ms.locfileid: "9022495"
 
 在 **调整物料** 对话框中，工作人员可以通过选择 **预留物料** 来进行物料预留并进行调整。 出现的 **预留物料** 对话框显示每个存储和跟踪维度的物料的实际可用库存。
 
-如果为高级仓库流程启用了物料，列表将仅显示物料的生产输入位置的实际可用库存。 生产输入位置在计划生产作业的资源上定义。 如果物料编号受批处理或序列号控制，将显示实际可用的批处理和序列号的完整列表。 要指定要预留的数量，工作人员可以选择 **预留物料**。 要删除现有预留，工作人员可以选择 **删除预留**。
+如果为仓库管理流程 (WMS) 启用了物料，列表将仅显示物料的生产输入位置的实际可用库存。 生产输入位置在计划生产作业的资源上定义。 如果物料编号受批处理或序列号控制，将显示实际可用的批处理和序列号的完整列表。 要指定要预留的数量，工作人员可以选择 **预留物料**。 要删除现有预留，工作人员可以选择 **删除预留**。
 
 有关如何设置生产输入位置的详细信息，请参阅以下博客文章：[设置生产输入位置](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production)。
 

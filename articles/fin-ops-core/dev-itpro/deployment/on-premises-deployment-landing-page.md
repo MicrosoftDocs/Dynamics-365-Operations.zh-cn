@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867403"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103963"
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
@@ -53,7 +53,7 @@ ms.locfileid: "8867403"
 - [导入电子报告 (ER) 配置](../analytics/electronic-reporting-import-ger-configurations.md)
 - [本地部署中的文档生成、发布和打印](../analytics/printing-capabilities-on-premises.md)
 - [为本地环境配置代理](onprem-reverseproxy.md)
-- [设置对 Finance and Operations 应用的技术支持](../lifecycle-services/support-experience.md)
+- [设置对财务和运营应用的技术支持](../lifecycle-services/support-experience.md)
 - [客户端 Internet 连接](../user-interface/client-disconnected.md)
 - [将更新应用于本地部署](apply-updates-on-premises.md)
 - [重新部署本地环境](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ ms.locfileid: "8867403"
 - [在本地环境中解决问题的脚本](onprem-tsg-implementations.md)
 - [证书轮换](certificate-rotation-on-prem.md)
 - [本地诊断](on-premises-diagnostics.md)
-- [Finance and Operations 的移除或弃用功能](../migration-upgrade/deprecated-features.md)
+- [财务和运营的移除或弃用功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

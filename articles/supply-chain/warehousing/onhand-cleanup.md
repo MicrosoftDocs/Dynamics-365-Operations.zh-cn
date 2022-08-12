@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900497"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065110"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>仓库管理现有条目清除作业
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900497"
 
 用于计算现有库存量的查询的性能受所涉及表中的记录数的影响。 帮助提高性能的一种方法是减少数据库必须考虑的记录数。
 
-本文介绍现有条目清除作业，该作业将删除 InventSum 和 WHSInventReserve 表中不需要的记录。 这些表存储已启用仓库管理处理的项目的现有信息。 （这些项目称为 WHS 项。）删除这些记录可以显著提高现有计算的性能。
+本文介绍现有条目清除作业，该作业将删除 `InventSum` 和 `WHSInventReserve` 表中不需要的记录。 这些表存储已启用仓库管理处理的项目的现有信息。 （这些项目称为 WMS 项。）删除这些记录可以显著提高现有计算的性能。
 
 ## <a name="what-the-cleanup-job-does"></a>清理作业做什么
 
-现有条目清除作业将删除 WHSInventReserve 和 InventSum 表中所有字段值为 *0*（零）的记录。 这些记录可以删除，因为它们不会对现有信息有所帮助。 此作业仅删除 **库位** 级别以下的记录。
+现有条目清除作业将删除 `WHSInventReserve` 和 `InventSum` 表中所有字段值为 *0*（零）的记录。 这些记录可以删除，因为它们不会对现有信息有所帮助。 此作业仅删除 **库位** 级别以下的记录。
 
 如果允许负实际库存，清除作业可能无法删除所有相关条目。 出现此限制的原因是，此作业必须允许一种特殊情况，即牌照具有多个序列号，而这些序列号之一已变为负数。 例如，当牌照的序列号 1 有 +1 件，序列号 2 有 –1 件时，系统将在牌照级别显示零。 对于这种特殊情况，此作业会先进行广度优先删除，尝试先从较低级别中删除。
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: acb3575d9b6371bb4a6924be1e6e2ee86b976e7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1c42897a0392d053b90fc2eae9b20a0d14f327
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888026"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067703"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概览
 
@@ -35,7 +35,7 @@ ms.locfileid: "8888026"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-[如何在 Dynamics 365 Finance 中使用收入确认](https://youtu.be/v3amIsiqvoo)视频（如上所示）包括在 YouTube 上可用的[财务与运营播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
+[如何在 Dynamics 365 Finance 中使用收入确认](https://youtu.be/v3amIsiqvoo)视频（如上所示）包括在 YouTube 上可用的[财务和运营播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
 收入确认功能提供了灵活框架，供您定义特定于公司的收入价格和收入计划确认规则。
 
@@ -53,3 +53,4 @@ ms.locfileid: "8888026"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

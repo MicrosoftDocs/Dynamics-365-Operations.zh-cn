@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865257"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171506"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 
@@ -48,11 +48,11 @@ ms.locfileid: "8865257"
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Supply Chain Management 10.0.18 版本中已经删除或弃用的功能
 
-### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - 仓库（仓库应用）
+### <a name="supply-chain-management--warehousing-the-warehouse-app"></a><a name="wma"></a>Supply Chain Management - 仓库（仓库应用）
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 自 2021 年 4 月起，*Dynamics 365 for Finance and Operations - 仓库*（仓库应用）将弃用，在 2022 年 4 月之后将不再受支持。 现在它将替换为 *仓库管理移动应用*，该应用随 Supply Chain Management 的版本 10.0.17 一起发布。 新应用是一个完全替代品，但使用相同的基础框架，从而使迁移变得容易。 如果需要，可以并排使用这两个应用，以帮助用户在学习使用新应用时逐渐进行调整。<br><br>有关新仓库管理移动应用的详细信息，请参阅[仓库管理移动应用程序](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)和[安装和连接仓库管理移动应用](../warehousing/install-configure-warehouse-management-app.md)。 |
+| **弃用/移除的原因** | 自 2021 年 4 月起，*Supply Chain Management - 仓库*（仓库应用）将弃用，在 2022 年 4 月之后将不再受支持。 现在它将替换为 *仓库管理移动应用*，该应用随 Supply Chain Management 的版本 10.0.17 一起发布。 新应用是一个完全替代品，但使用相同的基础框架，从而使迁移变得容易。 如果需要，可以并排使用这两个应用，以帮助用户在学习使用新应用时逐渐进行调整。<br><br>有关新仓库管理移动应用的详细信息，请参阅[仓库管理移动应用程序](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)和[安装和连接仓库管理移动应用](../warehousing/install-configure-warehouse-management-app.md)。 |
 | **被另一个功能取代？**   | 是，已替换为新的仓库管理移动应用。 |
 | **影响的产品区域**         | Supply Chain Management - 仓库应用 |
 | **部署选项**              | 云和本地 |
@@ -98,3 +98,4 @@ ms.locfileid: "8865257"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

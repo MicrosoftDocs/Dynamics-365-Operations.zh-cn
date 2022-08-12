@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0055757a0d012896232de58330ee142f702e4ed1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f148d4c6ece543c8a11eee3e6dcdff47b3767936
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875385"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135429"
 ---
 # <a name="conventions"></a>惯例
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 惯例是一组影响系统行为的策略的容器。 基于您的业务需求，必须使用各种策略的组合来定义惯例，这些策略用于确定应如何在全球库存核算中核算成本。 您可以将每个惯例与一个或多个分类帐相关联，以确保跨分类帐应用的核算策略的一致性。
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 7fac40ebd8a1f7994997e12f1231e5522a0c0e24
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b86b6a59344299a7a2d277543c3186ed2b8cee4
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865054"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103224"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>将仓库从Supply Chain Management 同步到 Field Service
 
@@ -58,7 +58,7 @@ ms.locfileid: "8865054"
 **外部维护** 列帮助控制工作订单上库存水平、调整、转移和使用的同步。 只有 **外部维护** 设置为 **是** 的仓库可以用于直接同步到其他系统中的同一仓库。 
 
 > [!NOTE]
-> 可以在 Field Service（**外部维护** = 否）中创建多个仓库，然后使用高级查询和筛选功能将它们映射到单个仓库。 这用于您希望 Field service 掌握详细的库存水平并仅向 Supply Chain Management 发送更新的情况。 在这种情况下，Field Service 不会收到来自 Supply Chain Management 的库存水平更新。 更多信息，请参阅[将库存调整从 Field Service 同步到 Finance and Operations](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) 和[将 Field Service 的工作订单同步到链接到 Finance and Operations 中的项目的销售订单](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
+> 可以在 Field Service（**外部维护** = 否）中创建多个仓库，然后使用高级查询和筛选功能将它们映射到单个仓库。 这用于您希望 Field service 掌握详细的库存水平并仅向 Supply Chain Management 发送更新的情况。 在这种情况下，Field Service 不会收到来自 Supply Chain Management 的库存水平更新。 更多信息，请参阅[将库存调整从 Field Service 同步到 Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) 和[将 Field Service 的工作订单同步到链接到 Supply Chain Management 中的项目的销售订单](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
 
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 ### <a name="data-integration-project"></a>数据集成项目

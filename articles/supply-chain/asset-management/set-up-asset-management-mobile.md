@@ -1,6 +1,6 @@
 ---
 title: 设置资产管理移动工作区
-description: 本文介绍如何设置 Microsoft Dynamics 365 Supply Chain Management 和财务与运营 (Dynamics 365) 移动应用以运行资产管理移动工作区，工作人员可以使用该工作区来执行资产管理任务。
+description: 本文介绍如何设置 Microsoft Dynamics 365 Supply Chain Management 和财务和运营 (Dynamics 365) 移动应用以运行资产管理移动工作区，工作人员可以使用该工作区来执行资产管理任务。
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870833"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070044"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>设置资产管理移动工作区
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何设置 Microsoft Dynamics 365 Supply Chain Management 和财务与运营 (Dynamics 365) 移动应用以运行 **资产管理** 移动工作区，工作人员可以使用该工作区来执行资产管理任务。
+本文介绍如何设置 Microsoft Dynamics 365 Supply Chain Management 和财务和运营 (Dynamics 365) 移动应用以运行 **资产管理** 移动工作区，工作人员可以使用该工作区来执行资产管理任务。
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>在 Supply Chain Management 中设置维护工人用户
 
@@ -41,7 +41,7 @@ ms.locfileid: "8870833"
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>发布资产管理移动工作区
 
-若要使资产管理功能在财务与运营 (Dynamics 365) 移动应用中可用，您必须发布 **资产管理** 移动工作区。
+若要使资产管理功能在财务和运营 (Dynamics 365) 移动应用中可用，您必须发布 **资产管理** 移动工作区。
 
 1. 在 Supply Chain Management 中，选择 **设置** 按钮（右上角的齿轮符号），然后在菜单上选择 **移动应用**。
 1. 在 **管理移动应用** 对话框中，找到 **资产管理** 磁贴。 如果它包含文本“在元数据中 - 未发布”，说明该工作区尚未发布。 如果它包含文本“在元数据中 - 已发布”，说明工作区已发布，您可以跳过此过程的其余部分。
@@ -50,14 +50,14 @@ ms.locfileid: "8870833"
 
 1. 选择 **资产管理** 磁贴，然后在工具栏上选择 **发布**。 几秒钟后，您应该收到一条通知，说明工作区已成功发布。 此外，磁贴上的文本应会变为“在元数据中 - 已发布”。
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>安装并设置财务与运营 (Dynamics 365) 移动应用
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>安装并设置财务和运营 (Dynamics 365) 移动应用
 
-1. 转到以下应用商店之一，在移动设备上安装 **Microsoft 财务与运营 (Dynamics 365)** 应用：
+1. 转到以下应用商店之一，在移动设备上安装 **Microsoft 财务和运营 (Dynamics 365)** 应用：
 
     - [对于 Google Android 设备](https://go.microsoft.com/fwlink/?linkid=850662)
     - [对于 Apple iOS 设备](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. 打开财务与运营 (Dynamics 365) 应用。 登录页面应会出现。 在 **登录** 字段中，输入您的 Supply Chain Management URL，或在 **最近环境** 列表中选择一个最近的 URL，然后点击 **连接**。
+1. 打开财务和运营 (Dynamics 365) 应用。 登录页面应会出现。 在 **登录** 字段中，输入您的 Supply Chain Management URL，或在 **最近环境** 列表中选择一个最近的 URL，然后点击 **连接**。
 
     ![登录页面。](media/mobile-app-sign-in.png "登录页")
 
@@ -80,7 +80,7 @@ ms.locfileid: "8870833"
 
 有关如何使用 **资产管理** 移动工作区的详细信息，请参阅[使用资产管理移动工作区](asset-management-mobile-workspace.md)。
 
-有关财务与运营 (Dynamics 365) 移动应用的详细信息，请参阅[移动应用主页](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md)。
+有关财务和运营 (Dynamics 365) 移动应用的详细信息，请参阅[移动应用主页](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md)。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

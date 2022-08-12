@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
-ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
+ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945791"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069913"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或弃用的平台功能
 
@@ -35,13 +35,13 @@ ms.locfileid: "8945791"
 
 ## <a name="feature-deprecation-effective-june-2022"></a>功能弃用从 2022 年 6 月开始生效
 
-### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>财务与运营 (Dynamics 365) 移动应用和移动平台 
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>财务和运营 (Dynamics 365) 移动应用和移动平台 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 我们正在弃用财务与运营 (Dynamics 365) 移动应用和平台以合并到单个移动平台，即 Power Apps。 |
-| **被另一个功能取代？**   | 是，可以通过 Power Platform 集成生成财务与运营应用数据的移动体验。 有关更多详细信息，请参阅[博客文章](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)和[生成移动体验](../power-platform/build-mobile-experiences.md)。 |
-| **影响的产品区域**         | Finance and Operations 应用 |
+| **弃用/移除的原因** | 我们正在弃用财务和运营 (Dynamics 365) 移动应用和平台以合并到单个移动平台，即 Power Apps。 |
+| **被另一个功能取代？**   | 是，可以通过 Power Platform 集成生成财务和运营应用数据的移动体验。 有关更多详细信息，请参阅[博客文章](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/)和[生成移动体验](../power-platform/build-mobile-experiences.md)。 |
+| **影响的产品区域**         | 财务和运营应用 |
 | **部署选项**              | 所有 |
 | **Status**                         | 已弃用。 支持结束日期定为 2024 年 10 月。 |
 
@@ -67,7 +67,7 @@ ms.locfileid: "8945791"
 |------------|--------------------|
 | **弃用/移除的原因** | 我们正在删除对 XML URL 解决方案的支持，因为此问题已被标识为潜在的安全漏洞。 这意味着将不再解析与 XML 文件关联的外部资源。  |
 | **被另一个功能取代？**   | 否。 |
-| **影响的产品区域**         | Finance and Operations 应用 |
+| **影响的产品区域**         | 财务和运营应用 |
 | **部署选项**              | 所有 |
 | **Status**                         | 已弃用。 |
 
@@ -79,7 +79,7 @@ ms.locfileid: "8945791"
 |------------|--------------------|
 | **弃用/移除的原因** | 数据管理中的 XSLT 脚本支持已被弃用，以改进财务和运营应用中的安全性和数据保护。  |
 | **被另一个功能取代？**   | 否。 客户和 ISV 应考虑基于 X++ 语言重新实施其解决方案，以取代 XSLT 脚本。 |
-| **影响的产品区域**         | Finance and Operations 应用 |
+| **影响的产品区域**         | 财务和运营应用 |
 | **部署选项**              | 所有 |
 | **Status**                         | 已弃用 <br><br>**异常：** 当前正在使用 XLST 脚本的客户。 在更新到版本 10.0.30 或更高版本之前可以继续使用它。 对于早期版本，异常将于 2023 年 1 月 31 日到期。 出现此异常的客户已在 Microsoft 365 管理中心内可用的消息中心收到了通知。 |
 
@@ -196,7 +196,7 @@ ms.locfileid: "8945791"
 |------------|--------------------|
 | **弃用/移除的原因** | 为了减少客户操作、监视和维护索引管理的开销，此功能已被删除。 |
 | **被另一个功能取代？**   | 在以后，索引维护将由 Microsoft 服务执行。 这会连续进行，不会影响用户的工作负荷。 |
-| **影响的产品区域**         | Finance and Operations 应用|
+| **影响的产品区域**         | 财务和运营应用|
 | **部署选项**              | 云部署 - 影响 Microsoft 管理的生产环境以及第 2 层到第 5 层沙盒环境。 |
 | **状态**                         | 此功能已删除。 |
 
@@ -398,3 +398,4 @@ ms.locfileid: "8945791"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713267"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123973"
 ---
 # <a name="before-you-buy"></a>在购买之前
 
@@ -26,9 +26,9 @@ ms.locfileid: "8713267"
 
 Dynamics 365 Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 的新用户？ 无论你是仍然在评估还是准备购买，我们都为你准备了分步指导。
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>步骤一：免费试用 Finance and Operations 30 天
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>步骤一：免费试用财务和运营 30 天
 
-你只需简单注册一个电子邮箱即可试用 Dynamics 365 for Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 30 天。 财务与运营应用程序试用版本包括入门任务指导，该指导提供允许你在操作中查看特定方案的分步说明。 该产品可用于探索和体验方案，但无法自定义。 包括演示数据以帮助你轻松使用产品并使体验更有意义。 在试用期到期前 3 天将发送一封提醒电子邮件。 在[注册预览订阅](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)获取详细信息。
+你只需简单注册一个电子邮箱即可试用 Dynamics 365 for Finance、Dynamics 365 Supply Chain Management 或 Dynamics 365 Commerce 30 天。 财务和运营应用程序试用版本包括入门任务指导，该指导提供允许你在操作中查看特定方案的分步说明。 该产品可用于探索和体验方案，但无法自定义。 包括演示数据以帮助你轻松使用产品并使体验更有意义。 在试用期到期前 3 天将发送一封提醒电子邮件。 在[注册预览订阅](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe)获取详细信息。
 
 ## <a name="step-two-choose-a-deployment-option"></a>步骤二：选择部署选项
 
@@ -62,7 +62,7 @@ Microsoft 云解决方案提供商可以与你密切合作以了解你的公司�
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>通过 Dynamics 合作伙伴购买（本地）
 
-你必须与合作伙伴合作以购买本地 Finance and Operations。 有关详细信息，请参阅[购买 Finance + Operations (on-premises)](purchase-on-premises.md)。
+你必须与合作伙伴合作以购买本地 Finance + Operations (on-premises)。 有关详细信息，请参阅[购买 Finance + Operations (on-premises)](purchase-on-premises.md)。
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>通过批量许可购买（云或本地）
 
@@ -94,3 +94,4 @@ Microsoft FastTrack for Dynamics 365 是我们的客户成功服务，旨在帮�
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

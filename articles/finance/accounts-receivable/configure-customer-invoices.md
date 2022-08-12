@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
+ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876316"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129503"
 ---
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
@@ -90,6 +90,14 @@ ms.locfileid: "8876316"
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>为没有价格和成本的销售订单行过帐到收入帐户
 对于没有价格和成本的销售订单行，您可以选择更新 **总帐** 中的 **收入** 帐户。 若要设置或查看此信息，请转到 **应收帐款参数** 页的 **分类帐和销售税** 选项卡上的 **为零价格和零成本销售订单发票行过帐到收入帐户** 参数。 （**应收帐款 > 设置 > 应收帐款参数**）。 对于没有价格和成本的销售订单发票行，请选择 **是** 以更新 **收入** 帐户。 如果选择此选项，凭证将包含 **客户余额** 和 **收入** 过帐类型的 0.00 条目。 收入帐户在 **库存过帐** 参数页面上的 **销售订单** 帐户定义选项卡上定义。如果未选择此选项，则没有价格或成本信息的行将不会过帐到 **收入** 帐户。 凭证将包含 **客户余额** 过帐类型的 0.00 条目。
+
+## <a name="line-creation-sequence-number-information"></a>行创建序列号信息
+在过帐客户发票行时，您将可以选择创建序列行创建序列号。 过帐过程中分配了行创建序列号。 通过允许非连续编号，您可以帮助提高客户发票过帐的性能。 要求进行序列排序的第三方集成可能会使用行创建序列号。 请咨询 IT 部门，了解可与行创建序列号集成的任何扩展。
+
+若要设置或查看此信息，请在 **应收帐款参数** 页面上的 **更新** 选项卡上，设置 **过帐客户发票行时分配序列行号** 选项：
+
+- 将此选项设置为 **否** 以对行创建序列号使用非序列编号。
+- 将此选项设置为 **是** 以使用序列编号。 对于在意大利具有主要地址的法人，必须将此选项设置为 **是**。 如果已禁用 **CustInvoiceTransRandLineCreationSeqNumFlight** 发布外部测试版，您还必须将其设置为 **是**。
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>更改过帐行为的附加设置
 以下字段更改过帐流程的行为。

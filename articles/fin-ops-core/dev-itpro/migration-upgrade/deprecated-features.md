@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea9355b040c6431f5ddcccc4aaa0de73e21ad299
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866176"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124549"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>先前版本中已删除或弃用的功能
 
@@ -271,7 +271,7 @@ ms.locfileid: "8866176"
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>具有平台更新 23 的 Finance and Operations 8.1.3
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server Reporting Services ReportViewer 控件
-客户可使用嵌入的 SQL Server Reporting Services (SSRS) ReportViewer 控件提供的 **导出** 操作下载 Finance and Operations 应用程序生成的单据。 这种基于 HTML 的报表表示为用户提供不分页的单据预览。
+客户可使用嵌入的 SQL Server Reporting Services (SSRS) ReportViewer 控件提供的 **导出** 操作下载财务和运营应用程序生成的单据。 这种基于 HTML 的报表表示为用户提供不分页的单据预览。
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
@@ -1417,3 +1417,4 @@ Windows 8 平板电脑应用提供用于费用录入和审核的功能。
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

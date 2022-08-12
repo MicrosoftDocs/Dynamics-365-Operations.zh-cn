@@ -1,6 +1,6 @@
 ---
 title: 优化顾问概览
-description: 本文描述如何使用优化顾问来帮助保证 Finance and Operations 的最佳配置。
+description: 本文描述如何使用优化顾问来帮助保证财务和运营的最佳配置。
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,20 +15,20 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865852"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109031"
 ---
 # <a name="optimization-advisor-overview"></a>优化顾问概览
 
 [!include [banner](../includes/banner.md)]
 
-本文描述如何使用优化顾问来帮助保证 Finance and Operations 的最佳配置。
+本文描述如何使用优化顾问来帮助保证财务和运营的最佳配置。
 
-## <a name="overview"></a>概览
+## <a name="overview"></a>概述
 
 模块的不正确配置和设置可能对应用程序功能的可用性、系统性能和业务流程的顺畅使用造成负面影响。 业务数据的质量（例如，数据的正确性、完整性和清洁）还会影响系统性能，以及组织的决策制定能力和效率等。
 
@@ -44,7 +44,7 @@ ms.locfileid: "8865852"
 
 当您对一些优化机会采取行动时，系统将计算机会对业务流程运行时间减少的影响。 很遗憾，此功能不能用于所有优化机会。
 
-若要了解有关“优化顾问”的详细信息，请观看视频短片 [Dynamics 365 for Finance and Operations 中的优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ)。
+若要了解有关“优化顾问”的详细信息，请观看视频短片 [Dynamics 365 Finance 中的优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ)。
 
 ## <a name="optimization-rules"></a>优化规则
 
@@ -90,7 +90,7 @@ ms.locfileid: "8865852"
 
 [创建优化顾问规则](./create-rules-optimization-advisor.md)
 
-[Dynamics 365 for Finance and Operations 中的优化顾问（视频）](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Dynamics 365 Finance 中的优化顾问（视频）](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

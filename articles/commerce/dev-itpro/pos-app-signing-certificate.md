@@ -10,17 +10,16 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: 7e998514081cad1c7302aacb1cd74373f896f2d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cbdfcb5229be2f04531031c80f41f672b2a4747
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865961"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169091"
 ---
 # <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>使用代码签名证书对 MPOS .appx 文件签名
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 要安装 Modern POS (MPOS)，您必须使用来自受信任提供商的代码签名证书对 MPOS 应用进行签名，并在当前用户的受信任根文件夹下安装了 MPOS 的所有计算机上安装相同的证书。
 

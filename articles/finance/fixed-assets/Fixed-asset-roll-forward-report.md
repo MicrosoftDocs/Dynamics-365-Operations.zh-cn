@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870124"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068771"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>固定资产前滚报表
 
@@ -30,7 +30,7 @@ ms.locfileid: "8870124"
 
 **固定资产前滚** 报表使用电子申报 (ER) 框架。 必须先从 Microsoft Dynamics Lifecycle Services (LCS) 导入固定资产模型和固定资产前滚配置，才能运行该报表。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
 
-此报表在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中提供，或作为 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）的修补程序提供。 必须为安装了 2017 年 7 月版本的环境应用三个修补程序：
+此报表在 Microsoft Dynamics 365 Finance Enterprise Edition 7.3 中提供，或作为 Microsoft Dynamics 365 Finance Enterprise Edition（2017 年 7 月）的修补程序提供。 必须为安装了 2017 年 7 月版本的环境应用三个修补程序：
 
 - **KB 4041754：** 不能从 LCS 下载电子申报 (ER) 配置，因为应用了平台更新包后不适用于当前版本
 - **KB 4056107：** 电子申报 (GER) 累积更新 5
@@ -67,3 +67,4 @@ ms.locfileid: "8870124"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

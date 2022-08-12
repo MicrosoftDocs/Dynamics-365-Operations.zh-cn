@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a420c5b2a036ac63a1a179f93462d152c3941fda
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853608"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124215"
 ---
 # <a name="create-alert-rules"></a>创建预警规则
 
@@ -75,7 +75,7 @@ ms.locfileid: "8853608"
 
 ## <a name="alerts-as-business-events"></a>业务事件预警
 
-您可以使用业务事件框架在外部发送预警。 创建预警时，将 **组织范围** 设置为 **否**，将 **外部发送** 设置为 **是**。 设置了用于触发业务事件的预警之后，可以使用 Finance and Operations 连接器中的 **当业务事件发生时** 触发器触发 Power Automate 中内置的流，或通过 **业务事件目录** 将事件显式发送给业务事件终结点。
+您可以使用业务事件框架在外部发送预警。 创建预警时，将 **组织范围** 设置为 **否**，将 **外部发送** 设置为 **是**。 设置了用于触发业务事件的预警之后，可以使用财务和运营连接器中的 **当业务事件发生时** 触发器触发 Power Automate 中内置的流，或通过 **业务事件目录** 将事件显式发送给业务事件终结点。
 
 ## <a name="create-an-alert-rule"></a>创建预警规则
 

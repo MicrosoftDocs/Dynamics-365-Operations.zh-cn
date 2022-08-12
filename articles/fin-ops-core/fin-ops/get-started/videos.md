@@ -1,6 +1,6 @@
 ---
 title: 视频
-description: 此页列出 Microsoft 制作的与 Finance and Operations 应用程序有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
+description: 此页列出 Microsoft 制作的与财务和运营应用程序有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958129"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124938"
 ---
 # <a name="videos"></a>视频 
 
 [!include [banner](../includes/banner.md)]
 
-在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)中，可找到 Microsoft 制作的视频，这些视频介绍 Dynamics 365 产品的各种业务解决方案。 此部分列出该渠道中的 Finance and Operations 应用程序“操作方法”视频。
+在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)中，可找到 Microsoft 制作的视频，这些视频介绍 Dynamics 365 产品的各种业务解决方案。 此部分列出该渠道中的财务和运营应用程序“操作方法”视频。
 
 > [!Note]
 > 列出的部分视频在以前的产品名名下列出，但是仍然适用。
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Finance and Operations 开发和管理视频
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>财务和运营开发和管理视频
 
 ### <a name="data-integration"></a>数据集成
 
-- [在 Dynamics 365 for Field Service 和 Finance and Operations 应用程序之间同步工作订单](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [在 Dynamics 365 for Field Service 和财务和运营应用之间同步工作订单](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>数据管理
 
@@ -50,8 +50,8 @@ ms.locfileid: "8958129"
 ### <a name="intelligence"></a>智能
 
 - [如何编辑分析工作区中的嵌入式报表](https://youtu.be/_8WlwmSggcQ)
-- [如何在 Finance and Operations 应用程序中嵌入 PowerBI.com 报告](https://youtu.be/gGWuNJDoi-M)
-- [将自己的数据库 (BYOD) 导入 Finance and Operations 应用程序中](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [如何在财务和运营应用中嵌入 PowerBI.com 报告](https://youtu.be/gGWuNJDoi-M)
+- [将自己的数据库 (BYOD) 导入财务和运营应用中](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [如何在 Dynamics 365 中使用成本管理 Power BI 内容](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -169,3 +169,4 @@ ms.locfileid: "8958129"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Dataverse 中的公司概念
-description: 本文介绍 Finance and Operations 与 Dataverse 之间的公司数据集成。
+description: 本文介绍财务和运营与 Dataverse 之间的公司数据集成。
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873169"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205927"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse 中的公司概念
 
@@ -23,15 +23,17 @@ ms.locfileid: "8873169"
 
 
 
-在 Finance and Operations 中，*公司* 的概念既是法律构造，又是业务构造。 还是数据的安全和可见性界限。 用户始终在单个公司的上下文中工作，并且大多数数据已剥离了公司的性质。
+在财务和运营中，*公司* 的概念既是法律构造，又是业务构造。 还是数据的安全和可见性界限。 用户始终在单个公司的上下文中工作，并且大多数数据已剥离了公司的性质。
 
 Dataverse 没有同等概念。 最接近的概念是 *业务单位*，这主要是用户数据的安全和可见性界限。 此概念没有公司概念具有的同样法律或业务含义。
 
 因为业务单位和公司不是同等概念，所以不能为了 Dataverse 集成而在两者之间强制执行一对一 (1:1) 的映射。 但是，因为默认情况下用户必须可以在应用程序和 Dataverse 中查看相同的行，所以 Microsoft 在 Dataverse 中引入了一个新表，名称为 cdm\_Company。 这个表与应用程序中的公司表等同。 为了帮助确保应用程序与 Dataverse 之间行的原始可见性等同，所以我们建议在 Dataverse 中对数据进行以下设置：
 
 + 为启用了双写入的每个财务和运营公司行创建一个关联的 cdm\_Company 行。
-+ 创建一个 cdm\_Company 行并为其启用双写入时，将创建一个同名的默认业务单位。 尽管会为这个业务单位自动创建一个默认团队，但是不会使用该业务单位。
-+ 将单独创建一个同名的负责团队。 还会将其与该业务单位关联。
+
++ 创建一个 cdm\_Company 行并为其启用双写入时，将创建一个同名的默认业务单位。 尽管会为这个业务单位自动创建一个默认负责团队，但是不会使用该业务单位。
++ 将单独创建一个后缀名为“双重写入”的同名的负责团队。 还会将其与该业务单位关联。
+
 + 默认情况下，创建的并双写入 Dataverse 的所有行的负责人都将设置为与关联业务单位链接的“DW 负责人”团队。
 
 下图显示 Dataverse 中这种数据设置的示例。

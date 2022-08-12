@@ -6,23 +6,23 @@ ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "265694"
-- intro-internal
-ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7236f53c84ed21fc6785a11b36f4ed5f253e9d1c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "265694"
+- intro-internal
+ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
+ms.search.form: PowerBIPbixDeployForm
+ms.openlocfilehash: ff13ef4e71d64bcd03054b9e44f738676a75efc2
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872902"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206343"
 ---
 # <a name="power-bi-content-home-page"></a>Power BI 内容主页
 

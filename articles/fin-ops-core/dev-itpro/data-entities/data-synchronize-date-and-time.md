@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: b8faa7b73349c48d3a02b685546b47c4969c6027
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403833"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109423"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>同步导入作业中的日期和时间
 
@@ -27,7 +27,7 @@ ms.locfileid: "7403833"
 
 这种双重转换会导致日期在应用程序之间更改。 例如，由于本地时区的差异，双重转换可能导致 Dynamics 365 Human Resources 和 Dynamics 365 Finance 之间的员工开始日期不同。 将导入作业设置为 UTC 可以解决此问题。
 
-1. 在 Dynamics 365 Finance and Operations 中，选择 **数据管理**。
+1. 在 Dynamics 365 财务和运营中，选择 **数据管理**。
 
 2. 选择 **导入项目**，然后选择项目。
 
@@ -41,3 +41,4 @@ ms.locfileid: "7403833"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

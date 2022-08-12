@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015328"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178494"
 ---
 # <a name="provision-human-resources"></a>预配 Human Resources
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**适用于：** 独立基础结构中的 Human Resources_ 
 
-
+> [!NOTE]
+> 从 2022 年 6 月开始，Human Resources 环境只能部署在财务和运营应用基础结构中。 有关详细信息，请参阅[在财务和运营基础结构中预配 Human Resources](hr-admin-setup-provision-fo.md)。
 
 本文介绍为 Microsoft Dynamics 365 Human Resources 配置新生产环境的流程。 
 
@@ -40,12 +41,12 @@ ms.locfileid: "9015328"
 ## <a name="provision-a-human-resources-trial-environment"></a>预配 Human Resources 试用环境
 
 >[!NOTE]
-> 从 2022 年 4 月开始，Human Resources 试用环境将无法在独立应用程序中使用。 有兴趣评估财务和运营应用中的 Human Resources 功能的潜在客户可以使用免费的 30 天试用以及演示数据进行评估。 Dynamics 365 Finance 将包括通过合并独立应用程序为 Finance 基础结构引入的 Human Resources 功能。 有关详细信息，请参阅[合并 HR 产品/服务为客户汇聚能力](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers)。有关 Dynamics 365 Finance 试用的详细信息，请参阅分步[指南](../fin-ops-core/fin-ops/get-started/before-you-buy.md)。 
+> 从 2022 年 4 月开始，Human Resources 试用环境将无法在独立应用程序中使用。 有兴趣评估财务和运营应用中的 Human Resources 功能的潜在客户可以使用免费的 30 天试用以及演示数据进行评估。 Dynamics 365 Finance 将包括通过合并独立应用程序为 Finance 基础结构引入的 Human Resources 功能。 有关详细信息，请参阅[合并 HR 产品/服务为客户汇聚能力](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers)。 有关 Dynamics 365 Finance 试用版的详细信息，请参阅分步[指南](../fin-ops-core/fin-ops/get-started/before-you-buy.md)。 
 
 
 在预配您的第一个沙盒或生产环境之前，可能需要预配 [Human Resources 试用环境](https://go.microsoft.com/fwlink/p/?LinkId=2115962)来验证 Human Resources 功能。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 尽管试用环境归其请求用户所有，仍然可以通过 Human Resources 的系统管理体验邀请其他用户。 
 
-试用环境为尚未访问 Human Resources 环境的个人提供评估人力资源功能的能力。 如果您在预配试用环境并且经过身份验证的用户已经有权访问一个或多个现有 Human Resources 环境，该用户将被重定向到现有环境或环境列表。
+试用环境帮助为尚未访问 Human Resources 环境的个人评估人力资源功能。 如果您在预配试用环境并且经过身份验证的用户已经有权访问一个或多个现有 Human Resources 环境，该用户将被重定向到现有环境或环境列表。
 
 不应将试用环境用作生产环境。 它们仅限于 30 天的试用期。 当试用期到期时，该环境以及其中的所有数据都将删除且不可恢复。 该环境无法转换为沙盒或生产环境。 现有环境过期后，可以注册新试用环境。
 
@@ -56,14 +57,14 @@ ms.locfileid: "9015328"
 
 ## <a name="plan-human-resources-environments"></a>计划 Human Resources 环境
 
-在创建第一个 Human Resources 环境之前，您应该仔细计划项目的环境需求。 Human Resources 的基本订阅包括两个环境：生产环境和沙盒环境。 根据项目的复杂性，您可能需要购买其他沙盒环境来支持项目活动。 
+在创建第一个 Human Resources 环境之前，您应该仔细计划项目的环境需求。 Human Resources 的基本订阅包括两个环境：生产环境和沙盒环境。 根据项目的复杂性，可能需要购买其他沙盒环境来支持项目活动。 
 
 其他环境的注意事项：
 
-- **数据迁移**：您可能需要考虑额外增加一个环境来用于数据迁移活动，以允许将沙盒环境用于整个项目的测试。 多增加一个环境，当测试和配置活动在不同环境中同时进行时，可以让数据迁移活动继续进行。
-- **集成**：您可能需要考虑额外增加一个环境来用于配置和测试集成。 这可能包括本地集成，如 Ceridian Dayforce 或 LinkedIn Talent Hub 集成，或自定义集成，如工资单、申请人跟踪系统或福利系统和提供商。
+- **数据迁移**：数据迁移活动允许沙盒环境用于整个项目的测试。 多增加一个环境，当测试和配置活动在不同环境中同时进行时，可以让数据迁移活动继续进行。
+- **集成**：配置和测试集成，这些集成可能包括本地集成，如 Ceridian Dayforce 或自定义集成。
 - **培训**：您可能需要一个单独的环境，并在环境中配置一组培训数据来对员工进行新系统使用方面的培训。 
-- **多阶段项目**：您可能需要一个额外的环境来支持项目初始投入使用后计划的项目阶段内的配置、数据迁移、测试或其他活动。
+- **多阶段项目**：支持项目初始投入使用后计划的项目阶段内的配置、数据迁移、测试或其他活动。
 
  > [!IMPORTANT]
  > 在您考虑您的环境时，我们建议您执行以下操作：
@@ -111,7 +112,7 @@ ms.locfileid: "9015328"
 
 6. 选择 **是** 同意条款并开始部署。
 
-   您的新环境将出现在左侧导航窗格的环境列表中。 不过，在部署状态更新为 **已部署** 前，您无法开始使用此环境。 此过程通常需要几分钟。 如果配置过程失败，您必须与支持人员联系。
+   您的新环境将出现在左侧导航窗格的环境列表中。 不过，在部署状态为 **已部署** 前，您无法开始使用此环境。 此过程通常需要几分钟。 如果配置过程失败，请与支持人员联系。
 
 7. 选择 **登录 Human Resources** 来使用您的新环境。
 
@@ -140,7 +141,7 @@ ms.locfileid: "9015328"
    
     - **不支持的地理区域** - 环境必须位于受支持的地理区域。 有关详细信息，请参阅[支持的地理区域](hr-admin-setup-provision.md#supported-geographies)。
 
-6. 只有为环境选择了 **启用 Dynamics 365 应用** 选项，才能使用将 Human Resources 数据与 Power Apps 环境集成的双重写入功能。 有关双重写入的详细信息，请参阅[双重写入主页](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)。
+6. 只有为环境选择了 **启用 Dynamics 365 应用** 选项，才能使用将 Human Resources 数据与 Power Apps 环境集成的双重写入功能。 有关详细信息，请参阅[双重写入主页](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)。
 
     > [!NOTE]
     > 在创建 Power Apps 环境时，必须选择 **启用 Dynamics 365 应用** 选项。 如果在预配时未选择此选项，您将无法使用双重写入在 Dynamics 365 Human Resources 和 Power Apps 环境之间集成数据，或在环境中安装 Dynamics 365 应用，如 Dynamics 365 Sales 和 Field Service。 此选项不可逆。 
@@ -175,3 +176,4 @@ Human Resources 环境的数据始终会包含在创建该环境的 Azure 地理
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

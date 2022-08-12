@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 11a4b1667e3d97b651b8019c9dbe577ab30aed67
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868689"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068190"
 ---
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 
@@ -26,9 +26,9 @@ ms.locfileid: "8868689"
 
 本文提供有关 **我的团队** 移动工作区的信息。 此工作区允许经理查看其直接下属和扩展职员。 他们还可以向其报告链中的人员发送表扬。
 
-此工作区应该与 Finance and Operations mobile 应用程序结合使用。
+此工作区应该与财务和运营移动应用程序结合使用。
 
-## <a name="overview"></a>概览 
+## <a name="overview"></a>概述 
 **我的团队** 移动工作区让经理能够执行以下任务：
 
 - 显示经理的直接下属的列表。
@@ -50,12 +50,12 @@ ms.locfileid: "8868689"
 <tbody>
 <tr class="odd">
 <td>必须在您的组织中部署以下产品之一：
-<ul><li>Finance and Operations 应用程序</li>
+<ul><li>财务和运营应用</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>系统管理员</td>
-<td>如果您的组织中没有部署 Finance and Operations 应用程序，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果组织中尚未部署 Human Resources，系统管理员可从 <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources 网页</a>访问试用版。
+<td>如果您的组织中没有部署财务和运营应用，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果组织中尚未部署 Human Resources，系统管理员可从 <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources 网页</a>访问试用版。
 </td>
 </tr>
 <tr class="even">
@@ -68,7 +68,7 @@ ms.locfileid: "8868689"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装 Finance and Operations 移动应用程序：
+下载并安装财务和运营移动应用程序：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -99,3 +99,4 @@ ms.locfileid: "8868689"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

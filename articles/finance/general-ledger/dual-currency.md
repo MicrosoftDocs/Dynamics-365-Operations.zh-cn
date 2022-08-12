@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19337b2651830d79543361d525bf24c4f794e825
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906346"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065737"
 ---
 # <a name="dual-currency"></a>双货币
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月）中引入的功能支持重新确定申报币种的用途，可以将其用作第二记帐币种。 此功能称为 *双货币*。 双货币的更改不能通过 Configuration Key 或参数关闭。 由于申报币种用作第二记帐币种，申报币种在过帐逻辑中的计算方法已更改。
+Microsoft Dynamics 365 Finance 版本 8.1（2018 年 10 月）中引入的功能支持重新确定申报币种的用途，可以将其用作第二会计币种。 此功能称为 *双货币*。 双货币的更改不能通过 Configuration Key 或参数关闭。 由于申报币种用作第二记帐币种，申报币种在过帐逻辑中的计算方法已更改。
 
 此外，已增强多个模块，以在不同流程中跟踪、报告和使用申报币种。 受影响的模块包括：
 
@@ -209,3 +209,4 @@ Dynamics 365 Finance 版本 10.0.5（2019 年 10 月）中将引入的功能可�
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

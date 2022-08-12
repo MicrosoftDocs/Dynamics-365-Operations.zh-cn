@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aacb605374d99a3c0bad3438c89e33a04a4d7faf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 61c457abf87ce2da554ddb1472512416159c4dca
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897768"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068415"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Dynamics 365 Human Resources（2021 年 6 月 22 日）中的新增功能或更改
 
@@ -99,3 +99,4 @@ ms.locfileid: "8897768"
 [管理功能](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

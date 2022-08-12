@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851942"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108847"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>跟踪 ER 格式的执行情况以解决性能问题
 
@@ -98,7 +98,7 @@ ms.locfileid: "8851942"
 
 假设您已经完成了 ER 解决方案第一版的设计。 现在希望在实例中进行测试并分析执行性能。
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>将 ER 配置从 RCS 导入 Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>将 ER 配置从 RCS 导入财务和运营
 
 1. 登录您的应用程序实例。
 2. 对于本教程，您将把配置从 RCS 实例（即您设计 ER 组件的位置）导入实例（即测试并最终使用这些实例的位置）。 因此，您必须确保已准备好所有必需的项目。 有关说明，请参阅[从监管配置服务 (RCS) 导入电子申报 (ER) 配置](rcs-download-configurations.md)过程。
@@ -305,7 +305,7 @@ ms.locfileid: "8851942"
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>将修改后的 ER 模型映射配置从 RCS 导入应用程序中
 
-重复本文前面的 [将 ER 配置从 RCS 导入 Finance and Operations](#import-configuration) 一节中的步骤导入 **性能跟踪映射** 配置版本 1.2。
+重复本文前面的 [将 ER 配置从 RCS 导入财务和运营](#import-configuration) 一节中的步骤导入 **性能跟踪映射** 配置版本 1.2。
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>运行修改后的 ER 解决方案以跟踪执行情况
 
@@ -363,7 +363,7 @@ ms.locfileid: "8851942"
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>使用外部工具查看其中包含数据库查询的执行跟踪
 
-因为已改进了 ER 框架，所以以 PerfView 格式生成的绩效跟踪现在提供更多有关 ER 格式执行的详细信息。 在 Microsoft Dynamics 365 for Finance and Operations 版本 10.0.4（2019 年 7 月）中，此跟踪中也可以包含对执行的 SQL 查询的详细信息。
+因为已改进了 ER 框架，所以以 PerfView 格式生成的绩效跟踪现在提供更多有关 ER 格式执行的详细信息。 在 Microsoft Dynamics 365 Finance 版本 10.0.4（2019 年 7 月）中，此跟踪中也可以包含对执行的 SQL 查询的详细信息。
 
 ### <a name="configure-user-parameters"></a>配置用户参数
 
@@ -392,3 +392,4 @@ ms.locfileid: "8851942"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

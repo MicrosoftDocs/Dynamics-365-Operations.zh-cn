@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906788"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109073"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子报告 (ER) 配置生命周期
 
@@ -73,7 +73,7 @@ ms.locfileid: "8906788"
 | 应付帐款付款员            | 使用特定业务流程中的 ER 项目。                | 例如，允许基于为特定付款方式配置的 ER 格式为处理发票生成电子付款消息的 **应付帐款付款员**。 |
 
 ## <a name="er-configuration-development-lifecycle"></a>ER 配置开发生命周期
-出于以下与 ER 相关的原因，我们建议您在开发环境中将 ER 配置设计为单独的 Finance and Operations 实例：
+出于以下与 ER 相关的原因，我们建议您在开发环境中将 ER 配置设计为单独的财务和运营实例：
 
 - 担当 **电子申报开发人员** 角色或 **电子申报功能顾问** 角色的用户可编辑配置，并运行配置以进行测试。 此情况可能会导致调用类和表的方法，可能对业务数据和实例的性能产生负面影响。
 - 在调用作为 ER 配置的 ER 数据源的类和表的方法时，不受入口点和记录的公司内容的限制。 因此，担当 **电子申报开发人员** 角色或 **电子申报功能顾问** 角色的用户可访问业务敏感数据。
@@ -113,3 +113,4 @@ ms.locfileid: "8906788"
 [定义其他组件上的电子报告配置的依赖关系](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

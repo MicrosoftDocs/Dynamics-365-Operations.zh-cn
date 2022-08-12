@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83e20d9fc655a474a11521ec61d0b64d30603181
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884655"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169122"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>根据 URL 参数创建动态电子商务页面
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本文介绍如何基于 URL 参数设置可以提供动态内容的 Microsoft Dynamics 365 Commerce 电子商务页面。
 

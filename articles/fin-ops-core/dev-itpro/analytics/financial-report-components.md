@@ -6,21 +6,22 @@ ms.date: 10/27/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 59071
-ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8512559ea33f16f3558b277999cc86240ee8277d1b3b0d6bf2aecba32df8e09f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "59071"
+ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
+ms.search.form: FinancialReports
+ms.openlocfilehash: 5ad13cfdc77e5e6cec1ffb6beac9a2c84088773e
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761432"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205991"
 ---
 # <a name="financial-report-components"></a>财务报表组件
 

@@ -6,19 +6,19 @@ ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 6cb418c331f0ad260f0c370b87404028e5a953f1
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892383"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205817"
 ---
 # <a name="data-mart-resets-faq"></a>数据市场重置常见问题解答
 

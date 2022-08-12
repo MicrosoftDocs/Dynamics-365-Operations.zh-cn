@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c280eef995664c640e382817dda9d6e1cde154c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6866956efcc76a7da6c3aa5fb36058de78d5472e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871486"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111289"
 ---
 # <a name="troubleshoot-issues-related-to-solution-awareness"></a>解决与解决方案意识相关的问题
 

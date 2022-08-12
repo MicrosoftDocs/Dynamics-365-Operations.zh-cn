@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869248"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109571"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子报告 (ER) 概览
 
@@ -66,7 +66,7 @@ ER 目前支持 TEXT、XML、JSON、PDF、Microsoft Word、Microsoft Excel 和 O
 
 ER 引擎具有以下功能：
 
-- 它表示不同域中的电子申报的单一共享工具，并替换超过 20 个用于执行某种 Finance and Operations 电子申报的不同引擎。
+- 它表示不同域中的电子申报的单一共享工具，并替换超过 20 个用于执行某种财务和运营电子申报的不同引擎。
 - 它让报表的格式与当前实施隔离。 换句话说，该格式适用于不同版本。
 - 它支持创建基于原始格式的自定义格式。 它还包括当原始格式发生更改时自动升级自定义格式的功能，因为引入了本地化/自定义要求。
 - 它成为支持电子申报中的本地化要求的主要标准工具，针对 Microsoft 以及 Microsoft 合作伙伴。
@@ -126,7 +126,7 @@ ER 配置是特定 ER 组件的包装。 该组件可以是数据模型组件或
 
 #### <a name="provider"></a><a name="Provider"></a>提供程序
 
-ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方的标识符。 ER 可以管理配置提供商的列表。 作为 Finance and Operations 解决方案的一部分为电子单据发布的格式配置被标记为由配置提供商 **Microsoft** 所有。
+ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方的标识符。 ER 可以管理配置提供商的列表。 作为财务和运营解决方案的一部分为电子单据发布的格式配置被标记为由配置提供商 **Microsoft** 所有。
 
 要了解如何登记新的 ER 提供商，可播放任务指南，**ER 创建配置提供商并将其标记为有效**（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
@@ -143,7 +143,7 @@ ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型：
 
 **LCS 共享库** 存储库提供对 Lifecycle Services (LCS) 中共享资产库内的配置列表的访问。 只能为 Microsoft 提供程序注册这种类型的 ER 存储库。 可将最新版本的 ER 配置从 LCS 共享资产库导入到当前实例中。
 
-**LCS 项目** 存储库允许您访问在存储库登记时选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前实例将共享配置上载到特定 **LCS 项目** 存储库。 您还可以从 **LCS 项目** 存储库将配置导入到当前的 Finance and Operations 应用实例。
+**LCS 项目** 存储库允许您访问在存储库登记时选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前实例将共享配置上载到特定 **LCS 项目** 存储库。 您还可以从 **LCS 项目** 存储库将配置导入到当前的财务和运营应用实例。
 
 **文件系统** 存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 您可以从 **文件系统** 存储库将配置导入到当前实例。 
 
@@ -270,3 +270,4 @@ Finance 的 ER 配置列表会不断更新。 打开[全局存储库](er-downloa
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

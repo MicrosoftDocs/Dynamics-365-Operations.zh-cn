@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909603"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067842"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>波次处理的仓库参数
 
@@ -52,7 +52,7 @@ ms.locfileid: "8909603"
 > [!NOTE]
 > 在用于处理波次的波次模板上，可以指定设置自动波次处理。 如果为批处理作业设置计划，则应将时间与设置协调以进行波次模板中的自动化。 有关详细信息，请参阅[创建波次模板](wave-templates.md)。
 >
-> 如果使用 *运输管理* 和 *高级仓库管理*，您可以指定是否在处理波次时合并装载。 例如，当若干小的装载同时装运时，这很有用。 若要在处理波次时合并装载，请在 **装载** 选项卡上，选中 **在波次处理期间合并装载** 复选框。</P>
+> 如果使用 *运输管理* 和 *仓库管理流程 (WMS)*，您可以指定是否在处理波次时合并装载。 例如，当若干小的装载同时装运时，这很有用。 若要在处理波次时合并装载，请在 **装载** 选项卡上，选中 **在波次处理期间合并装载** 复选框。</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>设置生产波次的完整或部分预留
 

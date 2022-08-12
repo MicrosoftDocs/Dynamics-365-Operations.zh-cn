@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 3948fff15108568df514406ad443d4f538653e62
+ms.sourcegitcommit: 1af2b01aea6b5a4d88ee3fae6faa0eaf1976c5dd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027275"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9146477"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
@@ -271,7 +271,7 @@ ms.locfileid: "9027275"
 | 1218 | 强制解锁外围设备                           | 系统内部使用此操作来解锁 POS 外设。                                                                                                                                           | 不适用 | 不适用     | 不适用 | 不适用    | 否              |
 | 1219 | 在 POS 中打开 URL                                   | 在 POS 中打开管理员配置的 URL。                                                                                                                                                                           | 是            | 是                | 是            | 是               | 否              |
 | 1220 | 管理金库                                       | 管理不同收银机的金库。                                                                                                                                                                       | 是            | 是                | 是            | 是               | 否              |
-| 1221 | 暂停的交易无效                       | 暂停的交易无效。                                                                                                                                                                               | 是            | 是                | 是            | 是               | 否              |
+| 1221 | 暂停的交易无效                       | 暂停的交易无效。                                                                                                                                                                               | 是            | 否                | 否            | 是               | 否              |
 | 1300 | 跳过会计登记                          | 跳过会计登记。                                                                                                                                                                                       | 否            | 否                | 否            | 是               | 否             |
 | 1301 | 将会计事件标记为已登记                      |  将会计事件标记为已登记。                                                                                                                                                                                  | 否            | 否                | 否            | 是               | 否             |
 | 1302 | 完成会计登记流程              | 完成会计登记流程。                                                                                                                                                                           | 否            | 否                | 是            | 是               | 是             |

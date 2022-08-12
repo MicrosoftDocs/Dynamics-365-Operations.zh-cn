@@ -7,21 +7,21 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
-ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
-ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom:
+- "69161"
+- intro-internal
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984900"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206716"
 ---
 # <a name="document-printing-overview"></a>文档打印概览
 
@@ -54,7 +54,7 @@ ms.locfileid: "7984900"
 - **场景 2** 使用客户端应用程序和 Microsoft 365 服务。
 - **场景 3** 需要客户端应用程序支持和 Microsoft Azure 中托管的服务支持。
 
-除了部署到 Azure 订阅的平台，Finance and Operations 应用程序还为客户提供集成的第一方 Azure 应用程序，帮助客户轻松使用域托管的设备打印文档。
+除了部署到 Azure 订阅的平台，财务和运营应用程序还为客户提供集成的第一方 Azure 应用程序，帮助客户轻松使用域托管的设备打印文档。
 
 ## <a name="service-overview"></a>服务概览
 托管应用程序生成的文档在联网设备上等待打印时，存储在 Azure blob 存储中。 [安装文档路线选择代理以启用网络打印](install-document-routing-agent.md)使用 Azure 身份验证建立通往 Azure 服务的安全通道。

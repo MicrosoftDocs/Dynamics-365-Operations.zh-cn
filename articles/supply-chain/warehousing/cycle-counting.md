@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: da7aef93cf994c40410598ab9c4ff2b21f4750e7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902213"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065919"
 ---
 # <a name="cycle-counting"></a>周期盘点
 
@@ -52,11 +52,11 @@ ms.locfileid: "7902213"
 <tbody>
 <tr class="odd">
 <td>物料</td>
-<td>物料必须在仓库管理流程中启用。</td>
+<td>物料必须在仓库管理流程中启用 (WMS)。</td>
 </tr>
 <tr class="even">
 <td>仓库</td>
-<td>仓库必须在仓库管理流程中启用。 要在仓库管理流程中启用仓库，请在<strong>仓库</strong>页中，选择仓库，然后选中<strong>使用仓库管理流程</strong>选项。 若要在周期盘点期间使工作人员能够移动栈板，在<strong>仓库管理</strong>快速选项卡上，选中<strong>允许在周期盘点期间移动托盘</strong>选项。</td>
+<td>仓库必须在仓库管理流程中启用 (WMS)。 要在 WMS 中启用仓库，请在<strong>仓库</strong>页中，选择仓库，然后选中<strong>使用仓库管理流程</strong>选项。 若要在周期盘点期间使工作人员能够移动栈板，在<strong>仓库管理</strong>快速选项卡上，选中<strong>允许在周期盘点期间移动托盘</strong>选项。</td>
 </tr>
 <tr class="odd">
 <td>工作池</td>

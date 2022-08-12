@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860155"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109453"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -209,7 +209,7 @@ ms.locfileid: "8860155"
 ## <a name="job-history-clean-up-and-archival"></a>作业历史记录清理和存档 
 作业历史记录清理和存档功能取代了以前版本的清理功能。 本节将解释这些新功能。
 
-清理功能的主要变化之一是使用系统批处理作业来清理历史记录。 使用系统批处理作业允许 Finance and Operations 应用自动安排清理批处理作业，并在系统准备就绪时立即运行。 不再需要手动安排批处理作业。 在此默认执行模式下，批处理作业将从午夜开始每小时执行一次，并将保留最近 7 天的执行历史记录。 清除的历史记录将存档，以备将来检索。 从版本 10.0.20 开始，此功能始终开启。
+清理功能的主要变化之一是使用系统批处理作业来清理历史记录。 使用系统批处理作业允许财务和运营应用自动安排清理批处理作业，并在系统准备就绪时立即运行。 不再需要手动安排批处理作业。 在此默认执行模式下，批处理作业将从午夜开始每小时执行一次，并将保留最近 7 天的执行历史记录。 清除的历史记录将存档，以备将来检索。 从版本 10.0.20 开始，此功能始终开启。
 
 清理过程的第二个变化是所清除执行历史的存档。 清理作业会将已删除的记录归档到 DIXF 用于常规集成的 Blob 存储中。 归档的文件将采用 DIXF 软件包格式，并且在 blob 中保留 7 天，在此期间可供下载。 可在参数中将归档文件的 7 天这一默认寿命更改为最大 90 天。
 
@@ -235,3 +235,4 @@ ms.locfileid: "8860155"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

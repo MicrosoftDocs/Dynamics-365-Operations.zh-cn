@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dafd51a46b19f3709963ffc12b3c8c77b6c809ac
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856097"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070430"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>使用仓库配置模板设置仓库
 
@@ -90,7 +90,7 @@ ms.locfileid: "8856097"
 
 **查看执行** 日志提供与导入的各个数据实体有关的详细信息。 您可以使用暂存数据视图快速定位到目标数据。 这样一来，您可以看到导入的数据在应用程序中的相关页面上的外观。 当您使用默认数据模板时，各数据实体的导入顺序采用预定义的方式，以帮助保证先导入所有依赖项数据。 如果自定义数据实体是项目的一部分，必须确保定义正确的顺序。 有关详细信息，请参阅[配置数据模板](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)。
 
-若要了解有关如何在同一个实例内使用仓库模板将仓库的配置从一家公司复制到新公司的详细信息，请观看 YouTube 上关于[如何使用仓库模板复制 Finance and Operations 的配置](https://www.youtube.com/watch?v=K2WIfFlqJYs)的 3 分钟视频。
+若要了解有关如何在同一个实例内使用仓库模板将仓库的配置从一家公司复制到新公司的详细信息，请观看 YouTube 上关于[如何使用仓库模板复制财务和运营的配置](https://www.youtube.com/watch?v=K2WIfFlqJYs)的 3 分钟视频。
 
 ## <a name="related-article"></a>相关文章
 

@@ -1,6 +1,6 @@
 ---
 title: 集成税务
-description: 本文介绍 Finance and Operations 与 Dataverse 之间的税务数据集成。
+description: 本文介绍财务和运营与 Dataverse 之间的税务数据集成。
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 8864a9567d57739aa72fa1859f5cfce6df33e8f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29d8b2079b5d1cd70f14e096780f83a4a38d4b63
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864534"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111527"
 ---
 # <a name="integrated-tax"></a>集成税务
 
@@ -28,7 +28,7 @@ ms.locfileid: "8864534"
 
 税务数据包括表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
-| Finance and Operations 应用 | 客户互动应用 | Description |
+| 财务和运营应用 | 客户互动应用 | Description |
 |-----------------------------|-----------------------------------|-------------|
 [物料销售税组](mapping-reference.md#196) | msdyn_taxitemgroups | |
 [销售税主管机构](mapping-reference.md#193) | msdyn_taxauthorities | |
@@ -39,3 +39,4 @@ ms.locfileid: "8864534"
 [预缴税金组](mapping-reference.md#211) | msdyn_withholdingtaxgroups | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4e765c6d56e0ab6d209c27a70fd4b7e52273c103
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934675"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069871"
 ---
 # <a name="electronic-messaging"></a>电子消息
 
@@ -76,7 +76,7 @@ EM 功能支持以下场景：
 |-------------|--------------|------------------------|
 | 西班牙       | [立即提供增值税信息 (Suministro Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | 匈牙利     | [在线开票系统](../localizations/emea-hun-online-invoicing.md) | |
-| 英国 | [税数字化 (MTD) – 增值税对帐单提交](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations：英国数字税 - Dynamics 365 中的增值税申报](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| 英国 | [税数字化 (MTD) – 增值税对帐单提交](../localizations/emea-gbr-mtd-vat-integration.md) | [财务和运营：英国数字税 - Dynamics 365 中的增值税申报](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | 立陶宛   | [i.SAF 报告](../localizations/emea-ltu-isaf.md) | |
 | 波兰      | [增值税申报与登记（JPK_V7M、VDEK）](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance：SAF/JPK 增值税审计登记](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | 荷兰 | [荷兰增值税申报](../localizations/emea-nl-vat-declaration-netherlands.md) | |
@@ -97,4 +97,5 @@ EM 功能支持以下场景：
 | 瑞士 | [增值税申报（瑞士）](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
 

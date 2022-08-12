@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857364"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070460"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>从作业卡设备报告完工入库
 
@@ -50,7 +50,7 @@ ms.locfileid: "8857364"
 
 ## <a name="report-batch-controlled-items-as-finished"></a>将批次控制物料报告为完工入库
 
-作业卡设备支持三种方案来报告批物料。 这些方案既适用于高级仓库流程支持的物料，也适用于高级仓库流程不支持的物料。
+作业卡设备支持三种方案来报告批物料。 这些方案既适用于仓库管理流程 (WMS) 支持的物料，也适用于 WMS 不支持的物料。
 
 - **手动分配的批号** - 工作人员输入自定义批号。 此批号可能来自系统未知的外部来源。
 - **预定义的批号** - 工作人员在生产订单下达到作业卡设备之前，系统自动生成的批号列表中选择一个批号。
@@ -129,7 +129,7 @@ ms.locfileid: "8857364"
 
 ## <a name="report-serial-controlled-items-as-finished"></a>将序列控制物料报告为完工入库
 
-作业卡设备支持三种方案来报告序列控制物料。 这些方案既适用于高级仓库流程支持的物料，也适用于高级仓库流程不支持的物料。
+作业卡设备支持三种方案来报告序列控制物料。 这些方案既适用于仓库管理流程 (WMS) 支持的物料，也适用于 WMS 不支持的物料。
 
 - **手动分配的序列号** - 工作人员输入自定义序列号。 此序列号可能来自系统未知的外部来源。
 - **预定义序列号** - 工作人员在生产订单下达到作业卡设备之前，系统自动生成的序列号列表中选择一个序列号。
@@ -212,7 +212,7 @@ ms.locfileid: "8857364"
 
 ## <a name="report-as-finished-to-a-license-plate"></a>报告为已完工入库到牌照
 
-高级仓库流程可以使用牌照维度来跟踪为此目的设置的仓库位置的库存。 在这种情况下，工作人员报告完工入库数量时需要牌照编号。
+仓库管理流程 (WMS) 可以使用牌照维度来跟踪为此目的设置的仓库位置的库存。 在这种情况下，工作人员报告完工入库数量时需要牌照编号。
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>启用牌照报告和标签打印
 

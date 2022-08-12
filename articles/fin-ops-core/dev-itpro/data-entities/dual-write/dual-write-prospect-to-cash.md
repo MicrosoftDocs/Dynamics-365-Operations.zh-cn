@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860100"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112103"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 
@@ -29,7 +29,7 @@ ms.locfileid: "8860100"
 有关客户和联系人集成的信息，请参阅[集成客户主数据](customer-mapping.md)。 有关产品集成的信息，请参阅[统一的产品体验](product-mapping.md)。
 
 > [!NOTE]
-> 在 Dynamics 365 Sales 中，目标客户和客户都引用 **客户** 表中的记录，表中的 **RelationshipType** 列为 **目标客户** 或 **客户**。 如果您的业务逻辑包括 **客户** 资格流程，流程中创建了 **客户** 记录，并首先作为目标客户授予其资格，然后作为客户，那么该记录仅在为客户 (`RelationshipType=Customer`) 时同步到财务和运营应用。 如果您希望 **客户** 行作为目标客户同步，那么您需要一个自定义映射来集成目标客户数据。
+> 在 Dynamics 365 Sales 中，目标客户和客户都引用 **客户** 表中的记录，表中的 **RelationshipType** 列为 **目标客户** 或 **客户**。 如果您的业务逻辑包括 **客户** 资格流程，流程中创建了 **客户** 记录，并首先作为潜在客户授予其资格，然后作为客户，那么该记录仅在为客户 (`RelationshipType=Customer`) 时同步到财务和运营应用。 如果您希望 **客户** 行作为目标客户同步，那么您需要一个自定义映射来集成目标客户数据。
 
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 
@@ -111,7 +111,7 @@ ms.locfileid: "8860100"
 
 目标客户到现金中包括核心表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
-| Finance and Operations 应用 | 客户互动应用 | Description |
+| 财务和运营应用 | 客户互动应用 | Description |
 |-----------------------------|-----------------------------------|-------------|
 [所有产品](mapping-reference.md#138) | msdyn_globalproducts | |
 [客户 V3](mapping-reference.md#101) | 帐户 | |
@@ -135,3 +135,4 @@ ms.locfileid: "8860100"
 - 必须为主数据（例如，客户和供应商）设置财务维度。 将客户被添加到报价单或销售订单后，与客户记录关联的财务维度会自动流向订单。 当前，双写入不包括主数据的财务维度数据。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

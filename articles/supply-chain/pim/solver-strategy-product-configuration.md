@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b0b53da17bd106be60966d856d29d81a1e57f91
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852351"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065508"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>产品配置的求解器策略
 
@@ -29,7 +29,7 @@ ms.locfileid: "8852351"
 
 本文介绍如何使用求解器策略改进产品配置的性能。
 
-求解器这一概念最初是在 Microsoft Dynamics AX 2012 R2 的累积更新 7 (CU7) 中引入的。 并在 Microsoft Dynamics AX 2012 R3 的累积更新 8 (CU8) 和 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3 中得以延伸。
+求解器这一概念最初是在 Microsoft Dynamics AX 2012 R2 的累积更新 7 (CU7) 中引入的。 并在 Microsoft Dynamics AX 2012 R3 的累积更新 8 (CU8) 和财务和运营应用 Enterprise edition 7.3 中得以延伸。
 
 求解器策略概念现在包含以下策略：
 

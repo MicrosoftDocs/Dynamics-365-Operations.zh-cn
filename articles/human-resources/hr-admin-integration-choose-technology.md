@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2c542684642e4f6eda0f862623889a68f85b2b20
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887781"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068869"
 ---
 # <a name="choose-a-data-integration-technology"></a>选择数据集成技术
 
@@ -153,3 +153,4 @@ Excel 加载项适用于业务领域专家的专门数据导入/导出。 对于
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

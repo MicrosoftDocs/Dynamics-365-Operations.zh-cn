@@ -1,7 +1,7 @@
 ---
 title: 现金流量预测
 description: 本文提供现金流量预测流程的概览。 它还介绍了现金流量预测如何与系统中的其他模块集成。
-author: panolte
+author: angelad116
 ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c811afb0129b25a257bdc3519c511d70ecb44714
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d76e47fc1456dfab7606f337f070a149b0c8e586
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904663"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151931"
 ---
 # <a name="cash-flow-forecasting"></a>现金流量预测
 

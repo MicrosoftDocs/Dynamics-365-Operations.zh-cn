@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934696"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108320"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>支持对计算字段类型的 ER 数据源执行参数化调用
 
@@ -36,9 +36,9 @@ ms.locfileid: "8934696"
     - 电子申报功能顾问
     - 系统管理员
 
-- 对于下列角色之一，访问已为与 Finance and Operations 相同的租户配置的 Regulatory Configuration Services (RCS)：
+- 对于下列角色之一，访问已为与财务和运营相同的租户配置的 Regulatory Configuration Services (RCS)：
 
-    - 电子申报开发人员
+    - 电子报告开发人员
     - 电子申报功能顾问
     - 系统管理员
 
@@ -84,7 +84,7 @@ ms.locfileid: "8934696"
             - 税金值的和。
             - 采用的税率的最小值。
 
-    此配置中的模型映射实施为此模型创建并在 Finance and Operations 中执行的任何 ER 格式的基本数据模型。 结果，**Tax** 和 **Gr** 数据源的内容将对抽象数据源之类 ER 格式公开。
+    此配置中的模型映射实施为此模型创建并在财务和运营中执行的任何 ER 格式的基本数据模型。 结果，**Tax** 和 **Gr** 数据源的内容将对抽象数据源之类 ER 格式公开。
 
     ![显示 Tax 和 Gr 数据源的模型映射设计器页面。](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ ms.locfileid: "8934696"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

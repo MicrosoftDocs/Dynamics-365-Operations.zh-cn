@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845404"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125141"
 ---
 # <a name="saved-views"></a>已保存的视图
 
@@ -215,7 +215,7 @@ ms.locfileid: "8845404"
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>如何启用我的环境中的保存的视图？
 
 > [!NOTE]
-> **已保存视图** 功能需要启用财务和运营中的个性化设置系统。 如果为整个环境关闭了个性化，即使执行下面的步骤，也将禁用视图。 
+> **已保存视图** 功能需要启用财务和运营应用中的个性化设置系统。 如果为整个环境关闭了个性化，即使执行下面的步骤，也将禁用视图。 
 
 您可以在任何环境中通过“功能管理”打开和关闭 **已保存视图** 功能。 打开后，将在所有后续用户会话中启用已保存视图。
 
@@ -255,3 +255,4 @@ ms.locfileid: "8845404"
 - **版本 10.0.21 或更高版本：** 如果 **改进了对已保存视图的法人支持** 功能已启用，则视图选择器将只显示指定法人的视图。 出现此行为是因为该功能允许将视图（包括个人视图）链接到特定法人。
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

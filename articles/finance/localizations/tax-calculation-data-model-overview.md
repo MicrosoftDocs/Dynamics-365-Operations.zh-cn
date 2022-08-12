@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859686"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068839"
 ---
 # <a name="tax-calculation-data-model"></a>税款计算数据模型
 
 本文介绍如何在税款计算交易记录中确定税务数据模型中的字段值。
 
-*税务数据模型* 由税务计算所需字段构成。 Microsoft 提供 *税务计算数据模型*，该模型在 Finance and Operations 应用中添加交易单据的标题字段和子项字段。 税务计算数据模型中定义的字段是税务计算功能配置的配置中的适用性规则表可用列。
+*税务数据模型* 由税务计算所需字段构成。 Microsoft 提供 *税务计算数据模型*，该模型在财务和运营应用中添加交易单据的标题字段和子项字段。 税务计算数据模型中定义的字段是税务计算功能配置的配置中的适用性规则表可用列。
 
 > [!NOTE] 
 > 该数据模型中定义的某些节点（如 **记录 ID** 和 **表 ID**）针对技术用途。 它们不是税务计算功能配置中的可用列。
@@ -54,7 +54,7 @@ ms.locfileid: "8859686"
 
     [![管理列。](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-将把此税务计算数据模型与 Finance and Operations 应用集成。 在与税务计算有关的每个交易记录中，将收集在适用性规则表中定义的字段的值，然后发送到税务计算服务进行计算。 在版本 40.46 中，以下交易记录类型有 57 种预定义的数据模型：采购订单、销售订单、转移单、采购申请、询价和销售报价单。
+将把此税务计算数据模型与财务和运营应用集成。 在与税务计算有关的每个交易记录中，将收集在适用性规则表中定义的字段的值，然后发送到税务计算服务进行计算。 在版本 40.46 中，以下交易记录类型有 57 种预定义的数据模型：采购订单、销售订单、转移单、采购申请、询价和销售报价单。
 
 ## <a name="version-updates-and-restrictions"></a>版本更新和限制
 
@@ -134,3 +134,4 @@ ms.locfileid: "8859686"
 | 单位                          | <ul><li>**销售订单：** 单位</li><li>**采购订单：** 单位</li><li>**转移单 – 发货：** 单位</li><li>**转移单 – 收货：** 单位</li><li>**采购申请：** 单位</li><li>**询价：** 单位</li><li>**销售报价单：** 单位</li></ul> |
 | 款式编号                | <ul><li>**销售订单：** 变型编号</li><li>**采购订单：** 变型编号</li><li>**销售报价单：** 变型编号</li></ul> |
 | 仓库                     | <ul><li>**销售订单：**<ol><li>行 &gt; 仓库</li><li>产品 &gt; 仓库</li></ol></li><li>**采购订单：**<ol><li>行 &gt; 仓库</li><li>产品 &gt; 仓库</li></ol></li><li>**转移单 - 发货：** 发货仓库</li><li>**转移单 - 收货：** 收货仓库</li><li>**采购申请：** 行 &gt; 仓库</li><li>**询价：** 行 &gt; 仓库</li><li>**销售报价单：**<ol><li>行 &gt; 仓库</li><li>产品 &gt; 仓库</li></ol></li></ul> |
+

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897623"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066631"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>库存可见性加载项概述
 
@@ -61,9 +61,9 @@ ms.locfileid: "8897623"
 
 ATP 功能很容易在日常订单履行流程中采用。 最重要的是，与其他库存可见性服务一样，ATP 功能是 *全局和实时的*。 因此，您可以设置多个 ATP 计算公式，来执行覆盖所有业务渠道和数据源的完整的库存可用性查询。 有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>与高级仓库管理物料的兼容性
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>与仓库管理流程 (WMS) 物料的兼容性
 
-Microsoft 旨在提供与高级仓库管理 (WHS) 的现成集成，以便 WHS 客户也可以享受库存可见性服务的好处。 根据 2022 第 1 波版本（3 月的公开预览版），库存服务支持 WHS 物料现有库存查询和 ATP。 下一波中将针对 WHS 客户支持软预留和分配功能。 有关详细信息，请参阅 [WHS 物料的库存可见性支持](inventory-visibility-whs-support.md)。
+Microsoft 旨在提供与仓库管理流程 (WMS) 的现成集成，以便 WMS 客户也可以享受库存可见性服务的好处。 根据 2022 第 1 波版本（3 月的公开预览版），库存服务支持 WMS 物料现有库存查询和 ATP。 下一波中将针对 WMS 客户支持软预留和分配功能。 有关详细信息，请参阅 [WMS 物料的库存可见性支持](inventory-visibility-whs-support.md)。
 
 ## <a name="licensing"></a>许可授权
 

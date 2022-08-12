@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d05403113c9b178553134ce1a9066bb2acf59b0f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868509"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068096"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Finance Insights 的配置 - 10.0.20 和更高版本
 
@@ -38,7 +38,7 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能以及 Datave
 
 按照以下步骤部署环境。
 
-1. 在 Microsoft Dynamics Lifecycle Services (LCS) 中，创建或更新 Finance 环境。 环境需要适用于 Finance and Operations 应用的应用版本 10.0.20 或更高版本。
+1. 在 Microsoft Dynamics Lifecycle Services (LCS) 中，创建或更新 Finance 环境。 环境需要适用于财务和运营应用的应用版本 10.0.20 或更高版本。
 2. 该环境必须是沙盒中的高可用性 (HA) 环境。 （这种类型的环境也称为二级环境。）有关详细信息，请参阅[环境规划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
 3. 如果您要在沙盒环境中配置 Finance Insights，可能需要将生产数据复制到该环境以进行工作预测。 预测模型使用多年的数据来生成预测。 Contoso 演示数据包含的历史数据不足以充分训练预测模型。 
 
@@ -126,7 +126,7 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能以及 Datave
         - **性能** – 建议您选择 **标准**。
         - **帐户种类** – 必须选择 **StorageV2**。
 
-    3. 在 **高级选项** 对话框中，在 **分层命名空间** 功能下为 **Data Lake 存储 Gen2** 选项选择 **启用**。 如果不启用此功能，则无法使用 Finance and Operations 应用通过诸如 Power BI 数据流的服务写入的数据。
+    3. 在 **高级选项** 对话框中，在 **分层命名空间** 功能下为 **Data Lake 存储 Gen2** 选项选择 **启用**。 如果不启用此功能，则无法使用财务和运营应用通过诸如 Power BI 数据流的服务写入的数据。
     4. 选择 **查看并创建**。 部署完成后，新资源将显示在 Azure 门户中。
     5. 转到您创建的存储帐户。
     6. 在左侧菜单中，选择 **访问密钥**。
@@ -755,3 +755,4 @@ finally {
 如果您对提供反馈感兴趣，或者如果您需要支持，请向 [Finance Insights](mailto:fiap@microsoft.com)发送电子邮件。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

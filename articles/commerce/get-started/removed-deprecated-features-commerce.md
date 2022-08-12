@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce 中已删除或弃用的功能
 description: 本文介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910516"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138578"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -32,6 +32,19 @@ ms.locfileid: "8910516"
 
 > [!NOTE]
 > [技术参考报告](/dynamics/s-e/)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
+
+## <a name="feature-deprecation-effective-july-2022"></a>功能弃用从 2022 年 7 月开始生效
+
+### <a name="commerce-analytics-preview"></a>Commerce 分析（预览版）
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 该 Dynamics 365 Commerce 团队已分析 Commernce 分析（预览版）功能的使用情况和利用情况，并决定不再继续将该功能引入正式发布。   |
+| **被另一个功能取代？**   | 此时，Commerce 分析（预览版）将不会替换为其他功能或解决方案。 可以继续将原始交易和主数据从财务和运营应用导出到 Azure Data Lake，如[在财务和运营应用中导出到 Data Lake](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md) 中所述。 合作伙伴和客户可以利用该数据流为其业务需求创作任何预期分析报告。
+| **影响的产品区域**         | Commerce 分析（预览版） |
+| **部署选项**              | 所有 |
+| **Status**                         | 我们将考虑在 2022 年 8 月 30 日之前禁用此功能。  从此日期开始，Commerce 分析（预览版）提供的当前 Power BI 报表中将不会进行刷新。     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Commerce 10.0.25 版本中已经删除或弃用的功能
 
@@ -195,3 +208,4 @@ Lifecycle Services (LCS) 中附带 Retail SDK。 10.0.21 版本中已弃用此�
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

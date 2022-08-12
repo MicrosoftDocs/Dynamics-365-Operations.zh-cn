@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022555"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167752"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -92,9 +92,9 @@ ms.locfileid: "9022555"
 
 此功能使工人能够使用生产车间执行界面来登记材料消耗、批号和序列号。 一些制造商，尤其是加工行业的制造商，必须明确登记每个批次或生产订单的材料消耗量。 例如，工作人员可能会使用秤来称量他们工作时消耗的材料量。 为确保完整的材料可追溯性，这些组织还必须登记生产每个产品时消耗材料的批号。
 
-此功能有两个版本。 一个版本支持 *未* 启用使用高级仓库流程 (WMS) 的物料。 另一个版本支持 *启用* 以使用 WMS 的物料。 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下一项或全部两项功能（按此顺序），具体取决于您是否有启用了 WMS 的物料：
+此功能有两个版本。 一个版本支持 *未* 启用使用仓库管理流程 (WMS) 的物料。 另一个版本支持 *启用* 以使用 WMS 的物料。 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下一项或全部两项功能（按此顺序），具体取决于您是否有启用了 WMS 的物料：
 
-- *(预览版)在生产车间执行界面(非 WMS)上登记物料消耗量*
+- *在生产车间执行界面（非 WMS）上登记物料消耗量*
 - *(预览版)在生产车间执行界面(启用了 WMS)上登记物料消耗量*
 
 > [!IMPORTANT]

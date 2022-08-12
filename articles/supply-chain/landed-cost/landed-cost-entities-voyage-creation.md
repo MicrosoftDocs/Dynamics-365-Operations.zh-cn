@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: cb2e2f53942015caf9462692515f24deb9689aed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6234dfa61a5859e2ecaca75594c69c49ba326629
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873889"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167662"
 ---
 # <a name="voyage-creation-entities"></a>航行创建实体
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 航行创建数据实体将创建工作航行所需的数据实体组织在一个组中。 您或您的货运转运商可以使用这些数据实体创建引用现有采购订单或转移单行的航行、装运集装箱、帐页和航行行记录。
 

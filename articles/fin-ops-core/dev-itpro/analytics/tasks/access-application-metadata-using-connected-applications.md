@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 330683da986a551a9694833655122768d30499b1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b24d865bff0e81f79e7edde360fd5115d8637b42
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906759"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111222"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>通过使用相连应用程序访问应用程序元数据
 
 [!include [banner](../../includes/banner.md)]
 
-以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用 Finance and Operations 中的元数据设计新的电子报表 (ER) 模型映射。 将使用与 RCS 相连的应用程序联机访问应用程序元数据。 将配置示例 ER 模型映射以访问外贸交易。 为了完成这些步骤，在 RCS 中，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)一文中的步骤。 如果已完成了[使用 ER 配置访问应用程序元数据](access-application-metadata-er-configuration.md)一文中的步骤，请下载[电子报告示例](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip)并保存以下 ER 配置：Foreign trade metadata.xml、Foreign trade model.xml、Foreign trade mapping.xml，然后完成此过程中的步骤。
+以下步骤介绍系统管理员或电子报表开发人员角色的 Regulatory Configuration Service (RCS) 用户如何使用财务和运营中的元数据设计新的电子报表 (ER) 模型映射。 将使用与 RCS 相连的应用程序联机访问应用程序元数据。 将配置示例 ER 模型映射以访问外贸交易。 为了完成这些步骤，在 RCS 中，您必须首先完成[创建配置提供程序并标记为当前运行的](er-configuration-provider-mark-it-active-2016-11.md)一文中的步骤。 如果已完成了[使用 ER 配置访问应用程序元数据](access-application-metadata-er-configuration.md)一文中的步骤，请下载[电子报告示例](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip)并保存以下 ER 配置：Foreign trade metadata.xml、Foreign trade model.xml、Foreign trade mapping.xml，然后完成此过程中的步骤。
 
 ## <a name="prerequisites"></a>先决条件
 1. 转到 **所有工作区** > **电子申报**。 
@@ -114,3 +114,4 @@ ms.locfileid: "8906759"
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

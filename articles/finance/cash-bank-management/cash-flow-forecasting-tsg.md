@@ -1,7 +1,7 @@
 ---
 title: 现金流预测设置故障排除
 description: 本文提供对配置现金流预测时可能有的问题的解答。 可以解决有关现金流设置、现金流更新和现金流 Power BI 的常见问题 (FAQ)。
-author: panolte
+author: angelad116
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0e3438bc07fde28d5d9d2d5b3d83bbe70692c0bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 807a1da1906bdefec38954cea02ed29b0157d69e
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878061"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151392"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>现金流预测设置故障排除
 

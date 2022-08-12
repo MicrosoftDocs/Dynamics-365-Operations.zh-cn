@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ce274c997119c7fdba193fa9559832e63febddc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00a20faaa05a9d0891ee202951b1ca50d0176c83
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893227"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065949"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用配置字段
 
@@ -135,7 +135,7 @@ ms.locfileid: "8893227"
 -   第 2 行：物料描述
 -   第 3 行：尺寸
 
-其余元数据（如位置）将不在任务页面中显示，但是将在详细信息页面中显示。 若要详细了解和查看用户界面的示例，请参阅博客文章 [介绍 Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)。
+其余元数据（如位置）将不在任务页面中显示，但是将在详细信息页面中显示。 若要详细了解和查看用户界面的示例，请参阅博客文章[介绍 Dynamics 365 Supply Chain Management - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)。
 
 ## <a name="additional-resources"></a>其他资源
 

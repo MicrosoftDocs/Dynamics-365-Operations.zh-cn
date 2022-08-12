@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1ea8f12102cc2fac1948027f7c15d45bf5d1b15d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e98b9d772c3b42162566fe666c3eeba5d1fb2392
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881542"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108977"
 ---
 # <a name="cfo-overview-power-bi-content"></a>CFO 概览 Power BI 内容
 
 [!include [banner](../includes/banner.md)] 
 
-本文介绍 **CFO 概览** Microsoft Power BI 内容。 此 Power BI 内容适用于 Microsoft Dynamics 365 for Finance and Operations 版本 7.2 的用户。 如果您使用的是 7.3 或更高版本，请参阅[财务见解](financial-insights.md)。
+本文介绍 **CFO 概览** Microsoft Power BI 内容。 此 Power BI 内容适用于 Microsoft Dynamics 365 Finance 版本 7.2 的用户。 如果您使用的是 7.3 或更高版本，请参阅[财务见解](financial-insights.md)。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
@@ -44,3 +44,4 @@ ms.locfileid: "8881542"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

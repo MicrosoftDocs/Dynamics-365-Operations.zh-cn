@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6b3cff1029b02aaabef2ea9795ab9912f20f1129
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d54e246b175c81b5d161ea35f141fc7dea9c6f1f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871411"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070715"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>设置和生成付款确认文件
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> 此功能将于 2022 年 9 月弃用，新用户应使用电子报告。 有关详细信息，请参阅[使用电子报告设置先对单再支付文件](set-up-positive-pay-er.md)。
 
 本文说明如何设置付款确认和生成付款确认文件。 
 

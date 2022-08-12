@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 172f49c13c183eb4df986dc3e30ff3955bc1a605
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 838e3affd4e782bea463638e28da3943329671d4
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860977"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111847"
 ---
 # <a name="target-entities"></a>目标实体
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860977"
 
 在 **数据管理** 工作区中，可以获取目标实体、关联实体类型和与 **资产管理** 模块关联的暂存表的概览。 
 
-1. 单击屏幕左上角的 **Finance and Operations** 按钮，然后单击 **数据管理**。
+1. 单击屏幕左上角的 **财务和运营** 按钮，然后单击 **数据管理**。
 
 2. 在 **导入/导出** 部分中，单击 **数据实体**。 
 

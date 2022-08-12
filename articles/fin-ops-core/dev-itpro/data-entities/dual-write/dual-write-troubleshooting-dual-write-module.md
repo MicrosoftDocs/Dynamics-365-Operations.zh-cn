@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2743b99538b332af7cc6ad8d951eede562c14235
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864563"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111161"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>解决财务和运营应用中的双重写入问题
 
@@ -112,3 +112,4 @@ Root activity ID: \<your root activity\> id
 若要解决这些问题，请在 Dataverse 中更新双重写入解决方案。 确保升级到与所需解决方案版本匹配的最新解决方案。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

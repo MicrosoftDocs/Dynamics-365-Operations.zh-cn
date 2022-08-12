@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2c36ebe0957cff85fff6af1d979503f9e6e60d28
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895777"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066721"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>针对标准成本的先决条件概览
 
@@ -73,8 +73,8 @@ ms.locfileid: "8895777"
 
 #### <a name="community-blogs"></a>社区博客
 
-- [如何在 Dynamics 365 for Finance and Operations 中为直接材料设置标准成本](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
-- [Dynamics 365 for Finance and Operations 中的标准直接人工成本](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
+- [如何在财务和运营中为直接材料设置标准成本](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
+- [财务和运营中的标准直接人工成本](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

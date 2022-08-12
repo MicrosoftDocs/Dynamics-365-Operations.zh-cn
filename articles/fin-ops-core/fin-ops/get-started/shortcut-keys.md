@@ -2,7 +2,7 @@
 title: 键盘快捷方式
 description: 本文概述使用财务和运营应用时可使用的快捷键组合。
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866108"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140430"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
@@ -197,6 +197,7 @@ ms.locfileid: "8866108"
 | 关闭“详细信息”窗体中导航列表（焦点在导航列表内） | Esc                        |
 | 移到主页内容（焦点在其他窗格内）                    | Alt+M、M                    |
 | 移到速见表窗格（可能包括将其打开）                       | Alt+M、B 或 Ctrl+F2         |
+| 移动到下一功能标注                                              | Alt+M、C                    |
 
 > [!NOTE]
 > 10.0.26 版中引入的 **在整页窗体中简化 Tab 键使用行为** 功能允许用户使用 Tab 键在页面的所有区域之间切换，而无需鼠标或专用键盘快捷方式在区域之间移动。 您仍然可以使用现有的键盘快捷方式（如 Alt+M 键和弦快捷方式）在页面上的区域之间快速移动。
@@ -269,3 +270,4 @@ ms.locfileid: "8866108"
 [缺少科目分析的键盘快捷方式](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

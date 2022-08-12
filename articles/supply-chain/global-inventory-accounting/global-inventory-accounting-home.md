@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 27470f302b91fa3fa22f47438fa0f936beb7e7d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e7f919b28f6d0c8cd830ecfab4608be50b684c8e
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846175"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135447"
 ---
 # <a name="global-inventory-accounting-home-page"></a>全球库存核算主页
 
 [!INCLUDE [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 国际组织正面临来自当局越来越大的压力，要求其遵守当地和全球核算标准。 库存评估在确保合规性方面发挥着重要作用。 Microsoft Dynamics 365 Supply Chain Management 的全球库存核算加载项提供全面的解决方案，使组织（尤其是国际组织）能够使用多个成本计算分类帐进行库存核算。 因此，这些组织可以同时遵守多个核算标准和内部管理核算。
 

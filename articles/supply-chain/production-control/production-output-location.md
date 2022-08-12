@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 130db343c4d09f2b8d31bf8acad3dcceec2be32e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893285"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067932"
 ---
 # <a name="production-output-location"></a>生产输出位置
 
@@ -36,7 +36,7 @@ ms.locfileid: "8893285"
 3. 如果在那里找不到任何位置，则使用资源为生产工艺路线中定义的最后一个操作使用的资源组上定义的输出位置。
 4. 如果在那里找不到任何位置，则使用在为生产订单定义的仓库上定义的输出位置。
 
-仅对使用高级仓库流程进行设置的产品设置默认生产输出位置。 在此类物料报告为已完工入库时，创建 **成品储存** 或 **联产品和副产品储存** 类型的仓库工作。 此类型工作使用生产输出位置作为领料库位。 储存库位由库位指令确定。
+仅对使用仓库管理流程 (WMS) 进行设置的产品设置默认生产输出位置。 在此类物料报告为已完工入库时，创建 **成品储存** 或 **联产品和副产品储存** 类型的仓库工作。 此类型工作使用生产输出位置作为领料库位。 储存库位由库位指令确定。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

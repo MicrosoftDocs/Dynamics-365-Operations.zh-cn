@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016150"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070370"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>制造执行中的生产参数
 
@@ -71,7 +71,7 @@ ms.locfileid: "9016150"
   - 空白（没有选择选项。）
   - **在库位可用**
 
-    在制造执行中，如果在 **开始** 选项卡的 **自动物料清单消耗量** 字段中选择 **耗用原则**，则当工序开始时，从库存中减少在物料清单中设置为 **开始** 的所有物料。 **在库位可用** 选项用于为高级仓库流程启用的产品。 如果选择此耗用原则，则在完成原材料领料的仓库工作时耗用物料。 当使用此耗用原则的物料清单行发布到仓库且物料在生产输入库位可用时，也会耗用物料。
+    在制造执行中，如果在 **开始** 选项卡的 **自动物料清单消耗量** 字段中选择 **耗用原则**，则当工序开始时，从库存中减少在物料清单中设置为 **开始** 的所有物料。 **在库位可用** 选项用于为仓库管理流程 (WMS) 启用的产品。 如果选择此耗用原则，则在完成原材料领料的仓库工作时耗用物料。 当使用此耗用原则的物料清单行发布到仓库且物料在生产输入库位可用时，也会耗用物料。
 
     > [!NOTE]
     > 如果在制造执行的 **开始** 选项卡上设置了 **耗用原则** 字段，则必须在 **工序** 选项卡或 **完工入库** 选项卡上选择相同的原则。此要求有助于确保在作为生产订单上的耗用原则使用 **完成** 的物料清单上从库存中减去这些物料。 如果没有在 **工序** 选项卡或 **完工入库** 选项卡上选择相同的耗用原则，可能会从库存中减少物料两次。

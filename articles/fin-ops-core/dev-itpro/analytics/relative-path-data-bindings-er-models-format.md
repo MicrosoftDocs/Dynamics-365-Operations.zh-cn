@@ -13,18 +13,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: be2c0f921fde13598685553ea01bfcf3f8255362
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313559"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108662"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>在 ER 模型和格式的数据绑定中使用相对路径
 
 [!include[banner](../includes/banner.md)]
 
-用户可通过电子申报 (ER) 工具定义电子格式结构，然后描述应如何使用应用程序中的数据和算法填充这些结构。 有关详细信息，请参阅[创建电子申报 (ER) 配置](electronic-reporting-configuration.md)。 若要指定用于检索 Finance and Operations 数据并将其用于生成电子文档的数据流，需要执行以下操作：
+用户可通过电子申报 (ER) 工具定义电子格式结构，然后描述应如何使用应用程序中的数据和算法填充这些结构。 有关详细信息，请参阅[创建电子申报 (ER) 配置](electronic-reporting-configuration.md)。 若要指定用于检索财务和运营数据并将其用于生成电子文档的数据流，需要执行以下操作：
 
 - 将配置的数据源绑定到特定于域的所设计数据模型的元素。 模型结构和所选数据源可能是复杂层次结构的组成部分。 因此，最终绑定可能相当大，并且包含不同类型的大量元素（例如，关系、表和方法）。 绑定可能变得可读性不高且相当复杂，难以查看和理解，尤其是对于非负责人而言。 
 - 将具有用于定义使用来自数据模型的哪些数据进行填充的格式组件的数据模型元素绑定到生成的格式的输出。
@@ -58,3 +58,4 @@ ms.locfileid: "8313559"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

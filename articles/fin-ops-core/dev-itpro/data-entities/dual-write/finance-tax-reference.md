@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 2762008e205f85d03bc0b675a079a073b98aa27d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 11a97f87213272d8c41fff8119fb7c80239ebbc8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858642"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112043"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>访问财务和税务参考数据
 
@@ -30,3 +30,4 @@ ms.locfileid: "8858642"
 + [集成的税收主数据](tax-mapping.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

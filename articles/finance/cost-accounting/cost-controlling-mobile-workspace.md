@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e7d220639f5f3af26e892461928c646746963bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d6d3fdcc0b0387a92f138b0ba7cf537f473b91a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874658"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069554"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>成本控制移动工作区
 
@@ -29,7 +29,7 @@ ms.locfileid: "8874658"
 
 本文提供有关 **成本控制** 移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
 
-此工作区应该与财务与运营 (Dynamics 365) 移动应用结合使用。
+此工作区应该与财务和运营 (Dynamics 365) 移动应用结合使用。
 
 ## <a name="overview"></a>概述
 **成本控制** 移动工作区通过比较实际成本与预算成本，提供成本中心当前绩效的即时视图。 可以向下钻取单个成本元素的状态。
@@ -114,7 +114,7 @@ ms.locfileid: "8874658"
 
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装财务与运营 (Dynamics 365) 移动应用：
+下载并安装财务和运营 (Dynamics 365) 移动应用：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -146,3 +146,4 @@ ms.locfileid: "8874658"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

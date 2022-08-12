@@ -1,7 +1,7 @@
 ---
 title: 设置集中的付款
 description: 按照以下步骤可以代表您的组织中的其他法人准备一个法人的处理付款。
-author: kweekley
+author: angelad116
 ms.date: 05/09/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
 ms.search.region: Global
-ms.author: kweekley
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03dcef5ae8d5afb21b802fae92934eadc778070d
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5474f7a698f5c055717e6c5d23b95fe0ecce8961
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725392"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151632"
 ---
 # <a name="set-up-centralized-payments"></a>设置集中的付款
 

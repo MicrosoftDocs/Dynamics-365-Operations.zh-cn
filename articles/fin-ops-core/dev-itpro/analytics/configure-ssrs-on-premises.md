@@ -5,22 +5,23 @@ author: PeterRFriis
 ms.date: 06/23/2017
 ms.topic: article
 ms.prod: dynamics-365
-ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
-ms.custom: 55651
-ms.assetid: ''
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: ae1e78a268d6c61cc4ab6afd9e3f6d6b1bd1561a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "55651"
+ms.assetid: ''
+ms.service: ''
+ms.openlocfilehash: 5608d3cca15f7d6dbc8feb672ec8cec5227c0c47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876912"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205619"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>为本地部署配置 SQL Server Reporting Services
 

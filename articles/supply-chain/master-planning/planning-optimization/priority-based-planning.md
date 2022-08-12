@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873802"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186474"
 ---
 # <a name="priority-based-planning"></a>基于优先级的计划
 
 [!include [banner](../../includes/banner.md)]
 
-本文介绍 Microsoft Dynamics 365 Supply Chain Management 的基于优先级的计划功能。 此功能增加了对需求驱动计划的支持，这是需求驱动的物料要求计划 (DDMRP) 的一个步骤。 基于优先级的计划使计划优化能够生成由计划优先级而非要求日期驱动的计划订单。
+本文介绍 Microsoft Dynamics 365 Supply Chain Management 的基于优先级的计划功能。 此功能增加了对需求驱动计划的支持，这是[需求驱动型材料要求计划 (DDMRP)](ddmrp-overview.md) 的一个步骤。 基于优先级的计划使计划优化能够生成由计划优先级而非要求日期驱动的计划订单。
 
 基于优先级的计划可让您确定补货订单的优先级，以确保紧急需求优先于不太重要的需求。 例如，短缺补货订单将优先于标准重填补货订单。 系统可以自动将较大的订单拆分为单独的小订单，订单行按优先级分组。 然后，它可以首先处理所有高优先级订单。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7a88c5a615ec860890578873eaee736fabbeaf08
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857074"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065799"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>将仓库管理从 Microsoft Dynamics AX 2012 升级到 Supply Chain Management 
 
@@ -37,11 +37,11 @@ Supply Chain Management 不再支持来自 Microsoft Dynamics AX 2012 的旧 **W
 在升级后，您可以使用 **更改物料的存储维度组** 窗体中的一组选项取消锁定在升级期间被锁定的产品，然后处理这些产品的交易记录。
 
 ### <a name="enabling-items-in-supply-chain-management"></a>在 Supply Chain Management 中启用物料 
-需要执行此更改，因为在 Supply Chain Management 中，物料跟踪是仓库管理流程的一部分。 对于这些流程，所有仓库及其库位必须与库位模板相关联。 如果您要使用仓库管理流程，则必须配置以下设置：
--   必须启用现有仓库以使用仓库管理流程 
--   现有的已发布的产品必须与使用仓库管理流程的存储维度组相关联 
+需要执行此更改，因为在 Supply Chain Management 中，物料跟踪是仓库管理流程 (WMS) 的一部分。 对于这些流程，所有仓库及其库位必须与库位模板相关联。 如果您要使用 WMS，则必须配置以下设置：
+-   必须启用现有仓库以使用 WMS 
+-   现有的已发布的产品必须与使用 WMS 的存储维度组相关联 
 
-如果源存储维度组使用托盘 ID 库存维度，使用托盘 ID 库位维度的现有库存的库位必须与选择了 **使用牌照跟踪** 参数的库位模板相关联。 如果不应启用现有仓库以使用仓库管理流程，您可以将现有库存的存储维度组更改为仅处理站点、仓库和库位库存维度的组。 
+如果源存储维度组使用托盘 ID 库存维度，使用托盘 ID 库位维度的现有库存的库位必须与选择了 **使用牌照跟踪** 参数的库位模板相关联。 如果不应启用现有仓库以使用 WMS，您可以将现有库存的存储维度组更改为仅处理站点、仓库和库位库存维度的组。 
 
 > [!NOTE] 
 >  即使存在未结的库存交易记录，您也可以更改物料的存储维度组。
@@ -56,12 +56,12 @@ Supply Chain Management 不再支持来自 Microsoft Dynamics AX 2012 的旧 **W
 要取消锁定在升级期间已锁定的产品，必须为该产品选择新的存储维度组。 请注意，即使存在未结的库存交易记录，您也可以更改存储维度组。 要使用在升级期间已锁定的物料，您有两个选项：
 
 -   将物料的存储维度组更改为仅使用站点、仓库和库位库存维度的存储维度组。 进行此更改后，不再使用托盘 ID 库存维度。
--   将物料的存储维度组更改为使用仓库管理流程的存储维度组。 进行此更改后，现在开始使用牌照库存维度。
+-   将物料的存储维度组更改为使用 WMS 的存储维度组。 进行此更改后，现在开始使用牌照库存维度。
 
-## <a name="configure-warehouse-management-processes"></a>配置仓库管理流程
+## <a name="configure-wms"></a>配置 WMS
 在您可以使用 **仓库管理** 模块中的已发布产品前，产品必须使用选择了 **使用仓库管理流程** 参数的存储维度组。
 
-### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>启用仓库以使用仓库管理流程
+### <a name="enable-warehouses-to-use-wms"></a>启用仓库以使用 WMS
 
 1.  创建至少一个新的库位模板。
 2.  单击 **仓库管理** &gt; **设置** &gt;**启用仓库管理流程** &gt;**启用仓库设置**。
@@ -70,7 +70,7 @@ Supply Chain Management 不再支持来自 Microsoft Dynamics AX 2012 的旧 **W
 5.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 6.  处理更改。
 
-### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>更改物料的存储维度组，以便其使用仓库管理流程
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>更改物料的存储维度组，以便其使用 WMS
 
 1.  创建新的 **库存状态** 值，并将它分配为 **仓库管理参数** 设置中的 **默认库存状态 ID** 值。
 2.  创建选择了 **使用仓库管理流程** 参数的新的存储维度组。

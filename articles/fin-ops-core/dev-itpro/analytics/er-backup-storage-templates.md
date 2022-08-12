@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 635e7152bece91d5dee47f82cef7052730eb0c82
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880384"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108943"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER 模板的备份存储
 
@@ -28,11 +28,11 @@ ms.locfileid: "8880384"
 
 业务用户可使用[电子申报 (ER) 概览](general-electronic-reporting.md)根据各个国家和地区的法律要求配置传出文档的格式。 配置的 ER 格式可使用预定义的模板生成各种格式（如 Microsoft Excel 工作簿、Microsoft Word 文档或 PDF 文档）的传出文档。 已经使用为生成的文档配置的数据流所需数据填充了模板。
 
-可以在 ER 解决方案中发布配置的每种格式。 可以将每种 ER 解决方案从一个 Finance and Operations 实例导出，然后导入到另一个实例中。
+可以在 ER 解决方案中发布配置的每种格式。 可以将每种 ER 解决方案从一个财务和运营实例导出，然后导入到另一个实例中。
 
-ER 框架使用[配置文档管理](../../fin-ops/organization-administration/configure-document-management.md)保留当前 Finance and Operations 实例所需模板。 可以根据 ER 框架的设置，将 Microsoft Azure Blob 存储或 Microsoft SharePoint 文件夹选作模板的物理主存储位置。 （有关详细信息，请参阅[配置电子申报 (ER) 框架](electronic-reporting-er-configure-parameters.md)。）DocuValue 表中是每个模板的单个记录。 在每个记录中，**AccessInformation** 字段中存储模板文件在配置的存储位置内的路径。
+ER 框架使用[配置文档管理](../../fin-ops/organization-administration/configure-document-management.md)保留当前财务和运营实例所需模板。 可以根据 ER 框架的设置，将 Microsoft Azure Blob 存储或 Microsoft SharePoint 文件夹选作模板的物理主存储位置。 （有关详细信息，请参阅[配置电子申报 (ER) 框架](electronic-reporting-er-configure-parameters.md)。）DocuValue 表中是每个模板的单个记录。 在每个记录中，**AccessInformation** 字段中存储模板文件在配置的存储位置内的路径。
 
-管理 Finance and Operations 实例时，可以决定将当前实例迁移到其他位置。 例如，您可以将生产实例迁移到新的沙盒环境。 如果将 ER 框架配置为把模板存储到 Blob 存储中，则新沙盒环境中的 DocuValue 表引用生产环境中的 Blob 存储实例。 但是，不能从沙盒环境访问此实例，因为迁移过程不支持迁移 Blob 存储中的项目。 因此，如果尝试运行使用模板的 ER 格式来生成业务文档，将发生异常，并通知您缺少模板。 还将引导您使用 ER 清理工具删除再重新导入其中包含此模板的 ER 格式配置。 因为您可能有多个 ER 格式配置，所以此过程可能需要很长时间。
+管理财务和运营实例时，可以决定将当前实例迁移到其他位置。 例如，您可以将生产实例迁移到新的沙盒环境。 如果将 ER 框架配置为把模板存储到 Blob 存储中，则新沙盒环境中的 DocuValue 表引用生产环境中的 Blob 存储实例。 但是，不能从沙盒环境访问此实例，因为迁移过程不支持迁移 Blob 存储中的项目。 因此，如果尝试运行使用模板的 ER 格式来生成业务文档，将发生异常，并通知您缺少模板。 还将引导您使用 ER 清理工具删除再重新导入其中包含此模板的 ER 格式配置。 因为您可能有多个 ER 格式配置，所以此过程可能需要很长时间。
 
 ER 模板的备份存储功能可帮助您创建模板，这样始终可以使用这些模板来生成业务文档。
 
@@ -46,7 +46,7 @@ ER 模板的备份存储功能可帮助您创建模板，这样始终可以使�
 - 导入其中包含模板的新 ER 格式配置。
 - 完成其中包含模板的 ER 格式配置的草稿版本。
 
-将模板的备份副本作为应用程序数据库的一部分迁移到 Finance and Operations 的新实例。
+将模板的备份副本作为应用程序数据库的一部分迁移到财务和运营的新实例。
 
 如果需要 ER 格式的模板才能生成传出文档（例如，为了处理其中包含付款通知和控制报告的供应商付款），但是未在主存储位置中找到所需模板，则会发生以下事件：
 
@@ -58,7 +58,7 @@ ER 模板的备份存储功能可帮助您创建模板，这样始终可以使�
 
 若要设置 **自动运行受损附件批量还原** 参数，请完成以下步骤：
 
-1. 在 Finance and Operations 中，打开 **组织管理 \> 电子申报 \> 配置** 页。
+1. 在财务和运营中，打开 **组织管理 \> 电子申报 \> 配置** 页。
 2. 在 **配置** 页操作窗格中 **配置** 选项卡的 **高级设置** 组中，选择 **用户参数**。
 3. 在 **用户参数** 对话框中，设置 **自动运行受损附件批量还原** 参数所需值。
 
@@ -83,7 +83,7 @@ ER 模板的备份存储功能可帮助您创建模板，这样始终可以使�
 
 如果将 **停止制作模板的备份副本** 选项设置为 **是**，但是不希望保留以前创建的模板备份副本，请选择 **电子申报参数** 页上的 **清理备份存储**。
 
-如果已将您的环境升级到 Finance and Operations 版本 10.0.5（2019 年 10 月），并希望迁移到其中包含可运行的 ER 格式配置的新环境，请在迁移前选择 **电子申报参数** 页上的 **填充备份存储**。 此按钮用于开始创建所有可用模板的备份副本，所以可将其存储到模板的 ER 备份存储位置中。
+如果已将您的环境升级到财务和运营版本 10.0.5（2019 年 10 月），并希望迁移到其中包含可运行的 ER 格式配置的新环境，请在迁移前选择 **电子申报参数** 页上的 **填充备份存储**。 此按钮用于开始创建所有可用模板的备份副本，所以可将其存储到模板的 ER 备份存储位置中。
 
 ![“电子报告参数”页面。](./media/GER-BackupTemplates-5.png)
 
@@ -93,7 +93,7 @@ ER 模板的备份存储功能可帮助您创建模板，这样始终可以使�
 
 ## <a name="supported-deployments"></a>支持的部署
 
-在 Finance and Operations 版本 10.0.5 中，只有云部署中才支持 ER 模板备份存储功能。
+在财务和运营版本 10.0.5 中，只有云部署中才支持 ER 模板备份存储功能。
 
 ## <a name="additional-resources"></a>其他资源
 

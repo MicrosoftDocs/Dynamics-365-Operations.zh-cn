@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860629"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068022"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>与第三方制造执行系统集成
 
@@ -252,9 +252,10 @@ ms.locfileid: "8860629"
 在这些情况下，您可以利用 Supply Chain Management 中的标准预警功能。 有关标准预警如何工作的信息，请参阅以下资源：
 
 - 帮助文章：[预警概述](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
-- 视频：[Dynamics 365 for Finance and Operations 中的预警规则选项](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
+- 视频：[财务和运营中的预警规则选项](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 例如，您可以设置以下预警来提供有关消息状态的反馈：
 
 - 创建在消息 *失败* 时使用的业务事件（“外部发送”）。
 - 向 IT 管理员或生产车间经理发送通知和电子邮件。
+

@@ -1,22 +1,22 @@
 ---
 title: 初始化 Commerce Scale Unit（云）
 description: 本文说明如何在 Microsoft Dynamics 365 Commerce 中初始化 Commerce Scale Unit（云）。
-author: AamirAllaq
-ms.date: 06/03/2022
+author: jashanno
+ms.date: 07/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: aamiral
+ms.author: jashanno
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
-ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
+ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
+ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8942843"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183354"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>初始化 Commerce Scale Unit（云）
 
@@ -51,30 +51,30 @@ Commerce Scale Unit 可以在以下区域部署。
 
 | 全球位置 | 区域              | 可用性        | 注释                  |
 |-----------------|---------------------|---------------------|---------------------------|
-| 美洲        | 美国东部             | 正式发布 |                           |
-| 美洲        | 美国东部 2           | 正式发布 |                           |
-| 美洲        | 美国中北部    | 有限容量    |                           |
-| 美洲        | 美国中南部    | 有限容量    |                           |
-| 美洲        | 美国中部          | 正式发布 |                           |
-| 美洲        | 美国西部             | 正式发布 |                           |
-| 美洲        | 美国西部 2           | 正式发布 |                           |
-| 美洲        | 加拿大中部      | 有限容量    |                           |
-| 美洲        | 加拿大东部         | 有限容量    |                           |
-| 美洲        | 美国中西部     | 有限容量    |                           |
-| APAC            | 澳大利亚东部      | 正式发布 |                           |
-| APAC            | 东南亚      | 限制容量 | 不允许部署    |
-| APAC            | 日本东部          | 正式发布 |                           |
-| APAC            | 日本西部          | 正式发布 |                           |
-| APAC            | 澳大利亚东南地区 | 正式发布 |                           |
-| APAC            | 东亚           | 有限容量    |                           |
-| APAC            | 印度南部         | 限制容量 | 不允许部署    |
-| APAC            | 印度中部       | 有限容量    | 需要审批流程 |
-| EMEA            | 西欧         | 正式发布 |                           |
-| EMEA            | 欧洲北部        | 正式发布 |                           |
-| EMEA            | 英国南部            | 有限容量    |                           |
-| EMEA            | 英国西部             | 有限容量    |                           |
-| 瑞士     | 瑞士北部   | 有限容量    | 需要审批流程 |
-| 阿拉伯联合酋长国             | 阿拉伯联合酋长国北部           | 有限容量    | 需要审批流程 |
+| 美洲        | 美国东部             | 正式发布 |  没有评论。                         |
+| 美洲        | 美国东部 2           | 正式发布 |  没有评论。                          |
+| 美洲        | 美国中北部    | 有限容量    |  没有评论。                            |
+| 美洲        | 美国中南部    | 有限容量    |  没有评论。                            |
+| 美洲        | 美国中部          | 正式发布 |  没有评论。                            |
+| 美洲        | 美国西部             | 正式发布 |  没有评论。                            |
+| 美洲        | 美国西部 2           | 正式发布 |  没有评论。                            |
+| 美洲        | 加拿大中部      | 有限容量    |  没有评论。                            |
+| 美洲        | 加拿大东部         | 有限容量    |   没有评论。                           |
+| 美洲        | 美国中西部     | 有限容量    |   没有评论。                           |
+| APAC            | 澳大利亚东部      | 正式发布 |   没有评论。                           |
+| APAC            | 东南亚      | 限制容量 | 不允许部署。    |
+| APAC            | 日本东部          | 正式发布 |  没有评论。                            |
+| APAC            | 日本西部          | 正式发布 |   没有评论。                           |
+| APAC            | 澳大利亚东南地区 | 正式发布 |   没有评论。                           |
+| APAC            | 东亚           | 有限容量    |   没有评论。                           |
+| APAC            | 印度南部         | 限制容量 | 不允许部署。    |
+| APAC            | 印度中部       | 有限容量    | 需要审批流程。 |
+| EMEA            | 西欧         | 有限容量    | 此时在 LCS 中不可用。 |
+| EMEA            | 欧洲北部        | 有限容量    | 此时在 LCS 中不可用。 |
+| EMEA            | 英国南部            | 正式发布 |    没有评论。                          |
+| EMEA            | 英国西部             | 正式发布 |    没有评论。                          |
+| 瑞士     | 瑞士北部   | 有限容量    | 需要审批流程。 |
+| 阿拉伯联合酋长国             | 阿拉伯联合酋长国北部           | 有限容量    | 需要审批流程。 |
 
 有限容量区域的部署容量会受到极大限制。 将根据具体情况对部署请求进行评估。 如果您对在容量有限的区域进行部署有迫切的业务需求，您可以提交支持请求以加入等待列表。 限制容量区域目前不允许部署 Commerce Scale Unit。 
 

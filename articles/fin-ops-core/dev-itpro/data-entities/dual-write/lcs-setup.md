@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 5cccba580d23c3a0e9aed62f76a305926a58585f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879795"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111961"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Lifecycle Services 的双重写入设置
 
@@ -71,3 +71,4 @@ ms.locfileid: "8879795"
 在过去，手动支持票证选项可用，但那是在上述选项 1 存在之前的情况。  Microsoft 不再支持通过支持票证手动重新链接请求。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

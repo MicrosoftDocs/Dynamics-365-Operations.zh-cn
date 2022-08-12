@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c1acc103291c5d648ac7e179a598348cd9cc2a93
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670431"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135560"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
 
@@ -128,7 +128,7 @@ ms.locfileid: "8670431"
 - 6a. 数量 1（单件成本价为 USD 23.00）的库存实际发货（财务过帐的交易记录的移动平均）
 - 7\. 执行库存结转。 基于使用 LIFO 方法的标记原则，标记的交易记录将相互结算。 在此示例中，3b 针对 2b 进行结算，将 USD 6.00 的调整过帐到 3b 以使值达到 USD 22.00。 在此示例中，没有进行其他结算，因为结转仅为财务更新的交易记录创建结算。
 
-新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。
+新的移动平均成本价反映按 USD 17.50 的财务和实际更新的交易记录的平均价。
 
 下图说明在使用发货和收货之间的标记时，先进先出库存模型对此系列的交易记录的影响。
 

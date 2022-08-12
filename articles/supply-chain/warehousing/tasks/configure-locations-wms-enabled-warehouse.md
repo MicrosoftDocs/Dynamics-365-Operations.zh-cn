@@ -1,6 +1,6 @@
 ---
 title: 配置启用了 WMS 的仓库中的位置
-description: 本指南会显示如何配置启用 WMS 的新仓库的位置设置（使用高级仓库管理流程的仓库）。
+description: 本指南会显示如何配置启用 WMS 的新仓库的位置设置（使用仓库管理流程 (WMS) 的仓库）。
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599340"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067264"
 ---
-# <a name="configure-locations-in-a-wms-enabled-warehouse"></a>配置启用了 WMS 的仓库中的位置
+# <a name="configure-locations-in-a-wms-enabled-warehouse"></a>在启用了 WMS 的仓库中配置库位
 
 [!include [banner](../../includes/banner.md)]
 
-本指南会显示如何配置启用 WMS 的新仓库的位置设置（使用高级仓库管理流程的仓库）。 该流程通常由仓库经理完成。 您可以使用演示数据公司 USMF 或您自己的数据运行本指南。 先决条件是您至少配置了一个站点。
+本指南会显示如何配置启用 WMS 的新仓库的位置设置（使用仓库管理流程 (WMS) 的仓库）。 该流程通常由仓库经理完成。 您可以使用演示数据公司 USMF 或您自己的数据运行本指南。 先决条件是您至少配置了一个站点。
 
 
 ## <a name="create-a-new-warehouse"></a>新建仓库
@@ -35,7 +35,7 @@ ms.locfileid: "7599340"
 4. 在 **名称** 字段中，键入一个值。
 5. 在 **站点** 字段中，选择或键入现有站点值。
 6. 展开 **仓库** 部分。
-7. 将 **使用仓库管理流程选项** 设置为“是”。 此设置可使您使用仓库工作和移动设备运行高级仓储流程。
+7. 将 **使用仓库管理流程选项** 设置为“是”。 此设置可使您使用仓库工作和移动设备运行仓库管理流程 (WMS)。
 8. 关闭该页面。
 
 ## <a name="define-a-location-format"></a>定义位置格式
@@ -68,7 +68,7 @@ ms.locfileid: "7599340"
 5. 关闭该页面。
 
 ## <a name="define-location-profile"></a>定义位置模板
-1. 转到 **导航窗格 > 模块 > 仓库管理 > 设置 > 仓库 > 位置模板**。 位置模板的定义非常重要。 分组位置容量，以及存储哪些库存的测量和如何存储都可以在此进行控制。 位置模板可以用作筛选选项，以控制不同的仓库管理流程。 您至少必须创建用户位置模板，以便启用仓库管理流程。
+1. 转到 **导航窗格 > 模块 > 仓库管理 > 设置 > 仓库 > 位置模板**。 位置模板的定义非常重要。 分组位置容量，以及存储哪些库存的测量和如何存储都可以在此进行控制。 位置模板可以用作筛选选项，以控制不同的仓库管理流程。 您至少必须创建用户位置模板，以便启用 WMS。
 2. 单击 **新建**。
 3. 在 **库位模板 ID** 字段中，键入一个值。
 4. 在 **名称** 字段中，键入一个值。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ee1ba338d90c6ee9cdc37948061f518040ae1a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e18735117d1f671e0efc0947248bbe266fa0ca6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869653"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065576"
 ---
 # <a name="quarantine-orders"></a>检验单
 
@@ -31,7 +31,7 @@ ms.locfileid: "8869653"
 隔离订单可让您锁定库存。 例如，您可能要检验质量控制原因的物料。 将把已检验的库存转移到检验仓库。
 
 > [!NOTE]
-> 如果您使用高级仓库管理流程（在仓库管理中），隔离订单处理仅用于退货销售订单。
+> 如果您使用仓库管理流程（在仓库管理模块中），隔离订单处理仅用于退货销售订单。
 
 ## <a name="quarantine-on-hand-inventory-items"></a>检验现有库存物料
 

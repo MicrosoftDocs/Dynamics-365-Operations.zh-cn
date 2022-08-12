@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fc04a90c0c071508c9ebee57862a029de0e58f9a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38971f2a5f3f3d2692de0e52365e2215170101cc
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844755"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103171"
 ---
 # <a name="sales-orders-mobile-workspace"></a>销售订单移动工作区
 
@@ -29,7 +29,7 @@ ms.locfileid: "8844755"
 
 本文提供有关 **销售订单** 移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。 
 
-此工作区应该与财务与运营 (Dynamics 365) 移动应用结合使用。
+此工作区应该与财务和运营 (Dynamics 365) 移动应用结合使用。
 
 ## <a name="overview"></a>概述
 **销售订单** 移动工作区可以让您查看有关各销售订单的详细信息。 此信息包括订单状态、客户的联系信息和订单员的联系信息。 **销售订单** 移动工作区提供销售订单的即时视图。 您可以查看所有销售订单，按客户查看销售订单，或查看有关特定销售订单的信息。 
@@ -118,7 +118,7 @@ ms.locfileid: "8844755"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装财务与运营 (Dynamics 365) 移动应用：
+下载并安装财务和运营 (Dynamics 365) 移动应用：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -143,3 +143,4 @@ ms.locfileid: "8844755"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

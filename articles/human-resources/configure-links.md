@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859657"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065284"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>创建从 Human Resources 到 Finance 环境的链接
 
@@ -53,7 +53,7 @@ ms.locfileid: "8859657"
 
    要查找所需的菜单项，请执行以下操作：
    1. 转到 Finance 环境并打开作为导航目标的页面。 
-   2. 从 URL 复制菜单项。 例如，如果您希望链接将您带到 Finance and Operations 中的员工列表，请输入在 URL 中的 "&mi" 后出现的值。 
+   2. 从 URL 复制菜单项。 例如，如果您希望链接将您带到财务和运营中的员工列表，请输入在 URL 中的 "&mi" 后出现的值。 
    3. 在本示例中导航到员工列表页面的菜单项是：HcmWorkerListPage_Employees。
 
  - **链接到数据源**：选择链接所引用数据的源。 提供最常见的源，如 **工作人员** 和 **职位**。
@@ -63,4 +63,5 @@ ms.locfileid: "8859657"
 系统管理员将在定义的页面上看到新创建的链接，即使 **启用此链接** 选项设置为 **否**。 这可以用于在向其他员工显示链接前对链接进行测试。 在 **启用此链接** 选项设置为 **是** 后，所有其他角色将只能看到配置的链接。 有权访问链接显示页面的员工将有权访问这些链接。
 
 用户还必须在定义的辅助环境中具有安全权限，才能访问该环境中的页面。 如果未定义，在使用链接时将显示安全对话框。
+
 

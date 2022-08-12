@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853646"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112355"
 ---
 # <a name="general-troubleshooting"></a>常规疑难解答
 
@@ -62,7 +62,7 @@ ms.locfileid: "8853646"
 源自 Dataverse 的双写入错误可能出现在财务和运营应用中。 要为错误启用详细日志记录，请执行以下步骤：
 
 1. 对于财务和运营应用中的所有项目配置，**DualWriteProjectConfiguration** 表上有一个 **IsDebugMode** 标志。
-2. 使用 Excel 加载项打开 **DualWriteProjectConfiguration**。 若要使用加载项，请在财务和运营Excel 加载项中启用设计模式，并将 **DualWriteProjectConfiguration** 添加到表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
+2. 使用 Excel 加载项打开 **DualWriteProjectConfiguration**。 若要使用加载项，请在财务和运营 Excel 加载项中启用设计模式，并将 **DualWriteProjectConfiguration** 添加到表中。 有关详细信息，请参阅[使用 Excel 查看和更新实体数据](../../office-integration/use-excel-add-in.md)。
 3. 针对此项目将 **IsDebugMode** 设置为 **是**。
 4. 运行产生错误的方案。
 5. 详细日志存储在 **DualWriteErrorLog** 表中。
@@ -174,3 +174,4 @@ UI 会使用浏览器“会话存储”来存储一些用于加载主页的属�
 4. 选择 **保存** 以将结果导出为 HAR。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

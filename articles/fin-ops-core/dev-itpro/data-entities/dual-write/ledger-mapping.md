@@ -1,6 +1,6 @@
 ---
 title: 集成的分类帐
-description: 本文介绍使用 Dataverse 在 Finance and Operations 与其他 Dynamics 365 应用程序之间的分类帐数据的集成。
+description: 本文介绍使用 Dataverse 在财务和运营与其他 Dynamics 365 应用程序之间的分类帐数据的集成。
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5598295a25e31b33cd8b4d7ce3250a982ab4e87
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847180"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112231"
 ---
 # <a name="integrated-ledger"></a>集成的分类帐
 
@@ -28,7 +28,7 @@ ms.locfileid: "8847180"
 
 分类帐数据包括核心财务表映射的集合，这些映射在数据交互期间协同工作，如下表所示。
 
-Finance and Operations 应用 | 客户互动应用     | 说明
+财务和运营应用 | 客户互动应用     | 说明
 ---------------------------------|----------------------------------|------------
 [CDS 汇率](mapping-reference.md#123) | msdyn_currencyexchangerates |
 [会计帐户表](mapping-reference.md#121) | msdyn_chartofaccountses |
@@ -45,3 +45,4 @@ Finance and Operations 应用 | 客户互动应用     | 说明
 [主帐户类别](mapping-reference.md#151) | msdyn_mainaccountcategories |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -2,7 +2,7 @@
 title: 流程自动化
 description: 本文详细介绍如何通过流程自动化简单计划批处理服务器将运行的流程。
 author: RyanCCarlson2
-ms.date: 04/20/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: f13392fd6610735f8c539d42b62cf71cece71fba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
+ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898600"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9114926"
 ---
 # <a name="process-automation"></a>流程自动化
 
@@ -30,7 +30,7 @@ ms.locfileid: "8898600"
 
 系统管理模块中 **设置** 菜单下提供所有流程自动化的集中管理页面。 此页将列出系统中设置的所有自动化流程（系列）。 还将允许您直接从此页面添加新的流程自动化。 设置系列后，可以从此列表管理每个系列。 可以选择编辑整个系列，将其删除，查看列表视图中的所有发生次数，或在要暂停计划的工作一段时间时禁用系列。 
 
-禁用此功能后，将不会显示在功能管理中禁用的任何流程。 此外，流程自动化计划引擎不会为禁用的功能计划任何事件或后台流程。 重新启用此功能将导致过去计划的任何事件或后台流程立即运行。 流程自动化计划引擎依赖于系统批处理作业 **流程自动化轮询系统作业** 运行。 任何时候都不应该更改或篡改此作业。 
+禁用此功能后，将不会显示在功能管理中禁用的任何流程。 此外，流程自动化计划引擎不会为禁用的功能计划任何事件或后台流程。 重新启用此功能将导致过去计划的任何事件或后台流程立即运行。 流程自动化计划引擎依赖于系统批处理作业 **流程自动化轮询系统作业** 运行。 任何时候都不应该更改或篡改此作业。 如果此批处理作业未运行或处于错误状态，请选择 **初始化流程自动化** 以重置批处理作业。此重置可确保初始化应用程序的最新版本中发布的任何新自动化。 
 
 ## <a name="calendar-view"></a>日历视图
 

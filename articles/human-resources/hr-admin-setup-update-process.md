@@ -14,18 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722232"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178433"
 ---
 # <a name="update-process"></a>更新流程
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**适用于：** 独立基础结构中的 Human Resources_ 
 
+> [!NOTE]
+> 从 2022 年 7 月开始，无法在独立的 Human Resources 基础结构中预配新的 Human Resources 环境，因此无法在其中创建新的 Microsoft Dynamics Lifecycle Services (LCS) 项目。 客户可以在财务和运营基础结构上部署 Human Resources 环境。 有关详细信息，请参阅[在财务和运营基础结构中预配 Human Resources](/hr-admin-setup-provision-fo.md)。
 
+> [!IMPORTANT]
+> 财务和运营应用基础结构上的更新和修补程序流程与 Human Resources 独立更新和修补程序流程不同。 有关更新流程的更多信息，请参阅[移至财务和运营的最新更新的流程](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md)。 有关修补程序的详细信息，请参阅[从 Lifecycle Services (LCS) 下载更新](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md)。 
 
 Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)，可提供连续的非接触式服务更新。 这些更新包含应用程序和平台更改，通常会对服务进行重大改进，包括监管更新。
 
@@ -37,16 +41,14 @@ Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)�
 
 Human Resources 更新将自动应用于所有环境。 Human Resources 提供两种类型的发布：
 
-- **服务更新**：每两周更新一次，其中包括缺陷修复和新功能。 服务更新在发布时还包括适用的平台更新。 有关平台版本的详细信息，请参阅[平台更新的新增功能或更改](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md)。 每两周更新跨区域在全球分期推出。 有关每两周更新的详细信息，请参阅 [Dynamics 365 Human Resources 的新增功能或更改](hr-admin-whats-new.md)。
-
-    除非另有说明，否则所有受支持的数据中心都会每两周更新一次。 每两周更新中包括美国、澳大利亚、欧洲、英国、亚洲和加拿大地区。 
+- **服务更新**：每两周更新一次，其中包括缺陷修复和新功能。 服务更新在发布时还包括适用的平台更新。 有关平台版本的详细信息，请参阅[平台更新的新增功能或更改](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md)。 更新跨区域在全球分期推出。 有关更新的详细信息，请参阅 [Dynamics 365 Human Resources 的新增功能或更改](hr-admin-whats-new.md)。
 
 - **Dataverse 解决方案更新**：根据需要，这些更新大约每六周进行一次。 这些更新包括 Dataverse 中的新实体和对现有实体的更改。 这些更新与每两周更新发布在相同的区域，需要大约六周时间在所有数据中心完成复制。 解决方案更新可能与每两周服务更新一致，也可能不一致。
 
 > [!NOTE]
 > 解决方案更新发布后，将在所有数据中心可用。 如果不想等待更新自动复制，可以在任何数据中心的任何环境中手动应用这些更新。
 
-如果需要，Human Resources 还会提供以下类型的修复：
+如果需要，Human Resources 会提供以下类型的修复：
 
 - **修订（修补程序）**：可能随每两周服务更新发布进行或独立进行的缺陷修复
 
@@ -83,11 +85,11 @@ Human Resources 更新将自动应用于所有环境。 Human Resources 提供�
 
 您可以先在沙盒环境中验证预览功能，然后再在生产环境中启用。 有关启用功能的详细信息，请参阅[功能管理概述](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
 
-所有新功能都会在预览阶段提供至少 30 天，通常为 30-60 天。 主要功能通常在预览期之后的每年 10 月和 4 月公开发布。 在功能管理工作区中看到新功能后，即可将其打开。 有些功能可能默认已启用。
+所有新功能都会在预览阶段提供至少 30 天，通常为 30-60 天。 主要功能通常在预览期之后的每年 10 月和 4 月公开发布。 在 **功能管理** 工作区中看到新功能后，即可将其打开。 有些功能可能默认已启用。
 
 有时，完整功能默认启用，并且无法关闭（例如，功能管理工作区）。
 
-某项功能公开发布后，即可以在生产环境中将其打开或关闭。 功能管理工作区指示何时将强制使用某项预览功能。 此日期通常是 10 月 1 日或 4 月 1 日，以与半年发布计划保持一致。 您无法关闭强制功能。 在强制使用之前，您可以在所有环境中打开和关闭功能。
+某项功能公开发布后，即可以在生产环境中将其打开或关闭。 **功能管理** 工作区指示何时将强制使用某项预览功能。 此日期通常是 10 月 1 日或 4 月 1 日，以与半年发布计划保持一致。 您无法关闭强制功能。 在强制使用之前，您可以在所有环境中打开和关闭功能。
 
 我们强烈建议在沙盒或试用环境中预览功能。 最好将当前生产环境或数据库的副本创建到沙盒环境中，以便您可以利用您的数据获得新功能的完整体验。
 

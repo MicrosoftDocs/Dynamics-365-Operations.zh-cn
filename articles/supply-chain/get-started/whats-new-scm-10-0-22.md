@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 53f1670454ef505e61e96b16990d913473b46bf4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849494"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124781"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Dynamics 365 Supply Chain Management 10.0.22（2021 年 11 月）中的新增功能或更改
 
@@ -58,7 +58,7 @@ ms.locfileid: "8849494"
 
 ## <a name="additional-resources"></a>其他资源
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
+### <a name="platform-updates-for-finance-and-operations-apps"></a>财务和运营应用的平台更新
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.22 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.22 的平台更新（2021 年 11 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md)。
 
@@ -84,3 +84,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.22 中包含平台更新。 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692413"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178524"
 ---
 # <a name="copy-an-instance"></a>复制实例
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**适用于：** 独立基础结构中的 Human Resources_ 
 
+> [!NOTE]
+> 从 2022 年 6 月开始，Human Resources 环境只能部署在财务和运营应用基础结构中。 有关详细信息，请参阅[在财务和运营基础结构中预配 Human Resources](hr-admin-setup-provision-fo.md)。
+
+> [!IMPORTANT]
+> 财务和运营基础结构不支持复制实例函数。 您可以部署新环境并使用数据库移动来创建副本。 有关自助服务部署的详细信息，请参阅[自助服务部署概述](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md)。 有关在财务和运营基础结构上移动数据库的详细信息，请参阅[数据库移动操作主页](../fin-ops-core/dev-itpro/database/dbmovement-operations.md)。
 
 您可以使用 Microsoft Dynamics Lifecycle Services (LCS) 将 Microsoft Dynamics 365 Human Resources 数据库复制到沙盒环境。 如果您有另一个沙盒环境，还可以将数据库从该环境复制到目标沙盒环境。
 
@@ -50,7 +55,7 @@ ms.locfileid: "8692413"
 
 - Microsoft Azure Blob 存储中的文档不会从一个环境复制到另一个环境。 因此，附加的所有文档和模板都不会被复制，并将保留在源环境中。
 
-- 除具有“系统管理员”安全角色和其他内部服务用户帐户的用户之外的所有用户将不可用。 在允许其他用户返回到系统之前，管理员用户可以删除或打乱数据。
+- 除具有“系统管理员”安全角色和其他内部服务用户帐户的用户之外的所有用户将不可用。 在允许其他用户返回到系统之前，管理员用户可以删除数据。
 
 - 任何具有“系统管理员”安全角色的用户必须进行必要的配置更改，例如将集成终结点重新连接到特定服务或 URL。
 
@@ -67,7 +72,7 @@ ms.locfileid: "8692413"
 
 3. 选择要复制的实例，然后选择 **复制**。
 
-4. 在 **复制实例** 任务窗格中，选择要覆盖的实例，然后选择 **复制**。 等待 **复制状态** 字段的值更新为 **已完成**。
+4. 在 **复制实例** 任务窗格中，选择要覆盖的实例，然后选择 **复制**。 等待 **复制状态** 字段更新为 **已完成**。
 
    ![[选择要覆盖的实例。](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
@@ -76,6 +81,8 @@ ms.locfileid: "8692413"
    ![[选择 Power Platform。](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. 选择要复制的 Power Apps 环境，然后选择 **复制**。
+
+有关复制 Power Apps 环境的详细信息，请参阅[复制环境](/power-platform/admin/copy-environment#copy-an-environment-1)。
 
 7. 复制过程完成后，登录到目标实例，然后启用 Dataverse 集成。 有关详细信息和说明，请参阅[配置 Dataverse 集成](./hr-admin-integration-common-data-service.md)。
 

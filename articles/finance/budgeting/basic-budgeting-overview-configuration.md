@@ -1,6 +1,6 @@
 ---
 title: 预算概览
-description: 几乎每家使用 Microsoft Dynamics 365 Finance 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
+description: 几乎每家使用 Microsoft Dynamics 365 Finance 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在财务和运营中创建预算或从第三方程序加载预算所需的最低配置。
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,20 +17,20 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48fcfec7126b4835b7d05e431bbc6ad7b9176bbe
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 380afc399a050215bb2d7b1e5ddb20088226f654
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710404"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068951"
 ---
-# <a name="budgeting-overview"></a>预算编制概览
+# <a name="budgeting-overview"></a>预算概览
 
 [!include [banner](../includes/banner.md)]
 
-几乎每家使用 Microsoft Dynamics 365 Finance 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
+几乎每家使用 Microsoft Dynamics 365 Finance 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在财务和运营中创建预算或从第三方程序加载预算所需的最低配置。
 
-## <a name="overview"></a>概览
+## <a name="overview"></a>概述
 
 法人的已审核预算保留在一个名为 *“预算登记分录”* 的文档中。 预算登记分录文档中的行称作 *预算科目* 分录，它们包含财务维度信息、日期和已审核预算的金额。 预算登记分录文档与基本财务报表和查询页（其中，将比较分类帐实际金额与预算金额）集成。 
 
@@ -89,3 +89,4 @@ Microsoft Dynamics 365 Finance 版本 10.0.7（2020 年 1 月）中引入的功�
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

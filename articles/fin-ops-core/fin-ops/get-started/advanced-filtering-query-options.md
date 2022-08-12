@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856909"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123939"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 

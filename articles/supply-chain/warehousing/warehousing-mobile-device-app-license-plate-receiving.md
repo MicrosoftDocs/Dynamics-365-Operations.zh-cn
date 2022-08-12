@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657c29ec6ddfb2be918424e06eaf219f51a30a02
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906991"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069053"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>通过 Warehouse Management 移动应用接收牌照
 
@@ -26,7 +26,7 @@ ms.locfileid: "8906991"
 
 本文说明如何设置 Warehouse Management 移动应用，以便支持使用牌照接收流程接收实际库存。
 
-可使用此功能快速记录与发货通知 (ASN) 有关的入站库存的收货。 当使用仓库管理流程为转移单发货时，系统将自动创建 ASN。 对于采购订单流程，ASN 可以手动创建，也可以使用入站 ASN 数据实体流程自动导入。
+可使用此功能快速记录与发货通知 (ASN) 有关的入站库存的收货。 当使用仓库管理流程 (WMS) 为转移单发货时，系统将自动创建 ASN。 对于采购订单流程，ASN 可以手动创建，也可以使用入站 ASN 数据实体流程自动导入。
 
 ASN 数据将通过 *装箱结构* 链接到负荷和装运，其中的托盘（父牌照）中包含货箱（嵌套牌照）。
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883559"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111685"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>定义其他组件上的电子报告配置的依赖关系
 
@@ -25,7 +25,7 @@ ms.locfileid: "8883559"
 
 若要完成这些步骤，首先必须完成任务指南“ER 管理模型映射配置”中的步骤，还必须可以访问 Microsoft Dynamics Lifecycle Services (LCS)。
 
-此过程显示如何设计电子申报 (ER) 配置和指定其与其他软件组件之间的依赖关系，以便帮助确保将配置正确下载到特定 Finance and Operations 版本。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。 
+此过程显示如何设计电子申报 (ER) 配置和指定其与其他软件组件之间的依赖关系，以便帮助确保将配置正确下载到特定财务和运营版本。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。 
 
 此过程针对向其分配了系统管理员角色或电子申报开发人员角色的用户。 这些步骤适用于所有公司，因为这些公司共享 ER 配置。 
 
@@ -46,7 +46,7 @@ ms.locfileid: "8883559"
 7. 选择 Microsoft Dynamics 365 for Operations (1611)。
 8. 在”版本“字段中，键入”[7.1.1541.3036,8)“。
     * [7.1.1541.3036,8)  
-    * 如果从任何 ER 存储库下载了此配置，将评估您输入的依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Finance and Operations 版本 7.1.1541.3036 或更高版本中完成，但是不得超过主要版本 8。   
+    * 如果从任何 ER 存储库下载了此配置，将评估您输入的依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在财务和运营版本 7.1.1541.3036 或更高版本中完成，但是不得超过主要版本 8。   
 9. 单击“保存”。
 10. 关闭该页面。
 11. 单击“更改状态”。
@@ -59,7 +59,7 @@ ms.locfileid: "8883559"
 18. 选择 Microsoft Dynamics AX 7.0 RTW。
 19. 在”版本“字段中，键入”[7.0.1265.3015,7.1)“。
     * [7.0.1265.3015,7.1)  
-    * 如果从任何 ER 存储库下载了此配置，将评估依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 中完成，其版本必须为 7.0.1265.3015 或更高，但是不得超过次要版本 1。   
+    * 如果从任何 ER 存储库下载了此配置，将评估依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Microsoft Dynamics 365 Finance Enterprise edition 中完成，其版本必须为 7.0.1265.3015 或更高，但是不得超过次要版本 1。   
 20. 单击“保存”。
 21. 关闭该页面。
 22. 单击“更改状态”。
@@ -136,10 +136,11 @@ ms.locfileid: "8883559"
 25. 转到“组织管理”>“电子申报”>“配置”。
 26. 在树中，展开“示例数据模型”。
     * 请注意，已下载了模型“示例映射”映射配置和所选数据模型配置。 一起下载这两个文件是因为已将“示例映射”定义为实施所选数据模型，并且其适用于此应用程序。 尚未下载“示例映射（备用）”配置，因为未满足所需应用程序版本的条件。   
-    * 如果登录 Finance and Operations，注册相同提供程序，访问相同 LCS 项目，然后下载相同数据模型配置，将下载“示例映射（备用）”配置，但跳过“示例映射”配置。  
+    * 如果登录财务和运营，注册相同提供程序，访问相同 LCS 项目，然后下载相同数据模型配置，将下载“示例映射（备用）”配置，但跳过“示例映射”配置。  
 
 ## <a name="additional-resources"></a>其他资源
 
 [管理电子报告 (ER) 配置生命周期](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

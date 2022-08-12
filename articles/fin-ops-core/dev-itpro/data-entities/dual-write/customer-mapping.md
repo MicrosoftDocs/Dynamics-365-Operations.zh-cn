@@ -1,6 +1,6 @@
 ---
 title: 集成客户主数据
-description: 本文介绍 Finance and Operations 与 Dataverse 之间的客户数据集成。
+description: 本文介绍财务和运营与 Dataverse 之间的客户数据集成。
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890447"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111715"
 ---
 # <a name="integrated-customer-master"></a>集成客户主数据
 
@@ -22,7 +22,7 @@ ms.locfileid: "8890447"
 
 
 
-可以在多个 Dynamics 365 应用程序中掌管客户数据。 例如，客户行可以源自 Dynamics 365 Sales（Customer Engagement 应用）中的销售活动，或者行可以源自 Dynamics 365 Commerce（Finance and Operations 应用）中的零售活动。 无论客户数据源自何处，它都在后台集成。 集成的客户主数据使您可以灵活地在任何 Dynamics 365 应用程序中掌管客户数据，并在整个 Dynamics 365 应用程序套件中提供客户的全面概览。
+可以在多个 Dynamics 365 应用程序中掌管客户数据。 例如，客户行可以源自 Dynamics 365 Sales（Customer Engagement 应用）中的销售活动，或者行可以源自 Dynamics 365 Commerce（财务和运营应用）中的零售活动。 无论客户数据源自何处，它都在后台集成。 集成的客户主数据使您可以灵活地在任何 Dynamics 365 应用程序中掌管客户数据，并在整个 Dynamics 365 应用程序套件中提供客户的全面概览。
 
 ## <a name="customer-data-flow"></a>客户数据流
 
@@ -30,7 +30,7 @@ ms.locfileid: "8890447"
 
 ![客户数据流。](media/dual-write-customer-data-flow.png)
 
-客户可以大致分为两类：商业/组织客户和消费者/最终用户。 这两种类型的客户存储在 Finance and Operations 和 Dataverse 中并以不同方式处理。
+客户可以大致分为两类：商业/组织客户和消费者/最终用户。 这两种类型的客户存储在财务和运营和 Dataverse 中并以不同方式处理。
 
 在财务和运营中，商业/组织客户和消费者/最终用户在名为 **CustTable** (CustCustomerV3Entity) 的一个表中主控，并根据 **类型** 属性分类。 （如果 **类型** 设置为 **组织**，则客户为商业/组织客户，如果 **类型** 设置为 **个人**，则客户为消费者/最终用户。）主联系人信息通过 SMMContactPersonEntity 表处理。
 
@@ -42,7 +42,7 @@ ms.locfileid: "8890447"
 
 客户数据包括有关客户的所有信息，如客户组、地址、联系信息、付款配置文件、发票配置文件和会员状态。 客户数据交互期间，表映射集合协同工作，如下表中所示。
 
-Finance and Operations 应用 | 客户互动应用         | 说明
+财务和运营应用 | 客户互动应用         | 说明
 ----------------------------|---------------------------------|------------
 [CDS 联系人 V2](mapping-reference.md#115) | 联系人 | 此模板同步客户和供应商的所有第一、第二和第三联系信息。
 [客户组](mapping-reference.md#126) | msdyn_customergroups | 此模板同步客户组信息。
@@ -57,3 +57,4 @@ Finance and Operations 应用 | 客户互动应用         | 说明
 [付款期限](mapping-reference.md#161) | msdyn_paymentterms | 此模板同步客户和供应商的付款期限引用数据。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

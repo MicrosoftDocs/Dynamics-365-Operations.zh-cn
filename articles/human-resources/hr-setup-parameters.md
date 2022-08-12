@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856271"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065635"
 ---
 # <a name="configure-human-resources-parameters"></a>配置 Human Resources 参数
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856271"
 
 某些人力资源参数的设置在公司间共享，而其他参数设置是特定于公司的。 本文说明如何设置特定于公司的人力资源参数。
 
-提供了两个页面来设置人力资源参数。 对于跨公司共享的参数，您可使用 **人力资源共享参数** 页。 对于特定于公司的参数（换句话说，这些设置将应用于单个公司），您可使用 **人力资源参数** 页。
+提供了两个页面来设置人力资源参数。 对于跨公司共享的参数，您可使用 **人力资源共享参数** 页。 对于特定于公司的参数，您可使用 **Human resource 参数** 页。
 
 ![转到 Human Resources 参数。](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -74,9 +74,10 @@ ms.locfileid: "8856271"
 
 在 Human Resources 中，您可以使用 **薪酬** 选项卡选择限制对薪酬计划的访问和设置默认货币。
 
-有关薪酬的详细信息，请参阅[薪酬计划概述](hr-compensation-overview.md)。
+> [!NOTE]
+> 在合并的基础结构中，已删除了 **Human resource 参数** 页面的 **薪酬** 选项卡上的默认 **货币** 参数。 今后，货币将由 **分类帐货币** 参数进行处理，以确保现有财务和运营功能没有冲突，并防止重复。 有关如何使用分类帐货币功能的详细信息，请参阅[配置分类帐](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md)。 
 
-![“薪酬”选项卡。](./media/hr-setup-parameters-compensation.png)
+有关薪酬的详细信息，请参阅[薪酬计划概述](hr-compensation-overview.md)。
 
 ## <a name="number-sequences"></a>编号规则
 

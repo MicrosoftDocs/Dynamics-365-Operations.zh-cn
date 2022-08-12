@@ -1,6 +1,6 @@
 ---
 title: 客户端常见问题
-description: 本文提供对有关 Finance and Operations 客户端的常见问题的解答。
+description: 本文提供对有关财务和运营客户端的常见问题的解答。
 author: jasongre
 ms.date: 09/11/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ca763f388bfc59951febf93f314d3df7e12c50cf
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071025"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124419"
 ---
-# <a name="client-faq"></a>客户端常见问题
+# <a name="client-faq"></a>客户端常见问题解答
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-本文提供对有关 Finance and Operations 客户端的常见问题的解答。
+本文提供对有关财务和运营客户端的常见问题的解答。
 
 ## <a name="why-arent-symbols-loaded"></a>符号为何未加载？
 

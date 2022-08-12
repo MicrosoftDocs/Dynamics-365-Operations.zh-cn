@@ -1,7 +1,7 @@
 ---
 title: 更新银行日记帐组合实体
 description: 本文列出了将更多 BankTransactionType 字段添加到组合 BankJournalEntity 中所需的步骤。
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ ms.reviewer: kfend
 ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db5f01af6b21b4dc5ff633ee9c11bb6ed41df048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8bf3bbcbd8036015757799a2e58b23fd9bd2b38
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868538"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151601"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>更新银行日记帐组合实体
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857422"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065979"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>混合模式计划 - 合并不同的流程和精益采购
 
@@ -33,7 +33,7 @@ ms.locfileid: "8857422"
 
 例如，您可以在装配中实施看板控制，以便按生产订单、看板、转移、批次订单或适合供应链特性的任意组合来为装配区域采购物料，但您仍具有对多个供应的完全可见性。 此能力可实现优化的供应链流程并提高对供应链的可见性。  
 
-主计划编制中使用的供应策略的粒度取决于作为覆盖范围维度启用的存储维度。 要启用主计划编制以控制不同类型的位置的补货和供应（例如，通过分离不同的生产单位的生产车间，或通过分离不同类型的物料和成品仓库），建议您将站点和仓库启用为覆盖范围维度。 或者，可以将仓库作为覆盖范围维度忽略。 在此情况下，当您使用高级仓库管理时，仓库内的所有转移将由仓库工作控制，而仓库间的所有转移可由取料看板控制。
+主计划编制中使用的供应策略的粒度取决于作为覆盖范围维度启用的存储维度。 要启用主计划编制以控制不同类型的位置的补货和供应（例如，通过分离不同的生产单位的生产车间，或通过分离不同类型的物料和成品仓库），建议您将站点和仓库启用为覆盖范围维度。 或者，可以将仓库作为覆盖范围维度忽略。 在此情况下，当您使用仓库管理流程 (WMS) 时，仓库内的所有转移将由仓库工作控制，而仓库间的所有转移可由取料看板控制。
 
 ## <a name="supply-policies"></a>供应策略
 混合模式计划可控制产品的供应方式（基于供应）以及针对派生的需求（物料清单 \[BOM\] 中的物料消耗量）的发货方式。 系统将基于订单类型自动采购物料以满足需求。  

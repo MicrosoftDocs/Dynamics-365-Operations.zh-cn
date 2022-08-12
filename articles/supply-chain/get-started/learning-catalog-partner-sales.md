@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d5a7ce80f02729de450e558f57464248d69910ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7caaf0097022eddd33319c6bd4a066da61de23b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901022"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123551"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 的 Microsoft 合作伙伴销售和市场营销角色学习目录
 
@@ -41,3 +41,4 @@ ms.locfileid: "8901022"
 | [Dynamics 365 基本原理](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | 证实您了解 Microsoft Dynamics 365、Power Platform、云概念、许可选项和部署与发布选项。 | 考试，成本取决于地区 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

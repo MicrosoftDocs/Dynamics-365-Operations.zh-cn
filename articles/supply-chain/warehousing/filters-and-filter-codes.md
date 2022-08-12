@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850429"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067519"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>为仓库交易配置产品筛选器
 
@@ -95,7 +95,7 @@ ms.locfileid: "8850429"
     例如，如果选择了 **使用筛选器代码 1** 和 **使用筛选器代码 2** 复选框，物料的筛选器代码 1 和筛选器代码 2 必须与物料组的筛选器组的设置相匹配，这时才可以选择筛选器组。 创建新物料时，所选筛选器组将是 **已发布产品详细信息** 页的 **仓库** 快速选项卡上 **组 1** 和 **组 2** 字段中的默认筛选器组。
 
 > [!IMPORTANT]
-> 产品筛选器代码仅对使用高级仓库管理的物料启用。
+> 产品筛选器代码仅对使用仓库管理流程 (WMS) 的物料启用。
 
 ## <a name="specify-filter-codes-for-released-products"></a>指定已发布产品的筛选器代码
 
@@ -158,7 +158,7 @@ ms.locfileid: "8850429"
 1. 在 **代码 1** 到 **代码 10** 字段中，选择筛选器代码，用作限制所选物料组中对供应商可用的物料的条件。 您必须为为物料组设置的每个筛选器代码进行选择。
 
 > [!NOTE]
-> 供应商产品筛选器的设置适用于为关联的存储维度组启用了仓库管理流程的已发布产品。 筛选器代码用于确定系统在创建采购订单行时是否允许用户从给定供应商处购买给定物料。 Microsoft Dynamics 365 Supply Chain Management 有两种处理供应商审批的方法。 如果存在一个或多个 **核准供应商检查方法** 字段设置为 *仅警告* 或 *不允许* 的已发布产品，两种供应商审批方法都可以为这些物料启用。 这种情况可能会在用户创建采购订单行时导致问题。
+> 供应商产品筛选器的设置适用于为关联的存储维度组启用了仓库管理流程 (WMS) 的已发布产品。 筛选器代码用于确定系统在创建采购订单行时是否允许用户从给定供应商处购买给定物料。 Microsoft Dynamics 365 Supply Chain Management 有两种处理供应商审批的方法。 如果存在一个或多个 **核准供应商检查方法** 字段设置为 *仅警告* 或 *不允许* 的已发布产品，两种供应商审批方法都可以为这些物料启用。 这种情况可能会在用户创建采购订单行时导致问题。
 
 ## <a name="see-also"></a>请参阅
 

@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013546"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177139"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>开始使用全球库存核算
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 全球库存核算使您可以在已设置的全球库存核算分类帐中执行多个库存核算。 您必须将每个全球库存核算分类帐与一个 *惯例* 关联。 惯例是以下几种会计政策的集合：
 
@@ -69,28 +67,34 @@ ms.locfileid: "9013546"
 
 有关详细信息，请参阅[在环境部署后启用](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy)。
 
-## <a name="install-the-add-in"></a><a name="install"></a>安装加载项
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a>安装或更新加载项和解决方案
 
-按照以下步骤安装加载项，以便您可以使用全球库存核算。
+使用以下过程安装或更新全球库存核算加载项和解决方案。 您应遵循的过程部分取决于您是第一次安装还是只需要更新现有安装的解决方案。
+
+- 如果您以前从未安装过加载项，请按照完整过程安装加载项和解决方案。
+- 如果您已在使用全局库存核算，但需要在 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)更新解决方案，请仅执行第 6 步并跳过所有其他步骤。
+
+要安装或更新加载项和解决方案：
 
 1. 登录 [LCS](https://lcs.dynamics.com/Logon/Index)。
 1. 打开要在其中添加服务的 LCS 环境。
 1. 转到 **完整详细信息**。
 1. 转到 **Power Platform 集成**，然后选择 **设置**。
 1. 在 **Power Platform 环境设置** 对话框中，选中该复选框，然后选择 **设置**。 通常，设置需要 60 到 90 分钟。
-1. Microsoft Power Platform 环境设置完成后，登录到 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)，然后通过执行以下步骤安装全球库存核算加载项：
-   1. 选择要安装加载项的环境。
+1. Microsoft Power Platform 环境设置完成后，登录到 [Power Platform 管理中心](https://admin.powerplatform.microsoft.com)，然后通过执行以下步骤安装或更新全球库存核算解决方案：
+   1. 选择要安装或更新解决方案的环境。
    1. 选择 **Dynamics 365 应用**。
    1. 选择 **安装应用**。
    1. 选择 **Dynamics 365 全球库存核算**。
    1. 选择 **下一步** 以进行安装。
-1. 返回到 LCS 环境。 在 **环境加载项** 快速选项卡上，选择 **安装新加载项**。
+1. 完全安装解决方案后，返回到 LCS 环境。 在 **环境加载项** 快速选项卡上，选择 **安装新加载项**。
 1. 选择 **全球库存核算**。
 1. 按照安装指南操作，并同意条款和条件。
 1. 选择 **安装**。
 1. 在 **环境加载项** 快速选项卡上，您应该会看到正在安装全球库存核算。 几分钟后，状态应从 *正在安装* 变为 *已安装*。 （您可能必须刷新页面才能看到此更改。）此时，全球库存核算可以使用了。
 
 如果您的 Dataverse 安装的默认语言不是英语，请按照以下步骤操作：
+
 1. 转到 **高级设置 \> 管理 \> 语言**。
 1. 选择 *英语* (*LanguageCode=1033*)，然后选择 **应用**。
 

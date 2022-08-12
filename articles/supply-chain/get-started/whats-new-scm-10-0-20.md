@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3eadc447d8c0c443fa9d3eab220300e3eedf051d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888634"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123799"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 的新增功能或更改（2021 年 8 月）
 
@@ -71,7 +71,7 @@ ms.locfileid: "8888634"
 
 ## <a name="additional-resources"></a>其他资源
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
+### <a name="platform-updates-for-finance-and-operations-apps"></a>财务和运营应用的平台更新
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.20 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.20 的平台更新（2021 年 7 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md)。
 
@@ -98,3 +98,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.20 中包含平台更新。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

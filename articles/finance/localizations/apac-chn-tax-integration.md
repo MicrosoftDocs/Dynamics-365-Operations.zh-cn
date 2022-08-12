@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6508cd94afad4271300edded411f301df906e6c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 69cd5de4113c88ccb98577910f2c2d467c6bcbf7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846634"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066336"
 ---
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 
@@ -69,7 +69,7 @@ ms.locfileid: "8846634"
 
 ## <a name="additional-resources"></a>其他资源
 
-- [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)（不适用于 Microsoft Dynamics 365 for Finance and Operations 版本 10.0 \[2019 年四月\]及更高版本）
+- [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)（不适用于 Microsoft Dynamics 365 Finance 版本 10.0 \[2019 年四月\]及更高版本）
 - [增值税客户发票的中国税务集成修改常见问题](apac-chn-tax-integration-vat-customer-invoices.md)
 - [设置中国的基本税务集成模板](./tasks/set-up-basic-tax-integration-profile-china.md)
 

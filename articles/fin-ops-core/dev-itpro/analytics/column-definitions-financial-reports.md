@@ -1,26 +1,27 @@
 ---
 title: 财务报表中的列定义
 description: 本文提供了有关列定义的信息。 列定义是一个报表组件，在报表上定义列的内容。
-author: ShylaThompson
+author: aprilolson
 ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 106601
-ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 199dceb91195a3488dd269786a8cd59811d8d828db686c3636e3d6320c77bbeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "106601"
+ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
+ms.search.form: FinancialReports
+ms.openlocfilehash: 30d00f50844f7ad040d3c054726b7cc1a7e85d01
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729087"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206373"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 
@@ -547,7 +548,7 @@ ms.locfileid: "6729087"
 
 ### <a name="calculation-column-in-a-column-definition"></a>列定义中的计算列
 
-列定义中的 **CALC** 列类型支持 **公式** 单元格中的复杂计算，并且可包含 **+**、**-**、**\**和*/** 运算符以及 **IF/THEN/ELSE** 语句。 计算列还可引用任何其他列，甚至后续列。 此外，计算列还可以包括会计年度和期间以支持相应列的标题。 计算公式最多可包含 1024 个字符。 若要以百分比形式表示计算结果，可使用特殊格式替代。
+列定义中的 **CALC** 列类型支持 **公式** 单元格中的复杂计算，并且可包含 **+**、**-**、**\**_ 和 _*/** 运算符以及 **IF/THEN/ELSE** 语句。 计算列还可引用任何其他列，甚至后续列。 此外，计算列还可以包括会计年度和期间以支持相应列的标题。 计算公式最多可包含 1024 个字符。 若要以百分比形式表示计算结果，可使用特殊格式替代。
 
 > [!NOTE]
 > 计算公式的结果不包括非打印列范围中的值。 例如，**A:D** 将打印 **0**（零），而针对非打印值的 **A+B+C** 将计算此值。

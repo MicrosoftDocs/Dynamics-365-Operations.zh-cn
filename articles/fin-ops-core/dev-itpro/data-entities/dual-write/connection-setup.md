@@ -2,19 +2,19 @@
 title: 双写入设置指南
 description: 本文介绍支持双写入的方案。
 author: RamaKrishnamoorthy
-ms.date: 10/12/2020
+ms.date: 06/28/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: a0d1b4e1f093874a8fd37cf7aadb331cd1e7adc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 15dfb609b5e25b4faf2b913cc2310df71c88a74d
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873140"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111240"
 ---
 # <a name="guidance-for-dual-write-setup"></a>双写入设置指南
 
@@ -26,8 +26,9 @@ ms.locfileid: "8873140"
 
 可以在财务和运营环境与 Dataverse 环境之间建立双写入连接。
 
-+ **Finance and Operations 环境** 为 **财务和运营应用**（例如，Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Human Resources）提供基础平台。
++ **财务和运营环境** 为 **财务和运营应用**（例如，Microsoft Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Commerce 和 Dynamics 365 Human Resources）提供基础平台。
 + **Dataverse 环境** 为 **客户互动应用**（Dynamics 365 Sales、Dynamics 365 Customer Service、Dynamics 365 column Service、Dynamics 365 Marketing 和 Dynamics 365 Project Service Automation）提供基础平台。
+
 
 > [!IMPORTANT]
 > Dynamics 365 Finance 中的人力资源模块支持双写入连接，但 Dynamics 365 Human Resources 应用不支持。
@@ -107,7 +108,7 @@ ms.locfileid: "8873140"
 
 ## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>一个现有的财务和运营应用实例和一个新的客户互动应用实例
 
-若要在一个现有的财务和运营应用实例与一个新的客户互动应用实例之间设置双写入连接，需要在 Finance and Operation 环境中进行。
+若要在一个现有的财务和运营应用实例与一个新的客户互动应用实例之间设置双写入连接，需要在财务和运营环境中进行。
 
 1. [从财务和运营应用设置连接](enable-dual-write.md)。
 2. 对要同步其数据的表运行 **初始同步** 功能。
@@ -116,7 +117,7 @@ ms.locfileid: "8873140"
 
 ## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>一个现有的财务和运营应用实例和一个现有的客户互动应用实例
 
-若要在一个现有的财务和运营应用实例与一个现有的客户互动应用实例之间设置双写入连接，需要在 Finance and Operation 环境中进行。
+若要在一个现有的财务和运营应用实例与一个现有的客户互动应用实例之间设置双写入连接，需要在财务和运营环境中进行。
 
 1. [从财务和运营应用设置连接](enable-dual-write.md)。
 2. 若要将现有 Dataverse 数据同步到财务和运营应用，请使用三个字母的 ISO 公司代码[引导](bootstrap-company-data.md) Dataverse 数据。

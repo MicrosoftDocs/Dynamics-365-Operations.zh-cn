@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867264"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103929"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>美国政府社区云 (GCC) 中的 Dynamics 365 Finance、Supply Chain Management 和 Commerce
 
@@ -84,3 +84,4 @@ ms.locfileid: "8867264"
 - [云部署概览](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

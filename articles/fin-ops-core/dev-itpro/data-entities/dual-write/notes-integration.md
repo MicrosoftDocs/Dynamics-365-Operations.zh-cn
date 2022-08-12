@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876706"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111447"
 ---
 # <a name="note-integration"></a>注释集成
 
@@ -68,7 +68,7 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 
 您还可以在财务和运营应用中创建注释，然后它将同步到客户互动应用。
 
-要在财务和运营应用中创建注释，然后将其同步到客户互动应用，请按照以下步骤操作。
+要在财务和运营应用中创建注释，然后将其同步到 Customer Engagement 应用，请按照以下步骤操作。
 
 1. 在财务和运营应用中，在 **附件** 页面上选择 **新建** \> **注释**。
 
@@ -121,3 +121,4 @@ Microsoft 当前正在发布注释集成功能。 （活动集成功能将在稍
 安装注释解决方案后，无法卸载它。 
 
 有关更多信息，请参见[双重写入映射参考](mapping-reference.md)。
+

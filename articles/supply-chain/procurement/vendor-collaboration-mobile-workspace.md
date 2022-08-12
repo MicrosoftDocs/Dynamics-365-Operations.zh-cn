@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 75c044d1133e1c4765cd97f4ab7e2a08ba998c35
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851643"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112141"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>供应商协作移动工作区
 
@@ -28,7 +28,7 @@ ms.locfileid: "8851643"
 
 本文提供有关 **供应商协作** 移动工作区的信息。 此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。
 
-此工作区应该与财务与运营 (Dynamics 365) 移动应用结合使用。
+此工作区应该与财务和运营 (Dynamics 365) 移动应用结合使用。
 
 ## <a name="overview"></a>概述 
 **供应商协作** 移动工作区通知供应商有关新采购订单的信息，以便供应商可以在 Web 客户端中查看和响应采购订单。 
@@ -110,7 +110,7 @@ ms.locfileid: "8851643"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装财务与运营 (Dynamics 365) 移动应用：
+下载并安装财务和运营 (Dynamics 365) 移动应用：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -171,3 +171,4 @@ ms.locfileid: "8851643"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

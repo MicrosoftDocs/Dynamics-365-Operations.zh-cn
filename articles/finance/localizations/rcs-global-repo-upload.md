@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f73f7189ad82d85169a4e0df573dd26dab8bb009
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894734"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070591"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>在 Regulatory Configuration Service (RCS) 中创建 ER 配置并上传到全局知识库
 
@@ -37,7 +37,7 @@ ms.locfileid: "8894734"
 
 必须确保为组织预配 RCS 环境。 如果您没有为组织预配 RCS 实例，则可以使用以下步骤执行此操作：
 
-1. 在 Finance and Operations 应用中，转到 **组织管理** \> **工作区** \> **电子报告**。
+1. 在财务和运营应用中，转到 **组织管理** \> **工作区** \> **电子报告**。
 2. 在 **相关链接/外部链接** 中，选择 **Regulatory services – 配置**，然后按照说明进行 **注册** 以预配一个。
 
 如果已经为组织预配了 RCS 环境，请使用页面 URL 访问该环境，然后选择 **注册** 选项。
@@ -105,3 +105,4 @@ ms.locfileid: "8894734"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

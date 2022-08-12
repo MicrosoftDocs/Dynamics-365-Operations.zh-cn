@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.28 的预览（2022 年 8 月）
+title: Dynamics 365 Supply Chain Management 10.0.28 的新增功能或更改（2022 年 8 月）
 description: 本文介绍 Microsoft Dynamics 365 Supply Chain Management 10.0.28 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 05/27/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902044"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186510"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management 10.0.28 的预览（2022 年 8 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management 10.0.28 的新增功能或更改（2022 年 8 月）
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本文列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.28 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.1264，并按以下时间表提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.28 中的新增或更改的功能。 此版本的构建版本号为 10.0.1264，并按以下时间表提供：
 
 - **版本预览：** 2022 年 5 月
 - **版本正式发布（自行更新）：** 2022 年 7 月
@@ -35,7 +34,7 @@ ms.locfileid: "8902044"
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
 | 库存和物流 | [第三方货运转运商的到岸成本集成实体](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [到岸成本实体概览](../landed-cost/landed-cost-entities-overview.md) | 默认启用 |
-| 计划 | [需求驱动材料要求计划 (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | 即将推出 | 功能管理：<br>*(预览版)用于计划优化的 DDMRP* |
+| 计划 | [需求驱动材料要求计划 (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [需求驱动材料要求计划概述](../master-planning/planning-optimization/ddmrp-overview.md) | 功能管理：<br>*(预览版)用于计划优化的 DDMRP* |
 | 计划 | [可承诺量 (CTP) 的计划优化支持](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | 即将推出 | 功能管理：<br>*(预览版)用于计划优化的 CTP* |
 | 计划 | [保质期计划优化支持](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | 即将推出 | 默认启用 |
 
@@ -66,7 +65,7 @@ ms.locfileid: "8902044"
 
 ## <a name="additional-resources"></a>其他资源
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
+### <a name="platform-updates-for-finance-and-operations-apps"></a>财务和运营应用的平台更新
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.28 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.28 的平台更新（2022 年 6 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md)。
 
@@ -92,3 +91,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.28 中包含平台更新。 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

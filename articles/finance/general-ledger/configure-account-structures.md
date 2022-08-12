@@ -2,7 +2,7 @@
 title: 配置帐户结构
 description: 本文提供有关科目结构和财务维度的信息。
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907971"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141269"
 ---
 # <a name="configure-account-structures"></a>配置科目结构
 
@@ -91,6 +91,8 @@ ms.locfileid: "8907971"
 设置科目结构时，可以遵循一些最佳实践。 但是，这只是指导，所以在通盘讨论中应考虑业务、成长计划和维持计划。
 
 - 让主科目成为科目结构的第一项或尽量靠近科目结构前面，这样用户就可以在录入科目时获得最佳的引导式体验。
+  
+  - 验证您打算在第一个位置使用支持主科目的任何第三方解决方案。
 
 - 尽量重复使用科目结构，以减少法人中的维护。
 

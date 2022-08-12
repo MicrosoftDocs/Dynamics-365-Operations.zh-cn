@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec5a9dac1d3b1288d060fe92ec94e6a105f84be8
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: b0d3869b93f6ecf4f70df6b394ce18a77318b83c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015279"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111775"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>采购主页
 
@@ -54,7 +54,7 @@ ms.locfileid: "9015279"
 -   [供应商与客户协作](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [管理供应商协作用户](manage-vendor-collaboration-users.md)
 -   [设置和维护供应商协作](set-up-maintain-vendor-collaboration.md)
--   [Microsoft Dynamics 365 for Finance and Operations 的入站托运库存演示脚本](https://www.microsoft.com/download/details.aspx?id=101945)（白皮书）
+-   [入站托运库存演示脚本](https://www.microsoft.com/download/details.aspx?id=101945)（白皮书）
 -   [使用供应商协作监控托运库存](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [供应商协作移动工作区](vendor-collaboration-mobile-workspace.md)
 

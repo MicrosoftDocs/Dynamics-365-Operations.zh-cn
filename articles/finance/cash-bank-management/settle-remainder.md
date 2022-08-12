@@ -1,7 +1,7 @@
 ---
 title: 结算余额
 description: 您可以通过将余额应用到会计科目来结算结算活动的剩余金额。
-author: twheeloc
+author: angelad116
 ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVen
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: angelading
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 1b50098470cfa070a6c430e65f2fa24317c14b97
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182396"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151172"
 ---
 # <a name="settle-remainder"></a>结算余额
 

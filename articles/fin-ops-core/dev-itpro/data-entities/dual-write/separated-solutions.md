@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874803"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111651"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>分隔的双重写入应用程序业务流程包
 
@@ -26,14 +26,14 @@ ms.locfileid: "8874803"
 以前，双重写入应用程序流程包是包含以下解决方案的单个包：
 
 - Dynamics 365 说明
-- Dynamics 365 Finance and Operations 公用定位点
-- Dynamics 365 Finance and Operations 双写入实体映射
+- Dynamics 365 财务和运营公用定位点
+- Dynamics 365 财务和运营双写入实体映射
 - Dynamics 365 资产管理应用
 - Dynamics 365 资产管理
 - HCM 常用
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations 公用
+- Dynamics 365 财务和运营公用
 - Dynamics 365 公司
 - 币种汇率
 - Field Service Common
@@ -51,14 +51,14 @@ ms.locfileid: "8874803"
 | 唯一名称                           | 显示的名称                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 公司                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations 公用 |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 财务和运营公用 |
 | CurrencyExchangeRates                 | 币种汇率                    |
 | msdyn_DualWriteAppCoreMaps            | 双重写入应用程序核心实体映射   |
 | msdyn_DualWriteAppCoreAnchor          | 双重写入应用程序核心定位点        |
 
 此包中提供以下映射。
 
-| Finance and Operations 应用     | 客户互动应用                    |
+| 财务和运营应用     | 客户互动应用                    |
 |---------------------------------|---------------------------------------------|
 | 运营单位                  | msdyn_internalorganizations                 |
 | 组织层次结构          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ ms.locfileid: "8874803"
 
 此包中提供以下映射。
 
-| Finance and Operations 应用 | 客户互动应用         |
+| 财务和运营应用 | 客户互动应用         |
 |-----------------------------|----------------------------------|
 | 所属种族              | cdm_ethnicorigins                |
 | 薪酬工作职能   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ ms.locfileid: "8874803"
 
 此包中提供以下映射。
 
-| Finance and Operations 应用                 | 客户互动应用                      |
+| 财务和运营应用                 | 客户互动应用                      |
 |---------------------------------------------|-----------------------------------------------|
 | 单位                                       | uoms                                          |
 | CDS 销售订单标题                     | salesorders                                   |
@@ -197,7 +197,7 @@ ms.locfileid: "8874803"
 
 此包中提供以下映射。
 
-| Finance and Operations 应用             | 客户互动应用        |
+| 财务和运营应用             | 客户互动应用        |
 |-----------------------------------------|---------------------------------|
 | 预缴税金组                  | msdyn_withholdingtaxgroups      |
 | CDS 联系人 V2（客户）              | 联系人                        |
@@ -247,7 +247,7 @@ ms.locfileid: "8874803"
 
 此包中提供以下映射。
 
-| Finance and Operations                     | Customer Engagement |
+| 财务和运营                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | 销售订单头文档附件    | 注释         |
 | 客户附件                       | 注释         |
@@ -274,7 +274,7 @@ ms.locfileid: "8874803"
 
 此包中提供以下映射。
 
-| Finance and Operations 应用                           | 客户互动应用                |
+| 财务和运营应用                           | 客户互动应用                |
 |-------------------------------------------------------|-----------------------------------------|
 | 资产管理保修                             | msdyn_warranties                        |
 | 资产管理模型                               | msdyn_models                            |
@@ -314,7 +314,7 @@ Project Operations 依赖于以下包。 因此，您应先安装这些包，然
 
 此包中提供以下映射。
 
-| Finance and Operations 应用 | 客户互动应用 | 
+| 财务和运营应用 | 客户互动应用 | 
 |-----------------------------|--------------------------|
 | CDS 当事方 | msdyn_parties | 
 | CDS 邮政地址位置 | msdyn_postaladdresscollections | 
@@ -344,3 +344,4 @@ Project Operations 依赖于以下包。 因此，您应先安装这些包，然
 - 双重写入应用程序核心包
 - 双重写入 Finance 包
 - 双重写入供应链包
+

@@ -1,27 +1,28 @@
 ---
 title: 成本管理 Power BI 内容
 description: 本文介绍成本管理 Power BI 内容中的内容。
-author: ShylaThompson
+author: JennySong-SH
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 270314
-ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: kfend
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "270314"
+ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.search.industry: Manufacturing
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
+ms.openlocfilehash: 7dcc8b2df62b250c59e343e0def5840f1b4f5432
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876854"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205689"
 ---
 # <a name="cost-management-power-bi-content"></a>成本管理 Power BI 内容
 
@@ -168,9 +169,9 @@ ms.locfileid: "8876854"
 
 以下对象的关键聚合度量用作 Power BI 内容的基础。
 
-| 对象                          | 关键聚合度量 | Finance and Operations 的数据源 | 字段               |
+| 对象                          | 关键聚合度量 | 财务和运营的数据源 | 字段               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
-| CostObjectStatementCacheMonthly | 时长                     | CostObjectStatementCache               | 时长              |
+| CostObjectStatementCacheMonthly | 金额                     | CostObjectStatementCache               | 时长              |
 | CostObjectStatementCacheMonthly | 数量                   | CostObjectStatementCache               | 数量                 |
 | CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
 | CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
@@ -203,3 +204,4 @@ ms.locfileid: "8876854"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

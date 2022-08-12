@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 388be651164af622dbabd7b2c7b3437233454bea
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862146"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108592"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>使用 Excel 查看和更新实体数据 
 
@@ -146,3 +146,4 @@ Excel 工作簿模板作者可以使用相同的过程来设置模板的发布�
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

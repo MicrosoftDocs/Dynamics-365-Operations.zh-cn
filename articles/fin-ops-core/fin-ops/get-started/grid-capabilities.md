@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890049"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124701"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -35,10 +35,10 @@ ms.locfileid: "8890049"
 - 可扩展列
 
 ## <a name="calculating-totals"></a>正在计算合计
-在 Finance and Operations 应用中，用户可以在网格中数字列的底部查看总计。 网格底部的页脚部分显示这些总计。 
+在财务和运营应用中，用户可以在网格中数字列的底部查看总计。 网格底部的页脚部分显示这些总计。 
 
 ### <a name="showing-the-grid-footer"></a>显示网格页脚
-下面是 Finance and Operations 应用中每个选项卡式网格底部的页脚区域。 此页脚可显示与网格中显示的数据有关的宝贵信息。 下面是这些信息的一些示例：
+下面是财务和运营应用中每个选项卡式网格底部的页脚区域。 此页脚可显示与网格中显示的数据有关的宝贵信息。 下面是这些信息的一些示例：
 
 - 表中选定的行数（当选择多个记录时）
 - 已配置数字列底部的总计
@@ -86,7 +86,7 @@ ms.locfileid: "8890049"
 当用户在服务器要处理的地方之前输入数据时，他们的数据输入体验可能会有所下降，如缺少查找、控制级别验证和默认值输入。 建议需要下拉列表来查找值的用户等待服务器开始处理当前行时再操作。 当服务器处理该行时，也将进行控制级验证和默认值的输入。
 
 ### <a name="pasting-from-excel"></a>从 Excel 粘贴
-通过使用 **导出到 Excel** 机制，用户始终能够将 Finance and Operations 应用内网格中的数据导出到 Microsoft Excel。 但是，能够提前于系统输入数据的功能使新网格能够支持从 Excel 复制表并将其直接粘贴到 Finance and Operations 应用内的网格中。 从其发起粘贴操作的网格单元确定复制表开始粘贴的位置。 网格的内容将被复制表的内容覆盖，以下两种情况除外：
+通过使用 **导出到 Excel** 机制，用户始终能够将财务和运营应用内网格中的数据导出到 Microsoft Excel。 但是，能够提前于系统输入数据的功能使新网格能够支持从 Excel 复制表并将其直接粘贴到财务和运营应用内的网格中。 从其发起粘贴操作的网格单元确定复制表开始粘贴的位置。 网格的内容将被复制表的内容覆盖，以下两种情况除外：
 
 - 如果复制表中的列数超过网格中剩余的列数（从粘贴位置开始），将通知用户多余列已被忽略。 
 - 如果复制表中的行数超过网格中的行数（从粘贴位置开始），现有单元将被粘贴的内容覆盖，复制表中多余的行将作为新行插入到网格底部。 
@@ -97,7 +97,7 @@ ms.locfileid: "8890049"
 要使系统将值识别为表达式，请将值以等号 (**=**) 开头。 有关受支持的运算符和语法的详细信息，请参阅[支持的数学符号](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols)。
 
 ## <a name="grouping-tabular-data"></a>为表格式数据分组
-业务用户通常需要执行专门的数据分析。 尽管可以通过将数据导出到 Microsoft Excel 并使用数据透视表来完成此操作，但依赖于新网格控件功能的 **网格中的分组** 功能允许用户在 Finance and Operations 应用中以有趣的方式组织其表格式数据。 因为此功能扩展 **总计** 功能，**分组** 允许您通过在组级别提供小计来获得有意义的数据见解。
+业务用户通常需要执行专门的数据分析。 尽管可以通过将数据导出到 Microsoft Excel 并使用数据透视表来完成此操作，但依赖于新网格控件功能的 **网格中的分组** 功能允许用户在财务和运营应用中以有趣的方式组织其表格式数据。 因为此功能扩展 **总计** 功能，**分组** 允许您通过在组级别提供小计来获得有意义的数据见解。
 
 要使用此功能，右键单击分组所基于的列，然后选择 **按此列分组**。 此操作将按所选列对数据进行排序，将新的 **分组依据** 列添加到网格的开头，并在每个组的开头插入“标题行”。 这些标题行提供有关每个组的以下信息：
 
@@ -200,3 +200,4 @@ ms.locfileid: "8890049"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

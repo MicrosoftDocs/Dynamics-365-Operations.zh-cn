@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 756895ab0ccdbd2bc42f0a750ad9895ee7b284a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9e5160cc3961703475ffb8dc4a4daf2ae872aaba
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847151"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124916"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>财务和运营应用的服务描述
 
@@ -61,7 +61,7 @@ ms.locfileid: "8847151"
 
 ### <a name="microsoft-responsibilities"></a>Microsoft 的职责
 
-Microsoft 通过在 Microsoft SaaS 订阅中部署，主动监控和服务客户的沙盒环境和生产环境来管理 财务和运营服务。 此管理包括分配所需系统基础结构以运行该服务，以及主动与客户沟通服务的运行状况。 职责包括：
+Microsoft 通过在 Microsoft SaaS 订阅中部署，主动监控和服务客户的沙盒环境和生产环境来管理财务和运营服务。 此管理包括分配所需系统基础结构以运行该服务，以及主动与客户沟通服务的运行状况。 职责包括：
 
 **基础结构管理**
 - 安全和隔离
@@ -264,7 +264,7 @@ Microsoft 在每年的以下月份发布八个针对财务和运营应用的服�
 | 环境类型 | 目的 | 客户访问权限级别 |
 |---|---|---|
 | **非生产**<br>第 1 层沙盒 | 客户为开发、演示或培训目的部署的非生产环境。 | 第 1 层沙盒（也称为云托管环境）是从 LCS 部署到客户的 Azure 订阅的客户托管 VM。 由于它是客户 Azure 订阅中的 VM，因此客户拥有通过远程桌面的环境完全管理访问权限。 |
-| **非生产**<br>第 2 层（或更高）沙盒 | 客户为用户接受度测试、集成测试、培训、暂存或任何其他生产前方案部署的非生产环境。 | 第 2 层及以上沙盒将部署到 财务和运营 SaaS 订阅。 将通过[即时访问](../../dev-itpro/database/database-just-in-time-jit-access.md)授予与非生产环境关联的 Azure SQL 数据库的访问权限。 不可访问远程桌面。 |
+| **非生产**<br>第 2 层（或更高）沙盒 | 客户为用户接受度测试、集成测试、培训、暂存或任何其他生产前方案部署的非生产环境。 | 第 2 层及以上沙盒将部署到财务和运营 SaaS 订阅。 将通过[即时访问](../../dev-itpro/database/database-just-in-time-jit-access.md)授予与非生产环境关联的 Azure SQL 数据库的访问权限。 不可访问远程桌面。 |
 | **生产** | 当项目[准备好初始实现](../imp-lifecycle/environment-planning.md#production-system-readiness)时，将部署生产环境。. | 将把生产环境部署到 SaaS 订阅。 所有访问都通过浏览器、服务终结点或 LCS 进行。 |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft 管理访问权限
@@ -307,7 +307,7 @@ Microsoft 根据严重性级别响应和解决事件。 可以在最初评估事
 
 如果使用灾难恢复恢复客户的生产实例，Microsoft 和客户需要履行自己的[事件管理](service-description.md#incident-management)职责。
 
-将通过系统和组织控制 (SOC) 审核定期检查 Microsoft 的灾难恢复计划和过程。 这些合规性审审核证实 Microsoft DR（包括 Dynamics 365 财务和运营应用）的技术和程序性流程。 [Microsoft 信任中心合规产品](/compliance/regulatory/offering-home)中提供 [SOC 合规性](/compliance/regulatory/offering-soc-2)审核报告和其他所有报告。
+将通过系统和组织控制 (SOC) 审核定期检查 Microsoft 的灾难恢复计划和过程。 这些合规性审核证实 Microsoft DR（包括 Dynamics 365 财务和运营应用）的技术和程序性流程。 [Microsoft 信任中心合规产品](/compliance/regulatory/offering-home)中提供 [SOC 合规性](/compliance/regulatory/offering-soc-2)审核报告和其他所有报告。
 
 ## <a name="finance-and-operations-support-offerings"></a>财务和运营支持产品/服务
 
@@ -428,3 +428,4 @@ Microsoft 通过服务更新始终如一地服务财务和运营环境。 客户
 ### <a name="user"></a>用户
 
 使用财务和运营环境的个人和与客户的租户关联的个人。
+

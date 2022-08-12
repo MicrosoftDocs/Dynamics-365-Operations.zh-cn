@@ -1,26 +1,27 @@
 ---
 title: 销售和收益率绩效 Power BI 内容
 description: 本文介绍销售和收益率绩效 Power BI 内容中的内容。
-author: ShylaThompson
+author: Henrikan
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 260674
-ms.assetid: ab457f02-929e-4d34-b813-335be3092287
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kfend
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8433250efad467e92aeaa851f0b60c3c1eced99c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "260674"
+ms.assetid: ab457f02-929e-4d34-b813-335be3092287
+ms.search.form: SalesProfitabilityPerformancePowerBI
+ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898673"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205592"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>销售和收益率绩效 Power BI 内容
 

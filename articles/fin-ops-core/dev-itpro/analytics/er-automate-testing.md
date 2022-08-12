@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6254d15d13e40007396c9f2a36a8cd3122dc2609
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892760"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109331"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>自动测试电子报告
 
@@ -57,7 +57,7 @@ ER 数据模型和 ER 模型映射支持大量 ER 格式，用于处理不同类
 必须先完成以下先决条件，才能完成本文中的任务：
 
 - 部署支持测试自动化的拓扑。 必须可以访问 **系统管理员** 角色的此拓扑的实例。 此拓扑中必须包含此示例中将使用的演示数据。 有关详细信息，请参阅[部署和使用支持连续生成和测试自动化的环境](../perf-test/continuous-build-test-automation.md)。
-- 若要自动运行用户接受度和集成测试，必须在要测试的拓扑中安装 RSAT，并以适当方式配置。 有关如何安装和配置 RSAT 以支持 Finance and Operations 应用程序和 Azure DevOps 的信息，请参阅 [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)。 请注意有关使用此工具的先决条件。 下图显示 RSAT 设置的示例。 蓝色方框中的是用于指定 Azure DevOps 的访问权限的参数。 蓝色方框内的是用于指定实例的访问权限的参数。
+- 若要自动运行用户接受度和集成测试，必须在要测试的拓扑中安装 RSAT，并以适当方式配置。 有关如何安装和配置 RSAT 以支持财务和运营应用和 Azure DevOps 的信息，请参阅 [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)。 请注意有关使用此工具的先决条件。 下图显示 RSAT 设置的示例。 蓝色方框中的是用于指定 Azure DevOps 的访问权限的参数。 蓝色方框内的是用于指定实例的访问权限的参数。
 
     ![RSAT 设置。](media/GER-Configure.png "“RSAT 设置”对话框的屏幕截图")
 

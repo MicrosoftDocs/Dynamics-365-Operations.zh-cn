@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884723"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112009"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Dataverse 中的组织层次结构
 
@@ -28,7 +28,7 @@ ms.locfileid: "8884723"
 
 ## <a name="data-flow"></a>数据流
 
-包含 Finance and Operations 应用和 Dataverse 的业务生态系统将继续采用组织层次结构。 这种组织层次结构基于 Finance and Operations 应用，并在 Dataverse 中显示以实现参考和扩展性目的。 下图显示在 Dataverse 中显示为从 Finance and Operations 应用到 Dataverse 的单向数据流的组织层次结构信息。
+包含财务和运营应用和 Dataverse 的业务生态系统将继续采用组织层次结构。 这种组织层次结构基于财务和运营应用，并在 Dataverse 中显示以实现参考和扩展性目的。 下图显示在 Dataverse 中显示为从财务和运营应用到 Dataverse 的单向数据流的组织层次结构信息。
 
 ![体系结构图像。](media/dual-write-data-flow.png)
 
@@ -38,7 +38,7 @@ ms.locfileid: "8884723"
 
 组织是共同工作以执行业务流程的群体。 组织层次结构表示构成您的公司的组织之间的关系。 您可以定义以下类型的内部组织：法人、运营单位和团队。 如下表所示，创建了一组表映射以同步法人、运营单位和相关的组织层次结构信息。
 
-Finance and Operations 应用 | 客户互动应用     | Description
+财务和运营应用 | 客户互动应用     | Description
 -----------------------|--------------------------------|---
 [法人](mapping-reference.md#102) | cdm_companies | 
 [法人](mapping-reference.md#142) | msdyn_internalorganizations |
@@ -52,3 +52,4 @@ Finance and Operations 应用 | 客户互动应用     | Description
 Dataverse 中的内部组织信息来自两个表：**运营单位** 和 **法人**。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

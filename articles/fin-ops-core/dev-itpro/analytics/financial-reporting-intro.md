@@ -6,23 +6,23 @@ ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinanicalReportingSetup
 audience: Application User
-ms.reviewer: kfend
-ms.custom:
-- "68813"
-- intro-internal
-ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20e2b4cb2b68500eeee06f1be5d95fc2cbab246f43b5e4a0e83eca7a8be53005
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "68813"
+- intro-internal
+ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
+ms.search.form: FinanicalReportingSetup
+ms.openlocfilehash: 76388cc797edcf29e4164255571b2aa4bd20638e
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769866"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205847"
 ---
 # <a name="financial-reporting"></a>财务报告
 

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882075"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111191"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 
@@ -89,3 +89,4 @@ ms.locfileid: "8882075"
 + 一些由 Microsoft 托管的旧财务和运营实例存在发现问题。 要解决此问题，请更新财务和运营实例。 通过任何更新，将可以发现环境。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

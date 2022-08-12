@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872490"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070655"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Excel 的预算计划模板
 
@@ -79,7 +79,7 @@ ms.locfileid: "8872490"
 [![添加和插入列。](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> 若要定义公式，请在电子表格中创建公式，然后将其复制到 **设计** 窗口中。 Finance and Operations 绑定表通常命名为“AXTable1”。 例如，若要计算电子表格中的 Request Q1 到 Request Q4 列之和，则公式 = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]。
+> 若要定义公式，请在电子表格中创建公式，然后将其复制到 **设计** 窗口中。 财务和运营绑定表通常命名为“AXTable1”。 例如，若要计算电子表格中的 Request Q1 到 Request Q4 列之和，则公式 = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]。
 
 重复此步骤以插入 **调整** 列。 为此列使用公式 = AxTable1\[Total request\]\*$I$1。 这将提取单元格 I1 中的值并乘以 **请求总数** 列中的值，以计算调整金额。
 
@@ -129,3 +129,4 @@ ms.locfileid: "8872490"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

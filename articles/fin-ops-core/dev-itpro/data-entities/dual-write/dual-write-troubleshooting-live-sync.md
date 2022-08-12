@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1211f7da15686f1c55a4c942f04c73d671e0ba6b
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896696"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111417"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 
@@ -43,7 +43,7 @@ ms.locfileid: "8896696"
 
 *无法将更改保存到数据库。工作单元无法提交事务。无法将数据写入实体 uoms。写入 UnitOfMeasureEntity 失败，并显示错误消息“无法与实体 uoms 同步”。*
 
-要解决此问题，请确保财务和运营应用和 Dataverse 中都存在必备的引用数据。 例如，客户记录属于特定客户组，请确保 Dataverse 中存在该客户组记录。
+要解决此问题，请确保财务和运营应用和 Dataverse 中都存在必备的参考数据。 例如，客户记录属于特定客户组，请确保 Dataverse 中存在该客户组记录。
 
 如果两处都存在数据，并且您已确认问题与数据无关，请按照以下步骤操作。
 
@@ -51,7 +51,7 @@ ms.locfileid: "8896696"
 2. 选择并删除在双重写入映射和项目中有问题的记录。 每个双重写入映射将有两条记录。
 3. 使用 Excel 加载项发布更改。 此步骤非常重要，因为它会从实体和基础表中删除记录。
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>在财务和运营应用中创建数据时处理读或写权限错误
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>在财务和运营应用中创建数据时处理读或写特权错误
 
 当您在财务和运营应用中创建数据时，您可能会收到“错误请求”错误消息。
 
@@ -355,3 +355,4 @@ public static container getEntityDataSourceToFieldMapping(container mapping)
 3. 启动映射。 您应该会发现 **smmContactPersonCDSV2Entity** 与 **CustCustomerV3Entity** 实体和 **BusinessEventsDefinition** 表中的记录减少，并且性能可能稍微提升。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

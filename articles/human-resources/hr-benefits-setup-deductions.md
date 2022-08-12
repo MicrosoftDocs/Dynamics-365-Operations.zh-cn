@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4817cd6370166b6dfdf17b3d733b13374db8f49
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fb5f5b0b50f407f58193aafd79f28dd1fd432ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694898"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066783"
 ---
 # <a name="configure-deductions"></a>配置扣缴
 
@@ -45,7 +45,7 @@ ms.locfileid: "8694898"
    | **标题** | 在处理工资单的福利时，该扣缴针对扣缴中员工部分所使用的工资系统中的标题代码。 这在您使用第三方工资单提供程序时会用到。 |
    | **员工工资扣缴引用** | 在处理工资单的福利时，该扣缴针对扣缴中员工部分所使用的工资系统中的代码。 |
    | **金额标题** | 在处理工资单的福利时，该扣缴金额针对扣缴中员工部分所使用的工资系统中的标题代码。 这通常在您使用第三方工资单提供程序时会用到。 |
-   | **可以删除** | 指定从 Dynamics 365 for Finance and Operations 导出的值是否可以让该值在工资系统中删除。 |
+   | **可以删除** | 指定从 Dynamics 365 Finance 导出的值是否可以让该值在工资系统中删除。 |
    | **已配对的列** | 指定是否将已配对的相邻列中的标题和扣缴金额导出到工资系统。 |
    | **更改生效日期** | 福利扣缴更改的生效日期。 在此日期，只要您运行 **扣缴更改更新** 处理，福利扣缴都将改变，并更新与此扣缴相关联的所有福利计划。 |
    | **已完成扣缴更改** | 在扣缴更新更改处理完成福利扣缴更改后，将自动选中 **已完成扣缴更改** 复选框。 |
@@ -56,3 +56,4 @@ ms.locfileid: "8694898"
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

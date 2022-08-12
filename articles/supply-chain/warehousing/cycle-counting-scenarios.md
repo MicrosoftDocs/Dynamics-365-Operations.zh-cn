@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899315"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068587"
 ---
 # <a name="cycle-counting-example-scenarios"></a>周期盘点示例场景
 
@@ -127,7 +127,7 @@ ms.locfileid: "8899315"
 1. 在列表窗格中，选择仓库 *61*。 如果没有现有记录具有此名称，则创建它。
 1. 在 **仓库** 快速选项卡上，设置以下值：
 
-    - **使用仓库管理流程**：*是*（此值为仓库管理流程启用仓库。）
+    - **使用仓库管理流程**：*是*（此值为仓库管理流程 (WMS) 启用仓库。）
     - **允许在周期盘点期间移动牌照**：*是*（此值使工作人员可以在周期盘点期间移动牌照。）
 
 ## <a name="scenario-1-guided-cycle-counting"></a>场景 1：指导周期盘点

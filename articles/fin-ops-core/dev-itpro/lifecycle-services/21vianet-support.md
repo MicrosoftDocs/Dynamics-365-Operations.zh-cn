@@ -1,6 +1,6 @@
 ---
-title: 对中国世纪互联运营的 Finance and Operations 的支持
-description: Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。
+title: 由 21Vianet 在中国运营的财务和运营的支持
+description: 财务和运营应用通过世纪互联提供大量自助服务支持选项和支持。
 author: ShylaThompson
 ms.date: 10/02/2019
 ms.topic: article
@@ -12,25 +12,25 @@ ms.search.region: China (PRC)
 ms.author: sericks
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af909fe7f1e7049ed80f101808a2895a7792572e3132c3c18c3afc6e24358175
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47482df31c9e6148addbd1e4354854384980459a
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775270"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103473"
 ---
-# <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>对中国世纪互联运营的 Finance and Operations 的支持
+# <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>由 21Vianet 在中国运营的财务和运营的支持
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations 应用通过世纪互联提供大量自助服务支持选项和支持。
+财务和运营应用通过世纪互联提供大量自助服务支持选项和支持。
 
 ## <a name="self-help-resources"></a>自助资源
 
 
-- [Finance and Operations 应用程序文档](../../fin-ops/index.md)
+- [财务和运营应用程序文档](../../fin-ops/index.md)
 - [Supply Chain Management 的帮助资源](../../../supply-chain/index.md)
-- [Finance and Operations 应用 - 由世纪互联在中国运营](../deployment/china-local-deployment.md)
+- [财务和运营应用由世纪互联在中国运营](../deployment/china-local-deployment.md)
 - [Dynamics 社区](https://community.dynamics.com/)
 - [Microsoft Learn](/learn/)
 
@@ -81,7 +81,7 @@ Finance and Operations 应用通过世纪互联提供大量自助服务支持选
 
 ## <a name="additional-resources"></a>其他资源
 - [由世纪互联运营的 Dynamics 365 支持网站（中文）](https://www.21vbluecloud.com/Dynamics365/)
-- [Finance and Operations 应用 - 由世纪互联在中国运营](../deployment/china-local-deployment.md)
+- [财务和运营应用由世纪互联在中国运营](../deployment/china-local-deployment.md)
 - [Dynamics 365 中的模型驱动应用 - 由世纪互联在中国运营](/dynamics365/customer-engagement/admin/datacenter/21vianet-support)
 - [Dynamics 365 隐私声明 (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)

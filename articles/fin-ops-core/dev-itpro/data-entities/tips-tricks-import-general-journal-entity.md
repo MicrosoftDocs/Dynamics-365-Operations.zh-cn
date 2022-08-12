@@ -11,15 +11,15 @@ ms.reviewer: sericks
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: rcarlson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a5917a047d3098875f3ab95087e761e6428c18b
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867602"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135710"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>使用普通日记帐实体导入凭证
 

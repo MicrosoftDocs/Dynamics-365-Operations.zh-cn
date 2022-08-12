@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853339"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070625"
 ---
 # <a name="plan-your-chart-of-accounts"></a>计划您的会计科目表
 
@@ -43,7 +43,7 @@ ms.locfileid: "8853339"
 在 **会计科目表** 页创建会计科目表。 可以从 **会计科目表** 页或 **主科目** 页创建主科目。 您的主科目不应使用用作会计科目表分隔符的任何特殊字符。 否则，您可能遇到不稳定性，或者可能在输入科目和维度的组合时必须使用查找或对话框。 有关详细信息，请参阅[创建主科目](tasks/create-main-account.md)。
 
 > [!NOTE]
-> 在 Dynamics 365 for Finance and Operations 版本 8.0（2018 年 4 月）中，可从 **总帐参数** 页修改会计科目表分隔符。
+> 在 Dynamics 365 Finance 版本 8.0（2018 年 4 月）中，可从 **总帐参数** 页修改会计科目表分隔符。
 
 最好是将主科目与主科目类别链接，以便您可以利用默认财务报表，而不必进行任何修改。 因此，您可以迅速并轻松地设计和维护报表。
 
@@ -60,3 +60,4 @@ ms.locfileid: "8853339"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

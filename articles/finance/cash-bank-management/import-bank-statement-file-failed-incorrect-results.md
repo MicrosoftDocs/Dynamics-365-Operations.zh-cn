@@ -1,7 +1,7 @@
 ---
 title: 银行对帐单文件导入疑难解答
 description: 本文说明如何解决这些由银行对账单文件中的小差异引起的问题。
-author: panolte
+author: angelad116
 ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,22 @@ ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 44658ea48b9f7dae76c34c5f3d8828c9e8c4ac32
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711164"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151751"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>银行对帐单文件导入疑难解答
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>此功能将于 2022 年 9 月弃用，新用户应使用电子报告。
 
 银行的银行对帐单文件与 Microsoft Dynamics 365 Finance 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
 
@@ -39,7 +42,7 @@ ms.locfileid: "8711164"
 比较银行文件布局定义与 Finance 导入定义，注意字段和元素中的任何差异。 比较银行对账单文件与相关示例 Finance 文件。 在 ISO20022 文件中，应易于查看任何差异。
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>导入的银行对帐单中时区不同
-导入文件中的日期时间值可能与 Finance and Operations 中显示的日期时间值不同。 若要避免此项差异，请在 **配置数据源** 页中输入时区首选项。 有关输入时区首选项的详细信息，请参阅[设置高级银行对帐导入流程](set-up-advanced-bank-reconciliation-import-process.md)。
+导入文件中的日期时间值可能与财务和运营中显示的日期时间值不同。 若要避免此项差异，请在 **配置数据源** 页中输入时区首选项。 有关输入时区首选项的详细信息，请参阅[设置高级银行对帐导入流程](set-up-advanced-bank-reconciliation-import-process.md)。
 
 ## <a name="transformations"></a>转换
 通常，必须在三个转换之一中进行更改。 每个转换为特定标准写入。
@@ -109,3 +112,4 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

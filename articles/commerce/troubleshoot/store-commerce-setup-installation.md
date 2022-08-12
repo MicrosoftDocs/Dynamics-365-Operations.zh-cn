@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 92d4a9d78485b681b4e802f695d54f44ecd7c5de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8af2c476ced05fc159a53131f8b51ad914a6c7c3
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870458"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9168939"
 ---
 # <a name="troubleshoot-store-commerce-setup-and-installation-issues"></a>解决 Store Commerce 设置和安装问题
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 本文介绍如何解决 Microsoft Dynamics 365 Commerce Store Commerce 应用中的设置和安装问题。
 

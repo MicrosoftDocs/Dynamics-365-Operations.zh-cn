@@ -6,19 +6,19 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c78755946c7f07e1be7a57015e6c0c15317e6b76
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: HcmBenefitWorkspace
+ms.openlocfilehash: ed1fd0b86e44d022a4858e3b5bc61c83a8efd395
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848800"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206648"
 ---
 # <a name="benefits-power-bi-content"></a>福利 Power BI 内容
 

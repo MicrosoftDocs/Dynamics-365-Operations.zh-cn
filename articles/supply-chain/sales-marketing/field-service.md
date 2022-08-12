@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b0427d33ac39d34bccc302e58bb84e1ad4c3598c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 12a9c57e2587150914c6087c041d63af9783c1f3
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888432"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103688"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Microsoft Dynamics 365 Field Service 集成概览
 
@@ -73,7 +73,7 @@ Field Service 与 Supply Chain Management 集成的第二阶段是实现以下�
 ### <a name="system-requirements-for-supply-chain-management"></a>Supply Chain Management 的系统要求
 Field Service 集成支持以下版本：
 
-- Dynamics 365 for Finance and Operations 版本 8.1.2（2018 年 12 月）通过平台更新 22 (7.0.5095) 在 2018 年 12 月发布，具有应用程序内部版本号 8.1.195。 
+- Dynamics 365 财务和运营版本 8.1.2（2018 年 12 月）已于 2018 年 12 月发布，其中包含带平台更新 22 (7.0.5095) 的应用程序版本号 8.1.195。 
 
 ### <a name="system-requirements-for-field-service"></a>Field Service 的系统要求
 若要使用 Field Service 集成解决方案，必须安装以下组件：

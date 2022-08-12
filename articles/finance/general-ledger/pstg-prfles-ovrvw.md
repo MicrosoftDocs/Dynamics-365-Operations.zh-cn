@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876115"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135834"
 ---
 # <a name="posting-profiles-overview"></a>过帐模板概览
 
-在 Finance and Operations 应用中，术语 *过帐模板* 用于描述一些配置，这些配置控制子分类帐科目转换为主科目的方式，以便这些科目可用于过帐到总帐的交易。 例如，它们控制过帐发票时如何将客户转换为应收帐款主科目。
+在财务和运营应用中，术语 *过帐模板* 用于描述一些配置，这些配置控制子分类帐科目转换为主科目的方式，以便这些科目可用于过帐到总帐的交易。 例如，它们控制过帐发票时如何将客户转换为应收帐款主科目。
 
 某些模块和功能具有名称（例如，**客户过帐模板** 或 **供应商过帐模板**）中包含“过帐模板”字样的页面。 此外，某些模块具有多个选项，这些选项用于配置从子分类帐生成的交易的分类帐过帐。 例如，在 **生产控制** 模块中，您可以按生产组、资源或资源组设置过帐。
 
@@ -34,7 +34,7 @@ ms.locfileid: "8876115"
 
 ## <a name="posting-types"></a>过帐类型
 
-在 Finance and Operations 应用中，过帐类型用于定义借方或贷方的常规类别。 此类别与总帐中的主科目无关。 总帐中的每个借方或贷方都有过帐类型。
+在财务和运营应用中，过帐类型用于定义借方或贷方的常规类别。 此类别与总帐中的主科目无关。 总帐中的每个借方或贷方都有过帐类型。
 
 单个凭证可以具有一种或多种过帐类型。 例如，对于通过科目和对方科目设置为 **分类帐** 的一般日记帐过帐的交易，其借方和贷方的过帐类型均为 **分类帐日记帐**。 相反，供应商发票将具有多种过帐类型。 这些过帐类型将包括一个供应商余额行和其他抵销条目行，如 **分类帐日记帐**。
 
@@ -111,13 +111,14 @@ Dynamics 365 Finance、Dynamics 365 Supply Chain Management、Dynamics 365 Comme
 - 费用管理过帐（即将推出）
 - [固定资产过帐模板](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - 内部公司会计过帐（即将推出）
-- 库存过帐模板（即将推出）
+- [库存过帐](inventory-posting.md)
 - [到岸成本过帐](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [过帐定义概览](posting-definitions.md)
-- 生产控制过帐（即将推出）
+- [生产过帐](production-posting.md)
 - 项目管理与核算过帐（即将推出）
 - 服务管理过帐（即将推出）
 - 税务过帐（即将推出）
 - 考勤管理过帐（即将推出）
 - 运输管理过帐（即将推出）
 - 返点管理过帐模板（即将推出）
+

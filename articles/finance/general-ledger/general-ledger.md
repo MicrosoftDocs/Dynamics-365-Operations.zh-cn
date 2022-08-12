@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14aaf40ce64c8f8ba6277fa0883318e08505a464
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6cceabe652429e1c50d27db865700926e211958a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904548"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066350"
 ---
 # <a name="general-ledger-home-page"></a>总帐主页
 
@@ -61,7 +61,7 @@ ms.locfileid: "8904548"
 
 #### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 和 [Microsoft Dynamics 365 Finance and Operations - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials) 上查找相关意见、资讯及其他信息。
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 和 [Microsoft Dynamics 365 财务和运营 - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials) 上查找相关意见、资讯及其他信息。
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 Dynamics 365 中的新增功能和趋势的单一资源。
 
@@ -71,8 +71,9 @@ ms.locfileid: "8904548"
 
 #### <a name="community-blogs"></a>社区博客
 
-- [Dynamics 365 for Finance and Operations 中应该了解的分类帐信息](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
+- [Dynamics 365 Finance 中应该了解的分类帐信息](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 640a45e29627ffe56535c7d05419309688e8ecb6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859421"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069807"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
@@ -29,7 +29,7 @@ ms.locfileid: "8859421"
 
 本文提供有关 **现有库存量** 移动工作区的信息。 此工作区可帮助您随时随地洞察预留库存和可用库存。
 
-此工作区应该与财务与运营 (Dynamics 365) 移动应用结合使用。
+此工作区应该与财务和运营 (Dynamics 365) 移动应用结合使用。
 
 ## <a name="overview"></a>概述
 公司的库存通常每天有多次装运和多次收货。 这些活动不断改变现有库存状态。 可通过 **现有库存量** 移动工作区查看跨公司现有库存状态，以便您在所选移动设备上洞察最新的库存数据。 无论在处理仓库、采购销售、制造或管理，还是充当其他角色，都可以随时随地访问现有库存数据。 
@@ -94,7 +94,7 @@ ms.locfileid: "8859421"
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
-下载并安装财务与运营 (Dynamics 365) 移动应用：
+下载并安装财务和运营 (Dynamics 365) 移动应用：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -131,3 +131,4 @@ ms.locfileid: "8859421"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

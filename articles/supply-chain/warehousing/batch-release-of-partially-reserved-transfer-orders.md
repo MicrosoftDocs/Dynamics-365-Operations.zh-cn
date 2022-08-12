@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888374"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068622"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>部分预留的转移单批发布
 
@@ -28,7 +28,7 @@ ms.locfileid: "8888374"
 通过部分预留的转移单批发布功能可以使用批处理作业将转移单部分发布到仓库。
 由于您可以选择发布部分数量，因此您无需等到全部订单数量在仓库中可用后再发布订单。
 
-将订单发布到仓库是一项高级仓库管理流程。 此流程包括仓库工作人员使用移动设备可以执行的活动，如领料、包装和装运。
+将订单发布到仓库是一项仓库管理流程 (WMS) 流程。 此流程包括仓库工作人员使用移动设备可以执行的活动，如领料、包装和装运。
 
 ## <a name="where-it-applies"></a>适用情况
 

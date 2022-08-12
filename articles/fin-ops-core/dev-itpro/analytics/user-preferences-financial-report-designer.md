@@ -6,21 +6,22 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 31161
-ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 91fbe80bf52dc14e0c3e00f68d62192f04ef506b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "31161"
+ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
+ms.search.form: FinancialReports
+ms.openlocfilehash: 9abc4090cba9149136e2acd77ae363ff7e5777ec
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903544"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205754"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>财务报表设计器中的用户首选项
 

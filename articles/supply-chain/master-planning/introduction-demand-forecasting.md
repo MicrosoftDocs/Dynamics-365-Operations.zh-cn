@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1648808667c8bb9487e7a47b87d8e73cf442d82
-ms.sourcegitcommit: d98ecbd9457197ec8f8e281f9c2f24dcce7b8269
+ms.openlocfilehash: 5c764cc186b5c8742ccfd90b5928f6625f3360c8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8960163"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065588"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 
@@ -56,7 +56,7 @@ ms.locfileid: "8960163"
 - **模块性** – 需求预测是模块化的和易于配置。 您可以通过在 **贸易** &gt; **库存预测** &gt; **需求预测** 更改 Configuration Key 来打开和关闭功能。
 - **Microsoft Stack 的重用** – 机器学习是 Microsoft Cortana 分析套件的一部分，让您可以通过使用算法 R 或 Python 编程语言和简单的拖放界面来迅速轻松地创建预测性分析实验，如需求估计实验。
   - 您可以下载需求预测实验，更改它们以满足您的业务要求，在 Azure 上作为 Web 服务发布它们，并使用它们生成需求预测。 如果您作为企业级用户购买了生产规划员的 Supply Chain Management 订阅，则可以下载这些实验。
-  - 您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而需求预测实验将自动与 Supply Chain Management 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/) 的实验不如使用 Finance and Operations 需求预测实验那样简单。 您必须修改实验代码，以便它们使用 Finance and Operations 应用程序编程接口 (API)。
+  - 您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而需求预测实验将自动与 Supply Chain Management 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/) 的实验不如使用财务和运营需求预测实验那样简单。 您必须修改实验代码，以便它们使用财务和运营应用程序编程接口 (API)。
   - 您可以在 Microsoft Azure 机器学习工作室（经典）中创建自己的实验，在 Azure 上作为服务发布，并使用它们生成需求预测。
   - 如果您不需要高性能，或者，如果您不需要处理大量数据，您可以使用机器学习的免费层。 我们建议始终从这一层开始，尤其是在实施和测试阶段。 如果您需要高性能和额外存储，您可以使用机器学习的标准层。 这一层要求 Azure 订阅并需要其他成本。 有关机器学习定价的详细信息，请参阅[机器学习工作室定价](https://aka.ms/machine-learning-price-info)。
 - **在任何解耦点的预测缩减** – 生成中的需求预测构建此功能，让您可以在任何解耦点预测相关和不相关的需求。
@@ -101,3 +101,4 @@ ms.locfileid: "8960163"
 - [网络研讨会：使用 Azure 机器学习系列进行需求预测](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

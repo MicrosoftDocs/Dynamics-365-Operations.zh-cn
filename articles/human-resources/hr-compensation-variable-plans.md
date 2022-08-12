@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853065"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070549"
 ---
 # <a name="create-variable-compensation-plans"></a>创建可变薪酬计划
 
@@ -42,7 +42,11 @@ ms.locfileid: "8853065"
 公司可以有选择地设置 **股份行权规则**。 **股份行权规则** 描述如何随着时间的推移分配可变奖励。 例如，股份行权规则可能规定，未来四个年度员工每年将得到总奖励的 25%。 股份行权规则仅供参考。
 
 ## <a name="variable-compensation-plans"></a>可变薪酬计划
-**可变薪酬计划** 包含规则、计算方法和登记员工的可变薪酬计算的默认值。 在您创建某一可变薪酬计划时，必须设置可变薪酬类型。 可变薪酬类型确定系统将计算币种金额还是单位数量作为奖励。 还必须设置计算方法：
+**可变薪酬计划** 包含规则、计算方法和登记员工的可变薪酬计算的默认值。 在您创建某一可变薪酬计划时，必须设置可变薪酬类型。 可变薪酬类型确定系统将计算币种金额还是单位数量作为奖励。 
+
+**限制对所选角色的访问** 参数将对薪酬计划的访问权限限制为在 Human Resources 中分配给该计划的所选安全角色。 例如，当您创建面向高管并且不应对所有 HR 特定角色可见的薪酬计划时，您可以使用此参数限制对这些薪酬计划的访问权限。 
+
+还必须设置计算方法：
 
 -   **时间点** – 可变奖励的计算基于员工在特定日期的固定薪酬。 该日期在处理新薪酬金额时的流程事件中指定。
 -   **组合** – 奖励金额基于员工在流程事件中周期开始日期和周期结束日期之间的每个固定薪酬付薪比率而计算。 然后合计费率以确定最终奖励。 例如，在周期中，员工转岗到具有不同付薪比率的不同职位。 在这种情况下，可变奖励为员工具有每个付薪比率的时间长度进行调整。

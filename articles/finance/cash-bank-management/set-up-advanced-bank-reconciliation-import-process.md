@@ -1,7 +1,7 @@
 ---
 title: 设置高级银行对帐导入流程
 description: 高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 Finance 中的银行交易记录自动对帐。 本文介绍如何设置银行对账单的导入功能。
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,23 @@ ms.reviewer: kfend
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0616d8f85f742ed2679450c9b59814345f764bc9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: d8d186e6b3e44222410c8be94390d7c58a90e352
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727361"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151513"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>设置高级银行对帐导入流程
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> 此功能将于 2022 年 9 月弃用，新用户应使用电子报告。 有关详细信息，请参阅[使用电子报告设置高级银行对帐导入](../accounts-payable/import-bai2-er.md)。
+
 
 高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Dynamics 365 Finance 中的银行交易记录自动对帐。 本文介绍如何设置银行对账单的导入功能。 
 

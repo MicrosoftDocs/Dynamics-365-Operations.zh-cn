@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d8d155b8bbf981408f6f15e914fc3bb1da25c9c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875646"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111067"
 ---
 # <a name="functional-locations-and-assets"></a>功能位置和资产
 
@@ -32,7 +32,7 @@ ms.locfileid: "8875646"
 
 ## <a name="overview"></a>概览
 
-资产管理与其他 Finance and Operations 应用的多个模块无缝集成。 下图显示界面和其他模块。
+资产管理与其他财务和运营应用的多个模块无缝集成。 下图显示界面和其他模块。
 
 ![显示资产管理如何与其他模块交互的图表。](media/01-overview-image.png)
 

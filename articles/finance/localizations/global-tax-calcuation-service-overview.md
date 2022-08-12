@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954491"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166830"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 
@@ -29,7 +29,7 @@ ms.locfileid: "8954491"
 税务计算将 Dynamics 365 Finance 和 Dynamics 365 Supply Chain Management 集成。 最终，它还将与 Dynamics 365 Project Operations、Dynamics 365 Commerce 以及其他第一方和第三方应用程序集成。
 
 > [!IMPORTANT]
-> 当您启用税款计算时，可能在数据中心（维护您的服务数据的数据中心除外）中执行对相关数据的某些操作。 在启用税款计算之前，查看[条款和条件](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md)。 我们非常尊重您的隐私。 要了解详细信息，请阅读我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=521839)。
+> 当您启用税款计算时，可能在数据中心（维护您的服务数据的数据中心除外）中执行对相关数据的某些操作。 在启用税款计算之前，查看[条款和条件](https://go.microsoft.com/fwlink/?linkid=2156043)。 我们非常尊重您的隐私。 要了解详细信息，请阅读我们的[隐私声明](https://go.microsoft.com/fwlink/?LinkId=521839)。
 
 税款计算是一款基于微服务的税务引擎，它提供指数级可扩展性，并且可以帮助您执行以下任务：
 

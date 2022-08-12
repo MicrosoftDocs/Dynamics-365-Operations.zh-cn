@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2177eeb6497269d580d2baea87ebb4fcd395223b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855868"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069660"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>添加对内容分发网络 (CDN) 的支持
 
@@ -101,7 +101,7 @@ CDN 的设置过程通常包含下面的步骤：
 
 
 > [!WARNING]
-> 如果要使用的域已激活且处于活动状态，请从 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) 中的 **支持** 磁贴创建支持票证来获取后续步骤的帮助。 有关详细信息，请参阅[获取针对财务与运营应用或 Lifecycle Services (LCS) 的支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)。
+> 如果要使用的域已激活且处于活动状态，请从 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) 中的 **支持** 磁贴创建支持票证来获取后续步骤的帮助。 有关详细信息，请参阅[获取针对财务和运营应用或 Lifecycle Services (LCS) 的支持](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)。
 
 如果您的域是新域，而不是预先存在的活动域，您可以将自定义域添加到 Azure Front Door 服务的配置中。 这将使 Web 流量可以通过 Azure Front Door 实例定向到您的站点。 若要添加自定义域（如 `www.fabrikam.com`），必须为该域配置一个规范名称 (CNAME)。
 

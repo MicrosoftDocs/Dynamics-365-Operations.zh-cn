@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879270"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067607"
 ---
 # <a name="integration-with-finance-faq"></a>与 Finance 集成的常见问题
 
@@ -118,7 +118,7 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 - 数据转移导致源 (Dataverse) 发生了重复的记录提取。
 
-- 数据转移在 Finance and Operations 中必填的字段中包含空值。 验证 Dataverse 中的数据以及是否满足 Finance and Operations 的要求。
+- 数据转移在财务和运营中必填的字段中包含空值。 验证 Dataverse 中的数据以及是否满足 Finance and Operations 的要求。
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>如果存在执行错误，并且员工 ID 未同步，我如何找到具有失败员工记录的历史作业？
 
@@ -150,7 +150,7 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>我在将员工地址导入 Finance 之后，这些地址不正确。 我应该怎么做？
 
-**位置 ID** 的编号规则在 Human Resources 和 Finance 中使用相同模式。 编号规则在两端都需要是唯一的，以便在将数据从 Dataverse 集成到 Finance and Operations 时没有地址冲突。
+**位置 ID** 的编号规则在 Human Resources 和 Finance 中使用相同模式。 编号规则在两端都需要是唯一的，以便在将数据从 Dataverse 集成到财务和运营时没有地址冲突。
 
 在实施 Human Resources 时，请验证编号规则在 Human Resources 和 Finance 中不同。 验证数据可以在两个系统中维护的情况的所有编号规则是不同的。
 
@@ -184,3 +184,4 @@ Financial dimensions 当前不在 Dataverse 中，因此不是默认模板的一
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

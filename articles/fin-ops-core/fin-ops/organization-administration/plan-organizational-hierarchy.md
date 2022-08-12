@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771864"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108755"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>规划组织层次结构
 
@@ -42,7 +42,7 @@ ms.locfileid: "6771864"
 
 您必须具有至少一个法人，以表示您的业务。 法人可以输入法律合同，并需要准备报告其业绩的财务报表。
 
-法人可用于交易业务或合并。 这意味着在 Finance and Operations 中的法人不必代表您业务中的实际实体。 例如，参与交易的公司可以拥有子公司法人。 在这种情况下，交易需要法人，并且需要虚拟法人以合并子公司法人的结果和余额。
+法人可用于交易业务或合并。 这意味着在财务和运营中的法人不必代表您业务中的实际实体。 例如，参与交易的公司可以拥有子公司法人。 在这种情况下，交易需要法人，并且需要虚拟法人以合并子公司法人的结果和余额。
 
 您的业务中的内部组织，例如区域办公室，可以表示为附加的法人或者为主要法人的运营单位。 运营单位不需要是法律上定义的组织。 运营单位用于控制业务中的经济资源和运营流程。 例如，部门和成本中心是运营单位。
 
@@ -171,7 +171,7 @@ ms.locfileid: "6771864"
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>如果以运营单位建模组织
 
-必须通过使用另一个申请创建法定报表。 您必须确保在 Finance and Operations 应用中获得数据，以支持每个运营单位的需求，此处它们与总部的需求不同。
+必须通过使用另一个申请创建法定报表。 您必须确保在财务和运营应用中获得数据，以支持每个运营单位的需求，此处它们与总部的需求不同。
 
 ### <a name="currency"></a>货币
 
@@ -242,3 +242,4 @@ ms.locfileid: "6771864"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

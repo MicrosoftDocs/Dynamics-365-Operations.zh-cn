@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846645"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068913"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -218,3 +218,4 @@ ms.locfileid: "8846645"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898360"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124185"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -53,7 +53,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](/dynamics365/)) 是
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>通过 RSS 源获取更改通知
 
-若要跨 Finance and Operations 应用订阅对 docs.microsoft.com 上的内容所做的所有更新的 RSS 源，请使用以下链接：
+若要跨财务和运营应用订阅对 docs.microsoft.com 上的内容所做的所有更新的 RSS 源，请使用以下链接：
 
 [RSS 源](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -98,7 +98,7 @@ YouTube 上的 Microsoft Dynamics 365 频道中包含[如何参与 Microsoft Dyn
 
 任务指南是受控的、引导式、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以从 **帮助** 窗格中打开（播放）任务指南。 当您首次选择任务指南时，**帮助** 窗格将显示任务的分步说明。 已提供本地化的任务指南。
 
-Microsoft 通过 Dynamics 365 for Finance and Operations 的 2017 年 12 月版发布了产品版本的任务指南库。 本文中[从“帮助”窗格访问任务指南](#accessing-task-guides-from-the-help-pane)一节介绍如何查找适用于您的产品的正确任务指南。
+Microsoft 通过 Dynamics 365 财务和运营的 2017 年 12 月版发布了产品版本的任务指南库。 本文中[从“帮助”窗格访问任务指南](#accessing-task-guides-from-the-help-pane)一节介绍如何查找适用于您的产品的正确任务指南。
 
 ![任务指南阅读视图。](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ On the **System parameters** page, follow these steps:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

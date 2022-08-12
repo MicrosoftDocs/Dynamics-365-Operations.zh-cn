@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849291"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065545"
 ---
 # <a name="flushing-principles"></a>耗用原则
 
@@ -50,9 +50,9 @@ ms.locfileid: "8849291"
 ## <a name="description-of-the-flushing-principles"></a>耗用原则的描述
 
 ### <a name="manual"></a>手动
-手动耗用原则指示物料消耗量的登记由人工操作。 例如，如果你希望能够跟踪时间，且因为跟踪目的而必须说明已使用的批号或序列号的数量，则与此原则有关。 手动消耗量在生产领料单日志中登记。 对于已启用高级仓库流程的物料，可以应用手持流。
+手动耗用原则指示物料消耗量的登记由人工操作。 例如，如果你希望能够跟踪时间，且因为跟踪目的而必须说明已使用的批号或序列号的数量，则与此原则有关。 手动消耗量在生产领料单日志中登记。 对于已启用仓库管理流程 (WMS) 的物料，可以应用手持流。
 
-### <a name="start"></a>启动
+### <a name="start"></a>开始
 “开始”耗用原则指示在开始执行生产订单时将自动使用物料。 使用的物料量与开始的数量成比例。 当“开始”耗用原则与制造执行系统一起使用时，它也可以用于在开始操作或处理作业时耗用物料。 例如，如果消耗量中的差异很小、物料为低价值物料、无跟踪需要或操作运行时间较短时，则与此原则有关。 
 
 ### <a name="finish"></a>完成

@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance、Supply Chain Management 和 Commerce 由世纪互联在中国运营
 description: 本文提供有关世纪互联在中国运营的 Dynamics 365 Finance、Supply Chain Management 和 Commerce 的信息。
 author: kfend
-ms.date: 04/11/2022
+ms.date: 07/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: China (PRC)
 ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6e15caf5a592d6dccbfdbd0525b8280684e78129
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4fa3b52ba82f4b4b3857c1166b2f52acd2bb1727
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867471"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9150958"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-operated-by-21vianet-in-china"></a>Dynamics 365 Finance、Supply Chain Management 和 Commerce 由世纪互联在中国运营
 
@@ -27,7 +27,7 @@ ms.locfileid: "8867471"
 
 Microsoft Dynamics 365 联机服务由世纪互联运营，可符合中国的监管要求。 这些服务是目前由本地运营商上海蓝云网络科技有限公司（以下简称 **世纪互联**）运营和处理的云服务的物理分离实例。 该公司是位于中国大陆的北京世纪互联宽带数据中心有限公司的全资子公司。
 
-Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Finance and Operations 应用之间的功能一致性。 但是，受依赖服务或合作伙伴解决方案可用性、市场优先级或法规合规性的影响，二者在功能一致性方面将存在明显的例外。
+Microsoft 将尽力保持商用服务与由世纪互联在中国运营的财务和运营应用之间的功能一致性。 但是，受依赖服务或合作伙伴解决方案可用性、市场优先级或法规合规性的影响，二者在功能一致性方面将存在明显的例外。
 
 ## <a name="provisioning"></a>预配
 
@@ -52,6 +52,8 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 -   由于某些应用商店的依赖项在中国不可用，**[移动平台](../mobile-apps/platform/mobile-platform-home-page.md)** 将不可用。
 
 -  **SharePoint 集成** 不可用，因为此配置不支持财务和运营应用用于 SharePoint 的身份验证机制。
+
+-  **Exchange 邮件提供程序** 不可用；客户应改用 SMTP 来满足其电子邮件需求。  
 
 -   由于依赖项不可用，以下 **Microsoft Dynamics Lifecycle Services (LCS)** 功能的用户体验将有所不同或者将不可用：
 
@@ -99,3 +101,4 @@ Microsoft 将尽力保持商用服务与由世纪互联在中国运营的 Financ
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91cc0e59405bc085e09f01f05ef02e4a0260481e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894257"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111882"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>将“目标客户到现金”数据从数据集成器迁移到双写入
 
@@ -102,3 +102,4 @@ ms.locfileid: "8894257"
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

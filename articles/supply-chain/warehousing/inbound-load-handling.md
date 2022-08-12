@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855923"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070310"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
@@ -56,7 +56,7 @@ ms.locfileid: "8855923"
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>为入站负荷登记到达的物料数量
 
-Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记录所订购物料的到达。 因此，您可以配置系统以匹配您的特定业务需求。 此部分介绍当在系统中开启了高级仓库管理的情况下如何使用移动设备登记传入物料的数量。 但是，还有一种备用流以使用物料到达日记帐为基础，而不是使用移动设备。 有关这种流的详细信息，请参阅[使用物料到达日记帐登记启用了高级仓库的物料](tasks/register-items-advanced-warehousing.md)。
+Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记录所订购物料的到达。 因此，您可以配置系统以匹配您的特定业务需求。 此部分介绍当在系统中开启了仓库管理流程 (WMS) 的情况下如何使用移动设备登记传入物料的数量。 但是，还有一种备用流以使用物料到达日记帐为基础，而不是使用移动设备。 有关这种流的详细信息，请参阅[使用物料到达日记帐登记启用了仓库管理流程的物料](tasks/register-items-advanced-warehousing.md)。
 
 当入站负荷首先到达仓库时，仓库工作人员必须登记装运中包含的物料数量。 他们通常使用手持扫描仪。 仅当系统中有以下项目时，才能执行此工作流：
 

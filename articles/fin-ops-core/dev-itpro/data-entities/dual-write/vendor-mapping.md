@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905306"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112185"
 ---
 # <a name="integrated-vendor-master"></a>集成的供应商主数据
 
@@ -43,7 +43,7 @@ ms.locfileid: "8905306"
 
 供应商数据包括有关供应商的所有信息，如供应商组、地址、联系信息、付款配置文件、发票配置文件和会员状态。 供应商数据交互期间，表映射集合协同工作，如下表中所示。
 
-Finance and Operations 应用 | 客户互动应用     | 说明
+财务和运营应用 | 客户互动应用     | 说明
 ----------------------------|-----------------------------|------------
 [CDS 联系人 V2](mapping-reference.md#115) | 联系人 | 此模板同步客户和供应商的所有第一、第二和第三联系信息。
 [名称词缀](mapping-reference.md#155) | msdyn_nameaffixes | 此模板同步客户和供应商的名称词缀引用数据。
@@ -52,8 +52,9 @@ Finance and Operations 应用 | 客户互动应用     | 说明
 [付款计划行](mapping-reference.md#159) | msdyn_paymentschedulelines | 同步客户和供应商的付款计划行引用数据。
 [付款计划](mapping-reference.md#160) | msdyn_paymentschedules | 此模板同步客户和供应商的付款计划引用数据。
 [付款期限](mapping-reference.md#161) | msdyn_paymentterms | 此模板同步客户和供应商的付款期限引用数据。
-[供应商 V2](mapping-reference.md#202) | msdyn_vendors | 使用适用于供应商的自定义解决方案的企业可以利用因 Finance and Operations 应用集成而在 Dataverse 中引入的现成供应商概念。
+[供应商 V2](mapping-reference.md#202) | msdyn_vendors | 使用适用于供应商的自定义解决方案的企业可以利用因财务和运营应用集成而在 Dataverse 中引入的现成供应商概念。
 [供应商组](mapping-reference.md#200) | msdyn_vendorgroups | 此模板同步供应商组信息。
 [供应商付款方式](mapping-reference.md#201) | msdyn_vendorpaymentmethods | 此模板同步供应商付款方式信息。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

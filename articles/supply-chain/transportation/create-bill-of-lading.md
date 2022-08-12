@@ -1,6 +1,6 @@
 ---
 title: 创建提单
-description: 本文介绍在使用仓库管理流程时如何创建提单。
+description: 本文介绍在使用仓库管理流程 (WMS) 时如何创建提单。
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34e84fee13dcff574f1700ba2b8f577f4c401cbc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 68a703475191255ff6ceaee25ef8e2bdf33ba0c2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885774"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069687"
 ---
 # <a name="create-a-bill-of-lading"></a>创建提单
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍在使用仓库管理流程时如何创建提单。  
+本文介绍在使用仓库管理流程 (WMS) 时如何创建提单。  
 
 提单是装运物料的公司和承运人之间的法律文档。 此文档随装运的物料一并提供，在物料在目的地交货时充当装运收据。 如果您使用仓库管理，有两种方法生成提单：
 

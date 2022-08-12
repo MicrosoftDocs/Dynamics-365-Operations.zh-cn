@@ -16,19 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
-ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
+ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8941757"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171446"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接 Warehouse Management 移动应用
 
 [!include [banner](../includes/banner.md)]
-
-> [!NOTE]
-> 本文介绍如何配置新的 Warehouse Management 移动应用。 如果要查找有关如何配置旧仓库应用（现在已弃用）的信息，请参阅[安装和连接仓库应用](../../supply-chain/warehousing/install-configure-warehousing-app.md)。
 
 本文说明如何在每个移动设备上下载和安装 Warehouse Management 移动应用，以及如何配置应用来将其连接到 Supply Chain Management 环境。 可以手动配置每个设备，也可以通过文件或使用 QR 代码导入连接字符串。
 

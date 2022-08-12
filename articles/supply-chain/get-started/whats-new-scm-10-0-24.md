@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 94e465616338b0c905ccf6b8244324c18c7a59e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849436"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166866"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Dynamics 365 Supply Chain Management 10.0.24 中的新增功能或更改（2022 年 2 月）
 
@@ -46,7 +46,7 @@ ms.locfileid: "8849436"
 | 模块 | 功能管理中的功能名称 | 更多信息… |
 |---|---|---|
 | 生产控制 | 针对生产订单的按需物料可用性检查 | 此功能可以更快地打开 **生产车间管理** 工作区中的 **要下达的生产订单** 页面。 如果没有此功能，系统会在您打开页面后立即自动检查所有列出的生产订单是否有可用材料，如果您有大量订单，这可能会花费大量时间。 启用此功能后，系统会提供一个工具栏按钮，您可以只在需要时使用该按钮启动仅针对选定订单的材料检查。 |
-| 生产控制 | (预览版)在生产车间执行界面(非 WMS)上登记物料消耗量 | 此功能使工人能够使用生产车间执行界面来登记材料消耗、批号和序列号。 此功能仅支持未启用使用高级仓库流程 (WMS) 的物料。 计划在未来的版本中支持启用 WMS 的物料。<p>一些制造商，尤其是加工行业的制造商，需要明确登记每个批次或生产订单的材料消耗量。 例如，工作人员可能会使用秤来称量他们工作时消耗的材料量。 为确保完整的材料可追溯性，这些组织还需要登记生产每个产品时消耗材料的批号。 |
+| 生产控制 | 在生产车间执行界面(非 WMS)上登记物料消耗量 | 此功能使工人能够使用生产车间执行界面来登记材料消耗、批号和序列号。 此功能仅支持未启用使用仓库管理流程 (WMS) 的物料。 计划在未来的版本中支持启用 WMS 的物料。<p>一些制造商，尤其是加工行业的制造商，需要明确登记每个批次或生产订单的材料消耗量。 例如，工作人员可能会使用秤来称量他们工作时消耗的材料量。 为确保完整的材料可追溯性，这些组织还需要登记生产每个产品时消耗材料的批号。 |
 | 生产控制 | 云和边缘缩放单元的仓库管理工作负荷上的完工入库 | 当应用针对云或边缘缩放单元上的仓库管理工作负荷运行时，此功能允许工作人员使用 Warehouse Management 移动应用将生产或批次订单报告为完工入库。 有关详细信息，请参阅[在缩放单元上报告为完工入库并储存](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF)。 |
 | 仓库管理 | 新装载计划工作台页面 | 启用两个新装载计划工作台页面：**入站装载计划工作台** 和 **出站装载计划工作台**。 |
 
@@ -68,7 +68,7 @@ ms.locfileid: "8849436"
 
 ## <a name="additional-resources"></a>其他资源
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
+### <a name="platform-updates-for-finance-and-operations-apps"></a>财务和运营应用的平台更新
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.24 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.24 的平台更新（2022 年 2 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md)。
 
@@ -94,3 +94,4 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.24 中包含平台更新。 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常是需要对编译器进行的功能更新。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

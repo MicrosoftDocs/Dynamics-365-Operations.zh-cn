@@ -1,7 +1,7 @@
 ---
 title: 信用证
 description: 信用证是通常用于跨国界限的货物采购和销售的银行凭证。
-author: panolte
+author: angelad116
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 18271
 ms.assetid: aa594beb-bdb2-4117-91c2-d097d9401b0f
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54590c15fab0dd522701c29369941855ed20b5f5
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f0cdd7cc8bbb8f7f258677dd03d833b35598330f
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722902"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151721"
 ---
 # <a name="letters-of-credit"></a>信用证
 

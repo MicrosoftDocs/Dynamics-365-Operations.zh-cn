@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d5191f5dd9c3a286abac622aede07d04fb72a8f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884450"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111383"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>验证财务和运营应用和 Dataverse 中的双重写入配置
 
@@ -30,13 +30,13 @@ ms.locfileid: "8884450"
 
 若要确定您尝试保存行以进行更新时看到的错误是否来自双写入，请首先验证是否配置了双写入。
 
-+ 如果您在财务和运营应用中有管理员权限，请转到 **工作区 \> 数据管理**，然后选择 **双写入** 磁贴。 如果显示了链接环境的详细信息以及正在运行的表映射的列表，则说明配置了双写入。
++ 如果您在财务和运营应用中有管理员特权，请转到 **工作区 \> 数据管理**，然后选择 **双写入** 磁贴。 如果显示了链接环境的详细信息以及正在运行的表映射的列表，则说明配置了双写入。
 
-    ![验证具有管理员权限时财务和运营应用的连接。](media/verify_fin_ops_1.png)
+    ![验证具有管理员特权时财务和运营应用的连接。](media/verify_fin_ops_1.png)
 
-+ 如果您没有管理员权限，则会收到错误消息 *无法将数据写入实体 \<entity name\>*。 在下图的示例中，您无法在财务和运营应用中创建客户行，因为配置了双写入，但客户组和付款期限引用数据在 Dataverse 中不存在。
++ 如果您没有管理员权限，则会收到错误消息 *无法将数据写入实体 \<entity name\>*。 在下图的示例中，您无法在财务和运营应用中创建客户行，因为配置了双写入，但客户组和付款期限参考数据在 Dataverse 中不存在。
 
-    ![验证没有管理员权限时财务和运营应用的连接。](media/verify_fin_ops_2.png)
+    ![验证没有管理员特权时财务和运营应用的连接。](media/verify_fin_ops_2.png)
 
 有关如何解决在财务和运营应用中创建数据时出现的问题的信息，请参阅[解决实时同步问题](dual-write-troubleshooting-live-sync.md)。
 

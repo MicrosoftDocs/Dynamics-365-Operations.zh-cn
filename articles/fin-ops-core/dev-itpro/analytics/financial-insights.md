@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464900"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109103"
 ---
 # <a name="financial-analysis"></a>财务分析
 
@@ -78,7 +78,7 @@ ms.locfileid: "8464900"
 | 责任                                    | 角色 | 说明 |
 |-----------------------------------------|-------|------------|
 | 查看所在公司的财务分析 | <ul><li>会计师</li><li>会计经理</li><li>会计主管</li><li>审计</li><li>预算管理器</li><li>首席执行官</li><li>首席财务官</li><li>财务总监</li></ul> | 此职责提供对财务分析的访问。 默认情况下，有效公司用作筛选器。 不能添加其他法人。 |
-| 查看所有公司的财务分析   | 在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中，未将此职责分配给角色。 在下一版本中，将把此职责分配给首席财务官角色。 | 此职责提供对“CFO 概览”工作区菜单项的访问。 默认情况下，有效公司用作筛选器。 但是，无论用户是否可访问其他法人，您都可以添加所有法人。 |
+| 查看所有公司的财务分析   | 在 Microsoft Dynamics 365 Finance Enterprise Edition 7.3 中，未将此职责分配给角色。 在下一版本中，将把此职责分配给首席财务官角色。 | 此职责提供对“CFO 概览”工作区菜单项的访问。 默认情况下，有效公司用作筛选器。 但是，无论用户是否可访问其他法人，您都可以添加所有法人。 |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Financial Reporting 与财务分析
@@ -96,7 +96,7 @@ ms.locfileid: "8464900"
 | **支持报告层次结构/组织层次结构**   | 是                                                               | 否 |
 | **报告子分类帐数据**                             | 是，限制为仅供应商、客户                              | 是，供应商、客户、供应商/客户组、供应商/客户地址等 |
 | **申报币种**                                   | 是，会计币种，并转换为申报币种       | 否，仅限会计币种 |
-| **安全性**                                             | 是，遵循 Finance 和申报树安全性 | 受限，查看所有公司（不受 Finance and Operations 安全性限制）或仅有效公司的报表  |
+| **安全性**                                             | 是，遵循 Finance 和申报树安全性 | 受限，查看所有公司（不受财务和运营安全性限制）或仅有效公司的报表 |
 | **支持不同会计科目表和会计年度** | 是                                                               | 否 |
 | **报告外部数据**                              | 否                                                                | 否 |
 | **支持合并**                               | 是                                                               | 受限制，可报告多家公司，但是仅使用会计币种 |
@@ -244,3 +244,4 @@ Power BI 不提供用于隐藏和显示空行的选项。 如果行中没有任�
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

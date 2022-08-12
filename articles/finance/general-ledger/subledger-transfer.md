@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 6d9b40409089e2050dc28c21040069107b766aa0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871237"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068981"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>子分类帐转移到总帐
 
@@ -28,7 +28,7 @@ ms.locfileid: "8871237"
 
 本文介绍与用于转移子分类日记帐分录批次的规则有关的功能。
 
-在版本 8.1 中，进行了更改以允许使用已弃用 **同步** 选项的转移规则。 有关详细信息，请参阅[财务与运营的移除或弃用功能](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20)。
+在版本 8.1 中，进行了更改以允许使用已弃用 **同步** 选项的转移规则。 有关详细信息，请参阅[财务和运营的移除或弃用功能](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20)。
 
 以下选项可用于传输子分类帐批次：
 
@@ -46,3 +46,4 @@ ms.locfileid: "8871237"
 有关流程自动化设置的详细信息，请参阅[流程自动化](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

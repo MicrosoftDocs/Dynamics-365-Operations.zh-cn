@@ -1,6 +1,6 @@
 ---
-title: 使用物料到达日记帐登记启用了高级仓库的物料
-description: 本文提供的场景显示在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。
+title: 使用物料到达日记帐登记启用了仓库管理流程的物料
+description: 本文提供的场景显示在使用仓库管理流程 (WMS) 时如何使用物料到达日记帐登记物料。
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863612"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066958"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>使用物料到达日记帐登记启用了高级仓库的物料
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>使用物料到达日记帐登记启用了仓库管理流程的物料
 
 [!include [banner](../../includes/banner.md)]
 
-本文提供的场景显示在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。 这将通常由一个收料员完成。
+本文提供的场景显示在使用仓库管理流程 (WMS) 时如何使用物料到达日记帐登记物料。 这将通常由一个收料员完成。
 
 ## <a name="enable-sample-data"></a>启用示例数据
 
@@ -36,7 +36,7 @@ ms.locfileid: "8863612"
 - 您必须具有包含未结采购订单行的已确认采购订单。
 - 必须贮存行中的物料。 它不得使用产品变体，也不得具有跟踪维度。
 - 该物料必须与启用了仓库管理流程的存储维度组关联。
-- 使用的仓库必须启用可供仓库管理流程使用，并且用于接收的库位必须受牌照控制。
+- 使用的仓库必须启用可供 WMS 使用，并且用于接收的库位必须受牌照控制。
 
 ## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>创建使用仓库管理的物料到达日记帐标题
 

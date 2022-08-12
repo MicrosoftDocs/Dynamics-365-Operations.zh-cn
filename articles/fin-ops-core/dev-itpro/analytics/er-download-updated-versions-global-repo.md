@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847537"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108430"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>导入更新后的 ER 配置版本
 
@@ -28,7 +28,7 @@ ms.locfileid: "8847537"
 
 电子申报 (ER) [存储库](general-electronic-reporting.md#Repository)用于共享 [ER 配置](general-electronic-reporting.md#Configuration)。 可以将不同存储库中的 ER 配置[导入](download-electronic-reporting-configuration-lcs.md)到您的 Microsoft Dynamics 365 Finance 实例中。 导入 ER 配置时，[配置提供程序](general-electronic-reporting.md#Provider)可以发布新[版本](general-electronic-reporting.md#component-versioning)存储库，以使其可共享。
 
-本文说明如何从配置服务的全局存储库导入更新后的 ER 配置版本。 有关详细信息，请参阅 [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services、Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)。
+本文说明如何从配置服务的全局存储库导入更新后的 ER 配置版本。 有关详细信息，请参阅 [Microsoft Dynamics 365 Finance - Regulatory Services、Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)。
 
 ## <a name="review-the-available-updated-versions"></a>检查可用的更新后版本
 

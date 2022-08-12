@@ -1,7 +1,7 @@
 ---
 title: 配置结算
 description: 交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本文介绍用于应付帐款和应收帐款的结算的参数。
-author: kweekley
+author: angelad116
 ms.date: 05/16/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
-ms.author: kweekley
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14ed2999a9ad8ffc64815ca3f8b1556aad27ae48
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a0aae3d72d35e8c09b2a3dc8d25958be4c523969
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910191"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151841"
 ---
 # <a name="configure-settlement"></a>配置结算
 

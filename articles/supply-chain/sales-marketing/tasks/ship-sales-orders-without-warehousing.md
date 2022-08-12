@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0144be929045b385c58dd29f6241330fc1092f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3478e8c712c7bcbfb8ace9e7b43f0d8d3cf4ac8a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862473"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069143"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>装运无仓库的销售订单
 
 [!include [banner](../../includes/banner.md)]
 
-本文介绍在将产品发运给客户时如何更新销售订单。 本指南适用于没有为仓库管理设置的履行流程（不论是基本还是高级仓库），因而不需要在装运前登记产品领料。 您可以使用演示数据公司 USMF 或您自己的数据运行该过程。 在这两种情况下，在您开始此任务前，为数量大于 1 的库存产品创建销售订单。 为了避免过帐错误，您需要检查您在订单上选择的站点和仓库中产品的现有数量包含订单数量。
+本文介绍在将产品发运给客户时如何更新销售订单。 本指南适用于没有为仓库管理设置的履行流程（不论是基本还是仓库管理流程 (WMS)），因而不需要在装运前登记产品领料。 您可以使用演示数据公司 USMF 或您自己的数据运行该过程。 在这两种情况下，在您开始此任务前，为数量大于 1 的库存产品创建销售订单。 为了避免过帐错误，您需要检查您在订单上选择的站点和仓库中产品的现有数量包含订单数量。
 
 ## <a name="post-packing-slip-for-an-order"></a>过帐订单的装箱单
 1. 在导航窗格中，转到 **模块 > 销售和营销 > 销售订单 > 所有销售订单**。

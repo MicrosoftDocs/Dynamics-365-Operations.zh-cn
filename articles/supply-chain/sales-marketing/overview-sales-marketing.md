@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcbd95465703c209cc0de5e8880cbf40e732fc6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 25b87f45e43350f6c5e6ea775ebc3fcd74ec5187
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675842"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103791"
 ---
 # <a name="sales-and-marketing-overview"></a>销售和市场概览
 
@@ -122,7 +122,7 @@ ms.locfileid: "8675842"
 
 #### <a name="blogs"></a>博客
 
-文章[如何使用 Dynamics 365 for Finance and Operations 开展销售工作](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations)中包含销售流程概览。
+文章[如何使用 Dynamics 365 财务和运营开展销售工作](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations)中包含销售流程概览。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

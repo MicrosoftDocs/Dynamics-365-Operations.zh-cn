@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895806"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066661"
 ---
 # <a name="configure-inventory-visibility"></a>配置 Inventory Visibility
 
@@ -55,7 +55,7 @@ ms.locfileid: "8895806"
 | *OnHandMostSpecificBackgroundService* | 此功能提供产品的库存汇总以及所有维度。 将定期从库存可见性同步库存汇总数据。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#inventory-summary)。 |
 | *OnhandChangeSchedule* | 此可选功能支持现有库存更改计划和可承诺 (ATP) 功能。 有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。 |
 | *分配* | 此可选功能使库存可见性能够进行库存保护（圈护）和超额销售控制。 有关详细信息，请参阅[库存可见性库存分配](inventory-visibility-allocation.md)。 |
-| *在库存可见性中启用仓库物料* | 此可选功能使库存可见性能够支持启用了高级仓库流程的物料（WHS 物料）。 有关详细信息，请参阅 [WHS 物料的库存可见性支持](inventory-visibility-whs-support.md)。 |
+| *在库存可见性中启用仓库物料* | 此可选功能使库存可见性能够支持启用了仓库管理流程 (WMS)。 有关详细信息，请参阅 [WMS 物料的库存可见性支持](inventory-visibility-whs-support.md)。 |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>查找服务终结点
 
@@ -809,3 +809,4 @@ ms.locfileid: "8895806"
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

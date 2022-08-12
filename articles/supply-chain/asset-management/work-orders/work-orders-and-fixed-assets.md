@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a6b9cf8327f65371f8362a5729bb32746d900cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ed83450592d85205743c9ff1aefd0e66e5d2b90c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885977"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111950"
 ---
 # <a name="work-orders-and-fixed-assets"></a>工作订单和固定资产
 
 [!include [banner](../../includes/banner.md)]
 
 
-在资产管理中，可将资产与固定资产关联，还可以为这些资产创建工作订单。 如果使用此功能，则可在 Microsoft Dynamics 365 for Finance and Operations 的 **项目管理与核算** 和 **固定资产** 模块中获取在投资项目中登记的固定资产、关联的投资项目和成本的完整概览。
+在资产管理中，可将资产与固定资产关联，还可以为这些资产创建工作订单。 如果使用此功能，则可在财务和运营应用内 **项目管理与核算** 和 **固定资产** 模块中获取固定资产、关联的投资项目和为投资项目登记的所有成本的完整概览。
 
 >[!NOTE]
 >仅当选择 **投资** 作为工作订单作业项目的项目类型时，才会设置工作订单作业项目的 **固定资产编号** 字段。

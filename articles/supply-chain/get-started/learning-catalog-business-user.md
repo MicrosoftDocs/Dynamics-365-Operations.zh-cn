@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 298eb62b555f020e8ca6c3220e57b36ecbe386c3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d43b9b331a8a88ac1282acc33dabe7b71bca57b7
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870715"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124287"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 用户学习目录
 
@@ -53,7 +53,7 @@ ms.locfileid: "8870715"
 | [在 Dynamics 365 Supply Chain Management 中配置和管理采购和供应商](/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | 查找供应商和与供货商合作，采购产品，以及确保货物和服务的质量全部都是会影响公司声誉和成功的重要因素的过程。 | 自由、自定进度的在线学习路径 | 14 小时 |
 | [在 Dynamics 365 Supply Chain Management 中配置和管理销售和客户](/learn/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) | 与客户合作、了解销售流程的生命周期以及制定销售协议的过程都是影响公司成功的重要因素。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [Dynamics 365 Supply Chain Management 中的主计划](/learn/paths/master-planning-supply-chain-management/) | 主计划允许公司标识和平衡满足将来目标所需的原材料和产能。 主计划评估当前可用的原材料和产能，以及完成生产所需的原材料和产能。 例如，它标识必须进行哪些制造、采购、转移或留出安全库存才能完成生产。 | 自由、自定进度的在线学习路径 | 5 小时 |
-| [在 Dynamics 365 for Finance and Operations 中配置和使用仓库管理](/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Dynamics 365 Supply Chain Management 中的仓库管理可根据您的单独需要帮助组织和简化仓库流程，还可以提供对您的仓库和工具的见解来帮助提高客户满意度和降低成本。 | 自由、自定进度的在线学习路径 | 8.5 小时 |
+| [在 Dynamics 365 Supply Chain Management 中配置和使用仓库管理](/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Dynamics 365 Supply Chain Management 中的仓库管理可根据您的单独需要帮助组织和简化仓库流程，还可以提供对您的仓库和工具的见解来帮助提高客户满意度和降低成本。 | 自由、自定进度的在线学习路径 | 8.5 小时 |
 | [在 Dynamics 365 Supply Chain Management 中配置和使用运输管理](/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | Dynamics 365 Supply Chain Management 中的运输管理模块可帮助您找到最有效的方式将商品交付给客户。 运输管理计算出最便宜、最快的交货方式，使您可以确定进货和出货订单的供应商和路线解决方案。 | 自由、自定进度的在线学习路径 | 3 小时 |
 | [使用 Dynamics 365 Supply Chain Management 的资产管理](/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | 资产管理是 Dynamics 365 Supply Chain Management 的一个加载项，用于管理公司日常运营中使用的资产。 这些类型的资产的一些示例有机械、生产设备和叉车。 | 自由、自定进度的在线学习路径 | 12.5 小时 |
 | [在 Dynamics 365 Supply Chain Management 中管理产品版本信息](/learn/paths/manage-product-version-engineering-change-management/) | 适用于 Dynamics 365 Supply Chain Management 的工程更改管理加载项提供结构化流程，用于管理工程产品生命周期内的产品版本信息。 | 自由、自定进度的在线学习路径 | 4 小时 |
@@ -65,7 +65,7 @@ ms.locfileid: "8870715"
 | [在 Dynamics 365 Supply Chain Management 中配置和使用离散制造](/learn/paths/configure-use-discrete-manufacturing-dyn365-supply-chain-mgmt/) | 如果某家公司仅生产简单产品，则可以为生产手动安排在正确的时间和适当的资源抵达生产车间的正确物料清单 (BOM) 部件。 作为生产的功能顾问，您需要了解如何针对离散制造配置 Dynamics 365 Supply Chain Management，这样您的客户才可以执行和控制生产生命周期。 | 自由、自定进度的在线学习路径 | 16.5 小时 |
 | [在 Dynamics 365 Supply Chain Management 中配置和使用精益制造](/learn/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) | 精益制造是持续改进的过程。 目标是以经济的方式在客户需要的时间生产客户需要的产品。 在统一（混合模式）制造环境可以使用精益制造合并各种供应来源、生产和采购策略。 这些策略包括生产订单、批次订单、流程工业、采购订单和转移单。 在 Dynamics 365 Supply Chain Management 的精益制造体系结构由生产流程、活动和看板规则组成。 | 自由、自定进度的在线学习路径 | 12.5 小时 |
 | [在 Dynamics 365 Supply Chain Management 中配置和使用流程制造](/learn/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) | 流程制造与配方和制造配方有关，而相对而言，离散制造则使用离散单元和物料清单。 在使用流程制造的制造环境中，生产以批量流程或半连续流程完成。 | 自由、自定进度的在线学习路径 | 10.5 小时 |
-| [在制造时使用 Dynamics 365 for Finance and Operations 中的仓库管理](/learn/paths/use-warehouse-in-manufacturing-dyn365-fo/) | 在制造流程中使用 Dynamics 365 Supply Chain Management 中的仓库管理可根据公司的需要帮助优化和简化制造环境中的仓库流程 | 自由、自定进度的在线学习路径 | 10.5 小时 |
+| [在制造时使用 Dynamics 365 Supply Chain Management 中的仓库管理](/learn/paths/use-warehouse-in-manufacturing-dyn365-fo/) | 在制造流程中使用 Dynamics 365 Supply Chain Management 中的仓库管理可根据公司的需要帮助优化和简化制造环境中的仓库流程 | 自由、自定进度的在线学习路径 | 10.5 小时 |
 
 ## <a name="exam"></a>考试<a name="exam"></a>
 

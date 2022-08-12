@@ -7,19 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 263894
-ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fee4d98a3e20fa268d6c3539db09e09a7861a2b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "263894"
+ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
+ms.openlocfilehash: e64c3e200e100712476ed46a51e94dc4e5917df2
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851007"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206564"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>员工能力和发展 Power BI 内容
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898389"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123645"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>从 Power Apps 嵌入画布应用
 
@@ -184,3 +184,4 @@ public final class ClassTest_Extension
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

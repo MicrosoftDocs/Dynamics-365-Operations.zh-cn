@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f032f95377fdc6f8ec7fbbfa7aadab8fc448be5d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fb0fbfcceece2883c32a266bcbe659211b0b56ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577760"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069717"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>设置最小-最大补货流程
 
 [!include [banner](../../includes/banner.md)]
 
-此过程显示设置使用最小/最大补货战略的新补货流程。 在库存低于最低水平时，将创建工作以在此位置补货。 过程还显示如何使用固定领料位置以允许补货，即使库存低于最低水平，以及如何使用批处理作业使补货流程定期运行。 这些任务通常由仓库管理员完成。 您可以使用下面的示例值在 USMF 演示数据公司中运行此过程，或可以对您自己的数据运行它。 如果您使用自己的数据，请确保您有为仓库管理流程启用的仓库。
+此过程显示设置使用最小/最大补货战略的新补货流程。 在库存低于最低水平时，将创建工作以在此位置补货。 过程还显示如何使用固定领料位置以允许补货，即使库存低于最低水平，以及如何使用批处理作业使补货流程定期运行。 这些任务通常由仓库管理员完成。 您可以使用下面的示例值在 USMF 演示数据公司中运行此过程，或可以对您自己的数据运行它。 如果您使用自己的数据，请确保您有为仓库管理流程 (WMS) 启用的仓库。
 
 
 ## <a name="create-a-fixed-picking-location"></a>创建固定领料库位

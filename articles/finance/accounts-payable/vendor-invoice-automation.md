@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883407"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070685"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>已扫描文档的发票自动化
 
@@ -58,7 +58,7 @@ ms.locfileid: "8883407"
 
 供应商发票文档附件是作为此功能的一部分而引进的新数据实体。 供应商发票抬头实体已经过修改以支持附件。 供应商发票行实体未针对此功能进行修改。
 
-有关数据包的详细信息，请参阅[数据管理概述](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)。 有关如何使用数据管理工作区创建数据包的信息，请参阅[处理和使用 Dynamics 365 Finance and Operations 应用解决方案中的数据包](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md)。
+有关数据包的详细信息，请参阅[数据管理概述](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)。 有关如何使用数据管理工作区创建数据包的信息，请参阅[处理和使用 Dynamics 365 财务和运营应用解决方案中的数据包](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md)。
 
 要快速生成包括发票和附件的测试数据，请执行以下步骤。
 
@@ -86,7 +86,7 @@ ms.locfileid: "8883407"
 
 ## <a name="exception-processing"></a>异常处理
 
-在供应商发票通过集成进入到 Finance and Operations 的场景中，应付账款团队成员必须可以通过简单的方法处理异常或失败的发票和使用失败的发票创建待定发票。 此供应商发票异常处理现在是 Finance and Operations 的一部分。
+在供应商发票通过集成进入到财务和运营的场景中，应付账款团队成员必须可以通过简单的方法处理异常或失败的发票和使用失败的发票创建待定发票。 此供应商发票异常处理现在是财务和运营的一部分。
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>无法导入列表页面的供应商发票
 
@@ -225,3 +225,4 @@ Contoso 还可以决定不强制执行任何安全性，因此相同用户可以
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

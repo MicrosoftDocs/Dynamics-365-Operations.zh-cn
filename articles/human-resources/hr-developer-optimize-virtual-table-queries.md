@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1f379cd7783cc984666582d2c680a1db013627ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692217"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070163"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>优化 Dataverse 虚拟表查询
 
@@ -161,3 +161,4 @@ OData-Version: 4.0
 - [限制常见问题](./hr-admin-integration-throttling-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899431"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201857"
 ---
 # <a name="reserve-inventory-quantities"></a>预留库存数量
 
@@ -75,7 +75,7 @@ ms.locfileid: "8899431"
 
 **库存和仓库管理参数** 页有两个与预留有关的选项：
 -   **常规** 选项卡上的 **预留已订购物料** 选项可以预留针对“应收账款”、“项目管理与核算”和“生产控制”中的物料发货而订购的物料收货。 如果您清除此选项，将只能预留已实际接收的物料。 如果某特定物料已设置为允许负库存，则此字段不相关。
--   **运输** 选项卡上的 **自动预留物料** 选项确定是否为转移单自动预留物料的默认设置。 单个转移单上的默认设置可被覆盖。
+-   **转移** 选项卡上的 **自动预留物料** 选项确定是否为转移单自动预留物料的默认设置。 单个转移单上的默认设置可被覆盖。
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>“生产参数”页上的库存预留策略
 

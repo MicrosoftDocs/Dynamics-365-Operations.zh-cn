@@ -1,6 +1,6 @@
 ---
 title: 删除实例
-description: 此文将指导您如何删除 Microsoft Dynamics 365 Human Resources 的测试驱动器或生产环境。
+description: 本文介绍如何删除 Microsoft Dynamics 365 Human Resources 的 Test Drive 或生产环境。
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,16 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ce676c93e133cc04ad9c49417ed2ca0d6791e93
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859624"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178463"
 ---
 # <a name="remove-an-instance"></a>删除实例
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**适用于：** 独立基础结构中的 Human Resources_ 
+
+> [!NOTE]
+> 从 2022 年 7 月开始，无法在独立的 Human Resources 基础结构中预配新的 Human Resources 环境，因此无法在其中创建新的 Microsoft Dynamics Lifecycle Services (LCS) 项目。 客户可以在财务和运营基础结构上部署 Human Resources 环境。 有关详细信息，请参阅[在财务和运营基础结构中预配 Human Resources](/hr-admin-setup-provision-fo.md)。
+
+> [!IMPORTANT]
+> 财务和运营应用基础结构支持删除环境。 有关如何删除环境的更多信息，请参阅[删除环境](../fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure.md#delete-an-environment)。
 
 本文介绍如何删除 Microsoft Dynamics 365 Human Resources 的测试驱动器或生产环境。
 
@@ -42,10 +48,13 @@ Human Resources 测试驱动器设置了 60 天的到期策略。 不过，测�
 
 本文假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Human Resources。 
 
-因为单个 Human Resources 环境包含在单个 Power Apps 环境中，有两个选项可以考虑。 第一个选项是要删除整个 Power Apps 环境；第二个选项是仅删除 Human Resources。 当您创建 Power Apps 环境的目的明确是为了预配 Human Resources，且您刚刚开始实施或您没有任何既定的集成，这时首选第一个选项。 当您已建立了 Power Apps 环境并使用 Power Apps 和 Power Automate 中利用的富数据填充时，适用第二个选项。
+因为单个 Human Resources 环境包含在单个 Power Apps 环境中，因此在删除环境时需要考虑两个选项： 
+- **删除整个 Power Apps 环境。** 当创建 Power Apps 环境的目的是为了预配 Human Resources，且您刚刚开始实施或您没有任何既定的集成时，这是首选选项。  
+- **仅删除 Human Resources。** 当存在建立的 Power Apps 环境，并使用 Microsoft Power Apps 和 Power Automate 中使用的数据填充了此环境时，适用此选项。
+
 
 > [!Important]
-> 在删除 Power Apps 环境之前，请确保其未在 Human Resources 范围外用于富数据集成。 另请注意，不能删除默认的 Power Apps 环境。 
+> 在删除 Power Apps 环境之前，请确保其未在 Human Resources 范围外用于数据集成。 另请注意，不能删除默认的 Power Apps 环境。 
 
 若要删除整个 Power Apps 环境，包括 Human Resources 以及关联的应用和流：
 
@@ -73,7 +82,7 @@ Human Resources 测试驱动器设置了 60 天的到期策略。 不过，测�
 
 ## <a name="recover-a-soft-deleted-environment"></a>恢复软删除的环境
 
-如果删除与 Human Resources 环境连接的 Power Apps 环境，Lifecycle Services 中 Human Resources 环境的状态将为 **已软删除**。 在这种情况下，用户无法连接到 Human Resources。
+如果删除与 Human Resources 环境连接的 Power Apps 环境，LCS 中 Human Resources 环境的状态将为 **已软删除**。 在这种情况下，用户无法连接到 Human Resources。
 
 要恢复环境：
 

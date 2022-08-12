@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e8e6adc2c72b6e3ab567723ac01055ea8d7292e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3cfdb98f9f0f05e046784cc77c85cd4a045868c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868718"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069368"
 ---
 # <a name="company-directory-mobile-workspace"></a>公司目录移动工作区
 
@@ -26,9 +26,9 @@ ms.locfileid: "8868718"
 
 本文提供有关 **公司目录** 移动工作区的信息。 此工作区让用户能够查看和联系其组织中的其他员工。
 
-此工作区可与 Finance and Operations mobile 应用结合使用。
+此工作区可与财务和运营移动应用结合使用。
 
-## <a name="overview"></a>概览
+## <a name="overview"></a>概述
 **公司目录** 移动工作区让用户能够执行以下任务：
 
 - 查看组织中的员工列表。
@@ -50,12 +50,12 @@ ms.locfileid: "8868718"
 <tbody>
 <tr class="odd">
 <td>必须在您的组织中部署以下产品之一：
-<ul><li>Finance and Operations 应用程序</li>
+<ul><li>财务和运营应用</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>系统管理员</td>
-<td>如果您的组织中没有部署 Finance and Operations 应用程序，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果组织中尚未部署 Human Resources，系统管理员可从 <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources 网页</a>访问试用版。
+<td>如果您的组织中没有部署财务和运营应用，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果组织中尚未部署 Human Resources，系统管理员可从 <a href="https://dynamics.microsoft.com/human-resources/overview/">Human Resources 网页</a>访问试用版。
 </td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ ms.locfileid: "8868718"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装 Finance and Operations 移动应用程序：
+下载并安装财务和运营移动应用程序：
 
 -   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -91,3 +91,4 @@ ms.locfileid: "8868718"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a1d86e7e9cca159d0a820680714a08dc73c0688
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850835"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068384"
 ---
 # <a name="inventory-costing-faq"></a>库存成本计算常见问题解答
 
@@ -112,11 +112,11 @@ ms.locfileid: "8850835"
 
 ### <a name="should-i-enable-the-use-warehouse-management-processes-option-for-the-storage-dimension-group"></a>我应该为存储维度组启用“使用仓库管理流程”选项吗？
 
-如果您认为将来可能要使用高级仓库管理功能，则应启用 **使用仓库管理流程** 选项。 保存存储维度组后，您将无法再为其更改 **使用仓库管理流程** 选项的设置。 如果您决定稍后使用仓库管理流程，则必须创建启用了该选项的新仓库。 没有可用于将所有库存从一个仓库移动到另一个仓库或将相关配置复制到新仓库的自动化流程。
+如果您认为将来可能要使用仓库管理功能流程 (WMS)，则应启用 **使用仓库管理流程** 选项。 保存存储维度组后，您将无法再为其更改 **使用仓库管理流程** 选项的设置。 如果您决定稍后使用仓库管理流程，则必须创建启用了该选项的新仓库。 没有可用于将所有库存从一个仓库移动到另一个仓库或将相关配置复制到新仓库的自动化流程。
 
-### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-advanced-warehousing"></a>即使我不打算使用高级仓库，我也能为存储维度组启用“使用仓库管理流程”吗？
+### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-warehouse-management-processes-wms"></a>即使我不打算使用仓库管理流程 (WMS)，我也能为存储维度组启用“使用仓库管理流程”吗？
 
-是，即使您不打算使用高级仓库管理功能，也可以为存储维度组启用 **使用仓库管理流程** 选项。 要创建和处理交易，您必须完成最小配置，如预留层次结构和单位序列组。 但是，当您手动处理领料单、装箱单和产品收据时（例如，在销售订单和采购订单页上），通常会忽略高级仓库的设置。
+是，即使您不打算使用仓库管理功能流程 (WMS) 功能，也可以为存储维度组启用 **使用仓库管理流程** 选项。 要创建和处理交易，您必须完成最小配置，如预留层次结构和单位序列组。 但是，当您手动处理领料单、装箱单和产品收据时（例如，在销售订单和采购订单页上），通常会忽略 WMS 的设置。
 
 ### <a name="when-should-i-enable-the-physical-inventory-option-for-a-storage-or-tracking-dimension-group"></a>何时应为存储或跟踪维度组启用“物理库存”选项？
 

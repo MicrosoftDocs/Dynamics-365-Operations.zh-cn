@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2774d18611b10a1f627d5fb6e109696a3ca5e5f8
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850896"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108554"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>为优化顾问创建规则
 
@@ -251,7 +251,7 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-有关详细信息，请观看以下 YouTube 视频短片：[Dynamics 365 for Finance and Operations 中的优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+有关详细信息，请观看以下 YouTube 视频短片：[Dynamics 365 Finance 中的优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -6,21 +6,22 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 263934
-ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3240b92993986b32a739b7a6e5c7f7c2df3ed71
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "263934"
+ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
+ms.search.form: HcmRecruitmentWorkspace
+ms.openlocfilehash: 3bce9b165623ed415a0902d3f369a5deef56e8b6
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890087"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205768"
 ---
 # <a name="recruiting-power-bi-content"></a>招聘 Power BI 内容
 

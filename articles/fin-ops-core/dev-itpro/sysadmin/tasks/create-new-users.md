@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595378"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103316"
 ---
 # <a name="create-new-users"></a>创建新用户
 
 [!include [banner](../../includes/banner.md)]
 
-您必须先被添加到 **用户** 页（**系统管理 \> 用户 \> 用户**），然后才能访问 Finance and Operations 应用。 用户包括您组织的内部员工，或外部客户和供应商。 用户可以手动导入或添加。 所有用户都必须获得正确的许可才符合使用要求。
+您必须先被添加到 **用户** 页（**系统管理 \> 用户 \> 用户**），然后才能访问财务和运营应用。 用户包括您组织的内部员工，或外部客户和供应商。 用户可以手动导入或添加。 所有用户都必须获得正确的许可才符合使用要求。
 
-有关如何购买 Finance and Operations 应用和获得许可的信息，请参阅 [Microsoft Dynamics 365 许可指南](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409)。
+有关如何购买财务和运营应用和获得许可的信息，请参阅 [Microsoft Dynamics 365 许可指南](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409)。
 
 ## <a name="assign-a-license-to-a-user"></a>向用户分配许可证
 系统管理员可以在 [Microsoft 365 管理中心](/office365/admin/admin-overview/about-the-admin-center)[向用户分配许可证](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)。
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>在 Azure AD 中添加外部用户并分配许可证 
-外部用户必须在您的租户目录 (Azure Active Directory (Azure AD)) 中出现，才可以为他们分配许可证。 应将这些外部用户作为来宾用户添加到 Azure AD 内的租户中，然后为其分配适当的许可证。 Finance and Operations 应用的要求是，来宾用户的公司必须使用 Azure AD。 有关更多信息，请参见[在 Azure 门户中添加 Azure Active Directory B2B 协作用户](/azure/active-directory/b2b/add-users-administrator)。
+外部用户必须在您的租户目录 (Azure Active Directory (Azure AD)) 中出现，才可以为他们分配许可证。 应将这些外部用户作为来宾用户添加到 Azure AD 内的租户中，然后为其分配适当的许可证。 财务和运营应用的要求是，来宾用户的公司必须使用 Azure AD。 有关更多信息，请参见[在 Azure 门户中添加 Azure Active Directory B2B 协作用户](/azure/active-directory/b2b/add-users-administrator)。
 
 ## <a name="import-new-users-from-azure-ad"></a>从 Azure AD 导入新用户 
 1. 转到 **系统管理** \> **用户** \> **用户**。

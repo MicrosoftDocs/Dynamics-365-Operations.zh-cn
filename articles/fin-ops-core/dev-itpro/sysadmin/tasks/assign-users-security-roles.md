@@ -1,6 +1,6 @@
 ---
-title: 向安全角色分配用户
-description: 若要访问 Finance and Operations 应用，必须为用户分配安全角色。
+title: 将用户分配给安全角色
+description: 若要访问财务和运营应用，必须为用户分配安全角色。
 author: Peakerbl
 ms.date: 02/09/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: b5e69a79f123daff3f85d0100647615ad818288e
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105530"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103859"
 ---
 # <a name="manage-users-and-security-roles"></a>管理用户和安全角色
 
@@ -73,3 +73,4 @@ ms.locfileid: "8105530"
    4. 在 **操作窗格** 中，选择 **从角色中排除**。 **分配模式** 列现已更新为 **手动**，用户现在已从角色中排除。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -2,19 +2,19 @@
 title: 解决初始同步过程中的问题
 description: 本文提供故障排除信息，可以帮助您解决初始同步期间可能发生的问题。
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 06/24/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f8fb27a6af2962be31288a3d2260110e5fe6a201
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892348"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112073"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>解决初始同步过程中的问题
 
@@ -104,7 +104,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 1. 在财务和运营应用中，从映射中删除 **PrimaryContactPersonId** 和 **InvoiceVendorAccountNumber** 列，然后保存映射。
 
-    1. 在 **供应商 V2 (msdyn\_vendors)** 的双写入映射页面上，在 **表映射** 选项卡上，在左侧的筛选器中，选择 **Finance and Operations apps.Vendors V2**。 在右侧的筛选器中，选择 **Sales.Vendor**。
+    1. 在 **供应商 V2 (msdyn\_vendors)** 的双写入映射页面上，在 **表映射** 选项卡上，在左侧的筛选器中，选择 **财务和运营应用.供应商 V2**。 在右侧的筛选器中，选择 **Sales.Vendor**。
     2. 搜索 **primarycontactperson** 查找 **PrimaryContactPersonId** 源列。
     3. 选择 **操作**，然后选择 **删除**。
 
@@ -151,7 +151,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 1. 在财务和运营应用中，从 **客户 V3 (accounts)** 映射中删除 **ContactPersonID** 和 **InvoiceAccount** 列，然后保存映射。
 
-    1. 在 **客户 V3 (accounts)** 的双写入映射页面，在 **表映射** 选项卡上，在左侧的筛选器中，选择 **Finance and Operations app.Customers V3**。 在右侧的筛选器中，选择 **Dataverse.Account**。
+    1. 在 **客户 V3 (accounts)** 的双写入映射页面，在 **表映射** 选项卡上，在左侧的筛选器中，选择 **财务和运营应用.客户 V3**。 在右侧的筛选器中，选择 **Dataverse.Account**。
     2. 搜索 **contactperson** 查找 **ContactPersonID** 源列。
     3. 选择 **操作**，然后选择 **删除**。
 
@@ -185,7 +185,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 6. 再次运行 **客户 V3 (Accounts)** 映射的初始同步。 由于更改跟踪已关闭，财务和运营应用中 **InvoiceAccount** 和 **ContactPersonId** 的数据将同步到 Dataverse。
 7. 要将 **InvoiceAccount** 和 **ContactPersonId** 的数据从 Dataverse 同步到财务和运营应用，必须使用数据集成项目。
 
-    1. 在 Power Apps 中，在 **Sales.Account** 和 **Finance and Operations apps.Customers V3** 表之间创建数据集成项目。 数据方向必须是从 Dataverse 到财务和运营应用。 因为 **InvoiceAccount** 是使用双写入的新属性，您可能需要跳过此属性的初始同步。 有关详细信息，请参阅[将数据集成到 Dataverse](/power-platform/admin/data-integrator)。
+    1. 在 Power Apps 中，在 **Sales.Account** 和 **财务和运营应用.客户 V3** 表之间创建数据集成项目。 数据方向必须是从 Dataverse 到财务和运营应用。 因为 **InvoiceAccount** 是使用双写入的新属性，您可能需要跳过此属性的初始同步。 有关详细信息，请参阅[将数据集成到 Dataverse](/power-platform/admin/data-integrator)。
 
         下图显示了一个更新 **CustomerAccount** 和 **ContactPersonId** 的项目。
 
@@ -235,4 +235,13 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 如果您已运行 **客户** 数据初始同步并且在一直运行 **客户** 映射，然后运行 **联系人** 数据初始同步，则插入和更新 **联系人** 地址的 **LogisticsPostalAddress** 和 **LogisticsElectronicAddress** 表期间可能会出现性能问题。 针对 **CustCustomerV3Entity** 和 **VendVendorV2Entity** 跟踪了相同的全球邮政地址和电子地址表，并且双重写入会尝试生成更多查询以将数据写入另一端。 如果您已运行 **客户** 初始同步，则在运行 **联系人** 数据初始同步时停止相应的映射。 对 **供应商** 数据执行相同操作。 完成初始同步后，您可以跳过初始同步来运行所有映射。
 
+## <a name="float-data-type-that-has-a-zero-value-cant-be-synchronized"></a>无法同步具有零值的浮点数据类型
+
+对于价格字段（例如 **固定付款金额** 或以交易币种表示的 **金额**）值为零的记录，初始同步可能失败。 在此情况下，您将收到类似于以下示例的错误消息：
+
+*验证输入参数时出错：Microsoft.OData.ODataException：无法将文字 '000000' 转换为预期类型 'Edm.Decimal'...*
+
+此问题与 **数据管理模块** 中的 **源数据格式** 下的 **语言区域设置** 值有关。 将 **语言区域设置** 字段的值更改为 **en-us**，然后重试。
+
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

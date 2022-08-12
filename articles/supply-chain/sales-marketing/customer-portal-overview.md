@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901899"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103821"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Dynamics 365 Supply Chain Management 客户门户概述
 
@@ -42,7 +42,7 @@ ms.locfileid: "8901899"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-[Dynamics 365 Supply Chain Management 中的客户门户模板概述](https://youtu.be/nPrqoLuHfV8)视频（上方所示）包含在 YouTube 上的可用 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
+[Dynamics 365 Supply Chain Management 中的客户门户模板概述](https://youtu.be/nPrqoLuHfV8)视频（上方所示）包含在 YouTube 上的可用[财务和运营播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
 ## <a name="who-should-use-it"></a>谁应该使用它？
 
@@ -62,7 +62,7 @@ ms.locfileid: "8901899"
 
 [Power Apps 门户](/powerapps/maker/portals/overview)是一项功能，让用户可以创建面向外部的网站，组织外部的人员可以登录到该网站。 创建门户几乎不需要编码。 客户门户是众多 [Dynamics 365 门户模板](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365)之一，可以从 Microsoft 获得。
 
-[双写入](/powerapps/maker/portals/overview)是一种现成基础结构产品，其提供 Customer Engagement 应用与 Finance and Operations 应用之间的近实时交互。 双写入提供 Finance and Operations 应用与 Microsoft Dataverse 之间的双向集成。 因此，它可以提供应用之间的集成用户体验。 客户门户依赖于与双写入同步的表。 必须先对所有适当的表启用双写入，才能在客户门户中显示来自 Supply Chain Management 的数据。
+[双写入](/powerapps/maker/portals/overview)是一种现成基础结构产品，其提供 Customer Engagement 应用与财务和运营应用之间的近实时交互。 双写入提供财务和运营应用与 Microsoft Dataverse 之间的双向集成。 因此，它可以提供应用之间的集成用户体验。 客户门户依赖于与双写入同步的表。 必须先对所有适当的表启用双写入，才能在客户门户中显示来自 Supply Chain Management 的数据。
 
 ![客户门户依赖关系。](media/customer-portal-elements.png "客户门户依赖关系")
 

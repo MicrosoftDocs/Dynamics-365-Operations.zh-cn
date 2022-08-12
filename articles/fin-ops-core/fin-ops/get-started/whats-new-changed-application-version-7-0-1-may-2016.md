@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6c65c56dfe5d1e32c440789d207f787169c57269
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748256"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124857"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
 
@@ -101,7 +101,7 @@ ms.locfileid: "6748256"
 
 ## <a name="additional-resources"></a>其他资源
 
-[Finance and Operations 主页中的新增功能或更改](whats-new-changed.md)
+[财务和运营新增功能或更改主页](whats-new-changed.md)
 
 [新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
 
