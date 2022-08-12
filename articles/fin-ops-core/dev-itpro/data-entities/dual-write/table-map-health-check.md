@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16c79a788b66830b77b2cdfb33fd2416c530f7d2
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884074"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111557"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>表映射运行状况检查的错误代码
 
@@ -96,3 +96,4 @@ select * from <EntityName> where <filter criteria for the records> on SQL.
 Dataverse 实体上的同步插件会影响实时同步和初始同步性能，因为它会增加事务负载。 如果您在特定实体的初始同步或实时同步中遇到加载时间缓慢的情况，推荐的方法是关闭插件或让这些插件变为异步处理。
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

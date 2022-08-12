@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857219"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103585"
 ---
 # <a name="prospect-to-cash"></a>现金的目标客户
 
@@ -43,13 +43,13 @@ ms.locfileid: "8857219"
 ## <a name="system-requirements-for-supply-chain-management"></a>Supply Chain Management 的系统要求
 以下版本支持“从目标客户到现金”集成：
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3（2017 年 12 月）
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 财务和运营 Enterprise edition 7.3（2017 年 12 月）
 
-- Dynamics 365 for Finance and Operations Enterprise edition（2017 年 12 月）- 具有平台更新 12 的应用程序版本 7.3.11971.56116 (7.0.4709.41129)
+- Dynamics 365 财务和运营 Enterprise Edition（2017 年 12 月）- Platform Update 12 (7.0.4709.41129) 的应用程序内部版本 7.3.11971.56116
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations Enterprise edition（2017 年 7 月）
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 Finance Enterprise edition（2017 年 7 月）
 
-- Dynamics 365 for Finance and Operations Enterprise edition（2017 年 7 月）- 具有平台更新 8（具有平台版本 7.0.4565.16212 的应用程序版本 7.2.11792.56024）。
+- Dynamics 365 财务和运营 Enterprise Edition（2017 年 7 月）- 具有 Platform Update 8（具有平台版本 7.0.4565.16212 的应用程序版本 7.2.11792.56024）。
 - 必须包含以下修补程序：
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – 此修补程序可以通过数据集成功能将销售订单从 Sales 同步到 Supply Chain Management。 它还提供多个其他增强。
@@ -59,9 +59,9 @@ ms.locfileid: "8857219"
     > [!NOTE]
     > 您只需安装 KB4045570，因为该安装包括来自其他修补程序的更改。 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations 版本 1611（2016 年 11 月）
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 财务和运营版本 1611（2016 年 11 月）
 
-- 具有平台更新 8 或更高版本的 Dynamics 365 for Finance and Operations 版本 1611（2016 年 11 月）
+- 具有 Platform Update 8 或更高版本的 Dynamics 365 财务和运营版本 1611（2016 年 11 月）
 
 - 必须包含以下修补程序：
 

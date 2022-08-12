@@ -2,7 +2,7 @@
 title: 设置意大利 FatturaPA 与 SDI 的直接集成
 description: 本文提供的信息将帮助您开始使用适用于意大利的电子开票功能，并设置意大利 FatturaPA 与 Exchange 系统 (SDI) 的直接集成。
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853183"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203160"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>设置意大利 FatturaPA 与 SDI 的直接集成
 
@@ -69,10 +69,13 @@ ms.locfileid: "8853183"
     - 对于 **对文档签名** 操作，请在 **证书名称** 字段中指定数字签名证书。
     - 对于 **提交** 操作，请设置 **URL 地址** 和 **证书** 字段。 **证书** 字段的值是证书链，其中第一个是根 CA 证书 (caentrate.cer)，第二个为客户端证书。
 
-4. 选择 **验证** 以确保已设置所有必填字段。
-5. 保存更改并关闭页面。
-6. 在 **设置** 选项卡上，选择 **项目发票**，然后选择 **编辑**。
-7. 对项目发票重复步骤 3 到 5。
+4. 在 **适用性规则** 部分中，请浏览这些子句，然后查看或设置必填字段：
+    - 查看 **LegalEntityID** 子句并使用法人提供的正确值进行更新。
+
+5. 选择 **验证** 以确保已设置所有必填字段。
+6. 保存更改并关闭页面。
+7. 在 **设置** 选项卡上，选择 **项目发票**，然后选择 **编辑**。
+8. 对项目发票重复步骤 3 到 6。
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>配置导入的处理管道
 

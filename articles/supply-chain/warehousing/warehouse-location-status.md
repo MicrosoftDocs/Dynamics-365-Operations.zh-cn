@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d2632ed1f5c733e45f5d927643bdaef430bc4009
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850400"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065455"
 ---
 # <a name="warehouse-location-status"></a>仓库货位状态
 
@@ -165,7 +165,7 @@ Microsoft Dynamics 365 Supply Chain Management 中有若干货位字段，让您
 1. 请注意，销售订单工作的领料来源货位的 **货位状态** 字段现在设置为 *正在领料*，并且已更新 **最后一个活动的日期和时间** 字段。
 
 > [!NOTE]
-> 只有仓库事务才会更新货位字段。 如果使用日记帐或其他非 WHS 流程移动库存，将不更新这些字段。
+> 只有仓库事务才会更新货位字段。 如果使用日记帐或其他非 WMS 流程移动库存，将不更新这些字段。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

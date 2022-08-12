@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982990"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065173"
 ---
 # <a name="warehouse-configuration-overview"></a>仓库配置概览
 
@@ -31,10 +31,10 @@ ms.locfileid: "7982990"
 本文说明如何配置仓库。 它包含有关如何启用仓库布局和仓库流程的信息。
 
 > [!NOTE]
-> 本文适用于 **仓库管理** 模块（高级仓库）中的功能。 它不适用于 **库存管理** 模块中的仓库功能。
+> 本文适用于 **仓库管理** 模块中的功能。 它不适用于 **库存管理** 模块中的仓库功能。
 
 ## <a name="warehouse-layout"></a>仓库布局
-Supply Chain Management 中的仓库管理系统允许您以灵活方式定义您的仓库布局以适应不断变化的需要，因此，您可以实现最佳仓库效率。
+Supply Chain Management 中的仓库管理流程 (WMS) 允许您以灵活方式定义您的仓库布局以适应不断变化的需要，因此，您可以实现最佳仓库效率。
 
 -   您可以为货物的最佳位置建立高优先级和低优先级存储区域。
 -   您可以将您的仓库划分为区域以满足各种存储需要，例如温度要求或物料各种周转比率。
@@ -42,7 +42,7 @@ Supply Chain Management 中的仓库管理系统允许您以灵活方式定义�
 -   您可以通过使用实际容量约束设置来对位置进行分组。
 -   您可以基于查询定义的规则来控制物料如何存储和领取。
 
-若要使用 Supply Chain Management 中的仓库管理，您必须创建仓库并为更多高级或专业的仓库管理活动启用它。 在 **仓库** 页上，选择 **使用仓库管理流程** 选项。
+若要在 Supply Chain Management 中使用 WMS，您必须创建仓库并为 WMS 启用它。 在 **仓库** 页上，选择 **使用仓库管理流程** 选项。
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>区域组、区域、位置类型和位置
 

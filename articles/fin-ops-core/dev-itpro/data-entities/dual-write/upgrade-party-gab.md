@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895267"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111809"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>升级到当事方和全球通讯簿模型
 
@@ -24,7 +24,7 @@ ms.locfileid: "8895267"
 
 [Microsoft Azure 数据工厂模板](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema)帮助您将采用双重写入的以下现有数据升级到当事方和全球通讯薄模型：**客户**、**联系人** 和 **供应商** 表中的数据，以及邮政和电子地址。
 
-提供了以下三个数据工厂模板。 它们有助于协调 Finance and Operations 应用和 Customer Engagement 应用中的数据。
+提供了以下三个数据工厂模板。 它们有助于协调财务和运营应用和 Customer Engagement 应用中的数据。
 
 - **[当事方模板](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json)（将数据升级到双重写入的当事方 GAB 架构/arm_template.json）**- 此模板有助于升级与 **客户**、**联系人** 和 **供应商** 数据关联的 **当事方** 和 **联系人** 数据。
 - **[当事方邮政地址模板](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json)（将数据升级到双重写入的当事方 GAB 架构/升级到当事方邮政地址 - GAB/arm_template.json）**- 此模板有助于升级与 **客户**、**联系人** 和 **供应商** 数据关联的邮政地址。
@@ -34,11 +34,11 @@ ms.locfileid: "8895267"
 
 | 文件名 | 目的 |
 |---|---|
-| FONewParty.csv | 此文件有助于在 Finance and Operations 应用内创建新 **当事方** 记录。 |
-| ImportFONewPostalAddressLocation.csv | 此文件有助于在 Finance and Operations 应用中创建新的 **邮政地址位置** 记录。 |
-| ImportFONewPartyPostalAddress.csv | 此文件有助于在 Finance and Operations 应用中创建新的 **当事方邮政地址** 记录。 |
-| ImportFONewPostalAddress.csv | 此文件有助于在 Finance and Operations 应用中创建新的 **邮政地址** 记录。 |
-| ImportFONewElectronicAddress.csv | 此文件有助于在 Finance and Operations 应用中创建新的 **电子地址** 记录。 |
+| FONewParty.csv | 此文件有助于在财务和运营应用内创建新 **当事方** 记录。 |
+| ImportFONewPostalAddressLocation.csv | 此文件有助于在财务和运营应用中创建新的 **邮政地址位置** 记录。 |
+| ImportFONewPartyPostalAddress.csv | 此文件有助于在财务和运营应用中创建新的 **当事方邮政地址** 记录。 |
+| ImportFONewPostalAddress.csv | 此文件有助于在财务和运营应用中创建新的 **邮政地址** 记录。 |
+| ImportFONewElectronicAddress.csv | 此文件有助于在财务和运营应用中创建新的 **电子地址** 记录。 |
 
 本文说明如何使用数据工厂模板和升级数据。 如果没有任何自定义项，可以按原样使用模板。 但是，如果您有 **客户**、**联系人** 和 **供应商** 数据的自定义项，则必须按照本文中的描述修改模板。
 
@@ -61,7 +61,7 @@ ms.locfileid: "8895267"
 + **集成密钥**：Customer Engagement 应用中的 **帐户（客户）**、**联系人** 和 **供应商** 表使用现成的集成密钥。 如果已自定义集成密钥，必须自定义模板。
 + **当事方编号：** 将升级的所有 **帐户（客户）**、**联系人** 和 **供应商** 记录都具有当事方编号。 将忽略没有当事方编号的记录。 如果要升级这些记录，请在开始升级流程之前，向其添加当事方编号。
 + **系统中断：** 在升级流程期间，您必须使 Finance and Operations 环境和 Customer Engagement 环境脱机。
-+ **快照**：拍摄 Finance and Operations 和 Customer Engagement 应用的快照。 如果必须，则可以使用快照还原以前的状态。
++ **快照**：拍摄财务和运营应用和 Customer Engagement 应用的快照。 如果必须，则可以使用快照还原以前的状态。
 
 ## <a name="deployment"></a>部署
 
@@ -120,7 +120,7 @@ ms.locfileid: "8895267"
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>设置以运行当事方邮政地址模板
 
-1. 登录到 Customer Engagement 应用，然后转到 **设置** \> **个性化设置**。 然后，在 **常规** 选项卡上为系统管理员帐户配置时区设置。 时区必须采用协调世界时 (UTC) 格式，才能更新 Finance and Operations 应用中邮政地址的“生效日期”和“失效日期”。
+1. 登录到 Customer Engagement 应用，然后转到 **设置** \> **个性化设置**。 然后，在 **常规** 选项卡上为系统管理员帐户配置时区设置。 时区必须采用协调世界时 (UTC) 格式，才能更新财务和运营应用中邮政地址的“生效日期”和“失效日期”。
 
     ![系统管理员帐户的时区设置。](media/ADF-1.png)
 
@@ -128,7 +128,7 @@ ms.locfileid: "8895267"
 
     | 编号 | Name | 类型 | 值 |
     |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | 字符串 | 此参数将序列号作为前缀追加到新创建的邮寄地址。 请务必提供与 Finance and Operations 应用和 Customer Engagement 应用中的邮政地址不冲突的字符串。 例如，使用 **ADF-PAD-**。 |
+    | 1 | PostalAddressIdPrefix | 字符串 | 此参数将序列号作为前缀追加到新创建的邮寄地址。 请务必提供与财务和运营应用和 Customer Engagement 应用中的邮政地址不冲突的字符串。 例如，使用 **ADF-PAD-**。 |
 
     ![在“管理”选项卡上创建的 PostalAddressIdPrefix 全局参数。](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ ms.locfileid: "8895267"
 
     | 编号 | Name | 类型 | 值 |
     |---|---|---|---|
-    | 1 | IsFOSource | 布尔型 | 此参数确定在发生冲突时将替换哪些主要系统地址。 如果值为 **true**，则 Finance and Operations 应用中的主要地址将替换 Customer Engagement 应用中的主要地址。 如果值为 **false**，则 Customer Engagement 应用中的主要地址将替换 Finance and Operations 应用中的主要地址。 |
-    | 2 | ElectronicAddressIdPrefix | 字符串 | 此参数将序列号作为前缀追加到新创建的电子地址。 请务必提供与 Finance and Operations 应用和 Customer Engagement 应用中的电子地址不冲突的字符串。 例如，使用 **ADF-EAD-**。 |
+    | 1 | IsFOSource | 布尔型 | 此参数确定在发生冲突时将替换哪些主要系统地址。 如果值为 **true**，则财务和运营应用中的主要地址将替换 Customer Engagement 应用中的主要地址。 如果值为 **false**，则 Customer Engagement 应用中的主要地址将替换财务和运营应用中的主要地址。 |
+    | 2 | ElectronicAddressIdPrefix | 字符串 | 此参数将序列号作为前缀追加到新创建的电子地址。 请务必提供与财务和运营应用和 Customer Engagement 应用中的电子地址不冲突的字符串。 例如，使用 **ADF-EAD-**。 |
 
     ![在“管理”选项卡上创建的 IsFOSource 和 ElectronicAddressIdPrefix 全局参数。](media/ADF-4.png)
 
@@ -167,7 +167,7 @@ ms.locfileid: "8895267"
 
 2. 确保从 Dataverse 的 **msdy_dualwriteruntimeconfig** 表中删除地图。
 3. 从 AppSource 中安装[双重写入当事方和全球通讯簿解决方案](https://aka.ms/dual-write-gab)。
-4. 在 Finance and Operations 应用中，如果以下表包含数据，则针对它们运行 **初始同步**。
+4. 在财务和运营应用中，如果以下表包含数据，则针对它们运行 **初始同步**。
 
     + 称呼
     + 人员特点类型
@@ -267,10 +267,10 @@ ms.locfileid: "8895267"
     > [!NOTE]
     > 如果您有 **客户**、**联系人** 和 **供应商** 的自定义，则必须修改模板。
 
-8. 将新 **当事方** 记录导入到 Finance and Operations 应用中。
+8. 将新 **当事方** 记录导入到财务和运营应用中。
 
     1. 从 Azure Blob 存储中下载 **FONewParty.csv** 文件。 路径为 **partybootstrapping/output/FONewParty.csv**。
-    2. 将 **FONewParty.csv** 文件转换为 Excel 文件并将 Excel 文件导入到 Finance and Operations 应用中。 或者，如果 CSV 导入适合您，您可以直接导入 .csv 文件。 根据数据量，此步骤可能需要几个小时才能完成。 有关详细信息，请参阅[数据导入和导出作业概述](../data-import-export-job.md)。
+    2. 将 **FONewParty.csv** 文件转换为 Excel 文件并将 Excel 文件导入到财务和运营应用中。 或者，如果 CSV 导入适合您，您可以直接导入 .csv 文件。 根据数据量，此步骤可能需要几个小时才能完成。 有关详细信息，请参阅[数据导入和导出作业概述](../data-import-export-job.md)。
 
     ![正在导入 Dataverse 当事方记录。](media/data-factory-import-party.png)
 
@@ -281,7 +281,7 @@ ms.locfileid: "8895267"
 
     ![运行当事方邮政地址和当事方电子地址模板。](media/ADF-7.png)
 
-10. 要使用此数据更新 Finance and Operations 应用，您必须将 .csv 文件转换为 Excel 工作簿，并[将其导入到 Finance and Operations 应用中](../data-import-export-job.md)。 或者，如果 CSV 导入适合您，您可以直接导入 .csv 文件。 根据数据量，此步骤可能需要几个小时才能完成。
+10. 要使用此数据更新财务和运营应用，您必须将 .csv 文件转换为 Excel 工作簿，并[将其导入到财务和运营应用中](../data-import-export-job.md)。 或者，如果 CSV 导入适合您，您可以直接导入 .csv 文件。 根据数据量，此步骤可能需要几个小时才能完成。
 
     ![导入成功。](media/ADF-8.png)
 
@@ -364,9 +364,9 @@ ms.locfileid: "8895267"
 ### <a name="steps-in-the-party-template"></a>当事方模板中的步骤
 
 1. 步骤 1 到 6 标识为双重写入启用的公司并为其生成筛选器子句。
-2. 步骤 7-1 到 7-9 从 Finance and Operations 应用和 Customer Engagement 应用检索数据，并暂存该数据以进行升级。
-3. 步骤 8 到 9 在 Finance and Operations 应用与 Customer Engagement 应用之间比较 **客户**、**联系人** 和 **供应商** 记录的当事方编号。 将跳过没有当事方编号的任何记录。
-4. 步骤 10 会为必须在 Customer Engagement 应用和 Finance and Operations 应用中创建的当事方记录生成两个 .csv 文件。
+2. 步骤 7-1 到 7-9 从财务和运营应用和 Customer Engagement 应用检索数据，并暂存该数据以进行升级。
+3. 步骤 8 到 9 在财务和运营应用与 Customer Engagement 应用之间比较 **客户**、**联系人** 和 **供应商** 记录的当事方编号。 将跳过没有当事方编号的任何记录。
+4. 步骤 10 会为必须在 Customer Engagement 应用和财务和运营应用中创建的当事方记录生成两个 .csv 文件。
 
     - **FOCDSParty.csv** - 该文件包含两个系统的所有当事方记录，无论是否为双重写入启用了公司。
     - **FONewParty.csv** - 此文件包含 Dataverse 了解的当事方记录的子集（例如，**目标客户** 类型的客户）。
@@ -382,12 +382,12 @@ ms.locfileid: "8895267"
 
 ### <a name="steps-in-the-party-postal-address-template"></a>当事方邮政地址模板中的步骤
 
-1. 步骤 1-1 到 1-10 从 Finance and Operations 应用和 Customer Engagement 应用检索数据，并暂存该数据以进行升级。
-2. 步骤 2 通过加入邮政地址和当事方邮政地址，在 Finance and Operations 应用中使邮政地址数据非规范化。
+1. 步骤 1-1 到 1-10 从财务和运营应用和 Customer Engagement 应用检索数据，并暂存该数据以进行升级。
+2. 步骤 2 通过加入邮政地址和当事方邮政地址，在财务和运营应用中使邮政地址数据非规范化。
 3. 步骤 3 删除 Customer Engagement 应用中客户、联系人和供应商地址数据重复项，并合并客户、联系人和供应商地址数据。
-4. 步骤 4 为 Finance and Operations 应用创建 .csv 文件，以创建基于客户、联系人和供应商地址的新地址数据。
-5. 步骤 5-1 为 Customer Engagement 应用创建 .csv 文件，以根据 Finance and Operations 应用和 Customer Engagement 应用创建所有地址数据。
-6. 步骤 5-2 将 .csv 文件转换为 Finance and Operations 导入格式以手动导入。
+4. 步骤 4 为财务和运营应用创建 .csv 文件，以创建基于客户、联系人和供应商地址的新地址数据。
+5. 步骤 5-1 为 Customer Engagement 应用创建 .csv 文件，以根据财务和运营应用和 Customer Engagement 应用创建所有地址数据。
+6. 步骤 5-2 将 .csv 文件转换为财务和运营导入格式以手动导入。
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
@@ -401,13 +401,13 @@ ms.locfileid: "8895267"
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>当事方电子地址模板中的步骤
 
-1. 步骤 1-1 到 1-5 从 Finance and Operations 应用和 Customer Engagement 应用检索数据，并暂存该数据以进行升级。
+1. 步骤 1-1 到 1-5 从财务和运营应用和 Customer Engagement 应用检索数据，并暂存该数据以进行升级。
 2. 步骤 2 在 Customer Engagement 应用中合并客户、联系人和供应商实体的电子地址。
-3. 步骤 3 合并 Customer Engagement 应用和 Finance and Operations 应用中的主要电子地址数据。
+3. 步骤 3 合并 Customer Engagement 应用和财务和运营应用中的主要电子地址数据。
 4. 步骤 4 创建 .csv 文件。
 
-    - 根据客户、联系人和供应商地址针对 Finance and Operations 应用创建新电子地址数据。
-    - 根据 Finance and Operations 应用中的电子地址、客户、联系人和供应商地址，针对 Customer Engagement 应用创建新电子地址数据。
+    - 根据客户、联系人和供应商地址针对财务和运营应用创建新电子地址数据。
+    - 根据财务和运营应用中的电子地址、客户、联系人和供应商地址，针对 Customer Engagement 应用创建新电子地址数据。
 
 5. 步骤 5-1 将电子地址导入到 Customer Engagement 应用中。
 6. 步骤 5-2 创建 .csv 文件以在 Customer Engagement 应用更新客户和联系人的主要地址。
@@ -425,3 +425,4 @@ ms.locfileid: "8895267"
 ## <a name="learn-more-about-the-template"></a>了解有关模板的详细信息
 
 有关模板的详细信息，请参阅 [Azure 数据工厂模板自述文件注释](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md)。
+

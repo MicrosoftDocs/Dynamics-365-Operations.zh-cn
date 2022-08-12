@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903744"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067872"
 ---
 # <a name="shipment-auto-updates"></a>装运自动更新
 
@@ -30,7 +30,7 @@ ms.locfileid: "8903744"
 
 当不使用自动更新装运功能时，只有数量减少会自动流过，直到仓库工作创建。 用户必须手动更新或删除行，然后如果订单数量增加或添加了新订单行，则他们必须重新发放行。 通过使用自动更新装运功能，企业可以无缝地向仓库提供更新，而不必担心相关的装运和负荷不会反映出订单行更新。
 
-自动更新装运功能适用于销售订单行和转移单行，其已为特定仓库打开。 因此，公司可以根据需要在仓库之间应用不同的自动更新装运策略。 默认情况下，数量减少的自动更新装运策略适用于所有使用仓库管理流程的仓库。 使用此默认策略设置时，只有数量减少会自动流过装运和负荷，直到仓库工作创建为止。 此行为类似于在引入自动更新装运功能之前使用的行为。
+自动更新装运功能适用于销售订单行和转移单行，其已为特定仓库打开。 因此，公司可以根据需要在仓库之间应用不同的自动更新装运策略。 默认情况下，数量减少的自动更新装运策略适用于所有使用仓库管理流程 (WMS) 的仓库。 使用此默认策略设置时，只有数量减少会自动流过装运和负荷，直到仓库工作创建为止。 此行为类似于在引入自动更新装运功能之前使用的行为。
 
 ## <a name="main-elements-of-the-functionality"></a>功能的主要元素
 

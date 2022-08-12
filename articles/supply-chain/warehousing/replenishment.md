@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 075e74845eb8e0363cdb706f1f3af0dc9cfddfaa
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893082"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069173"
 ---
 # <a name="replenishment-overview"></a>补货概览
 
@@ -70,8 +70,8 @@ ms.locfileid: "8893082"
 
 |      必备项       |                                                                                                                                说明                                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          项           |                                                                                                        物料必须在仓库管理流程中启用。                                                                                                        |
-|        仓库        | 仓库必须在仓库管理流程中启用。 要在仓库管理流程中启用仓库，请在<strong>仓库</strong>页中，选择仓库，然后选中<strong>使用仓库管理流程</strong>选项。 |
+|          项           |                                                                                                        物料必须在仓库管理流程中启用 (WMS)。                                                                                                        |
+|        仓库        | 仓库必须在仓库管理流程中启用 (WMS)。 要在 WMS 中启用仓库，请在<strong>仓库</strong>页中，选择仓库，然后选中<strong>使用仓库管理流程</strong>选项。 |
 | 补货模板 |                                                                   必须至少为最小/最大补货、波次需求补货或负荷需求补货设置一个补货模板。                                                                   |
 |        位置        |                                                                                                       必须创建库位并连接到库位配置文件。                                                                                                       |
 |    位置配置文件    |                                                                                                        创建库位需要库位配置文件。                                                                                                        |

@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910406"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109541"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>财务绩效 PowerBI.com 解决方案
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 根据 [Finance and Operations 的移除或弃用功能](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)中的说明，已弃用此 PowerBI.com 解决方案。
+> 根据[财务和运营的移除或弃用功能](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)中的说明，已弃用此 PowerBI.com 解决方案。
 
 本文描述 **财务绩效** PowerBI.com 解决方案。 它介绍其中包含的仪表板和报表，并提供有关用于构建解决方案的数据模型和实体的信息。
 

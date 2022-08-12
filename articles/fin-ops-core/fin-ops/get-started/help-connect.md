@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35f5d73075d118079ccb0616fbd1c5e1a8e00424
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900120"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123615"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>为财务和运营应用配置帮助体验
 
@@ -103,3 +103,4 @@ Microsoft 提供了工具提示，以帮助您开发自定义帮助和将其连�
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
