@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ed80ff42ea5c6e6a904ea2855953d006f66aad37
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850348"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273658"
 ---
 # <a name="cloud-powered-search-overview"></a>云助力的搜索概览
 
@@ -64,11 +64,14 @@ Commerce 也支持各种类别中使用关键字匹配功能。 客户可使用�
 
 ## <a name="sort"></a>排序
 
-客户可使用 Commerce 中的增强排序功能按条件（如价格、产品名和产品号）对搜索结果进行排序、搜索和浏览。 客户还可以基于产品是新产品、最畅销产品还是最近添加的产品对结果排序。
+利用排序功能，客户可按条件（如价格、产品名和产品号）对类别结果进行排序、搜索和浏览。 如果您在环境中启用[产品建议](product-recommendations.md)，客户还可以根据高级排序条件（如新品、畅销品和趋势）对结果进行排序。
+
 
 > [!NOTE]
 > 从版本 10.0.8 开始可使用这些云助力的搜索功能。 确保在 **Commerce 参数 > 配置参数** 中将“ProductSearch.UseAzureSearch”条目设置为“true”。 
 ![云助力搜索的配置参数。](./media/CloudPoweredSearchConfigurationParameters.png)
+>Commerce SSK 版本 9.35+ 和 Dynamics 365 Commerce 10.0.20 版本提供高级排序选项（如新品、畅销品和趋势）。  
+
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 94fe6817358ae18126a30794fd52fe5eb01a5265
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 203904f60888464a473cb2997652db497fba6f57
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885429"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276093"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>奥地利会计登记服务整合示例的部署准则（旧版）
 

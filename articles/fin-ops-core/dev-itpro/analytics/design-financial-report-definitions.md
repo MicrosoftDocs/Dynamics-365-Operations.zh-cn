@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "59131"
+ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.form: FinancialReports
-ms.openlocfilehash: 0c581637b9c122f4cf34279f7f0b030041c0ac48
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: e1095502e6dafbe217f51658ac65292c422a0002
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206123"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291789"
 ---
 # <a name="report-definitions-in-financial-report-designer"></a>财务报表设计器中的报表定义
 

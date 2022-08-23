@@ -1,26 +1,26 @@
 ---
 title: 配置电子报告格式以使用每个法人指定的参数
 description: 本文说明如何配置电子报告 (ER) 格式以使用每个法人指定的参数。
-author: NickSelin
+author: kfend
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
+ms.openlocfilehash: b81c9c8fd1639b9af53c8e15a041c00db8c19752
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858819"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292667"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>配置 ER 格式以使用每个法人指定的参数
 

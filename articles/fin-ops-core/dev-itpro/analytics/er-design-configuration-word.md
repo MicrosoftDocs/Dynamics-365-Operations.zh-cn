@@ -1,24 +1,26 @@
 ---
 title: 设计新 ER 配置以生成 Word 格式的报表
 description: 本文说明用户如何配置新的电子报告 (ER) 格式来以 Microsoft Word 文档形式生成报表。
-author: NickSelin
+author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893003"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273329"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>设计新 ER 配置以生成 Word 格式的报表
 
@@ -35,7 +37,7 @@ ms.locfileid: "8893003"
 
 ![在“配置”页面上创建格式配置。](./media/er-design-configuration-word-image2.gif)
 
-解决方案的 ER 格式组件必须包含 **Excel\\File** 格式元素，并且该格式元素必须链接到将在运行时用作所生成报表的模板的 Word 文档。 要配置 ER 格式组件，必须在 ER 格式设计器中打开已创建的 ER 配置的[草稿](general-electronic-reporting.md#component-versioning)版本。 然后添加 **Excel\\File** 元素，将 Word 模板附加到可编辑 ER 格式，然后将该模板链接到添加的 **Excel\\File** 元素。
+解决方案的 ER 格式组件必须包含 **Excel\\File** 格式元素，并且该格式元素必须链接到将在运行时用作所生成报表的模板的 Word 文档。 要配置 ER 格式组件，必须在 ER 格式设计器中打开已创建的 ER 配置的草稿版本。 然后添加 **Excel\\File** 元素，将 Word 模板附加到可编辑 ER 格式，然后将该模板链接到添加的 **Excel\\File** 元素。
 
 > [!NOTE]
 > 在附加模板时，必须使用之前已在 ER 参数中[配置](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents)的[文档类型](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types)来存储 ER 格式的模板。

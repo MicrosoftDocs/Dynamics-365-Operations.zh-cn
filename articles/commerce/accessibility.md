@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8f4e73ebaf6dc3fc6eb97f69df8545c9ab9fa9df
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: a797b94d8101100574169cdcecfe8df2b5954c15
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853894"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278143"
 ---
 # <a name="accessibility-features-and-capabilities"></a>辅助功能和功能
 

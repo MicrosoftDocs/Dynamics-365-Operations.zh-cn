@@ -1,24 +1,24 @@
 ---
 title: 创作页面概览
 description: 本文提供 Microsoft Dynamics 365 Commerce 中的创作页面的概述。
-author: brendans
+author: bicyclingfool
 ms.date: 10/31/2019
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application USer
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bc8cdbc0a521f3aa444a3af0d0230f8567729694
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 57984bba8dc83067d16076fd86bbeb3a2006bfe1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854996"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278116"
 ---
 # <a name="authoring-page-overview"></a>创作页面概览
 

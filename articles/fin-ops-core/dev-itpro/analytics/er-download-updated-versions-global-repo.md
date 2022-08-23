@@ -1,32 +1,32 @@
 ---
 title: 导入更新后的 ER 配置版本
 description: 本文说明如何从配置服务的全局存储库导入更新后的电子报告 (ER) 配置版本。
-author: NickSelin
+author: kfend
 ms.date: 06/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 105843
-ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 105843
+ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
+ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
+ms.openlocfilehash: 0eef9c9a112fd58a43f6c3a85163ccf44bea3d61
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9108430"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292637"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>导入更新后的 ER 配置版本
 
 [!include [banner](../includes/banner.md)]
 
-电子申报 (ER) [存储库](general-electronic-reporting.md#Repository)用于共享 [ER 配置](general-electronic-reporting.md#Configuration)。 可以将不同存储库中的 ER 配置[导入](download-electronic-reporting-configuration-lcs.md)到您的 Microsoft Dynamics 365 Finance 实例中。 导入 ER 配置时，[配置提供程序](general-electronic-reporting.md#Provider)可以发布新[版本](general-electronic-reporting.md#component-versioning)存储库，以使其可共享。
+电子申报 (ER) [存储库](general-electronic-reporting.md#Repository)用于共享 [ER 配置](general-electronic-reporting.md#Configuration)。 可以将不同存储库中的 ER 配置[导入](download-electronic-reporting-configuration-lcs.md)到您的 Microsoft Dynamics 365 Finance 实例中。 导入 ER 配置时，[配置提供程序](general-electronic-reporting.md#Provider)可以发布新版本存储库，以使其可共享。
 
 本文说明如何从配置服务的全局存储库导入更新后的 ER 配置版本。 有关详细信息，请参阅 [Microsoft Dynamics 365 Finance - Regulatory Services、Configuration service](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration)。
 

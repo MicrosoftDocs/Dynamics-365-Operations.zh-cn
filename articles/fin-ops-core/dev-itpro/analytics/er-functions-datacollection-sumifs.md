@@ -1,25 +1,25 @@
 ---
 title: SUMIFS ER 函数
 description: 本文提供有关 SUMIFS 电子报告 (ER) 函数如何使用的信息。
-author: NickSelin
+author: kfend
 ms.date: 12/04/2019
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 097c62f5b0f0b929e13354cd46417a194c9f2e0f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 9b186b4fbd4a3ace184229be2ec4b15b0bbccf7c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858790"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287419"
 ---
 # <a name="sumifs-er-function"></a>SUMIFS ER 函数
 

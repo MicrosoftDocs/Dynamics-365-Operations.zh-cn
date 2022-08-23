@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fe137fe0c69a5b9613086c66366b064194b9b6c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: be9fafe8ece771ad6577db1cdb70af6f48e054cc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864921"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272872"
 ---
 # <a name="set-up-an-online-channel"></a>设置在线渠道
 

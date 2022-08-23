@@ -1,27 +1,27 @@
 ---
 title: Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助
 description: 本文介绍如何在 Retail Modern POS 和 Cloud POS 中使用任务录制器。
-author: mugunthanm
+author: josaw1
 ms.date: 06/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 1205393
-ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: mumani
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b8723da9b80d007cd0a3196affdfa854eff095f
-ms.sourcegitcommit: 45bb77244a31fa174adf85d1b54e9700109ca0c4
+ms.custom: 1205393
+ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
+ms.search.industry: Retail
+ms.search.form: RetailTerminalTable, SystemParameters
+ms.openlocfilehash: 32d5c959c044a628a6ed1044b6e30f3363680293
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9198372"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267450"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助
 

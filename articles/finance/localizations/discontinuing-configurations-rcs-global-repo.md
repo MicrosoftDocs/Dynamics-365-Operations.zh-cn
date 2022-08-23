@@ -1,26 +1,26 @@
 ---
 title: 终止 RCS 全局存储库中的配置
 description: 本文描述如何在 RCS 全局知识库中停用配置。
-author: JaneA07
+author: gionoder
 ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 4121f45a95e1712f21390c317af532662846a0fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERWorkspace
+ms.openlocfilehash: b0605f56058e3c93ea088ee8386ba26c4ce2b65a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894802"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272327"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>终止 RCS 全局存储库中的配置
 

@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 554a17cf1c90f7fdaa20de74c3f6726910ab815d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: c3fb60c61878fc790a44178fabc8a7be5809806b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894550"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268439"
 ---
 # <a name="delivery-options-module"></a>交付选项模块
 

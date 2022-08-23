@@ -5,16 +5,16 @@ author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2b2bee7ad45bbff82c8b7de2741925fde29d8583
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885189"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284303"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>使用面向 Adyen 的 Dynamics 365 Commerce Payment Connector 处理非关联退款
 

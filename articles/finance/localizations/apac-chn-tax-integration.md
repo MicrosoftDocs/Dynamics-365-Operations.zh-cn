@@ -1,26 +1,26 @@
 ---
 title: 配置中国的税务集成
 description: 本文描述配置中国的税务集成的流程。
-author: ShylaThompson
+author: mrolecki
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustParameters, VATInvoiceDescTable_CN, TaxProfileTable_CN
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 265264
-ms.assetid: e5dbbbe1-935f-4fb4-a014-447916051628
 ms.search.region: China (PRC)
-ms.author: leguo
+ms.author: mrolecki
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 69cd5de4113c88ccb98577910f2c2d467c6bcbf7
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.custom: 265264
+ms.assetid: e5dbbbe1-935f-4fb4-a014-447916051628
+ms.search.form: CustParameters, VATInvoiceDescTable_CN, TaxProfileTable_CN
+ms.openlocfilehash: 7357125fd41dd1307946a4b8d02a78a4ed27f28c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066336"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275920"
 ---
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 

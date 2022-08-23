@@ -1,23 +1,23 @@
 ---
 title: 由 21Vianet 在中国运营的财务和运营的支持
 description: 财务和运营应用通过世纪互联提供大量自助服务支持选项和支持。
-author: ShylaThompson
+author: kfend
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Developer, Application user
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.region: China (PRC)
-ms.author: sericks
+ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 47482df31c9e6148addbd1e4354854384980459a
-ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
+ms.openlocfilehash: 56864a21a19584ccd7cbfc0c96ca5e43b226991f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9103473"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284455"
 ---
 # <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>由 21Vianet 在中国运营的财务和运营的支持
 

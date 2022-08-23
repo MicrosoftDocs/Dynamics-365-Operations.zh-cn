@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: af72fbbea45a9e7cfaca4e72b0a2af06fcc480ed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: b15e6eee86880f0315f42b34056385f718cc6bf1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872850"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280385"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>配置渠道以使用渠道导航层次结构
 

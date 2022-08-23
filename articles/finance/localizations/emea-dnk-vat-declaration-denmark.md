@@ -1,20 +1,20 @@
 ---
 title: 增值税申报（丹麦）
 description: 本文介绍如何设置和生成丹麦预付款增值税 (VAT) 申报。
-author: anasyash
+author: AdamTrukawka
 ms.date: 03/10/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 666dc96cb169ab28ac3938299a3f245e3b4511ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a47b2b98d86daf50876c783f879362ec1addb579
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862990"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272131"
 ---
 # <a name="vat-declaration-denmark"></a>增值税申报（丹麦）
 

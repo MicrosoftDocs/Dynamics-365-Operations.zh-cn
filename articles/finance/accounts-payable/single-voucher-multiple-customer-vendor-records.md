@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: 222534
-ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
+ms.reviewer: twheeloc
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 222534
+ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
+ms.openlocfilehash: 05f5173a6595814e66d0d114fad49c8107c9acf2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889082"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281256"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>具有多个客户或供应商记录的一个凭证
 

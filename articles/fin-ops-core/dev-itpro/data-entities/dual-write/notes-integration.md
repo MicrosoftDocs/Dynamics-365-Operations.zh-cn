@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: f09d455181b7929e25d5238949a0236ac60d457b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111447"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289007"
 ---
 # <a name="note-integration"></a>注释集成
 

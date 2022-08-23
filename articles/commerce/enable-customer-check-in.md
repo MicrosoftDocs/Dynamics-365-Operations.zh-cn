@@ -6,21 +6,21 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ROBOTS: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ROBOTS: ''
+ms.openlocfilehash: 5627f529f72fe06103fa64548a7d182fc008bd83
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885137"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287642"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>启用销售点 (POS) 中的客户签入通知
 

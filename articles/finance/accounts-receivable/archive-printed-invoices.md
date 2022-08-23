@@ -1,25 +1,25 @@
 ---
 title: 使用哈希编号存档打印的客户发票
 description: 本文说明如何启用存档以存储带有哈希编号的打印客户发票。
-author: ilkond
+author: mrolecki
 ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 539093
 ms.search.region: Global
-ms.author: ilyako
+ms.author: mrolecki
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3f19968b4f4cf76a48ac5485e915785e9be5c7db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 539093
+ms.search.form: ''
+ms.openlocfilehash: 4c9bd7ead1615a4e6b0e8e672e858312ba518b56
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909176"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291660"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>使用哈希编号存档打印的客户发票
 

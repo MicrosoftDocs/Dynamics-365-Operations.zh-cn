@@ -1,25 +1,25 @@
 ---
 title: JSONVALUE ER 函数
 description: 本文提供有关 JSONVALUE 电子报告 (ER) 函数如何使用的信息。
-author: NickSelin
+author: kfend
 ms.date: 10/25/2021
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7deaed83959f033d11333efb5a2b398cbe57076d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: fba1141bce91fd7c9da3cd21aef13ce99329f379
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909491"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267954"
 ---
 # <a name="jsonvalue-er-function"></a>JSONVALUE ER 函数
 

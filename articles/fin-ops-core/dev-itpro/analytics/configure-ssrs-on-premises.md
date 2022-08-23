@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.custom:
-- "55651"
+ms.custom: 55651
 ms.assetid: ''
 ms.service: ''
-ms.openlocfilehash: 5608d3cca15f7d6dbc8feb672ec8cec5227c0c47
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 9acb681ce07c3a7da82a630c7a87a4271a411b51
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205619"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275402"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>为本地部署配置 SQL Server Reporting Services
 

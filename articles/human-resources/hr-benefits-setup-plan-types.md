@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 833d6cc131b3fb45d273b60ecf6778b2be31fc8a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 87be947c829641ba809e6850ccf41ea6d142161d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687098"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228951"
 ---
 # <a name="plan-type-overview"></a>计划类型概览
 
@@ -27,6 +27,8 @@ ms.locfileid: "8687098"
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 计划类型是特定福利类型的高级分组。 每个计划类型都有一个计划类型代码，用于确定该计划类型的规则。 例如，**基本人寿** 计划类型将具有 **Life** 计划类型代码，因为它是一种人寿保险计划，必须符合为 **Life** 计划类型代码建立的规则。 另一个计划类型可能是 **补充人寿**。 此计划类型也具有 **Life** 计划类型代码。
 
@@ -67,12 +69,12 @@ ms.locfileid: "8687098"
    | --- | --- |
    | **计划类型** | 要为其配置生活事件选项的计划类型。 |
    | **生活事件类型 ID** | 生活事件类型的 ID。 |
-   | **允许取消** | 指定员工在生活事件期间是否可取消福利计划。 |
    | **更改覆盖范围选项** | 指定员工在生活事件期间是否可更改覆盖范围选项。 |
    | **更改为新计划** | 指定员工在生活事件期间是否可更改计划。 |
-   | **自动取消计划** | 指定是否在生活事件期间自动取消计划。 |
    | **自动重新打开资格检查** | 指定是否在生活事件期间自动重新开放福利登记资格检查。 |
-   | **报告时间范围** | 指定生活事件的报告时间范围(以天为单位)。 **注意**：如果您不输入金额，系统将假定报告时间范围为零，不会处理生活事件。 |
+   | **生命事件登记期间** | 指定生活事件的报告时间范围(以天为单位)。 **注意**：如果您不输入金额，系统将假定报告时间范围为零，不会处理生活事件。 |
+   | **只能由管理员进行编辑** | 指定管理员是否可以在生命事件期间取消或编辑计划。 员工在 **员工自助服务** 工作区中无法进行任何更改。 |
+   | **自动取消计划** | 指定是否应在生命事件期间自动取消计划。 处理生命事件更改后，**自动取消计划** 选项将保留计划选择。 将仅删除 **已确认** 或 **已签出** 状态。 计划仍处于选定状态。 因此，在生命事件登记期间未进行计划选择的员工将不会丢失计划选择。 
 
 5. 选择 **保存**。 
 

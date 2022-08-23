@@ -1,26 +1,26 @@
 ---
 title: 使用用户输入参数数据源指定报表的参数
 description: 本文说明如何使用用户输入参数数据源为您生成的报表指定参数。
-author: NickSelin
+author: kfend
 ms.date: 04/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: c6d0f1a0d9c5eb70a9812459a25d5b14407cce7a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872963"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278698"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>使用用户输入参数数据源指定报表的参数
 

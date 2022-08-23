@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2020-05-29
+ms.openlocfilehash: 40f2b7ece62c495e4a719121019070a9961fa915
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867750"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280298"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>德国的会计登记服务集成示例
 

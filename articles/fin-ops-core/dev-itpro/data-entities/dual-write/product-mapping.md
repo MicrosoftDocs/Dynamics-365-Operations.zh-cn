@@ -5,16 +5,16 @@ author: t-benebo
 ms.date: 06/23/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1546cdaf3c63a7ff9a330ae8609595aaf48fbc48
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 89ef56510ec971ef97fc9eb5c80768527abf5f88
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111477"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288913"
 ---
 # <a name="unified-product-experience"></a>统一的产品体验
 

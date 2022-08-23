@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 099c3630d035ea673342d8345cd8f65dbd6db6a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 7f4f1d796028330d2d655b1e13d3e36bbef95403
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873350"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287557"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>奥地利的会计登记服务集成示例
 

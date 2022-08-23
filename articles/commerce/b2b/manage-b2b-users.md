@@ -6,20 +6,20 @@ ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: a59220c16e195ff36980517baec6fb8246a18115
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860287"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281164"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>在 B2B 电子商务网站上管理业务合作伙伴用户
 

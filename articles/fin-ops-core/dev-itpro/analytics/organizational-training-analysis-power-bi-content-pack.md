@@ -7,20 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "263874"
+ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
-ms.openlocfilehash: 7b8f6c1b32876af3a6992ff73c6898ce5307c5a2
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 2e80810dbeb536dccf6e13b5fca6a85f4858d8da
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206746"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267233"
 ---
 # <a name="organizational-training-power-bi-content"></a>组织培训 Power BI 内容
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ebea86e5ea63ab4f5a844cd3d0936c0d65bbe2b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905477"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220233"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>设置不同的包装和存储维度
 
@@ -50,7 +50,7 @@ ms.locfileid: "8905477"
 
 #### <a name="enable-demo-data"></a>启用演示数据
 
-若要使用此处指定的演示记录和值完成此场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。 此外，开始前，还必须选择 *USMF* 法人。
+若要使用此处指定的演示记录和值完成此场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)。 此外，开始前，还必须选择 *USMF* 法人。
 
 #### <a name="add-a-new-physical-dimension-to-a-product"></a>为产品添加新物理维度
 

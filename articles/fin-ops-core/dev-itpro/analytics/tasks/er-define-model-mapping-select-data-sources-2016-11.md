@@ -1,24 +1,24 @@
 ---
 title: 定义 ER 模型映射并从中选择数据源
 description: 本文介绍系统管理员或电子报告开发人员如何为电子报告数据模型选择数据源。
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40fe0c8453aa9e22bb170bad24993c64f8a3ee78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
+ms.openlocfilehash: afef2c22d7fa18a92ebad310d793a892f3496ec1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883529"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291135"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>定义 ER 模型映射并从中选择数据源
 

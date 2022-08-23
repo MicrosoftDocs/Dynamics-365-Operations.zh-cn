@@ -6,23 +6,21 @@ ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865575"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283136"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>使用电子开票服务导入供应商发票
 

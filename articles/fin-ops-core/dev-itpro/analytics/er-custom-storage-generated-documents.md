@@ -1,7 +1,7 @@
 ---
 title: 为生成的文档指定自定义存储位置
 description: 本文介绍如何扩展电子报告 (ER) 格式生成的单据的存储位置列表。
-author: NickSelin
+author: kfend
 ms.date: 02/22/2019
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
-ms.search.validFrom: 2019-3-31
+ms.author: filatovm
+ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 70d9ccfac18b4cdf1ea19b3def87fc10ba9ddcb4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83ee74cf590fe559ae18161d68b38dff54ab7fbc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864737"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268746"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>为生成的单据指定自定义存储位置
 

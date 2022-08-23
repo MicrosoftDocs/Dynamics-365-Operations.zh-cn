@@ -1,7 +1,7 @@
 ---
 title: 设计配置以生成 Office 格式的包含嵌入图像的报表
 description: 本文介绍如何设计生成包含嵌入图像的 Excel 和 Word 格式的电子文档的配置。
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 255b9a4e5276a9a80a4fbc15076f78a25c918e80
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13cb3cac7369bc68e8b33e4c01f0de0e43689ecb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886634"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290325"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>设计配置以生成 Office 格式的包含嵌入图像的报表
 

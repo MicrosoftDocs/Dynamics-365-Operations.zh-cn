@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ed56da83d7207132b761c12f7ce639b225aae5b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ff741fa4bc5166709cdf52cb37420bb256d3d579
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887054"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275750"
 ---
 # <a name="compliance-overview"></a>合规性概览
 

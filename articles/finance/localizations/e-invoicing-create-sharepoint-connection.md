@@ -1,26 +1,26 @@
 ---
 title: 配置 SharePoint 连接
 description: 本文说明如何配置连接，以使电子开票可以访问 Microsoft SharePoint 站点。
-author: dkalyuzh
+author: gionoder
 ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fb4258190b9480c1302060dd7b75145f80bb7f18
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: a2762178686d1f29c457b6de2a9b052fd048484b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856571"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283978"
 ---
 # <a name="configure-a-sharepoint-connection"></a>配置 SharePoint 连接
 

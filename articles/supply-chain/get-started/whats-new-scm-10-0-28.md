@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 09a01a9100b5fc17317d40a8b3e4dbd1aae92e8b
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186510"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228472"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management 10.0.28 的新增功能或更改（2022 年 8 月）
 
@@ -35,7 +35,7 @@ ms.locfileid: "9186510"
 |---|---|---|---|
 | 库存和物流 | [第三方货运转运商的到岸成本集成实体](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [到岸成本实体概览](../landed-cost/landed-cost-entities-overview.md) | 默认启用 |
 | 计划 | [需求驱动材料要求计划 (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [需求驱动材料要求计划概述](../master-planning/planning-optimization/ddmrp-overview.md) | 功能管理：<br>*(预览版)用于计划优化的 DDMRP* |
-| 计划 | [可承诺量 (CTP) 的计划优化支持](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | 即将推出 | 功能管理：<br>*(预览版)用于计划优化的 CTP* |
+| 计划 | [可承诺量 (CTP) 的计划优化支持](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [使用 CTP 计算销售订单交货日期](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | 功能管理：<br>*(预览版)用于计划优化的 CTP* |
 | 计划 | [保质期计划优化支持](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | 即将推出 | 默认启用 |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>此版本中包含的功能增强

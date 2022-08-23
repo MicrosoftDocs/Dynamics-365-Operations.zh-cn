@@ -1,25 +1,25 @@
 ---
 title: 跟踪电子申报格式的执行以解决性能问题
 description: 本文介绍如何使用电子报告 (ER) 中的性能跟踪功能以解决性能问题。
-author: NickSelin
+author: kfend
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: 9f088228b140a42ee097c9e810166550ab0fae81
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9108847"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289935"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>跟踪 ER 格式的执行情况以解决性能问题
 

@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-02-01
+ms.openlocfilehash: 1466532099820abcdf4496db80f9a34682e2ed5a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876941"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274224"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>波兰税控打印机集成示例
 

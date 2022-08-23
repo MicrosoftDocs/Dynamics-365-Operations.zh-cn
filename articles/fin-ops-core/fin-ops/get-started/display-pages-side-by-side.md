@@ -1,25 +1,25 @@
 ---
 title: 使用“在新窗口中打开”功能并排显示页面
 description: 本文说明如何并排显示页面。
-author: aneesmsft
+author: jasongre
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.custom: 17611
-ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
 ms.search.region: Global
-ms.author: aneesa
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.custom: 17611
+ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
+ms.openlocfilehash: bfc2aa534da17529421af0a28d1c90ee3aeb40cb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068051"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288622"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>使用“在新窗口中打开”功能并排显示页面
 

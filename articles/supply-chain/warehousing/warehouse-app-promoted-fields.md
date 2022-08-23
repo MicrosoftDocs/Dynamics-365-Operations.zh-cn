@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857045"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218965"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用中的步骤配置提升的字段
 
@@ -32,13 +32,7 @@ ms.locfileid: "8857045"
 您必须先完成以下过程来启用所需的功能并在 Warehouse Management 移动应用中生成所需的字段名称，然后才能够设置提升的字段。
 
 1. 转到 **系统管理 \> 工作区 \> 功能管理**。
-1. 在 [**功能管理** 工作区](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中，启用按下列方式列出的功能：
-
-    - **模块**：*仓库管理*
-    - **功能名称**：*仓库应用步骤说明*
-
-    有关 *仓库应用步骤说明* 功能的详细信息，请参阅[自定义 Warehouse Management 移动应用的步骤标题和说明](mobile-app-titles-instructions.md)。 此功能是 *仓库应用提升的字段* 功能的先决条件。
-
+1. 确保为您的系统启用 *仓库应用步骤说明* 功能。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 有关 *仓库应用步骤说明* 功能的详细信息，请参阅[自定义 Warehouse Management 移动应用的步骤标题和说明](mobile-app-titles-instructions.md)。 此功能是 *仓库应用提升的字段* 功能的先决条件。
 1. 启用按下列方式列出的功能：
 
     - **模块**：*仓库管理*
@@ -67,7 +61,7 @@ ms.locfileid: "8857045"
 
 ### <a name="enable-sample-data"></a>启用示例数据
 
-要使用指定的示例记录和值完成此场景，您必须使用已安装标准演示数据的系统。 开始前，还必须选择 **USMF** 法人。
+要使用指定的示例记录和值完成此场景，您必须使用已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)的系统。 开始前，还必须选择 **USMF** 法人。
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>在牌照步骤上配置具有提升的步骤的销售领料
 

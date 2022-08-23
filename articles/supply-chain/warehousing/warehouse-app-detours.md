@@ -4,19 +4,19 @@ description: 本文介绍如何配置菜单项的绕过，以便工作人员可�
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863583"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218995"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>为移动设备菜单项中的步骤配置绕过
 
@@ -34,20 +34,8 @@ ms.locfileid: "8863583"
 您必须先完成以下过程来启用所需的功能并在 Warehouse Management 移动应用中生成所需的字段名称，然后才能够为移动设备菜单项中的步骤配置绕过。
 
 1. 转到 **系统管理 \> 工作区 \> 功能管理**。
-1. 在 [**功能管理** 工作区](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中，启用按下列方式列出的功能：
-
-    - **模块**：*仓库管理*
-    - **功能名称**：*仓库应用步骤说明*
-
-    有关 *仓库应用步骤说明* 功能的详细信息，请参阅[自定义 Warehouse Management 移动应用的步骤标题和说明](mobile-app-titles-instructions.md)。 此功能是 *Warehouse management 应用绕过* 功能的先决条件。
-
-1. 启用按下列方式列出的功能：
-
-    - **模块**：*仓库管理*
-    - **功能名称**：*Warehouse Management 应用绕过*
-
-    此功能是本文中介绍的功能。
-
+1. 确保为您的系统启用 *仓库应用步骤说明* 功能。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 有关 *仓库应用步骤说明* 功能的详细信息，请参阅[自定义 Warehouse Management 移动应用的步骤标题和说明](mobile-app-titles-instructions.md)。 此功能是 *Warehouse management 应用绕过* 功能的先决条件。
+1. 打开 *Warehouse Management 应用绕过* 功能。 此功能是本文中介绍的功能。
 1. 通过转到 **Warehouse management \> 设置 \> 移动设备 \> 仓库应用字段名称**，选择 **创建默认设置**，更新 Warehouse Management 移动应用中的字段名称。 有关详细信息，请参阅[为仓库管理移动应用配置字段](configure-app-field-names-priorities-warehouse.md)。
 1. 对您使用 Warehouse Management 移动应用的每个法人（公司）重复上一步。
 
@@ -65,7 +53,7 @@ ms.locfileid: "8863583"
 
 ### <a name="enable-sample-data"></a>启用示例数据
 
-要使用指定的示例记录和值完成此场景，您必须使用已安装标准演示数据的系统。 开始前，还必须选择 **USMF** 法人。
+要使用指定的示例记录和值完成此场景，您必须使用已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)的系统。 开始前，还必须选择 **USMF** 法人。
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>创建特定于菜单的替代并为场景 1 配置绕过
 
@@ -118,7 +106,7 @@ ms.locfileid: "8863583"
 
 ### <a name="enable-sample-data"></a>启用示例数据
 
-要使用指定的示例记录和值完成此场景，您必须使用已安装标准演示数据的系统。 开始前，还必须选择 **USMF** 法人。
+要使用指定的示例记录和值完成此场景，您必须使用已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)的系统。 开始前，还必须选择 **USMF** 法人。
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>创建特定于菜单的替代并为场景 2 配置绕过
 

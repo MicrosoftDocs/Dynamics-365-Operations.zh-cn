@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 695f3c1e704f2712f392d0d7179da63f47731f46
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027050"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276121"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>设置商业渠道的会计整合
 

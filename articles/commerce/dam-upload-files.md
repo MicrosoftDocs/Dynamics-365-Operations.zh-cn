@@ -1,26 +1,26 @@
 ---
 title: 上传图像和视频以外的文件
 description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 站点构建器中上传非图像和视频的二进制文件。
-author: psimolin
+author: josaw1
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5952c44d066729d66d62c47249214221fe39ad9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: df3df007a676c83a93d1ef5252987de869839be9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863427"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282206"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>上传图像和视频以外的文件
 

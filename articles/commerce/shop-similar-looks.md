@@ -6,22 +6,22 @@ ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3024e832de5e6a60b49c5b0c8bfbe36b2c416379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail, eCommerce
+ms.search.form: ''
+ms.openlocfilehash: 26eb436d889ac81cde730daca9b44d1deeda6c74
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884569"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282042"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>启用“购买相似外观产品”建议
 

@@ -1,21 +1,21 @@
 ---
 title: 使用代码签名证书对 MPOS .appx 文件签名
 description: 本文介绍如何使用代码签名证书对 MPOS 进行签名。
-author: mugunthanm
+author: josaw1
 ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
-ms.custom: 28021
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: mumani
+ms.author: josaw
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: 4cbdfcb5229be2f04531031c80f41f672b2a4747
-ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
+ms.custom: 28021
+ms.openlocfilehash: bcf558b4b375078ed24777417e92b1c852f4c0eb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2022
-ms.locfileid: "9169091"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282798"
 ---
 # <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>使用代码签名证书对 MPOS .appx 文件签名
 

@@ -1,24 +1,24 @@
 ---
 title: ER 使用格式配置生成付款的电子单据
 description: 本文介绍如何使用新的电子报告 (ER) 格式配置生成用于处理付款的电子文档。
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a79c32372402fcd49f20c855cbfa8d9bcd8ba524
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
+ms.openlocfilehash: b70b246e3618e8f083e5f6757ee8a97d8072a635
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864592"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290865"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER 使用格式配置生成付款的电子单据
 

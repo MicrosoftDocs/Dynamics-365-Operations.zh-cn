@@ -1,25 +1,25 @@
 ---
 title: NUMBERVALUE ER 函数
 description: 本文提供有关 NUMBERVALUE 电子报告 (ER) 函数如何使用的信息。
-author: NickSelin
+author: kfend
 ms.date: 12/05/2019
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9701fe7a1ce2a96fa5fa8df8aeda125c861a117a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 2e39cf59cabd44583e78ff2c35a7ae4d6edbd7ee
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871518"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282582"
 ---
 # <a name="numbervalue-er-function"></a>NUMBERVALUE ER 函数
 

@@ -6,21 +6,21 @@ ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: VendPosting
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: 24691
-ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8ebb67bddf6fa9aae8ba6c6ed290c94bb2e0a047ca6157aa1325f4cf21f148f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 24691
+ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
+ms.search.form: VendPosting
+ms.openlocfilehash: 922612e536164c7985f0be107f67ad8bbaef7898
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777208"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272969"
 ---
 # <a name="vendor-posting-profiles"></a>供应商过帐模板
 

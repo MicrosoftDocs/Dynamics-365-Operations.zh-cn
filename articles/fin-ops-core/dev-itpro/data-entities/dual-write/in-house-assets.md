@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: c946af11737a77c4dadd824893e6cc1e4c77b587
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3e741c85fcad2abc18879280ef7332ae091c984
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858613"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289241"
 ---
 # <a name="in-house-assets-for-servicing"></a>用于服务的内部资产
 

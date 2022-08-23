@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b56d7a58659205ce4483480fd85d1c91ae52a0f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 4a3b1762cebc74c1b77f9ca60925608bc966e306
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882251"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276392"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>为 4xx/5xx 状态代码错误生成自定义响应页面
 

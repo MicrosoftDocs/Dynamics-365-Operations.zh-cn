@@ -1,25 +1,25 @@
 ---
 title: 为 Dynamics 365 Commerce 沙盒环境配置可选功能
 description: 本文说明如何为 Microsoft Dynamics 365 Commerce 沙盒环境配置可选功能。
-author: psimolin
+author: josaw1
 ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
-ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 4935f5f6ee17cba9c09eb79132119a7cbc08d9ad
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013230"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270347"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>为 Dynamics 365 Commerce 沙盒环境配置可选功能
 

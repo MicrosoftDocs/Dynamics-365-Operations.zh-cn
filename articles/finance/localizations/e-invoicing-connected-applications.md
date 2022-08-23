@@ -1,26 +1,26 @@
 ---
 title: 已连接的应用程序
 description: 本文说明如何在电子开票中设置连接的应用程序。
-author: dkalyuzh
+author: gionoder
 ms.date: 02/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a0a9c19009c49b80ca8c182c31592c1a713a2aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906278"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277322"
 ---
 # <a name="connected-applications"></a>已连接的应用程序
 

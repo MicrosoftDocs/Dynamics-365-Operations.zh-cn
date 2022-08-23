@@ -6,21 +6,21 @@ ms.date: 10/23/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw
-ms.custom: 91243
-ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e6472fa9024f19b5c35e91b3c7c36eb311bc31
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.custom: 91243
+ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: e69fddf1acd9a9388f62da63e0ca6a19c7a95f55
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9125073"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287071"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 

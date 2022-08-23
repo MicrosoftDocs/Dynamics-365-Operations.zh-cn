@@ -6,20 +6,20 @@ ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c4023857f13830449eaa19f8513799ece97729d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: f3bf61d03d6e318494a13af6721028ac573d7424
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866048"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277050"
 ---
 # <a name="cart-module"></a>购物车模块
 

@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 2bdd99b581be453616e71d0f0f95a7daf75a253a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205927"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289765"
 ---
 # <a name="company-concept-in-dataverse"></a>Dataverse 中的公司概念
 

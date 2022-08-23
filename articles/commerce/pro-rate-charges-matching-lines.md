@@ -1,27 +1,27 @@
 ---
 title: 将标头费用按比例分配给匹配的销售行
 description: 本文介绍通过使用高级自动费用功能为商业渠道订单计算和应用自动费用的附加功能。
-author: hhaines
+author: hhainesms
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 85e75b533e95d149de1cde50c0ef122f58890bbe
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886924"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279024"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>将标头费用按比例分配给匹配的销售行
 

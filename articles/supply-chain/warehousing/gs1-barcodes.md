@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907136"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219769"
 ---
 # <a name="gs1-bar-codes"></a>GS1 条码
 

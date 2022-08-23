@@ -1,24 +1,26 @@
 ---
 title: 中国式凭证连续性检查
 description: 每个凭证类型的中国式凭证号必须从 1 开始并且具有连续性，才能结转会计期间。
-author: ShylaThompson
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: LedgerCalendar, LedgerCheckList_CN,  SysQueryForm, SysDateLookUp, LedgerTransVoucher, SrsReportViewerForm, LedgerVoucherRenumberLog_CN
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: China (PRC)
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 555f62acf6b9d658b490bd0b791e1c0ee374110af8014104663733bd346a0906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form:
+- LedgerCalendar, LedgerCheckList_CN
+- SysQueryForm, SysDateLookUp, LedgerTransVoucher, SrsReportViewerForm, LedgerVoucherRenumberLog_CN
+ms.openlocfilehash: 8ed23bf4e2a65e1a6e035752ae18bf9190c8de88
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738412"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281595"
 ---
 # <a name="chinese-voucher-continuity-check"></a>中国式凭证连续性检查
 
@@ -42,7 +44,7 @@ ms.locfileid: "6738412"
 9. 单击“确定”。
 
 ## <a name="check-whether-posted-vouchers-have-continuity-voucher-numbers"></a>检查已过帐凭证是否有连续性凭证号
-1. 转到“总帐”>“查询和报表”>“凭证事务”。
+1. 转到“总帐”>“查询和报表”>“凭证交易”。
 2. 在“标准”字段中，输入或选择一个值。
 3. 在“标准”字段中，输入或选择一个值。
 4. 单击“确定”。

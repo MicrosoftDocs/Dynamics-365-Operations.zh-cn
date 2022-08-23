@@ -1,25 +1,25 @@
 ---
 title: 按交货模式自定义事务电子邮件
 description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中为特定的通知类型和交货方式设置自定义电子邮件模板。
-author: stuharg
+author: bicyclingfool
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: f16bc23e3527f57bd61d73e92506946067c6eeb9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 0c0bd218c10a373d142ddcc7780c5339569f7a07
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850296"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275696"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>按交货模式自定义事务电子邮件
 

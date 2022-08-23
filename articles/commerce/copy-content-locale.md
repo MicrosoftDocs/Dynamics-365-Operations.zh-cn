@@ -1,20 +1,20 @@
 ---
 title: 将内容复制到其他区域设置
 description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 站点生成器中将现有内容复制到站点内的另一个区域设置。
-author: psimolin
+author: josaw1
 ms.date: 07/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: tfehr
+ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: bcfa3c7cb2ea8018422803d85df6b6761b8d1145
-ms.sourcegitcommit: d719d0a549aecac231fad0abb42250eab9dd0ded
+ms.openlocfilehash: 6afa871048bde22133ae083b8d56b6e99e49c401
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "9126444"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269253"
 ---
 # <a name="copy-content-to-another-locale"></a>将内容复制到其他区域设置
 

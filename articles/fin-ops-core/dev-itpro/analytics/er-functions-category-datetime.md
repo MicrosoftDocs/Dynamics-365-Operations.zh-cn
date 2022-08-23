@@ -1,25 +1,25 @@
 ---
 title: 日期和时间类别的 ER 函数列表
 description: 本文提供有关电子报告 (ER) 支持的日期和时间函数的信息。
-author: NickSelin
+author: kfend
 ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6e15d143bad016883f03ecf0125ce9429215a71
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: d77f41e10d927a9aae06b9ba0fc58ca237c071cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880222"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291315"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>日期和时间类别的 ER 函数列表
 

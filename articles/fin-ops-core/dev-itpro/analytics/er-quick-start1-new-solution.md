@@ -1,28 +1,26 @@
 ---
 title: 设计新的 ER 解决方案打印自定义报表
 description: 本文说明如何设计电子报告 (ER) 解决方案来打印自定义报表。
-author: NickSelin
+author: kfend
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 114de2e7a3e40f45e5e46ddcb29e9fc626f89ad6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847479"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281773"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>设计新的 ER 解决方案打印自定义报表
 
@@ -289,7 +287,7 @@ ms.locfileid: "8847479"
 
 ![“配置”页面上可编辑配置的版本。](./media/er-quick-start1-model-configuration.png)
 
-有关 ER 配置的版本控制的详细信息，请参阅[电子报告 (ER) 概述](general-electronic-reporting.md#component-versioning)。
+有关 ER 配置的版本控制的详细信息，请参阅[电子报告 (ER) 概述](general-electronic-reporting.md)。
 
 > [!NOTE]
 > 配置的数据模型是 **调查表** 业务域的抽象表示，不包含与 Microsoft Dynamics 365 Finance 特定的伪像的关系。

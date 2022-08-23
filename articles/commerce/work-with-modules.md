@@ -6,20 +6,20 @@ ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 91188590391501042ff0503bdc3592435c30fa63
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860184"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291938"
 ---
 # <a name="work-with-modules"></a>使用模块
 

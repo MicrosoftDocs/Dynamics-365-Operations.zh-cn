@@ -1,24 +1,24 @@
 ---
 title: 从 Lifecycle Services 导入配置
 description: 本文介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 导入电子报告 (ER) 配置的新版本。
-author: NickSelin
+author: kfend
 ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
+ms.openlocfilehash: 92c5d010430b38cb6c11a87283a2f7d4c29484f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886663"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290355"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>从 Lifecycle Services 导入配置
 

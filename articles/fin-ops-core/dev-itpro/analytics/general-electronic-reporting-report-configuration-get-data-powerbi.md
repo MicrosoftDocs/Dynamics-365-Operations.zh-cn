@@ -1,25 +1,25 @@
 ---
 title: 配置电子申报 (ER) 以便将数据导入 Power BI
 description: 本文说明您可以如何使用您的电子报告 (ER) 配置安排数据从您的实例转移至 Power BI 服务。
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: be0e79bb767a8bd2db4c02dc2b73bfbc5cb95675
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896725"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281713"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>配置电子申报 (ER) 以便将数据导入 Power BI
 

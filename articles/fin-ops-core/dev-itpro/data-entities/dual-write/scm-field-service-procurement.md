@@ -5,17 +5,17 @@ author: RamaKrishnamoorthy
 ms.date: 11/11/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d5a59365b3a524b8a5ec9e1e829fe181aa3d3660
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2e5ac6911e7fb4753e1dbd0b78b26691dbe3105
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897135"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288845"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>在 Supply Chain Management 和 Field Service 之间集成采购
 

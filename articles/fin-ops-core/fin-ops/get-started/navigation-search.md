@@ -1,25 +1,25 @@
 ---
 title: 导航搜索
 description: 本文说明如何使用搜索功能来导航到页面。
-author: aneesmsft
+author: jasongre
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 25991
-ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
-ms.author: aneesa
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d45ad1d2a85efa561380912e82d38689fabbe119
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 25991
+ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
+ms.openlocfilehash: 4c362e4cd83f926e7e21d775abd24ae6ddfcbbed
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872669"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292328"
 ---
 # <a name="navigation-search"></a>导航搜索
 

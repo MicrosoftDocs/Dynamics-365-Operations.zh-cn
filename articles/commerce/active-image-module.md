@@ -6,20 +6,20 @@ ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3d532d21f847a80a16af814eeaf097a616605795
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: fdcd54adc98c7bc52ab6ff1ef7d5d03616aadfc3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853842"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267609"
 ---
 # <a name="active-image-module"></a>活动图像模块
 

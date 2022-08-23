@@ -1,20 +1,20 @@
 ---
 title: 集成的分类帐
 description: 本文介绍使用 Dataverse 在财务和运营与其他 Dynamics 365 应用程序之间的分类帐数据的集成。
-author: tonyafehr
+author: RamaKrishnamoorthy
 ms.date: 09/06/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
-ms.author: tfehr
+ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e5598295a25e31b33cd8b4d7ce3250a982ab4e87
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 728c131c260586e7f1f787f22ccf02ed81c94c01
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112231"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289139"
 ---
 # <a name="integrated-ledger"></a>集成的分类帐
 

@@ -1,24 +1,24 @@
 ---
 title: 供应商增值税登记簿的日期
 description: 本文提供有关启用供应商增值税登记簿日期的功能的信息
-author: anasyash
+author: AdamTrukawka
 ms.date: 01/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2022-01-15
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: b1368e0c7764bed42aa7549f36a6f4bcbb96eff4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: intro-internal
+ms.openlocfilehash: 4af770427f5b19eaf2a129b26d54aeacc6c2f148
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849767"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278269"
 ---
 # <a name="date-of-vendor-vat-register"></a>供应商增值税登记簿的日期
 

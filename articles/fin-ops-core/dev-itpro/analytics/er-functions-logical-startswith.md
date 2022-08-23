@@ -1,25 +1,25 @@
 ---
 title: STARTSWITH ER 函数
 description: 本文提供有关 STARTSWITH 电子报告 (ER) 函数如何使用的信息。
-author: NickSelin
+author: kfend
 ms.date: 02/11/2021
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: AX 10.0.18
-ms.openlocfilehash: a9c22154484f9e98dbe101b5de0f539b2feb9865
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 010646d2ab96d9a326ffb01c369726790b6377a6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883718"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287209"
 ---
 # <a name="startswith-er-function"></a>STARTSWITH ER 函数
 

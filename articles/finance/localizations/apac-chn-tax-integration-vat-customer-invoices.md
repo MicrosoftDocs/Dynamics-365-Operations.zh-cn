@@ -6,20 +6,20 @@ ms.date: 05/23/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustParameters, VATInvoiceDescTable_CN, TaxProfileTable_CN
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 264894
 ms.search.region: China (PRC)
-ms.author: leguo
+ms.author: mrolecki
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9686450d98ceb453053a2a67e58b9518553349bcada7614607338540e2f5d7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 264894
+ms.search.form: CustParameters, VATInvoiceDescTable_CN, TaxProfileTable_CN
+ms.openlocfilehash: 543142fc7138a993dfe49493535bfbce6eb8904a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764227"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276509"
 ---
 # <a name="chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a>增值税客户发票的中国税务集成修改常见问题
 

@@ -1,25 +1,25 @@
 ---
 title: 用于零售商店的用户定义的证书配置文件
 description: 本文概述了如何在零售商店中使用证书。
-author: josaw
+author: josaw1
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1b40c74efa56a6e18af907e000554b9ab269bb31
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: Retail
+ms.search.form: RetailFormLayout, RetailParameters
+ms.openlocfilehash: c9840ecba7752c06b46c1a5b050055bd471027f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873021"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276155"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>用于零售商店的用户定义的证书配置文件
 

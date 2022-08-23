@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 16c79a788b66830b77b2cdfb33fd2416c530f7d2
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d3f413f34296fd01da6741bb49658285394cbd17
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111557"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288751"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>表映射运行状况检查的错误代码
 

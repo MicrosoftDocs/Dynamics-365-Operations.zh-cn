@@ -1,27 +1,27 @@
 ---
 title: 设置分类
 description: 本主题介绍 Dynamics 365 Commerce 中的分类并说明如何设置分类。
-author: jblucher
+author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 15811
-ms.assetid: d2580048-e798-4b33-85f9-d1bad7d262fc
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 15811
+ms.assetid: d2580048-e798-4b33-85f9-d1bad7d262fc
+ms.search.industry: Retail
+ms.search.form: RetailAssortmentDetails
+ms.openlocfilehash: 26827a09962dbbb6be4e0a054e22424260592702
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774477"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271815"
 ---
 # <a name="set-up-assortments"></a>设置分类
 

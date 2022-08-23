@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910542"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279560"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>创建交易事件的电子邮件模板
 
@@ -117,7 +117,29 @@ Dynamics 365 Commerce 支持以下通知类型。
 
 ### <a name="customer-created"></a>已创建客户
 
-在 Commerce Headquarters 中创建新客户实体时，将触发 *客户创建* 通知类型。
+在 Commerce Headquarters 中创建新客户实体时，将触发 *客户创建* 通知类型。 
+
+要启用客户创建的通知，请在 Commerce headquarters 中转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 参数 \> 常规**。 在 **电子邮件通知配置文件** 下拉列表中，选择包含客户创建的通知类型的电子邮件通知配置文件。 
+
+默认情况下，客户创建的事件将通过 **同步客户和渠道请求** 批处理作业上传到总部。 如果您要使用实时服务调用来发送这些事件，请将客户创建的模板的电子邮件 ID 设置为 **NewCust**。 但是，不建议这样做，因为实时服务调用是“即发即弃”调用，并且没有批处理作业提供的回退或重试逻辑。
+
+> [!NOTE] 
+> 当您启用客户创建的通知时，在法人的所有渠道中创建的客户将收到一封客户创建的电子邮件。 当前，客户创建的通知不能仅限于单个渠道。  
+
+通过批处理作业调用后，客户创建的通知类型支持以下占位符。
+
+| 占位符名称 | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | 创建帐户的客户的名字和姓氏。 |
+
+通过实时服务调用进行调用后，客户创建的通知类型支持以下占位符。
+
+| 占位符名称 | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Name             | 创建帐户的客户的名字和姓氏。 |
+| 电子邮箱            | 创建帐户的客户的电子邮件地址。    |
+| 电话号码            | 创建帐户的客户的电话号码。      |
+| URL              | 客户在创建帐户时提供的 URL。 |
 
 ### <a name="b2b-prospect-approved"></a>已审核 B2B 目标客户
 

@@ -1,24 +1,24 @@
 ---
 title: 创建配置提供程序并将其标记为有效
 description: 本文介绍获分配“系统管理员”或者“电子报告开发人员”角色的用户如何创建配置提供程序。
-author: NickSelin
+author: kfend
 ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93c2e114c97290347b71e94d87ea5339688791cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
+ms.openlocfilehash: db5226720a4e0c0f167921a972429c0a5ecdd2e9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883587"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267804"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>创建配置提供程序并将其标记为有效
 

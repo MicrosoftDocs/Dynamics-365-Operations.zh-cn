@@ -1,25 +1,25 @@
 ---
 title: 选择页面布局
 description: 本文说明如何在 Microsoft Dynamics 365 Commerce 中创建和选择页面布局。
-author: psimolin
+author: josaw1
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: df6ec6dec267c456f2f0fac9a963c07015412e46
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: c01be029a79efe8c3fac6203db51dd1a5a8516e3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888167"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282069"
 ---
 # <a name="select-page-layouts"></a>选择页面布局
 

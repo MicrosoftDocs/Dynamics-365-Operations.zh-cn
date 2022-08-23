@@ -7,20 +7,20 @@ ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7cc6c936c67bc82da1a237341ac07fb69d4ac233
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: 64e03c742f7095e2e485f32ad534f2a755ddd062
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855694"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277871"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>设置电子商务开发环境以针对 1 级零售服务器虚拟机进行调试
 

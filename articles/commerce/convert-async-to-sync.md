@@ -5,16 +5,16 @@ author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 0ce4906816deab8824b1079a34489e55651c0e03
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b442bfc0685706359771e4d9e2729565d3652a60
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884383"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278184"
 ---
 # <a name="convert-asynchronous-customers-to-synchronous-customers"></a>将异步客户转换为同步客户
 

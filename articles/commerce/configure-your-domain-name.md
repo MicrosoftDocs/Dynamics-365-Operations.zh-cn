@@ -1,27 +1,27 @@
 ---
 title: 配置域名
 description: 本文介绍如何为 Microsoft Dynamics 365 电子商务站点配置域名。
-author: psimolin
+author: josaw1
 ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 00c75581ba08979dfbc784f949c30b9bf78d44c9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 298ce84008e60cc82a494320b6a41f35338508c3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892123"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278616"
 ---
 # <a name="configure-your-domain-name"></a>配置域名
 

@@ -5,16 +5,16 @@ author: t-benebo
 ms.date: 10/09/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: 0e9940000f53119d9eb5a877005ab7a8abac1577
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 5828a09944302adbfe32846b2dfdb83d279644b4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111621"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288815"
 ---
 # <a name="integrated-sites-and-warehouses"></a>集成的站点和仓库
 

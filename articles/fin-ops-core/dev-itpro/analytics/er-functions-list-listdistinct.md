@@ -1,25 +1,25 @@
 ---
 title: LISTDISTINCT ER 函数
 description: 本文提供有关 LISTDISTINCT 电子报告 (ER) 函数如何使用的信息。
-author: NickSelin
-ms.date: 7/30/2020
+author: kfend
+ms.date: 07/30/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: d2f8e3a9d077493df3c3b7628608d31834f43f8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: cd773f3455af1be1e952cb3852a648436670ce0f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876796"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285266"
 ---
 # <a name="listdistinct-er-function"></a>LISTDISTINCT ER 函数
 

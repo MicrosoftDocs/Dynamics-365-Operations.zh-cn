@@ -7,20 +7,20 @@ ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5cdc96c9829be4d34e9346b2c99d300c2349bc41
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: f1ad1f45abbc95cbf6d41b3c8681db781c6c9d23
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876537"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268830"
 ---
 # <a name="customer-records-dont-appear-in-commerce-headquarters"></a>客户记录未出现在 Commerce Headquarters 中
 

@@ -6,18 +6,18 @@ ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DataValidationWorkspace
 audience: Application User
-ms.reviewer: tfehr
-ms.assetid: ''
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.search.form: DataValidationWorkspace
+ms.openlocfilehash: fb8999815e96c0aa7d1a054073de77a382c14263
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860030"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272473"
 ---
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 

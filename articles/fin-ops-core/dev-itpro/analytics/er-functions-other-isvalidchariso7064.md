@@ -1,25 +1,25 @@
 ---
 title: ISVALIDCHARACTERISO7064 ER 函数
 description: 本文提供有关 ISVALIDCHARACTERISO7064 电子报告 (ER) 函数如何使用的信息。
-author: NickSelin
+author: kfend
 ms.date: 12/17/2019
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43da66e79bd8fbeecf5a04283574077600552a05
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 26ee54d1c3cd5673ec573e2df688780d3902b69d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908465"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275366"
 ---
 # <a name="isvalidcharacteriso7064-er-function"></a>ISVALIDCHARACTERISO7064 ER 函数
 

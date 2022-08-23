@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: b19fc35a96c3194cf516ea505b6980072571a595
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899059"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281009"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>适用于挪威的收银机的部署指南
 

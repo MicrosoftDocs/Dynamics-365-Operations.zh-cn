@@ -1,21 +1,21 @@
 ---
 title: 电子申报公式支持的复合数据类型
 description: 本文提供有关电子报告 (ER) 公式支持的复合数据类型的信息。
-author: NickSelin
+author: kfend
 ms.date: 06/02/2021
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc3fbe695d79eb0ec9796d471c4d2bb0bb7ab99d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: ea6f8ab1f0cd26fd2414a17be559aa60fc52e7d3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869306"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272703"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>电子申报公式支持的复合数据类型
 

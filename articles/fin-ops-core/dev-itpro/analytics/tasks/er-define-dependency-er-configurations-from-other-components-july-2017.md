@@ -1,7 +1,7 @@
 ---
 title: 定义其他组件上的电子报告配置的依赖关系
 description: 本文介绍如何设计电子报告 (ER) 配置并指定其与其他软件组件的依赖关系。
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: ff9d1edab13de49ae676708865ebe02a82db34e0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111685"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291255"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>定义其他组件上的电子报告配置的依赖关系
 

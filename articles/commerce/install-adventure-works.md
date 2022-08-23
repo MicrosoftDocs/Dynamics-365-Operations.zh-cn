@@ -6,20 +6,20 @@ ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 18c2612b8b6b4ed8195ff8e71d6e0495f7e80950
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: f5c195694633c96a473f0f824c1f182903082bff
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854889"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274278"
 ---
 # <a name="install-the-adventure-works-theme"></a>安装 Adventure Works 主题
 

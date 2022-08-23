@@ -1,25 +1,25 @@
 ---
 title: 中国的固定资产折旧法
 description: 本文描述为中国法人设置的折旧法。
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 03/21/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AssetParameters
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 265244
 ms.search.region: China (PRC)
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83b10ca5ab92c474eb5dafe9d4ce74b939851e86
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 265244
+ms.search.form: AssetParameters
+ms.openlocfilehash: d6d6445c60c88dbabbb48ce61324bf6f3af5b470
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907819"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284008"
 ---
 # <a name="fixed-assets-depreciation-methods-for-china"></a>中国的固定资产折旧法
 

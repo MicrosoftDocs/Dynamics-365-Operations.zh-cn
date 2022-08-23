@@ -1,7 +1,7 @@
 ---
 title: 创建格式时选择数据模型定义
 description: 为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。
-author: NickSelin
+author: kfend
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34e6c8df735976ca0f7805fe3e06f141d38abf12faf02ff66195339147aa5405
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65b3a74f98282f01940c5d17f8aa893d174883da
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720824"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290115"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>创建格式时选择数据模型定义
 

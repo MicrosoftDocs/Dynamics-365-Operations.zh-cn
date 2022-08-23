@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 9324518fff35d357f845c08cba25e2faded2f381
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899167"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269962"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>应用产品维度的显示设置
 

@@ -6,21 +6,21 @@ ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: intro-internal
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 04836ecf80fc86ab6abb96e4255779c8c03988d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: intro-internal
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 350b3236eec6ad6520025bf44b22f12366f1e266
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909450"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269882"
 ---
 # <a name="document-states-and-lifecycle"></a>文档状态和生命周期
 

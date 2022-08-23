@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d7a6ae48834ddd5f06f73bfe3129e44d14d86b8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898937"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288977"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>将 Microsoft Power Apps 门户与当事方数据模型配合使用
 

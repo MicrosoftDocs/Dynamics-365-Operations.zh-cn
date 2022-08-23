@@ -1,28 +1,26 @@
 ---
 title: 调整电子报告格式以生成自定义电子单据
 description: 本文说明如何调整 Microsoft 提供的电子报告 (ER) 格式，以便生成自定义电子单据。
-author: NickSelin
+author: kfend
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 8b0bcdbd011c4c04e2693a3dcb8033c3cbe2adc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886782"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283549"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>调整电子报告格式以生成自定义电子单据
 
@@ -271,7 +269,7 @@ ms.locfileid: "8886782"
 
 6. 选择 **创建配置**。
 
-将创建 **BACS（UK 自定义）** ER 格式配置的版本 1.1.1。 此版本的 [状态](general-electronic-reporting.md#component-versioning)为 **草稿**，可以编辑。 自定义 ER 格式的当前内容与 Microsoft 提供的格式的内容匹配。
+将创建 **BACS（UK 自定义）** ER 格式配置的版本 1.1.1。 此版本的状态为 **草稿**，可以编辑。 自定义 ER 格式的当前内容与 Microsoft 提供的格式的内容匹配。
 
 ![包含 BACS（UK 自定义）电子报告格式配置版本 1.1.1 的配置页面。](./media/er-quick-start2-derived-format-configuration1.png)
 
@@ -324,7 +322,7 @@ ms.locfileid: "8886782"
 
 ### <a name="mark-a-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>将自定义格式标记为可运行
 
-已创建自定义格式的第一个版本，并且其状态为 **操作**，您可以针对测试用途运行该版本。 若要运行此报表，必须使用引用自定义 ER 格式的付款方式处理供应商付款。 默认情况下，从应用程序调用 ER 格式时，仅 [考虑](general-electronic-reporting.md#component-versioning)状态为 **已完成** 或 **已共享** 的版本。 此行为有助于避免使用未完成设计的 ER 格式。 但是，对于测试运行，可以强制应用程序使用状态为 **草稿** 的 ER 格式版本。 因此，如果需要进行任何修改，可以调整当前格式版本。 有关详细信息，请参阅[适用性](electronic-reporting-destinations.md#applicability)。
+已创建自定义格式的第一个版本，并且其状态为 **操作**，您可以针对测试用途运行该版本。 若要运行此报表，必须使用引用自定义 ER 格式的付款方式处理供应商付款。 默认情况下，从应用程序调用 ER 格式时，仅考虑状态为 **已完成** 或 **已共享** 的版本。 此行为有助于避免使用未完成设计的 ER 格式。 但是，对于测试运行，可以强制应用程序使用状态为 **草稿** 的 ER 格式版本。 因此，如果需要进行任何修改，可以调整当前格式版本。 有关详细信息，请参阅[适用性](electronic-reporting-destinations.md#applicability)。
 
 要使用 ER 格式的草稿版本，必须显式标记 ER 格式。
 

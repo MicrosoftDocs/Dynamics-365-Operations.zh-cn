@@ -1,26 +1,26 @@
 ---
 title: 注册并安装电子开票服务
 description: 本文提供有关如何注册和安装电子开票服务的信息。
-author: dkalyuzh
+author: gionoder
 ms.date: 02/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 99f484e5ab8821c78fde776a9d3195dade2a09d5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865517"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283948"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>注册并安装电子开票服务
 

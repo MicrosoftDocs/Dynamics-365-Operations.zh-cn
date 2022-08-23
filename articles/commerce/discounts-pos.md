@@ -6,22 +6,22 @@ ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail, Commerce
-ms.author: asharchw
+ms.author: shajain
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: e3ec16c5051088ed2777309899b26094e8d67743
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail, Commerce
+ms.search.form: ''
+ms.openlocfilehash: 706c13bf090b2ad3826d17bbbeda8a2fa7733f2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878532"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287700"
 ---
 # <a name="show-discounts-in-pos"></a>在 POS 中显示折扣
 

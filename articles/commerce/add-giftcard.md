@@ -6,20 +6,20 @@ ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cc3d51b9891469b8bb0fa38ae2bcd0b27eee56f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 93e2a6608b6d3190df7df1d8f85fd9d7e1c18692
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869482"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280550"
 ---
 # <a name="gift-card-module"></a>礼品卡模块
 

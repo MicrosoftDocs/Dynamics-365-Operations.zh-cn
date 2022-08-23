@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845915"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219523"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>配置装运合并策略
 
@@ -61,7 +61,6 @@ ms.locfileid: "8845915"
 1. 在 **仓库** 快速选项卡上，将 **在发放到仓库时合并装运** 选项设置为 *是*。
 1. 对需要进行合并的其他所有仓库重复步骤 2 到 4。
 1. 关闭该页面。
-1. 使用 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)开启 *装运合并策略* 功能。 在 **功能管理** 工作区中，此功能的名称为 *合并装运*。
 1. 转到 **仓库管理 \> 设置 \> 发放到仓库 \> 装运合并策略**。 开启此功能之后，可能必须刷新浏览器才能查看新的 **装运合并策略** 菜单项。
 1. 在操作窗格上，选择 **创建默认设置** 创建以下策略：
 
@@ -81,7 +80,6 @@ ms.locfileid: "8845915"
 
 请执行以下步骤在全新环境中设置默认装运合并策略。
 
-1. 如果尚未开启 *装运合并策略* 功能，请使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)开启此功能。 在 **功能管理** 工作区中，此功能的名称为 *合并装运*。
 1. 转到 **仓库管理 \> 设置 \> 发放到仓库 \> 装运合并策略**。
 1. 在操作窗格上，选择 **创建默认设置** 创建以下策略：
 

@@ -6,21 +6,21 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: 3121
-ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4fedee481b4066c81671cf1fca3781c8c75aaeb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 3121
+ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
+ms.search.form: AssetBonus, AssetBookTable
+ms.openlocfilehash: 9761fc9846324d1c165274b72033e195bf4ea3e0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874514"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275286"
 ---
 # <a name="fixed-asset-depreciation"></a>固定资产折旧
 

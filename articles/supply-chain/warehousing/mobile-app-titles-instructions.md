@@ -4,19 +4,19 @@ description: 本文介绍如何为您为 Warehouse Management 移动应用设置
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895487"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220140"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用自定义步骤标题和说明
 
@@ -30,10 +30,7 @@ ms.locfileid: "8895487"
 
 ## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>开启仓库应用步骤说明功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置以检查功能状态和打开功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*仓库应用步骤说明*
+必须在系统中开启此功能，然后才能使用。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *仓库应用步骤说明* 功能来打开或关闭此功能。
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>应用中的步骤标题和步骤说明
 

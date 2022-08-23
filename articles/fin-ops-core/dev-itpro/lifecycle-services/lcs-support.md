@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
-ms.custom: 254844
-ms.assetid: 0e9471f9-4c2b-42f0-9b10-6578211f01d5
 ms.search.region: Global
-ms.author: anupams
+ms.author: emoos
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f36709ddc2a64c31fe3c2d63fbe073fd9bc159bb
-ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
+ms.custom: 254844
+ms.assetid: 0e9471f9-4c2b-42f0-9b10-6578211f01d5
+ms.openlocfilehash: e0eb850b8a99a4f2f853777b1b5ec4d3f00621a0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9103394"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284424"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>获取针对财务和运营应用程序或 Lifecycle Services (LCS) 的支持
 

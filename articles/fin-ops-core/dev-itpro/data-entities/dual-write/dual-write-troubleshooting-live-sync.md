@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1211f7da15686f1c55a4c942f04c73d671e0ba6b
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: b6650c92d22aee5394460e4e32bfd0ad3a7698c7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111417"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289445"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>解决实时同步问题
 

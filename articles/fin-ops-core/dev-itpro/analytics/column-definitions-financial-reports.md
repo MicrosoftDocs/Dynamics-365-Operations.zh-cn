@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "106601"
+ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
-ms.openlocfilehash: 30d00f50844f7ad040d3c054726b7cc1a7e85d01
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206373"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291879"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 

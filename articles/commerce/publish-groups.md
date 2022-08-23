@@ -6,20 +6,20 @@ ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 76d447a5368cd5e342e8b1b934bb04d45e3378fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 5a19d25b0b34ea3d452cacdd51ea071747ff1d90
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885102"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278997"
 ---
 # <a name="work-with-publish-groups"></a>使用发布组
 

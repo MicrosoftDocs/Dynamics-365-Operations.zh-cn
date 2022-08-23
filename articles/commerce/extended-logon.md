@@ -1,27 +1,27 @@
 ---
 title: 设置和使用扩展登录
 description: 本文介绍如何设置和使用 Microsoft Dynamics 365 Commerce 销售点 (POS) 应用程序的扩展登录功能。
-author: boycez
+author: boycezhu
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 92353
-ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 92353
+ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
+ms.search.industry: Retail
+ms.search.form: RetailFunctionalityProfile
+ms.openlocfilehash: e2fc39b1b7fb34f49c061dcc324c28cf5a89277c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884303"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283687"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>设置和使用扩展登录
 

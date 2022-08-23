@@ -1,7 +1,7 @@
 ---
 title: 解决 Store Commerce 设置和安装问题
 description: 本文介绍如何解决 Microsoft Dynamics 365 Commerce Store Commerce 应用中的设置和安装问题。
-author: mugunthanm
+author: josaw1
 ms.date: 06/01/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 8af2c476ced05fc159a53131f8b51ad914a6c7c3
-ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
+ms.openlocfilehash: e3d115e84af1aaf5266eff6588ca6996a333e51a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2022
-ms.locfileid: "9168939"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286322"
 ---
 # <a name="troubleshoot-store-commerce-setup-and-installation-issues"></a>解决 Store Commerce 设置和安装问题
 

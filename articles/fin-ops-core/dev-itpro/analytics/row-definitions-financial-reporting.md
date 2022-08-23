@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "68873"
+ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: a60e66c372d85cc05219eaa17b7924aca5f3f337
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206309"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274684"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>财务报表设计器中的行定义
 

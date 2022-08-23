@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: acfe71f7fb55f1bc701297bb3949e91d6450d9e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5f882debd09a7076a52606f7ca3aca97d9ec8afe
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853785"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269184"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>配置库存缓冲区和库存级别
 

@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c046b131afd1728b26465816eee98ee1898e49
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4bd901b1709f0b006cecfbbf6d8c170b56f89d19
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861378"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284354"
 ---
 # <a name="reclassify-fixed-assets"></a>将固定资产重新分类
 

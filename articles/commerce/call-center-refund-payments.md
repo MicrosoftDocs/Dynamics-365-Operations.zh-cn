@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b1f3462529d501d9a5c279fd15dec69cb447cd51
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880106"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276911"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>呼叫中心退款处理
 

@@ -1,26 +1,26 @@
 ---
 title: Regulatory Configuration Service (RCS) - 删除 RCS 环境
 description: 本文说明了 Regulatory Configuration Service (RCS) 系统管理员可以如何删除 RCS 环境和相关数据。
-author: JaneA07
+author: kfend
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RCS, Regulatory Configuration Services, Localization, Global
 audience: Application User, System Admin
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 21e7ee546bb2b712d9424c6bd95e9f9227831bd1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: RCS, Regulatory Configuration Services, Localization, Global
+ms.openlocfilehash: bdcb6820ead72fce0f89bf80cc5e474cb3942724
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908881"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277199"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - 删除 RCS 环境
 

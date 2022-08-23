@@ -1,24 +1,24 @@
 ---
 title: ER 创建格式配置（2016 年 11 月）
 description: 本文说明如何为电子报告 (ER) 创建格式配置。
-author: NickSelin
+author: kfend
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2617f33293c38b7f1aaa61fda7d8de06711c6727
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
+ms.openlocfilehash: 3c705add64a46c4cce5127f16fae45edba1bc001
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902645"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290715"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER 创建格式配置（2016 年 11 月）
 

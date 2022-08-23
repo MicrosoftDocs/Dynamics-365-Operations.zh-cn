@@ -7,20 +7,20 @@ ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 88367e13b4d079edb0816e301901828b65c437ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: 85d102d3442e19377912cb9562010778a0575db8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900300"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284595"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>“提货”选项没有出现在购物车或产品详细信息页面上
 

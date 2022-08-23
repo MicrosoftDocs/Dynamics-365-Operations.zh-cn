@@ -7,20 +7,20 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: ebac0f4ee98f36027f8cb50a368b9b6dcbb24623
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881649"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279413"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>设备、市场和地理位置目标定位
 

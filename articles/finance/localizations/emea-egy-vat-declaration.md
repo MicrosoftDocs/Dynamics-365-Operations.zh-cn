@@ -1,24 +1,24 @@
 ---
 title: 埃及增值税申报
 description: 本文说明如何配置和生成埃及增值税退税表。
-author: sndray
+author: AdamTrukawka
 ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: ''
 ms.search.region: Global
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.scope: ''
+ms.openlocfilehash: c035c52d7d577a01f5903461548c0cb33f05045f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870026"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287812"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>埃及增值税申报 (EG-00002)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065455"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220048"
 ---
 # <a name="warehouse-location-status"></a>仓库货位状态
 
@@ -42,10 +42,7 @@ Microsoft Dynamics 365 Supply Chain Management 中有若干货位字段，让您
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>开启“仓库货位状态”功能
 
-*仓库货位状态* 功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能（如果需要）。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*仓库货位状态*
+必须在系统中开启此功能，然后才能使用。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *仓库库位状态* 功能来打开或关闭此功能。
 
 ## <a name="set-up-warehouse-location-status"></a>设置仓库货位状态
 
@@ -55,7 +52,7 @@ Microsoft Dynamics 365 Supply Chain Management 中有若干货位字段，让您
 
 #### <a name="use-the-usmf-legal-entity"></a>使用 USMF 法人
 
-若要使用此处指定的示例记录和值完成示例场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。 此外，开始前，还必须选择 **USMF** 法人。
+若要使用此处指定的示例记录和值完成示例场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)。 此外，开始前，还必须选择 **USMF** 法人。
 
 #### <a name="set-up-location-profiles"></a>设置货位模板
 

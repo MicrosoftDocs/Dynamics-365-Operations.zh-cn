@@ -1,27 +1,27 @@
 ---
 title: POS 中的传入库存操作
 description: 本文介绍销售点 (POS) 入站库存操作的功能。
-author: hhaines
+author: hhainesms
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858874"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288344"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS 中的传入库存操作
 
@@ -155,15 +155,13 @@ POS 用户可通过入站操作执行以下任务：
 
 ### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>在采购订单上接收计划外物料
 
-在 Commerce 版本 10.0.14 和更高版本中，用户可以接收最初不在采购订单上的产品。 要启用此功能，请打开 **在销售点接收期间向采购订单添加行**。  
-
-此功能仅适用于采购订单接收。 如果先前未从出站仓库订购和装运物料，则无法根据转移单接收物料。
+在 Commerce 版本 10.0.14 和更高版本中，用户可以接收最初不在采购订单上的产品。 此功能仅适用于采购订单接收。 如果先前未从出站仓库订购和装运物料，则无法根据转移单接收物料。
 
 如果采购订单[更改管理工作流](../supply-chain/procurement/purchase-order-approval-confirmation.md)在 Commerce headquarters (HQ) 中启用，用户将无法在 POS 接收期间将新产品添加到采购订单中。 要启用更改管理，必须先批准对采购订单的所有更改，然后才允许接收。 因为此流程允许接收者向采购订单添加新行，所以如果启用了更改管理工作流，接收将失败。 如果为所有采购订单或在 POS 中主动接收的与采购订单链接的供应商启用了更改管理，用户将无法在 POS 接收期间将新产品添加到采购订单中。
 
 启用添加行的功能不能用作接收采购订单上已有的额外产品数量的解决方法。 超收通过采购订单上产品行的标准[超收](#over-receiving-validations)设置来管理。
 
-如果启用了 **在销售点接收期间向采购订单添加行**，当用户在使用 POS 中的 **入站操作** 接收时，如果用户扫描或键入的产品条码或产品编号未被识别为当前采购订单上的物料，但被识别为有效物料，用户会收到一条有关将该物料添加到采购订单中的消息。 如果用户将物料添加到采购订单中，在 **正在接收** 中输入的数量将被视为采购订单行的订购数量。
+当用户在使用 POS 中的 **入站操作** 接收时，如果用户扫描或键入的产品条码或产品编号被识别为有效物料，但未被识别为当前采购订单上的物料，用户会收到一条提示他们将该物料添加到采购订单中的消息。 如果用户将物料添加到采购订单中，在 **正在接收** 中输入的数量将被视为采购订单行的订购数量。
 
 采购订单收货完成并提交到 HQ 进行处理时，将在采购订单主文档上创建添加的行。 在 HQ 中的采购订单行上，采购订单行的 **常规** 选项卡上将有一个 **POS 添加** 标记。 **POS 添加** 指示采购订单行是由 POS 接收流程添加的，不是接收之前采购订单上的行。
 

@@ -1,26 +1,26 @@
 ---
 title: 支持 ER 数据模型的参数化调用
 description: 本文介绍了如何实现电子报告 (ER) 数据模型的参数化调用。
-author: NickSelin
+author: kfend
 ms.date: 03/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula, ERDataModelDesigner
+ms.openlocfilehash: 5be189c19d963991ec012de189bbf7b721b88fef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884248"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275979"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>支持 ER 数据模型的参数化调用
 
@@ -278,7 +278,7 @@ ER 格式配置为以逗号分隔值 (CSV) 格式的文本文件形式生成报�
 
 1. 转到 **组织管理** \> **电子申报** \> **配置**。
 2. 在 **配置** 页的左侧窗格的配置树中，选择 **示例审核模型**。
-3. 在 **版本** 快速选项卡上，选择状态为 **[草稿](general-electronic-reporting.md#component-versioning)** 的版本 **2**。
+3. 在 **版本** 快速选项卡上，选择状态为 **草稿** 的版本 **2**。
 4. 选择 **配置组件** 快速选项卡。
 5. 选择 **设计器** 以打开要编辑的数据模型。
 6. 在 **数据模型** 页面上，请确保已选择 `Root` 字段，然后选择 **新建**。

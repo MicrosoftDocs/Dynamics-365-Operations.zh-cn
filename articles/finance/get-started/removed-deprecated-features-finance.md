@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance 中已删除或弃用的功能
 description: 本文介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068913"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219559"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -32,6 +32,20 @@ ms.locfileid: "9068913"
 
 > [!NOTE]
 > [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Finance 10.0.29 版本中已经删除或弃用的功能
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>具有转让价格税的存货转移单
+
+[具有转让价格税的存货转移单](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **弃用/移除的原因** | 替换为了改进的功能，即[印度的存货转移单](../../finance/localizations/apac-ind-stock-transfer.md)|
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域** | 应用程序 |
+| **部署选项** | 所有 |
+| **Status** | 已弃用：2023 年 4 月之后，**具有转让价格税的存货转移单** 功能将不再获得错误修复和安全修复的相关支持。 将要求客户使用改进的功能，即[印度的存货转移单](../../finance/localizations/apac-ind-stock-transfer.md)。 2023 年 10 月之后，**具有转让价格税的存货转移单** 功能将不再可用，并且将要求客户改用改进的功能。 |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Finance 10.0.26 版本中已经删除或弃用的功能
 

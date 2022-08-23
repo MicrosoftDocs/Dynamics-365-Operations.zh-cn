@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3dd9f4930303b1e3506e613d5437613138944430
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1017527419acc2e4cb42b2bcb83131339d82b665
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877296"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218873"
 ---
 # <a name="work-line-details"></a>工作行详细信息
 
@@ -52,7 +52,7 @@ ms.locfileid: "8877296"
 
 ### <a name="make-sample-data-available"></a>提供示例数据
 
-若要使用此处指定的示例记录和值完成此演示，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。 此外，开始前，还必须选择 **USMF** 法人。
+若要使用此处指定的示例记录和值完成此演示，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)。 此外，开始前，还必须选择 **USMF** 法人。
 
 使用生产系统时，也可以将此演示用作指导。 但是，必须替换为您自己的值，而您可能会缺少标准演示数据提供的某些类型的必需记录。
 

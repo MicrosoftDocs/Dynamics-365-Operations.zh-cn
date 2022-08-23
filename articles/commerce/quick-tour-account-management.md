@@ -6,20 +6,20 @@ ms.date: 09/15/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 126df38f8c3db6de67e5e0436e48deddd4d8e08b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868875"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292100"
 ---
 # <a name="account-management-pages-overview"></a>帐户管理页面概览
 

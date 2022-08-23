@@ -1,27 +1,27 @@
 ---
 title: 班次和银箱管理
 description: 本文介绍如何在商业销售点 (POS) 中设置和使用班次。
-author: jblucher
+author: josaw1
 ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 105011
-ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: brshoo
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9c22f1fce99eaeca7b1081524230742e4709de5c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 105011
+ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
+ms.search.industry: Retail
+ms.search.form: RetailHardwareProfile, RetailTerminalTable
+ms.openlocfilehash: effba19634ee26ddeb86b1cf01ad970daff07dae
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877203"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287449"
 ---
 # <a name="shift-and-cash-drawer-management"></a>班次和银箱管理
 

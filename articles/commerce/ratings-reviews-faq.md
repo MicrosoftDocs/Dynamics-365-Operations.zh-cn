@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3aef1135aa03d221e403fe1b5f7dce08bc9885d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f54da57806420d1190a3546b9dd6ed83b3978907
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909520"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271896"
 ---
 # <a name="ratings-and-reviews-faq"></a>评分和评价常见问题解答
 

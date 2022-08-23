@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: f5829ccf9fad78e8669f5109d6c15e71af2ca768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: ede42caac78dc48fa6315a2d3c22f1e0f12f0810
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894402"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283579"
 ---
 # <a name="ratings-and-reviews-modules"></a>评分和评价模块
 

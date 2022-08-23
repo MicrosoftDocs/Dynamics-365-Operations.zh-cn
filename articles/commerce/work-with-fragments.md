@@ -6,20 +6,20 @@ ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f911c5ee209cfcde5d2b2aef2c8f7343eb694cd3
-ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 785e6f847fd1645557060356926f2dda8da22ac1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183281"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268197"
 ---
 # <a name="work-with-fragments"></a>使用片段 
 

@@ -1,26 +1,26 @@
 ---
 title: 打印机 ER 目标类型
 description: 本文说明如何为电子报告 (ER) 格式的每个文件夹或文件组件配置打印机目标。
-author: NickSelin
+author: kfend
 ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 826455d0901a45ef26755fd323ee2a2737b5eec0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
+ms.openlocfilehash: 7e01476b85c6c35d7c36c90db4d64ab2a2930fec
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845561"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271725"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>打印机目标
 

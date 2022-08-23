@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42eda805646dbb30b40528254a3137102e3075e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906691"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292728"
 ---
 # <a name="cash-register-functionality-for-norway"></a>挪威收银机功能
 

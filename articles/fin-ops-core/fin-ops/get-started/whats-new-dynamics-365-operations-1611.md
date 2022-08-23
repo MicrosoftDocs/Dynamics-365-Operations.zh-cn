@@ -6,21 +6,21 @@ ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw
-ms.custom: 221294
-ms.assetid: 357931ed-f843-4bf5-bc85-0da3de0619ec
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dfe5eeee10bbe7812155018f4ff552eaa10a14e1
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.custom: 221294
+ms.assetid: 357931ed-f843-4bf5-bc85-0da3de0619ec
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: d8d3e1cb43a46d1132c2b1a0ae730f3498305067
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9125043"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273866"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容
 

@@ -2,7 +2,7 @@
 title: 更改促销实体的排序顺序
 description: 本文介绍与在 Dynamics 365 Commerce 中控制各种促销相关实体的显示顺序有关的概念。
 author: josaw1
-ms.date: 08/05/2019
+ms.date: 08/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,27 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80586597f4f60476b341e4cf1cfd90f3681e15c0
+ms.sourcegitcommit: 52e31b1ef2b3ed8675de931d06090cd57e057fc2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847646"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9265828"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>更改促销实体的排序顺序
 
 
 [!Include [banner](includes/banner.md)]
 
-零售商将产品发现视为所有渠道中的主要客户互动工具。 可通过大量功能帮助客户轻松发现产品。 例如，可以浏览类别，进行搜索或使用筛选。
+零售商将产品发现视为所有渠道中的主要客户互动工具。 存在一些可帮助客户轻松发现产品的功能。 例如，客户可以浏览类别，进行搜索或筛选。
 
 本文介绍与控制各种促销相关实体的显示顺序有关的概念。 还介绍了如何更改排序顺序。
 
-## <a name="overview"></a>概览
+## <a name="overview"></a>概述
 
-已对为促销关联的各种实体进行排序的支持进行了增强。 此项支持现在可以更好地适应以前要求实施合作伙伴进行扩展的现有客户方案。
+在 Commerce 中，对各种商品相关实体进行分类与现有客户方案保持一致，不再需要实施合作伙伴的扩展。
 
-在低于 10.0.5 的 Retail 版本中，导航层次结构中的类别按字母排序。 促销经理可使用新的自定义排序功能为所有最终用户客户的各种促销相关实体配置排序。 这些客户包括总部 (HQ) 和呼叫中心。
+在 Commerce 版本 10.0.5 和更早版本中，导航层次结构中的类别按字母排序。 使用当前自定义排序功能，促销经理可为所有最终用户客户的各种促销相关实体配置排序。 这些客户包括总部 (HQ) 和呼叫中心。
 
 ## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a>配置产品层次结构中的类别的显示顺序
 
@@ -67,7 +67,7 @@ ms.locfileid: "8847646"
 6. 在 **显示顺序** 字段中，输入一个数字。
 7. 在树中，选择 **时尚 \> 女装 \> 上装**。
 
-    同样，可以为子类别定义排序顺序。
+同样，可以为子类别定义排序顺序。
 
 8. 在树中，选择 **时尚 \> 男装 \> 休闲衬衫**。
 9. 在 **显示顺序** 字段中，输入一个数字。
@@ -84,7 +84,7 @@ ms.locfileid: "8847646"
 ![具有自定义排序的类别的 POS。](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> 默认情况下，已关闭自定义排序顺序。 若要了解如何开启此功能和其他功能，请参阅[功能管理](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview)。
-
+> 默认情况下，**启用促销实体的显示顺序** 功能已关闭。 请使用[功能管理](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)打开它。 打开该功能后，通过分发计划运行 **全局配置 -1110** CDX 作业。
+> 如果未更新 POS 中的类别顺序，请重新激活设备。 在发生设备激活时会提取类别信息，因此设备可能需要使用更新的显示顺序重新获取类别信息。 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

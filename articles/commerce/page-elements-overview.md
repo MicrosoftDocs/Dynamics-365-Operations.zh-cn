@@ -6,21 +6,21 @@ ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: intro-internal
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 91a5cd47ea900b8b3b94368676031fd57bc58f47
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: intro-internal
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: a4c2a29e8c2112622b5e30064e26523b4f9e2d5a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891950"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281419"
 ---
 # <a name="page-model-glossary"></a>页面模型词汇表
 

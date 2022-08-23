@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.custom:
-- "59071"
+ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.form: FinancialReports
-ms.openlocfilehash: 5ad13cfdc77e5e6cec1ffb6beac9a2c84088773e
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: af5cd63c2dbd531b4c8097b6149d7e67fe112259
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205991"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280022"
 ---
 # <a name="financial-report-components"></a>财务报表组件
 

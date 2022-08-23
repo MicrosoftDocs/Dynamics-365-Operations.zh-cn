@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: ea142aff7c8f4b442d7224325e44359129efe8a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111715"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289671"
 ---
 # <a name="integrated-customer-master"></a>集成客户主数据
 

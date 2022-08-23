@@ -1,58 +1,79 @@
 ---
-title: 适用于挪威的收银机的部署指南（旧版）
-description: 本文是一个部署指南，介绍如何针对挪威启用 Microsoft Dynamics 365 Commerce 本地化。
-author: EvgenyPopovMBS
-ms.date: 12/20/2021
-ms.topic: article
-audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgriffin
-ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b17bd56f9f3e4def341658626915adbd7f5aada6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894454"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281530"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>适用于挪威的收银机的部署指南（旧版）
+---
 
-[!include [banner](../includes/banner.md)]
+标题：适用于挪威的收银机的部署指南（旧版）[!include [banner](../includes/banner.md)]
+说明：本文是一个部署指南，介绍如何针对挪威启用 Microsoft Dynamics 365 Commerce 本地化。
 
-本文是一个部署指南，介绍如何针对挪威启用 Microsoft Dynamics 365 Commerce 本地化。 本地化由多个 Commerce 组件扩展组成。 例如，这些扩展允许您在收据上打印自定义字段；在销售点 (POS) 中登记附加审计事件、销售交易和付款交易；对销售交易进行数字签名；以及以本地格式打印 X 和 Z 报表。 有关挪威本地化的详细信息，请参阅[挪威收银机功能](./emea-nor-cash-registers.md)。
+作者：EvgenyPopovMBS 本文是一个部署指南，介绍如何针对挪威启用 Microsoft Dynamics 365 Commerce 本地化。 本地化由多个 Commerce 组件扩展组成。 例如，这些扩展允许您在收据上打印自定义字段；在销售点 (POS) 中登记附加审计事件、销售交易和付款交易；对销售交易进行数字签名；以及以本地格式打印 X 和 Z 报表。 有关挪威本地化的详细信息，请参阅[挪威收银机功能](./emea-nor-cash-registers.md)。
+ms.date：12/20/2021
 
-此示例是 Retail 软件开发配套件 (SDK) 的一部分。 有关 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
+ms.topic：文章：此示例是 Retail 软件开发配套件 (SDK) 的一部分。 有关 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。
+访问群体：应用程序用户、开发人员、IT Pro
 
-此示例由 Commerce runtime (CRT)、Retail Server 和 POS 的扩展组成。 若要运行此示例，您必须修改和生成 CRT、Retail Server 和 POS 项目。 我们建议您使用未修改的 Retail SDK 进行本文中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Microsoft Visual Studio Online (VSO)。
+ms.reviewer：v-chgriffin 此示例由 Commerce runtime (CRT)、Retail Server 和 POS 的扩展组成。 若要运行此示例，您必须修改和生成 CRT、Retail Server 和 POS 项目。 我们建议您使用未修改的 Retail SDK 进行本文中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Microsoft Visual Studio Online (VSO)。
+ms.search.region：全局
 
+ms.author：josaw
 > [!NOTE]
-> 在 Commerce 10.0.8 及以上版本中，Retail Server 称为 Commerce Scale Unit。 由于本文适用于应用的多个先前版本，因此在整个文章中使用的都是 *Retail Server*。
+ms.search.validFrom：2018-02-28 在 Commerce 10.0.8 及以上版本中，Retail Server 称为 Commerce Scale Unit。 由于本文适用于应用的多个先前版本，因此在整个文章中使用的都是 *Retail Server*。
 >
+---
 > 本文介绍的过程中的某些步骤有所不同，具体取决于您使用的 Commerce 版本。 有关详细信息，请参阅 [Dynamics 365 Retail 中的新增功能或更改](../get-started/whats-new.md)。
 
+
+6. 更新 Retail Server 配置文件。 在 **RetailSDK\\Packages\\RetailServer\\Code\\web.config** 文件中，将以下行添加到 **extensionComposition** 部分。
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>在 Commerce 渠道中使用证书配置文件
 
-在 Commerce 版本 10.0.15 及更高版本中，您可以使用[用于零售商店的用户定义的证书配置文件](./certificate-profiles-for-retail-stores.md)功能，在密钥保管库或 Commerce Headquarters 不可用时，该功能支持故障转移到脱机。 此功能扩展[管理零售渠道机密](../dev-itpro/manage-secrets.md)功能。
 
+    ``` xml
+在 Commerce 版本 10.0.15 及更高版本中，您可以使用[用于零售商店的用户定义的证书配置文件](./certificate-profiles-for-retail-stores.md)功能，在密钥保管库或 Commerce Headquarters 不可用时，该功能支持故障转移到脱机。 此功能扩展[管理零售渠道机密](../dev-itpro/manage-secrets.md)功能。
+    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
+
+    ```
 要在 CRT 扩展中应用此功能，请按照下列步骤操作。
 
+
+7. 运行整个 Retail SDK 的 **msbuild** 以创建可部署包。
 1. 创建新的 CRT 扩展项目（C# 类库项目类型）。 使用 Retail 软件开发套件 (SDK) (RetailSDK\SampleExtensions\CommerceRuntime) 中的示例模板。
+8. 通过 Microsoft Dynamics Lifecycle Services (LCS) 或手动应用包。 有关详细信息，请参阅[创建可部署包](../dev-itpro/retail-sdk/retail-sdk-packaging.md)。
+
 
 2. 在 SequentialSignatureRegister 项目中为 CertificateSignatureServiceRequest 添加自定义处理程序。
+### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>允许 Modern POS 在脱机模式下进行数字签名
+
 
 3. 将构造函数与 profileId 参数配合使用来读取密钥调用 `GetUserDefinedSecretCertificateServiceRequest`。 这将启动使用证书配置文件中的设置的功能。 根据设置，将从 Azure 密钥保管库或本地计算机存储中检索证书。
+若要允许 Modern POS 在脱机模式进行数字签名，您必须在新设备上激活 Modern POS 后执行这些步骤。
+
 
     ```csharp
+1. Sign in to POS.
     GetUserDefinedSecretCertificateServiceRequest getUserDefinedSecretCertificateServiceRequest = new GetUserDefinedSecretCertificateServiceRequest(profileId: "ProfileId", secretName: null, thumbprint: null, expirationInterval: null);
+2. On the **Database connection status** page, make sure that the offline database is fully synchronized. When the value of the **Pending downloads** field is **0** (zero), the database is fully synchronized.
     GetUserDefinedSecretCertificateServiceResponse getUserDefinedSecretCertificateServiceResponse = request.RequestContext.Execute<GetUserDefinedSecretCertificateServiceResponse>(getUserDefinedSecretCertificateServiceRequest);
+3. Sign out of POS.
 
+4. Wait a while for the offline database to be fully synchronized.
     X509Certificate2 Certificate = getUserDefinedSecretCertificateServiceResponse.Certificate;
+5. Sign in to POS.
     ```
+6. 在 **数据库连接状态** 页上，确保脱机数据库完全同步。 当 **脱机数据库中的待定交易记录** 字段的值为 **0**（零）时，数据库将完全同步。
 
+7. 重新启动 Modern POS。
 4. 检索证书后，继续进行数据签名。
 
+
+
 5. 生成 CRT 扩展项目。
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 6. 复制输出类库并将其粘贴到 ...\RetailServer\webroot\bin\Ext 以进行手动测试。
 
@@ -1612,27 +1633,3 @@ CRT 示例中包含 CRT 扩展组件。 若要完成以下过程，请在 **Reta
     该文件名为 **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config**，它在 **Extensions.SequentialSignatureRegister\\bin\\Debug** 下。
 
     ---
-
-6. 更新 Retail Server 配置文件。 在 **RetailSDK\\Packages\\RetailServer\\Code\\web.config** 文件中，将以下行添加到 **extensionComposition** 部分。
-
-    ``` xml
-    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
-    ```
-
-7. 运行整个 Retail SDK 的 **msbuild** 以创建可部署包。
-8. 通过 Microsoft Dynamics Lifecycle Services (LCS) 或手动应用包。 有关详细信息，请参阅[创建可部署包](../dev-itpro/retail-sdk/retail-sdk-packaging.md)。
-
-### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>允许 Modern POS 在脱机模式下进行数字签名
-
-若要允许 Modern POS 在脱机模式进行数字签名，您必须在新设备上激活 Modern POS 后执行这些步骤。
-
-1. 登录 POS。
-2. 在 **数据库连接状态** 页上，确保脱机数据库完全同步。 当 **待定下载** 字段的值为 **0**（零）时，数据库将完全同步。
-3. 注销 POS。
-4. 等待脱机数据库完全同步。
-5. 登录 POS。
-6. 在 **数据库连接状态** 页上，确保脱机数据库完全同步。 当 **脱机数据库中的待定交易记录** 字段的值为 **0**（零）时，数据库将完全同步。
-7. 重新启动 Modern POS。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

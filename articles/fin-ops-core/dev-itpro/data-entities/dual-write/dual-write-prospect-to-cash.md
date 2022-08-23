@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 4321d980f56e321a653ca4f4c5738ebd1bb0153d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112103"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289599"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>双写入中的目标客户到现金
 

@@ -6,21 +6,21 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw
-ms.custom: 91213
-ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6c65c56dfe5d1e32c440789d207f787169c57269
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.custom: 91213
+ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 94cebad528facc5537226a3faa5ea9be8448092e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124857"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267191"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
 

@@ -1,25 +1,25 @@
 ---
 title: 容器类别的 ER 函数列表
 description: 本文提供有关电子报告 (ER) 支持的容器函数的信息。
-author: NickSelin
+author: kfend
 ms.date: 12/14/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5c86b0ae6cbf4ac6515491b55390d42c371eae4b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: f07c3645f824fc2fe8ca156c8cf06840e993a9a5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883808"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282642"
 ---
 # <a name="list-of-er-functions-in-the-container-category"></a>容器类别的 ER 函数列表
 

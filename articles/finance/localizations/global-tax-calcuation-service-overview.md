@@ -1,24 +1,24 @@
 ---
 title: 税款计算概览
 description: 本文说明税务计算功能的总体范围和功能。
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: c6dabb9d2aae6f1fc759c40f870c66304d7f7c8d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166830"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270656"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 
@@ -54,10 +54,15 @@ ms.locfileid: "9166830"
 
 - 亚太
 - 澳大利亚
+- 巴西
 - 加拿大
 - 欧洲
+- 法国
+- 印度
 - 日本
+- 南非
 - 瑞士
+- 阿拉伯联合酋长国
 - 英国
 - 美国
 
@@ -149,11 +154,15 @@ ms.locfileid: "9166830"
 - 供应商付款日记帐
 - 客户付款日记帐
 
+以下交易在版本 10.0.29 中受支持： 
+
+- 期间日记帐
+
 ## <a name="supported-countriesregions"></a>支持的国家/地区
 
-法人可以启用税款计算。 
+可以在以下国家/地区为法人的主要地址使用支持的本地化功能运行税金计算： 
 
-版本 10.0.21 支持法人主要地址的以下国家/地区：
+在版本 10.0.21 中受支持：
 
 - 奥地利
 - 比利时
@@ -176,7 +185,7 @@ ms.locfileid: "9166830"
 - 英国
 - 美国
 
-版本 10.0.22 支持法人主要地址的以下国家/地区：
+在版本 10.0.22 中受支持：
 
 - 澳大利亚
 - 巴林
@@ -191,22 +200,24 @@ ms.locfileid: "9166830"
 - 南非
 - 阿拉伯联合酋长国
 
-版本 10.0.23 支持法人主要地址的以下国家/地区：
+在版本 10.0.23 中受支持：
 
 - 泰国
 - 日本
 - 马来西亚
 - 新加坡
 
-版本 10.0.24 支持法人主要地址的以下国家/地区：
+在版本 10.0.24 中受支持：
 
 - 墨西哥
 
-版本 10.0.26 支持法人主要地址的以下国家/地区：
+在版本 10.0.26 中受支持：
 
 - 中国
 - 捷克共和国
 - 西班牙
+
+对于未由 Microsoft 本地化的任何国家/地区，还可以使用其他全局功能启用和运行税收计算。
 
 ## <a name="related-resources"></a>相关资源
 

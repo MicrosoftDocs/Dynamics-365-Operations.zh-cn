@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/16/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: v-chgriffin
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2022-01-21
-ms.openlocfilehash: 676802ddabac69db4947cf806e9103f67cece3de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fd9dc98ec1323a2ef262a330a400a6bd3833e554
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870365"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288721"
 ---
 # <a name="uninstall-dual-write-application-orchestration-solutions"></a>卸载双重写入应用程序业务流程解决方案
 

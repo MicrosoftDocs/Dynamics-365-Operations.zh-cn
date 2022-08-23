@@ -6,20 +6,20 @@ ms.date: 12/12/2019
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: adf1585e418ca2d09065db03de72cb1bbfb3e614
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844612"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277925"
 ---
 # <a name="templates-and-layouts-overview"></a>模板和布局概览
 

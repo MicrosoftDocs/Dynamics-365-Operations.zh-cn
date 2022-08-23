@@ -1,26 +1,26 @@
 ---
 title: 国家/地区选取器模块
 description: 本文描述国家/地区选取器模块，以及如何在 Microsoft Dynamics 365 Commerce 中配置此模块。
-author: stuharg
+author: bicyclingfool
 ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: d20b3be008a37b1c86e6fefe0ccc90c581e18340
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 203a8e17e075f15b7ae3cceb98d24ced75539a01
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861984"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270283"
 ---
 # <a name="countryregion-picker-module"></a>国家/地区选取器模块
 

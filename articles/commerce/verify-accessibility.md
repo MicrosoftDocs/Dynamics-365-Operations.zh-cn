@@ -6,20 +6,20 @@ ms.date: 01/08/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: caccb6085947193e4a5f8a8555722dd073f0c275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 686ec37f24cf68902c4dd918c0ca8aea7612e1a9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884752"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291965"
 ---
 # <a name="verify-page-content-accessibility"></a>验证页面内容的可访问性
 

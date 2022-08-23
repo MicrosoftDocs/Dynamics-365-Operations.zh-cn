@@ -6,20 +6,20 @@ ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 034441f8f712c676dbcc89f0009361d0a4a65721
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: RetailOperations
+ms.openlocfilehash: 76a7ad2c3095d1402ff214dbfee26b344b492681
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876997"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275669"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>设置 B2B 电子商务站点的产品数量限制
 

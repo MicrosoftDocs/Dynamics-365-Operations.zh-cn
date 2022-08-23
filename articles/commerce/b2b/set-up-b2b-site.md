@@ -6,20 +6,20 @@ ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: RetailOperations
+ms.openlocfilehash: 162a8d4b51f10f409b77e1ced4c63c1a69a3b1f2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881898"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281116"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>建立 B2B 电子商务站点
 

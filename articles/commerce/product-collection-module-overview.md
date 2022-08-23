@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 02a3d6314729f51d6c1dced5037f78d12355c09a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 2ad50011e2f4c037a75c8c4b195c728bb58c3b47
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871651"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269854"
 ---
 # <a name="product-collection-modules"></a>产品集合模块
 

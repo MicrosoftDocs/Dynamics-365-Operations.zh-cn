@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 description: 本文介绍 Dynamics 365 Supply Chain Management 中已经删除或计划删除的功能。
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171506"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218793"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中已删除或弃用的功能
 
@@ -33,6 +33,17 @@ ms.locfileid: "9171506"
 > [!NOTE]
 > [技术参考报告](/dynamics/s-e/)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Supply Chain Management 10.0.29 版本中已经删除或弃用的功能
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>具有转让价格税的存货转移单
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **弃用/移除的原因** | [具有转让价格税的存货转移单](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)功能正在被[印度的存货转移单](../../finance/localizations/apac-ind-stock-transfer.md)功能所取代。 |
+| **被另一个功能取代？**   | 是，[具有转让价格税的存货转移单](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)功能正在被[印度的存货转移单](../../finance/localizations/apac-ind-stock-transfer.md)功能所取代。 |
+| **影响的产品区域** | Supply Chain Management - 库存 |
+| **部署选项** | 云和本地 |
+| **Status** | <p>正在被弃用。 *具有转让价格税的存货转移单* 功能将不会获得错误修复和安全修复的相关支持。</p><p>2023 年 4 月之后，默认情况下，将要求客户使用改进的功能，即 *印度的存货转移单*。 2023 年 10 月之后，*具有转让价格税的存货转移单* 功能将不再可用，并且将要求客户改用改进的 *印度的存货转移单* 功能。</p><p>有关详细信息，请参阅[印度的存货转移单](../../finance/localizations/apac-ind-stock-transfer.md)。</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Supply Chain Management 10.0.19 版本中已经删除或弃用的功能
 

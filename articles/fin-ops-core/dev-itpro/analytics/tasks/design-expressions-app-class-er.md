@@ -1,7 +1,7 @@
 ---
 title: 设计 ER 表达式以调用应用类方法
 description: 本文介绍如何通过调用必需的应用程序类方法来在电子报告配置中重用现有的应用程序逻辑。
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 21c24cee15e9a0fd11838b5b8fd816e4aaed9a93
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883616"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267833"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>设计 ER 表达式以调用应用类方法
 

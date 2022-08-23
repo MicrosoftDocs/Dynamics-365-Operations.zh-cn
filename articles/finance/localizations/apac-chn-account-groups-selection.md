@@ -1,25 +1,25 @@
 ---
 title: 选择中国凭证类型的帐户组
 description: 本文介绍了在设置中国凭证类型时如何选择帐户组。
-author: anasyash
+author: AdamTrukawka
 ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
 ms.search.region: China (PRC)
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 64f8ebc67aecdbcdf5d70b512ed7c467c9a3c1ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.search.form: ''
+ms.openlocfilehash: 9f1d5d886b09e2ab873dc2dfcd182afc269a26a1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858541"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275280"
 ---
 # <a name="select-account-groups-for-chinese-voucher-types"></a>选择中国凭证类型的帐户组
 

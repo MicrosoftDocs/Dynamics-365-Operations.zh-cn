@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 48533dd104f62080d0ebd47389a4a829c772db13
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112009"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289037"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Dataverse 中的组织层次结构
 

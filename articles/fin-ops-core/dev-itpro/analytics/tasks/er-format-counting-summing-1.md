@@ -1,24 +1,26 @@
 ---
 title: ER 配置格式以执行盘点和合计（第 1 部分 - 创建格式）
 description: 本文介绍如何配置电子报告格式以基于已经生成的文本输出的数据执行盘点和合计。 （第 1 部分）
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85a25715018f30d2fd8f1405d50cee0b420c0d34
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
+- ERSolutionTable
+ms.openlocfilehash: b9e0128e55ba6ab356d6942020a34e5e74d6b7e2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902616"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290685"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>ER 配置格式以执行盘点和合计（第 1 部分 - 创建格式）
 

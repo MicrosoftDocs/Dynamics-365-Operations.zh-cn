@@ -5,16 +5,16 @@ author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: acb3a6220d146d32bbeb5bd8169033bc897ec3fe
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e3134d4ddb2e4f3d260e51d49e7399ff84e0d74a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871599"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279440"
 ---
 # <a name="configure-service-to-service-authentication"></a>配置服务对服务身份验证
 

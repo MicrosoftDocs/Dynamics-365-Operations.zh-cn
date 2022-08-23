@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: asharchw
+ms.author: boycez
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 01f10c348c61ffbcb30be26a57b3edd436aacc8f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: fc8c7dad0a7cb66ba7d6c6f527be84cfe74dee52
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850241"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288317"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>POS 中的库存查找操作
 

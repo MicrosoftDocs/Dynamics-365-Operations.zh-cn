@@ -1,25 +1,25 @@
 ---
 title: 设置并运行处理以调用简单的导出 ER 格式来生成 Excel 报表
 description: 本文提供显示如何设置和使用电子消息的示例。
-author: liza-golub
+author: AdamTrukawka
 ms.date: 07/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
 ms.search.region: Global
-ms.author: elgolu
+ms.author: atrukawk
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9894aabde854189e6fc1b6bb62051747f190e3ec
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.search.form: ''
+ms.openlocfilehash: 6090c45a98b672f718f89fc1d2e1c060498bb8a0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904577"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279325"
 ---
 # <a name="set-up-and-run-processing-to-call-a-simple-exporting-er-format-to-generate-an-excel-report"></a>设置并运行处理以调用简单的导出 ER 格式来生成 Excel 报表
 

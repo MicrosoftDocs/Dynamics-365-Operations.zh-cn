@@ -1,25 +1,25 @@
 ---
 title: 丰富产品页面
 description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中扩充产品页面。
-author: psimolin
+author: josaw1
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad58f0324c91c7488e5eb823fa3d0e1758ec63fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: f01dcc2518fe861339b4984522582ed3de7aa6ad
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847618"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282126"
 ---
 # <a name="enrich-a-product-page"></a>丰富产品页面
 

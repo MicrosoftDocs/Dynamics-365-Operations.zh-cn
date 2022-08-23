@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 259bdd5f868945c3857b045fbd3cbd4fceb26951
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 727e60ceee3f5c8c33d2da93128eedc1dc7bcb9f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862210"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288944"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>按需与 Supply Chain Management 定价引擎同步
 

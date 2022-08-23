@@ -5,16 +5,16 @@ author: negudava
 ms.date: 11/09/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: negudava
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 47d5cc358165d9a870892e0d026948d65343e5f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f5b7831e103aaa219394099b79537bf0842d9be8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910342"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289271"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>筛选内部公司订单以避免同步订单和订单行
 

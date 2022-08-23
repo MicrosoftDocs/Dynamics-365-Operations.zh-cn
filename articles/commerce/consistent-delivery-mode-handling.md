@@ -5,16 +5,16 @@ author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 43450c9d380bd57c234bb1c9acfbe296ab115f14
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885577"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279642"
 ---
 # <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>在电子商务渠道中启用一致的交货方式处理 
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 261d71e955e4cb1a4a461d59725c631248e10b17
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901138"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227888"
 ---
 # <a name="benefits-management-overview"></a>福利管理概览
 
@@ -147,6 +147,16 @@ ms.locfileid: "8901138"
 - [处理生活事件](hr-benefits-process-life-events.md)
 - [处理生活事件更改](hr-benefits-process-life-event-changes.md)
 - [处理生活事件资格](hr-benefits-process-life-event-eligibility.md)
+
+生命事件处理完成后，只要生命事件登记期开放，员工就可以更改受生命事件影响的计划选项。 管理员可以代表员工进行更改。 登记期间结束并且没有未确认的计划类型与生命事件交易相关后，交易结束。
+
+必须选择或放弃所有受生命事件影响的计划，然后再确认。 如果未选择计划、未放弃计划并因此未确认计划，则生命事件交易不会结束。
+
+管理员可以根据需要选择生命事件交易，然后选择 **关闭** 以手动结束生命事件交易。 如果交易中存在未确认的计划，并且管理员想要将其结束，则生命事件的结束可能会限制对这些计划的编辑。
+
+无法删除已关闭的生命事件。
+
+管理员可以根据需要选择生命事件交易，然后选择 **重新打开** 以手动重新打开生命事件交易。
 
 ## <a name="rate-updates-optional"></a>比率更新（可选）
 

@@ -12,16 +12,14 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.custom:
-- "69161"
-- intro-internal
+ms.custom: 69161,  ""intro-internal
 ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
-ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 840a635af14e5140834e5c1d2b319d0c8c4bff14
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206716"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280855"
 ---
 # <a name="document-printing-overview"></a>文档打印概览
 

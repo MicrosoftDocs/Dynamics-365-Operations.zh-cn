@@ -7,14 +7,14 @@ ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
+ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885394"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275058"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>瑞典的控制单元集成示例
 

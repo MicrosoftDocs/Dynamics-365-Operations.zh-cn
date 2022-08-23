@@ -5,22 +5,22 @@ author: sericks007
 ms.date: 06/02/2021
 ms.topic: article
 ms.prod: dynamics-365
-ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 55651
-ms.assetid: ''
 ms.search.region: Global
-ms.author: chwolf
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 88b677eab6a691003e26356acf7bb8de666bb55d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 55651
+ms.assetid: ''
+ms.service: ''
+ms.openlocfilehash: 62cda603765aa3da7a4dc00c07940f1fb81190c5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890020"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282490"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 

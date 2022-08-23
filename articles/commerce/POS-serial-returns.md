@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9fa7e47b6d650370afe4b98d7eca01253bd1bc36
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860313"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268466"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>在 POS 中退回序列号控制的产品
 

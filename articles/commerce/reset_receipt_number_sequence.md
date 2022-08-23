@@ -6,22 +6,22 @@ ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail, Commerce
-ms.author: asharchw
+ms.author: shajain
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 5dc9f3f977e04866562781d9768141a4a96166f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail, Commerce
+ms.search.form: ''
+ms.openlocfilehash: 3034a1b8f1a9f304b8d8803a7f906418321d81d9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858848"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272733"
 ---
 # <a name="reset-receipt-numbers"></a>重置收据编号 
 

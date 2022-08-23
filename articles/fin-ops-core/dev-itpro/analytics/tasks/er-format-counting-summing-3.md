@@ -1,24 +1,24 @@
 ---
 title: ER 配置格式以执行盘点和合计（第 3 部分 - 使用计算生成输出）
 description: 本文介绍如何配置电子报告格式以基于已经生成的文本输出的数据执行盘点和合计。 （第 3 部分）
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 82a0a404467ff73260ea9725fc0e79ff09833f41
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
+ms.openlocfilehash: 818c48f8c9ac874a36c741e59061d79fb34995ce
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881417"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290625"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-3---use-computations-to-make-the-output"></a>ER 配置格式以执行盘点和合计（第 3 部分 - 使用计算生成输出）
 
@@ -76,7 +76,7 @@ ms.locfileid: "8881417"
 34. 单击“确定”。
 35. 单击“添加字符串”。
 36. 在“名称”字段中，键入“总金额”。
-    * 总数  
+    * 总金额  
 37. 单击“确定”。
 38. 单击“映射”选项卡。
 39. 在树中，选择“$BlocksList”。

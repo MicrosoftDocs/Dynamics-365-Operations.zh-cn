@@ -1,26 +1,26 @@
 ---
 title: RCS/全局知识库中的 RCS 增强筛选
 description: 本文介绍 RCS 全局知识库的增强筛选功能，已经改进了这些功能，以便包含更多筛选器。
-author: JaneA07
+author: kfend
 ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: a343b9f1af68a727cb2a8d1e390f85e10aab2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERWorkspace
+ms.openlocfilehash: e0408d0561c0cfead8781b9f49fdb84d5caf179a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901203"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274503"
 ---
 # <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>RCS 增强筛选选项，用于在 RCS/全局知识库中查找配置
 

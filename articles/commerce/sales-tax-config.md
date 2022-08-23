@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac9fefe68663d76b3461d3209530976f66b113ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906878"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276708"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>为在线订单配置销售税
 

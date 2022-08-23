@@ -6,21 +6,21 @@ ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: LedgerTransVoucher, LedgerJournalTable
 audience: Application User
-ms.reviewer: roschloma
-ms.custom: 15721
-ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bec7d5d0dd64a2d89b00e2aa630a4fe670feaa2b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 15721
+ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
+ms.search.form: LedgerTransVoucher, LedgerJournalTable
+ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868393"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284842"
 ---
 # <a name="reverse-journal-posting"></a>冲销日记帐过帐
 

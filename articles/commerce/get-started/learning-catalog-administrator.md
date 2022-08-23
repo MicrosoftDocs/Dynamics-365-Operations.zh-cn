@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Commerce 管理员学习目录
 description: 查找面向 Dynamics 365 Commerce 中的管理员角色的所有培训选项。
-author: margoc
-ms.topic: article
+author: josaw1
 ms.date: 07/23/2020
-ms.author: margoc
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: josaw
 ms.search.region: Global
+ms.author: josaw
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 473977a7a75bb7bbe493225c6455a918ba5f748e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: dda931c33ce286d5a2fee9fba5e7ed0264bae8f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070780"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292755"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Dynamics 365 Commerce 管理员学习目录
 

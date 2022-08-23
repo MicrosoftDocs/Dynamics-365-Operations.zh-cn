@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "272953"
+ms.custom: 272953
 ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.form: WHSWarehousePerformancePowerBI
-ms.openlocfilehash: 667f085aa37be0d3a9ea490cf35ea4f22ef3120e
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 82f43f45b43df864cbda8ba372dbed46d8f4c7e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206021"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289837"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>仓库绩效 Power BI 内容
 

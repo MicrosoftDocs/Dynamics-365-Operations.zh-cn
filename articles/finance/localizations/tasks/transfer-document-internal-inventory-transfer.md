@@ -1,24 +1,24 @@
 ---
 title: 为内部库存转移生成转移文档
 description: 此过程显示如何为公司内货物转移创建转移单据。
-author: ShylaThompson
+author: EvgenyPopovMBS
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d59521f9647025fb794cd2098782f524f5e1e1c47b98d4c7fca6ff7c50e525f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
+ms.openlocfilehash: bb58337f7e0a269392c7969cf24d196b030d576d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780313"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275170"
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>为内部库存转移生成转移文档
 

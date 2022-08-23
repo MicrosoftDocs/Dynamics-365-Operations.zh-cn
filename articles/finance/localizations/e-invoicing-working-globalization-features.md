@@ -1,26 +1,26 @@
 ---
 title: 全球化功能组件
 description: 本文提供全球化功能组件的概述。
-author: dkalyuzh
+author: gionoder
 ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5525332fe3f1a3ea96da630dc34bab82e4117f99
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 94e2d118c332a15f41f33184f5e44b0fdaccd000
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891479"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275217"
 ---
 # <a name="globalization-feature-components"></a>全球化功能组件
 

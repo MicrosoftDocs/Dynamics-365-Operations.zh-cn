@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068661"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219463"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>库位指令库存领料帐龄
 
@@ -34,8 +34,8 @@ ms.locfileid: "9068661"
 
 要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中按此顺序打开以下功能：
 
-1. 仓库库位状态
-1. 库位指令库存领料帐龄
+1. *仓库库位状态*（从版本 10.0.29 开始，默认情况下已启用此功能。 有关详细信息，请参阅[仓库库位状态](warehouse-location-status.md)。）
+1. *库位指令库存领料帐龄*
 
 ## <a name="feature-requirements"></a>功能要求
 
@@ -50,7 +50,7 @@ ms.locfileid: "9068661"
 
 ### <a name="make-sample-data-available"></a>提供示例数据
 
-若要使用此处指定的示例记录和值完成这些场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。 此外，开始前，还必须选择 **USMF** 法人。
+若要使用此处指定的示例记录和值完成这些场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)。 此外，开始前，还必须选择 **USMF** 法人。
 
 您还可以将这些方案用作在生产系统上使用此功能的指导。 但是，如果是这样，您必须替换这里介绍的每个设置中的自己的值。
 

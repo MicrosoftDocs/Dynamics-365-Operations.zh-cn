@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889626"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220018"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>工程更改管理功能演练
 
@@ -45,7 +45,7 @@ ms.locfileid: "8889626"
 
 ### <a name="make-standard-demo-data-available"></a>提供标准演示数据
 
-在[已安装标准演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)的系统上工作。 标准演示数据添加几个演示法人（公司和组织）的数据。 在进行练习时，您将使用导航栏右侧的公司选择器在设置为 *工程组织* 的一家公司 (*DEMF*) 和设置为 *运营组织* 的另一家公司 (*USMF*) 之间进行切换。
+在已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)的系统上工作。 标准演示数据添加几个演示法人（公司和组织）的数据。 在进行练习时，您将使用导航栏右侧的公司选择器在设置为 *工程组织* 的一家公司 (*DEMF*) 和设置为 *运营组织* 的另一家公司 (*USMF*) 之间进行切换。
 
 ### <a name="set-up-an-engineering-organization"></a>设置工程组织
 

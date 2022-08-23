@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: db6c46d471e3b54982132df3e4819236833cf4a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878478"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292127"
 ---
 # <a name="set-up-an-email-notification-profile"></a>设置电子邮件通知配置文件
 
@@ -31,17 +31,9 @@ ms.locfileid: "8878478"
 
 有关其他电子邮件配置信息，请参阅[配置和发送电子邮件](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)。
 
-## <a name="create-an-email-notification-profile"></a>创建电子邮件通知配置文件
 
-要创建电子邮件通知配置文件，请按照下列步骤操作。
 
-1. 在导航窗格中，转到 **模块 \> Retail and Commerce \> 总部设置 \> Commerce 电子邮件通知配置文件**。
-1. 在操作窗格中，单击 **新建**。
-1. 在 **电子邮件通知配置文件** 字段中，输入名称以标识配置文件。
-1. 在 **描述** 字段中，输入相关描述。
-1. 将 **有效** 开关设置为 **是**。
-
-### <a name="create-an-email-template"></a>创建电子邮件模板
+## <a name="create-an-email-template"></a>创建电子邮件模板
 
 必须先在 Commerce Headquarters 中为您要支持的每个通知类型创建组织电子邮件模板，然后才能启用电子邮件通知类型。 此模板针对每个支持的语言定义电子邮件主题、发件人、默认语言和电子邮件正文。
 
@@ -63,14 +55,24 @@ ms.locfileid: "8878478"
 
 有关如何创建电子邮件模板的详细信息，请参阅[创建交易事件的电子邮件模板](email-templates-transactions.md)。 
 
-### <a name="create-an-email-event"></a>创建电子邮件事件
+## <a name="create-an-email-notification-profile"></a>创建电子邮件通知配置文件
+
+要在 Headquarters 中创建电子邮件通知配置文件，请按照下列步骤操作。
+
+1. 在导航窗格中，转到 **模块 \> Retail and Commerce \> 总部设置 \> Commerce 电子邮件通知配置文件**。
+1. 在操作窗格上，选择 **新建**。
+1. 在 **电子邮件通知配置文件** 字段中，输入名称以标识配置文件。
+1. 在 **描述** 字段中，输入相关描述。
+1. 将 **有效** 开关设置为 **是**。
+
+## <a name="add-a-notification-type"></a>添加通知类型
 
 若要创建电子邮件事件，请执行以下步骤。
 
 1. 在导航窗格中，转到 **模块 \> Retail and Commerce \> 总部设置 \> Commerce 电子邮件通知配置文件**。
-1. 在列表中，找到并选择所需记录。 
-1. 从 **电子邮件 ID** 下拉列表中选择电子邮件模板。
+1. 在 **零售电子邮件通知设置** 下面，选择 **新建**。
 1. 从下拉列表中选择合适的 **电子邮件通知类型**。
+1. 从 **电子邮件 ID** 下拉列表中选择上面创建的电子邮件模板。
 1. 选中 **有效** 复选框。
 1. 在操作窗格上，选择 **保存**。
 
@@ -78,14 +80,12 @@ ms.locfileid: "8878478"
 
 ![事件通知设置。](media/email-notification-profile.png)
 
-> [!NOTE]
-> 客户创建的通知类型需要先实现自定义，然后才能够发送电子邮件通知。
 
-### <a name="schedule-a-recurring-email-notification-process-job"></a>计划定期电子邮件通知流程作业
+## <a name="schedule-a-recurring-email-notification-process-job"></a>计划定期电子邮件通知流程作业
 
 要发送电子邮件通知，您必须运行 **处理零售订单电子邮件通知** 作业。
 
-如果您尚未在 Commerce headquarters 中设置 **处理零售订单电子邮件通知** 作业，请按照以下步骤进行设置。
+要在 Headquarters 设置批处理作业以发送交易电子邮件，请执行以下步骤。
 
 1. 转到 **Retail 和 Commerce \> Retail 和 Commerce IT \> 电子邮件和通知 \> 发送电子邮件通知**。
 1. 在 **处理零售订单电子邮件通知** 对话框中，选择 **定期**。
@@ -94,9 +94,9 @@ ms.locfileid: "8878478"
 1. 选择 **确定** 返回 **处理零售订单电子邮件通知** 对话框。
 1. 选择 **确定** 完成作业设置。
 
-### <a name="next-steps"></a>后续步骤
+## <a name="next-steps"></a>后续步骤
 
-必须先配置出站邮件服务和设置批处理作业，然后才能发送邮件。 有关详细信息，请参阅[配置和发送电子邮件](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)。
+必须先配置出站邮件服务，然后才能发送电子邮件。 有关详细信息，请参阅[配置和发送电子邮件](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)。
 
 ## <a name="additional-resources"></a>其他资源
 

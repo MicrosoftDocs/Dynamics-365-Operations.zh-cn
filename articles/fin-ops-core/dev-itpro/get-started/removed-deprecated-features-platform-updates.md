@@ -2,7 +2,7 @@
 title: 已删除或弃用的平台功能
 description: 本文介绍已经或计划从财务和运营应用的平台更新中删除的功能。
 author: sericks007
-ms.date: 05/24/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
+ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069913"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262289"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或弃用的平台功能
 
@@ -31,6 +31,50 @@ ms.locfileid: "9069913"
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
+
+## <a name="feature-deprecation-effective-august-2022"></a>功能弃用从 2022 年 8 月开始生效
+
+### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>2022 年 8 月弃用了 Lifecycle Services (LCS) 功能
+
+作为[统一 Dynamics，统一平台](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform)工作的一部分，以下 LCS 功能已被弃用。
+
+| 功能名称 | 是否与 AX 2012 一起使用？ | 是否与财务和运营应用一起使用？ | 被另一个功能取代？ |
+|--------------|--------------------|----------------------------------------|------------------------------|
+| 通告 | 是 | 是 | 是：单个项目和环境页面上存在通知横幅。 |
+| 配置管理器 | 是 | 否 | 否 |
+| 崩溃和转储分析 | 是 | 否 | 否 |
+| 反馈和 Bug | 是 | 是 | 否 |
+| 我的预订 | 是 | 是 | 否 |
+| Office 365 | 是 | 是 | 是：Azure Active Directory 或 Microsoft 管理员门户。 |
+| 影响分析 | 否 | 是 | 否 |
+| 总体经济影响估算器 | 否 | 是 | 否 |
+| 服务请求 | 否 | 是 | 是：[自助服务部署](../deployment/infrastructure-stack.md) |
+| SharePoint 集成 | 是 | 是 | 否 |
+| 配置和数据管理器 | 否 | 是 | 否 |
+| 流程数据包 | 否 | 是 | 是：数据导入导出框架 (DIXF) |
+| 环境升级 | 否 | 是 | 是：[One Version](../lifecycle-services/oneversion-overview.md) 服务更新可用。 |
+| 基础架构估算器 | 是 | 否 | 否 |
+| 许可证规模 | 是 | 否 | 否 |
+| 使用情况分析器 | 是 | 否 | 否 |
+| 定制分析 | 是 | 否 | 否 |
+| 系统诊断 | 是 | 是 | 否 |
+| 业务流程建模器 Visio 管理 | 是 | 是 | 否 |
+| AX 2012 云环境管理 | 是 | 否 | 否 |
+| RDFE Azure 连接器 | 是 | 是 | 否 |
+| AX 2012 版本 | 是 | 否 | 否 |
+| 存储在 LCS 存储中的工作项 | 是 | 是 | 否 |
+| 修补程序请求 | 是 | 是 | 否 |
+
+
+### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>传输层安全 (TLS) RSA 密码套件
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们将删除以下密码套件列表以符合我们当前的安全协议。<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
+| **被另一个功能取代？**   | 从 2022 年 11 月 30 日开始，客户只能使用我们的 [标准密码套件](/power-platform/admin/server-cipher-tls-requirements)。 此更改将影响与我们的服务器通信的客户端和服务器，例如，这可能会影响不符合我们标准密码套件的第三方集成。 |
+| **影响的产品区域**         | 财务和运营应用 |
+| **部署选项**              | 云部署 |
+| **Status**                         | 已弃用。 客户必须在 2022 年 11 月 30 日之前升级其服务器。 有关配置 TLS 密码套件顺序的详细信息，请参阅 [管理传输层安全性 (TLS)](/windows-server/security/tls/manage-tls)。  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>功能弃用从 2022 年 6 月开始生效

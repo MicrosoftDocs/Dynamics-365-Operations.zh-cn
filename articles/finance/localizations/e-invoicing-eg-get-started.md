@@ -6,23 +6,21 @@ ms.date: 02/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: e603bcad4d6dc46bd2594cfdcdf8871eb1f49019
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904403"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269492"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>埃及电子开票
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123799"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219145"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Dynamics 365 Supply Chain Management 10.0.20 的新增功能或更改（2021 年 8 月）
 
@@ -49,7 +49,7 @@ ms.locfileid: "9123799"
 | 模块 | 功能管理中的功能名称&nbsp;&nbsp;&nbsp; | 更多信息 |
 |---|---|---|
 | 主计划 | 针对调整后需求预测的并行授权 | 此功能允许从 **调整后的需求预测** 页并行授权调整后的需求预测。 此功能的目的是在授权大量预测时提高性能。 授权时，用户可以在授权对话中指定 **线程数**。 |
-| 主计划 | (预览)计划散装批次订单和包装批次订单的可批处理确认和合并 | 此功能允许您使用批处理作业来确认和合并计划散装订单和包装订单。 |
+| 主计划 | 计划散装批次订单和包装批次订单的可批处理确认和合并 | 此功能允许您使用批处理作业来确认和合并计划散装订单和包装订单。 |
 | 生产控制 | 复制通用工艺路线 | 此功能增强了复制工艺路线功能，允许用户复制不特定于物料的工艺路线。 利用此功能，系统可在复制工艺路线功能用于覆盖尚未分配给物料的工艺路线之后更新所有相关信息（如站点、工艺路线组、资源要求以及不同时间）。 |
 | 生产控制 | 在更改工艺路线工序时更新相关的资源要求 | 利用此功能，系统可在用户更改现有工艺路线步骤的工序后更新相关的资源要求。 |
 | 产品信息管理 | 预处理物料清单报表以防止超时 | 此功能使物料清单报表被预处理。 当报表具有大量数据负载时，这将避免超时问题。 |

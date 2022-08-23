@@ -6,20 +6,20 @@ ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a087c213d4a7094f75da8c20e4ccc14fc52444ce
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027083"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286802"
 ---
 # <a name="search-results-module"></a>搜索结果模块
 

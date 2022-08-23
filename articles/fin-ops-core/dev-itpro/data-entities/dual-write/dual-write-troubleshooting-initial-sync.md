@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 06/24/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f8fb27a6af2962be31288a3d2260110e5fe6a201
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d9d74eea90cc2dfca2d5decf6e5cd1d7f52da2a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112073"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289475"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>解决初始同步过程中的问题
 

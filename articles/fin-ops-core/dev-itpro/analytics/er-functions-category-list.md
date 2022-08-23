@@ -1,25 +1,25 @@
 ---
 title: 列表类别的 ER 函数列表
 description: 本文提供有关电子报告 (ER) 支持的列表函数的信息。
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869046"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277683"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>列表类别的 ER 函数列表
 
@@ -47,6 +47,7 @@ ms.locfileid: "8869046"
 | [ListOfFields](er-functions-list-listoffields.md)         | 此函数返回一个 *记录列表* 值，此值基于指定的 *枚举* 或 *容器（记录）* 类型的参数的结构创建。 |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | 此函数返回一个 *记录列表* 值，此值仅包含指定列表的第一条记录。|
 | [OrderBy](er-functions-list-orderby.md)                   | 在根据指定的参数对指定列表进行排序之后，此函数将指定列表返回为 *记录列表* 值。 可将这些变量定义为表达式。 |
+| [重复](er-functions-list-repeat.md)                     | 此函数可生成一个记录，该记录包含具有与指定输入匹配的值的字段。 然后，它返回重复指定次数的记录的新 *记录列表*。 |
 | [冲销](er-functions-list-reverse.md)                   | 此函数以相反的排序顺序将指定列表返回为 *记录列表* 值。 |
 | [拆分](er-functions-list-split.md)                       | 此函数将指定的输入字符串拆分为子字符串，并将结果作为新的 *记录列表* 值返回。 |
 | [SplitList](er-functions-list-splitlist.md)               | 此函数将指定的列表拆分为多个子列表（或批次），每个批次包含指定的记录数。 然后作为包含批次的新 *记录列表* 值返回结果。 |

@@ -1,32 +1,32 @@
 ---
 title: 管理电子报告 (ER) 配置生命周期
 description: 本文介绍如何管理 Dynamics 365 Finance 的电子报告 (ER) 配置的生命周期。
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109073"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271574"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子报告 (ER) 配置生命周期
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何管理 Dynamics 365 Finance 的电子报告 (ER) 配置的生命周期。
+本文介绍如何管理 Dynamics 365 Finance 的[电子报告 ](general-electronic-reporting.md) (ER) [配置](general-electronic-reporting.md#Configuration)的生命周期。
 
 ## <a name="overview"></a>概述
 
@@ -105,6 +105,41 @@ ms.locfileid: "9109073"
 
     > [!NOTE]
     > 此参数特定于用户并且特定于公司。
+
+## <a name="dependencies-on-other-components"></a>对其他组件的依赖项
+
+ER 配置可以配置为[依赖](er-download-configurations-global-repo.md#import-filtered-configurations)于其他配置。 例如，您可以将 ER [数据模型](er-overview-components.md#data-model-component)配置从全局知识库[导入](er-download-configurations-global-repo.md)到 [Microsoft Regulatory Configuration Services (RCS)](../../../finance/localizations/rcs-overview.md) 或 Dynamics 365 Finance 实例中，然后创建从导入的 ER 数据模型配置中[派生的](er-quick-start2-customize-report.md#DeriveProvidedFormat)新 ER [格式](er-overview-components.md#format-component)配置。 派生的 ER 格式配置将依赖于基本 ER 数据模型配置。
+
+![“配置”页面上派生的 ER 格式配置。](./media/ger-configuration-lifecycle-img1.png)
+
+在完成格式设计后，您可以将 ER 格式配置的初始 [版本](general-electronic-reporting.md#component-versioning)状态从 **草稿** 更改为 **已完成**。 然后，您可以通过将其[发布](../../../finance/localizations/rcs-global-repo-upload.md)到全局存储库来共享 ER 格式配置的已完成版本。 接下来，您可以从任何 RCS 或 Finance 云实例访问全局存储库。 然后，您可以将适用于该应用程序的任何 ER 配置版本从全局存储库导入到该应用程序中。
+
+![在“配置存储库”页面上发布的 ER 格式配置。](./media/ger-configuration-lifecycle-img2.png)
+
+根据配置依赖项，当您在全局存储库中选择 ER 格式配置以将其导入到新部署的 RCS 或 Finance 实例中时，将在全局存储库中自动找到基本 ER 数据模型配置，并会将其与所选的 ER 格式配置一起导入为基本配置。
+
+您还可以从当前 RCS 或 Finance 实例中导出 ER 格式配置版本，并将其作为 XML 文件存储到本地。
+
+![在“配置”页面上将 ER 格式配置版本导出为 XML。](./media/ger-configuration-lifecycle-img3.png)
+
+在 **版本 10.0.29** 之前的 Finance 版本中，当您尝试将 ER 格式配置版本从该 XML 文件或从全局存储库以外的任何存储库导入到尚未包含任何 ER 配置的新部署的 RCS 或 Finance 实例中时，将引发以下异常，通知您无法获取基本配置：
+
+> 遗留未解析的引用<br>
+无法建立对象 '\<imported configuration name\>' 对对象 'Base' (\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>) 的引用
+
+![在“配置存储库”页面上导入 ER 格式配置版本。](./media/ger-configuration-lifecycle-img4.gif)
+
+在 **版本 10.0.29 及更高版本** 中，当您尝试执行相同的配置导入时，如果在当前应用程序实例或当前使用的源存储库中找不到基本配置（如果适用），则 ER 框架将自动尝试在全局存储库缓存中查找缺少的基本配置的名称。 然后，它将在所引发异常的文本中显示缺少的基本配置的名称和全局唯一标识符 (GUID)。
+
+> 遗留未解析的引用<br>
+无法建立对象 '\<imported configuration name\>' 对对象 'Base' (\<name of the missed base configuration\> \<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>) 的引用
+
+![找不到基本配置时“配置存储库”页面上的异常。](./media/ger-configuration-lifecycle-img5.png)
+
+您可以使用提供的名称查找基本配置，然后手动导入。
+
+> [!NOTE]
+> 仅当至少一个用户已使用当前 Finance 实例中的[配置存储库](er-download-configurations-global-repo.md#open-configurations-repository)页面或其中一个全局存储库[查找](er-extended-format-lookup.md)字段登录到全局存储库，并且缓存了全局存储库内容时，此新选项才有效。
 
 ## <a name="additional-resources"></a>其他资源
 

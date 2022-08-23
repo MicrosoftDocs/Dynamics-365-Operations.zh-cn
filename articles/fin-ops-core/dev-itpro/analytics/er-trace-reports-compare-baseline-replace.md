@@ -1,25 +1,25 @@
 ---
 title: 改进跟踪生成的电子报告报表的结果以与基准值进行比较
 description: 本文介绍 Microsoft Dynamics 365 Finance 版本 10.0.3（2019 年 6 月）中对 ER 基准功能的改进。
-author: NickSelin
+author: kfend
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: d0f64c459ee72ffa2b0e540d4194ca887502780f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109133"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279051"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>改进跟踪生成的电子报告报表的结果以与基准值进行比较
 

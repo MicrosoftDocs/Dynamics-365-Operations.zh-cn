@@ -1,27 +1,27 @@
 ---
 title: 用于防止为零售产品打折的选项
 description: 零售商可能出于多种原因不希望 POS 中某些产品在促销或销售期间不打折。
-author: jblucher
+author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 85183
-ms.assetid: e8c5a24f-7edd-4fd6-af80-5e0ac9f03127
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 257e52d38512aacdf852fb58cb2b0e6f7c949cb3ac8b32e4dc9f9c859bb1eef9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 85183
+ms.assetid: e8c5a24f-7edd-4fd6-af80-5e0ac9f03127
+ms.search.industry: Retail
+ms.search.form: RetailPeriodicDiscount
+ms.openlocfilehash: 803279282e98b926ae70351ced39157fa95792d9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763780"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269046"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>用于防止为零售产品打折的选项
 

@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 2832d1df3893e124759e4719a64341494cea2204
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872876"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272036"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>在交易和收据电子邮件中添加 QR 码或条形码
 

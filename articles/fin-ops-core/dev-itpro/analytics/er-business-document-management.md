@@ -1,25 +1,25 @@
 ---
 title: 业务文档管理概览
 description: 本文介绍有关如何使用 ER 框架的业务文档管理功能的信息。
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
+ms.openlocfilehash: 0fab7e1a36d9b4092cf4353533704859e83bed26
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903608"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288279"
 ---
 # <a name="business-document-management-overview"></a>业务文档管理概览
 

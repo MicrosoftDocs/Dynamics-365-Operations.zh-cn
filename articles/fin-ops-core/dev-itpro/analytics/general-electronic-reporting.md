@@ -1,28 +1,26 @@
 ---
 title: 电子报告 (ER) 概览
 description: 本文概括介绍了电子报告工具。 介绍作为解决方案一部分的关键概念、支持的场景和格式。
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58941,  ""intro-internal
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: e94846dd565abb6de2c1f07532d285e28307e9a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109571"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269682"
 ---
 # <a name="electronic-reporting-er-overview"></a>电子报告 (ER) 概览
 
@@ -78,7 +76,7 @@ ER 引擎具有以下功能：
 
 [![ER 主数据流。](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
 
-### <a name="components"></a>组分
+### <a name="component"></a>组分
 
 ER 支持以下组件类型：
 
@@ -89,32 +87,7 @@ ER 支持以下组件类型：
 
 有关详细信息，请参阅[电子报告组件](er-overview-components.md)。
 
-
-#### <a name="component-versioning"></a>组件版本控制
-
-ER 组件支持版本控制。 提供了以下工作流以便在 ER 组件中管理更改：
-
-1. 最初创建的版本被标记为 **草稿** 版本。 此版本可进行编辑，并可用于测试运行。
-2. **草稿** 版本可以转换为 **已完成** 版本。 此版本可在本地报告流程中使用。
-3. **已完成** 版本可以转换为 **共享** 版本。 此版本在 LCS 上发布，并可在全球报告流程中使用。
-4. **共享** 版本可以转换为 **已终止** 版本。 然后可以删除此版本。
-
-状态为 **已完成** 或 **共享** 的版本可用于其他数据交换。 可以对具有这些状态的组件执行以下操作：
-
-- 该组件可以以 XML 格式序列化并导出为 XML 格式的文件。
-- 组件可以从 XML 文件重新序列化并作为 ER 组件的新版本导入到应用程序中。
-
-#### <a name="component-date-effectivity"></a>组件日期有效性
-
-ER 组件版本是有时限的。 可以设置 ER 组件的 **生效** 日期以指定此组件开始对报告流程生效的日期。 应用程序会话日期用于定义组件是否对执行有效。 当多个版本在特定日期生效时，最新版本将用于报告流程。
-
-#### <a name="component-access"></a>组件访问权限
-
-对 ER 格式组件的访问权限取决于 ISO 国家/地区代码的设置。 当所选格式配置的版本的这一设置为空时，可以在运行时从任何公司访问格式组件。 当此设置包含 ISO 国家/地区代码时，格式组件只能从为格式组件 ISO 国家/地区代码之一定义了主要地址的公司访问。
-
-不同版本的数据格式组件可以有不同的 ISO 国家/地区代码设置。
-
-#### <a name="configuration"></a><a name="Configuration"></a>配置
+### <a name="configuration"></a><a name="Configuration"></a>配置
 
 ER 配置是特定 ER 组件的包装。 该组件可以是数据模型组件或组件格式。 配置可包括不同版本的 ER 组件。 每个配置被标记为由特定配置提供商所有。 当配置的所有者已选为应用程序内 ER 设置中的有效提供商时，配置的组件的 **草稿** 版本可进行编辑。
 
@@ -124,13 +97,13 @@ ER 配置是特定 ER 组件的包装。 该组件可以是数据模型组件或
 
 将对应用程序公司共享 ER 配置。
 
-#### <a name="provider"></a><a name="Provider"></a>提供程序
+### <a name="provider"></a><a name="Provider"></a>提供程序
 
 ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方的标识符。 ER 可以管理配置提供商的列表。 作为财务和运营解决方案的一部分为电子单据发布的格式配置被标记为由配置提供商 **Microsoft** 所有。
 
 要了解如何登记新的 ER 提供商，可播放任务指南，**ER 创建配置提供商并将其标记为有效**（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
-#### <a name="repository"></a><a name="Repository"></a>知识库
+### <a name="repository"></a><a name="Repository"></a>知识库
 
 ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型： 
 
@@ -145,7 +118,7 @@ ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型：
 
 **LCS 项目** 存储库允许您访问在存储库登记时选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前实例将共享配置上载到特定 **LCS 项目** 存储库。 您还可以从 **LCS 项目** 存储库将配置导入到当前的财务和运营应用实例。
 
-**文件系统** 存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 您可以从 **文件系统** 存储库将配置导入到当前实例。 
+**文件系统** 存储库提供对作为 XML 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 您可以从 **文件系统** 存储库将配置导入到当前实例。 
 
 请注意，存储库类型在以下环境中可访问：
 
@@ -265,6 +238,7 @@ Finance 的 ER 配置列表会不断更新。 打开[全局存储库](er-downloa
 
 ## <a name="additional-resources"></a>其他资源
 
+- [电子报告组件](er-overview-components.md)
 - [创建电子报告 (ER) 配置](electronic-reporting-configuration.md)
 - [管理电子申报 (ER) 配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
 

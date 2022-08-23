@@ -2,19 +2,19 @@
 title: 当事方和全球通讯簿
 description: 本文介绍双写入的当事方和全球通讯簿功能。
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892184"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228981"
 ---
 # <a name="party-and-global-address-book"></a>当事方和全球通讯簿
 
@@ -119,11 +119,11 @@ ms.locfileid: "8892184"
 
 您可以使用网格上方的 **新建地址** 按钮创建任意数量的邮寄地址。
 
-**客户** 页的 **摘要** 选项卡上的 **地址 1** 和 **地址 2** 字段分别对应于 **交货** 和 **发票** 地址。
+在 Customer Engagement 应用中，当用户在 **帐户** 页面的 **摘要** 选项卡上输入地址时，**地址 1** 和 **地址 2** 字段分别对应于 **交货** 和 **发票** 地址。 但是，当用户在财务和运营应用中创建邮政地址时，客户记录的前两个地址将显示在 **地址 1** 和 **地址 2** 字段中，并且用户可以选择将地址用途更改为 **交货** 和 **发票**。
 
 ![邮寄地址的“摘要”选项卡。](media/party-gab-image5.png)
 
-**联系人** 页的 **摘要** 选项卡上的 **地址 1**、**地址 2** 和 **地址 3** 字段分别对应于 **企业**、**交货** 和 **发票** 地址。
+同样，**联系人** 页的 **摘要** 选项卡上的 **地址 1**、**地址 2** 和 **地址 3** 字段分别对应于 **企业**、**交货** 和 **发票** 地址。
 
 ## <a name="electronic-addresses"></a>电子地址
 

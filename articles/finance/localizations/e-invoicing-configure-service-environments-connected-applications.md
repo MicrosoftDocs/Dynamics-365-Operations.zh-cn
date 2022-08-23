@@ -1,28 +1,26 @@
 ---
 title: 配置服务环境和已连接的应用程序
 description: 本文提供有关如何配置您的服务环境和已连接应用程序的信息。
-author: dkalyuzh
+author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c1bb3f784148f04c01223ac4e280a18bacfe0e51
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 8ede98cfad685992bad3fb643ea46d6adcb08487
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853213"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269522"
 ---
 # <a name="configure-service-environments-and-connected-applications"></a>配置服务环境和已连接的应用程序
 

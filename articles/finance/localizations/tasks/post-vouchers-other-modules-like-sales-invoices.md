@@ -1,24 +1,26 @@
 ---
 title: 从其他模块（如销售发票）过帐凭证
 description: 可以从总帐、库存变动日记帐、销售发票和采购发票过帐中国式凭证。
-author: ShylaThompson
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, InventProductDimensionLookup, DimensionLookup, InventTrans, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustTrans
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: China (PRC)
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 684f3f1601fcc1c71751c71bf26598740269a13e5c04fdfb65f7901c2b52170f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form:
+- InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, InventProductDimensionLookup, DimensionLookup, InventTrans, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines
+- CustInvoiceJournal, CustTrans
+ms.openlocfilehash: d26160760a16494210c8b2a8f55a0aefaeb4096e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776450"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272091"
 ---
 # <a name="post-vouchers-from-other-modules-like-sales-invoices"></a>从其他模块（如销售发票）过帐凭证
 

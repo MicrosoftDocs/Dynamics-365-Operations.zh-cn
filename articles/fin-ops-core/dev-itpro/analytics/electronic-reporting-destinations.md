@@ -1,26 +1,26 @@
 ---
 title: 电子报告 (ER) 目标
 description: 本文提供有关电子报告目标管理、受支持的目标类型以及安全注意事项的信息。
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851068"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281958"
 ---
 # <a name="electronic-reporting-er-destinations"></a>电子报告 (ER) 目标
 
@@ -118,7 +118,7 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 
 [![配置链接。](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-同时，您可能有该格式的多个已导入到当前 Finance 实例中的[版本](general-electronic-reporting.md#component-versioning)。 如果您选择在选择 **参考** 字段时提供的配置 **链接**，则可以查看它们。
+同时，您可能有该格式的多个已导入到当前 Finance 实例中的版本。 如果您选择在选择 **参考** 字段时提供的配置 **链接**，则可以查看它们。
 
 [![配置版本。](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -180,6 +180,16 @@ ER 格式当前支持以下目标。 您可以在同一时间禁用或启用所�
 从 Finance **版本 10.0.9** 开始，从 Excel 输出生成的 PDF 文档中仅支持横向页面方向。 从 Finance **版本 10.0.10** 开始，配置 ER 目标期间，您可以指定从 Excel 输出生成的 PDF 文档的[页面方向](#SelectPdfPageOrientation)。
 
 仅 Windows 操作系统的常用系统字体用于转换不包含嵌入式字体的输出。
+
+### <a name="resources"></a>资源
+
+在 Finance 版本 10.0.29 之前，只能在当前 Finance 实例之外执行 PDF 转换。 生成的文件从 Finance 发送到转换服务，然后该服务返回已转换的文档。 但是，在版本 **10.0.29 及更高版本** 中，除了启用 **将电子报告传出文档从 Microsoft Office 格式转换为 PDF** 功能外，还可以启用 **利用应用程序资源将 CBD 文档从 Word 转换为 PDF 格式** 功能。 此功能允许您使用当前 Finance 实例中的应用程序服务器资源在本地将生成的 Word 文档转换为 PDF 格式。 
+
+以下是启用 **利用应用程序资源将 CBD 文档从 Word 转换为 PDF 格式** 功能时本地 PDF 转换的优势：
+
+- 生成的 PDF 文档不受最大页数[限制](#limitations)。
+- 转换的 Word 文档可以包含[大量内容控件](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3)。
+- 本地部署中不需要 Internet 连接。
 
 ### <a name="use-the-pdf-conversion-option"></a>使用 PDF 转换选项
 

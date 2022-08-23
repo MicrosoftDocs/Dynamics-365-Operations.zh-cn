@@ -1,115 +1,188 @@
 ---
-title: 瑞典控制单元整合示例的部署准则（旧版）
-description: 本文提供从 Retail SDK 部署瑞典控制单元整合示例的指南
-author: EvgenyPopovMBS
-ms.date: 12/20/2021
-ms.topic: article
-audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgriffin
-ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a20971ac9a44c409363bbce6cd8b8343f16d800f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870539"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274197"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>瑞典控制单元整合示例的部署准则（旧版）
+---
 
-[!include [banner](../includes/banner.md)]
+标题：瑞典控制单元整合示例的部署准则（旧版）[!include [banner](../includes/banner.md)]
+说明：本文提供从 Retail SDK 部署瑞典控制单元整合示例的指南
 
-本文提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Retail 软件开发套件 (SDK) 中部署瑞典控制单元整合示例的指南。 有关此会计整合示例的详细信息，请参阅[瑞典控制单元整合示例](emea-swe-fi-sample.md)。 
+作者：EvgenyPopovMBS 本文提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Retail 软件开发套件 (SDK) 中部署瑞典控制单元整合示例的指南。 有关此会计整合示例的详细信息，请参阅[瑞典控制单元整合示例](emea-swe-fi-sample.md)。 ms.date：12/20/2021
 
-瑞典会计整合示例是 Retail SDK 的一部分。 有关如何安装和使用 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。 此示例由 Commerce Runtime (CRT)、Hardware Station 和销售点 (POS) 的扩展组成。 若要运行此示例，您必须修改和生成 CRT、Hardware Station 和 POS 项目。 我们建议您使用未修改的 Retail SDK 进行本文中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Azure DevOps。
+ms.topic：文章：瑞典会计整合示例是 Retail SDK 的一部分。 有关如何安装和使用 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。 此示例由 Commerce Runtime (CRT)、Hardware Station 和销售点 (POS) 的扩展组成。 若要运行此示例，您必须修改和生成 CRT、Hardware Station 和 POS 项目。 我们建议您使用未修改的 Retail SDK 进行本文中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Azure DevOps。
+访问群体：应用程序用户、开发人员、IT Pro
 
+ms.reviewer：v-chgriffin
 ## <a name="development-environment"></a>开发环境
+ms.search.region：全局
 
-执行以下步骤以设置开发环境，以便您可以测试和扩展示例。
+ms.author：josaw 执行以下步骤以设置开发环境，以便您可以测试和扩展示例。
+ms.search.validFrom：2019-03-01
 
 ### <a name="enable-crt-extensions"></a>启用 CRT 扩展
+---
+
 
 CRT 示例中包含 CRT 扩展组件。 若要完成以下过程，请在 **RetailSdk\\SampleExtensions\\CommerceRuntime** 下面打开 **CommerceRuntimeSamples.sln** 解决方案。
+2. 通过将以下行添加到 **HardwareStation.Extension.config** 配置文件中的 **构成** 部分，启用当前示例 Hardware Station 扩展。
+
 
 #### <a name="documentprovidercleancashsample-component"></a>DocumentProvider.CleanCashSample 组件
-
-1. 查找 **Runtime.Extensions.DocumentProvider.CleanCashSample** 项目并生成它。
-2. 在 **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** 文件夹中，查找 **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** 程序集文件。
-3. 将程序集文件复制到 CRT 扩展文件夹：
-
-    - **Commerce Scale Unit：** 将文件复制到 Internet Information Services (IIS) Commerce Scale Unit 站点位置下的 **\\bin\\ext** 文件夹。
-    - **Modern POS 上的本地 CRT：** 将文件复制到本地 CRT 客户端代理位置下的 **\\ext** 文件夹。
-
-4. 查找 CRT 的扩展配置文件：
-
-    - **Commerce Scale Unit：** 该文件名为 **commerceruntime.ext.config**，它位于 IIS Commerce Scale Unit 站点位置下的 **bin\\ext** 文件夹中。
-    - **Modern POS 上的本地 CRT：** 该文件名为 **CommerceRuntime.MPOSOffline.Ext.config**，位于本地 CRT 客户端代理位置下。
-
-5. 注册扩展配置文件中的 CRT 更改。
-
     ``` xml
+
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
+1. 查找 **Runtime.Extensions.DocumentProvider.CleanCashSample** 项目并生成它。
+    ```
+2. In the **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** folder, find the **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** assembly file.
+
+3. Copy the assembly file to the CRT extensions folder:
+3. Make the following changes in the **Customization.settings** package customization configuration file under the **BuildTools** folder:
+
+
+    - **Commerce Scale Unit:** Copy the file to the **\\bin\\ext** folder under the Internet Information Services (IIS) Commerce Scale Unit site location.
+    - Remove the following line to exclude the earlier Hardware station extension from deployable packages.
+    - **Local CRT on Modern POS:** Copy the file to the **\\ext** folder under the local CRT client broker location.
+
+
+        ``` xml
+4. Find the extension configuration file for CRT:
+        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
+
+        ```
+    - **Commerce Scale Unit:** The file is named **commerceruntime.ext.config**, and it's in the **bin\\ext** folder under the IIS Commerce Scale Unit site location.
+
+    - **Local CRT on Modern POS:** The file is named **CommerceRuntime.MPOSOffline.Ext.config**, and it's under the local CRT client broker location.
+    - Add the following lines to include the current sample Hardware station extension in deployable packages.
+
+
+5. Register the CRT change in the extension configuration file.
+        ``` xml
+
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
+    ``` xml
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
+        ```
     ```
 
+
+#### <a name="update-modern-pos"></a>更新 Modern POS
 #### <a name="extension-configuration-file"></a>扩展配置文件
 
+
+1. 在 **RetailSdk\\POS** 中打开 **CloudPOS.sln** 解决方案。
 1. 查找 CRT 的扩展配置文件：
+2. 禁用早期的 POS 扩展：
+
 
     - **Commerce Scale Unit：** 该文件名为 **commerceruntime.ext.config**，它位于 IIS Commerce Scale Unit 站点位置下的 **bin\\ext** 文件夹中。
+    - 在 **tsconfig.json** 文件中，将 **FiscalRegisterSample** 文件夹添加到排除列表。
     - **Modern POS 上的本地 CRT：** 该文件名为 **CommerceRuntime.MPOSOffline.Ext.config**，位于本地 CRT 客户端代理位置下。
+    - 从 **RetailSDK\\POS\\Extensions** 文件夹下的 **extensions.json** 文件中删除以下几行。
+
 
 2. 注册扩展配置文件中的 CRT 更改。
+        ``` json
 
+        {
     ``` xml
+            "baseUrl": "FiscalRegisterSample"
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
+        }
     ```
+        ```
+
 
 ### <a name="enable-hardware-station-extensions"></a>启用 Hardware Station 扩展
+3. 通过在 **RetailSDK\\POS\\Extensions** 文件夹下的 **extensions.json** 文件中添加以下行来启用当前示例 POS 扩展。
+
 
 Hardware Station 示例中包含 Hardware Station 扩展组件。 若要完成以下过程，请在 **RetailSdk\\SampleExtensions\\HardwareStation** 下面打开 **HardwareStationSamples.sln** 解决方案。
+    ``` json
 
+    {
 #### <a name="cleancash-component"></a>CleanCash 组件
+        "extensionPackages": [
 
+            {
 1. 查找 **HardwareStation.Extension.CleanCashSample** 项目并生成它。
+                "baseUrl"："Microsoft/AuditEvent.SE"
 2. 在 **Extension.CleanCashSample\\bin\\Debug** 文件夹中，查找 **Contoso.Commerce.HardwareStation.CleanCashSample.dll** 和 **Interop.CleanCash\_1\_1.dll** 程序集文件。
-3. 将程序集文件复制到 Hardware Station 扩展文件夹：
+            }
+3. 将程序集文件复制到 Hardware Station 扩展文件夹：      ]
 
+    }
     - **共享的 Hardware Station：** 将文件复制到 IIS Hardware Station 站点位置下的 **bin** 文件夹。
-    - **Modern POS 上的专用 Hardware Station：** 将此文件复制到 Modern POS 客户端代理位置下。
+    ```
+    - **Dedicated hardware station on Modern POS:** Copy the files to the Modern POS client broker location.
 
-4. 查找 Hardware Station 扩展的扩展配置文件。 该文件名为 **HardwareStation.Extension.config**。
 
-    - **共享 Hardware Station：** 此文件在 IIS Hardware Station 站点位置下。
-    - **Modern POS 上的专用 Hardware Station：** 此文件在 Modern POS 客户端代理位置下。
+#### Update Cloud POS
+4. Find the extension configuration file for the Hardware station's extensions. The file is named **HardwareStation.Extension.config**.
 
-5. 将以下行添加到配置文件的 **构成** 部分。
+
+1. Open the **ModernPOS.sln** solution under **RetailSdk\\POS**.
+    - **Shared hardware station:** The file is under the IIS Hardware station site location.
+2. Disable the earlier POS extension:
+    - **Dedicated hardware station on Modern POS:** The file is under the Modern POS client broker location.
+
+
+    - In the **tsconfig.json** file, add the **FiscalRegisterSample** folder to the exclude list.
+5. Add the following line to the **composition** section of the configuration file.
+    - Remove the following lines from the **extensions.json** file under the **RetailSDK\\POS\\Extensions** folder.
+
 
     ``` xml
+        ``` json
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
+        {
     ```
+            "baseUrl": "FiscalRegisterSample"
 
+        }
 ### <a name="enable-modern-pos-extension-components"></a>启用 Modern POS 扩展组件
+        ```
+
 
 1. 在 **RetailSdk\\POS** 下打开 **ModernPOS.sln** 解决方案，并确保可以在不出错的情况下编译它。 此外，请确保您可以使用 **运行** 命令从 Visual Studio 运行 Modern POS。
+3. 通过在 **RetailSDK\\POS\\Extensions** 文件夹下的 **extensions.json** 文件中添加以下行来启用当前示例 POS 扩展。
+
 
     > [!NOTE]
-    > 不得自定义 Modern POS。 您必须启用用户帐户控制 (UAC)，并且必须根据需要卸载以前安装的 Modern POS 实例。
-
-2. 启用必须通过在 **extensions.json** 文件中添加以下行来加载的扩展。
-
     ``` json
+    > Modern POS must not be customized. You must enable User Account Control (UAC), and you must uninstall previously installed instances of Modern POS as required.
     {
+
         "extensionPackages": [
+2. Enable the extensions that must be loaded by adding the following lines in the **extensions.json** file.
             {
+
                 "baseUrl": "Microsoft/AuditEvent.SE"
+    ``` json
             }
+    {
         ]
+        "extensionPackages": [
     }
+            {
+    ```
+                "baseUrl": "Microsoft/AuditEvent.SE"
+
+            }
+#### <a name="create-deployable-packages"></a>创建可部署包
+        ]
+
+    }
+运行整个 Retail SDK 的 **msbuild** 以创建可部署包。 通过 LCS 或手动应用包。 有关详细信息，请参阅 [Retail SDK 包](../dev-itpro/retail-sdk/retail-sdk-packaging.md)。
     ```
 
     > [!NOTE]
-    > 有关详细信息，以及用于显示如何包括源代码文件夹和允许加载扩展的示例，请参阅 **Pos.Extensions** 项目内 readme.md 文件中的说明。
+    > For more information, and for samples that show how to include source code folders and enable extensions to be loaded, see the instructions in the readme.md file in the **Pos.Extensions** project.
 
 3. 重新生成解决方案。
 4. 在调试器中运行 Modern POS 并测试功能。
@@ -438,80 +511,3 @@ Hardware Station 扩展是 **HardwareStation.Extension.CleanCashSample**。 它�
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
-
-2. 通过将以下行添加到 **HardwareStation.Extension.config** 配置文件中的 **构成** 部分，启用当前示例 Hardware Station 扩展。
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
-    ```
-
-3. 在 **BuildTools** 文件夹下的 **Customization.settings** 包自定义配置文件中进行以下更改：
-
-    - 删除以下行以从可部署包中排除早期的 Hardware Station 扩展。
-
-        ``` xml
-        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
-        ```
-
-    - 添加以下行以在可部署包中包括当前示例 Hardware Station 扩展。
-
-        ``` xml
-        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
-        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
-        ```
-
-#### <a name="update-modern-pos"></a>更新 Modern POS
-
-1. 在 **RetailSdk\\POS** 中打开 **CloudPOS.sln** 解决方案。
-2. 禁用早期的 POS 扩展：
-
-    - 在 **tsconfig.json** 文件中，将 **FiscalRegisterSample** 文件夹添加到排除列表。
-    - 从 **RetailSDK\\POS\\Extensions** 文件夹下的 **extensions.json** 文件中删除以下几行。
-
-        ``` json
-        {
-            "baseUrl": "FiscalRegisterSample"
-        }
-        ```
-
-3. 通过在 **RetailSDK\\POS\\Extensions** 文件夹下的 **extensions.json** 文件中添加以下行来启用当前示例 POS 扩展。
-
-    ``` json
-    {
-        "extensionPackages": [
-            {
-                "baseUrl": "Microsoft/AuditEvent.SE"
-            }
-        ]
-    }
-    ```
-
-#### <a name="update-cloud-pos"></a>更新云 POS
-
-1. 在 **RetailSdk\\POS** 下打开 **ModernPOS.sln** 解决方案。
-2. 禁用早期的 POS 扩展：
-
-    - 在 **tsconfig.json** 文件中，将 **FiscalRegisterSample** 文件夹添加到排除列表。
-    - 从 **RetailSDK\\POS\\Extensions** 文件夹下的 **extensions.json** 文件中删除以下几行。
-
-        ``` json
-        {
-            "baseUrl": "FiscalRegisterSample"
-        }
-        ```
-
-3. 通过在 **RetailSDK\\POS\\Extensions** 文件夹下的 **extensions.json** 文件中添加以下行来启用当前示例 POS 扩展。
-
-    ``` json
-    {
-        "extensionPackages": [
-            {
-                "baseUrl": "Microsoft/AuditEvent.SE"
-            }
-        ]
-    }
-    ```
-
-#### <a name="create-deployable-packages"></a>创建可部署包
-
-运行整个 Retail SDK 的 **msbuild** 以创建可部署包。 通过 LCS 或手动应用包。 有关详细信息，请参阅 [Retail SDK 包](../dev-itpro/retail-sdk/retail-sdk-packaging.md)。

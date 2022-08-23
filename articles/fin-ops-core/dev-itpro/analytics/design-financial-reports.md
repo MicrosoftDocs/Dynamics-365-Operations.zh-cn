@@ -7,21 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.custom:
-- "10814"
+ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.form: FinancialReportingSetup
-ms.openlocfilehash: 77756b9f32268b091361e1e69be05a11eac19846
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: b6709f90065c91c55a489f101da430db33355a75
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205655"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273416"
 ---
 # <a name="view-and-design-financial-reports"></a>查看和设计财务报表
 

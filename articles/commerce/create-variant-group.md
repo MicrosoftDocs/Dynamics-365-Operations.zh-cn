@@ -6,21 +6,21 @@ ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a46dc9fd5cdb848818964e771d373924b217147a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
+ms.openlocfilehash: 507076259c2d9dfe97a0e24d253b5ac0a8325fe2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874953"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270092"
 ---
 # <a name="create-a-variant-group"></a>创建款式组
 
@@ -61,7 +61,7 @@ Dynamics 365 Commerce 支持产品的多种变型。 最好是为不同的产品
 
 下图显示了“休闲衬衫尺寸”的大小组的示例。
 
-![创建大小组。](media/create-variant-group.png)
+![创建大小组。](media/Size-Groups.png)
 
 ## <a name="additional-resources"></a>其他资源
 

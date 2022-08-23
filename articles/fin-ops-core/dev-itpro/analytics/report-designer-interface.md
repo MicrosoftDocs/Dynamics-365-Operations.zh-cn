@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.custom:
-- "59041"
+ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.form: FinancialReports
-ms.openlocfilehash: 2376f0a7e64398d9180f9074f532270487dbeec0
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 3bc3ddb9f04f7f6f2a63b2ecccfe04fbaf2eadfc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206085"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274718"
 ---
 # <a name="report-designer-interface"></a>报表设计器界面
 

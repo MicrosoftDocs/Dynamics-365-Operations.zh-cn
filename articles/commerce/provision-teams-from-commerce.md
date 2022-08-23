@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3dc9d0f20ec251f0908dda0017adaaeac1b43856
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 56d7cb6da5c359d3e93553adbdc70a4786c42648
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868927"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268965"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>从 Dynamics 365 Commerce 预配 Microsoft Teams
 

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 956ea206888b2bbbbaf2edaa006c84f6f050f379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.openlocfilehash: 8aa1d61e235244ee9400419e51da638c059892e5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909353"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284649"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>将任务列表分配给商店或员工
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855894"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219709"
 ---
 # <a name="small-parcel-shipping"></a>小型包裹装运
 
@@ -81,7 +81,7 @@ Supply Chain Management 不包括任何费率引擎。 您必须获取或创建�
 
 ### <a name="make-demo-data-available"></a>提供演示数据
 
-若要使用此处指定的演示记录和值完成此场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。 此外，开始前，还必须选择 **USMF** 法人。
+若要使用此处指定的演示记录和值完成此场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)。 此外，开始前，还必须选择 **USMF** 法人。
 
 ### <a name="set-up-the-scenario"></a>设置场景
 

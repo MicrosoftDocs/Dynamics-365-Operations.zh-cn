@@ -6,21 +6,21 @@ ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3fad2acea373e96092208ce06edb31f1a862912d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 74f3d88faf192474c177da971a9f7bb0e58e1279
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875962"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272200"
 ---
 # <a name="usage-management-dashboard"></a>使用情况管理仪表板
 

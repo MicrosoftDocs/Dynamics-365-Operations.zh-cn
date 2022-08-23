@@ -1,25 +1,25 @@
 ---
 title: 通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 description: 本文介绍如何通过添加参数化的计算字段数据源提高电子报告 (ER) 解决方案的性能。
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 34bb7c6256994f103c4da599157c06bd9d0795ef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850105"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288249"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>通过添加参数化的计算字段数据源提高 ER 解决方案的性能
 

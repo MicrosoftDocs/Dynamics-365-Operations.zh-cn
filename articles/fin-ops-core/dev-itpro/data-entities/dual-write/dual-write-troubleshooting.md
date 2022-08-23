@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: be3d72063ac18b9abea77d5aec6e230b0c930ae6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112355"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289351"
 ---
 # <a name="general-troubleshooting"></a>常规疑难解答
 

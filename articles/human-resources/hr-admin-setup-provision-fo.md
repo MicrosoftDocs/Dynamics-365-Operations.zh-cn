@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15060d8bdd598476081c22d7280319da3db0cb31
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 2fd8176d16178ecc4ba667e5937f2cec2e0af2c3
+ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178401"
+ms.lasthandoff: 08/03/2022
+ms.locfileid: "9221583"
 ---
 # <a name="provision-human-resources-in-the-finance-and-operations-infrastructure"></a>在财务和运营基础结构中预配 Human Resources
 
@@ -52,8 +52,8 @@ _**适用于：** 财务和运营应用基础结构中的 Human Resources_
 - **集成** – 配置和测试集成，这可能包括本地集成或自定义集成，如工资单、申请人跟踪系统或福利系统和提供商的集成。
 - **培训** - 您可能需要一个单独的环境，并在环境中配置一组培训数据，以便培训员工如何使用新系统。 
 - **多阶段项目** - 您可能需要一个额外的环境来支持项目初始投入使用后计划的项目阶段内的配置、数据迁移、测试或其他活动。
-- **开发** - 在财务和运营基础结构中，您现在可以扩展解决方案并开发您自己的自定义项。 每个开发人员都必须使用自己的开发环境。 有关详细信息，请参阅[部署和访问开发环境](/fin-ops-core/dev-itpro/dev-tools/access-instances)。
-- **GOLD** - 对于新部署，一种常见的做法是使用单独的 GOLD 环境，该环境保持原始状态以便进行配置和数据迁移。 此环境可在整个实施过程中使用以刷新其他环境。 它将用于创建具有基本配置和数据迁移功能的新生产环境。 直到完成启用准备流程，您才能在财务和运营基础结构上部署生产环境。 有关详细信息，请参阅[准备实施](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live)。
+- **开发** - 在财务和运营基础结构中，您现在可以扩展解决方案并开发您自己的自定义项。 每个开发人员都必须使用自己的开发环境。 有关详细信息，请参阅[部署和访问开发环境](../fin-ops-core/dev-itpro/dev-tools/access-instances.md)。
+- **GOLD** - 对于新部署，一种常见的做法是使用单独的 GOLD 环境，该环境保持原始状态以便进行配置和数据迁移。 此环境可在整个实施过程中使用以刷新其他环境。 它将用于创建具有基本配置和数据迁移功能的新生产环境。 直到完成启用准备流程，您才能在财务和运营基础结构上部署生产环境。 有关详细信息，请参阅[准备实施](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md)。
 
 <!--NOTE: Need to come back and verify Tier-1 can be used and if a customer cannot purchase tier 3-5 need specific documentation about this.-->
 
@@ -66,24 +66,24 @@ _**适用于：** 财务和运营应用基础结构中的 Human Resources_
 
 ## <a name="create-an-lcs-project"></a>创建 LCS 项目
 
-若要使用 LCS 来管理您的 Human Resources 环境，您必须先创建 LCS 项目。 如果要将 Human Resources 环境迁移到财务和运营基础结构，则必须为财务和运营应用创建新的 LCS 项目。 有关详细信息，请参阅[迁移 Human Resources 环境](hr-admin-migrate-overview)。 如果您已拥有其他财务和运营应用的 LCS 项目，则可以在 **功能管理** 工作区中启用 Human Resources 功能。 有关更多信息，请参见[功能管理概述](/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)。
+若要使用 LCS 来管理您的 Human Resources 环境，您必须先创建 LCS 项目。 如果要将 Human Resources 环境迁移到财务和运营基础结构，则必须为财务和运营应用创建新的 LCS 项目。 如果您已拥有其他财务和运营应用的 LCS 项目，则可以在 **功能管理** 工作区中启用 Human Resources 功能。 有关更多信息，请参见[功能管理概述](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。
 
-当新客户注册 Human Resources 时，订阅包括一个实施项目工作区。 客户激活服务后，租户管理员必须使用租户帐户在 <https://lcs.dynamics.com> 登录。 系统会自动为组织创建项目工作区。 有关详细信息，请参阅[面向财务和运营应用客户的 Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs)。
+当新客户注册 Human Resources 时，订阅包括一个实施项目工作区。 客户激活服务后，租户管理员必须使用租户帐户在 <https://lcs.dynamics.com> 登录。 系统会自动为组织创建项目工作区。 有关详细信息，请参阅[面向财务和运营应用客户的 Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md)。
 
 > [!NOTE]
 > 要确保成功预配，必须将用于预配 Human Resources 环境的帐户分配给与 Human Resources 环境关联的 Power Apps 环境中的 **系统管理员** 角色或 **系统定制员** 角色。 有关如何在 Microsoft Power Platform 中为用户分配安全角色的详细信息，请参阅[为资源配置用户安全性](/power-platform/admin/database-security)。
 
-您必须先完成 LCS 项目入门流程，然后才能开始部署环境。 有关详细信息，请参阅[项目入门](/fin-ops-core/dev-itpro/lifecycle-services/project-onboarding)。 有关如何使用 LCS 的详细信息，请参阅 [Lifecycle Services (LCS) 用户指南](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide)。
+您必须先完成 LCS 项目入门流程，然后才能开始部署环境。 有关详细信息，请参阅[项目入门](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md)。 有关如何使用 LCS 的详细信息，请参阅 [Lifecycle Services (LCS) 用户指南](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)。
 
 ## <a name="deploy-human-resources-environments"></a>部署 Human Resources 环境
 
 若要在云中部署财务和运营应用（包括 Human Resources），您需要了解要部署到的环境和订阅、谁可以执行哪些任务以及您必须管理哪些数据和自定义项。 我们建议您在部署新环境时使用服务帐户而不是指定用户。 有关如何在财务和运营基础结构中部署环境的详细信息，请参阅[云部署概览](/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview)。
 
-要在财务和运营基础结构上部署 Human Resources 生产环境，您必须完成启用准备流程。 有关详细信息，请参阅[准备实施](/fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live)。 此流程包括 LCS 中的订阅估算器。 有关详细信息，请参阅[订阅估算器](/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator)。
+要在财务和运营基础结构上部署 Human Resources 生产环境，您必须完成启用准备流程。 有关详细信息，请参阅[准备实施](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md)。 此流程包括 LCS 中的订阅估算器。 有关详细信息，请参阅[订阅估算器](../fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator.md)。
 
 ## <a name="integrate-microsoft-power-platform-with-human-resources"></a>将 Microsoft Power Platform 与 Human Resources 集成
 
-Microsoft Power Platform 通过 Power Platform 管理中心提供一套 Dynamics 365 应用程序功能。 您可以使用 Microsoft Power Platform 集成和扩展 Human Resources 数据的使用。 有关如何将 Microsoft Power Platform 与 Human Resources 集成的信息，请参阅 [Microsoft Power Platform 与财务和运营应用的集成](/fin-ops-core/dev-itpro/power-platform/overview)。
+Microsoft Power Platform 通过 Power Platform 管理中心提供一套 Dynamics 365 应用程序功能。 您可以使用 Microsoft Power Platform 集成和扩展 Human Resources 数据的使用。 有关如何将 Microsoft Power Platform 与 Human Resources 集成的信息，请参阅 [Microsoft Power Platform 与财务和运营应用的集成](../fin-ops-core/dev-itpro/power-platform/overview.md)。
 
 ## <a name="supported-geographies"></a>支持的地理区域
 
@@ -96,8 +96,8 @@ Microsoft Power Platform 通过 Power Platform 管理中心提供一套 Dynamics
 ## <a name="additional-resources"></a>其他资源
 您可以使用以下资源详细了解如何在财务和运营应用基础结构上使用和管理 LCS 中的项目：
 
-- [Lifecycle Services 资源](/fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
-- [Lifecycle Services (LCS)用户指南](/fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
+- [Lifecycle Services 资源](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md)
+- [Lifecycle Services (LCS)用户指南](../fin-ops-core/dev-itpro/lifecycle-services/lcs-user-guide.md)
 - [自助服务部署概览](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md)
 - [数据库移动操作主页](../fin-ops-core/dev-itpro/database/dbmovement-operations.md)
 

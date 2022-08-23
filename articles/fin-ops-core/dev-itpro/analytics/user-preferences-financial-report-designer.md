@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.custom:
-- "31161"
+ms.custom: 31161
 ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
 ms.search.form: FinancialReports
-ms.openlocfilehash: 9abc4090cba9149136e2acd77ae363ff7e5777ec
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 7f937656d068c8145d67c2886542cbad1a33e622
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205754"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289883"
 ---
 # <a name="user-preferences-in-financial-report-designer"></a>财务报表设计器中的用户首选项
 

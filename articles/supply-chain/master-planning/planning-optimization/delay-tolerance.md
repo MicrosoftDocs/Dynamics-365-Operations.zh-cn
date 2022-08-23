@@ -10,28 +10,35 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4bd6042f9dd33ba15773b251911e965cb870c5aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865112"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219958"
 ---
 # <a name="delay-tolerance-negative-days"></a>延迟容差（负天数）
 
 [!include [banner](../../includes/banner.md)]
 
-延迟容差功能使计划优化能够考虑为覆盖范围组设置的 **负天数** 值。 它用于延长在主计划期间应用的延迟容差期间。 这样，如果现有供应能够在短暂延迟后满足需求，您就可以避免创建新的供应订单。 该功能的目的是确定为给定需求创建新的供应订单是否有意义。
+延迟容差功能使计划优化能够考虑为覆盖范围组、物料覆盖范围和/或主计划设置的 **负天数** 值。 它用于延长在主计划期间应用的延迟容差期间。 这样，如果现有供应能够在短暂延迟后满足需求，您就可以避免创建新的供应订单。 该功能的目的是确定为给定需求创建新的供应订单是否有意义。
 
 ## <a name="turn-on-the-feature-in-your-system"></a>在系统中开启此功能
 
-若要使延迟容差在您的系统中可用，请转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化的负天数* 功能。
+若要使延迟容差功能在您的系统中可用，请转到[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开以下功能：
+
+- *计划优化的负天数* - 此功能为覆盖范围组和物料覆盖范围启用负天数设置。
+- *按订单生产供应自动化* - 此功能针对主计划启用负天数设置。 （有关详细信息，请参阅[按订单生产供应自动化](../make-to-order-supply-automation.md)。）
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>计划优化中的延迟容差
 
 延迟容差表示在已计划现有供应时，您在订购新补货之前愿意等待的提前期之外的天数。 延迟容差通过使用日历天数而不是工作日来定义。
 
-在主计划期间，当系统计算延迟容差时，它将考虑 **负天数** 设置。 您可以在 **覆盖范围组** 页面或 **物料覆盖范围** 页面上设置 **负天数** 值。
+在主计划期间，当系统计算延迟容差时，它将考虑 **负天数** 设置。 您可以在 **覆盖范围组** 页面、**物料覆盖范围** 页面或 **主计划** 页面上设置 **负天数** 值。 如果在多个级别分配了负天数，则系统将应用以下层次结构来确定要使用的设置：
+
+- 如果在 **主计划** 页上启用了负天数，则计划运行时该设置将覆盖所有其他负天数设置。
+- 如果在 **物料覆盖范围** 页面上配置了负天数，则该设置将覆盖此覆盖范围组设置。
+- 仅当尚未为相关物料或计划配置负天数时，才会应用在 **覆盖范围组** 页面上配置的负天数。
 
 系统将延迟容差计算链接到 *最早补货日期*，该日期等于今天的日期加上提前期。 延迟容差使用以下公式计算，其中 *max()* 找到两个值中较大的一个：
 

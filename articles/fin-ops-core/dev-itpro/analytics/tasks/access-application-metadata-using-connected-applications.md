@@ -1,24 +1,24 @@
 ---
 title: 通过使用相连应用程序访问应用程序元数据
 description: 本文中的步骤介绍 Regulatory Configuration Service 用户如何使用元数据设计新的电子申报模型映射。
-author: NickSelin
+author: kfend
 ms.date: 06/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b24d865bff0e81f79e7edde360fd5115d8637b42
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.search.form: ''
+ms.openlocfilehash: 1a935b96e247978fc2b2f9449d403c92bff35f17
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111222"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267863"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>通过使用相连应用程序访问应用程序元数据
 

@@ -1,26 +1,26 @@
 ---
 title: 检查配置的 ER 组件以防止运行时问题
 description: 本文说明如何检查配置的电子报告 (ER) 组件，以防止可能发生的运行时问题。
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864827"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277841"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>检查配置的 ER 组件以防止运行时问题
 
@@ -30,8 +30,8 @@ ms.locfileid: "8864827"
 
 默认情况下，在以下情况下，将自动对包含先前提到的 ER 组件的 ER 配置应用验证：
 
-- [导入](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER 配置的一个新[版本](general-electronic-reporting.md#component-versioning)到您的 Microsoft Dynamics 365 Finance 实例中。
-- 将可编辑 ER 配置的 [状态](general-electronic-reporting.md#component-versioning)从 **草稿** 更改为 **已完成**。
+- [导入](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER 配置的一个新版本到您的 Microsoft Dynamics 365 Finance 实例中。
+- 将可编辑 ER 配置的状态从 **草稿** 更改为 **已完成**。
 - 通过应用新的基础版本[重定](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase)可编辑 ER 配置。
 
 您可以显式运行此验证。 选择以下三个选项之一，然后按照提供的步骤操作：
@@ -770,7 +770,7 @@ ER 检查绑定表达式中是否仅包含在可编辑 ER 组件中配置的数�
 
 ## <a name="not-linked-template"></a><a id="i12"></a>未链接模板
 
-在 [手动](er-fillable-excel.md#manual-entry)配置 ER 格式组件以使用模板生成传出文档时，必须手动添加 **Excel\\File** 元素，作为可编辑组件的附件添加所需模板，并在添加的 **Excel\\File** 元素中选择该附件。 这样，您指示添加的元素将在运行时填充所选模板。 在配置 [状态](general-electronic-reporting.md#component-versioning)为 **草稿** 的格式组件版本时，可以向可编辑组件添加多个模板，然后在 **Excel\\File** 元素中选择每个模板以运行 ER 格式。 这样，您可以看到在运行时如何填充不同的模板。 如果有模板未在任何 **Excel\\File** 元素中选中，ER 格式设计器将警告您，当模板的状态从 **草稿** 更改为 **已完成** 时，将从可编辑 ER 格式组件版本删除这些模板。
+在 [手动](er-fillable-excel.md#manual-entry)配置 ER 格式组件以使用模板生成传出文档时，必须手动添加 **Excel\\File** 元素，作为可编辑组件的附件添加所需模板，并在添加的 **Excel\\File** 元素中选择该附件。 这样，您指示添加的元素将在运行时填充所选模板。 在配置状态为 **草稿** 的格式组件版本时，可以向可编辑组件添加多个模板，然后在 **Excel\\文件** 元素中选择每个模板以运行 ER 格式。 这样，您可以看到在运行时如何填充不同的模板。 如果有模板未在任何 **Excel\\File** 元素中选中，ER 格式设计器将警告您，当模板的状态从 **草稿** 更改为 **已完成** 时，将从可编辑 ER 格式组件版本删除这些模板。
 
 以下步骤显示可能会如何发生此问题。
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895187"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227765"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>预付款账单与预付款
 
@@ -78,6 +78,8 @@ ms.locfileid: "8895187"
 若要记录供应商的预付款发票，请通过在 **采购订单** 页面上选择 **预付款发票** 选项转到 **供应商发票** 选项（**应付帐款 \> 常用 \> 采购订单 \> 所有采购订单 \> 发票选项卡 \> 预付款发票**）。 输入预付款发票的信息，包括发票编号。 无法更改预付款发票的数量。 如果供应商开具了在采购订单上定义的部分预付款值金额的发票，您可以更新单价以反映部分值。
 
 当过帐预付款发票时，将更新供应商余额和预付款帐户。 还将更新采购订单上包含的预付款定义上的 **预付款申请** 值。 将从采购订单上的标题信息中获取已过帐预付款凭证的默认财务维度条目。
+
+如果启用 **功能管理** 页面上的 **锁定供应商预付款发票上发票行的财务维度** 功能，则无法更新预付款标题或行中的维度。 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>过帐和结算预付款发票的付款
 接下来，从 **付款日记帐** 页面中支付预付款发票。 若要访问付款日记帐，请单击 **应付帐款 \> 日记帐 \> 付款 \> 付款日记帐**。 在将付款结算过帐到预付款发票后，将更新采购订单的 **剩余预付款申请** 值。

@@ -1,26 +1,26 @@
 ---
 title: 电子报告组件
 description: 本文介绍电子报告 (ER) 组件。
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892441"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285022"
 ---
 # <a name="electronic-reporting-components"></a>电子报告组件
 
@@ -123,15 +123,37 @@ ER 组件支持版本控制。 提供了以下工作流以便在 ER 组件中管
 - 该组件可以以 XML 格式序列化并导出为 XML 格式的文件。
 - 组件可以从 XML 文件重新序列化并作为 ER 组件的新版本导入到应用程序中。
 
+有关详细信息，请参阅[导入新数据模型配置](er-quick-start1-new-solution.md#ImportDataModel)和[导出完成的派生格式版本](er-calculated-field-type.md#export-completed-version-of-a-derived-format)。
+
+### <a name="draft-versions-at-runtime"></a>运行时的草稿版本
+
+在 ER 框架的个人用户参数中，您可以启用允许您指定是否必须在运行时使用 ER 配置的草稿版本的选项。 有关如何使 **运行草稿** 选项可用于 ER 配置的信息，请参阅[将自定义格式标记为可运行](er-quick-start2-customize-report.md#MarkFormatRunnable)。
+
+> [!NOTE]
+> ER 用户参数是公司特定和用户特定参数。
+
+### <a name="draft-format-versions-at-runtime"></a>运行时的草稿格式版本
+
+默认情况下，当您运行 ER 解决方案时，将忽略其格式组件的草稿版本。 相反，只会使用状态为 **草稿** 之外的相关版本。 有时，您可能需要强制 ER 在运行时使用 ER 格式配置的草稿版本。 例如，在草稿版本中引入必要的更改后，您可以使用该草稿版本执行测试运行。 通过这种方式，您可以验证更改的正确性。 要开始使用草稿格式版本，您必须将相关 ER 配置的 **运营草稿** 选项 [设置](er-quick-start2-customize-report.md#MarkFormatRunnable)为 **是**。
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>运行时的草稿模型映射版本
+
+默认情况下，当您运行 ER 解决方案时，将始终使用其模型映射组件的草稿版本。 有时，您可能需要强制 ER 在运行时忽略 ER 模型映射的草稿版本。 在 **版本 10.0.29 及更高版本** 中，您可以启用 **始终考虑 ER 模型映射的运行草稿选项** 功能，以控制运行时使用的模型映射版本。 在启用此功能后，会发生以下行为：
+
+- 针对模型映射配置将 **运行草稿** 选项设置为 **否** 时，将在运行时使用该配置的最高非草稿版本。 如果配置在当前 Finance 实例中不可用，则会引发异常。
+- 针对模型映射配置将 **运行草稿** 选项设置为 **是** 时，将在运行时使用该配置的草稿版本。
+
 ## <a name="component-date-effectivity"></a>组件日期有效性
 
-ER 组件版本是有时限的。 可以设置 ER 组件的“生效日期”，以指定此组件开始对报告流程生效时的日期。 应用程序会话日期用于定义组件是否对执行有效。 当多个版本在特定日期生效时，最新版本将用于报告流程。
+ER 格式组件版本是有时限的。 可以设置 ER 格式组件的“生效日期”，以指定此组件开始对报告流程生效时的日期。 应用程序会话日期用于定义组件是否对执行有效。 当多个版本在特定日期生效时，最新版本将用于报告流程。
 
 ## <a name="component-access"></a>组件访问权限
 
-对 ER 格式组件的访问权限取决于国际标准化组织 (ISO) 国家/地区代码的设置。 如果所选格式配置的版本的这一设置为空，则可以在运行时从任何公司访问格式组件。 如果此设置包含 ISO 国家/地区代码，则格式组件只能从为格式组件 ISO 国家/地区代码之一定义了主要地址的公司访问。
+运行时能否访问 ER 格式和模型映射组件取决于国际标准化组织 (ISO) 国家/地区代码的设置。 如果所选格式或模型映射配置的版本的这一设置为空，则可以在运行时从任何公司访问格式或模型映射组件。 如果此设置包含 ISO 国家/地区代码，则格式或模型映射组件只能从为格式组件 ISO 国家/地区代码之一定义了主要地址的公司访问。
 
-不同版本的数据格式组件可以有不同的 ISO 国家/地区代码设置。
+不同版本的格式或模型映射组件可以有不同的 ISO 国家/地区代码设置。
+
+有关详细信息，请参阅[配置与国家/地区上下文相关的电子报告模型映射](er-country-dependent-model-mapping.md)。
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

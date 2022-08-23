@@ -1,26 +1,26 @@
 ---
 title: 设计 ER 格式以使用页面页眉或页脚中的嵌入图像生成采用 Excel 格式的报表
 description: 本文说明如何使用电子报告 (ER) 生成具有在页面页眉或页脚中嵌入的图像和形状的业务文档。
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854834"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281803"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>设计 ER 格式以使用页面页眉或页脚中的嵌入图像生成采用 Excel 格式的报表
 
@@ -196,7 +196,7 @@ ms.locfileid: "8854834"
 
 ![在“创建配置”下拉对话框中为自定义付款格式创建配置。](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-创建版本 240.112.1 的 **普通发票 (Excel) 自定义** ER 格式配置。 此版本的 [状态](general-electronic-reporting.md#component-versioning)为 **草稿**，可以编辑。 自定义 ER 格式的当前内容与 Microsoft 提供的格式的内容匹配。
+创建版本 240.112.1 的 **普通发票 (Excel) 自定义** ER 格式配置。 此版本的状态为 **草稿**，可以编辑。 自定义 ER 格式的当前内容与 Microsoft 提供的格式的内容匹配。
 
 ![在“配置”页面上创建的 ER 格式配置的新版本。](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ ms.locfileid: "8854834"
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>将自定义格式标记为可运行
 
-因为已创建自定义格式的第一个版本，并且其状态为 **草稿**，因此您可以运行格式以进行测试。 若要运行此报表，请使用引用自定义 ER 格式的付款方式处理供应商付款。 默认情况下，从应用程序调用 ER 格式时，仅 [考虑](general-electronic-reporting.md#component-versioning)状态为 **已完成** 或 **已共享** 的版本。 此行为有助于避免使用未完成设计的 ER 格式。 但是，对于测试运行，可以强制应用程序使用状态为 **草稿** 的 ER 格式版本。 因此，如果需要进行任何修改，可以调整当前格式版本。 有关详细信息，请参阅[适用性](electronic-reporting-destinations.md#applicability)。
+因为已创建自定义格式的第一个版本，并且其状态为 **草稿**，因此您可以运行格式以进行测试。 若要运行此报表，请使用引用自定义 ER 格式的付款方式处理供应商付款。 默认情况下，从应用程序调用 ER 格式时，仅考虑状态为 **已完成** 或 **已共享** 的版本。 此行为有助于避免使用未完成设计的 ER 格式。 但是，对于测试运行，可以强制应用程序使用状态为 **草稿** 的 ER 格式版本。 因此，如果需要进行任何修改，可以调整当前格式版本。 有关详细信息，请参阅[适用性](electronic-reporting-destinations.md#applicability)。
 
 要使用 ER 格式的草稿版本，必须显式标记 ER 格式。
 

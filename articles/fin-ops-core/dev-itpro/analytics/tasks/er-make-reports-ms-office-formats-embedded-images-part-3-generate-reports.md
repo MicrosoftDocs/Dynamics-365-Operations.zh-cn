@@ -1,7 +1,7 @@
 ---
 title: 以 Office 格式生成包含嵌入图像的报表
 description: 本文介绍如何设计电子报告 (ER) 配置以生成包含嵌入图像的 Excel 和 Word 格式的电子文档。
-author: NickSelin
+author: kfend
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e728c6e55eca7bcb541a019d1fc9af00b5ad2081
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dfd4aca1013d7fdf408f9057810feedc4b44e586
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855607"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290265"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>以 Office 格式生成包含嵌入图像的报表
 

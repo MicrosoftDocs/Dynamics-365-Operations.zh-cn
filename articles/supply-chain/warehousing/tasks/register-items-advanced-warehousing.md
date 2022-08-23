@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 66fc9e21b79d70ec14750440c74d354bb8ec0695
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066958"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219589"
 ---
 # <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>使用物料到达日记帐登记启用了仓库管理流程的物料
 
@@ -29,7 +29,7 @@ ms.locfileid: "9066958"
 
 ## <a name="enable-sample-data"></a>启用示例数据
 
-若要使用在本文中指定的示例记录和值完成此场景，您必须使用安装了标准演示数据的系统，并且必须在开始之前选择 *USMF* 法人。
+若要使用在本文中指定的示例记录和值完成此场景，您必须使用安装了标准 [演示数据](../../../fin-ops-core/fin-ops/get-started/demo-data.md)的系统，并且必须在开始之前选择 *USMF* 法人。
 
 相反，如果您拥有以下可用数据，则可以通过从自己的数据中替换值来完成此场景：
 

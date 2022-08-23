@@ -12,17 +12,15 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "68813"
-- intro-internal
+ms.custom: 68813,  ""intro-internal
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.form: FinanicalReportingSetup
-ms.openlocfilehash: 76388cc797edcf29e4164255571b2aa4bd20638e
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: e7a31f44acafc7703f6d82ad0271fde0d0bb7906
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205847"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280052"
 ---
 # <a name="financial-reporting"></a>财务报告
 

@@ -1,26 +1,26 @@
 ---
 title: 从 Configuration service 的全局知识库下载 ER 配置
 description: 本文说明如何从配置服务的全局知识库下载电子报告 (ER) 配置。
-author: NickSelin
+author: kfend
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 105843
-ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 53007504f1094b69ec6578d382c451a2bf1f9059
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 105843
+ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
+ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
+ms.openlocfilehash: 3bbc341d1668e54fcb4034263a7e142166a94b05
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9108909"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273299"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>从 Configuration service 的全局知识库下载 ER 配置
 

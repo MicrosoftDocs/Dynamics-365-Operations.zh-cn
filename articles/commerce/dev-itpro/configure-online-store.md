@@ -1,25 +1,25 @@
 ---
 title: 配置在线商店
 description: 本文提供用于帮助您配置和管理在线商店的文章的链接。
-author: kfend
+author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 31541
-ms.assetid: 7a25f9b4-a0bb-4e8c-95c0-c0799ec0620d
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: kfend
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 31541
+ms.assetid: 7a25f9b4-a0bb-4e8c-95c0-c0799ec0620d
+ms.openlocfilehash: 0af8d9fe39585b0710e97a345dd6a25e3e30273f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861871"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281054"
 ---
 # <a name="configure-online-stores"></a>配置在线商店
 

@@ -6,20 +6,20 @@ ms.date: 09/15/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 1bbf4ee904204492b7fb6e6aa186ab9e8087b45c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844664"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292073"
 ---
 # <a name="home-page-overview"></a>主页概览
 

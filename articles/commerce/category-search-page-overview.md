@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881844"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276365"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>默认类别登陆页面和搜索结果页面概览
 
@@ -46,6 +46,12 @@ ms.locfileid: "8881844"
     - 产品名称 – \[Z-A\]
     - 评分 – 从低到高
     - 评分 – 从高到低
+
+- 网站访问者使用 **高级排序选项** 和智能条件对产品排序。 通过启用[产品建议](product-recommendations.md)，可以使用以下排序选项。 有关详细信息，请参阅[产品推荐类型](product-recommendations.md#types-of-product-recommendations)一文。
+
+    - 新
+    - 畅销品
+    - 热门
 
 - 网站访问者可使用 **分页** 从一页已分类产品结果移到另一页。
 - **总计数** 提供类别中定义的产品总数。
@@ -78,7 +84,7 @@ ms.locfileid: "8881844"
 
 - **产品放置磁贴** 显示用户搜索的产品。 默认情况下，这些磁贴按用户搜索的云助力搜索相关性分数排序。
 - **优化器和选项摘要** 是提供计数且可用于优化项的筛选器。 配置“渠道类别和产品属性”元数据时，促销经理配置这些。
-- 网站访问者使用 **排序选项** 对产品排序。 默认情况下，可使用以下排序选项：
+- 网站访问者使用 **标准排序选项** 对产品排序。 默认情况下，可使用以下排序选项：
 
     - 价格 – 从低到高
     - 价格 – 从高到低
@@ -86,7 +92,16 @@ ms.locfileid: "8881844"
     - 产品名称 – \[Z-A\]
     - 评分 – 从低到高
     - 评分 – 从高到低
-    - 默认
+    - 默认 
+    
+    > [!NOTE]
+    > 如果为导航层次结构中的产品定义了 **显示顺序** 值，则默认情况下在类别页面上排序会考虑 **显示顺序** 中定义的值。 否则，将按 **产品编号** 进行排序。
+    
+- 网站访问者使用 **高级排序选项** 和智能条件对产品排序。 通过启用[产品建议](product-recommendations.md)，可以使用以下排序选项。 有关详细信息，请参阅[产品推荐类型](product-recommendations.md#types-of-product-recommendations)一文。
+
+    - 新
+    - 畅销品
+    - 热门
 
 - 网站访问者可使用 **分页** 从一页已分类产品结果移到另一页。
 - **总计数** 提供类别中定义且与搜索条件匹配的产品的总数。
@@ -94,6 +109,8 @@ ms.locfileid: "8881844"
 >[!NOTE]
 >从版本 10.0.8 开始可使用这些云助力的搜索功能。 确保 **Commerce 参数 > 配置参数** 下有一个条目是“ProductSearch.UseAzureSearch 设置为 true”。 
 ![云助力搜索的配置参数。](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>此外，若要使用高级排序选项，如新品、畅销品和趋势，您必须为您的环境启用[产品建议](product-recommendations.md)。 Commerce SDK 版本 9.35+ 和 Commerce 版本 10.0.20 提供了高级排序选项。
 
 ## <a name="additional-resources"></a>其他资源
 

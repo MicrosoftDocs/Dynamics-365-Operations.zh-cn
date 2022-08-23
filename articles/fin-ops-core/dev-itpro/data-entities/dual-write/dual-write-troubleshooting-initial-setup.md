@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111191"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289505"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>解决初始设置过程中的问题
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 本文提供财务和运营应用与 Dataverse 之间的双写入集成的疑难解答信息。 具体来说，提供可以帮助您解决在双写入集成的初始设置期间可能发生的问题的信息。
 
@@ -51,7 +49,7 @@ ms.locfileid: "9111191"
 
 *保存连接集失败！已添加具有相同密钥的物料。*
 
-双重写入不支持具有相同名称的多个法人/公司。 例如，如果您在 Dataverse 中有两个名称为 "DAT" 的公司，则会收到此错误消息。
+双重写入不支持具有相同名称的多个法人/公司。 例如，如果您在 Dataverse 中有两个名称为“DAT”的公司，则会收到此错误消息。
 
 若要解锁客户，请从 Dataverse 内的 **cdm_company** 表中删除重复记录。 此外，如果 **cdm_company** 表具有空白名称的记录，请删除或更正这些记录。
 
@@ -87,6 +85,19 @@ ms.locfileid: "9111191"
 
 + 用于登录的用户与财务和运营实例不在同一租户中。
 + 一些由 Microsoft 托管的旧财务和运营实例存在发现问题。 要解决此问题，请更新财务和运营实例。 通过任何更新，将可以发现环境。
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>创建连接时出现 403（禁止）错误
+
+作为双重写入链接流程的一部分，将在链接 Power Apps 环境中代表用户创建两个 Dataverse 连接（也称为 *Apihub* 连接）。 如果客户没有 Power Apps 环境的许可证，则创建 ApiHub 连接将会失败，并且显示 403（禁止）错误。 以下是错误消息的示例：
+
+> MSG=\[无法设置双重写入环境。 错误详细信息：响应状态代码未指示成功：403（已禁止）。 - 响应状态代码未指示成功：403 （已禁止）。\] STACKTRACE=\[   位于 Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs:line 297 --- 从先前引起异常的位置结束堆栈跟踪 --- 位于 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() 位于 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification（任务：任务）位于 Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\Controllers\\DualWriteEnvironmentManagementController.cs:line 265\]
+
+由于缺少 Power Apps 许可证，出现此错误。 向用户分配适当的许可证（例如 Power Apps 试用版 2 计划），以便用户有权创建连接。 要验证许可证，客户可以转到[我的帐户](https://portal.office.com/account/?ref=MeControl#subscriptions)站点，以查看当前分配给用户的许可证。
+
+有关 Power Apps 许可证的详细信息，请参阅以下文章：
+
+- [向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [为组织购买 Power Apps](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

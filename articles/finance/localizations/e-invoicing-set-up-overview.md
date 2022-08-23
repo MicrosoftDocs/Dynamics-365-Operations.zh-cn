@@ -1,26 +1,26 @@
 ---
 title: 电子开票设置
 description: 本文概述了设置和配置电子开票的流程。
-author: dkalyuzh
+author: gionoder
 ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: de94843c1e98a8788375bd41def587a64baea07d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883110"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272170"
 ---
 # <a name="electronic-invoicing-setup"></a>电子开票设置
 

@@ -6,21 +6,21 @@ ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: LedgerJournalTable
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: 62093
-ms.assetid: 553933ca-928d-4031-bb8c-f9cff458320b
+ms.reviewer: twheeloc
 ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb351a1f3df54f74b3a0fc7ca2669f04f3f68301
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 62093
+ms.assetid: 553933ca-928d-4031-bb8c-f9cff458320b
+ms.search.form: LedgerJournalTable
+ms.openlocfilehash: ed75e0a3b9994d061e94d07ffcc43e3b73bec55e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889169"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281663"
 ---
 # <a name="default-offset-accounts-for-vendor-invoice-and-invoice-approval-journals"></a>供应商发票日记帐和发票审核日记帐的默认对方科目
 

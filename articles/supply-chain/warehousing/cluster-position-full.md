@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4d46933b7c60317234b8e39cd6dfd63d383de860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9361448ba7993ba7cc126d6dd60a45fe497b2e84
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857132"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218761"
 ---
 # <a name="cluster-position-full"></a>群集位置已满
 
@@ -38,7 +38,7 @@ ms.locfileid: "8857132"
 
 ### <a name="make-sample-data-available"></a>提供示例数据
 
-若要使用此处指定的示例记录和值演练[示例方案](#example-scenario)，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md)。 此外，开始前，还必须选择 **USMF** 法人。
+若要使用此处指定的示例记录和值演练[示例方案](#example-scenario)，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)。 此外，开始前，还必须选择 **USMF** 法人。
 
 也可以将此示例场景用作在生产系统中使用此功能的指导。 但是，如果是这样，您必须替换这里介绍的设置中的自己的值。
 

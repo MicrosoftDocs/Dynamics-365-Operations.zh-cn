@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888316"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218609"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>使用装运合并工作台合并装运
 
@@ -41,7 +41,7 @@ ms.locfileid: "8888316"
 - **模块**：*仓库管理*
 - **功能名称**：*手动合并装运*
 
-[配置装运合并策略](configure-shipment-consolidation-policies.md)中已说明，还必须先开启 *合并装运* 功能，才能创建策略。 但是，您应该已经完成了该步骤。
+您还必须打开 *合并装运* 功能，然后才能创建策略。 有关详细信息，请参阅[配置装运合并策略](configure-shipment-consolidation-policies.md)。
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>为此方案创建销售订单
 
