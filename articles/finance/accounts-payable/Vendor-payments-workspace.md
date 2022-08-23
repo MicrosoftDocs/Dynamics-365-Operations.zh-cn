@@ -6,20 +6,20 @@ ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: VendPaymentWorkspace
 audience: Application User
-ms.reviewer: roschlom
-ms.assetid: ''
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6463e25fdcbc77dacc286460f3acd30ccc3d6e86
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.search.form: VendPaymentWorkspace
+ms.openlocfilehash: 13d86c037dccf23725bc8bdce268ed9fada3c5cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847022"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288592"
 ---
 # <a name="vendor-payments-workspace"></a>供应商付款工作区
 

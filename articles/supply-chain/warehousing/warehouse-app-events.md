@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2dc24fed1ec71432d9e2a3e1cb5b366267c2938b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905445"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218733"
 ---
 # <a name="warehouse-app-event-processing"></a>仓库应用事件处理
 
@@ -28,7 +28,7 @@ ms.locfileid: "8905445"
 
 ## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>打开或关闭处理仓库应用事件功能
 
-从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *处理仓库应用事件* 功能来打开或关闭此功能。
+从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的。 因此，默认情况下已启用，无法再次关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *处理仓库应用事件* 功能来打开或关闭此功能。
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>设置批处理作业以处理仓库应用事件
 

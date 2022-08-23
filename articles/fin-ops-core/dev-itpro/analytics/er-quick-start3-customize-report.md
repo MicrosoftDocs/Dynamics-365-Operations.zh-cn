@@ -1,28 +1,26 @@
 ---
 title: 自定义电子报告配置以生成电子单据
 description: 本文介绍了如何自定义 Microsoft 提供的电子报告 (ER) 配置，它们用于生成自定义电子单据。
-author: NickSelin
+author: kfend
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: cd3200bea07d622632dc5781638ec825c21233e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854689"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278937"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>自定义电子报告配置以生成电子单据
 
@@ -310,7 +308,7 @@ ms.locfileid: "8854689"
 5. 在 **名称** 字段中，输入 **发票模型 (Litware)**。
 6. 选择 **创建配置** 以添加新 ER 配置。
 
-现在，您可以使用 ER 数据模型设计器在 **草稿**[状态](general-electronic-reporting.md#component-versioning)下编辑 **发票模型 (Litware)** ER 配置的版本 50.1。
+现在，您可以使用 ER 数据模型设计器在 **草稿** 状态下编辑 **发票模型 (Litware)** ER 配置的版本 50.1。
 
 ![“配置”页面上的 ER 配置的版本 50.1。](./media/er-quick-start3-added-custom-model.png)
 
@@ -337,7 +335,7 @@ ms.locfileid: "8854689"
 
 #### <a name="complete-a-custom-data-model-configuration"></a>完成自定义数据模型配置
 
-您必须[完成](general-electronic-reporting.md#component-versioning)自定义 ER 数据模型配置的版本 50.1 的工作以使其可用，以便可以添加其他自定义 ER 配置。
+您必须完成自定义 ER 数据模型配置的版本 50.1 的工作以使其可用，以便可以添加其他自定义 ER 配置。
 
 1. 转到 **组织管理** \> **电子申报** \> **配置**。
 2. 在 **配置** 页面上，在左侧窗格的配置树中，展开 **发票模型**，然后选择 **发票模型 (Litware)**。
@@ -394,7 +392,7 @@ ms.locfileid: "8854689"
 
 #### <a name="complete-a-custom-model-mapping-configuration"></a>完成自定义模型映射配置
 
-您必须[完成](general-electronic-reporting.md#component-versioning)自定义 ER 模型映射配置的版本 50.19.1 的工作以使其可供使用。
+您必须完成自定义 ER 模型映射配置的版本 50.19.1 的工作以使其可供使用。
 
 1. 转到 **组织管理** \> **电子申报** \> **配置**。
 2. 在 **配置** 页面上，在左侧窗格的配置树中，展开 **客户发票模型** \> **客户发票模型映射**，然后选择 **发票模型映射 (Litware)**。
@@ -428,7 +426,7 @@ ms.locfileid: "8854689"
 
 ![在“配置”页面上添加自定义格式配置。](./media/er-quick-start3-adding-custom-format.png)
 
-现在，您可以使用 ER Operations 设计器在 **草稿**[状态](general-electronic-reporting.md#component-versioning)下编辑 **Peppol 销售发票 (Litware)** ER 配置的版本 11.2.2.1。
+现在，您可以使用 ER Operations 设计器在 **草稿** 状态下编辑 **Peppol 销售发票 (Litware)** ER 配置的版本 11.2.2.1。
 
 ![“配置”页面上的 ER 配置的版本 11.2.2.1。](./media/er-quick-start3-added-custom-format.png)
 
@@ -463,7 +461,7 @@ ms.locfileid: "8854689"
 
 #### <a name="complete-a-custom-format-configuration"></a>完成自定义格式配置
 
-您必须[完成](general-electronic-reporting.md#component-versioning)自定义 ER 格式配置的版本 11.2.2.1 的工作以使其可供使用。
+您必须完成自定义 ER 格式配置的版本 11.2.2.1 的工作以使其可供使用。
 
 1. 转到 **组织管理** \> **电子申报** \> **配置**。
 2. 在 **配置** 页面上，在左侧窗格的配置树中，展开 **客户发票模型** \> **UBL 销售发票** \> **Peppol 销售发票**，然后选择 **Peppol 销售发票 (Litware)**。
@@ -650,7 +648,7 @@ ms.locfileid: "8854689"
 3. 在“操作”窗格上，在 **单据** 组中，选择 **发送** \> **原始**。
 
     > [!NOTE] 
-    > 因为您现在有两个版本的 **Peppol 销售发票 (Litware)** ER 格式配置，并且两个版本都没有[生效日期](general-electronic-reporting.md#component-date-effectivity)值，因此使用最新版本生成电子发票。
+    > 因为您现在有两个版本的 **Peppol 销售发票 (Litware)** ER 格式配置，并且两个版本都没有生效日期值，因此使用最新版本生成电子发票。
 
 4. 关闭 **普通发票** 页面。
 

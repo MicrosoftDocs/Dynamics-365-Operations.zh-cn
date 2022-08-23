@@ -1,25 +1,25 @@
 ---
 title: 通过添加原始 XML 格式的内容创建报表
 description: 可以设计电子申报 (ER) 格式以生成 XML 格式的传出单据。
-author: NickSelin
+author: kfend
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 160f27f4f44ab6982addb7294db889e2a8dbfcfbc03f7849548c44364b070aa9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: 87b70d5893d71e5022205a2f39f8263edf6d5280
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749672"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277533"
 ---
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>通过将内容添加为原始 XML 生成报告
 

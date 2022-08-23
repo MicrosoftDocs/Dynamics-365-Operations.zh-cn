@@ -6,22 +6,22 @@ ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 15831
-ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: yabinl
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.custom: 15831
+ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
+ms.search.industry: Retail
+ms.search.form: RetailTenderTypeTable
+ms.openlocfilehash: d16cdf237042471d367adb7081bf34e9c8a9460f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779562"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272814"
 ---
 # <a name="payment-methods"></a>付款方式
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854288"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219898"
 ---
 # <a name="improve-scheduling-engine-performance"></a>提高计划编制引擎性能
 
@@ -294,7 +294,9 @@ ms.locfileid: "8854288"
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>资源数量大于 1 的工艺路线
 
-如果将某个工序所需的资源数量设置为大于 1，则其结果实际上与使用主要/辅助工序相同，因为已向引擎发送多个并行作业。 但是，在这种情况下，无法使用特定的资源分配，因为数量大于 1 要求为该工序应用多个资源。
+如果某个工序所需的资源数量大于 1，则结果实际上与使用主要/辅助工序相同，因为将向引擎发送多个并行作业。 但是，对于这种情况，无法使用特定的资源分配，因为数量大于 1 要求为该工序应用多个资源。
+
+资源负荷数量大于 1 的次要工序意味着主要工序的每个资源都需要指定数量的次要资源。 例如，如果主要工序的资源数量设置为 2，并且其次要工序的资源数量设置为 3，则次要工序总共需要 6 个资源。
 
 ### <a name="excessive-use-of-finite-capacity"></a>过度使用有限产能
 

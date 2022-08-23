@@ -1,20 +1,20 @@
 ---
 title: 波兰内部统计
 description: 本文包含有关波兰内部统计报告的信息。
-author: andosip
+author: AdamTrukawka
 ms.date: 11/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 45bd1d3c90d0a8a8ad5db6d0b80c5eed0aa489e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 473581fa4f3f1e8cac06d5748f28116e6615215e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871092"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281633"
 ---
 # <a name="polish-intrastat"></a>波兰内部统计
 

@@ -1,26 +1,26 @@
 ---
 title: 客户证书和机密
 description: 本文说明如何在电子开票中设置客户证书和机密。
-author: dkalyuzh
+author: gionoder
 ms.date: 02/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a4d33135bf352a4c4a245e597e0c3c7467317864
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 3943e7cb43cc6bf93995f0b3957766227cc3ec99
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880651"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279831"
 ---
 # <a name="customer-certificates-and-secrets"></a>客户证书和机密
 

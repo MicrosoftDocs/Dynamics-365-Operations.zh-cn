@@ -1,24 +1,24 @@
 ---
 title: 印度尼西亚的预缴税金报表
 description: 本文说明如何配置和生成印度尼西亚的预缴税金报表。
-author: sndray
+author: AdamTrukawka
 ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: ''
 ms.search.region: Global
-ms.author: sndray
+ms.author: atrukawk
 ms.search.validFrom: 2021-12-02
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8acd9442ff4f0b7c19e3b4fcf211acce002e43d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.scope: ''
+ms.openlocfilehash: 732db563532ebc46c7b9fc69c2aaa128640084f5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883172"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282426"
 ---
 # <a name="withholding-tax-report-for-indonesia-id-00005"></a>印度尼西亚的预缴税金报表 (ID-00005)
 

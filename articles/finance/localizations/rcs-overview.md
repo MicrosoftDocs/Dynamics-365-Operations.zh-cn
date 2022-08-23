@@ -1,28 +1,26 @@
 ---
 title: Regulatory Configuration Service
 description: 本文提供 Regulatory Configuration Service (RCS) 功能的概述并说明如何访问服务。
-author: JaneA07
+author: kfend
 ms.date: 06/04/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RCS, Regulatory Configuration Services, Localization
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d46848a891385e591474e49e887752cfc9c44767
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423,  ""intro-internal
+ms.assetid: ''
+ms.search.form: RCS, Regulatory Configuration Services, Localization
+ms.openlocfilehash: 01614aec0da097ee5c0c90bcbe9c7e0065f1d4fe
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889755"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277168"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 

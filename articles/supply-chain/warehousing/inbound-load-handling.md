@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: c48d240b346acacf2988fbaac69308ee655dced6
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070310"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219493"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>仓库对采购订单入站负荷的处理
 
@@ -279,7 +279,7 @@ Microsoft Dynamics 365 Supply Chain Management 支持使用多种操作方法记
 
 #### <a name="enable-sample-data"></a>启用示例数据
 
-若要使用指定的示例记录和值演练这些方案，使用的系统中必须已安装标准演示数据。 开始前，还必须选择 **USMF** 法人。
+若要使用指定的示例记录和值演练这些方案，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)。 开始前，还必须选择 **USMF** 法人。
 
 #### <a name="add-a-menu-item-for-receiving-load-items-when-a-mobile-device-is-used"></a>添加一个菜单项，用于在使用移动设备时接收负荷物料
 

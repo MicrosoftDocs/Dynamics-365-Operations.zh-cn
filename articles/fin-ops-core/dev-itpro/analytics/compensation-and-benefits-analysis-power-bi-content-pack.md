@@ -7,20 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "263914"
+ms.custom: 263914
 ms.assetid: 18634bb5-3341-42f2-9cc9-7b04708b506b
-ms.openlocfilehash: 666149038babe6048f5c6503e8007386284b146b
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 978aa4897c58518c430decd8570fa30c851349aa
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205882"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291849"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>薪酬和福利 Power BI 内容
 

@@ -1,26 +1,26 @@
 ---
 title: 与其他组织共享全球化功能
 description: 本文说明如何与外部组织共享全球化功能。
-author: dkalyuzh
+author: gionoder
 ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ae6e4cc59ff14197e41bb2db8d1f49afed67e95e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 07c6dcd0be346d118bf5c470c5183bad3c961e06
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874392"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275247"
 ---
 # <a name="share-globalization-features-with-other-organizations"></a>与其他组织共享全球化功能
 

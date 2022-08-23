@@ -6,21 +6,21 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: 14491
-ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac544c86804a54aaad5038e0c470095ee145346b337a5a66d5450562da2cffc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 14491
+ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
+ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
+ms.openlocfilehash: 7acc4655be35eff73dc5f2cad1fd0f511a0a7fc3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737153"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281316"
 ---
 # <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>在折扣日期之前完全结算部分和最后付款
 

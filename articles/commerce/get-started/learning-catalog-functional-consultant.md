@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Commerce 功能顾问学习目录
 description: 查找面向 Dynamics 365 Commerce 功能顾问的所有培训选项。
-author: margoc
-ms.topic: article
+author: josaw1
 ms.date: 07/27/2020
-ms.author: margoc
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: josaw
 ms.search.region: Global
+ms.author: josaw
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 654ea18b3cb22bbdfad061f38653f654cef83bdc
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: fa9506a44e23a42f7a9bf636f90f0fbb6200fd67
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066506"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276194"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Dynamics 365 Commerce 功能顾问学习目录
 

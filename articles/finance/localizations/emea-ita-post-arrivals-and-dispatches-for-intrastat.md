@@ -1,20 +1,20 @@
 ---
 title: 过帐内部统计的到货和发货
 description: 本文提供了一个示例，演示如何过帐内部统计的达货和发货。
-author: anasyash
-ms.date: 8/23/2021
+author: AdamTrukawka
+ms.date: 08/23/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: aef20f0261e103be7fe231a7efb39751ab4d1151
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b6d46efd477f526c4bec3515086e10aa8172c579
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862955"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280678"
 ---
 # <a name="post-arrivals-and-dispatches-for-intrastat"></a>过帐内部统计的到货和发货
 

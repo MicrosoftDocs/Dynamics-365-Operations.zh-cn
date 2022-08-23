@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849117"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219679"
 ---
 # <a name="system-directed-work-sequencing"></a>系统导向工作先后顺序
 
@@ -44,7 +44,7 @@ ms.locfileid: "8849117"
 
 ### <a name="make-demo-data-available"></a>提供演示数据
 
-若要使用本文中提供的值完成此场景，使用的系统中必须已安装标准演示数据。 此外，还必须选择 **USMF** 法人。 此场景使用演示数据中的仓库 *51*。
+若要使用本文中提供的值完成此场景，使用的系统中必须已安装标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)。 此外，还必须选择 **USMF** 法人。 此场景使用演示数据中的仓库 *51*。
 
 > [!IMPORTANT]
 > 在将订单下达到仓库之前，请确保领料货位有满足所有订单上的所有物料的足够库存。

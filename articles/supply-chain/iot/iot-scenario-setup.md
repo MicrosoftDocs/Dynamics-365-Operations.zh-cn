@@ -2,7 +2,7 @@
 title: IoT 智能的方案设置
 description: 本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中配置 IoT 智能的方案。
 author: johanhoffmann
-ms.date: 08/16/2019
+ms.date: 08/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3172bdb81e00d20c5b1d1f3f8e4299ca69c59434
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f097f33abb55dd69d4a38a9a7b0b2e9bdfbaea1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889597"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227794"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>IoT 智能的方案设置
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [iot-sdi-announcement](../../includes/iot-sdi-announcement.md)]
 
 本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中配置 IoT 智能的方案。 <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 

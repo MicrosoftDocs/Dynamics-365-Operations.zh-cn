@@ -1,26 +1,26 @@
 ---
 title: 从全局存储库导入功能
 description: 本文说明如何从全局存储库导入全球化功能。
-author: dkalyuzh
+author: gionoder
 ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bc8f346cdef4aa0b909d75b016b37cbbe3248ebf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 5a72673e17c5653d43b60d3348d5518e09c40a15
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865546"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278302"
 ---
 # <a name="import-features-from-the-global-repository"></a>从全局存储库导入功能
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849175"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219433"
 ---
 # <a name="item-consolidation---location-utilization"></a>物料合并 - 位置利用率
 
@@ -30,8 +30,8 @@ ms.locfileid: "8849175"
 
 在使用本文介绍的功能之前，必须在系统中将其打开。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查这些功能的状态，并在需要这些功能时将其开启。 按照列出的顺序打开以下两个功能。 （这两个功能都是针对 **仓库管理** 模块。）
 
-1. 仓库库位状态
-2. 物料合并库位利用率
+1. *仓库库位状态*（从版本 10.0.29 开始，默认情况下已启用此功能。 有关详细信息，请参阅[仓库库位状态](warehouse-location-status.md)。）
+2. *物料合并库位利用率*
 
 ## <a name="warehouse-location-status"></a>仓库库位状态
 

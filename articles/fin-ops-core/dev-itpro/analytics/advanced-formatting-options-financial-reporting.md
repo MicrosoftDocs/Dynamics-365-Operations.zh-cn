@@ -6,21 +6,21 @@ ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 106571
-ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
 ms.search.region: Global
-ms.author: aolson
+ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3ede95ff196abab450a478fef9e024490d22e00f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 106571
+ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
+ms.search.form: FinancialReports
+ms.openlocfilehash: 0bc0308fc6140a8b45de1b207a12307a6d731639
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906659"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291413"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>财务申报中的高级格式设置选项
 

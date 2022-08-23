@@ -1,26 +1,26 @@
 ---
 title: 选择 Store Commerce 或 Cloud POS
 description: 本文介绍了 Store Commerce 和 Cloud POS 之间的主要差异，并介绍了实现 Dynamics 365 Commerce 的零售商应考虑的各种因素，以帮助他们根据自己的要求做出最佳选择。
-author: jblucher
+author: josaw1
 ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: josaw
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853998"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276446"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>选择 Store Commerce 或 Cloud POS
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167722"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219085"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25 中的新增功能或更改（2022 年 4 月）
 
@@ -34,7 +34,7 @@ ms.locfileid: "9167722"
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
 | 库存和物流&nbsp;&nbsp; | [危险物料增强](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | 即将推出 | 功能管理：<br>*危险物料增强* |
-| 库存和物流&nbsp;&nbsp; | [装箱工作站的装箱工作](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | 即将推出 | 功能管理：<br>*装箱工作站的装箱工作* |
+| 库存和物流&nbsp;&nbsp; | [装箱工作站的装箱工作](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | [出站集装箱装箱和装运处理的包装工作](../warehousing/packing-work.md) | 功能管理：<br>*装箱工作站的装箱工作* |
 | 库存和物流&nbsp;&nbsp; | [使用 GS1 格式标准扫描仓库中的条码](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1 条码和 QR 码](../warehousing/gs1-barcodes.md) | 功能管理：<br>*扫描 GS1 条码* |
 | 制造 | [生产车间执行界面的物料消耗和预留](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [工作人员如何使用生产车间执行界面](../production-control/production-floor-execution-use.md) | 功能管理：<br>*在生产车间执行界面（非 WMS）上登记物料消耗量*<br><br>与/或：<br><br>功能管理：<br>*(预览版)在生产车间执行界面(启用了 WMS)上登记物料消耗量* |
 | 计划 | [计划优化集中日历维护](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [日历和主计划](../master-planning/supply-chain-calendars-master-planning.md) | 默认启用 |

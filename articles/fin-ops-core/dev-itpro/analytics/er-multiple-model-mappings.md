@@ -1,24 +1,24 @@
 ---
 title: 管理单个模型根的多个派生映射
 description: 本文说明如何管理为单个模型根配置的多个派生映射。
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892470"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277499"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>管理单个模型根的多个派生映射
 
@@ -106,7 +106,7 @@ ER 模型映射组件可以放在 ER 数据模型[配置](general-electronic-rep
 3. 在 **创建配置** 下拉对话框的 **新建** 字段中，选择 **从名称派生: 发票模型映射, Microsoft**。
 4. 在 **名称** 字段中，输入 **发票模型映射 Litware**。
 5. 选择 **创建配置**。
-6. 将派生映射的[草稿](general-electronic-reporting.md#component-versioning)版本[标记](er-quick-start2-customize-report.md#MarkFormatRunnable)为可以在运行时使用：
+6. 将派生映射的[草稿](general-electronic-reporting.md)版本[标记](er-quick-start2-customize-report.md#MarkFormatRunnable)为可以在运行时使用：
 
     1. 在操作窗格的 **配置** 选项卡上，在 **高级设置** 组中，选择 **用户参数**。
     2. 在 **使用参数** 对话框中，将 **运行设置** 选项设置为 **是**，然后选择 **确定**。

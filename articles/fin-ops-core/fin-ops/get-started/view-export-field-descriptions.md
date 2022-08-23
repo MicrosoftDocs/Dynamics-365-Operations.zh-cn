@@ -1,26 +1,26 @@
 ---
 title: 查看和导出字段描述
 description: 本文介绍了如何查看字段描述以及如何使用字段描述页导出描述。
-author: rschloma
+author: twheeloc
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
-ms.custom: 11534
-ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75019f3f9bcd081f32d06971b11429bcdd794240
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 11534
+ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
+ms.search.form: FieldDescriptions
+ms.openlocfilehash: d2d59796b312d50d69bf7722b605c159a933a283
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847090"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292357"
 ---
 # <a name="view-and-export-field-descriptions"></a>查看和导出字段描述
 

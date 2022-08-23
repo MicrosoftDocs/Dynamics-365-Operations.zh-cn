@@ -1,26 +1,26 @@
 ---
 title: 使用配置
 description: 本文概述了使用全球化功能工作区中的电子报告 (ER) 配置的主要场景。
-author: dkalyuzh
+author: gionoder
 ms.date: 01/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 359f00336811efd5f21463a325627df0e01a5f3a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: d87559405d2490c314eb2c8b88268af0dc0dfaca
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875933"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283046"
 ---
 # <a name="work-with-configurations"></a>使用配置
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167752"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220353"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -87,29 +87,23 @@ ms.locfileid: "9167752"
 
 ### <a name="enable-registering-of-material-consumption"></a>启用登记物料消耗量
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 此功能使工人能够使用生产车间执行界面来登记材料消耗、批号和序列号。 一些制造商，尤其是加工行业的制造商，必须明确登记每个批次或生产订单的材料消耗量。 例如，工作人员可能会使用秤来称量他们工作时消耗的材料量。 为确保完整的材料可追溯性，这些组织还必须登记生产每个产品时消耗材料的批号。
 
 此功能有两个版本。 一个版本支持 *未* 启用使用仓库管理流程 (WMS) 的物料。 另一个版本支持 *启用* 以使用 WMS 的物料。 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下一项或全部两项功能（按此顺序），具体取决于您是否有启用了 WMS 的物料：
 
 - *在生产车间执行界面（非 WMS）上登记物料消耗量*
-- *(预览版)在生产车间执行界面(启用了 WMS)上登记物料消耗量*
+- *在生产车间执行界面（启用了 WMS）上登记物料消耗量*
 
 > [!IMPORTANT]
 > 您可以单独使用非 WMS 功能。 但是，如果使用 WMS，则必须启用全部两项功能。
 
 ### <a name="enable-reporting-on-catch-weight-items"></a>启用实际称重物料报告
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 工作人员可以使用生产车间执行界面报告实际称重物料的批次订单的进度。 批次订单是从配方创建的，配方可以定义为将实际称重物料作为配方物料、联产品和副产品。 另外还可以定义一个配方，使其具有针对实际称重定义的成分的配方行。 实际称重物料使用两种度量单位来跟踪库存：实际称重数量和库存数量。 例如，在食品行业，可以将盒装肉定义为一个实际称重物料，其中实际称重数量用于跟踪盒数，库存数量用于跟踪盒重量。
 
 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 
-- *(预览版)报告生产车间执行界面中的实际称重物料*
+- *报告生产车间执行界面中的实际称重物料*
 
 ### <a name="enable-the-my-day-dialog"></a>启用“我的一天”对话框
 
