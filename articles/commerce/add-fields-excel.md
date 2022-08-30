@@ -7,20 +7,20 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2abf121f42d8196e52ef98f1dcb4f6b6d9004140
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.industry: Retail
+ms.openlocfilehash: a5cf726e25364b883cfd644f064a9ed4fb6f509d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867803"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270390"
 ---
 # <a name="add-fields-to-an-excel-workbook-to-edit-retail-transactions"></a>将字段添加到 Excel 工作簿以编辑零售交易记录
 

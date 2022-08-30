@@ -14,6 +14,8 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对版本 10.0.29 的平台更新（2022 年 10 月）
+                  href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: 针对版本 10.0.28 的平台更新（2022 年 8 月）
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: 针对版本 10.0.27 的平台更新（2022 年 7 月）
@@ -1090,6 +1092,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: 启用双重写入实体映射
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: 为双重写入会话启用五分钟会话超时时间窗
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: 分隔的双重写入应用程序业务流程包
                       href: data-entities/dual-write/separated-solutions.md
                     - name: 双重写入货币数据类型迁移

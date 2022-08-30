@@ -7,20 +7,20 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cab28dee425110f47a4e2ec5a737778dd567d786
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
+ms.search.industry: Retail
+ms.openlocfilehash: 22a0f76b6797e1051af6a7f3069f79c3be832d46
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873321"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283713"
 ---
 # <a name="edit-and-audit-cash-and-carry-and-cash-management-transactions"></a>编辑并审计现金和结转及现金管理交易记录
 

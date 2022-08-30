@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Human Resources 中的新增功能或更改
               items:
+                - name: Human Resources 10.0.29（合并基础结构）
+                  href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28（合并基础结构）
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27（合并基础结构）
@@ -604,6 +606,10 @@
                   href: hr-benefits-setup-parameters-per-company.md
                 - name: 为所有公司设置福利管理和员工自助服务参数
                   href: hr-benefits-setup-parameters.md
+                - name: 配置生命事件的管理员权限
+                  href: admin-life-events.md
+                - name: 配置福利的电子邮件通知
+                  href: hr-email-notifications.md
                 - name: 配置资格规则和选项
                   href: hr-benefits-setup-eligibility-rules.md
                 - name: 配置个人联系人资格选项

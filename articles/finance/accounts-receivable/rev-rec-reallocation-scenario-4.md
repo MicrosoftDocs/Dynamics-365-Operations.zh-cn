@@ -1,24 +1,24 @@
 ---
 title: 收入确认重新分配 - 方案 4
 description: 本文将介绍一种重新分配方案，在此方案中从现有的、已部分开票的销售订单中删除一行。 无论从销售订单中删除该行还是将该行设置为已取消状态，此方案都将产生相同的结果。
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ec28460319e7bfabe82261ee4ed7861c4b6eb11
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891657"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348258"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>收入确认重新分配 - 方案 4
 

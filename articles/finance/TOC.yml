@@ -12,6 +12,8 @@
               items:
                 - name: “Finance 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29（10 月）
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28（8 月）
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27（7 月）
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: 获取有关服务更新的通知
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: 主动质检更新
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: 数据任务自动化
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
                 - name: 使用 One Version 提供 ISV 解决方案
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: 查看日记帐分录或交易记录
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: 允许编辑总帐凭证上的内部数据
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: 查看日记帐的相关内部公司凭证
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: 从 Excel 发布日记帐行和凭证
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: 开始使用适用于埃及的电子开票
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: 开始使用适用于法国的电子开票
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: 开始使用适用于墨西哥的电子开票
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: 开始使用适用于波兰的电子开票
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: 开始使用适用于沙特阿拉伯的电子开票
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: 引入适用于沙特阿拉伯的电子开票
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: 设置意大利 FatturaPA 与 SDI 的直接集成
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: 使用电子开票服务导入供应商发票
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: 电子开票常见问题解答
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: 税款计算
@@ -1648,6 +1660,10 @@
                           items:
                             - name: 增值税申报
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: 波兰报告
+                          items:
+                            - name: 增值税申报
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: 西班牙报告
                           items:
                             - name: '立即提供增值税信息 (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: 计算和调整供应商发票上的销售税
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: 通过普通日记帐调整销售税
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: 对日记帐启用延期税金计算
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: 创建销售税支付
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: 设置全球预缴税金
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: 启用全球预缴税金币种汇率类型和日期类型设置
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: 购买交易记录中的预缴税金
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: 销售交易记录中的预缴税金
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: 将 NF-e XML 文件作为附件移动
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 – 电子会计单据 (NF-e) 中的布局和验证更新
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 – 电子会计单据 (NF-e) 中的布局和验证更新
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 - NF-e 的中介销售数字平台
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: 会计软件的审核线索和编辑日志
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: 印度电子发票
+                  href: localizations/apac-ind-e-invoices.md
                 - name: 间接税
                   items:
                     - name: 印度 GST
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: 在文档和查询中使用库存配置文件
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: 清关
+                      items:
+                        - name: 使用清关
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: 报告
                   items:
                     - name: 财务报告
@@ -3576,6 +3604,8 @@
                       href: localizations/rus-company-divisions.md
                     - name: 俄罗斯地址格式和从 FIAS 导入
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: 导入州地址注册 (GAR) 格式的地址
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: 延期
                   items:
                     - name: 设置延期
@@ -4069,6 +4099,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
                         - name: Split

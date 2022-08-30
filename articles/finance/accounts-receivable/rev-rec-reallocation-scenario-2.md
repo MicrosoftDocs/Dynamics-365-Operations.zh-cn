@@ -1,24 +1,24 @@
 ---
 title: 收入确认重新分配 - 方案 2
 description: 本文将介绍一种重新分配方案，在此方案中输入了两个销售订单，然后在对第一个销售订单开票后，客户将一个项目添加到合同中。 将一个新项目添加到合同中时，既可以将其添加到一个新销售订单，也可以添加到现有销售订单。
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dec8dba9848b77e5c0a1007102789c8f88185fbc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5f8dac2991b309bb91faaa3107480ca3860af008
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904835"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348372"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>收入确认重新分配 - 方案 2
 

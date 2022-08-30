@@ -12,6 +12,8 @@
               items:
                 - name: “Commerce 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.29（2022 年 10 月）
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28（2022 年 7 月）
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27（2022 年 7 月）
@@ -60,6 +62,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: 获取有关服务更新的通知
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: 主动质检更新
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: 数据任务自动化
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
                 - name: 使用 One Version 提供 ISV 解决方案
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: MPOS 和 Cloud POS 的任务录制器和帮助
                       href: task-recorder-retail-pos.md
+                    - name: 将 CPOS 配置为使用自定义 Azure AD 应用
+                      href: cpos-custom-aad.md
                     - name: 硬件外围设备
                       items:
                         - name: 外围设备
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: 基于支付方式的折扣
                   href: tender_based_discounts.md
-                - name: 装运折扣概览
-                  href: retail-shipping-discount.md
+                - name: 装运折扣
+                  href: shipping-discount.md
                 - name: 为购买促销配置礼物
                   href: gift-with-purchase.md
                 - name: 设置优惠券
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: 延迟精确价格和折扣计算
                   href: delayed-price-calculation.md
+                - name: POS 中的定价功能
+                  href: pos-pricing-functions.md
+                - name: Commerce 定价 API
+                  href: pricing-apis.md
             - name: 建议
               items:
                 - name: 产品建议概览
@@ -872,6 +882,8 @@
               href: async-customer-mode.md
             - name: 将异步客户转换为同步客户
               href: convert-async-to-sync.md
+            - name: 异步客户创建模式常见问题解答
+              href: async-customer-mode-faq.md
             - name: 客户服务解决方案
               items:
                 - name: 客户服务解决方案概览
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: 快速查看模块
                       href: quick-view-module.md
+                - name: 产品比较模块
+                  items:
+                    - name: 产品比较模块
+                      href: product-comparison-modules.md
                 - name: 导航模块
                   items:
                     - name: 痕迹导航模块
@@ -1272,6 +1288,10 @@
                   items:
                     - name: Cookie 同意模块
                       href: cookie-consent-module.md
+                - name: 聊天模块
+                  items:
+                    - name: Commerce 聊天模块
+                      href: commerce-chat-module.md
             - name: 搜索
               items:
                 - name: 默认类别登陆页面和搜索结果页面概览
@@ -1404,8 +1424,6 @@
               items:
                 - name: 奥地利会计登记服务集成示例
                   href: localizations/emea-aut-fi-sample.md
-                - name: 适用于奥地利的收银机的部署指南
-                  href: localizations/emea-aut-deployment.md
                 - name: 奥地利会计集成示例部署指南（旧版）
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: 巴西
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: 收银机部署指南
                   href: localizations/emea-nor-fi-deployment.md
+                - name: 适用于挪威的旧版功能迁移
+                  href: localizations/emea-nor-fi-migration.md
                 - name: 收银机部署指南（旧版）
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: 俄罗斯
@@ -1764,6 +1784,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
                         - name: Split
@@ -2482,7 +2504,7 @@
               items:
                 - name: Commerce SDK 概览
                   items:
-                    - name: 示例和引用包
+                    - name: 下载 Commerce SDK 示例和引用包
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: 旧版 Retail SDK 迁移
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md

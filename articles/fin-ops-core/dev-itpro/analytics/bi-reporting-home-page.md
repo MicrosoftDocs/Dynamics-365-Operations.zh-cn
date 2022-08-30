@@ -12,16 +12,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.custom:
-- "27681"
-- intro-internal
+ms.custom: 27681,  ""intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
-ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: c8465347cf27cd68efb0a3c4ab8459a384cfb462
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206466"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291908"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>利用 Power BI 主页进行报告和分析
 

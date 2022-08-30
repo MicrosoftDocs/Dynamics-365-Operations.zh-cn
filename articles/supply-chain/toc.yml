@@ -12,6 +12,8 @@
               items:
                 - name: “Supply Chain Management 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.29（2022 年 10 月）
+                  href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28（2022 年 8 月）
                   href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27（2022 年 7 月）
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/supply-chain
                 - name: 获取有关服务更新的通知
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/supply-chain
+                - name: 主动质检更新
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/supply-chain
                 - name: 数据任务自动化
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/supply-chain
                 - name: 使用 One Version 提供 ISV 解决方案
@@ -330,6 +334,8 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/supply-chain
                         - name: 开始使用适用于埃及的电子开票
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/supply-chain
+                        - name: 开始使用适用于法国的电子开票
+                          href: ../finance/localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/supply-chain
                         - name: 开始使用适用于墨西哥的电子开票
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/supply-chain
                         - name: 开始使用适用于沙特阿拉伯的电子开票
@@ -1053,6 +1059,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/supply-chain
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/supply-chain
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/supply-chain
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/supply-chain
                         - name: Split
@@ -1763,6 +1771,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: 生产规划
                   href: master-planning/planning-optimization/production-planning.md
+                - name: 保质期有限的产品的主计划
+                  href: master-planning/planning-optimization/shelf-life.md
                 - name: 具有无限容量的计划
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: 基于功能选择资源的计划
@@ -1809,6 +1819,8 @@
                   href: master-planning/planning-optimization/cancel-planning-job.md
                 - name: 行动消息
                   href: master-planning/action-messages.md
+                - name: 使用 CTP 计算销售订单交货日期
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: 解决计划优化问题
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: 计划优化可扩展性
@@ -1879,6 +1891,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: 净需求和内置主计划限定标准信息
                   href: master-planning/net-requirements-built-in-master-planning.md
+                - name: 按订单生产供应自动化
+                  href: master-planning/make-to-order-supply-automation.md
             - name: 预测
               items:
                 - name: 需求和供应预测
@@ -2467,6 +2481,8 @@
               href: production-control/mixed-mode-plan.md
             - name: 管理生产中的转包工作
               href: production-control/manage-subcontract-work-production.md
+            - name: 在过帐到日记帐前将成品设置为实际可用
+              href: production-control/deferred-posting.md
             - name: 统一作业 ID 编号顺序
               href: production-control/unified-job-ids.md
             - name: 调用流程自动化流以创建质检订单
@@ -2809,6 +2825,8 @@
               items:
                 - name: 订单承诺
                   href: sales-marketing/delivery-dates-available-promise-calculations.md
+                - name: 使用 CTP 计算销售订单交货日期
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: 订单输入截止时间
                   href: sales-marketing/order-entry-deadlines.md
                 - name: 交货备选方案
@@ -2945,6 +2963,8 @@
               href: sales-marketing/trade-allowance.md
             - name: 创建新的贸易协议
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: 导入时重新计算行净额
+              href: sales-marketing/calc-line-net-amounts-import.md
             - name: 计划销售历史记录数据清除
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: 服务管理
@@ -3387,8 +3407,10 @@
                       href: warehousing/piece-picking-confirmation.md
                     - name: 包装材料和费用
                       href: warehousing/pack-materials-packing-material-fees.md
-                    - name: 设置人工装箱（仅 2016 年 2 月和 5 月）
-                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: 包装装运集装箱
+                      href: warehousing/packing-containers.md
+                    - name: 出站集装箱装箱和装运处理的包装工作
+                      href: warehousing/packing-work.md
                     - name: 设置领料短缺的物料重新分配
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: 取消仓库工作以进行异常处理
@@ -3543,8 +3565,10 @@
                       href: warehousing/mobile-app-titles-instructions.md
                     - name: 为移动设备中的步骤配置提升字段
                       href: warehousing/warehouse-app-promoted-fields.md
-                    - name: 为移动设备菜单项中的步骤配置 Detours
+                    - name: 为移动设备菜单项中的步骤配置绕过
                       href: warehousing/warehouse-app-detours.md
+                    - name: 使用 Warehouse Management 移动应用绕过查询数据
+                      href: warehousing/warehouse-app-data-inquiry.md
                     - name: 通过 Warehouse Management 移动应用接收牌照
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: 设置移动设备菜单项以完成采购订单中的工作

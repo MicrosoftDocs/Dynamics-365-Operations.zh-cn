@@ -6,24 +6,22 @@ ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SysConfiguration
 audience: Application User
-ms.reviewer: kfend
-ms.custom:
-- "20691"
-- intro-internal
-ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.search.industry: Public sector
-ms.author: kfend
+ms.author: v-kiarnd
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d190329b46a235625493cd04b405f74768fc52f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.custom: 20691,  ""intro-internal
+ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
+ms.search.industry: Public sector
+ms.search.form: SysConfiguration
+ms.openlocfilehash: ebd1252c75cca26a22d41efb1de87495c8b15b04
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565810"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282314"
 ---
 # <a name="public-sector-home-page"></a>公共部门主页
 
