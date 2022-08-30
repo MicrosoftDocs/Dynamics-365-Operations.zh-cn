@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3bdd161815a15d5c39b3c0afc176a288c8d9055a
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885948"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306076"
 ---
 # <a name="inventory-visibility-tips"></a>库存可见性提示
 
@@ -35,5 +35,8 @@ ms.locfileid: "8885948"
 - 当前，[分区配置](inventory-visibility-configuration.md#partition-configuration)由两个基本维度（`SiteId` 和 `LocationId`）组成，这两个维度指示数据的分配方式。 同一分区下的操作可以以更低的成本提供更高的性能。 默认情况下，该解决方案包括此分区配置。 因此，*您不必亲自定义它*。 不自定义默认分区配置。 如果删除或更改它，则可能会导致意外错误。
 - 不应在[产品索引层次结构配置](inventory-visibility-configuration.md#index-configuration)中定义在分区配置中定义的基础维度。
 - 您的[产品索引层次结构配置](inventory-visibility-configuration.md#index-configuration)必须至少包括一个索引层次结构（例如，包含基础维度 `Empty`），否则查询将失败，显示错误“尚未设置索引层次结构”。
+- 数据源 `@iv` 是预定义的数据源，在 `@iv` 中定义的带有前缀 `@` 的物理度量是预定义的度量。 这些度量是分配功能的预定义配置，因此请勿更改或删除它们，否则在使用分配功能时可能会遇到意外错误。
+- 您可以将新的物理度量添加到预定义的计算度量 `@iv.@available_to_allocate`，但不得更改其名称。
+- 如果您还原 Supply Chain Management 数据库，那么您还原的数据库包含的数据可能不再与库存可见性之前同步到 Dataverse 的数据一致。 这种数据不一致会导致系统错误和其他问题。 因此，在还原 Supply Chain Management 数据库之前，始终清理 Dataverse 中的所有相关的库存可见性数据非常重要。 有关详细信息，请参阅[在还原 Supply Chain Management 数据库之前清理 Dataverse 中的库存可见性数据](inventory-visibility-setup.md#restore-environment-database)。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

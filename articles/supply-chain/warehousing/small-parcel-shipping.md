@@ -2,7 +2,7 @@
 title: 小型包裹装运
 description: 本文提供有关小型包裹装运 (SPS) 功能的信息。 此功能让 Microsoft Dynamics 365 Supply Chain Management 可以将有关已装箱集装箱的详细信息提交给承运人，然后从该承运人处接收发货标签、装运费用和跟踪号。
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219709"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336146"
 ---
 # <a name="small-parcel-shipping"></a>小型包裹装运
 
@@ -34,12 +34,9 @@ SPS 功能通过专用的 *费率引擎* 与您的装运承运人交互。 您�
 
 您必须先在“功能管理”中打开 SPS 功能，添加费率引擎，并设置 **运输管理** 和 **仓库管理** 模块以支持它，然后才能够开始使用 SPS 功能。
 
-### <a name="turn-on-the-sps-feature"></a>开启 SPS 功能
+### <a name="turn-the-sps-feature-on-or-off"></a>打开或关闭 SPS 功能
 
-SPS 此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查此功能的状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
-
-- **模块**：*运输管理*
-- **功能名称**：*小型包裹装运*
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *小型包裹装运* 功能来打开或关闭此功能。
 
 ### <a name="deploy-and-set-up-rate-engines"></a>部署和设置费率引擎
 

@@ -2,7 +2,7 @@
 title: 配置生产车间执行界面
 description: 本文介绍了如何为生产车间执行界面创建一个或多个配置。 当您打开生产车间执行界面时，它将自动加载特定于浏览器和设备的选定配置和作业筛选器。 在配置中，设置必须适用于特定使用情况的策略。
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220353"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336176"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -63,29 +63,32 @@ ms.locfileid: "9220353"
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>生产车间执行界面的资产管理功能
 
-此功能将资产管理选项卡添加到生产车间执行界面。 工作人员可以使用此选项卡来选择连接到作业列表中所选筛选器内机器资源的资产。 对于选择的机器资产，工作人员可以通过最多四个所选计数器的计数器值查看资产的状态和运行状况。 如果您想要使用此功能，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+此功能将资产管理选项卡添加到生产车间执行界面。 工作人员可以使用此选项卡来选择连接到作业列表中所选筛选器内机器资源的资产。 对于选择的机器资产，工作人员可以通过最多四个所选计数器的计数器值查看资产的状态和运行状况。
 
-- *生产车间执行界面的资产管理功能*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。）
+从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *生产车间执行界面的资产管理功能* 功能来打开或关闭此功能。
 
-### <a name="enable-job-search"></a>启用作业搜索
+### <a name="job-search"></a>作业搜索
 
-使用此功能可以将搜索字段添加到作业列表中。 工作人员可以通过输入作业 ID 来查找特定作业，或者通过输入订单 ID 来查找特定订单的所有作业。 工作人员可以使用键盘或通过扫描条码来输入 ID。 如果您想要使用它，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+使用此功能可以将搜索字段添加到作业列表中。 工作人员可以通过输入作业 ID 来查找特定作业，或者通过输入订单 ID 来查找特定订单的所有作业。 工作人员可以使用键盘或通过扫描条码来输入 ID。
 
-- *生产车间执行界面的作业搜索*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。）
+从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *生产车间执行界面的作业搜索* 功能来打开或关闭此功能。
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>启用联产品和副产品报告
+### <a name="report-on-co-products-and-by-products"></a>报告联产品和副产品
 
-利用此功能，工作人员可以使用生产车间执行界面报告批次订单的进度。 此报告包括联产品和副产品报告。 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+利用此功能，工作人员可以使用生产车间执行界面报告批次订单的进度。 此报告包括联产品和副产品报告。
 
-- *报告来自生产车间执行界面的联产品和副产品*
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *报告来自生产车间执行界面的联产品和副产品* 功能来打开或关闭此功能。
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>启用显示完整序列号、批号和牌照编号
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>显示完整序列号、批号和牌照编号
 
 此功能为查看生产车间执行界面中的序列号、批处理和牌照号列表提供了改进的体验。 显示内容从显示有限数量字符的卡视图更改为提供足够空间来显示完整值的列表视图。 该列表还提供搜索特定数字的功能。
 
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *在生产车间执行界面中显示完整序列、批处理和牌照编号* 功能来打开或关闭此功能。
+
+
 从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *在生产车间执行界面中显示完整序列、批处理和牌照编号* 功能来打开或关闭此功能。
 
-### <a name="enable-registering-of-material-consumption"></a>启用登记物料消耗量
+### <a name="register-material-consumption"></a>登记物料消耗量
 
 此功能使工人能够使用生产车间执行界面来登记材料消耗、批号和序列号。 一些制造商，尤其是加工行业的制造商，必须明确登记每个批次或生产订单的材料消耗量。 例如，工作人员可能会使用秤来称量他们工作时消耗的材料量。 为确保完整的材料可追溯性，这些组织还必须登记生产每个产品时消耗材料的批号。
 
@@ -97,7 +100,7 @@ ms.locfileid: "9220353"
 > [!IMPORTANT]
 > 您可以单独使用非 WMS 功能。 但是，如果使用 WMS，则必须启用全部两项功能。
 
-### <a name="enable-reporting-on-catch-weight-items"></a>启用实际称重物料报告
+### <a name="report-on-catch-weight-items"></a>报告实际称重物料
 
 工作人员可以使用生产车间执行界面报告实际称重物料的批次订单的进度。 批次订单是从配方创建的，配方可以定义为将实际称重物料作为配方物料、联产品和副产品。 另外还可以定义一个配方，使其具有针对实际称重定义的成分的配方行。 实际称重物料使用两种度量单位来跟踪库存：实际称重数量和库存数量。 例如，在食品行业，可以将盒装肉定义为一个实际称重物料，其中实际称重数量用于跟踪盒数，库存数量用于跟踪盒重量。
 
@@ -105,15 +108,13 @@ ms.locfileid: "9220353"
 
 - *报告生产车间执行界面中的实际称重物料*
 
-### <a name="enable-the-my-day-dialog"></a>启用“我的一天”对话框
+### <a name="the-my-day-dialog"></a>“我的一天”对话
 
 **我的一天** 对话框为工作人员提供了他们的每日注册以及带薪时间、带薪加班、缺勤和带薪缺勤当前余额的概览。
 
-要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *生产车间执行界面的“我的一天”视图* 功能来打开或关闭此功能。
 
-- *生产车间执行界面的“我的一天”视图*
-
-### <a name="enable-teams"></a>启用 Teams
+### <a name="teams"></a>Teams
 
 在将多个工作人员分配到同一个生产作业时，他们可以组成一个团队。 团队可以指定一个工作人员作为指导员。 那么剩下的工作人员会自动成为该指导员的助手。 对于所生成的团队，只有指导员必须登记作业状态。 时间记录适用于所有团队成员。
 
@@ -121,7 +122,7 @@ ms.locfileid: "9220353"
 
 - *生产车间执行界面中的生产团队*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>在生产车间执行界面中启用其他配置
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>生产车间执行界面上的其他配置
 
 此功能将以下功能的设置添加到 **配置生产车间执行** 页面：
 
@@ -136,7 +137,6 @@ ms.locfileid: "9220353"
 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
 
 - *生产车间执行界面上的其他配置*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>使用生产车间执行配置
 

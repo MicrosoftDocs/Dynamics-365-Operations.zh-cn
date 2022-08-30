@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1f8a6de85f68a924a8d285d8cdd306ab774661fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6303af9a9d4d4565deba9ca8893535554d03c274
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897797"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335006"
 ---
 # <a name="maintenance-plans"></a>维护计划
 
@@ -202,7 +202,7 @@ ms.locfileid: "8897797"
 
 ### <a name="turn-on-the-counter-based-maintenance-enhancements-feature"></a>打开“基于计数器的维护增强”功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+必须在系统中开启此功能，然后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*资产管理*
 - **功能名称**：*基于计数器的维护增强*

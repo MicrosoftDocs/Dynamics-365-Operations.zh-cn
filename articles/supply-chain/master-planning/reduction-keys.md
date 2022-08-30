@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7eaf57e0f02c0b9dd6454a58184db7bb3f58c04
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854259"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337122"
 ---
 # <a name="forecast-reduction-keys"></a>预测缩减参数
 
@@ -133,7 +133,7 @@ ms.locfileid: "8854259"
 - 将不需要或不使用缩减参数。 
 - 如果完全缩减预测，则当前预测的预测需求变为 0（零）。
 - 如果没有将来的预测，则最后一个输入的预测的预测需求会缩减。
-- 时限包括在缩减预测计算中。
+- 需求预测减少时限不包括在预测减少计算中。 覆盖范围组时限将用于预测减少。
 - 正天数包括在缩减预测计算中。
 - 如果实际订单交易记录超过预测的需求，则其余的交易记录不会前进到下一预测期间。
 

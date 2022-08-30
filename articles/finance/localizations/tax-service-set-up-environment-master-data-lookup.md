@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181115"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306194"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>启用税款计算配置的主数据查找 
 
@@ -108,7 +108,7 @@ Dataverse 使用您创建的 Azure AD 应用程序来调用财务和运营应用
     - **提供程序** - 将此字段设置为 **NonAAD**。
     - **电子邮件** - 输入 **dataverseintegration** 或其他值。 （该值不必是有效的电子邮件帐户。）
 
-3. 将 **CDS 虚拟实体应用程序** 安全角色分配给用户。
+3. 将 **Dataverse 虚拟实体集成应用** 安全角色分配给用户。
 4. 删除所有其他角色，包括 **系统用户**。
 5. 转到 **系统管理** \> **设置** \> **Azure Active Directory 应用程序** 以注册 Dataverse。 
 6. 添加一行，然后在 **客户端 ID** 字段中输入您之前记录的 **应用程序（客户端）ID** 值。
@@ -199,17 +199,11 @@ Dataverse 使用您创建的 Azure AD 应用程序来调用财务和运营应用
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a>设置税款计算的连接应用程序。
 
-1. 在 RCS 中，打开 **功能管理** 工作区，启用以下功能：
-
-    - 电子报告 Dataverse 数据源支持
-    - 税务服务 Dataverse 数据源支持
-    - 全球化功能
-
-2. 转到 **电子报告**，然后在 **相关链接** 部分，选择 **已连接的应用程序**。
+1. 转到 **电子报告**，然后在 **相关链接** 部分，选择 **已连接的应用程序**。
 
     [![已连接的应用程序。](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. 选择 **新建** 以添加记录，然后输入以下信息。
+2. 选择 **新建** 以添加记录，然后输入以下信息。
 
     - **名称** - 输入名称。
     - **类型** – 选择 **Dataverse**。
@@ -217,12 +211,18 @@ Dataverse 使用您创建的 Azure AD 应用程序来调用财务和运营应用
     - **租户** - 输入您的租户。
     - **自定义 URL** - 输入您的 Dataverse URL 并向其追加 **/api/data/v9.1**。
 
-4. 选择 **检查连接**，然后在显示的对话框中选择 **单击此处连接至所选的远程应用程序**。
+3. 选择 **检查连接**，然后在对话框中，选择 **单击此处连接至所选的远程应用程序**。
 
     [![正在检查连接。](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. 确保您收到“成功！” 消息，此消息指示已成功建立连接。
+4. 确保您收到“成功！” 消息，此消息指示已成功建立连接。
 
     [![成功消息。](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. 在 RCS 中，打开 **功能管理** 工作区，启用以下功能：
+
+    - 全球化功能
+    - 电子报告 Dataverse 数据源支持
+    - 税务服务 Dataverse 数据源支持
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a>导入和设置 Dataverse 模型映射配置
 

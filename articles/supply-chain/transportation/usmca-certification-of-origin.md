@@ -2,7 +2,7 @@
 title: USMCA 原产地认证
 description: 使用此功能，您可以打印 United States-Mexico-Canada Agreement (USMCA) 要求的原产地认证文档。
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851353"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336536"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA 原产地认证
 
@@ -33,12 +33,9 @@ ms.locfileid: "8851353"
 
 根据文档打印选择，此文档可以使用系统中的数据预填充。 可以通过将打印文档导出为可编辑格式（如 Microsoft Word）更改或向打印文档添加数据。 导出后，您可以在申报之前进行任何必需的更改。
 
-## <a name="turn-on-the-usmca-feature"></a>开启 USMCA 功能
+## <a name="turn-the-usmca-feature-on-or-off"></a>打开或关闭 USMCA 功能
 
-USMCA 功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*运输管理*
-- **功能名称**：*USMCA 原产地认证文档*
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *USMCA 原产地证明文档* 功能来打开或关闭此功能。
 
 ## <a name="document-content"></a>文档内容
 

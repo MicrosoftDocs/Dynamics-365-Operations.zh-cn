@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874565"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324320"
 ---
 # <a name="accounts-receivable-posting"></a>应收帐款过帐
 
 [!include [banner](../includes/banner.md)]
 
 **应收帐款** 模块的主要过帐模板是客户过帐模板。 此过帐模板确定在将客户余额过帐到总帐时使用的汇总科目。 汇总科目是主科目。 它也称为应收帐款交易科目。
+
+**客户分类帐对帐** 报表可在过帐后用于帮助对帐客户和分类帐帐户的余额。 此报表使用在客户过帐模板的汇总帐户中找到的信息。 不使用为文档创建的会计的汇总帐户。 如果您在过帐交易后更改客户过帐模板或分配给客户的客户组，报表可能会显示客户和分类帐帐户余额之间的差异。 要仅查看存在差异的行以及客户帐户和分类帐帐户均为零的任何行，在打印报表时选择 **仅限差额** 参数。
 
 有关详细信息，请参阅[客户过帐模板](../accounts-receivable/customer-posting-profiles.md)。
 

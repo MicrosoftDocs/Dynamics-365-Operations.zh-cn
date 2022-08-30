@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce 10.0.29 预览版（2022 年 10 月）
 description: 本文介绍 Microsoft Dynamics 365 Commerce 10.0.29 中的新增功能或更改的功能。
 author: josaw1
-ms.date: 08/02/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c1f85fcd8f79106a3af93489d3bef608b9840bf3
-ms.sourcegitcommit: 91f58a9863f4e8f30ac787c2a9771c1ff6a05f72
+ms.openlocfilehash: 1e05f53f9ecb0a1994828172f6999a0bd5c208bc
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9224230"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306224"
 ---
 # <a name="preview-of-dynamics-365-commerce-10029-october-2022"></a>Dynamics 365 Commerce 10.0.29 预览版（2022 年 10 月）
 
@@ -38,6 +38,7 @@ ms.locfileid: "9224230"
 | Customer Service | [使用 Dynamics 365 Customer Service 全渠道启用 Customer Service](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/chat-dynamics-365-commerce-omnichannel-customer-service) | 一流的客户支持体验是为消费者提供愉快的个性化商务体验的关键。 目前存在多个商业接触点，例如实体店、在线渠道和社交渠道。 消费者希望在所有这些接触点中拥有个性化的支持体验。 此功能通过与 Dynamics 365 Customer Service 全渠道集成，帮助您提高购物车转化为销售的转化率，增加与消费者的个性化互动，并增强客户服务。 | 由管理员/制作者启用 |
 | 电子商务 | 支持在电子商务中比较产品 | 允许购物者比较各种类别的产品，以便他们能为自己做出正确的购买决定。 此功能适用于企业对消费者 (B2C) 和 B2B 站点。 | 站点生成器 | 
 | 礼品卡 | 支持零售礼品卡表以实现跨公司数据共享 | Dynamics headquarters 支持为 Dynamics 架构中的特定表启用跨公司数据共享的功能。 在此功能中，Dynamics 365 Commerce 增加了对零售礼品卡表跨公司数据共享的支持。 因此，一家公司的礼品卡现在可以将其数据复制到环境中的另一家公司。 对原始公司礼品卡表所做的更改将共享到复制的公司礼品卡表。 | 开发人员 |
+| 全球化 | [为新的 Commerce SDK 启用 Commerce 本地化功能](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | 新功能提供了通过使用功能管理框架或参数从 Commerce headquarters 启用 Commerce 本地化功能的可能性。 会计整合示例现在包含在新的 Commerce SDK 中并支持独立打包。 此功能还让全球 Commerce 客户能够采用 Store Commerce 应用。<p><p>此版本包括[奥地利](../localizations/emea-aut-fi-sample.md)、[捷克共和国](../localizations/emea-cze-fi-sample.md)、[法国](../localizations/emea-fra-cash-registers.md)、[德国](../localizations/emea-deu-fi-sample.md)、[意大利](../localizations/emea-ita-fpi-sample.md)、[挪威](../localizations/emea-nor-cash-registers.md)和[波兰](../localizations/emea-pol-fpi-sample.md)的 Commerce 本地化功能和会计整合示例。 | 由管理员/制作者启用 |
 | 性能 | 删除“编辑客户”场景的 RTS 依赖项 | 高可用性和高性能是对销售点 (POS) 和电子商务渠道的默认期望。 为了帮助达到这些期望，在编辑客户信息时，Dynamics 365 Commerce 渠道不再需要依赖与 Commerce headquarters 的实时通信。 为异步和非异步客户异步编辑客户信息的功能有助于减少对 Commerce headquarters 的实时调用。 | 由管理员/制作者启用 |
 
 ## <a name="feature-state-changes-in-this-release"></a>此版本中的功能状态更改

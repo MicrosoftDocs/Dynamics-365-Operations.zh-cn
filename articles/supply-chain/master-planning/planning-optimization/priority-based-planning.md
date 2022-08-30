@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186474"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335276"
 ---
 # <a name="priority-based-planning"></a>基于优先级的计划
 
@@ -30,7 +30,7 @@ ms.locfileid: "9186474"
 
 ## <a name="turn-on-priority-based-planning-in-your-system"></a>在系统中打开基于优先级的计划
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+必须在系统中开启此功能，然后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*主计划*
 - **功能名称**：*针对计划优化的优先级驱动的 MRP 支持*

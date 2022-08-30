@@ -2,19 +2,19 @@
 title: 挪威收银机功能
 description: 本文概述 Microsoft Dynamics 365 Commerce 中适用于挪威的收银机功能，并提供关于设置此功能的指南。
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: 42eda805646dbb30b40528254a3137102e3075e4
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 30bd5ad8c1513c3d56cc4aa0a77b70fe38d31e0a
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9292728"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346010"
 ---
 # <a name="cash-register-functionality-for-norway"></a>挪威收银机功能
 
@@ -117,6 +117,13 @@ X 和 Z 报表中包含的信息基于挪威的要求。 例如，**现金销售
 
 您还必须为挪威指定以下设置。
 
+### <a name="enable-features-for-norway"></a>为挪威启用功能
+
+您必须在 Commerce headquarters 的 **功能管理** 工作区中启用以下功能：
+
+- (挪威)在 POS 中启用其他审计事件
+- (挪威)在 POS 的日结报表中启用附加信息
+
 ### <a name="set-up-the-legal-entity"></a>设置法人
 
 确保指定了法人的名称。 此名称将打印在 X 和 Z 报表上。
@@ -149,7 +156,7 @@ X 和 Z 报表中包含的信息基于挪威的要求。 例如，**现金销售
 
 | 语言 ID | 文本                   | 文本 ID |
 |-------------|------------------------|---------|
-| zh-Hans       | 收据标题          | 900011  |
+| zh-CN       | 收据标题          | 900011  |
 | zh-Hans       | 礼品卡           | 900012  |
 | zh-Hans       | 总计(销售)          | 900013  |
 | zh-Hans       | 总税款(销售)      | 900014  |

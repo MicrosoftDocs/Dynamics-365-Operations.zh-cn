@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64e536bad996e9a1948dad18437ec6f98ad27033
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: df523dd4da11e24c7b601c8f34aef24ad6cb3b18
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691713"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336862"
 ---
 # <a name="configure-life-event-types"></a>配置生活事件类型
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources 使用 **生活事件类型** 来定义对更新员工福利登记有效的事件，如结婚或生子。 每个生活事件类型 ID 只能与一个生活事件类型相关联。 例如，如果您创建与生活事件类型 **员工地址更改** 相关联的名为 **地址更改** 的 **生活事件 ID**，您将无法创建另一个标注为 **员工地址更改** 的 ID 并将其与生活事件类型 **员工地址更改** 相关联。 如果生活事件类型未与计划类型关联，该生活事件类型将不会触发生活事件。 有关详细信息，请参阅[创建计划类型](hr-benefits-setup-plan-types.md)。
 

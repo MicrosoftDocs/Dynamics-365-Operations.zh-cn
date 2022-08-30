@@ -2,7 +2,7 @@
 title: 库位指令库存领料帐龄
 description: 本文说明在领料过程中如何使用先进先出 (FIFO) 和后进先出 (LIFO) 位置指令策略。
 author: Mirzaab
-ms.date: 07/15/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219463"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335606"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>库位指令库存领料帐龄
 
@@ -34,7 +34,7 @@ ms.locfileid: "9219463"
 
 要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中按此顺序打开以下功能：
 
-1. *仓库库位状态*（从版本 10.0.29 开始，默认情况下已启用此功能。 有关详细信息，请参阅[仓库库位状态](warehouse-location-status.md)。）
+1. *仓库位置状态*（从版本 10.0.29 开始，此功能是强制性的，无法关闭。 有关详细信息，请参阅[仓库库位状态](warehouse-location-status.md)。）
 1. *库位指令库存领料帐龄*
 
 ## <a name="feature-requirements"></a>功能要求

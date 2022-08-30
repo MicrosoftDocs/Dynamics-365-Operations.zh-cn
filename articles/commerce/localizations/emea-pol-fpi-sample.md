@@ -2,27 +2,28 @@
 title: 波兰税控打印机集成示例
 description: 本文提供 Microsoft Dynamics 365 Commerce 中波兰的会计整合示例。
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
-ms.search.validFrom: 2019-02-01
-ms.openlocfilehash: 1466532099820abcdf4496db80f9a34682e2ed5a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2019-02-01.
+ms.openlocfilehash: 52710252d78d34c444de2d40e16423868b12b5c1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274224"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336637"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>波兰税控打印机集成示例
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 本文提供 Microsoft Dynamics 365 Commerce 中波兰的会计整合示例。
 
-波兰的 Dynamics 365 Commerce 功能包括销售点 (POS) 与会计打印机的示例集成。 该示例扩展[会计整合功能](fiscal-integration-for-retail-channel.md)，并支持 [Posnet Polska S.A](https://www.posnet.com.pl) 中会计打印机的 POSNET 2.02 协议。该示例允许使用本机软件驱动程序与通过 COM 端口连接的会计打印机进行通信。 它是通过使用 Posnet 为 Posnet Thermal HD FV EJ 会计打印机提供的软件模拟器来实现和测试的。 该示例以源代码的形式提供，是 Retail 软件开发工具包 (SDK) 的一部分。
+波兰的 Dynamics 365 Commerce 功能包括销售点 (POS) 与会计打印机的示例集成。 该示例扩展[会计整合功能](fiscal-integration-for-retail-channel.md)，并支持 [Posnet Polska S.A](https://www.posnet.com.pl) 中会计打印机的 POSNET 2.02 协议。该示例允许使用本机软件驱动程序与通过 COM 端口连接的会计打印机进行通信。 它是通过使用 Posnet 为 Posnet Thermal HD FV EJ 会计打印机提供的软件模拟器来实现和测试的。 该示例以源代码的形式提供，是 Commerce 软件开发工具包 (SDK) 的一部分。
 
 Microsoft 不会从 Posnet 发布任何硬件、软件或文档。 有关如何获取会计打印机并对其进行操作的信息，请与 [Posnet Polska S.A](https://www.posnet.com.pl) 联系
 
@@ -97,12 +98,10 @@ Microsoft 不会从 Posnet 发布任何硬件、软件或文档。 有关如何�
 
 ## <a name="set-up-fiscal-integration-for-poland"></a>设置波兰的会计整合
 
-波兰的会计打印机集成示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)，是 Retail SDK 的一部分。 该示例位于 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库的 **src\\FiscalIntegration\\Posnet** 文件夹中（例如[版本/9.33 中的示例](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)）。 该示例[包含](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)一个会计单据提供程序（即 Commerce Runtime (CRT) 的扩展），以及一个会计连接器（即 Commerce Hardware Station 的扩展）。 有关如何使用 Retail SDK 的详细信息，请参阅 [Retail SDK 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)和[设置独立包装 SDK 的生成管道](../dev-itpro/build-pipeline.md)。
+波兰的会计打印机集成示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)，是 Commerce SDK 的一部分。 示例位于 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库的 **src\\FiscalIntegration\\Posnet** 文件夹中。 [示例](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)中包含一个会计单据提供程序（即 Commerce Runtime (CRT) 的扩展），以及一个会计连接器（即 Commerce Hardware Station 的扩展）。 有关如何使用 Commerce SDK 的详细信息，请参阅[从 GitHub 和 NuGet 下载 Commerce SDK 示例和引用包](../dev-itpro/retail-sdk/sdk-github.md)和[设置独立包装 SDK 的生成管道](../dev-itpro/build-pipeline.md)。
 
-> [!WARNING]
-> 由于[新的独立包装和扩展模型](../dev-itpro/build-pipeline.md)的限制，它当前无法用于此会计整合示例。 您必须在 Microsoft Dynamics Lifecycle Services (LCS) 中的开发人员虚拟机 (VM) 上使用先前版本的 Retail SDK。 有关详细信息，请参阅[波兰会计打印机整合示例的部署准则（旧版）](emea-pol-fpi-sample-sdk.md)。
->
-> 以后的版本计划支持会计整合示例的新独立包装和扩展模型。
+> [!NOTE]
+> 从 Commerce 版本 10.0.29 开始，可以在 Commerce SDK 中找到波兰的会计打印机集成示例。 在 Commerce 版本 10.0.28 或更早版本中，您必须在 Microsoft Dynamics Lifecycle Services (LCS) 中的开发人员虚拟机 (VM) 上使用先前版本的 Retail SDK。 有关详细信息，请参阅[波兰会计打印机整合示例的部署准则（旧版）](emea-pol-fpi-sample-sdk.md)。
 
 完成会计整合设置步骤，如[设置 Commerce 渠道的会计整合](setting-up-fiscal-integration-for-retail-channel.md)中所述。
 
@@ -119,18 +118,16 @@ Microsoft 不会从 Posnet 发布任何硬件、软件或文档。 有关如何�
 1. 下载会计单据提供程序和会计连接器的配置文件：
 
     1. 打开 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库。
-    1. 根据您的 SDK/应用程序版本（例如 **[版本/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**）选择正确的发布分支版本。
+    1. 根据您的 SDK/应用程序版本选择正确的发布分支版本。
     1. 打开 **src \> FiscalIntegration \> Posnet**。
-    1. 下载 **CommerceRuntime \> DocumentProvider.PosnetSample \> Configuration \> DocumentProviderPosnetSample.xml** 中的会计单据提供程序配置文件（例如，[版本/9.33 的文件](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/CommerceRuntime/DocumentProvider.PosnetSample/Configuration/DocumentProviderPosnetSample.xml)）。
-    1. 下载 **HardwareStation \> ThermalDeviceSample \> Configuration \> ConnectorPosnetThermalFVEJ.xml** 中的会计连接器配置文件（例如，[版本/9.33 的文件](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Posnet/HardwareStation/ThermalDeviceSample/Configuration/ConnectorPosnetThermalFVEJ.xml)）。
+    1. 下载 **CommerceRuntime \> DocumentProvider.PosnetSample \> 配置 \> DocumentProviderPosnetSample.xml** 中的会计单据提供程序配置文件。
+    1. 下载 **HardwareStation \> ThermalDeviceSample \> 配置 \> ConnectorPosnetThermalFVEJ.xml** 中的会计连接器配置文件。
 
-    > [!WARNING]
-    > 由于[新的独立包装和扩展模型](../dev-itpro/build-pipeline.md)的限制，它当前无法用于此会计整合示例。 您必须在 LCS 中的开发人员 VM 上使用先前版本的 Retail SDK。 此会计整合示例的配置文件位于 LCS 中开发人员 VM 上 Retail SDK 的以下文件夹中：
+    > [!NOTE]
+    > 在 Commerce 版本 10.0.28 或更早版本中，您必须在 LCS 中的开发人员 VM 上使用先前版本的 Retail SDK。 此会计整合示例的配置文件位于 LCS 中开发人员 VM 上 Retail SDK 的以下文件夹中：
     >
     > - **会计单据提供程序配置文件：** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extension.DocumentProvider.PosnetSample\\Configuration\\DocumentProviderPosnetSample.xml
     > - **会计连接器配置文件：** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.Posnet.ThermalDeviceSample\\Configuration\\ConnectorPosnetThermalFVEJ.xml
-    > 
-    > 以后的版本计划支持会计整合示例的新独立包装和扩展模型。
 
 1. 转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> Commerce 共享参数**。 在 **常规** 选项卡上，将 **启用会计整合** 选项设置为 **是**。
 1. 转到 **Retail 和 Commerce \> 渠道设置 \> 会计整合 \> 会计单据提供程序**，并加载您之前下载的会计单据提供程序配置文件。
@@ -173,16 +170,15 @@ Microsoft 不会从 Posnet 发布任何硬件、软件或文档。 有关如何�
 
 ### <a name="configure-channel-components"></a>配置渠道组件
 
-> [!WARNING]
-> 由于[新的独立包装和扩展模型](../dev-itpro/build-pipeline.md)的限制，它当前无法用于此会计整合示例。 您必须在 LCS 中的开发人员 VM 上使用先前版本的 Retail SDK。 有关详细信息，请参阅[波兰会计打印机整合示例的部署准则（旧版）](emea-pol-fpi-sample-sdk.md)。
->
-> 以后的版本计划支持会计整合示例的新独立包装和扩展模型。
+> [!NOTE]
+> - 从 Commerce 版本 10.0.29 开始，可以在 Commerce SDK 中找到波兰的会计打印机集成示例。 在 Commerce 版本 10.0.28 或更早版本中，您必须在 LCS 中的开发人员 VM 上使用先前版本的 Retail SDK。 有关详细信息，请参阅[波兰会计打印机整合示例的部署准则（旧版）](emea-pol-fpi-sample-sdk.md)。
+> - 当您将服务或质量更新应用于 Commerce 组件时，部署在您的环境中的 Commerce 示例不会自动更新。 您必须手动更新所需示例。
 
 #### <a name="set-up-the-development-environment"></a>设置开发环境
 
 若要设置开发环境以测试和扩展示例，请按照以下步骤操作。
 
-1. 克隆或下载 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions)存储库。 根据您的 SDK/应用程序版本选择正确的发布分支版本。 有关详细信息，请参阅[从 GitHub 和 NuGet 下载 Retail SDK 示例和引用包](../dev-itpro/retail-sdk/sdk-github.md)。
+1. 克隆或下载 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions)存储库。 根据您的 SDK/应用程序版本选择正确的发布分支版本。 有关详细信息，请参阅[从 GitHub 和 NuGet 下载 Commerce SDK 示例和引用包](../dev-itpro/retail-sdk/sdk-github.md)。
 1. 在 **Dynamics365Commerce.Solutions\\FiscalIntegration\\Posnet\\Posnet.sln** 中打开会计打印机集成解决方案，然后构建它。
 1. 安装 CRT 扩展：
 
@@ -220,10 +216,10 @@ Microsoft 不会从 Posnet 发布任何硬件、软件或文档。 有关如何�
 
 ## <a name="design-of-extensions"></a>扩展设计
 
-波兰的会计打印机集成示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)，是 Retail SDK 的一部分。 该示例位于 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库的 **src\\FiscalIntegration\\Posnet** 文件夹中（例如[版本/9.33 中的示例](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Posnet)）。 该示例[包含](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)一个会计单据提供程序（即 CRT 的扩展），以及一个会计连接器（即 Commerce Hardware Station 的扩展）。 有关如何使用 Retail SDK 的详细信息，请参阅 [Retail SDK 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)和[设置独立包装 SDK 的生成管道](../dev-itpro/build-pipeline.md)。
+波兰的会计打印机集成示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)，是 Commerce SDK 的一部分。 示例位于 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库的 **src\\FiscalIntegration\\Posnet** 文件夹中。 [示例](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)中包含一个会计单据提供程序（即 CRT 的扩展），以及一个会计连接器（即 Commerce 硬件工作站的扩展）。 有关如何使用 Commerce SDK 的详细信息，请参阅[从 GitHub 和 NuGet 下载 Commerce SDK 示例和引用包](../dev-itpro/retail-sdk/sdk-github.md)和[设置独立包装 SDK 的生成管道](../dev-itpro/build-pipeline.md)。
 
-> [!WARNING]
-> 由于[新的独立包装和扩展模型](../dev-itpro/build-pipeline.md)的限制，它当前无法用于此会计整合示例。 您必须在 LCS 中的开发人员 VM 上使用先前版本的 Retail SDK。 有关详细信息，请参阅[波兰会计打印机整合示例的部署准则（旧版）](emea-pol-fpi-sample-sdk.md)。 以后的版本计划支持会计整合示例的新独立包装和扩展模型。
+> [!NOTE]
+> 从 Commerce 版本 10.0.29 开始，可以在 Commerce SDK 中找到波兰的会计打印机集成示例。 在 Commerce 版本 10.0.28 或更早版本中，您必须在 LCS 中的开发人员 VM 上使用先前版本的 Retail SDK。 有关详细信息，请参阅[波兰会计打印机整合示例的部署准则（旧版）](emea-pol-fpi-sample-sdk.md)。
 
 ### <a name="commerce-runtime-extension-design"></a>Commerce Runtime 扩展设计
 

@@ -2,7 +2,7 @@
 title: 帮助系统（包含视频）
 description: 本文提供财务和运营应用帮助系统的概述。
 author: edupont04
-ms.date: 07/20/2021
+ms.date: 08/16/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: a472c022f93b51606530728116f8b1bf3894351b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
+ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9292387"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9305214"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -56,7 +56,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](/dynamics365/)) 是
 [RSS 源](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> RSS 源返回最近更新的 100 个主题的列表。 此列表不按日期排序。  
+> RSS 源返回最近更新的 100 个主题的列表。 列表按日期排序，但最近更新的文章最多可能需要一周进入列表。  
 
 或者，您可以按应用订阅 RSS 源：
 

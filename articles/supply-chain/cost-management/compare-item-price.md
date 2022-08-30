@@ -2,7 +2,7 @@
 title: 比较物料价格存储报表
 description: 了解如何生成比较物料价格存储报表，然后浏览和/或导出结果。
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846204"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334976"
 ---
 # <a name="compare-item-prices-storage-report"></a>比较物料价格存储报表
 
@@ -35,12 +35,9 @@ ms.locfileid: "8846204"
 
 如果输出中包含多行，**比较物料价格存储** 报表非常有用。 例如，如果成本计算版本中有 40,000 个以上的物料的物料价格未决，则输出将包含多行。
 
-## <a name="enable-compare-item-prices-storage"></a>启用比较物料价格存储
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>打开或关闭比较物料价格存储功能
 
-此功能只有在系统中启用了之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态，并在需要时启用。 此功能在此处列出为：
-
-- **模块** - 成本管理
-- **功能名称** - 比较物料价格存储
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *比较物料价格存储* 功能来打开或关闭此功能。
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>生成比较物料价格存储报表
 

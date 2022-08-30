@@ -2,7 +2,7 @@
 title: 使用采购贸易协议进行主计划
 description: 本文介绍计划优化如何基于在采购贸易协议中找到的最佳价格或提前期来查找计划订单的供应商和/或提前期。
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873744"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335216"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>使用采购贸易协议进行主计划
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873744"
 
 本文介绍计划优化如何基于在为给定产品指定的所有采购贸易协议中找到的最佳价格或提前期，来查找计划订单的供应商和/或提前期。
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>打开“用于计划优化的采购贸易协议”功能
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>打开或关闭“用于计划优化的采购贸易协议”功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查功能状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
-
-- **模块**：*主计划*
-- **功能名称**：*用于计划优化的采购贸易协议*
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *用于计划优化的采购贸易协议* 功能来打开或关闭此功能。
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>准备系统以在主计划期间评估采购贸易协议
 

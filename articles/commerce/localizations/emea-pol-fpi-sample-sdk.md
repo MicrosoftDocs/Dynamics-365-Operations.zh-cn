@@ -2,25 +2,29 @@
 title: 波兰会计打印机整合示例的部署准则（旧版）
 description: 本文提供从 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 部署波兰会计打印机整合示例的指南。
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 883f09f73e3b372d6896b6702e54e2e664cff4d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286518"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336645"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>波兰会计打印机整合示例的部署准则（旧版）
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-本文提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 中部署波兰会计打印机整合示例的指南。 有关此会计整合示例的详细信息，请参阅[波兰会计打印机整合示例](emea-pol-fpi-sample.md)。 
+> [!IMPORTANT]
+> 仅当您使用 Microsoft Dynamics 365 Commerce 版本 10.0.28 或更早版本时，您才应该遵循本文中的指南。 从 Commerce 版本 10.0.29 开始，可以在 Commerce 软件开发工具包 (SDK) 中找到波兰的会计打印机集成示例。 有关更多信息，请参阅[配置渠道组件](./emea-pol-fpi-sample.md#configure-channel-components)。
+
+本文提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Dynamics 365 Commerce Retail SDK 中部署波兰会计打印机集成示例的指南。 有关此会计整合示例的详细信息，请参阅[波兰会计打印机整合示例](emea-pol-fpi-sample.md)。 
 
 波兰会计整合示例是 Retail SDK 的一部分。 有关如何安装和使用 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。 此示例由 Commerce Runtime (CRT) 和 Hardware Station 的扩展组成。 若要运行此示例，您必须修改和生成 CRT 和 Hardware Station 项目。 我们建议您使用未修改的 Retail SDK 进行本文中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Azure DevOps。
 

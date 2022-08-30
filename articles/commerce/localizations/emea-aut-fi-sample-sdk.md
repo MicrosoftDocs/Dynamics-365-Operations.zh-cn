@@ -2,25 +2,29 @@
 title: 奥地利会计登记服务整合示例的部署准则（旧版）
 description: 本文提供从 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 部署奥地利会计整合示例的指南。
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 203904f60888464a473cb2997652db497fba6f57
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f5f12dbd638c8228dbc63c1fae8f3dfffc7bfe9c
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276093"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313764"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>奥地利会计登记服务整合示例的部署准则（旧版）
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-本文提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Microsoft Dynamics 365 Commerce Retail 软件开发套件 (SDK) 中部署奥地利会计登记服务整合示例的指南。 有关此会计整合示例的详细信息，请参阅[奥地利会计登记服务整合示例](emea-aut-fi-sample.md)。 
+> [!IMPORTANT]
+> 仅当您使用 Microsoft Dynamics 365 Commerce 版本 10.0.28 或更早版本时，您才必须遵循本文中的指南。 从 Commerce 版本 10.0.29 开始，可以在 Commerce 软件开发工具包 (SDK) 中找到奥地利的会计登记服务集成示例。 有关更多信息，请参阅[配置渠道组件](./emea-aut-fi-sample.md#configure-channel-components)。
+
+本文提供了从 Microsoft Dynamics Lifecycle Services (LCS) 内开发人员虚拟机 (VM) 上的 Dynamics 365 Commerce Retail SDK 中部署奥地利会计登记服务整合示例的指南。 有关此会计整合示例的详细信息，请参阅[奥地利会计登记服务整合示例](emea-aut-fi-sample.md)。 
 
 奥地利会计整合示例是 Retail SDK 的一部分。 有关如何安装和使用 SDK 的信息，请参阅 [Retail 软件开发套件 (SDK) 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)。 会计整合示例由 Commerce Runtime (CRT)、Hardware Station 和销售点 (POS) 的扩展组成。 若要运行此示例，您必须修改和生成 CRT、Hardware Station 和 POS 项目。 我们建议您使用未修改的 Retail SDK 进行本文中描述的更改。 我们还建议您使用尚未更改任何文件的源代码管理系统，如 Azure DevOps。
 

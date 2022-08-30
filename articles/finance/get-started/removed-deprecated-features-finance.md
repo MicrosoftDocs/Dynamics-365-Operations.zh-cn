@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219559"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313874"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -46,6 +46,17 @@ ms.locfileid: "9219559"
 | **影响的产品区域** | 应用程序 |
 | **部署选项** | 所有 |
 | **Status** | 已弃用：2023 年 4 月之后，**具有转让价格税的存货转移单** 功能将不再获得错误修复和安全修复的相关支持。 将要求客户使用改进的功能，即[印度的存货转移单](../../finance/localizations/apac-ind-stock-transfer.md)。 2023 年 10 月之后，**具有转让价格税的存货转移单** 功能将不再可用，并且将要求客户改用改进的功能。 |
+
+### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>银行对帐单导入和付款确认文件导出
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **弃用/移除的原因** |取而代之的是改进的功能，导入银行对帐单和导出付款确认文件。| 
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 应用程序 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用：用于导入和导出文件的 XSLT 功能不会再获得 bug 修复和安全修复支持。 将要求客户使用改进的功能：[使用电子报告设置付款确认文件](../../finance/accounts-payable/set-up-positive-pay-er.md)和[使用电子报告设置高级银行对帐导入](../../finance/accounts-payable/import-bai2-er.md)。 2022 年 9 月之后，XSLT 功能将不再可用，客户将被要求迁移到改进后的功能。|
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Finance 10.0.26 版本中已经删除或弃用的功能
 

@@ -1,7 +1,7 @@
 ---
 title: 创建信用证的银行信贷协议
 description: 此任务演练如何创建银行信贷协议以办理信用证的步骤。
-author: panolte
+author: angelad116
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BankDocumentFacilityAgreement, BankAccountTableLookUp, BankDocum
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e2e4842db71c4e3ee1df6a2357f95b37495537
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 3a6bb551f0e4bfba7c07dfdaadb360f96be2b0e6
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711678"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337615"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>创建信用证的银行信贷协议
 

@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7975d1723e07ae390961d4f44e0f34f2ff2df44d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35c38ad25380b940d050b4e498fabca017c35997
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902909"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336827"
 ---
 # <a name="benefits-management-workspace"></a>福利管理工作区
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [applies to](../includes/applies-to-hr.md)]
 
 [!include [preview feature](./includes/preview-feature.md)]
 

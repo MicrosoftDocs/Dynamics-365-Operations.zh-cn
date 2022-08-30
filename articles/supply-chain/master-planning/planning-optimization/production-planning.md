@@ -2,7 +2,7 @@
 title: 生产计划
 description: 本文介绍生产计划，并说明如何使用计划优化来修改计划的生产订单。
 author: t-benebo
-ms.date: 06/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873773"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335246"
 ---
 # <a name="production-planning"></a>生产计划
 
@@ -26,9 +26,9 @@ ms.locfileid: "8873773"
 
 以下视频简要介绍了本文中讨论的一些概念：[Dynamics 365 Supply Chain Management：计划优化增强](https://youtu.be/u1pcmZuZBTw)。
 
-## <a name="turn-on-this-feature-for-your-system"></a>为您的系统启用此功能
+## <a name="turn-this-feature-on-or-off-for-your-system"></a>为您的系统打开或关闭此功能
 
-如果您的系统尚未包含本文中所述的功能，请转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化的计划生产订单* 功能。
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *用于计划优化的计划生产订单* 功能来打开或关闭此功能。
 
 ## <a name="planned-production-orders"></a>计划生产订单
 

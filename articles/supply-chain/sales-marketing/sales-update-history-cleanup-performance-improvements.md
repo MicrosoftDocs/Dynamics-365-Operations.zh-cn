@@ -2,7 +2,7 @@
 title: 计划销售历史记录数据清理
 description: 本文介绍如何通过计划以定期销间隔运行的售更新历史记录清理定期任务来帮助提高系统性能。
 author: myvakalo
-ms.date: 03/21/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900816"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335494"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>计划销售历史记录数据清理
 
@@ -51,10 +51,7 @@ ms.locfileid: "8900816"
 
 *根据使用时间清理销售更新历史记录* 功能可让您指定在运行 *销售更新历史记录清理* 定期任务时要保留记录的最长期限。 较早的记录将被删除。 此功能在您将任务设置为定期运行时很有用，因为年限始终是相对于任务运行的日期计算的。 如果不使用此功能，您只能为要保留的最早记录设置特定日期。
 
-必须在系统中开启此功能，然后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*销售和市场营销*
-- **功能名称**：*根据使用时间清除销售更新历史记录*
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *根据使用时间清理销售更新历史记录* 功能来打开或关闭此功能。
 
 ## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>设置和计划销售历史记录清理定期任务
 

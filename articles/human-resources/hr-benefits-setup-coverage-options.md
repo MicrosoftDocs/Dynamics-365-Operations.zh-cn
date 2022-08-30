@@ -14,19 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8569cabf72871396b9935a14a5637e5e645705fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f9c107e31e58ba1302cd02e2e82aa405dda0fdef
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848214"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336858"
 ---
 # <a name="create-coverage-options"></a>创建覆盖范围选项
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 覆盖范围选项确定谁应该被范围，或者保险计划中有多少可用覆盖范围。 例如，对于医疗计划，您可能有 **仅员工** 选项、**员工 + 1** 选项和 **家庭** 选项。 对于人寿保险，您可以提供 **1 x 薪水** 或 **2 x 薪水** 覆盖范围。
 

@@ -2,7 +2,7 @@
 title: 通过仓库应用创建转移单
 description: 本文介绍了如何通过仓库管理移动应用创建和处理转移单
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877441"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336446"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>通过仓库应用创建转移单
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877441"
 
 此功能允许仓库工作人员直接通过仓库管理移动应用创建和处理转移单。 工作人员首先选择目标仓库，然后他们可以使用应用扫描一个或多个牌照来将牌照添加到转移单。 当仓库工作人员选择 **完成订单** 时，批处理作业将根据为这些牌照登记的现有库存创建所需的转移单和订单行。
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>打开或关闭此功能
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>启用此功能及其先决条件
 
 只有在系统上启用了此功能及其先决条件后才能使用它。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用。
 
 1. 在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中启用以下两个功能（按顺序）。 从 Supply Chain Management 版本 10.0.25 开始，这两个功能都默认启用。
-    1. *处理仓库应用事件*
-    1. *通过仓库应用创建和处理转移单*
-1. 若要自动化出站装运的过程，您还必须启用[从批处理作业确认出站装运](confirm-outbound-shipments-from-batch-jobs.md)功能。
+    1. *处理仓库应用事件*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。）
+    1. *通过仓库应用创建和处理转移单*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。）
+1. 若要自动化出站装运的过程，您还必须启用 [*从批处理作业确认出站装运*](confirm-outbound-shipments-from-batch-jobs.md)功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。）
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>设置用于创建转移单的移动设备菜单项
 
@@ -307,11 +307,11 @@ ms.locfileid: "8877441"
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>如果尚未在后端系统中创建订单，如何通过仓库管理移动应用中的“选择转移单”按钮找到要使用的现有转移单？
 
-目前，您无法在应用中查找转移单，但可以在 **仓库应用事件** 页面上找到转移单号。 有关详细信息，请参阅[查询仓库应用事件](#inquire-the-warehouse-app-events)。
+您可以使用 Warehouse Management 移动应用的[数据查询](warehouse-app-data-inquiry.md)功能，让工作人员能够在应用中查找转移单号。 例如，您可以作为 *选择订单 - MobileDeviceQueueMessageCollectionIdentifierId* 步骤的一部分，创建一个 [绕过](warehouse-app-detours.md)移动设备菜单项，来查询显示在 Web 客户端的 **仓库应用事件** 页面 (`WHSMobileDeviceQueueMessageCollection`) 上的数据。 转移单号与 **标识符** 字段中显示的值相同。 另请参阅[查询仓库应用事件](#inquire-the-warehouse-app-events)。
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>我是否可以从仓库管理移动应用中手动选择要使用的转移单号？
 
-仅支持通过编号规则自动生成的转移单号。
+仅支持通过编号规则自动生成的转移单号。 另请参见上一个关于如何设置 **选择转移单** 按钮的问题的答案。 有关如何查找转移单号的更多信息，请参阅[查询仓库应用事件](#inquire-the-warehouse-app-events)。
 
 ### <a name="background-processing"></a>后台处理
 

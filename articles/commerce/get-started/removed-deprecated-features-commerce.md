@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce 中已删除或弃用的功能
 description: 本文介绍 Dynamics 365 Commerce 中已经删除或计划删除的功能。
 author: josaw1
-ms.date: 07/11/2022
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 541e21999884a2d51b27009d72a2f8bc9084557f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287615"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337588"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中已删除或弃用的功能
 
@@ -33,32 +33,49 @@ ms.locfileid: "9287615"
 > [!NOTE]
 > [技术参考报告](/dynamics/s-e/)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
 
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Commerce 10.0.29 版本中已经删除或弃用的功能
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>Commerce 参数设置 -允许价格调整以提高产品价格
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们使用此设置来控制价格调整功能是否允许提高产品价格。 关闭此参数时，组织在使用价格调整功能时，只能将产品的单价设置为低于其基价和贸易协议销售价格。 我们将弃用此设置，因为价格调整功能已更新为支持现成可用的双向调整（提高或降低）。 |
+| **被另一个功能取代？**   | 否 |
+| **影响的产品区域**         | 定价和折扣 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用：此设置自 Commerce 版本 10.0.29 起默认开启，将于 2023 年 10 月删除。 |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>Commerce 参数设置 - 为零售商店启用价格报表
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们使用此设置来控制价格报表功能是否可以在商店配置窗体上使用。 我们将弃用此设置，因为商店配置窗体已更新为始终提供价格报表功能作为标准功能。 |
+| **被另一个功能取代？**   | 否 |
+| **影响的产品区域**         | 定价和折扣 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用：此设置将于 2023 年 10 月删除。 |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>Commerce 参数设置 - 使用今天的日期计算价格
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **弃用/移除的原因** | 标准 Supply Chain Management (SCM) 定价引擎支持基于“要求装运日期”和“要求收货日期”以及今天的日期计算定价。 Commerce 定价引擎仅支持基于今天的日期计算定价。 对于同时使用 SCM 和 Commerce 功能的客户，我们提供了此设置并建议客户始终将其设置为 **是**，以使两个定价引擎可以协同工作。 我们将弃用此设置，因为它不更改计算行为，而且是多余的。 |
+| **被另一个功能取代？**   | 否 |
+| **影响的产品区域**         | 定价和折扣 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用：此设置自 Commerce 版本 10.0.29 起默认开启，将于 2023 年 10 月删除。 |
+
 ## <a name="feature-deprecation-effective-july-2022"></a>功能弃用从 2022 年 7 月开始生效
 
 ### <a name="commerce-analytics-preview"></a>Commerce 分析（预览版）
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **弃用/移除的原因** | 该 Dynamics 365 Commerce 团队已分析 Commernce 分析（预览版）功能的使用情况和利用情况，并决定不再继续将该功能引入正式发布。   |
-| **被另一个功能取代？**   | 此时，Commerce 分析（预览版）将不会替换为其他功能或解决方案。 可以继续将原始交易和主数据从财务和运营应用导出到 Azure Data Lake，如[在财务和运营应用中导出到 Data Lake](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md) 中所述。 合作伙伴和客户可以利用该数据流为其业务需求创作任何预期分析报告。
+| **弃用/移除的原因** | 该 Dynamics 365 Commerce 团队已分析 Commerce 分析（预览）功能的使用情况和利用情况，并决定不再继续将该功能引入正式发布。   |
+| **被另一个功能取代？**   | 此时，Commerce 分析（预览）将不会替换为其他功能或解决方案。 可以继续将原始交易和主数据从财务和运营应用导出到 Azure Data Lake，如[在财务和运营应用中导出到 Data Lake](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md) 中所述。 合作伙伴和客户可以利用该数据流为其业务需求创作任何预期分析报告。
 | **影响的产品区域**         | Commerce 分析（预览版） |
 | **部署选项**              | 所有 |
 | **Status**                         | 我们将考虑在 2022 年 8 月 30 日之前禁用此功能。  从此日期开始，Commerce 分析（预览版）提供的当前 Power BI 报表中将不会进行刷新。     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Commerce 10.0.25 版本中已经删除或弃用的功能
-
-### <a name="modern-point-of-sale-mpos"></a>现代销售点 (MPOS)
-
-现代销售点 (MPOS) 应用程序将在 Commerce 版本 10.0.25 中被弃用，取而代之的是 Store Commerce 应用。
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **弃用/移除的原因** | 店内应用是 Dynamics 365 Commerce 全渠道产品/服务的基石。 我们不断创新以提供现代和智能的商店体验，并且为了进一步实现解决方案现代化，我们将推出一系列新的变化，这些变化将显著改善 Windows 上现有店内应用程序的 IT 运营和用户体验。 新的 Store Commerce 应用程序是现有 MPOS 的技术升级。 它在 Windows 平台上提供了改进的性能、可靠性和长期支持，并且无需在每次更新时都重新打包应用。 |
-| **被另一个功能取代？**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
-| **影响的产品区域**         | 现代销售点 |
-| **部署选项**              | 所有 |
-| **Status**                         | 已弃用：从 Commerce 版本 10.0.25 开始，通过 LCS 虚拟机 (VM) 提供的 MPOS 安装程序将于 2023 年 10 月被删除。 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Commerce 10.0.21 版本中已经删除或弃用的功能
 
@@ -131,7 +148,7 @@ Lifecycle Services (LCS) 中附带 Retail SDK。 10.0.21 版本中已弃用此�
 | **被另一个功能取代？**   | 否 |
 | **影响的产品区域**         | Dynamics 365 Commerce |
 | **部署选项**              | 所有|
-| **状态**                         | 已弃用。 不要使用此字段或更改其中的值。|
+| **Status**                         | 已弃用。 不要使用此字段或更改其中的值。|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Commerce 10.0.15 版本中已经删除或弃用的功能
 

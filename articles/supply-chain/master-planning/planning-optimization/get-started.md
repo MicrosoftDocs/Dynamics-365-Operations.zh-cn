@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112171"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295916"
 ---
 # <a name="get-started-with-planning-optimization"></a>开始使用计划优化
 
@@ -29,7 +29,7 @@ ms.locfileid: "9112171"
 
 正如[之前宣布](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios)的那样，计划优化计划替换现有的内置主计划引擎。
 
-如果当前使用内置的主计划引擎，则应该立即开始计划迁移到计划优化。 立即开始迁移过程非常重要，因为强制执行弃用操作可能会影响您的操作。 为了避免在最后强制执行弃用时出现问题，我们强烈建议您在 2020 年 12 月 1 日之前完成迁移。 
+如果当前使用内置的主计划引擎，则应该立即开始计划迁移到计划优化。 立即开始很重要，否则在强制弃用时您的操作可能会受到影响（尽管目前尚未计划强制弃用）。 我们强烈建议您在计划优化支持您所需的功能后立即完成迁移，以便您可以开始利用新服务提供的很多性能改进和其他新功能。
 
 计划优化功能当前不支持 Supply Chain Management 中内置的计划引擎中提供的所有功能。 因此，重要的是要评估计划优化中当前可用的功能集是否满足您的要求。 计划优化功能当前在 Dynamics Lifecycle Services (LCS) 中默认未启用，因此您有机会在启用该功能之前进行评估。
 

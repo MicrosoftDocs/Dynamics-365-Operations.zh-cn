@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: f9e6cbf0f520f0f30c01cefba03689e9c119f2cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 00a4e07ac38a83cd4569006f3b6e2bdd59ed1a42
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890616"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334526"
 ---
 # <a name="pick-line-grouping"></a>领料行分组
 
@@ -30,7 +30,7 @@ ms.locfileid: "8890616"
 
 ## <a name="turn-on-the-pick-line-grouping-feature"></a>打开领料行分组功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查此功能的状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
+必须在系统中开启此功能，然后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查此功能的状态和开启功能（如果需要）。 在那里，此功能以以下方式列出：
 
 - **模块**：*仓库管理*
 - **功能名称**：*领料行分组*

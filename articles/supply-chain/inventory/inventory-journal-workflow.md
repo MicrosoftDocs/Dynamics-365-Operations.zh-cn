@@ -2,7 +2,7 @@
 title: 库存日记帐审核工作流
 description: 本文介绍如何为各种类型的实际库存交易设置和使用库存日记帐审核工作流。 库存日记帐工作流有助于确保仅将批准的库存日记帐过帐到交易记录中。
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873976"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334646"
 ---
 # <a name="inventory-journal-approval-workflows"></a>库存日记帐审核工作流
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873976"
 > [!NOTE]
 > 库存日记帐审核工作流仅适用于使用库存管理模块记录的交易。 不适用于仓库管理模块触发的库存日记帐。
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>打开库存日记帐审核工作流功能
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>打开或关闭库存日记帐审核工作流功能
 
-从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)页面检查功能状态，并在需要时启用或禁用。 此功能在此处列出为：
-
-- **模块**：*库存和仓库管理*
-- **功能名称**：*库存日记帐审核工作流*
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *库存日记帐审核工作流* 功能来打开或关闭此功能。
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>创建库存日记帐审核工作流
 

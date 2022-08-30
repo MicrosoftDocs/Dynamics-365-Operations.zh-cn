@@ -2,7 +2,7 @@
 title: 使用 Warehouse Management 移动应用绕过查询数据
 description: 本文介绍如何配置数据查询移动设备菜单项并将其用作绕过的一部分。
 author: perlynne
-ms.date: 08/01/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c3ea53379badb3cb2ed71b7f102956d71c3f047a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220512"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336596"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>使用 Warehouse Management 移动应用绕过查询数据
 
@@ -35,19 +35,19 @@ ms.locfileid: "9220512"
 在可以使用本文中描述的功能之前，您必须完成以下过程以打开所需的功能。
 
 1. 转到 **系统管理 \> 工作区 \> 功能管理**。 （有关如何使用 **功能管理** 工作区的详细信息，请参阅[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)。）
-1. 打开按下列方式列出的功能：
+1. 如果您运行的是 Supply Chain Management 版本 10.0.28 或更早版本，打开按以下方式列出的功能：
 
     - **模块**：*仓库管理*
     - **功能名称**：*仓库应用步骤说明*
 
-    此功能是 *Warehouse Management 应用数据查询流* 功能的先决条件。 有关 *仓库应用步骤说明* 功能的详细信息，请参阅[自定义 Warehouse Management 移动应用的步骤标题和说明](mobile-app-titles-instructions.md)。
+    此功能是 *Warehouse Management 应用数据查询流* 功能的先决条件。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 有关 *仓库应用步骤说明* 功能的详细信息，请参阅[自定义 Warehouse Management 移动应用的步骤标题和说明](mobile-app-titles-instructions.md)。
 
 1. 打开按下列方式列出的功能：
 
     - **模块**：*仓库管理*
     - **功能名称**：*Warehouse Management 应用绕过*
 
-    此功能是 *Warehouse Management 应用数据查询流* 功能的先决条件。 有关 *Warehouse Management 应用绕过* 功能的详细信息，请参阅[配置移动设备菜单项中的步骤绕过](warehouse-app-detours.md)。
+    此功能是 *Warehouse Management 应用数据查询流* 功能的先决条件。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 有关 *Warehouse Management 应用绕过* 功能的详细信息，请参阅[配置移动设备菜单项中的步骤绕过](warehouse-app-detours.md)。
 
 1. 如果 *Warehouse Management 应用绕过* 功能尚未开启，请转到 **Warehouse management \> 设置 \> 移动设备 \> 仓库应用字段名称**，选择 **创建默认设置**，更新 Warehouse Management 移动应用中的字段名称。 对您使用 Warehouse Management 移动应用的每个法人（公司）重复此步骤。 有关详细信息，请参阅[为仓库管理移动应用配置字段](configure-app-field-names-priorities-warehouse.md)。
 1. 打开按下列方式列出的功能：

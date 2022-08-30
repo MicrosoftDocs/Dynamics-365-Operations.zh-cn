@@ -2,7 +2,7 @@
 title: 为移动设备菜单项中的步骤配置绕过
 description: 本文介绍如何配置菜单项的绕过，以便工作人员可以停止当前任务，执行另一个任务，之后返回原始任务时不会丢失任何信息。
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218995"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336116"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>为移动设备菜单项中的步骤配置绕过
 
@@ -35,9 +35,8 @@ ms.locfileid: "9218995"
 
 1. 转到 **系统管理 \> 工作区 \> 功能管理**。
 1. 确保为您的系统启用 *仓库应用步骤说明* 功能。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 有关 *仓库应用步骤说明* 功能的详细信息，请参阅[自定义 Warehouse Management 移动应用的步骤标题和说明](mobile-app-titles-instructions.md)。 此功能是 *Warehouse management 应用绕过* 功能的先决条件。
-1. 打开 *Warehouse Management 应用绕过* 功能。 此功能是本文中介绍的功能。
-1. 通过转到 **Warehouse management \> 设置 \> 移动设备 \> 仓库应用字段名称**，选择 **创建默认设置**，更新 Warehouse Management 移动应用中的字段名称。 有关详细信息，请参阅[为仓库管理移动应用配置字段](configure-app-field-names-priorities-warehouse.md)。
-1. 对您使用 Warehouse Management 移动应用的每个法人（公司）重复上一步。
+1. 打开 *Warehouse Management 应用绕过* 功能。 此功能是本文中介绍的功能。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。
+1. 如果 *Warehouse Management 应用绕过* 功能尚未开启，请转到 **Warehouse management \> 设置 \> 移动设备 \> 仓库应用字段名称**，选择 **创建默认设置**，更新 Warehouse Management 移动应用中的字段名称。 对您使用 Warehouse Management 移动应用的每个法人（公司）重复此步骤。 有关详细信息，请参阅[为仓库管理移动应用配置字段](configure-app-field-names-priorities-warehouse.md)。
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>从特定于菜单的替代配置绕过
 

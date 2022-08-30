@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895748"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306164"
 ---
 # <a name="use-the-inventory-visibility-app"></a>使用 Inventory Visibility 应用
 
@@ -70,10 +70,24 @@ ms.locfileid: "8895748"
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>库存汇总
 
-**库存汇总** 是 *现有库存总和* 实体的自定义视图。 其提供产品的库存汇总以及所有维度。 将每隔 15 分钟定期从库存可见性同步库存汇总数据。 要在 **库存汇总** 选项卡上查看数据，您必须在 **功能管理** 选项卡上开启 *OnHandMostSpecificBackgroundService* 功能，并选择 **更新配置**。
+**库存摘要** 页面提供产品的库存汇总以及所有维度。 它是 *现有库存总和* 实体的自定义视图。 将定期从库存可见性同步库存摘要数据。
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>启用库存摘要并设置同步频率
+
+要启用 **库存摘要** 页面并设置同步频率，请按以下步骤操作：
+
+1. 打开 **管理** 页面。
+1. 打开 **功能管理和设置** 选项卡。
+1. 将 **OnHandMostSpecificBackgroundService** 功能的切换开关设置为 *是*。
+1. 启用此功能后，**服务配置** 部分将可用，其中包含用于配置 **OnHandMostSpecificBackgroundService** 功能的行。 此设置允许您选择同步库存摘要数据的频率。 使用 **值** 列中的 **向上** 和 **向下** 按钮更改同步之间间隔的时间（最低可设置为 5 分钟）。 然后选择 **保存**。
+1. 选择 **更新配置** 保存所有更改。
+
+![OnHandMostSpecificBackgroundService 设置](media/inventory-visibility-ohms-freq.PNG "OnHandMostSpecificBackgroundService 设置")
 
 > [!NOTE]
 > *OnHandMostSpecificBackgroundService* 功能仅跟踪启用该功能后发生的现有产品更改。 自启用此功能后未更改的产品的数据不会从库存服务缓存同步到 Dataverse 环境。 如果您的 **库存汇总** 页面未显示您所预期的所有现有信息，请转到 **库存管理 > 定期任务 > 库存可见性集成**，禁用批处理作业，然后重新启用。 这将执行初始推送，所有数据将在接下来的 15 分钟内同步到 *现有库存量总计* 实体。 如果您想要使用此功能，我们建议您在创建任何现有更改和启用 **库存可见性集成** 批处理作业之前先启用它。
+
+### <a name="work-with-the-inventory-summary"></a>使用库存摘要
 
 可以通过使用 Dataverse 提供的 **高级筛选器**，创建个人视图以显示对您至关重要的行。 可使用高级筛选器选项创建从简单到复杂的大量视图。 还可用于向筛选器添加组合嵌套条件。 若要了解有关如何使用 **高级筛选器** 的详细信息，请参阅[使用高级网格筛选器编辑或创建个人视图](/powerapps/user/grid-filters-advanced)。
 
@@ -85,4 +99,4 @@ ms.locfileid: "8895748"
 
 视图底部是可用于从 Dataverse 加载更多记录的 **加载更多** 按钮。 加载的默认记录的数量为 50。 选择 **加载更多** 时，将在视图中加载下 1,000 条可用记录。 **加载更多** 按钮上的数字指示当前加载的记录数和 **高级筛选器** 结果的记录总数。
 
-![库存汇总](media/inventory-visibility-onhand-list.png "库存汇总")
+![库存汇总](media/inventory-visibility-onhand-list.png "库存摘要")

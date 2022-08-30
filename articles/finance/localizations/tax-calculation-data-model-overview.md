@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b47ec3922621a15ee1fb1aa8ab1559d9a57418e3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fc90964a5b0bd31b28a8c8d9b7474c063da34205
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220293"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295949"
 ---
 # <a name="tax-calculation-data-model"></a>税款计算数据模型
 
@@ -64,6 +64,7 @@ ms.locfileid: "9220293"
     *限制：* 不支持[一个凭证](../general-ledger/one-voucher.md#issues-with-one-voucher)和付款费用。
 
 - **供应商发票日记帐：** 自版本 40.54.234 和 Finance 版本 10.0.26 开始受支持。
+- **期间日记帐：** 自版本 40.55.236 和 Finance 版本 10.0.29 开始受支持。
 
 ## <a name="field-mapping"></a>字段映射
 

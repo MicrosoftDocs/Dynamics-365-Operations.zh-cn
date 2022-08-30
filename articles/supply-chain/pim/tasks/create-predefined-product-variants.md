@@ -2,7 +2,7 @@
 title: 创建预定义的产品变型
 description: 此过程全面介绍如何使用产品维度的组合创建基础产品的产品变型。
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a26439b8c7346cdce2b4c9804493fea94c29ac31
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103081"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335906"
 ---
 # <a name="predefined-product-variants"></a>预定义的产品变型
 
@@ -86,7 +86,7 @@ ms.locfileid: "8103081"
 
 ### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>打开或关闭“变型建议页改进”功能
 
-从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *变型建议页改进* 功能来打开或关闭此功能。
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *变型建议页改进* 功能来打开或关闭此功能。
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>使用改进的变型建议
 

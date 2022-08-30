@@ -13,18 +13,18 @@ ms.author: filatovm
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: EROperationDesigner
-ms.openlocfilehash: fa66edef7e39c72d4859a21a1474096f7bc1c1dd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a2ea132b51f2f451fbe81a9c7869bea84bf4017a
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9278787"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324010"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>设计 ER 配置以在生成的文件中禁止 BOM 字符
 
 [!include [banner](../includes/banner.md)]
 
-可以设计[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)来生成传出文档。 要将文档生成为文本文件或 XML 文件，解决方案必须包括包含 ER 格式组件的 ER [配置](general-electronic-reporting.md#Configuration)。 若要指定表示生成文件中字符集的 [字符编码](/windows/win32/intl/character-sets)，ER 格式必须包含 **Common\\File** 格式元素。 要配置 ER 格式组件，在 ER 格式设计器中打开 ER 配置的 [草稿](general-electronic-reporting.md#component-versioning)版本，添加 **Common\\File** 元素。 在 **编码** 字段中，指定使用此组件在运行时生成的传出文件的编码。
+可以设计[电子报告 (ER)](general-electronic-reporting.md) [解决方案](er-quick-start1-new-solution.md)来生成传出文档。 要将文档生成为文本文件或 XML 文件，解决方案必须包括包含 ER 格式组件的 ER [配置](general-electronic-reporting.md#Configuration)。 若要指定表示生成文件中字符集的 [字符编码](/windows/win32/intl/character-sets)，ER 格式必须包含 **Common\\File** 格式元素。 要配置 ER 格式组件，在 ER 格式设计器中打开 ER 配置的草稿版本，添加 **Common\\File** 元素。 在 **编码** 字段中，指定使用此组件在运行时生成的传出文件的编码。
 
 > [!NOTE]
 > 如果格式包含错误的编码名称，将更改保存到格式设置时会引发错误。

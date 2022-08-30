@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b4d0b09ea4bee58799a659217e2236fe74102949
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069233"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335426"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>仓库流程质量管理
 
@@ -29,7 +29,7 @@ _仓库流程质量管理_ 功能扩展了基本质量管理功能的能力。 �
 
 ## <a name="turn-on-the-quality-management-for-warehouse-processes-feature"></a>打开“仓库流程质量管理”功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+必须在系统中开启此功能，然后才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*仓库管理*
 - **功能名称：** *仓库流程质量管理*

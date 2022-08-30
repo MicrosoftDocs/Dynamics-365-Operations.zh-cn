@@ -2,7 +2,7 @@
 title: 延迟容差（负天数）
 description: 本文提供有关延迟容差计算以及它如何影响计划优化中的计划订单创建的信息。
 author: t-benebo
-ms.date: 07/30/2021
+ms.date: 08/09/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219958"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335366"
 ---
 # <a name="delay-tolerance-negative-days"></a>延迟容差（负天数）
 
@@ -23,11 +23,11 @@ ms.locfileid: "9219958"
 
 延迟容差功能使计划优化能够考虑为覆盖范围组、物料覆盖范围和/或主计划设置的 **负天数** 值。 它用于延长在主计划期间应用的延迟容差期间。 这样，如果现有供应能够在短暂延迟后满足需求，您就可以避免创建新的供应订单。 该功能的目的是确定为给定需求创建新的供应订单是否有意义。
 
-## <a name="turn-on-the-feature-in-your-system"></a>在系统中开启此功能
+## <a name="turn-delay-tolerance-features-on-or-off"></a>打开或关闭延迟容差功能
 
 若要使延迟容差功能在您的系统中可用，请转到[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开以下功能：
 
-- *计划优化的负天数* - 此功能为覆盖范围组和物料覆盖范围启用负天数设置。
+- *计划优化的负天数* - 此功能为覆盖范围组和物料覆盖范围启用负天数设置。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。
 - *按订单生产供应自动化* - 此功能针对主计划启用负天数设置。 （有关详细信息，请参阅[按订单生产供应自动化](../make-to-order-supply-automation.md)。）
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>计划优化中的延迟容差

@@ -14,17 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59fe5ece00500f7dafab282c00d572575706f790
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894576"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323949"
 ---
 # <a name="configure-leave-and-absence-types"></a>配置休假和缺勤类型
-
-> [!Important]
-> 本文中提到的功能目前对独立 Dynamics 365 Human Resources 上的客户可用。 在 Finance 版本 10.0.26 之后，部分或全部功能将作为未来版本的一部分在 Finance 基础结构上提供。
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,31 +38,21 @@ Dynamics 365 Human Resources 中的休假类型定义员工可报告的各种缺
 
 ## <a name="add-a-leave-type"></a>添加休假类型
 
-1. 在 **休假和缺勤** 页面，选择 **链接** 选项卡。
-
+1. 在 **休假和缺勤** 工作区，选择 **链接** 选项卡。
 2. 在 **设置** 下，选择 **休假和缺勤类型**。
-
 3. 选择 **新建**。
-
 4. 在 **类型** 下输入休假类型的名称，从 **工作流 ID** 中选择一个工作流，然后在 **说明** 下输入说明。
-
 5. 在 **一般** 中，从 **类别** 下拉列表中选择 **无**、**计划** 或 **计划外**。
-
 6. 从 **收入代码** 下拉列表中选择一个收入代码。
-
 7. 在 **需要原因代码** 下，选择您是否希望提供原因代码。 如果您希望提供原因代码，可能需要添加原因代码。 在 **原因代码** 下，选择 **添加**，选择一个原因代码，然后选择它旁边的 **已启用** 复选框。
-
 8. 在 **限制对选定角色的访问** 下，选择是否要限制访问。 然后在 **此休假类型的安全角色** 下选择安全角色。 安全角色在您在此过程前面在 **工作流 ID** 下选择的工作流程中定义。
-
 9. 在 **日历颜色** 下，选择该请假类型在请假和缺勤日历上显示的颜色。 
-
 10. 在 **暂停关系** 下，选择是否要让此休假类型暂停其他休假类型或被其他休假类型暂停。 当提交休假请求以暂停休假类型时，将自动为暂停的休假类型创建休假暂停。 
-
-10. 选择 **保存**。
+11. 选择 **保存**。
 
 ## <a name="configure-leave-type-rules"></a>配置请假类型规则
 
-1. 设置休假类型的舍入选项。 选项包括 **无**、**向上**、**向下** 和 **最近**。 您还可以为休假类型设置舍入精度。
+1. 设置 **休假和缺勤** 类型的舍入选项。 选项包括 **无**、**向上**、**向下** 和 **最近**。 您还可以为休假类型设置舍入精度。
 
 2. 为休假类型设置 **假日更正**。 选择此选项时，工作日的假日数将用来确定如何累积休假类型的休息时间。 例如，如果圣诞节在星期一，Human Resources 在处理累积时将从休假类型中减去一天。
 

@@ -2,7 +2,7 @@
 title: 使用装运合并工作台合并装运
 description: 本文提供以下方案：使用装运合并工作台将多个订单发放到仓库，以后再合并到装运中。
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218609"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335786"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>使用装运合并工作台合并装运
 
@@ -34,14 +34,11 @@ ms.locfileid: "9218609"
 
 此处介绍的方案假设已经开启了此功能，完成了[配置装运合并策略](configure-shipment-consolidation-policies.md)中的练习，并创建了其中介绍的策略和其他记录。 务必先完成这些练习，再继续完成此方案。
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>开启手动合并装运功能
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>打开或关闭手动合并装运功能
 
-*手动合并装运* 功能必须先在系统中开启，才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+要使用手动合并装运，必须为您的系统开启此功能。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *手动合并装运* 功能来打开或关闭此功能。
 
-- **模块**：*仓库管理*
-- **功能名称**：*手动合并装运*
-
-您还必须打开 *合并装运* 功能，然后才能创建策略。 有关详细信息，请参阅[配置装运合并策略](configure-shipment-consolidation-policies.md)。
+您还必须先打开 *合并装运* 功能，然后才能创建策略（从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭）。 有关详细信息，请参阅[配置装运合并策略](configure-shipment-consolidation-policies.md)。
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>为此方案创建销售订单
 

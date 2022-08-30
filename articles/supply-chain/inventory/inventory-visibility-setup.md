@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895690"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306045"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>安装和设置 Inventory Visibility
 
@@ -43,7 +43,7 @@ ms.locfileid: "8895690"
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>安装库存可见性加载项
 
-安装此加载项之前，请注册应用程序，然后在 Azure 订阅下向 Azure Active Directory (Azure AD) 添加一个客户端密钥。 有关说明，请参阅[注册应用程序](/azure/active-directory/develop/quickstart-register-app)和[添加客户端密钥](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)。 请务必记下 **应用程序（客户端）ID**、**客户端密钥** 和 **租户 ID** 值，因为后面需要这些值。
+安装此加载项之前，请注册应用程序，然后在 Azure 订阅下向 Azure Active Directory (Azure AD) 添加一个客户端密钥。 有关说明，请参阅[注册应用程序](/azure/active-directory/develop/quickstart-register-app)和[添加客户端密钥](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)。 请务必记下 **应用程序（客户端）ID**、**客户端密码** 和 **租户 ID** 值，因为后面需要这些值。
 
 > [!IMPORTANT]
 > 如果您有多个 LCS 环境，请为每个环境创建一个不同的 Azure AD 应用程序。 如果使用相同的应用程序 ID 和租户 ID 为不同环境安装库存可见性加载项，较低版本环境将发生令牌问题。 因此，只有最后一次安装有效。
@@ -88,20 +88,6 @@ ms.locfileid: "8895690"
 >
 > 1. 安装完成后，返回到 LCS 页面，再次尝试重新安装 **库存可见性** 加载项。
 
-## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>卸载库存可见性加载项
-
-若要卸载库存可见性加载项，请在 LCS 页面上选择 **卸载**。 卸载流程终止库存可见性加载项，从 LCS 注销该加载项，并删除存储在库存可见性加载项数据缓存中的所有临时数据。 但是，不删除您的 Dataverse 订阅中存储的主库存数据。
-
-若要卸载您的 Dataverse 订阅中存储的库存数据，请打开 [Power Apps](https://make.powerapps.com)，在导航栏中选择 **环境**，然后选择与您的 LCS 环境绑定的 Dataverse 环境。 然后转到 **解决方案**，并按以下顺序删除下面的五个解决方案：
-
-1. Dynamics 365 解决方案中适用于库存可见性应用程序的定位点解决方案
-1. Dynamics 365 FNO SCM 库存可见性应用程序解决方案
-1. 库存服务配置
-1. 库存可见性单机版
-1. Dynamics 365 FNO SCM 库存可见性基础解决方案
-
-删除这些解决方案之后，也将删除表中存储的数据。
-
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>在 Supply Chain Management 中设置库存可见性
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>部署库存可见性集成包
@@ -135,10 +121,45 @@ ms.locfileid: "8895690"
 
 1. 如果启用了可选的 *带预留抵销的库存可见性集成* 功能，请打开 **预留抵销** 选项卡，然后进行以下设置：
     - **启用预留抵销** – 设置为 *是* 以启用此功能。
-    - **预留抵销修饰符** – 选择将抵销在库存可见性中所做预留的库存交易记录状态。 此设置决定触发抵销的订单处理阶段。 此阶段通过订单的库存交易记录状态跟踪。 选择以下各项之一：
+    - **预留抵销修饰符** – 选择将抵销在库存可见性中所做预留的库存交易记录状态。 此设置决定触发抵销的订单处理阶段。 此阶段通过订单的库存交易记录状态跟踪。 选择以下选项之一：
         - *在单* – 对于 *在交易记录* 状态，创建订单时间发送抵销请求。 抵销数量将为所创建订单的数量。
         - *预留* – 对于 *预留订购的交易记录* 状态，对订单进行预留，拣货，过帐装箱单或开票时，订单将发送抵销请求。 此请求仅在上述流程发生时为第一个步骤触发一次。 抵销数量将为其中的相应订单行上库存交易记录状态已从 *在单* 更改为 *订购预留*（或更晚状态）的数量。
 
 1. 转到 **库存管理 \> 定期 \> 库存可见性集成**，启用作业。 现在，来自 Supply Chain Management 的所有库存更改事件都将发布到库存可见性。
+
+## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>卸载库存可见性加载项
+
+要卸载库存可见性加载项，请按照下列步骤操作：
+
+1. 登录 Supply Chain Management。
+1. 转到 **库存管理 \> 定期 \> 库存可见性集成**，禁用作业。
+1. 转到 LCS 并打开要卸载加载项的环境的页面（另请参阅[安装库存可见性加载项](#install-add-in)）。
+1. 选择 **卸载**。
+1. 卸载过程终现在将止库存可见性加载项，从 LCS 注销该加载项，并删除存储在库存可见性加载项数据缓存中的所有临时数据。 但是，同步到您的 Dataverse 订阅的主要库存数据仍存储在那里。 要删除此数据，请完成此过程的其余部分。
+1. 打开 [Power Apps](https://make.powerapps.com)。
+1. 在导航栏上选择 **环境**
+1. 选择与您的 LCS 环境绑定的 Dataverse 环境。
+1. 转到 **解决方案**，按以下顺序删除下面的解决方案：
+    1. Dynamics 365 解决方案中 Inventory Visibility 应用程序的定位点解决方案
+    1. Dynamics 365 FNO SCM 库存可见性应用程序解决方案
+    1. 库存服务配置
+    1. 库存可见性单机版
+    1. Dynamics 365 FNO SCM 库存可见性基础解决方案
+
+    删除这些解决方案之后，也将删除表中存储的数据。
+
+> [!NOTE]
+> 如果您在卸载库存可见性加载项后还原了 Supply Chain Management 数据库，然后想要重新安装此加载项，请确保您已删除存储在 Dataverse 订阅中的旧库存可见性数据（如上一过程中所述），然后再重新安装加载项。 这将防止可能发生的数据不一致问题。
+
+## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a>在还原 Supply Chain Management 数据库之前清理 Dataverse 中的库存可见性数据
+
+如果您一直在使用库存可见性，然后还原您的 Supply Chain Management 数据库，那么您还原的数据库包含的数据可能不再与库存可见性之前同步到 Dataverse 的数据一致。 这种数据不一致会导致系统错误和其他问题。 因此，在还原 Supply Chain Management 数据库之前，始终清理 Dataverse 中的所有库存可见性数据非常重要。
+
+如果您需要还原 Supply Chain Management 数据库，请使用以下过程：
+
+1. 按照[卸载库存可见性加载项](#uninstall-add-in)中所述卸载库存可见性加载项并删除 Dataverse 中的所有相关数据
+1. 还原您的 Supply Chain Management 数据库，如[数据库时间点还原 (PITR)](../../fin-ops-core/dev-itpro/database/database-point-in-time-restore.md) 或[将生产数据库的时间点还原到沙盒环境](../../fin-ops-core/dev-itpro/database/database-pitr-prod-sandbox.md)中所述。
+1. 如果您仍想使用它，重新安装并设置库存可见性加载项，如[安装库存可见性加载项](#install-add-in)和[设置库存可见性集成](#setup-inventory-visibility-integration)中所述
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

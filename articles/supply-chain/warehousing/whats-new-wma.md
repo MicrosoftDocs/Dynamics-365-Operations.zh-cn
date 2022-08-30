@@ -10,18 +10,26 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
-ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
+ms.openlocfilehash: 115708ce9e71c35feb1cf370ead556847e04cbd2
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/25/2022
-ms.locfileid: "9188982"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324194"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
 本文列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="version-20310"></a>版本 2.0.31.0
+
+此版本引入了以下新增功能、修复和改进：
+
+-   增强的性能和稳定性。
+-   改进的用户界面，可以更快、更轻松地处理长选择列表。 工作人员现在可以按名称搜索列表项，而不是在整个列表中滚动。
+-   修复了按字符扫描时不覆盖预先输入的值的问题。
 
 ## <a name="version-20300"></a>版本 2.0.30.0
 

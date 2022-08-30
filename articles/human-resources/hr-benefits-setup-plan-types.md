@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87be947c829641ba809e6850ccf41ea6d142161d
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 6ca14156c165ca3f536fc0120ebd03883284eb18
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228951"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336849"
 ---
 # <a name="plan-type-overview"></a>计划类型概览
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 

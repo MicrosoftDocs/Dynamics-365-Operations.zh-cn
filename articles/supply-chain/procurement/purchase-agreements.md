@@ -2,7 +2,7 @@
 title: 采购协议
 description: 文本提供有关采购协议的信息。 采购协议是提交到某一组织，随时间推移通过使用多个采购订单购买指定的数量或金额的合同。 以此承诺作为交换，买方接收特价和折扣。
 author: GalynaFedorova
-ms.date: 06/20/2017
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8e2c4fdf640f1a9a64c60afc978a4d5812182a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669536"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335876"
 ---
 # <a name="purchase-agreements"></a>采购协议
 
@@ -41,7 +41,7 @@ ms.locfileid: "8669536"
 您可以在采购协议分类中标识主要负责工作人员和次要负责工作人员。 这些值将由生成的采购协议继承。 您不需要在采购协议中添加负责工作人员，他们可以在采购协议上针对每个案例直接进行修改。 没有主要负责工作人员无法指定次要负责工作人员，但您不是必须指定次要负责工作人员。 您不能将同一个工作人员同时指定为主要负责工作人员和次要负责工作人员。
 
 > [!IMPORTANT]
-> 要使用负责方功能，必须在您的系统中打开它。 从 Supply Chain Management 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *采购协议负责方* 功能来打开或关闭此功能。
+> 要使用负责方功能，必须在您的系统中打开它。 从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *采购协议负责方* 功能来打开或关闭此功能。
 
 ## <a name="commitment-types"></a>承诺类型
 采购协议的每一行都是采购的承诺。 您可以使用来自多个采购订单行 (PO) 履行承诺。 有以下四种承诺类型：

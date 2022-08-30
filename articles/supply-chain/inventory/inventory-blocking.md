@@ -2,7 +2,7 @@
 title: 库存锁定
 description: 本文提供库存锁定的概览，这是 Supply Chain Management 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857799"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334676"
 ---
 # <a name="inventory-blocking"></a>库存锁定
 
@@ -96,11 +96,11 @@ ms.locfileid: "8857799"
 
 注意两种情况之间交易状态和维度的差异。 出于此原因，我们建议启用 **预留已订购物料** 选项。
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>禁用从锁定库存取样的质检订单的预期收货功能
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>禁用从锁定库存取样的质检订单的预期收货
 
 为在由于库存状态导致对库存取样的质检订单被锁定时简化库存交易记录，系统提供了一项可禁用此类质检订单的预期收货的功能。 由于预期收货因库存状态为锁定状态而被锁定，因此不会因为此更改而减少现有库存量。
 
-此功能默认关闭。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *禁用从锁定库存取样的质检订单的预期收货* 功能来打开或关闭此功能。
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *禁用从锁定库存取样的质检订单的预期收货* 功能来打开或关闭此功能。
 
 ## <a name="additional-resources"></a>其他资源
 

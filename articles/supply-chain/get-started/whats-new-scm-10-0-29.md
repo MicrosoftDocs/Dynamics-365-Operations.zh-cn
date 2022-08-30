@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7f5691c5784b7b381ff805b0431d8adb1a25f1cb
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266389"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334736"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Dynamics 365 Supply Chain Management 10.0.29 预览版（2022 年 10 月）
 
@@ -74,10 +74,7 @@ ms.locfileid: "9266389"
 
 | 模块 | 功能名称 | 新功能状态 |
 | --- | --- | --- |
-| 资产管理 | [在运行维护计划时应用对工作订单进行分组的规则](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) | 强制 |
 | 资产管理 | [生产车间执行界面的资产管理功能](../production-control/production-floor-execution-configure.md) | 强制 |
-| 资产管理 | [基于计数器的维护增强](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) | 默认打开 |
-| 资产管理 | [工作订单计费](../asset-management/integration-to-project-management-and-accounting/customer-billing.md) | 强制 |
 | 成本管理 | [将“结帐与调整”中的“取消”标签更改为“冲销”](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse) | 强制 |
 | 成本管理 | 清除物料清单计算详细信息交叉成本计算版本 | 强制 |
 | 成本管理 | [比较物料价格存储](../cost-management/compare-item-price.md) | 强制 |
@@ -102,7 +99,7 @@ ms.locfileid: "9266389"
 | 库存和仓库管理 | 在库存日记帐中使用度量单位和单位数量 | 强制 |
 | 库存和仓库管理 | 将库存日记帐解锁 | 强制 |
 | 制造 | [自动领取支持仓库的物料以便自动过帐领料单](whats-new-scm-10-0-23.md) | 正式发布 |
-| 制造 | 允许在生产工艺路线工序的物料清单中显示库存维度 | 默认打开 |
+| 制造 | 允许在生产工艺路线工序的物料清单中显示库存维度 | 强制 |
 | 制造 | [允许在从作业卡设备报告为完工入库时输入批号和序列号](../production-control/report-finished-job-device.md) | 默认打开 |
 | 制造 | 改进的生产实际称重数量领料 | 默认打开 |
 | 制造 | [生产车间执行界面的作业搜索](../production-control/production-floor-execution-configure.md) | 强制 |
@@ -127,20 +124,19 @@ ms.locfileid: "9266389"
 | 主计划 | [通过筛选确认计划订单](../master-planning/planning-optimization/planned-order-firming.md) | 强制 |
 | 主计划 | [用于计划优化的计划生产订单](../master-planning/planning-optimization/production-planning.md) | 强制 |
 | 主计划 | [用于计划优化的采购贸易协议](../master-planning/planning-optimization/purchase-trade-agreement.md) | 强制 |
-| 主计划 | 资源计划与维护 | 强制 |
 | 主计划 | [计划订单的已保存视图](saved-views-scm.md) | 强制 |
 | 采购 | 采购订单上起始金额和终止金额 | 强制 |
 | 采购 | 禁用采购申请分配重置按钮 | 默认打开 |
 | 采购 | [启用重置与采购相关的工作流](whats-new-scm-10-0-20.md) | 默认打开 |
 | 采购 | [限制每个批处理任务的采购订单行数](whats-new-scm-10-0-27.md) | 默认打开 |
 | 采购 | [将供应商的财务维度与采购订单上的有效维度链接财务维度合并](whats-new-scm-10-0-25.md) | 强制 |
+| 采购 | [过帐收据和供应商发票的贮存产品的登记数量和非贮存产品的剩余数量](whats-new-scm-10-0-26.md) | 正式发布 |
 | 采购 | [防止工作流中包含多个采购申请时过度消耗常规预算预留](whats-new-scm-10-0-21.md) | 默认打开 |
 | 采购 | [采购协议负责方](../procurement/purchase-agreements.md) | 强制 |
 | 采购 | [采购订单的已保存视图](saved-views-scm.md) | 强制 |
 | 产品信息管理 | 预处理物料清单报表以避免超时 | 强制 |
 | 产品信息管理 | 使用物料模板时分别对应的默认财务维度 | 强制 |
 | 产品信息管理 | 启用物料模板的产品维度组 | 强制 |
-| 产品信息管理 | [工程更改管理的已改进属性继承](../engineering-change-management/engineering-attributes-and-search.md) | 强制 |
 | 产品信息管理 | 物料 - 条码实体改进 | 强制 |
 | 产品信息管理 | 根据命名法重新生成产品变型名称 | 强制 |
 | 产品信息管理 | [已发放产品的已保存视图](saved-views-scm.md) | 强制 |
@@ -161,27 +157,30 @@ ms.locfileid: "9266389"
 | 销售和市场营销 | [一键销售订单确认](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation) | 强制 |
 | 运输管理 | 允许在没有已过帐的供应商发票日记帐的情况下使来自货运发票行的货运账单不匹配 | 默认打开 |
 | 运输管理 | [放弃货运帐单时启用创建供应商发票日记帐](whats-new-scm-10-0-20.md) | 默认打开 |
-| 运输管理 | [小型包裹装运](../warehousing/small-parcel-shipping.md) | 默认打开 |
+| 运输管理 | [小型包裹装运](../warehousing/small-parcel-shipping.md) | 强制 |
 | 运输管理 | [USMCA 原产地证明文档](../transportation/usmca-certification-of-origin.md) | 默认打开 |
 | 仓库管理 | [其他位置区域](../warehousing/additional-location-zones.md) | 强制 |
 | 仓库管理 | [取消工作](../warehousing/cancel-warehouse-work.md) | 强制 |
-| 仓库管理 | [合并装运](../warehousing/configure-shipment-consolidation-policies.md) | 默认打开 |
+| 仓库管理 | [合并装运](../warehousing/configure-shipment-consolidation-policies.md) | 强制 |
 | 仓库管理 | [通过仓库应用创建和处理转移单](../warehousing/create-transfer-order-from-warehouse-app.md) | 强制 |
 | 仓库管理 | 带有库位指令的越库配送模板 | 默认打开 |
-| 仓库管理 | [将储存工作与 ASN 分离](whats-new-scm-10-0-21.md) | 默认打开 |
-| 仓库管理 | [延迟 PUT 操作](../warehousing/deferred-processing-manual-inventory-movement.md) | 默认打开 |
+| 仓库管理 | [将储存工作与 ASN 分离](whats-new-scm-10-0-21.md) | 强制 |
+| 仓库管理 | [延迟 PUT 操作](../warehousing/deferred-processing-manual-inventory-movement.md) | 强制 |
 | 仓库管理 | 延迟的放置 - 集装箱 | 默认打开 |
 | 仓库管理 | 延迟放置处理 – 针对触发事件设置为“以前”的审计模板功能启用 | 强制 |
 | 仓库管理 | [禁用从锁定库存取样的质检订单的预期收货](../inventory/inventory-blocking.md) | 默认打开 |
 | 仓库管理 | 启用仓库移动设备的快速验证 | 强制 |
-| 仓库管理 | [可变的仓库级别维度预留](../warehousing/flexible-warehouse-level-dimension-reservation.md) | 默认打开 |
-| 仓库管理 | [灵活的订单承诺牌照预留](../warehousing/flexible-warehouse-level-dimension-reservation.md) | 默认打开 |
-| 仓库管理 | [出站工作负荷可视化](../warehousing/outbound-workload-visualization.md) | 强制 |
+| 仓库管理 | [用于 GS1 条码的增强型分析器](../warehousing/gs1-barcodes.md) | 正式发布 |
+| 仓库管理 | [灵活的订单承诺牌照预留](../warehousing/flexible-warehouse-level-dimension-reservation.md) | 强制 |
+| 仓库管理 | [可变的仓库级别维度预留](../warehousing/flexible-warehouse-level-dimension-reservation.md) | 强制 |
 | 仓库管理 | [物料合并库位利用率](../warehousing/item-consolidation-location-utilization.md) | 默认打开 |
 | 仓库管理 | 牌照接收历史记录 | 默认打开 |
 | 仓库管理 | [手动装运合并](../warehousing/consolidate-shipments-manual-workbench.md) | 默认打开 |
+| 仓库管理 | [针对管理员或类似的受信任用户的转移行手动领料服务](whats-new-scm-10-0-28.md) | 正式发布 |
 | 仓库管理 | [物料处理设备接口](../warehousing/mhax.md) | 强制 |
-| 仓库管理 | [计划越库配送](../warehousing/planned-cross-docking.md) | 默认打开 |
+| 仓库管理 | [新装载计划工作台页面](whats-new-scm-10-0-24.md) | 正式发布 |
+| 仓库管理 | [出站工作负荷可视化](../warehousing/outbound-workload-visualization.md) | 强制 |
+| 仓库管理 | [计划越库配送](../warehousing/planned-cross-docking.md) | 强制 |
 | 仓库管理 | [处理仓库应用事件](../warehousing/warehouse-app-events.md) | 强制 |
 | 仓库管理 | 针对联产品和副产品储存工作模板的查询增强 | 强制 |
 | 仓库管理 | [在发放到仓库时将数量向下舍入到最近的销售单位](whats-new-scm-10-0-19.md) | 强制 |
@@ -190,13 +189,14 @@ ms.locfileid: "9266389"
 | 仓库管理 | [用于波次处理的已保存视图](saved-views-scm.md) | 强制 |
 | 仓库管理 | [用于负荷处理的已保存视图](saved-views-scm.md) | 强制 |
 | 仓库管理 | [用于装运处理的已保存视图](saved-views-scm.md) | 强制 |
-| 仓库管理 | 装运波次标签详细信息 | 默认打开 |
+| 仓库管理 | [扫描 GS1 条码](../warehousing/gs1-barcodes.md) | 正式发布 |
+| 仓库管理 | 装运波次标签详细信息 | 强制 |
 | 仓库管理 | [放入混合单位](whats-new-scm-10-0-21.md) | 强制 |
 | 仓库管理 | [对装箱工作站上关闭/重新打开的集装箱使用更快的 API](whats-new-scm-10-0-21.md) | 默认打开 |
 | 仓库管理 | [验证为补货作业选择的模板](whats-new-scm-10-0-20.md) | 默认打开 |
-| 仓库管理 | [仓库应用提升的字段](../warehousing/warehouse-app-promoted-fields.md) | 默认打开 |
-| 仓库管理 | [仓库应用步骤说明](../warehousing/mobile-app-titles-instructions.md) | 默认打开 |
-| 仓库管理 | [仓库库位状态](../warehousing/warehouse-location-status.md) | 默认打开 |
+| 仓库管理 | [仓库应用提升的字段](../warehousing/warehouse-app-promoted-fields.md) | 强制 |
+| 仓库管理 | [仓库应用步骤说明](../warehousing/mobile-app-titles-instructions.md) | 强制 |
+| 仓库管理 | [仓库库位状态](../warehousing/warehouse-location-status.md) | 强制 |
 | 仓库管理 | [Warehouse Management 应用绕过](../warehousing/warehouse-app-detours.md) | 默认打开 |
 | 仓库管理 | [波次批处理作业详细信息](../warehousing/wave-processing.md) | 强制 |
 | 仓库管理 | [波次执行通知](../warehousing/wave-execution-notifications.md) | 强制 |

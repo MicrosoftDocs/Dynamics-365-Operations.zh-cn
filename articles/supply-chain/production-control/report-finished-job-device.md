@@ -2,7 +2,7 @@
 title: 从作业卡设备报告完工入库
 description: 本文介绍如何配置系统，以让作业卡设备的用户可以将生产订单中的成品报告到库存。
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070460"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334616"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>从作业卡设备报告完工入库
 
@@ -56,13 +56,12 @@ ms.locfileid: "9070460"
 - **预定义的批号** - 工作人员在生产订单下达到作业卡设备之前，系统自动生成的批号列表中选择一个批号。
 - **固定批号** - 工作人员不输入或选择批号。 系统会在生产订单下达之前自动向其分配批号。
 
-
 ### <a name="enable-the-feature-on-your-system"></a>在系统中启用此功能
 
-要让您的作业卡设备在报告完工入库过程中接受批号，您必须使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用以下功能（按此顺序）：
+要让您的作业卡设备在报告完工入库过程中接受批号，您必须使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用以下功能：
 
-1. 改进的作业卡设备中“报告进度”对话框的用户体验
-1. 允许在从作业卡设备报告为完工入库时输入批号和序列号
+- *改进的作业卡设备中“报告进度”对话框的用户体验*
+- *允许在从作业卡设备报告为完工入库时输入批号和序列号*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。）
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>配置需要报告批号的产品
 
@@ -137,10 +136,10 @@ ms.locfileid: "9070460"
 
 ### <a name="enable-the-feature-on-your-system"></a>在系统中启用此功能
 
-要让您的作业卡设备在报告完工入库过程中接受序列号，您必须使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用以下功能（按此顺序）：
+要让您的作业卡设备在报告完工入库过程中接受序列号，您必须使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)启用以下功能：
 
-1. 改进的作业卡设备中“报告进度”对话框的用户体验
-1. 允许在从作业卡设备报告为完工入库时输入批号和序列号
+- *改进的作业卡设备中“报告进度”对话框的用户体验*
+- *允许在从作业卡设备报告为完工入库时输入批号和序列号*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。）
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>配置需要报告序列号的产品
 

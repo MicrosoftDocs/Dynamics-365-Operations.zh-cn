@@ -2,7 +2,7 @@
 title: 配置装运合并策略
 description: 本文说明如何设置默认装运合并策略和自定义装运合并策略。
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219523"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336483"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>配置装运合并策略
 
@@ -33,10 +33,7 @@ ms.locfileid: "9219523"
 > [!IMPORTANT]
 > 在本文中介绍的[第一个方案](#scenario-1)中，首先设置仓库，使其使用之前的装运合并功能。 然后启用装运合并策略。 这样就可以体验升级方案如何工作。 如果计划使用演示数据环境完成第一个方案，请勿在使用进行此方案之前开启该功能。
 
-*装运合并策略* 功能必须先在系统中开启，才能使用。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
-
-- **模块**：*仓库管理*
-- **功能名称**：*合并装运*
+要使用 *装运合并策略* 功能，必须为您的系统开启此功能。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *装运合并策略* 功能来打开或关闭此功能。
 
 ## <a name="make-demo-data-available"></a>提供演示数据
 

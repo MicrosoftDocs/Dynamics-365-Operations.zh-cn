@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: b44b044bf10115a7fcaf347a3b6f1759c2a68cb6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219055"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334706"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Dynamics 365 Supply Chain Management 10.0.26（2022 年 5 月）中的新增功能或更改
 
@@ -51,7 +51,6 @@ ms.locfileid: "9219055"
 | 产品信息管理 | 清除产品属性值 | 此功能将添加一个名为 **清除产品属性值** 的定期任务，这将清除不再通过产品类别与任何产品关联的产品属性值记录。 |
 | 库存和仓库管理 | (俄罗斯)在针对包括启用了 WMS 的物料的采购订单签发 GTD 时防止差异 | 此功能只能用于俄语本地化。 它可以防止在为包含启用仓库管理流程 (WMS) 的物料的进口采购订单发放俄罗斯海关申报编号 (GTD) 时出现差异。 GTD 发放流程更改了自定义日记帐中包含的发票的相关库存交易记录上的一些库存维度值，这导致采购订单的工作记录与采购的库存交易记录之间存在差异。 启用此功能后，GTD 发放流程会生成消除此类差异的调整工作。 |
 | 仓库管理 | 用于 GS1 条码的增强型分析器 | 此功能添加了增强的 GS1 符号数据分析程序。 新分析程序实现了 GS1 一般规范算法来解析 GS1 符号并提供更强大的数据验证。 有关详细信息，请参阅 [GS1 条码扫描](../warehousing/gs1-barcodes.md)。 |
-| 仓库管理 | 新装载计划工作台页面 | 添加了两个新装载计划工作台页面：**入站装载计划工作台** 和 **出站装载计划工作台**。 |
 | 仓库管理 | 仓库管理应用程序 - 空白 GTD | 此功能只能用于俄语本地化。 它允许使用 Warehouse Management 移动应用的工作人员在需要时将俄罗斯海关申报编号 (GTD) 留空。 如果 GTD 跟踪维度设置为允许空白值，系统将接受库存操作的 GTD 值为空白，前提是现有库存量可用。 |
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源

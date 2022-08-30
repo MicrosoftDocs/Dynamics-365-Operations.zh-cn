@@ -2,7 +2,7 @@
 title: 灵活的仓库级维度预留策略
 description: 本文介绍一种库存预留策略，其允许销售批量跟踪产品并且以启用 WMS 的操作运行物流的企业为客户销售订单预留特定批次，即使与产品相关联的预留层次结构不允许预留特定批次。
 author: perlynne
-ms.date: 07/31/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 64855460ddf015f936fe695fc68938067f31b0cc
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065889"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335696"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>灵活的仓库级维度预留策略
 
@@ -196,12 +196,12 @@ ms.locfileid: "9065889"
 - 当销售管理员接收订单时，可以记录并预留牌照，并且牌照不能被其他需求获取。 此行为有助于确保将计划的牌照运送到客户。
 - 如果尚未将牌照分配给销售订单行，仓库人员可以在销售订单登记和预留完成后在领料工作中选择牌照。
 
-### <a name="turn-on-flexible-license-plate-reservation"></a>开启“灵活牌照预留”
+### <a name="turn-flexible-license-plate-reservation-on-or-off"></a>打开或关闭灵活牌照预留
 
 必须在系统中开启两项功能，才能够使用灵活牌照预留。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查这些功能的状态，并在需要这些功能时将其开启。 您必须按以下顺序开启功能：
 
-1. **功能名称**：*灵活的仓库级维度预留*
-1. **功能名称**：*灵活的订单承诺牌照预留*
+1. *可变的仓库级别维度预留*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。）
+1. *灵活的订单承诺牌照预留*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。）
 
 ### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>在销售订单上预留特定牌照
 

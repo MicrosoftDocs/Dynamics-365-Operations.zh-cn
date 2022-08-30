@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
-ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271574"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337187"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>管理电子报告 (ER) 配置生命周期
 
@@ -84,7 +84,7 @@ ms.locfileid: "9271574"
 
 ## <a name="data-persistence-consideration"></a>数据持久性注意事项
 
-您可以将 ER [配置](general-electronic-reporting.md#Configuration)的不同[版本](general-electronic-reporting.md#component-versioning)单独[导入](tasks/er-import-configuration-lifecycle-services.md)到您的 Finance 实例。 导入新版本的 ER 配置时，系统将控制此配置的草稿版本的内容：
+您可以将 ER [配置](general-electronic-reporting.md#Configuration)的不同版本单独[导入](tasks/er-import-configuration-lifecycle-services.md)到您的 Finance 实例。 导入新版本的 ER 配置时，系统将控制此配置的草稿版本的内容：
 
 - 当导入的版本低于当前 Finance 实例中此配置的最高版本时，此配置的草稿版本内容将保持不变。
 - 当导入的版本高于当前 Finance 实例中此配置的任何其他版本时，导入版本的内容将复制到此配置的草稿版本，以使您可以继续编辑最后完成的版本。
@@ -112,7 +112,7 @@ ER 配置可以配置为[依赖](er-download-configurations-global-repo.md#impor
 
 ![“配置”页面上派生的 ER 格式配置。](./media/ger-configuration-lifecycle-img1.png)
 
-在完成格式设计后，您可以将 ER 格式配置的初始 [版本](general-electronic-reporting.md#component-versioning)状态从 **草稿** 更改为 **已完成**。 然后，您可以通过将其[发布](../../../finance/localizations/rcs-global-repo-upload.md)到全局存储库来共享 ER 格式配置的已完成版本。 接下来，您可以从任何 RCS 或 Finance 云实例访问全局存储库。 然后，您可以将适用于该应用程序的任何 ER 配置版本从全局存储库导入到该应用程序中。
+在完成格式设计后，您可以将 ER 格式配置的初始版本状态从 **草稿** 更改为 **已完成**。 然后，您可以通过将其[发布](../../../finance/localizations/rcs-global-repo-upload.md)到全局存储库来共享 ER 格式配置的已完成版本。 接下来，您可以从任何 RCS 或 Finance 云实例访问全局存储库。 然后，您可以将适用于该应用程序的任何 ER 配置版本从全局存储库导入到该应用程序中。
 
 ![在“配置存储库”页面上发布的 ER 格式配置。](./media/ger-configuration-lifecycle-img2.png)
 

@@ -2,7 +2,7 @@
 title: 库存值报表
 description: 本文说明如何设置、生成和使用库存值报表。 这些报表提供有关您的库存实际和财务数量和金额的详细信息。
 author: JennySong-SH
-ms.date: 10/19/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854549"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334916"
 ---
 # <a name="inventory-value-reports"></a>库存值报表
 
@@ -55,7 +55,7 @@ ms.locfileid: "8854549"
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>打开或关闭库存值报表存储功能
 
-从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *库存值报表存储* 功能来打开或关闭此功能。
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *库存值报表存储* 功能来打开或关闭此功能。
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>定义库存值报表配置
 

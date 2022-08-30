@@ -2,7 +2,7 @@
 title: 集装箱包装策略
 description: 本文介绍了集装箱包装策略之间的差异并提供了示例。
 author: GalynaFedorova
-ms.date: 06/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a9a0066abaa76294faebcb15d5091ba36e8a60d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862357"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335756"
 ---
 # <a name="container-packing-strategies"></a>集装箱包装策略
 
@@ -77,7 +77,7 @@ ms.locfileid: "8862357"
 
 #### <a name="turn-on-the-consolidate-shipments-feature-in-your-system"></a>在您的系统中打开合并装运功能
 
-该场景使用 *合并装运* 功能。 如果该功能在您的系统中尚不可用，您必须使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)打开它。
+该场景使用 *合并装运* 功能。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *合并装运* 功能来打开或关闭此功能。
 
 #### <a name="make-demo-data-available"></a>提供演示数据
 

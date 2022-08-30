@@ -2,7 +2,7 @@
 title: 物料处理设备接口 (MHAX)
 description: 本文介绍如何设置物料处理设备接口 (MHAX)，让您可以连接到外部物理物料处理 (MH) 系统。
 author: Mirzaab
-ms.date: 03/04/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068350"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334346"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>物料处理设备接口 (MHAX)
 
@@ -41,12 +41,13 @@ ms.locfileid: "9068350"
 
 必须同时打开 MHAX 的功能和配置密钥，然后才能够使用 MHAX 功能。
 
-1. 转到 **系统管理 \> 工作区 \> 功能管理**。
-2. 在 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 工作区中，打开名为 *物料处理设备接口* 的功能。
-3. 将您的系统置于维护模式下，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
-4. 转到 **系统管理 \> 设置 \> 许可证配置**。
-5. 展开 **贸易 \> 仓库和运输管理**，然后选中 **物料处理设备接口** 复选框。
-6. 关闭维护模式，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
+1. 如果您运行的是 Supply Chain Management 版本 10.0.28 或更早版本，请执行以下步骤：
+    1. 转到 **系统管理 \> 工作区 \> 功能管理**。
+    1. 在 **[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** 工作区中，打开名为 *物料处理设备接口* 的功能。 （从 Supply Chain Management 10.0.29 开始，此功能是强制性的，无法关闭。）
+1. 将您的系统置于维护模式下，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
+1. 转到 **系统管理 \> 设置 \> 许可证配置**。
+1. 展开 **贸易 \> 仓库和运输管理**，然后选中 **物料处理设备接口** 复选框。
+1. 关闭维护模式，如[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述。
 
 ## <a name="set-mhax-parameters"></a>设置 MHAX 参数
 

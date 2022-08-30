@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852496"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306105"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>库存可见性库存分配
 
@@ -63,12 +63,11 @@ ms.locfileid: "8852496"
 - 预定义的与分配相关的数据源、实际度量和计算的度量。
 - 最多具有 8 个级别的可自定义分配组。
 - 一组分配应用编程接口 (API)：
-
-    - 分配
-    - 重新分配
-    - 取消分配
-    - 使用
-    - 查询
+  - 分配
+  - 重新分配
+  - 取消分配
+  - 使用
+  - 查询
 
 配置分配功能的过程有两个步骤：
 
@@ -84,23 +83,26 @@ ms.locfileid: "8852496"
 以下是初始实际度量：
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 以下是初始计算度量：
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>将其他实际度量添加到可用于分配的计算度量
 
 要使用分配，您必须设置可用于分配的计算度量 (`@iv.@available_to_allocate`)。 例如，您具有 `fno` 数据源和 `onordered` 度量、`pos` 数据源和 `inbound` 度量，并且您希望对 `fno.onordered` 和 `pos.inbound` 的总现有量进行分配。 在此情况下，`@iv.@available_to_allocate` 应在公式中包含 `pos.inbound` 和 `fno.onordered`。 下面是一个示例：
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
+
+> [!NOTE]
+> 数据源 `@iv` 是预定义的数据源，在 `@iv` 中定义的带有前缀 `@` 的物理度量是预定义的度量。 这些度量是分配功能的预定义配置，因此请勿更改或删除它们，否则在使用分配功能时可能会遇到意外错误。
+>
+> 您可以将新的物理度量添加到预定义的计算度量 `@iv.@available_to_allocate`，但不得更改其名称。
 
 ### <a name="change-the-allocation-group-name"></a>更改分配组名称
 
@@ -136,7 +138,7 @@ ms.locfileid: "8852496"
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ ms.locfileid: "8852496"
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ ms.locfileid: "8852496"
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ ms.locfileid: "8852496"
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ ms.locfileid: "8852496"
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ ms.locfileid: "8852496"
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ ms.locfileid: "8852496"
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

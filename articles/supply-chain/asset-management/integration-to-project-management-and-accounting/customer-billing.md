@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b7c2c07f3e3eb76ff20e37e8d5d485dc08232c7a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c0d067ec4f2110b1c146ef0229b90e309578eaa7
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220413"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335066"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>客户拥有资产维护工作的计费
 
@@ -40,7 +40,7 @@ ms.locfileid: "9220413"
 
 ## <a name="turn-on-the-customer-billing-feature"></a>开启客户计费功能
 
-此功能只有在系统中开启之后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
+必须在系统中开启此功能，然后才能使用。 管理员可以使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)设置检查功能状态和开启功能。 在 **功能管理** 工作区中，此功能按照下面的方式列出：
 
 - **模块**：*项目管理和会计*
 - **功能名称**：*工作订单计费*

@@ -2,7 +2,7 @@
 title: 计划越库配送
 description: 本文介绍高级计划越库配送，在执行此类配送时，订单所需库存数量将在收到或创建时直接传输到正确的出货台或暂存区。 将通过常规储存流程把入库源中的所有剩余库存导向到正确存储货位。
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b530cc1403458775fd330e826a32417d3b03bf25
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070280"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334556"
 ---
 # <a name="planned-cross-docking"></a>计划越库配送
 
@@ -37,10 +37,10 @@ ms.locfileid: "9070280"
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>开启计划越库配送功能
 
-如果您的系统尚未包含本文中所述的功能，请转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，按以下顺序打开以下功能：
+如果您正在运行 Supply Chain Management 版本 10.0.28 或更早版本，您可能需要先启用计划越库配送，然后才能使用它。 转到[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，按以下顺序打开以下功能：
 
-1. *计划越库配送*
-1. *带有库位指令的越库配送模板*
+1. *计划越库配送*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。）
+1. *带有库位指令的越库配送模板*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。）
     > [!NOTE]
     > 此功能支持在越库配送模板上指定 **指令代码** 字段，类似于设置补货模板的方式。 启用此功能可防止您在最终 *放置* 行的越库配送工作模板行上添加指令代码。 这可确保在考虑工作模板之前，在工作创建期间确定最终放置库位。
 
@@ -92,7 +92,7 @@ ms.locfileid: "9070280"
 
     - **指令代码：** 将此字段保留为空
 
-        通过 *带有库位指令的越库配送模板* 功能启用此选项。 系统使用库位指令帮助确定越库配送库存要移动到的最佳库位。 您可以通过为每个相关的越库配送模板分配指令代码来设置此选项。 如果设置指令代码，在生成工作时，系统将按指令代码搜索库位指令。 这样，您可以限制用于特定越库配送模板的库位指令。
+        此选项由 *带有库位指令的越库配送模板* 功能启用（从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启）。 系统使用库位指令帮助确定越库配送库存要移动到的最佳库位。 您可以通过为每个相关的越库配送模板分配指令代码来设置此选项。 如果设置指令代码，在生成工作时，系统将按指令代码搜索库位指令。 这样，您可以限制用于特定越库配送模板的库位指令。
 
     - **验证时间范围**：*是*
 

@@ -2,34 +2,32 @@
 title: 适用于挪威的收银机的部署指南
 description: 本文提供有关如何针对挪威 Microsoft Dynamics 365 Commerce 本地化启用收银机功能的指南。
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: b19fc35a96c3194cf516ea505b6980072571a595
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281009"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9345983"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>适用于挪威的收银机的部署指南
 
 [!include[banner](../includes/banner.md)]
 
-本文提供有关如何针对挪威 Microsoft Dynamics 365 Commerce 本地化启用收银机功能的指南。 本地化由多个组件扩展组成。 这些扩展允许您执行一些操作，例如在收据上打印自定义字段；在销售点 (POS) 中登记附加审计事件、销售交易和付款交易；对销售交易进行数字签名；以及以本地格式打印报告。 有关挪威本地化的详细信息，请参阅[挪威收银机功能](./emea-nor-cash-registers.md)。 有关如何为挪威配置 Commerce 的更多信息，请参阅[为挪威设置 Commerce](./emea-nor-cash-registers.md#setting-up-commerce-for-norway)。
+> [!IMPORTANT]
+> 仅当您使用 Microsoft Dynamics 365 Commerce 版本 10.0.29 或更高版本时，才应实施本文所述的步骤。 在 Commerce 版本 10.0.28 或更早版本中，您必须在 Microsoft Dynamics Lifecycle Services (LCS) 中的开发人员虚拟机 (VM) 上使用先前版本的 Retail 软件开发工具包 (SDK)。 有关详细信息，请参阅[适用于挪威的收银机的部署指南（旧版）](./emea-nor-loc-deployment-guidelines.md)。 如果您使用的是 Commerce 版本 10.0.28 或更早版本，要迁移到 Commerce 版本 10.0.29 或更高版本，您必须按照[从挪威的旧 Commerce 功能迁移](./emea-nor-fi-migration.md)中的步骤操作。
 
-> [!WARNING]
-> 由于[新的独立包装和扩展模型](../dev-itpro/build-pipeline.md)的限制，它当前无法用于此本地化功能。 您必须在 Microsoft Dynamics Lifecycle Services (LCS) 中开发人员虚拟机 (VM) 上以前版本的 Retail 软件开发配套件 (SDK) 中使用挪威的数字签名示例版本。 有关详细信息，请参阅[适用于挪威的收银机的部署指南（旧版）](./emea-nor-loc-deployment-guidelines.md)。
->
-> 以后的版本计划支持会计整合示例的新独立包装和扩展模型。
+本文提供有关如何针对挪威 Commerce 本地化启用收银机功能的指南。 本地化由几个组件扩展组成，允许您执行一些操作，例如在收据上打印自定义字段；在销售点 (POS) 中登记附加审计事件、销售交易和付款交易；对销售交易进行数字签名；以及以本地格式打印报告。 有关挪威本地化的详细信息，请参阅[挪威收银机功能](./emea-nor-cash-registers.md)。 有关如何为挪威配置 Commerce 的更多信息，请参阅[为挪威设置 Commerce](./emea-nor-cash-registers.md#setting-up-commerce-for-norway)。
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>设置挪威会计登记
 
-挪威的会计登记示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)，是 Retail SDK 的一部分。 该示例位于 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库的 **src\\FiscalIntegration\\SequentialSignatureNorway** 文件夹中（例如[版本/9.34 中的示例](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)）。 该示例[包含](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)一个会计单据提供程序和一个会计连接器（即 Commerce Runtime (CRT) 的扩展）。 有关如何使用 Retail SDK 的详细信息，请参阅 [Retail SDK 体系结构](../dev-itpro/retail-sdk/retail-sdk-overview.md)和[设置独立包装 SDK 的生成管道](../dev-itpro/build-pipeline.md)。
+挪威的会计登记示例基于[会计整合功能](fiscal-integration-for-retail-channel.md)，是 Commerce SDK 的一部分。 示例位于 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库的 **src\\FiscalIntegration\\SequentialSignatureNorway** 文件夹中。 [示例](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services)中包含一个会计单据提供程序和一个会计连接器（即 Commerce Runtime (CRT) 的扩展）。 有关如何使用 Commerce SDK 的详细信息，请参阅[从 GitHub 和 NuGet 下载 Commerce SDK 示例和引用包](../dev-itpro/retail-sdk/sdk-github.md)和[设置独立包装 SDK 的生成管道](../dev-itpro/build-pipeline.md)。
 
 完成[设置 Commerce 渠道的会计整合](./setting-up-fiscal-integration-for-retail-channel.md)中所述的会计登记设置步骤：
 
@@ -45,10 +43,10 @@ ms.locfileid: "9281009"
 1. 从 Commerce SDK 中下载会计单据提供程序和会计连接器的配置文件：
 
     1. 打开 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions/)存储库。
-    1. 打开上一个可用版本分支（例如 **[版本/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**）。
+    1. 打开上一个可用版本分支。
     1. 打开 **src \> FiscalIntegration \> SequentialSignatureNorway \> CommerceRuntime**。
-    1. 下载 **DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSignatureNorwaySample.xml** 中的会计单据提供程序配置文件（例如，[版本/9.34 的文件](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)）。
-    1. 下载 **Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSignatureNorwaySample.xml** 中的会计连接器配置文件（例如，[版本/9.34 的文件](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)）。
+    1. 下载 **DocumentProvider.SequentialSignNorway \> 配置 \> DocumentProviderSequentialSignatureNorwaySample.xml** 中的会计单据提供程序配置文件。
+    1. 下载 **Connector.SequentialSignNorway \> 配置 \> ConnectorSequentialSignatureNorwaySample.xml** 中的会计连接器配置文件。
 
 1. 转到 **Retail 和 Commerce \> Headquarters 设置 \> 参数 \> 共享参数**。 在 **常规** 选项卡上，将 **启用会计整合** 选项设置为 **是**。
 1. 转到 **Retail 和 Commerce \> 渠道设置 \> 会计整合 \> 会计连接器**，并加载您之前下载的会计连接器配置文件。
@@ -99,11 +97,11 @@ ms.locfileid: "9281009"
 
 ### <a name="configure-channel-components"></a>配置渠道组件
 
-### <a name="development-environment"></a>开发环境
+#### <a name="development-environment"></a>开发环境
 
 执行以下步骤以设置开发环境，以便您可以测试和扩展示例。
 
-1. 克隆或下载 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions)存储库。 根据您的 SDK/应用程序版本选择正确的发布分支版本。 有关详细信息，请参阅[从 GitHub 和 NuGet 下载 Retail SDK 示例和引用包](../dev-itpro/retail-sdk/sdk-github.md)。
+1. 克隆或下载 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions)存储库。 根据您的 SDK/应用程序版本选择正确的发布分支版本。 有关详细信息，请参阅[从 GitHub 和 NuGet 下载 Commerce SDK 示例和引用包](../dev-itpro/retail-sdk/sdk-github.md)。
 1. 在 **Dynamics365Commerce.Solutions\\FiscalIntegration\\SequentialSignatureNorway** 下打开 **SequentialSignatureNorway.sln** 解决方案，并生成它。
 1. 安装 CRT 扩展：
 
@@ -126,7 +124,7 @@ ms.locfileid: "9281009"
             ModernPOS.SequentialSignNorway.Installer.exe install --verbosity 0
             ```
 
-### <a name="production-environment"></a>生产环境
+#### <a name="production-environment"></a>生产环境
 
 按照[为会计整合示例设置生成管道](fiscal-integration-sample-build-pipeline.md)中的步骤生成和发布会计整合示例的 Cloud Scale Unit 和自助可部署包。 可在 [Dynamics 365 Commerce 解决方案](https://github.com/microsoft/Dynamics365Commerce.Solutions)存储库的 **Pipeline\\YAML_Files** 文件夹中找到 **SequentialSignatureNorway build-pipeline.yaml** 模板 YAML 文件。
 

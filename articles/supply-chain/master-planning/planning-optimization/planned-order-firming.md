@@ -2,7 +2,7 @@
 title: 确认计划订单
 description: 本文说明如何确认计划订单。 确认计划订单后，它们将变为实际的采购订单、转移单或生产订单。
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857509"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335336"
 ---
 # <a name="firm-planned-orders"></a>确定计划订单
 
@@ -37,19 +37,21 @@ ms.locfileid: "8857509"
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>打开或关闭并行确认计划订单
 
-并行确认通过将确认流程在多个线程之间并行化来帮助加快此流程。 当确认很多计划订单时，此方法会很有用。 要使用此功能，必须为您的系统打开 *并行确认计划订单* 功能。 从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，您可以转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，搜索 *并行确认计划订单* 功能来打开或关闭此功能。
+并行确认通过将确认流程在多个线程之间并行化来帮助加快此流程。 当确认很多计划订单时，此方法会很有用。 要使用此功能，必须为您的系统打开 *并行确认计划订单* 功能。 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>启用通过筛选确认计划订单
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.25 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.25，您可以转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，搜索 *并行确认计划订单* 功能来打开或关闭此功能。
+
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>打开或关闭通过筛选确认计划订单
 
 通过筛选确认计划订单可以让您定义选择要确认的计划订单的逻辑条件。 您还可以预览选择了哪些计划订单，在后台运行流程和/或将其计划为批处理作业。
 
-从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *通过筛选确认计划订单* 功能来打开或关闭此功能。
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *通过筛选确认计划订单* 功能来打开或关闭此功能。
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>启用计划优化自动确认
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>打开或关闭计划优化自动确认
 
 自动确认可以让您在确认时限内作为主计划流程的一部分确认计划订单。 Supply Chain Management 中内置的计划引擎始终支持自动确认。 但是，如果还要将它与计划优化一起使用，则必须打开此功能。
 
-要使此功能在您的系统中可用，转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，打开 *计划优化自动确认* 功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。）
+从 Supply Chain Management 版本 10.0.21 开始，此功能默认开启。 从 Supply Chain Management 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，您可以转到 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)，搜索 *自动确认计划优化* 功能来打开或关闭此功能。
 
 ## <a name="manually-firm-planned-orders"></a>手动确认计划订单
 

@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4c8cd4e32880df771a4a72237d212e061f849ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848243"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336863"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>配置资格规则和选项 
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 配置福利管理的必需参数之后，您可以创建将与福利计划相关联的资格规则、捆绑、期间和项目。
 

@@ -2,7 +2,7 @@
 title: 延期处理手动库存变动
 description: 本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中使用延期处理手动库存变动。
 author: Mirzaab
-ms.date: 04/27/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9acacaddbde22d05d85ab9e11cd1d6de62337a6a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219799"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336386"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>延期处理手动库存变动
 
@@ -32,10 +32,10 @@ ms.locfileid: "9219799"
 
 若要使此功能可用，请在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能。 您必须按以下顺序打开它们：
 
-1. *组织范围内的工作阻止*<br>（从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
-1. *处理仓库应用事件*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的。 因此，默认情况下已启用，无法再次关闭。）
-1. *延迟 PUT 操作*
-1. *延迟处理手动库存变动操作*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
+1. *组织范围内的工作阻止*<br>（从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，无法关闭。）
+1. *处理仓库应用事件*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。）
+1. *延迟 PUT 操作*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。）
+1. *延迟处理手动库存变动操作*<br>（从 Supply Chain Management 版本 10.0.25 开始，此功能是强制性的，无法关闭。）
 
 ## <a name="configure-the-work-processing-policies"></a>配置工作处理策略
 

@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: c6dabb9d2aae6f1fc759c40f870c66304d7f7c8d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9270656"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295980"
 ---
 # <a name="tax-calculation-overview"></a>税款计算概览
 
@@ -85,6 +85,7 @@ ms.locfileid: "9270656"
 | 10.0.26         | 税款计算配置 40.54.234 |
 | 10.0.27         | 税款计算配置 40.54.234 |
 | 10.0.28         | 税款计算配置 40.54.234 |
+| 10.0.29         | 税款计算配置 40.55.236 |
 
 
 ## <a name="data-flow"></a>数据流
@@ -155,6 +156,7 @@ ms.locfileid: "9270656"
 - 客户付款日记帐
 
 以下交易在版本 10.0.29 中受支持： 
+
 
 - 期间日记帐
 

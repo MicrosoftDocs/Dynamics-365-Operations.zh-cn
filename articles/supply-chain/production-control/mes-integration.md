@@ -2,7 +2,7 @@
 title: 与第三方制造执行系统集成
 description: 本文说明如何将 Microsoft Dynamics 365 Supply Chain Management 与第三方制造执行系统 (MES) 集成。
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068022"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336206"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>与第三方制造执行系统集成
 
@@ -45,9 +45,7 @@ ms.locfileid: "9068022"
     1. 在 **许可证配置** 页面上，选择 **考勤管理** 复选框。
     1. 按照[维护模式](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)中所述关闭维护模式
 1. 转到 **系统管理 \> 工作区 \> 功能管理**。
-1. 打开按以下方式列出的功能（另请参阅[功能管理概述](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)）：
-    - **模块**：*生产控制*
-    - **功能名称**：*制造执行系统集成*
+1. 使用 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区打开 *制造执行系统集成* 功能。 （从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。）
 
 ## <a name="processes-available-for-mes-integration"></a>可用于 MES 集成的流程
 

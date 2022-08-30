@@ -2,7 +2,7 @@
 title: 替代生产中的默认材料预留原则
 description: 本文介绍如何为每个物料模型组设置默认的预留原则，以可以将不同的预留原则自动应用于作为生产物料清单 (BOM) 或批次订单配方一部分的每个物料。
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907223"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334586"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>替代生产中的默认材料预留原则
 
@@ -32,7 +32,7 @@ ms.locfileid: "8907223"
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>打开或关闭替代默认生产预留功能
 
-从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区搜索 *替代默认生产预留* 功能来打开或关闭此功能。
+要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *替代默认生产预留* 功能来打开或关闭此功能。
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>将生产预留策略分配给物料模型组
 

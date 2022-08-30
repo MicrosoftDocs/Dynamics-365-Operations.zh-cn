@@ -2,7 +2,7 @@
 title: 物料合并 - 位置利用率
 description: 本文提供有关使仓库经理可以轻松查看和筛选整个仓库中各个位置的容量利用率的功能的信息。 经理可以直接从“物料合并”页面选择位置和创建库存移动工作来合并物料，从而更好地利用仓库空间。
 author: Mirzaab
-ms.date: 07/16/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d0e52769de3f200e2bb3060b3d9cb19dc0847b69
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219433"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336414"
 ---
 # <a name="item-consolidation---location-utilization"></a>物料合并 - 位置利用率
 
@@ -30,8 +30,8 @@ ms.locfileid: "9219433"
 
 在使用本文介绍的功能之前，必须在系统中将其打开。 管理员可以使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区检查这些功能的状态，并在需要这些功能时将其开启。 按照列出的顺序打开以下两个功能。 （这两个功能都是针对 **仓库管理** 模块。）
 
-1. *仓库库位状态*（从版本 10.0.29 开始，默认情况下已启用此功能。 有关详细信息，请参阅[仓库库位状态](warehouse-location-status.md)。）
-2. *物料合并库位利用率*
+1. *仓库库位状态*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 有关详细信息，请参阅[仓库库位状态](warehouse-location-status.md)。）
+2. *物料合并库位利用率*<br>（从 Supply Chain Management 版本 10.0.29 开始，此功能默认开启。）
 
 ## <a name="warehouse-location-status"></a>仓库库位状态
 

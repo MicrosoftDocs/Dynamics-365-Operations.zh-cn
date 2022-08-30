@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 20a2ffb44f9b99800146e3365e6f0d6df8e9a75e
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178524"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324251"
 ---
 # <a name="copy-an-instance"></a>复制实例
 
@@ -47,13 +47,14 @@ _**适用于：** 独立基础结构中的 Human Resources_
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>复制 Human Resources 数据库的影响
 
+> [!Note]
+> 从 2022 年 8 月开始，将生产环境复制到沙盒环境时，将包含 Microsoft Azure Blob 存储中的文档。 附加的所有文档和模板都将从源环境复制到目标环境。
+
 复制 Human Resources 数据库时，会发生以下事件：
 
 - 复制过程将擦除目标环境中的现有数据库。 复制过程完成后，您将无法恢复现有数据库。
 
 - 在复制过程完成之前，目标环境将不可用。
-
-- Microsoft Azure Blob 存储中的文档不会从一个环境复制到另一个环境。 因此，附加的所有文档和模板都不会被复制，并将保留在源环境中。
 
 - 除具有“系统管理员”安全角色和其他内部服务用户帐户的用户之外的所有用户将不可用。 在允许其他用户返回到系统之前，管理员用户可以删除数据。
 
