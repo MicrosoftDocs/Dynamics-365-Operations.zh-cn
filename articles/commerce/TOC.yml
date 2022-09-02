@@ -466,6 +466,8 @@
                           items:
                             - name: 对外部礼品卡的支持
                               href: dev-itpro/gift-card.md
+                            - name: 礼品卡的跨公司数据共享
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
                         - name: Cloud POS 的测试录制器和 Regression Suite Automation Tool
