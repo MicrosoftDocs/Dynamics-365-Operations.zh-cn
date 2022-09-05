@@ -2,7 +2,7 @@
 title: 数据导入和导出作业概览
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109453"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357583"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -76,6 +76,19 @@ ms.locfileid: "9109453"
 
 > [!NOTE]
 > 对于基于 XML 的文件格式，请确保仅使用合法字符。 有关有效字符的更多详细信息，请参阅 [XML 1.0 中的有效字符](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/)。 XML 1.0 不允许使用除制表符、回车和换行之外的任何控制字符。 非法字符的示例包括方括号、大括号和反斜杠。 
+
+使用 Unicode 而不是特定代码页来导入或导出数据。 这将帮助提供最一致的结果并消除数据管理作业因包含 Unicode 字符而失败的情况。 使用 Unicode 的系统定义的源数据格式在源名称中都会有 **Unicode**。 通过在 **区域设置** 选项卡中选择 Unicode 编码 ANSI 代码页作为 **代码页** 来应用 Unicode 格式。为 Unicode 选择以下代码页之一：
+
+| 代码页 | 显示名称                |
+|-----------|-----------------------------|
+| 1200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 Big-Endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+有关代码页的更多详细信息，请参阅[代码页标识符](/windows/win32/intl/code-page-identifiers/)。
 
 ### <a name="sequence-the-entities"></a>给实体排序
 实体可以在数据模板或导入和导出作业中排序。 运行的作业包含多个数据实体时，必须确保数据实体的序列正确。 给实体排序的主要目的是为了解决实体中的任何功能依赖项。 如果实体不具有任何功能依赖项，可以计划并行导入或导出。 

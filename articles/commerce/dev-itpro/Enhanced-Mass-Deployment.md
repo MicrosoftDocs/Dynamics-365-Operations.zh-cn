@@ -2,19 +2,19 @@
 title: 密封 Commerce 自助服务组件批量部署
 description: 本文介绍如何使用自助服务组件安装程序的框架静默安装和维护部署。
 author: jashanno
-ms.date: 05/11/2022
+ms.date: 08/31/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
+ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898571"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "9387011"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>密封 Commerce 自助服务组件批量部署
 
@@ -34,53 +34,53 @@ ms.locfileid: "8898571"
 
 | 分隔符                 | Description |
 |---------------------------|-------------|
-| --AadTokenIssuerPrefix | Microsoft Azure Active Directory (Azure AD) 令牌颁发者的前缀。 |
-| --AsyncClientAadClientId | Async Client 在与 Headquarters 通信期间应使用的 Azure AD 客户端 ID。 |
-| --AsyncClientAppInsightsInstrumentationKey | Async Client AppInsights 检测密钥。 |
-| --AsyncClientCertFullPath | 完全格式化的 URN 路径，此路径使用指纹作为 Async Client 身份证书位置的搜索指标，此指标应该用于向 Azure AD 进行身份验证以与 Headquarters 通信。 例如，`store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` 是格式正确的 URN。 值 **\<MyThumbprint\>** 将被替换为应使用的证书指纹。 不要将此参数与 **-AsyncClientCertThumbprint** 参数一起使用。 |
-| --AsyncClientCertThumbprint | 应该用于向 Azure AD 进行身份验证以与 Headquarters 通信的 Async Client 标识证书的指纹 此指纹将用于搜索 **LocalMachine/我的商店** 位置和名称，以查找要使用的正确证书。 不要将此参数与 **-AsyncClientCertFullPath** 参数一起使用。 |
-| --ClientAppInsightsInstrumentationKey | 客户端 AppInsights 检测密钥。 |
-| --CloudPosAppInsightsInstrumentationKey | 云 POS AppInsights 检测密钥。 |
-| --Config | 安装期间应使用的配置文件。 **Contoso.CommerceScaleUnit.xml** 是文件名的一个示例。 |
-| --CposAadClientId | 云 POS 在设备激活期间应使用的 Azure AD 客户端 ID。 本地部署不需要此参数。 |
-| --Device | 设备 ID，如 Headquarters 的 **设备** 页面上所示。 |
-| --EnvironmentId | 环境 ID。 |
-| --HardwareStationAppInsightsInstrumentationKey | Hardware Station AppInsights 检测键。 |
-| --Install | 一个指定是否应安装此安装程序提供的组件的参数。 此参数不是必需参数。 |
-| --InstallOffline | 对于 Modern POS，此参数指定还应安装和配置脱机数据库。 也使用 **-SQLServerName** 参数。 否则，安装程序将尝试查找满足先决条件的默认实例。 |
-| --Port | 应与 Retail Server 虚拟目录关联并由其使用的端口。 如果未设置端口，将使用默认端口 443。 |
-| --Register | 收银机 ID，如 Headquarters 的 **收银机** 页面上所示。 |
-| --RetailServerAadClientId | Retail Server 在与 Headquarters 通信期间应使用的 Azure AD 客户端 ID。 |
-| --RetailServerAadResourceId | 设备激活期间应使用的 Retail Server Azure AD 应用资源 ID。 本地部署不需要此参数。 |
-| --RetailServerCertFullPath | 完全格式化的 URN 路径，此路径使用指纹作为 Retail Server 身份证书的搜索指标，此指标应该用于向 Azure AD 进行身份验证以与 Headquarters 通信。 例如，`store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` 是格式正确的 URN，其中，值 **\<MyThumbprint\>** 将被替换为应使用的证书指纹。 不要将此参数与 **-RetailServerCertThumbprint** 参数一起使用。 |
-| --RetailServerCertThumbprint | 应该用于向 Azure AD 进行身份验证以与 Headquarters 通信的 Retail Server 标识证书的指纹 此指纹将用于搜索 **LocalMachine/我的商店** 位置和名称，以查找要使用的正确证书。 不要将此参数与 **-RetailServerCertFullPath** 参数一起使用。 |
-| --RetailServerURL | 安装程序应使用的 Retail Server URL。 （此 URL 也称为 Commerce Scale Unit \[CSU\] URL。）对于 Modern POS，将在设备激活期间使用此值。 |
-| --SkipAadCredentialsCheck| 一个指示是否应跳过 Azure AD 凭据先决条件检查的开关。 默认值为 **false**。 |
-| --SkipCertCheck | 一个指示是否应跳过证书先决条件检查的开关。 默认值为 **false**。 |
-| --SkipIisCheck | 一个指示是否应跳过 Internet Information Services (IIS) 先决条件检查的开关。 默认值为 **false**。 |
-| --SkipNetFrameworkCheck | 一个指示是否应跳过 .NET Framework 先决条件检查的开关。 默认值为 **false**。 |
-| --SkipScaleUnitHealthcheck | 一个指示是否应跳过已安装组件的运行状况检查的开关。 默认值为 **false**。 |
-| --SkipSChannelCheck | 一个指示是否应跳过安全通道先决条件检查的开关。 默认值为 **false**。 |
-| --SkipSqlFullTextCheck | 一个指示是否应跳过需要全文搜索的 SQL Server 先决条件验证的开关。 默认值为 **false**。 |
-| --SkipSqlServerCheck | 一个指示是否应跳过 SQL Server 先决条件检查的开关。 默认值为 **false**。 |
-| --SqlServerName | SQL Server 名称。 如果未指定名称，安装程序将尝试查找默认实例。 |
-| --SslcertFullPath | 完全格式化的 URN 路径，它使用指纹作为证书位置的搜索指标，此指标用于加密到缩放单元的 HTTP 流量。 例如，`store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` 是格式正确的 URN，其中，值 **\<MyThumbprint\>** 将被替换为应使用的证书指纹。 不要将此参数与 **-SslCertThumbprint** 参数一起使用。 |
-| --SslCertThumbprint | 应该用于加密到缩放单元的 HTTP 流量的证书指纹。 此指纹将用于搜索 **LocalMachine/我的商店** 位置和名称，以查找要使用的正确证书。 不要将此参数与 **-SslCertFullPath** 参数一起使用。 |
-| --StoreSystemAosUrl | Headquarters (AOS) URL。 |
-| --StoreSystemChannelDatabaseId | 渠道数据库 ID（名称）。 |
-| --TenantId | Azure AD 租户 ID。 |
-| --TransactionServiceAzureAuthority | Transaction Service Azure AD 主管机构。 |
-| --TransactionServiceAzureResource | Transaction Service Azure AD 资源。 |
-| --TrustSqlServerCertificate | 一个指示在建立与 SQL Server 的连接时是否应信任服务器证书的开关。 为了帮助避免安全风险，生产部署绝不应在此处提供 **true** 值。 默认值为 **false**。 |
-| --Verbosity | 安装期间请求的日志记录级别。 通常，不应使用此值。 |
-| --WindowsPhoneAppInsightsInstrumentationKey | Hardware Station AppInsights 检测键。 |
+| -AadTokenIssuerPrefix | Microsoft Azure Active Directory (Azure AD) 令牌颁发者的前缀。 |
+| -AsyncClientAadClientId | Async Client 在与 Headquarters 通信期间应使用的 Azure AD 客户端 ID。 |
+| -AsyncClientAppInsightsInstrumentationKey | Async Client AppInsights 检测密钥。 |
+| -AsyncClientCertFullPath | 完全格式化的 URN 路径，此路径使用指纹作为 Async Client 身份证书位置的搜索指标，此指标应该用于向 Azure AD 进行身份验证以与 Headquarters 通信。 例如，`store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` 是格式正确的 URN。 值 **\<MyThumbprint\>** 将被替换为应使用的证书指纹。 不要将此参数与 **-AsyncClientCertThumbprint** 参数一起使用。 |
+| -AsyncClientCertThumbprint | 应该用于向 Azure AD 进行身份验证以与 Headquarters 通信的 Async Client 标识证书的指纹 此指纹将用于搜索 **LocalMachine/我的商店** 位置和名称，以查找要使用的正确证书。 不要将此参数与 **-AsyncClientCertFullPath** 参数一起使用。 |
+| -ClientAppInsightsInstrumentationKey | 客户端 AppInsights 检测密钥。 |
+| -CloudPosAppInsightsInstrumentationKey | 云 POS AppInsights 检测密钥。 |
+| -Config | 安装期间应使用的配置文件。 **Contoso.CommerceScaleUnit.xml** 是文件名的一个示例。 |
+| -CposAadClientId | 云 POS 在设备激活期间应使用的 Azure AD 客户端 ID。 本地部署不需要此参数。 |
+| -Device | 设备 ID，如 Headquarters 的 **设备** 页面上所示。 |
+| -EnvironmentId | 环境 ID。 |
+| -HardwareStationAppInsightsInstrumentationKey | Hardware Station AppInsights 检测键。 |
+| 安装 | 一个指定是否应安装此安装程序提供的组件的参数。 此参数是执行安装的必需参数，没有前导短划线字符。 |
+| -InstallOffline | 对于 Modern POS，此参数指定还应安装和配置脱机数据库。 也使用 **-SQLServerName** 参数。 否则，安装程序将尝试查找满足先决条件的默认实例。 |
+| -Port | 应与 Retail Server 虚拟目录关联并由其使用的端口。 如果未设置端口，将使用默认端口 443。 |
+| -Register | 收银机 ID，如 Headquarters 的 **收银机** 页面上所示。 |
+| -RetailServerAadClientId | Retail Server 在与 Headquarters 通信期间应使用的 Azure AD 客户端 ID。 |
+| -RetailServerAadResourceId | 设备激活期间应使用的 Retail Server Azure AD 应用资源 ID。 本地部署不需要此参数。 |
+| -RetailServerCertFullPath | 完全格式化的 URN 路径，此路径使用指纹作为 Retail Server 身份证书的搜索指标，此指标应该用于向 Azure AD 进行身份验证以与 Headquarters 通信。 例如，`store://My/LocalMachine?FindByThumbprint=<MyThumbprint>` 是格式正确的 URN，其中，值 **\<MyThumbprint\>** 将被替换为应使用的证书指纹。 不要将此参数与 **-RetailServerCertThumbprint** 参数一起使用。 |
+| -RetailServerCertThumbprint | 应该用于向 Azure AD 进行身份验证以与 Headquarters 通信的 Retail Server 标识证书的指纹 此指纹将用于搜索 **LocalMachine/我的商店** 位置和名称，以查找要使用的正确证书。 不要将此参数与 **-RetailServerCertFullPath** 参数一起使用。 |
+| -RetailServerURL | 安装程序应使用的 Retail Server URL。 （此 URL 也称为 Commerce Scale Unit \[CSU\] URL。）对于 Modern POS，将在设备激活期间使用此值。 |
+| -SkipAadCredentialsCheck| 一个指示是否应跳过 Azure AD 凭据先决条件检查的开关。 默认值为 **false**。 |
+| -SkipCertCheck | 一个指示是否应跳过证书先决条件检查的开关。 默认值为 **false**。 |
+| -SkipIisCheck | 一个指示是否应跳过 Internet Information Services (IIS) 先决条件检查的开关。 默认值为 **false**。 |
+| -SkipNetFrameworkCheck | 一个指示是否应跳过 .NET Framework 先决条件检查的开关。 默认值为 **false**。 |
+| -SkipScaleUnitHealthcheck | 一个指示是否应跳过已安装组件的运行状况检查的开关。 默认值为 **false**。 |
+| -SkipSChannelCheck | 一个指示是否应跳过安全通道先决条件检查的开关。 默认值为 **false**。 |
+| -SkipSqlFullTextCheck | 一个指示是否应跳过需要全文搜索的 SQL Server 先决条件验证的开关。 默认值为 **false**。 |
+| -SkipSqlServerCheck | 一个指示是否应跳过 SQL Server 先决条件检查的开关。 默认值为 **false**。 |
+| -SqlServerName | SQL Server 名称。 如果未指定名称，安装程序将尝试查找默认实例。 |
+| -SslcertFullPath | 完全格式化的 URN 路径，它使用指纹作为证书位置的搜索指标，此指标用于加密到缩放单元的 HTTP 流量。 例如，`store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` 是格式正确的 URN，其中，值 **\<MyThumbprint\>** 将被替换为应使用的证书指纹。 不要将此参数与 **-SslCertThumbprint** 参数一起使用。 |
+| -SslCertThumbprint | 应该用于加密到缩放单元的 HTTP 流量的证书指纹。 此指纹将用于搜索 **LocalMachine/我的商店** 位置和名称，以查找要使用的正确证书。 不要将此参数与 **-SslCertFullPath** 参数一起使用。 |
+| -StoreSystemAosUrl | Headquarters (AOS) URL。 |
+| -StoreSystemChannelDatabaseId | 渠道数据库 ID（名称）。 |
+| -TenantId | Azure AD 租户 ID。 |
+| -TransactionServiceAzureAuthority | Transaction Service Azure AD 主管机构。 |
+| -TransactionServiceAzureResource | Transaction Service Azure AD 资源。 |
+| -TrustSqlServerCertificate | 一个指示在建立与 SQL Server 的连接时是否应信任服务器证书的开关。 为了帮助避免安全风险，生产部署绝不应在此处提供 **true** 值。 默认值为 **false**。 |
+| -Verbosity | 安装期间请求的日志记录级别。 通常，不应使用此值。 |
+| -WindowsPhoneAppInsightsInstrumentationKey | Hardware Station AppInsights 检测键。 |
 
 ## <a name="general-overview"></a>一般概览
 
 自助服务安装程序的新框架具有各种功能和改进。 此新框架当前仅为 Modern POS、Hardware Station 和 CSU（自托管）生成安装程序。 了解密封安装程序的基本命令行使用方法非常重要，这应与以下示例中使用的内容相似。 
  
 ```Console
-<Component Installer Name>.exe install --<Parameter Name> "<Parameter Information>"
+<Component Installer Name>.exe install -<Parameter Name> "<Parameter Information>"
 ```
 
 安装程序需要使用参数 **install**（或用于删除安装的 **uninstall**）和特定于该安装的任何参数。 **参数名称** 应包含所需的任何参数，如收银机、CSU URL 或证书信息。 **参数信息** 应包含有关参数的任何附加信息。
@@ -110,6 +110,9 @@ ms.locfileid: "8898571"
 
 删除旧的自助服务 Modern POS 组件至关重要。 有关详细信息，请参阅本文前面的迁移步骤。
 
+> [!NOTE]
+> 在开发人员拓扑或演示环境等单计算机系统上，或者当 Commerce Scale Unit 和 Modern POS 安装在同一台计算机上时，Store Commerce 可能无法完成设备激活。 出现此问题的原因是 Store Commerce 无法对同一台计算机进行网络调用（即对其自身进行调用）。 生产设置中永远不会出现此场景，但如果出现，可以通过启用 AppContainer 回送异常来缓解此问题，以可以在同一台计算机上进行通信。 各个应用程序都是公开可用的，以帮助实现此回送。 有关回送的详细信息，请参阅[如何启用回送和排除网络隔离故障](/previous-versions/windows/apps/hh780593(v=win.10))。 了解回送可能存在安全风险很重要，因此除非绝对必要，否则不建议您使用回送。
+
 ### <a name="examples-of-silent-deployment"></a>静默部署示例
 
 本节显示用于安装 Modern POS 的命令示例。
@@ -121,7 +124,7 @@ ms.locfileid: "8898571"
 如果请求安装，则以下基本命令将展示可用选项。 强烈建议在首次测试或使用安装程序时使用此命令。
 
 ```Console
-CommerceModernPOS.exe --help install
+CommerceModernPOS.exe -help install
 ```
 
 > [!NOTE]
@@ -130,13 +133,13 @@ CommerceModernPOS.exe --help install
 以下命令指定安装 Modern POS 应用程序后在设备激活期间应使用的所有参数。 此示例使用 **Houston-3** 收银机，它是 Dynamics 365 Commerce 演示数据中常用的值。
 
 ```Console
-CommerceModernPOS.exe install --Register "Houston-3" --Device "Houston-3" --RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
+CommerceModernPOS.exe install -Register "Houston-3" -Device "Houston-3" -RetailServerURL "https://MyDynamics365CommerceURL.dynamics.com/Commerce"
 ```
 
 以下命令指定应该用于安装和配置脱机数据库的参数。 SQL Server 与应该使用的配置文件一起指定。
 
 ```Console
-CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Config "ModernPOS.Houston-3.xml"
+CommerceModernPOS.exe install -InstallOffline -SQLServerName "SQLExpress" -Config "ModernPOS.Houston-3.xml"
 ```
 
 您可以混合搭配这些概念，以达到您想要的安装效果。
@@ -148,7 +151,7 @@ CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Co
 删除旧的自助服务 Hardware station 组件至关重要。 有关详细信息，请参阅本文前面的迁移步骤。 不再存在商家帐户信息工具。 而是在 POS 终端与 Hardware station 配对时安装商家帐户信息。 首次测试此安装程序时，强烈建议您运行以下命令：
 
 ```Console
-CommerceHardwareStation.exe --help install
+CommerceHardwareStation.exe -help install
 ```
 
 ### <a name="examples-of-silent-deployment"></a>静默部署示例
@@ -162,7 +165,7 @@ CommerceHardwareStation.exe --help install
 以下基本命令运行可执行文件安装程序。
 
 ```Console
-HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" --StoreSystemChannelDatabaseID "Houston" --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
+HardwareStation.exe install -Port 443 -StoreSystemAOSURL "https://MyDynamics365CommerceURL.dynamics.com/" -StoreSystemChannelDatabaseID "Houston" -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers"
 ```
 
 > [!NOTE]
@@ -174,7 +177,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 > 如果没有提前进行彻底测试，或者在开发情况下，不建议跳过检查。
 
 ```Console
-HardwareStation.exe install --SkipFirewallUpdate --SkipOPOSCheck --SkipVersionCheck --SkipURLCheck --Config "HardwareStation.Houston.xml"
+HardwareStation.exe install -SkipFirewallUpdate -SkipOPOSCheck -SkipVersionCheck -SkipURLCheck -Config "HardwareStation.Houston.xml"
 ```
 
 按照惯例，通常会混合搭配这些概念，以达到您想要的安装效果。
@@ -184,7 +187,7 @@ HardwareStation.exe install --SkipFirewallUpdate --SkipOPOSCheck --SkipVersionCh
 首次测试此安装程序时，强烈建议您运行以下命令：
 
 ```Console
-CommerceStoreScaleUnitSetup.exe --help install
+CommerceStoreScaleUnitSetup.exe -help install
 ```
 
 ### <a name="before-you-begin"></a>开始之前
@@ -202,7 +205,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 与其他自助安装程序相比，Commerce Scale Unit (CSU) 更复杂，需要相当多的附加信息。 以下命令是不存在配置文件时运行可执行文件安装程序所需的最少命令（带参数）。
 
 ```Console
-CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -port 446 -SSLCertThumbprint "MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 > [!NOTE]
@@ -211,7 +214,7 @@ CommerceScaleUnit.exe install --port 446 --SSLCertThumbprint "MySSLCertificateTh
 以下命令是一个更彻底的命令，它使用一些替代参数运行可执行文件安装程序。
 
 ```Console
-CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate --Verbosity 0 --Config "Contoso.StoreSystemSetup.xml"
+CommerceScaleUnit.exe install -Port 446 -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate -Verbosity 0 -Config "Contoso.StoreSystemSetup.xml"
 ```
 
 以下命令指定在标准安装期间跳过先决条件检查所需的参数。 
@@ -221,7 +224,7 @@ CommerceScaleUnit.exe install --Port 446 --SSLCertFullPath "store://My/LocalMach
 
 
 ```Console
-CommerceScaleUnit.exe installer --skipscaleunithealthcheck --skipcertcheck --skipaadcredentialscheck --skipschannelcheck --skipiischeck --skipnetcorebundlecheck --skipsqlservercheck --skipnetframeworkcheck --skipversioncheck --skipurlcheck --Config "Contoso.StoreSystemSetup.xml" --SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" --RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" --AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" --RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" --CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" --RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" --TrustSqlServerCertificate
+CommerceScaleUnit.exe installer -skipscaleunithealthcheck -skipcertcheck -skipaadcredentialscheck -skipschannelcheck -skipiischeck -skipnetcorebundlecheck -skipsqlservercheck -skipnetframeworkcheck -skipversioncheck -skipurlcheck -Config "Contoso.StoreSystemSetup.xml" -SSLCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -AsyncClientCertFullPath "store://My/LocalMachine?FindByThumbprint=MySSLCertificateThumbprintOftenHasNumbers" -RetailServerCertFullPath "store://My/LocalMachine?FindByThumbprint=MyCertificateThumbprintUsedByRetailServer" -AsyncClientAADClientID "MyAAD-Client-IDFor-AsyncClient" -RetailServerAADClientID "MyAAD-Client-IDFor-RetailServer" -CPOSAADClientID "MyAAD-Client-IDFor-CloudPOS" -RetailServerAADResourceID "https://retailstorescaleunit.retailserver.com" -TrustSqlServerCertificate
 ```
 
 您可以混合搭配这些概念，以达到您想要的安装效果。

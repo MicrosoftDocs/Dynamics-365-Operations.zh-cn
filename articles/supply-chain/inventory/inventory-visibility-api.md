@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902015"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357633"
 ---
 # <a name="inventory-visibility-public-apis"></a>Inventory Visibility 公共 API
 
@@ -98,16 +98,16 @@ Microsoft 提供了现成的 *Postman* 获取令牌集合。 可以使用以下�
 1. 登录 Azure 门户，然后将其用于查找 Dynamics 365 Supply Chain Management 应用的 `clientId` 和 `clientSecret` 值。
 1. 通过提交具有以下属性的 HTTP 请求来获取 Azure AD 令牌 (`aadToken`)：
 
-   - **URL：**`https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **URL：**`https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
    - **方法：**`GET`
    - **正文内容（窗体数据）：**
 
-     | 键           | 值                                |
-     | ------------- | ------------------------------------ |
-     | client_id     | ${aadAppId}                          |
-     | client_secret | ${aadAppSecret}                      |
-     | grant_type    | client_credentials                   |
-     | resource      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | 键           | 值                                            |
+     | ------------- | -------------------------------------------------|
+     | client_id     | ${aadAppId}                                      |
+     | client_secret | ${aadAppSecret}                                  |
+     | grant_type    | client_credentials                               |
+     | scope         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
 
    您应通过响应收到一个 Azure AD 令牌 (`aadToken`)。 标签应类似于以下示例。
 
@@ -116,9 +116,6 @@ Microsoft 提供了现成的 *Postman* 获取令牌集合。 可以使用以下�
        "token_type": "Bearer",
        "expires_in": "3599",
        "ext_expires_in": "3599",
-       "expires_on": "1610466645",
-       "not_before": "1610462745",
-       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
        "access_token": "eyJ0eX...8WQ"
    }
    ```
@@ -131,7 +128,7 @@ Microsoft 提供了现成的 *Postman* 获取令牌集合。 可以使用以下�
        "client_assertion_type": "aad_app",
        "client_assertion": "{Your_AADToken}",
        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context": "{$LCS_environment_id}",
        "context_type": "finops-env"
    }
    ```

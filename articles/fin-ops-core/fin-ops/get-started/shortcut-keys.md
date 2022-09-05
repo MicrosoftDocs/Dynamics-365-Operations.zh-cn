@@ -2,7 +2,7 @@
 title: 键盘快捷方式
 description: 本文概述使用财务和运营应用时可使用的快捷键组合。
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140430"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357569"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
@@ -135,10 +135,10 @@ ms.locfileid: "9140430"
 | 水平滚动                                                                                                   | Shift + 鼠标滚轮             |
 | 移到下一个/上一个列                                                                                       | Tab / Shift+Tab                 |
 | 移到下一个/上一个行                                                                                          | 向下箭头/向上箭头           |
-| 移到下一行/上一行但不选中<blockquote>[!NOTE] 此快捷方式仅适用于多选方案。</blockquote> | Ctrl+向上箭头/Ctrl+向下箭头 |
-| 选择/清除当前行<blockquote>[!NOTE] 此快捷方式仅适用于多选方案。</blockquote>                    | Ctrl+Space / Ctrl+单击         |
-| 将下一行/上一行添加到所选集<blockquote>[!NOTE] 此快捷方式仅适用于多选方案。</blockquote>   | Shift+Space                     |
-| 将行范围添加到所选集<blockquote>[!NOTE] 此快捷方式仅适用于多选方案。</blockquote>         | Shift+单击                     |
+| 移到下一行/上一行但不选中<br><br>**注意：** 此快捷方式仅适用于多选场景。 | Ctrl+向上箭头/Ctrl+向下箭头 |
+| 选择/清除当前行<br><br>**注意：** 此快捷方式仅适用于多选场景。                   | Ctrl+Space / Ctrl+单击         |
+| 将下一行/上一行添加到所选集<br><br>**注意：** 此快捷方式仅适用于多选场景。  | Shift+Space                     |
+| 将行范围添加到所选集<br><br>**注意：** 此快捷方式仅适用于多选场景。         | Shift+单击                     |
 | 转到数据的下一/上一页                                                                                   | Page up / Page down             |
 | 在网格底部创建新行                                                                             | 向下箭头（从最后一行）  |
 | 移至第一个记录                                                                                               | Ctrl+Home                       |
@@ -148,7 +148,7 @@ ms.locfileid: "9140430"
 | 移至下一个标记行                                                                                            | Alt+Shift+M，L                  |
 | 移至上一个标记行                                                                                        | Alt+Shift+M，P                  |
 | 移至最后一个标记行                                                                                           | Alt+Shift+M，N                  |
-| 在网格中执行默认操作<blockquote>[!NOTE] 当焦点放在含有超链接的单元格上且该列中的所有单元格都具有超链接时，启用此快捷方式。</blockquote> | Enter                           |
+| 在网格中执行默认操作<br><br>**注意：** 当焦点放在含有超链接的单元格上且该列中的所有单元格都具有超链接时，启用此快捷方式。 | Enter                           |
 | 在所选行和标题行之间切换焦点                                                               | Alt+Shift+H                     |
 | 放大/缩小当前列（焦点放在标题行中）                                                  | 右箭头/左箭头        |
 | 将当前列移到下一个/上一个位置（焦点位于标题行）                                   | Ctrl+Shift+右箭头/Ctrl+Shift+左箭头 |
