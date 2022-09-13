@@ -12,6 +12,8 @@
               items:
                 - name: “Finance 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30（11 月）
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29（10 月）
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28（8 月）
@@ -248,7 +250,7 @@
                   href: accounts-payable/view-automated-vendor-invoice.md
                 - name: 供应商发票输入工作区
                   href: accounts-payable/vendor-invoices-workspace.md
-            - name: 会计分配和供应商发票的子分类日记帐分录
+            - name: 会计分配和供应商发票的子分类日记帐条目
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: 发票匹配和内部公司采购订单
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -374,7 +376,7 @@
               href: accounts-receivable/credit-card-authorizations.md
             - name: 创建普通发票
               href: accounts-receivable/create-free-text-invoice-new.md
-            - name: 会计分配和普通发票的子分类日记帐分录
+            - name: 会计分配和普通发票的子分类日记帐条目
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: 创建普通发票模板
               href: accounts-receivable/create-free-text-invoice-template-new.md
@@ -946,7 +948,7 @@
                   href: asset-leasing/compound-interval-functionality.md
                 - name: 批量确认付款计划
                   href: asset-leasing/confirm-payment-schedules-in-batch.md
-                - name: 批量创建月度日记帐分录
+                - name: 批量创建月度日记帐条目
                   href: asset-leasing/create-monthly-journals-batch.md
                 - name: 租赁过帐类型
                   href: asset-leasing/lease-posting-types.md
@@ -1112,11 +1114,11 @@
                       href: general-ledger/reverse-journal-posting.md
                     - name: 为什么无法冲销此交易记录？
                       href: general-ledger/cant-reverse-transctns.md
-                    - name: 使用模板创建日记帐分录
+                    - name: 使用模板创建日记帐条目
                       href: general-ledger/tasks/create-journal-entry-template.md
                     - name: 处理分类帐分配日记帐
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
-                    - name: 查看日记帐分录或交易记录
+                    - name: 查看日记帐条目或交易记录
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
                     - name: 允许编辑总帐凭证上的内部数据
                       href: general-ledger/allow-edits-internal-data-gl-vouchers.md
@@ -1138,9 +1140,11 @@
                       href: general-ledger/subledger-transfer.md
                     - name: 会计源资源管理器
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: 单据的待定会计
+                      href: general-ledger/documents-pending-accounting.md
             - name: 报表和查询
               items:
-                - name: 查看日记帐分录和交易记录
+                - name: 查看日记帐条目和交易记录
                   href: general-ledger/view-journal-entries-transactions.md
                 - name: 具有交易明细报告的试算平衡表
                   href: public-sector/general-ledger-public-sector-trial-balance.md
@@ -1174,7 +1178,7 @@
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
                 - name: 分类帐分配规则
                   href: general-ledger/ledger-allocation-rules.md
-                - name: 将过帐日记帐分录记入日记帐
+                - name: 将过帐日记帐条目记入日记帐
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
             - name: 合并和清除
               items:

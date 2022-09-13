@@ -3413,8 +3413,6 @@
                       href: warehousing/packing-work.md
                     - name: 设置领料短缺的物料重新分配
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: 取消仓库工作以进行异常处理
-                      href: warehousing/cancel-warehouse-work.md
                     - name: 系统导向的工作序列
                       href: warehousing/system-directed-work-sequencing.md
                     - name: 领料行分组
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: 出站工作负荷可视化
                       href: warehousing/outbound-workload-visualization.md
+                    - name: 手动处理销售和转移单行领料异常
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: 取消仓库工作以进行异常处理
+                      href: warehousing/cancel-warehouse-work.md
                 - name: 补货
                   items:
                     - name: 补货概览

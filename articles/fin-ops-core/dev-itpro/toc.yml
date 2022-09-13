@@ -14,6 +14,8 @@
               items:
                 - name: “平台更新的新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: 针对版本 10.0.30 的平台更新（2022 年 11 月）
+                  href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: 针对版本 10.0.29 的平台更新（2022 年 10 月）
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: 针对版本 10.0.28 的平台更新（2022 年 8 月）
