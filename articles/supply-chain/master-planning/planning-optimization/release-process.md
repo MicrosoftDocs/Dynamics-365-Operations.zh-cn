@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 45a35eb32cb9e51d9f63f6687808fb511f894887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873715"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403666"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>计划优化发布流程和发布历史记录
 
@@ -33,6 +33,7 @@ Microsoft 每月都会更新计划优化。 但是，根据业务要求，我们
 
 | 更改 | 功能管理详细信息 | 发布日期 |
 |---|---|---|
+| <p>一般性能、质量和稳定性改进。 | 无需功能管理。 | 2022 年 8 月 29 日 - 9 月 3 日 |
 | <p>一般性能、质量和稳定性改进。<p>[计划优化集中日历维护](../supply-chain-calendars-master-planning.md)<p>[优化现有供应的计划优化建议](../action-messages.md)<p>[转包计划优化支持](../../production-control/manage-subcontract-work-production.md) | 无需功能管理。 | 2022 年 3 月 7 日至 11 日 |
 | <p>为生产订单添加了计划优先级支持。 | 在 10.0.25 版中作为名为 *针对计划优化的优先级驱动的 MRP 支持* 的功能的一部分提供。 | 2021 年 11 月 12-18 日 |
 | <p>一般性能、质量和稳定性改进。 | 无需功能管理。 | 2021 年 11 月 12-18 日 |

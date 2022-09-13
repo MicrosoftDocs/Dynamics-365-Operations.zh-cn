@@ -2,7 +2,7 @@
 title: 应用库存设置
 description: 本文介绍库存设置，并介绍如何在 Microsoft Dynamics 365 Commerce 中应用这些设置。
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287584"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405312"
 ---
 # <a name="apply-inventory-settings"></a>应用库存设置
 
@@ -51,12 +51,12 @@ Dynamics 365 Commerce 提供对产品现有量的估计。 有关如何计算估
     > [!IMPORTANT] 
     > **多个仓库的库存级别** 设置从 Commerce 版本 10.0.19 开始可用。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
 
-- **产品列表页的库存设置** – 此设置定义库存不足产品在产品集合和搜索结果模块呈现的产品列表中的显示方式。 可用值有 **与其他产品一起按顺序显示**、**从列表中隐藏库存不足产品** 和 **在列表末尾显示库存不足产品**。 要使用此设置，您必须首先在 Commerce Headquarters 中配置一些必备设置。 有关详细信息，请参阅[为搜索结果模块启用库存意识](search-result-module.md#enable-inventory-awareness-for-the-search-results-module)。
+- **产品列表页的库存设置** – 此设置定义库存不足产品在产品集合和搜索结果模块呈现的产品列表中的显示方式。 可用值有 **与其他产品一起按顺序显示**、**从列表中隐藏库存不足产品** 和 **在列表末尾显示库存不足产品**。 要使用此设置，您必须首先在 Commerce Headquarters 中配置一些必备设置。 有关详细信息，请参阅[库存感知产品列表](inventory-aware-product-listing.md)。
 
     > [!IMPORTANT] 
     > **产品列表页的库存设置** 设置从 Commerce 版本 10.0.20 开始可用。 如果要从旧版本的 Commerce 更新，必须手动更新 appsettings.json 文件。 有关说明，请参阅 [SDK 和模块库更新](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)。
 
-- **库存范围** – 此设置定义在站点模块上显示消息的库存范围。 仅当为 **库存级别确定条件** 选择了 **总可用量** 值或 **实际可用量** 值时，此设置才适用。 可用值有 **所有**、**低库存和库存不足** 和 **库存不足**。
+- **库存范围** – 此设置定义在站点模块上显示的库存范围消息。 仅当为 **库存级别确定条件** 选择了 **总可用量** 值或 **实际可用量** 值时，此设置才适用。 可用值有 **所有**、**低库存和库存不足** 和 **库存不足**。
 
     - 选择 **所有** 时，将显示所有库存范围的消息，从有存货（“有货”消息）到库存不足（“库存不足”消息）。
     - 选择 **低库存和库存不足** 时，将显示除有存货（“有货”消息）以外的所有库存范围的消息。

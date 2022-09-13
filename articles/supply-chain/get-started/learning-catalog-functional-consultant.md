@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ceeb20432f223d28a98c197f26a7d95702ec62e7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 437f4b242c1756ecd54cea94d015b9284aca187b
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124321"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423730"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Dynamics 365 Supply Chain Management 功能顾问学习目录
 
@@ -27,11 +27,10 @@ ms.locfileid: "9124321"
 
 对于功能顾问，我们的工作-任务分析研究显示，所有人都必须理解核心内容集和域区域。
 
-## <a name="get-started"></a>入门<a name="get-started"></a>
+## <a name="get-started"></a>开始<a name="get-started"></a>
 
-| 内容 | 说明 | 格式  | 长度  |
+| 内容 | Description | 格式  | Length  |
 |---|---|---|---|
-| [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
 | [开始使用财务和运营应用](/learn/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [开始使用 Dynamics 365 Supply Chain Management 的资产管理](/learn/modules/get-started-asset-management/index) | 资产管理是 Dynamics 365 Supply Chain Management 中的一个模块，用于管理资产和维护作业。 可通过资产管理高效管理和执行与管理和处理公司中的多种设备（如机器、生产设备和汽车）有关的任务。 资产管理支持多个行业的解决方案。 | 自由、自定进度的在线学习模块 | 1 小时 |
@@ -55,43 +54,35 @@ ms.locfileid: "9124321"
 | [实行计划 (DYN458PAL2)](https://community.dynamics.com/365/b/techtalks/posts/go-live-planning-8-9-18) | 我们将详细探讨实行流程，并探讨其最佳准备方法，以便让客户、合作伙伴和 Microsoft 尽可能顺利地实行。 | 技术交流（录制的网络研讨会） | 60 分钟 |
 | [环境计划 (DYN450PAL2)](https://community.dynamics.com/365/b/techtalks/posts/environment-planning-may-23-2018) | 请与我们一起加入这场环境计划技术交流。 了解标准环境，可能需要其他哪些环境，用于获取和部署这些环境的选项和时机，以及预期代码和环境之间的数据流。 | 技术交流（录制的网络研讨会） | 53 分钟 |
 | [财务和运营：功能管理 (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | 有关功能管理体验的技术交流。 提供一个工作区，可在其中查看、启用、禁用和安排每个发行版中已交付的功能。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 若要查看 10.0.3 中交付了哪些功能和我们对未来发行版的计划，请参加此会议。 | 技术交流（录制的网络研讨会） | 47 分钟 |
-| [财务和运营：Microsoft 管理的持续更新 (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | 财务和运营的持续更新节奏已开始！ 请在这个小时加入我们讨论 Microsoft 管理的持续更新，这是 Lifecycle Services 中已提供，并且将来的更新中将提供的用户体验。 | 技术交流（录制的网络研讨会） | 61 分钟 |
+| [财务和运营：Microsoft 管理的持续更新 (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | 财务和运营的持续更新节奏已开始！ 在这个小时加入我们讨论 Microsoft 管理的持续更新，这是 Lifecycle Services 中已提供，并且将来的更新中将提供的用户体验。 | 技术交流（录制的网络研讨会） | 61 分钟 |
 | [Microsoft 管理的持续更新：新增功能 (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | 这个小时介绍初始公布 Microsoft 管理的持续更新依赖的新增功能。 我们将讨论更新的频率，我们如何响应了您对流程的宝贵反馈，并查看即将推出的 Lifecycle Services 用户体验，通过此用户体验，您可以管理您的更新。 | 技术交流（录制的网络研讨会） | 56 分钟 |
 | [监控、优化顾问和关键 KB (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | 我们将讨论监控功能和 Microsoft 在您的生产环境中为您监控哪些对象，优化顾问及其扩展方法，LCS 中的“关键 X++ 更新”体验，以及 LCS 中的“报告生产中断”选项的最佳实践。 | 技术交流（录制的网络研讨会） | 40 分钟 |
 | [Visual Studio Team Services (VSTS) 设置 (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | 此技术交流演练配置 VSTS 实例和项目以连接到开发/测试环境配置的 LCS 实施项目所需步骤。 | 技术交流（录制的网络研讨会） | 41 分钟 |
-| [复制到法人 (DYN383PAL)](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | 在此会话中，我们将讨论数据管理框架中的新功能“复制到法人”。 我们将首先简要回顾平台 8 中为工作区、模板和数据项目向数据管理框架添加的新功能，然后讨论为“复制到法人”添加的其他功能。 | 技术交流（录制的网络研讨会） | 54 分钟 |
+| [复制到法人 (DYN383PAL)](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | 在此会话中，我们将讨论数据管理框架中的新功能“复制到法人”。 我们将首先简要回顾平台 8 中为工作区、模板和数据项目向数据管理框架添加的新功能，然后讨论为“复制到法人”添加的额外功能。 | 技术交流（录制的网络研讨会） | 54 分钟 |
 | [Regression Suite Automation Tool (DYN480PAL)](https://community.dynamics.com/365/b/techtalks/posts/regression-suite-automation-tool-9-25-18) | 我们将讨论 Regression Suite Automation Tool。 在采用 Microsoft 更新时或为 Dynamics 365 Finance 生产环境应用自定义代码和配置之前，可以显著减少用户接受度测试的时间和成本。 可以让功能用户通过使用财务和运营的任务录制器录制业务任务，然后将其转换为一套自动化测试，而无需编写源代码。 | 技术交流（录制的网络研讨会） | 61 分钟 |
 | [财务和运营：Regression Suite Automation Tool -- 背景和设置 (DYN646PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | 这是回归套件自动化测试 (RSAT) 双部分系列中的第一部分。 在此会话中，我们将介绍如何通过 RSAT 使用自动化测试与持续更新保持一致。 将介绍有关如何使用 RSAT 创建任务录制和执行测试的学习和建议，以及安装和设置的分步演练。 | 技术交流（录制的网络研讨会） | 70 分钟 |
 | [财务和运营：Regression Suite Automation Tool -- 测试 Lifecycle 演示 (DYN647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | 这是回归套件自动化测试 (RSAT) 双部分系列中的第二部分。 此会话将介绍以下整个周期的演示：从财务和运营创建任务录制并保存到 LCS 中的 BPM 库，同步该 BPM 库以在 Azure DevOps 中创建测试用例，将测试案例分组为测试套件，然后在 RSAT 中加载并执行测试套件。 | 技术交流（录制的网络研讨会） | 70 分钟 |
-| [性能测试方法 (DYN449PAL2)](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) | 请和我们一起加入这场有关如何执行性能测试的技术交流。 了解基本原理、测试的最佳实践、可用于执行测试和度量性能的工具和技术，以及如何使用结果进行优化。 | 技术交流（录制的网络研讨会） | 45 分钟 |
-| [分析与报告选项：打印和文档路线选择代理](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018) | 此会话将讨论 D365 for Operations 中的各种打印方案，包括文档路线选择代理的提示和窍门。 | 技术交流（录制的网络研讨会） | 60 分钟 |
-| [课程 MB-300T01-A：财务和运营应用的核心常用功能](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | 此课程讨论财务和运营应用的核心常用功能。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [课程 MB-300T02-A：财务和运营应用的核心配置](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | 此课程讨论财务和运营应用的核心配置任务。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [课程 MB-300T03-A：数据迁移和准备实行财务和运营应用](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | 本课程讨论数据迁移和财务和运营应用实行准备。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
+| [性能测试方法 (DYN449PAL2)](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) | 与我们一起加入这场有关如何执行性能测试的技术交流。 了解基本原理、测试的最佳实践、可用于执行测试和度量性能的工具和技术，以及如何使用结果进行优化。 | 技术交流（录制的网络研讨会） | 45 分钟 |
+| [分析与报告选项：打印和文档路线选择代理](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018) | 此会话将讨论 Dynamics 365 for Operations 中的各种打印方案，包括 Document Routing Agent 的提示和窍门。 | 技术交流（录制的网络研讨会） | 60 分钟 |
+| [课程 MB-330T00：Microsoft Dynamics 365 Supply Chain Management - 功能顾问](/training/courses/mb-330t00) | 本课程涵盖产品信息以及如何配置、创建和管理您的产品和库存。 供应链管理配置和处理。 运输管理和仓库管理功能。 质量管理和质量控制功能。 主计划配置和处理。 | 讲师引导式培训，成本取决于地区和合作伙伴 | 5 天 |
 | [实施生命周期主页](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | 这些文章介绍与财务和运营应用项目的实施生命周期有关的可用程序、工具和流程。 | 文档 | |
-
 
 ## <a name="migration-and-upgrade"></a>迁移和升级<a name="migration"></a>
 
 | 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
 | [将 Dynamics AX 2012 升级到财务和运营应用](/learn/paths/upgrade-ax-2012-finance-operations/) | 了解将 Dynamics AX 2012 解决方案成功升级到财务和运营应用的最重要元素和最佳做法。 从发现关键体系结构差异、开始使用升级流程以及代码和数据升级工具的最初步骤到基于最新功能重新设计集成、分析和报告的最佳方法。 | 自由、自定进度的在线学习路径 | 7 小时 |
-| [如何从 7.0 (RTW)/7.1（发行版 1611）升级到 7.2（2017 年 7 月）(DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | 在此会话中，将介绍如何从 Dynamics 365 财务和运营应用程序 v7.0 (RTW) 和 v7.1 (1611) 升级到 v7.2（2017 年 7 月）。 将明确区分活动的客户和现行项目（尚未实行）。 | 技术交流（录制的网络研讨会） | 58 分钟 |
-| [财务和运营应用：从 7.x 升级到 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 请和我们一起加入下一场技术交流，在该技术交流中，将介绍从 7.X 到 8.X 的升级过程。 将介绍各种方案和需要执行才能升级代码和数据的步骤。 还将介绍可扩展性请求方案和如何在适当时提出这些方案。 2 部分中的第 1 部分。 | 技术交流（录制的网络研讨会） | 61 分钟 |
-| [AX2012 升级到财务和运营应用 (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到财务和运营应用的概述。 | 技术交流（录制的网络研讨会） | 45 分钟 |
-
+| [AX2012 升级到财务和运营应用 (DYN865PAL)](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/tax2012-to-finance-and-operations-apps-upgrade-september-3-2020) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到财务和运营应用的概述。 | 技术交流（录制的网络研讨会） | 66 分钟 |
 
 ## <a name="manufacturing"></a>制造<a name="manufacturing"></a>
 
-| 内容 | 说明 | 格式 | 长度 |
+| 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
 | [在 Dynamics 365 Supply Chain Management 中配置和使用离散制造](/learn/paths/configure-use-discrete-manufacturing-dyn365-supply-chain-mgmt/) | 如果某家公司仅生产简单产品，则可以为生产手动安排在正确的时间和适当的资源抵达生产车间的正确物料清单 (BOM) 部件。 作为生产的功能顾问，您需要了解如何针对离散制造配置 Dynamics 365 Supply Chain Management，这样您的客户才可以执行和控制生产生命周期。 | 自由、自定进度的在线学习路径 | 16.5 小时 |
 | [在 Dynamics 365 Supply Chain Management 中配置和使用精益制造](/learn/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) | 精益制造是持续改进的过程。 目标是以经济的方式在客户需要的时间生产客户需要的产品。 在统一（混合模式）制造环境可以使用精益制造合并各种供应来源、生产和采购策略。 这些策略包括生产订单、批次订单、流程工业、采购订单和转移单。 在 Dynamics 365 Supply Chain Management 的精益制造体系结构由生产流程、活动和看板规则组成。 | 自由、自定进度的在线学习路径 | 12.5 小时 |
 | [在 Dynamics 365 Supply Chain Management 中配置和使用流程制造](/learn/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) | 流程制造与配方和制造配方有关，而相对而言，离散制造则使用离散单元和物料清单。 在使用流程制造的制造环境中，生产以批量流程或半连续流程完成。 | 自由、自定进度的在线学习路径 | 10.5 小时 |
 | [在制造时使用 Dynamics 365 Supply Chain Management 中的仓库管理](/learn/paths/use-warehouse-manufacturing-dyn365-supply-chain-mgmt/) | 在制造流程中使用 Dynamics 365 Supply Chain Management 中的仓库管理可根据公司的需要帮助优化和简化制造环境中的仓库流程。 | 自由、自定进度的在线学习路径 | 10.5 小时 |
-| [课程 MB-320T01-A：在 Dynamics 365 Supply Chain Management 中配置和使用离散制造](https://www.microsoft.com/learning/course.aspx?cid=MB-320T01) | 此课程讨论如何在 Dynamics 365 Supply Chain Management 中配置和使用离散制造。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 2 天 |
-| [课程 MB-320T02-A：在 Dynamics 365 Supply Chain Management 中配置和使用精益制造](https://www.microsoft.com/learning/course.aspx?cid=MB-320T02) | 此课程讨论如何在 Dynamics 365 Supply Chain Management 中配置和使用精益制造。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [课程 MB-320T03-A：在 Dynamics 365 Supply Chain Management 中配置和使用流程制造](https://www.microsoft.com/learning/course.aspx?cid=MB-320T03) | 此课程讨论如何在 Dynamics 365 Supply Chain Management 中配置和使用流程制造。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
+| [课程 MB-330T00：Microsoft Dynamics 365 Supply Chain Management - 功能顾问](/training/courses/mb-330t00) | 本课程涵盖产品信息以及如何配置、创建和管理您的产品和库存。 供应链管理配置和处理。 运输管理和仓库管理功能。 质量管理和质量控制功能。 主计划配置和处理。 | 讲师引导式培训，成本取决于地区和合作伙伴 | 5 天 |
 | [Microsoft 认证： Dynamics 365 Supply Chain Management 制造功能顾问助理](https://www.microsoft.com/learning/d365-functional-consultant-manufacturing.aspx) | Microsoft 认证：Dynamics 365 Supply Chain Management 制造功能顾问为客户集成数字系统和物理系统，提高可见性、制造效率和灵活性，并降低成本。 | 认证，成本取决于地区 |  |
 
 ## <a name="supply-chain-management"></a>供应链管理<a name="supply-chain-management"></a>
@@ -109,9 +100,7 @@ ms.locfileid: "9124321"
 | [使用高级仓库管理的物料和仓库迁移流程 (DYN316PAL)](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | 在此技术交流中，将介绍如何通过未结交易记录将现有仓库设置和物料迁移到高级仓库管理，方法是使用新功能更改物料的维度组和让仓库使用高级仓库管理流程。 | 自由录制 Web 会议 | 54 分钟 |
 | [供应链管理主页](/dynamics365/unified-operations/supply-chain/) | 本文提供了针对 Supply Chain Management 中的供应链管理功能的一系列帮助文章和其他资源。 | 文档 | |
 | [原材料领料的需求补货 (DYN333PAL2)](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | 此技术交流介绍原材料领料及其需求补货。 | 自由录制 Web 会议 | 38 分钟 |
-| [课程 MB-330T01-A：在 Dynamics 365 Supply Chain Management 中配置和使用 Supply Chain Management](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | 此课程讨论如何配置和使用 Supply Chain Management。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 2 天 |
-| [课程 MB-330T02-A：在 Dynamics 365 Supply Chain Management 中使用质量管理、内部公司交易和主计划](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | 此课程介绍如何在 Supply Chain Management 中使用质量管理、内部公司交易和主计划。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [课程 MB-330T03-A：在 Dynamics 365 Finance 中配置和使用仓库和运输管理](https://www.microsoft.com/learning/course.aspx?cid=MB-330T03) | 此课程讨论如何在 Dynamics 365 Finance 中配置和使用仓库和运输管理。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
+| [课程 MB-330T00：Microsoft Dynamics 365 Supply Chain Management - 功能顾问](/training/courses/mb-330t00) | 本课程涵盖产品信息以及如何配置、创建和管理您的产品和库存。 供应链管理配置和处理。 运输管理和仓库管理功能。 质量管理和质量控制功能。 主计划配置和处理。 | 讲师引导式培训，成本取决于地区和合作伙伴 | 5 天 |
 | [配置 Dynamics 365 Supply Chain Management 的资产管理](/learn/paths/configure-asset-management-dyn365-supply-chain-mgmt/) | 资产管理是 Dynamics 365 Supply Chain Management 的一个加载项，用于管理公司日常运营中使用的资产。 这些类型的资产的一些示例有机械、生产设备和叉车。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [使用 Dynamics 365 Supply Chain Management 的资产管理](/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | 资产管理是 Dynamics 365 Supply Chain Management 的一个加载项，用于管理公司日常运营中使用的资产。 这些类型的资产的一些示例有机械、生产设备和叉车。 | 自由、自定进度的在线学习路径 | 12.5 小时 |
 | [在 Dynamics 365 Supply Chain Management 中管理产品版本信息](/learn/paths/manage-product-version-engineering-change-management/) | 适用于 Dynamics 365 Supply Chain Management 的工程更改管理加载项提供结构化流程，用于管理工程产品生命周期内的产品版本信息。 | 自由、自定进度的在线学习路径 | 4 小时 |
@@ -127,4 +116,3 @@ ms.locfileid: "9124321"
 | [考试 MB-320：Microsoft Dynamics 365 Finance、制造](https://www.microsoft.com/learning/exam-MB-320.aspx) | 此考试衡量您完成以下技术任务的能力：设置和配置制造，创建和管理生产和精益订单，以及创建、处理和管理生产批量订单。 | 考试，成本取决于地区 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

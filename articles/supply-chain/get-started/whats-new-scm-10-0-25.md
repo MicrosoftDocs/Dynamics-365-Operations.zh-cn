@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219085"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403647"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Dynamics 365 Supply Chain Management 10.0.25 中的新增功能或更改（2022 年 4 月）
 
@@ -161,7 +161,7 @@ ms.locfileid: "9219085"
 | 仓库管理 | [场所牌照定位](../warehousing/location-license-plate-positioning.md) | 强制 |
 | 仓库管理 | [库位产品维度混合](../warehousing/location-product-dimension-mixing.md) | 强制 |
 | 仓库管理 | 使移动设备库存移动库存状态字段可编辑 | 强制 |
-| 仓库管理 | 针对管理员或类似的受信任用户的销售行手动领料服务 | 强制 |
+| 仓库管理 | [针对管理员或类似的受信任用户的销售行手动领料服务](../warehousing/manual-order-line-picking-exception-handling.md) | 强制 |
 | 仓库管理 | [阻止转移单已装运牌照用于目标仓库以外的其他仓库](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | 强制 |
 | 仓库管理 | 提示解析不明确的“位置/牌照”名称 | 强制 |
 | 仓库管理 | [质量检查](../warehousing/quality-check.md) | 强制 |

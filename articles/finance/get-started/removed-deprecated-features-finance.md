@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313874"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410442"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -32,6 +32,20 @@ ms.locfileid: "9313874"
 
 > [!NOTE]
 > [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Finance 10.0.30 版本中已经删除或弃用的功能
+
+### <a name="revenue-recognition"></a>收入确认
+
+[收入确认](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **弃用/移除的原因** |由改进的功能[订阅计费](../../finance/accounts-receivable/subscription-billing-summary.md)替代
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域** | 应用程序 |
+| **部署选项** | 所有 |
+| **Status** | 已弃用：2023 年 4 月之后，Dynamics 365 Finance 中的收入确认功能不会再获得 bug 修复支持。 将要求客户使用改进的功能[订阅计费](../../finance/accounts-receivable/subscription-billing-summary.md)。 到 2023 年 10 月，收入确认功能将不能再使用。 将要求客户移至改进的功能订阅计费功能。|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Finance 10.0.29 版本中已经删除或弃用的功能
 

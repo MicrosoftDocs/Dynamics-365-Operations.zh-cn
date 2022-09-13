@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Finance 用户的学习目录
 description: 查找 Dynamics 365 Finance 用户的所有培训选项。
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c883a425610d9b04812ba77c666b0b220184d5af
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 99a672e4fd0bfe270f0cd1bfa421b7bd6feca9e1
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069275"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424506"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Dynamics 365 Finance 用户的学习目录
 
@@ -25,11 +25,10 @@ ms.locfileid: "9069275"
 
 以下目录的组织方式为从核心知识到具体领域，从最基础到最高级。 如果内容存在多种格式，我们会告知您，这样您就可以选择最符合您的需要的培训格式。
 
-## <a name="get-started"></a>入门<a name="get-started"></a>
+## <a name="get-started"></a>开始<a name="get-started"></a>
 
-| 内容 | 说明 | 格式 | 长度 |
+| 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
-| [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径 | 8 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时   |
 | [开始使用财务和运营应用](/learn/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。   无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [开始使用 Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | 通过 Dynamics 365 Intelligent Order Management，客户可以管理订单编排到履行。 这些功能使组织能够编排跨不同平台和应用的订单流。 | 自由、自定进度的在线学习模块 | 30 分钟 |

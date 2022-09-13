@@ -1,23 +1,23 @@
 ---
 title: 使用 Dynamics 365 Finance 的实施项目经理学习目录
 description: 查找担任使用 Dynamics 365 Finance 的实施项目经理的人员的所有培训选项。
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b4c0a108c581eafee45fa3ab31d532d3acc7ed2
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9f75a7f6fad3fb8a204c579083b9ffaca46e7592
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067641"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424494"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>使用 Dynamics 365 Finance 的实施项目经理学习目录
 
@@ -25,11 +25,10 @@ ms.locfileid: "9067641"
 
 以下目录的组织方式为从核心知识到具体领域，从最基础到最高级。 如果内容存在多种格式，我们会告知您，这样您就可以选择最符合您的需要的培训格式。
 
-## <a name="get-started"></a>入门<a name="get-started"></a>
+## <a name="get-started"></a>开始<a name="get-started"></a>
 
-| 内容 | 说明  | 格式  | 长度    |
+| 内容 | Description  | 格式  | Length    |
 |-------------|-----------------|-------------|------------|
-| [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
 | [开始使用财务和运营应用](/learn/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [购买之前](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | 无论你是仍然在评估财务和运营还是准备购买，均请参阅分步指导。 | 文档 | |
@@ -58,13 +57,8 @@ ms.locfileid: "9067641"
 | [财务和运营：Regression Suite Automation Tool -- 背景和设置 (DYN646PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | 这是回归套件自动化测试 (RSAT) 双部分系列中的第一部分。 在此会话中，我们将介绍如何通过 RSAT 使用自动化测试与持续更新保持一致。 将介绍有关如何使用 RSAT 创建任务录制和执行测试的学习和建议，以及安装和设置的分步演练。 | 技术交流（录制的网络研讨会） | 70 分钟 |
 | [财务和运营：Regression Suite Automation Tool -- 测试 Lifecycle 演示 (DYN647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | 这是回归套件自动化测试 (RSAT) 双部分系列中的第二部分。 此会话将介绍以下整个周期的演示：从财务和运营创建任务录制并保存到 LCS 中的 BPM 库，同步该 BPM 库以在 Azure DevOps 中创建测试用例，将测试案例分组为测试套件，然后在 RSAT 中加载并执行测试套件。 | 技术交流（录制的网络研讨会） | 70 分钟 |
 | [性能测试方法 (DYN449PAL2)](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) | 请和我们一起加入这场有关如何执行性能测试的技术交流。 了解基本原理、测试的最佳实践、可用于执行测试和度量性能的工具和技术，以及如何使用结果进行优化。 | 技术交流（录制的网络研讨会） | 45 分钟 |
-| [如何从 7.0 (RTW)/7.1（发行版 1611）升级到 7.2（2017 年 7 月）(DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | 在此会话中，将介绍如何从 Dynamics 365 财务和运营应用程序 v7.0 (RTW) 和 v7.1 (1611) 升级到 v7.2（2017 年 7 月）。 将明确区分活动的客户和现行项目（尚未实行）。 | 技术交流（录制的网络研讨会） | 58 分钟 |
-| [财务和运营应用：从 7.x 升级到 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 请和我们一起加入下一场技术交流，在该技术交流中，将介绍从 7.X 到 8.X 的升级过程。 将介绍各种方案和需要执行才能升级代码和数据的步骤。 还将介绍可扩展性请求方案和如何在适当时提出这些方案。 2 部分中的第 1 部分。 | 技术交流（录制的网络研讨会） | 61 分钟 |
-| [AX2012 到财务和运营升级 (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到 Dynamics 365 for Operations 的概述。 | 技术交流（录制的网络研讨会） | 45 分钟 |
+| [将 AX2012 升级到财务和运营应用 - 2020 年 9 月 3 日](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/tax2012-to-finance-and-operations-apps-upgrade-september-3-2020) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到财务和运营应用的概述。 | 技术交流（录制的网络研讨会） | 66 分钟 |
 | [分析与报告选项：打印和文档路线选择代理](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| 请与我们一起加入这场有关两个相关主题的环境计划技术交流。 首先，我们将讨论适用于 Dynamics 365 Finance Enterprise Edition 的分析和报告解决方案模式和工具。 其次，我们将讨论打印方案和 Document Routing Agent。 | 技术交流（录制的网络研讨会） | 45 分钟 |
-| [课程 MB-300T01-A：Dynamics 365 Finance 的核心常用功能](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | 此课程讨论 Microsoft Dynamics 365 Finance 的核心常用功能。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [课程 MB-300T02-A：Dynamics 365 Finance 中的核心配置](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | 此课程讨论 Microsoft Dynamics 365 Finance 的核心配置任务。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [课程 MB-300T03-A：数据迁移和准备实行 Dynamics 365 Finance](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | 此课程讨论 Microsoft Dynamics 365 Finance 的数据迁移和实行准备。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 | [实施生命周期主页](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | 这些主题介绍与 Microsoft Dynamics 365 Finance 项目的实施生命周期有关的可用程序、工具和流程。 | 文档 | |
 
 ## <a name="financial-management"></a>财务管理<a name="financial-management"></a>
@@ -81,13 +75,10 @@ ms.locfileid: "9067641"
 | [为公共部门配置 Dynamics 365 Finance](/learn/modules/configure-public-sector-dyn365-finance/) | Dynamics 365 Finance 启用对公共部门和私人部门通用的业务流程，例如预算编制、采购、应付帐款和应收帐款任务。 使用公共部门职能可满足为公共部门提供服务的组织的规则、法规和报告要求。 | 自由、自定进度的在线模块 | 1 小时 |
 | [财务申报(DYN305PAL)](https://community.dynamics.com/365/b/techtalks/posts/financial-reporting-april-25-2017) | 此技术交流将讨论 Dynamics 365 for Operations 中的财务申报设置和报表列表。 此会话还将介绍 UAT 环境中的数据市场重置和如何使用 LCS 诊断和搜索修补程序。 | 自由录制 Web 会议 | 57 分钟 |
 | [财务和运营：英国数字税 - Dynamics 365 For Finance And Operations 中的增值税申报 (DYN599PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) | 此会话中，将讨论 HMRC 在英国为增值税申报引入的新提交流程。 将介绍如何在 Dynamics 365 Finance 中配置增值税申报和设置电子消息。 将演示沙盒环境中的 HMRC 应用程序提交流程。 此会话与将实施此功能和向用户提供培训的顾问尤其相关。 | 自由录制 Web 会议 | 63 分钟 |
-| [课程 MB-310T01-A：在 Dynamics 365 Finance 中配置和使用财务管理的关键组件](https://www.microsoft.com/learning/course.aspx?cid=MB-310T01) | 您可以设置和输入固定资产的购置信息，然后通过对固定资产进行折旧并设置资本化阈值，对固定资产进行管理。 处理固定资产的方式必须与国际会计标准和各国家或地区的会计法相符。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 2 天 |
-| [课程 MB-310T02-A：在财务和运营中配置和使用应付帐款、应收帐款和收款](https://www.microsoft.com/learning/course.aspx?cid=MB-310T02) | 成本核算允许您从不同的数据源收集数据，如总帐、子分类帐、预算和统计信息。 然后可以分析、汇总和评估成本数据，因而管理层在价格更新、预算、成本控制等方面可以做出最有利的决策。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [课程 MB-310T03-A：在财务和运营中配置和使用预算编制、固定资产和其他功能](https://www.microsoft.com/learning/course.aspx?cid=MB-310T03) | 您可以为期间或年度完成结转过程。 结转流程为新期间准备系统。 了解如何在 Dynamics 365 Finance 中准备、配置和执行定期流程。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
 
 ## <a name="exams"></a>考试<a name="exams"></a>
 
-| 内容 | 说明 | 格式 |
+| 内容 | Description | 格式 |
 |---|---|---|
 | [考试 MB-300：Microsoft Dynamics 365 Unified Operations 核心](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：使用常用功能和实施工具，配置安全、流程和选项，执行数据迁移，以及验证和支持解决方案。 | 考试，成本取决于地区 |
 | [考试 MB-310：Microsoft Dynamics 365 Finance、Financials](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | 此考试衡量您完成以下技术任务的能力：设置和配置财务管理，管理和实施常见流程，实施和管理应付帐款和应收帐款，以及管理预算编制和固定资产。 | 考试，成本取决于地区 |

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357633"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423587"
 ---
 # <a name="inventory-visibility-public-apis"></a>Inventory Visibility 公共 API
 
@@ -41,6 +41,8 @@ ms.locfileid: "9357633"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | 过帐 | [设置/覆盖现有库存数量](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | 过帐 | [创建一个预留事件](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | 过帐 | [创建多个预留事件](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | 过帐 | [撤销一个预留事件](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | 过帐 | [撤销多个预留事件](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | 过帐 | [创建一个计划现有库存更改](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | 过帐 | [创建多个计划现有库存更改](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | 过帐 | [使用过帐方法查询](#query-with-post-method) |
@@ -56,7 +58,7 @@ ms.locfileid: "9357633"
 > 
 > 批量 API 最多可为每个请求返回 512 条记录。
 
-Microsoft 提供了现成的 *Postman* 请求集合。 可以使用以下共享链接将此集合导入到 *Postman* 软件中：<https://www.getpostman.com/collections/ad8a1322f953f88d9a55>。
+Microsoft 提供了现成的 *Postman* 请求集合。 可以使用以下共享链接将此集合导入到 *Postman* 软件中：<https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>。
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>根据 Lifecycle Services 环境查找终结点
 
@@ -168,9 +170,9 @@ Microsoft 提供了现成的 *Postman* 获取令牌集合。 可以使用以下�
 
 下表汇总了 JSON 正文中各字段的含义。
 
-| 字段 ID | 说明 |
+| 字段 ID | Description |
 |---|---|
-| `id` | 特定更改事件的唯一 ID。 此 ID 用于确保如果在发布过程中与服务的通信失败，重新提交事件不会导致同一事件在系统中算作两次。 |
+| `id` | 特定更改事件的唯一 ID。 如果由于服务失败而导致重新提交，此 ID 用于确保同一事件不会在系统中被计算两次。 |
 | `organizationId` | 链接到事件的组织的标识符。 此值将在 Supply Chain Management 中映射到组织或数据区域 ID。 |
 | `productId` | 产品的标识符。 |
 | `quantities` | 必须充当现有库存数量的更改量的数量。 例如，如果将 10 本新帐簿添加到货位，则此值将为 `quantities:{ shelf:{ received: 10 }}`。 如果从货位中移除或出售了三本帐簿，则此值将为 `quantities:{ shelf:{ sold: 3 }}`。 |
@@ -178,7 +180,7 @@ Microsoft 提供了现成的 *Postman* 获取令牌集合。 可以使用以下�
 | `dimensions` | 动态键-值对。 这些值将映射到 Supply Chain Management 中的某些维度。 但是，也可以添加自定义维度（例如，_来源_）以指示事件来自 Supply Chain Management 还是外部系统。 |
 
 > [!NOTE]
-> `SiteId` 和 `LocationId` 参数构造[分区配置](inventory-visibility-configuration.md#partition-configuration)。 因此，在创建现有库存更改事件时，必须在维度中指定这些参数，设置或覆盖现有库存数量，或创建预留事件。
+> `siteId` 和 `locationId` 参数构造[分区配置](inventory-visibility-configuration.md#partition-configuration)。 因此，在创建现有库存更改事件时，必须在维度中指定这些参数，设置或覆盖现有库存数量，或创建预留事件。
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>创建一个现有库存更改事件
 
@@ -216,14 +218,14 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ Body:
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -389,7 +391,7 @@ Body:
 
 调用预留 API 时，可以通过在请求正文中指定 `ifCheckAvailForReserv` 布尔值参数来控制预留验证。 值为 `True` 表示需要验证，而值为 `False` 则表示不需要验证。 默认值为 `True`。
 
-如果要取消预留或撤消指定的库存数量，请将数量设置为负数，然后将 `ifCheckAvailForReserv` 参数设置为 `False` 以跳过验证。
+如果要撤销预留或撤消指定的库存数量，请将数量设置为负数，然后将 `ifCheckAvailForReserv` 参数设置为 `False` 以跳过验证。 还有一个专用的撤消 API 也可以完成此任务。 两种方法的不同之处仅在于调用这两个 API 的方式。 将 `reservationId` 与 *撤消* API 结合使用可以更轻松地撤销特定的预留事件。 有关更多信息，请参阅 [_撤消一个预留事件_](#reverse-reservation-events)一节。
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ Body:
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+以下示例显示了一个成功的响应。
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>创建多个预留事件
 
-此 API 是[单事件 API](#create-one-reservation-event) 的批量版本。
+此 API 是[单事件 API](#create-reservation-events) 的批量版本。
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>撤销预留事件
+
+*撤消* API 用作 [*预留*](#create-reservation-events)事件的撤销操作。 它提供了一种方法来撤销由 `reservationId` 指定的预留事件或减少预留数量。
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a>撤销一个预留事件
+
+创建预留时，`reservationId` 将包含在响应正文中。 您必须提供相同的 `reservationId` 才能取消预留，并包括用于预留 API 调用的相同 `organizationId` 和 `dimensions`。 最后，指定表示要从先前预留中释放的项目数的 `OffsetQty` 值。 预留可以完全或部分撤销，具体取决于指定的 `OffsetQty`. 例如，如果预留了 *100* 个单位的项目，您可以指定 `OffsetQty: 10` 来撤消初始预留量 *10*。
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+以下代码显示了正文内容的示例。
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+以下代码显示了成功响应正文的示例。
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> 在响应正文中，当 `OffsetQty` 小于或等于预留数量时，`processingStatus` 将是“*success*”，`totalInvalidOffsetQtyByReservId` 将是 *0*。
+>
+> 如果 `OffsetQty` 大于预留量，`processingStatus` 将是“*partialSuccess*”，`totalInvalidOffsetQtyByReservId` 将是 `OffsetQty` 与预留量之间的差值。
+>
+>例如，如果预留的数量为 *10*，`OffsetQty` 的值为 *12*，`totalInvalidOffsetQtyByReservId` 将是 *2*。
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a>撤销多个预留事件
+
+此 API 是[单事件 API](#reverse-one-reservation-event) 的批量版本。
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>查询现有库存
 
-使用 _查询现有库存_ API 提取产品的当前现有库存数据。 API 当前最多支持按 `ProductID` 值查询 100 个单个项。 也可以在每个查询中指定多个 `SiteID` 值和 `LocationID` 值。 最大限制定义为 `NumOf(SiteID) * NumOf(LocationID) <= 100`。
+使用 *查询现有库存* API 提取产品的当前现有库存数据。 API 当前最多支持按 `productID` 值查询 5000 个单个项。 也可以在每个查询中指定多个 `siteID` 值和 `locationID` 值。 最大限制由以下方程式定义：
+
+*NumOf(SiteID) \* NumOf(LocationID) <= 100*。
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>使用过帐方法查询
 
@@ -517,7 +629,7 @@ Body:
 - `productId` 中可以包含一个或多个值。 如果它是空数组，将返回所有产品。
 - `siteId` 和 `locationId` 用于在库存可见性中分区。 您可以在 *查询现有库存* 请求中指定多个 `siteId` 和 `locationId` 值。 在当前版本中，必须同时指定 `siteId` 和 `locationId` 值。
 
-`groupByValues` 参数应遵循您的索引配置。 有关详细信息，请参阅[产品索引层次结构配置](./inventory-visibility-configuration.md#index-configuration)。
+我们建议您使用 `groupByValues` 参数来遵循您的索引配置。 有关详细信息，请参阅[产品索引层次结构配置](./inventory-visibility-configuration.md#index-configuration)。
 
 `returnNegative` 参数控制结果中是否包含负条目。
 
@@ -530,13 +642,13 @@ Body:
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Body:
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -577,7 +689,7 @@ Query(Url Parameters):
 下面是示例获取 URL。 此获取请求与前面提供的过帐示例完全相同。
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>可承诺

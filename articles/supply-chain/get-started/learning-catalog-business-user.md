@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d43b9b331a8a88ac1282acc33dabe7b71bca57b7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 82420ad8dae12e4a47290599a5bbd0d15a7f3c29
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124287"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423846"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 用户学习目录
 
@@ -25,11 +25,10 @@ ms.locfileid: "9124287"
 
 以下目录的组织方式为从核心知识到具体领域，从最基础到最高级。 如果内容存在多种格式，我们会告知您，这样您就可以选择最符合您的需要的培训格式。
 
-## <a name="get-started"></a>入门<a name="get-started"></a>
+## <a name="get-started"></a>开始<a name="get-started"></a>
 
-| 内容 | 说明 | 格式 | 长度 |
+| 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
-| [了解 Microsoft Dynamics 365 和 Power Platform 的业务价值](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | 您是否有兴趣了解业务应用程序？ 也许您不知道从哪里开始使用 Microsoft Dynamics 365 和 Power Platform 应用程序？ 了解业务应用程序的力量如何帮助您转变业务。 | 自由、自定进度的在线学习路径 | 8 小时 |
 | [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
 | [开始使用财务和运营应用](/learn/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [开始使用 Dynamics 365 Supply Chain Management 的资产管理](/learn/modules/get-started-asset-management/index) | 资产管理是 Dynamics 365 Supply Chain Management 中的一个模块，用于管理资产和维护作业。 可通过资产管理高效管理和执行与管理和处理公司中的多种设备（如机器、生产设备和汽车）有关的任务。 资产管理支持多个行业的解决方案。 | 自由、自定进度的在线学习模块 | 1 小时 |

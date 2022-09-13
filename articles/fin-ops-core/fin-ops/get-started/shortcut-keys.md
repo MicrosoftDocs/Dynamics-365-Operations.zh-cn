@@ -2,7 +2,7 @@
 title: 键盘快捷方式
 description: 本文概述使用财务和运营应用时可使用的快捷键组合。
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357569"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405426"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,10 +88,12 @@ ms.locfileid: "9357569"
 | 打开“筛选器”窗格（或如果“筛选器”窗格已打开，在“筛选器”窗格和主窗体之间切换） | Alt+M、F 或 Ctrl+F3       |
 | 关闭“筛选器”窗格（焦点在“筛选器”窗格内）                                                               | Esc                      |
 | 打开高级筛选/排序                                                                                        | Ctrl+Shift+F3            |
+| 应用快速筛选器（当焦点位于快速筛选器时）                                                              | Enter                    |
+| 应用网格筛选器（当焦点位于列标题的筛选器字段时）                                             | Enter                    |
 
 ## <a name="form-shortcuts"></a>窗体快捷方式
 
-| 要执行的操作                                    | 按             |
+| 要执行的操作                                    | 按              |
 |-----------------------------------------------|-------------------|
 | 创建新记录                           | Alt+N             |
 | 删除记录                               | Alt+Del 或 Alt+F9 |
@@ -160,9 +163,10 @@ ms.locfileid: "9357569"
 | 要执行的操作                                                                   | 按                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | 打开超链接                                                           | Ctrl+Enter                    |
+| 打开超链接（当焦点位于只读控件时）<br><br>**注意：** 此快捷方式仅在启用 **标准化组合框和查找控件的键盘交互** 功能时应用                   | Enter    |
 | 在日期字段中输入会话日期                                       | 日                             |
 | 在日期字段中输入当前日期                                       | 二                             |
-| 打开查找、组合框、日期选择器、拖放对话框                         | Alt+向下箭头                |
+| 打开查找、组合框、日期选择器、拖放对话框                         | Alt+向下箭头<br><br>输入（在启用 **标准化组合框和查找控件的键盘交互** 功能时）                |
 | 关闭查找、组合框、日期选择器、拖放对话框                        | Esc                           |
 | 将焦点移到查找内（在查找已打开时）                   | Alt+向下箭头                |
 | 打开控件的增强预览。                                          | Alt+向上箭头                  |

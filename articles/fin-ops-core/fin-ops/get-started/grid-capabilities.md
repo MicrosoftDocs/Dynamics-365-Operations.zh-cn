@@ -2,7 +2,7 @@
 title: 网格功能
 description: 本文介绍 grid 控件的几个强大功能。 必须启用新的网格功能才能访问这些功能。
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258938"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405457"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -178,20 +178,22 @@ ms.locfileid: "9258938"
 
 默认情况下，将在版本 10.0.21 中开始启用此功能。 目标是在 2022 年 10 月必须启用。
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[开发人员] 让单个页面退出使用新网格 
+## <a name="developer-topics"></a>开发人员主题
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[开发人员] 让单个页面退出使用新网格 
 如果您的组织发现使用新网格时存在一些问题的页面，可以使用 API 允许单个窗体使用旧版网格控件，同时仍然允许系统的其余部分使用新网格控件。 要让单个页面退出新网格，请在窗体的 `run()` 方法中添加以下 post `super()` 调用。
 
 ```this.forceLegacyGrid();```
 
 此 API 最终将被弃用，以便允许删除旧网格控件。 但是，在宣布弃用后，它将至少可持续使用 12 个月。 如果有任何问题需要使用此 API，请向 Microsoft 报告。
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>在之前选择退出网格后，强制页面使用新网格
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>在之前选择退出网格后，强制页面使用新网格
 如果您从使用新网格的过程中已选择退出单个页面，您可能需要稍后在解决基本问题后重新启用新网格。 要执行此操作，您只需删除 `forceLegacyGrid()` 调用即可。 除非发生以下任一情况，否则更改不会生效：
 
 - **环境重新部署**：更新和重新部署环境后，系统会自动清除存储了已选择退出新网格 (FormControlReactGridState) 的页面的表。
 - **手动清除表**：对于开发方案，您需要使用 SQL 清除 FormControlReactGridState 表，然后重新启动 AOS。 此操作组合将重置已选择退出新网格的页面缓存。
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[开发人员] 选择将单个网格退出“先于系统键入”功能
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[开发人员] 选择将单个网格退出“先于系统键入”功能
 已经出现了一些网格不适合使用 *先于系统键入* 功能的场景。 （例如，验证行时触发的某些代码会导致触发数据源研究，然后该研究可能会损坏现有行上未提交的编辑。）如果您的组织发现此类场景，可以使用 API，让开发人员选择将单个网格退出异步行验证，还原到旧版行为。
 
 在网格中禁用异步行验证时，如果当前行出现验证问题时，用户无法创建新行或移至网格中的其他现有行。 此操作的一个副作用是，无法将表从 Excel 粘贴到财务和运营网格中。
@@ -204,13 +206,18 @@ ms.locfileid: "9258938"
 > - 此调用应仅在特殊情况下调用，它不应成为所有网格的常规选择。
 > - 我们建议您不要在窗体加载后运行时切换此 API。
 
-## <a name="developer-size-to-available-width-columns"></a>[开发人员]尺寸到可用宽度列
+### <a name="developer-size-to-available-width-columns"></a>[开发人员]尺寸到可用宽度列
 如果开发人员将新网格内的列的 **WidthMode** 属性设置为 **SizeToAvailable**，这些列的初始宽度会与将此属性设置为 **SizeToContent** 时的宽度相同。 不过，它们会拉伸以使用网格内任何可用的额外宽度。 如果将多个列的此属性设置为 **SizeToAvailable**，所有这些列将在网格内共享任何可用的额外宽度。 但是，如果用户手动调整这些列中一个列的大小，该列将变为静态。 它将保持该宽度，不会再拉伸，占用可用的额外网格宽度。
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[开发人员] 使用向下键指定创建新行时接收初始焦点的列
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[开发人员] 使用向下键指定创建新行时接收初始焦点的列
 正如在 [先于系统输入数据时的差异](#differences-when-entering-data-ahead-of-the-system)部分中所讨论的那样，如果启用了“先于系统键入”功能，并且用户使用 **向下键** 创建新行，则默认行为是将焦点放在新行的第一列中。 此体验可能不同于旧网格中的体验，或者不同于选择 **新建** 按钮时的体验。
 
 用户和组织可以创建为数据录入优化的已保存视图。 （例如，您可以重新排序列，以便第一列是要开始在其中输入数据的列。）此外，从版本 10.0.29 开始，组织可使用 **selectedControlOnCreate()** 方法调整此行为。 此方法允许开发人员使用 **向下键** 指定创建新行时接收初始焦点的列。 作为输入，此 API 采用与应接收初始焦点的列相对应的控件 ID。
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[开发人员] 使用非 React 可扩展控件处理网格
+加载网格时，如果系统遇到不基于 React 的可扩展控件，系统将强制旧网格呈现。 当用户第一次遇到这种情况时，将显示一条消息，指示页面需要刷新。 之后，此页面将自动加载旧网格，而不会向用户发出任何进一步的通知，直到下一次系统更新。 
+
+要永久克服这种情况，可扩展控件作者可以创建控件的 React 版本来在网格中使用。  完成开发后，控件的 X++ 类可以使用 **FormReactControlAttribute** 属性进行修饰，来指定要为该控件加载的 React 包的位置。 示例请参见 `SegmentedEntryControl` 类。  
 
 ## <a name="known-issues"></a>已知问题
 本节维护新网格控件的已知问题列表。
@@ -218,9 +225,12 @@ ms.locfileid: "9258938"
 ### <a name="open-issues"></a>未解决问题
 - 启用 **新网格控件** 功能后，某些页面将继续使用现有的网格控件。 在以下情况下会发生这种情况：
  
-    - 页面上存在以多列呈现的卡列表。
-    - 页面上存在分组卡列表。
-    - 具有非反应性可扩展控件的网格列。
+    - [已解决] 页面上存在以多列呈现的卡列表。
+        - 从版本 10.0.30 开始，**新建 grid 控件** 支持这种类型的卡列表。 可以删除出于此目的对 forceLegacyGrid() 进行的任何使用。 
+    - [已解决] 页面上存在分组卡列表。
+        - 从版本 10.0.30 开始，**新建 grid 控件** 支持分组卡列表。 可以删除出于此目的对 forceLegacyGrid() 进行的任何使用。 
+    - [已解决] 具有非反应性可扩展控件的网格列。
+        - 可扩展控件可以提供控件的 React 版本，该版本将在放置在网格中时加载，并调整控件定义以在网格中使用时加载此控件。 有关更多详细信息，请参阅相应的开发人员章节。 
 
     当用户第一次遇到这些情况之一时，将显示一条有关刷新页面的消息。 出现此消息后，页面将继续为所有用户使用现有网格，直到下一个产品版本更新。 将来的更新中会考虑更好地处理这些情况，以可以使用新网格。
 

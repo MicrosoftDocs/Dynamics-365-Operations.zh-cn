@@ -1,23 +1,23 @@
 ---
 title: Dynamics 365 Finance 的管理员学习目录
 description: 查找 Dynamics 365 Finance 管理员的所有培训选项。
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/23/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 811ff0eb9d13c34a5fa21014415981574833d256
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 7772de29030475c45a86f305e74a7048508887ba
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065239"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424515"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Dynamics 365 Finance 管理员的学习目录
 
@@ -62,9 +62,7 @@ ms.locfileid: "9065239"
 | 内容 | Description  | 格式 | Length    |
 |---------|--------------|--------|-----------|
 | [将 Dynamics AX 2012 升级到财务和运营应用](/learn/paths/upgrade-ax-2012-finance-operations/) | 了解将 Dynamics AX 2012 解决方案成功升级到财务和运营应用的最重要元素和最佳做法。 从发现关键体系结构差异、开始使用升级流程以及代码和数据升级工具的最初步骤到基于最新功能重新设计集成、分析和报告的最佳方法。 | 自由、自定进度的在线学习路径 | 7 小时 |
-| [财务和运营：从 7.x 升级到 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | 请和我们一起加入下一场技术交流，在该技术交流中，将介绍从 7.X 到 8.X 的升级过程。 将介绍各种方案和需要执行才能升级代码和数据的步骤。 还将介绍可扩展性请求方案和如何在适当时提出这些方案。 | 自由录制 Web 会议 | 61 分钟 |
-| [如何从 7.0 (RTW)/7.1（发行版 1611）升级到 7.2（2017 年 7 月）(DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | 在此会话中，将介绍如何从 Dynamics 365 财务和运营应用程序 v7.0 (RTW) 和 v7.1 (1611) 升级到 v7.2（2017 年 7 月）。 将明确区分活动的客户和现行项目（尚未实行）。 | 自由录制 Web 会议 | 58 分钟 |
-| [AX2012 到 Dynamics 365 for Operations 升级 (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到 Dynamics 365 for Operations 的概述。 | 自由录制 Web 会议 | 45 分钟 |
+| [将 AX2012 升级到财务和运营应用 - 2020 年 9 月 3 日](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/tax2012-to-finance-and-operations-apps-upgrade-september-3-2020) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到财务和运营应用的概述。 | 技术交流（录制的网络研讨会） | 66 分钟 |
 | [AX2009 迁移工具](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | 此会话讨论可用于帮助您从 AX2009 迁移到 D365 for Operations 的工具。 | 自由录制 Web 会议 | 55 分钟 |
 
 ## <a name="servicing"></a>服务<a name="servicing"></a>
@@ -74,8 +72,7 @@ ms.locfileid: "9065239"
 | [财务和运营：功能管理 (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | 有关功能管理体验的技术交流。 提供一个工作区，可在其中查看、启用、禁用和安排每个发行版中已交付的功能。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。 若要查看 10.0.3 中交付了哪些功能和我们对未来发行版的计划，请参加此会议。 | 自由录制 Web 会议 | 47 分钟 |
 | [财务和运营：服务、支持和维护生产 (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | 有关如何有效支持，维护和服务 Dynamics 365 Finance 生产环境的技术交流。 | 自由录制 Web 会议 | 53 分钟 |
 | [财务和运营：Microsoft 管理的持续更新 (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | 财务和运营的持续更新节奏已开始！ 请在这个小时加入我们讨论 Microsoft 管理的持续更新，这是 Lifecycle Services 中已提供，并且将来的更新中将提供的用户体验。 | 自由录制 Web 会议 | 61 分钟 |
-| [Microsoft 管理的持续更新：新增功能 (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | 这个小时介绍初始公布 Microsoft 管理的持续更新依赖的新增功能。 我们将讨论更新的频率，我们如何响应了您对流程的宝贵反馈，并查看即将推出的 Lifecycle Services 用户体验，通过此用户体验，您可以管理您的更新。 | 自由录制 Web 会议 | 56 分钟 |
-| [Microsoft 管理的持续更新 (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | 将考虑 Microsoft 有关使用最新发行版让您的系统保持最新的计划。 将介绍时间线、主要更新和次要更新的频率、计划的过程、影响，以及要获得最佳结果应该执行的操作。 | 自由录制 Web 会议 | 62 分钟 |
+| [财务和运营：Microsoft 管理的持续更新 - 2019 年 4 月 2 日](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | Finance and Operations 的持续更新节奏已开始！ 请在这个小时加入我们讨论 Microsoft 管理的持续更新，这是 Lifecycle Services 中已提供，并且将来的更新中将提供的用户体验。 | 技术交流（录制的网络研讨会） | 61 分钟 |
 | [监控、优化顾问和关键 KB (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | 我们将讨论监控功能和 Microsoft 在您的生产环境中为您监控哪些对象，优化顾问及其扩展方法，LCS 中的“关键 X++ 更新”体验，以及 LCS 中的“报告生产中断”选项的最佳实践。 | 自由录制 Web 会议 | 40 分钟 |
 
 ## <a name="testing"></a>正在测试<a name="testing"></a>
@@ -87,4 +84,3 @@ ms.locfileid: "9065239"
 | [财务和运营：Dynamics 365 的性能诊断工具 (DYN541PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-troubleshooting-tools-for-dynamics-365-12-14-18) | 在此技术交流中，将提供可用于诊断 Microsoft Dynamics 365 Finance 性能问题的不同工具。 此会话中包含一些基于方案的演示和有关如何解决典型性能问题的重要指导。 | 自由录制 Web 会议 | 64 分钟 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

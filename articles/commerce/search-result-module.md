@@ -2,7 +2,7 @@
 title: 搜索结果模块
 description: 本文介绍搜索结果模块和如何将其添加到 Microsoft Dynamics 365 Commerce 中的站点页。
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: eeb7cd0769fcb866a3d7dcc03e8e87daf24b2c5d
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286802"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405285"
 ---
 # <a name="search-results-module"></a>搜索结果模块
 
@@ -86,48 +86,16 @@ ms.locfileid: "9286802"
 1. 在 **查看并完成** 下面，查看页面配置。 如果您需要编辑页面信息，请选择 **返回**。 如果页面信息正确，请选择 **创建页面**。
 1. 选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
 
-## <a name="enable-inventory-awareness-for-the-search-results-module"></a>为搜索结果模块启用库存意识
+## <a name="inventory-aware-search-results-module"></a>库存感知搜索结果模块
 
-客户通常希望电子商务网站在整个浏览体验中都能感知库存，以便在产品没有库存时他们可以决定该做什么。 可以将搜索结果模块配置为包含库存数据并提供以下体验：
+可以将搜索结果模块配置为包含库存数据并提供以下体验：
 
-- 随产品显示库存可用性标签。
+- 在产品旁边显示库存水平标签。
 - 从产品列表中隐藏库存不足的产品。
 - 在产品列表末尾显示库存不足的产品。
-- 按库存级别在搜索结果中筛选产品。
+- 支持基于库存的产品筛选。
 
-若要启用这些体验，您必须首先在 **功能管理** 工作区中启用 **用于了解库存的增强型电子商务产品发现** 功能。
-
-> [!NOTE]
-> **用于了解库存的增强型电子商务产品发现** 功能在 Commerce 版本 10.0.20 及更高版本中可用。
-
-库存感知产品搜索使用产品属性来获取库存可用性信息。 作为该功能的先决条件，必须创建专用的产品属性，必须为其输入库存数据，并且必须将它们添加到在线渠道。 
-
-要创建专用产品属性以支持库存感知搜索结果模块，请执行以下步骤。
-
-1. 在 Headquarters 中，转到 **Retail 和 Commerce \> Retail 和 Commerce IT \> 产品和库存**。
-1. 选择并打开 **使用库存水平填充产品属性**。
-1. 在此对话框中，输入以下信息：
-
-    1. 在 **产品属性和类型名称** 字段中，为将创建以获取库存数据的专用产品属性指定名称。
-    1. 在 **库存可用性依据** 字段中，选择库存水平计算应基于的数量类型（例如，**实际可用**）。 
-
-1. 在后台运行作业。 由于产品库存在全渠道环境中不断变化，因此我们强烈建议您将此作业安排为批处理。
-
-> [!NOTE]
-> 为了在您的电子商务网站上的页面和模块之间一致地计算库存水平，请确保为 Commerce Headquarters 中的 **库存可用性依据** 设置和 Commerce 站点构建器中的 **库存水平依据** 设置选择相同的数量类型。 有关站点构建器中库存设置的详细信息，请参阅[应用库存设置](inventory-settings.md)。
-
-若要为在线渠道配置产品属性，请执行以下步骤。 
-
-1. 在 Headquarters 中，转到 **Retail 和 Commerce \> 渠道设置 \> 渠道类别和产品属性**。
-1. 选择一个要为其启用库存感知搜索结果模块的在线渠道。
-1. 选择并打开关联的属性组，然后将新创建的产品属性添加到其中。
-1. 对于 10.0.27 之前的 Commerce 版本，选择 **设置属性元数据**，选择新添加的产品属性，然后启用 **在渠道上显示属性**、**可检索**、**可细化**、**可查询** 选项。
-1. 转到 **Retail 和 Commerce \> Retail 和 Commerce IT \> 配送计划**，运行 **1150（目录）** 作业。 如果您将 **使用库存水平填充产品属性** 安排为批处理，我们建议您还将 1150 作业安排为以相同频率运行的批处理。
-
-> [!NOTE]
-> 对于搜索结果模块中显示的产品，库存级别在主产品级别而不是单个变型级别显示。 它只有两个可能的值：“有货”和“库存不足”。 此值的实际标签从[库存级别配置文件](inventory-buffers-levels.md)定义中检索。 仅当主产品的所有变型都库存不足时，才将其视为库存不足。
-
-完成上述所有配置步骤后，搜索结果页面上的优化器将显示基于库存的筛选器，搜索结果模块将在后台检索库存数据。 然后，您可以在 Commerce 站点构建器中配置 **产品列表页的库存设置** 设置，以控制搜索结果模块显示库存不足产品的方式。 有关详细信息，请参阅[应用库存设置](inventory-settings.md)。
+要启用这些体验，您必须首先在 Commerce headquarters 中启用 **用于了解库存的增强型电子商务产品发现** 功能，然后配置一些先决条件设置。 有关详细信息，请参阅[库存感知产品列表](inventory-aware-product-listing.md)。
 
 ## <a name="additional-resources"></a>其他资源
 

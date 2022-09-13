@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
+ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357624"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427068"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>初始化 Commerce Scale Unit（云）
 
@@ -73,8 +73,6 @@ Commerce Scale Unit 可以在以下区域部署。
 | EMEA            | 欧洲北部        | 正式发布    |  没有评论。 |
 | EMEA            | 英国南部            | 正式发布 |    没有评论。                          |
 | EMEA            | 英国西部             | 正式发布 |    没有评论。                          |
-| 瑞士     | 瑞士北部   | 有限容量    | 需要审批流程。 |
-| 阿拉伯联合酋长国             | 阿拉伯联合酋长国北部           | 有限容量    | 需要审批流程。 |
 
 有限容量区域的部署容量会受到极大限制。 将根据具体情况对部署请求进行评估。 如果您对在容量有限的区域进行部署有迫切的业务需求，您可以提交支持请求以加入等待列表。 限制容量区域目前不允许部署 Commerce Scale Unit。 
 

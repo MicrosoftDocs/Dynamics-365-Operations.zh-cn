@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306045"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388532"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>安装和设置 Inventory Visibility
 
@@ -56,7 +56,9 @@ ms.locfileid: "9306045"
 1. 在环境页上向下滚动，直到在 **Power Platform 集成** 部分中找到 **环境加载项** 部分。 可以在这里找到 Dataverse 环境名称。 确认 Dataverse 环境名称是您要用于库存可见性的名称。
 
     > [!NOTE]
-    > 目前仅支持使用 LCS 创建的 Dataverse 环境。 如果您的 Dataverse 环境是使用其他方法创建的（例如，使用 Power Apps 管理中心创建的），并且其已链接到您的 Supply Chain Management 环境，您必须首先通过 [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) 联系库存可见性产品团队解决映射问题。 然后就可以安装库存可见性。
+    > 目前仅支持使用 LCS 创建的 Dataverse 环境。 如果您的 Dataverse 环境是使用其他方法创建的（例如，使用 PowerApps 管理中心创建的），并且其已链接到您的 Supply Chain Management 环境，您必须在安装 Inventory Visibility 加载项之前先解决映射问题。
+    >
+    > 在没有为 Power Platform 集成设置 LCS 时，您的双重写入环境可以链接到 Dataverse 实例。 此链接不匹配可能会导致意外行为。 我们建议 LCS 环境详细信息与您在双重写入中连接到的内容匹配，以便业务事件、虚拟表和加载项可以使用相同的连接。有关如何解决映射问题的信息，请参阅[链接不匹配](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch)。 解决映射问题后，您可以继续安装 Inventory Visibility。
 
 1. 在 **环境加载项** 部分中，选择 **安装新加载项**。
 
@@ -140,11 +142,11 @@ ms.locfileid: "9306045"
 1. 在导航栏上选择 **环境**
 1. 选择与您的 LCS 环境绑定的 Dataverse 环境。
 1. 转到 **解决方案**，按以下顺序删除下面的解决方案：
-    1. Dynamics 365 解决方案中 Inventory Visibility 应用程序的定位点解决方案
-    1. Dynamics 365 FNO SCM 库存可见性应用程序解决方案
-    1. 库存服务配置
-    1. 库存可见性单机版
-    1. Dynamics 365 FNO SCM 库存可见性基础解决方案
+    1. Dynamics 365 Inventory Visibility - 定位点
+    1. Dynamics 365 Inventory Visibility - 应用程序
+    1. Dynamics 365 Inventory Visibility - 控件
+    1. Dynamics 365 Inventory Visibility - 插件
+    1. Dynamics 365 Inventory Visibility - 基础
 
     删除这些解决方案之后，也将删除表中存储的数据。
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334766"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403648"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Dynamics 365 Supply Chain Management 10.0.28 的新增功能或更改（2022 年 8 月）
 
@@ -50,7 +50,7 @@ ms.locfileid: "9334766"
 | 库存和仓库管理 | (印度)对于转移价格规则，“源仓库代码”设置为“所有”时将会忽略库位 | <p>此功能仅适用于印度本地化。 它使设置存货转移中物料的转移价格的流程更加直观。</p><p>您可以通过为每个物料配置转移定价规则来设置转移价格。 执行此配置的一种方法是包括规则行，其中 **源仓库代码** 字段设置为 *全部*。 此设置指示无论从哪个仓库中领取物料，都应该应用由行定义的转移价格。 启用此功能后，**源仓库代码** 字段设置为 *全部* 的价格规则将忽略 **位置** 设置。 因此，无论在转移单上指定的位置如何，该规则都将适用。 此行为可能是预期行为，因为位置位于存储维度层次结构中的仓库下面。</p><p>如果没有此功能，则仅在转移单上的位置与为规则设置的位置完全匹配时，系统才将应用此类规则。 （如果为规则设置了空白位置，则系统仅将该规则应用于该位置也具有空白值的转移单。）</p> |
 | 库存和仓库管理 | 库存现有量报表数据清除 | 此功能提供了一种清除用于创建 *库存现有量报表存储* 报表的数据的方法。 |
 | 生产控制 | 为服务协议和服务订单行分配项目活动 | 此功能将名为 **项目活动** 的字段添加到服务协议和服务订单行，以便您可以为它们设置项目活动。 当您过帐要求设置项目活动的服务管理项目日记帐时，此功能将有助于防止锁定错误。  |
-| 仓库管理 | 针对管理员或类似的受信任用户的转移行手动领料服务 | 利用此功能，管理员可以手动选取与转移行相关的库存交易。 这些行包括已发放到仓库的行。 管理员应仅在特殊情况下执行此选取，例如系统处于损坏状态时。 |
+| 仓库管理 | 针对管理员或类似的受信任用户的转移行手动领料服务 | 利用此功能，管理员可以手动选取与转移行相关的库存交易。 这些行包括已发放到仓库的行。 管理员应仅在特殊情况下执行此选取，例如系统处于损坏状态时。 有关详细信息，请参阅[手动处理销售和转移行领料异常](../warehousing/manual-order-line-picking-exception-handling.md)。 |
 
 ## <a name="new-and-updated-documentation-resources"></a>新的和更新的文档资源
 
