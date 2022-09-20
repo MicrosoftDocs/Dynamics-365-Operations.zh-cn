@@ -3574,10 +3574,12 @@
                           href: localizations/rus-inventory-profile-overview.md
                         - name: 设置库存配置文件
                           href: localizations/rus-set-up-inventory-profile.md
-                        - name: 在文档和查询中使用库存配置文件
+                        - name: 在单据和查询中使用库存配置文件
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                     - name: 清关
                       items:
+                        - name: 设置清关
+                          href: localizations/rus-set-up-customs-clearance.md
                         - name: 使用清关
                           href: localizations/rus-work-with-customs-clearance.md
                 - name: 报告
@@ -4642,7 +4644,7 @@
                 - name: 成本控制
                   href: cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: 费用管理
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/finance/toc.json
                 - name: 现有库存
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: 发票审核
@@ -4650,11 +4652,11 @@
                 - name: 我的团队
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Project 移动应用程序概览
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/finance/toc.json
                 - name: 项目时间条目
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/finance/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/finance/toc.json
                 - name: 采购订单审核
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: 销售订单

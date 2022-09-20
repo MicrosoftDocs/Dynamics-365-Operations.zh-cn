@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Human Resources 中的新增功能或更改
               items:
+                - name: Human Resources 10.0.30（合并基础结构）
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29（合并基础结构）
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28（合并基础结构）
@@ -478,6 +480,8 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: 简化了员工输入
               href: stream-employee-entry.md
+            - name: 将页眉控件个性化
+              href: hr-worker-header-control.md
             - name: 输入工作人员信息
               href: hr-personnel-enter-worker-information.md
             - name: 未雇用的工作人员
