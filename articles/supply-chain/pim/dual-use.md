@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878894"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460540"
 ---
 # <a name="dual-use-goods"></a>两用商品
 
@@ -85,7 +85,14 @@ ms.locfileid: "8878894"
 1. 在 **外贸** 快速选项卡上，将 **两用产品** 选项设置为 **是**，以将当前产品标识为两用商品。
 1. 将 **两用代码** 字段设置为应用于当前产品的代码。 （您在 **两用类别** 页定义了此代码。）
 
-创建销售订单时，将检查此设置。
+> [!NOTE]
+>
+> 系统在生成销售确认时会进行以下两用检查：
+>
+> 1. 订单中是否包括任何两用商品？
+> 1. 如果包括，目标国家/地区是否要求提供两用证书？
+> 1. 如果包括，运往目标国家/地区的每一种两用商品是否都有证书？这些证书在确认的装运日期内是否有效？
+> 1. 如果问题 1 和问题 2 的答案为“是”，问题 3 的答案为“否”，系统会显示警告，通知用户销售订单中有一件或多件两用商品缺少两用证书。 用户应该可以获得所需的证书并重试，但如果他们愿意，也可以忽略警告，继续进行销售确认。
 
 ## <a name="set-up-dual-use-certificates"></a>设置两用证书
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16141
 ms.assetid: 0b9c8630-9474-4473-80fd-7db5d54b2275
 ms.search.form: SystemParameters
-ms.openlocfilehash: 35dc37f6669a3f47dd82917be0e84d0b8698e8f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2c45a203303181c7ea23e20f8fa1bdce1c827aa2
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282456"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462216"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>为财务和运营应用配置帮助体验
 
@@ -37,7 +37,7 @@ ms.locfileid: "9282456"
 
 [![帮助体系结构。](./media/help-architecture.png)](./media/help-architecture.png)
 
-产品内帮助系统从 docs.microsoft.com 和其他相连网站提取文章。 还提取 Microsoft Dynamics Lifecycle Services (LCS) 中的业务流程建模器 (BPM) 内存储的任务指南。
+产品内帮助系统从 Microsoft Docs 和其他相连网站提取文章。 还提取 Microsoft Dynamics Lifecycle Services (LCS) 中的业务流程建模器 (BPM) 内存储的任务指南。
 
 ## <a name="adding-task-guides"></a>添加任务指南
 
@@ -103,4 +103,3 @@ Microsoft 提供了工具提示，以帮助您开发自定义帮助和将其连�
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

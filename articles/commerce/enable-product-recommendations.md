@@ -2,7 +2,7 @@
 title: 启用产品建议
 description: 本文介绍如何做出基于 Microsoft Dynamics 365 Commerce 客户可用的人工智能-机器学习 (AI-ML) 的产品建议。
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892063"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460013"
 ---
 # <a name="enable-product-recommendations"></a>启用产品建议
 
@@ -36,12 +36,19 @@ ms.locfileid: "8892063"
 1. 确认 Azure AD 标识配置中包含建议的实体。 下面是有关如何执行此操作的详细信息。
 1. 确保已计划实体存储每日刷新到 Azure Data Lake Storage Gen2。 有关更多信息，请参阅[确保实体存储刷新已自动化](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)。
 1. 为实体存储启用 RetailSale 度量。 有关设置此流程的详细信息，请参阅[使用度量](/dynamics365/ai/customer-insights/pm-measures)。
+1. 确保您的环境已在当前支持的区域配置了服务和烹饪区域，如下所示：
+
+    - **支持的烹饪区域：** EU/US/CA/AU。
+    - **支持的服务区域：** US/CA/AU。 如果服务区域与现有支持的区域之一不匹配，建议服务将选择最近的受支持服务区域。
 
 完成上述步骤后，就可以启用建议。
 
+> [!NOTE]
+> 存在一个已知问题，即在完成以下步骤后不会出现建议。 此问题是由环境中的数据流问题引起的。 如果您的环境未显示建议结果，请按照[设置备用建议数据流](set-up-alternate-data-flow.md)中的步骤配置建议服务的备用数据。 您必须具有 Azure 管理员权限才能完成这些步骤。 如果您需要帮助，请联系您的 FastTrack 代表。
+
 ## <a name="azure-ad-identity-configuration"></a>Azure AD 标识配置
 
-只有运行服务架构 (IaaS) 配置的客户才需要执行此步骤。 对于在 Azure Service Fabric 上运行的客户来说，Azure AD 标识配置是自动的，但是建议您验证该设置的配置是否正确。
+只有运行服务架构 (IaaS) 配置的客户需要执行此步骤。 对于在 Azure Service Fabric 上运行的客户来说，Azure AD 标识配置是自动的，但是建议您验证该设置的配置是否正确。
 
 ### <a name="setup"></a>设置
 
@@ -94,9 +101,11 @@ ms.locfileid: "8892063"
 
 [在 Dynamics 365 Commerce 环境中启用 Azure Data Lake Storage](enable-adls-environment.md)
 
+[设置备用建议数据流](set-up-alternate-data-flow.md)
+
 [启用个性化建议](personalized-recommendations.md)
 
-[启用“购买类似外观”建议](shop-similar-looks.md)
+[启用“购买相似外观产品”建议](shop-similar-looks.md)
 
 [选择退出个性化产品建议](personalization-gdpr.md)
 
@@ -111,6 +120,7 @@ ms.locfileid: "8892063"
 [使用演示数据创建建议](product-recommendations-demo-data.md)
 
 [产品建议常见问题](faq-recommendations.md)
+
 
 
 

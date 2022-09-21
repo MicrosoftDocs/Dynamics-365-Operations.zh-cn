@@ -2,19 +2,19 @@
 title: Dynamics 365 Commerce 中的域
 description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中处理域。
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405488"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465185"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中的域
 
@@ -144,9 +144,9 @@ Commerce 提供的 Azure Front Door 实例不支持 apex 域（其中不包含�
 
 - **选项 1** - 使用您的 DNS 提供程序将 apex 域重定向到“www”域。 例如，fabrikam.com 重定向到 `www.fabrikam.com`，其中，`www.fabrikam.com` 是指向 Commerce 托管的 Azure Front Door 实例的 CNAME 记录。
 
-- **选项 2** - 如果您的 DNS 提供商支持 ALIAS 记录，您可以将 apex 域指向 Front Door 端点。 这可确保反映 Front Door 终结点的 IP 更改。
+- **选项 2** - 如果您的 DNS 提供商支持 ALIAS 记录，您可以将 apex 域指向 Azure Front Door 终结点，从而确保反映终结点的 IP 更改。 您必须自己托管 Azure Front Door 实例。
   
-- **选项 3** - 如果您的 DNS 提供商不支持 ALIAS 记录，那么您必须自行设置 CDN 或 Front Door 实例来托管 apex 域。
+- **选项 3** - 如果您的 DNS 提供商不支持 ALIAS 记录，您必须将 DNS 提供商更改为 Azure DNS，并自己托管 Azure DNS 和 Azure Front Door 实例。
 
 > [!NOTE]
 > 如果使用的是 Azure Front Door，还必须在同一订阅中设置 Azure DNS。 Azure DNS 中托管的 apex 域可作为别名记录指向您的 Azure Front Door。 这是唯一解决方案，因为 apex 域必须始终指向 IP 地址。

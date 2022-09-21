@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-11
-ms.openlocfilehash: 4bc8cb16e7960d26adbb9590b4ad83cf46b02838
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 79130e0ef285d6bd5e544f2d6a6368c0393fa7fa
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410753"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474034"
 ---
 # <a name="pricing-settings"></a>定价设置
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 本文介绍 Microsoft Dynamics 365 Commerce headquarters 中定价和折扣管理的各种设置。 这些设置让组织能够在其 Commerce 解决方案中定义定价行为以满足特定的业务需求。
 

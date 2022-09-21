@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 1ac1bc842d5d12ece8951ffed18157e6f9b50d14
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 95102936871e15f8e525abca736fa75927569b34
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228715"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473698"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>异步客户创建模式
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本文介绍 Microsoft Dynamics 365 Commerce 中的异步客户创建模式。
 

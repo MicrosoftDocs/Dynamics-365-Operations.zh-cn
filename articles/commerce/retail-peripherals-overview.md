@@ -2,7 +2,7 @@
 title: 外围设备
 description: 本文介绍与商业外设有关的概念。
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880073"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459984"
 ---
 # <a name="peripherals"></a>外围设备
 
@@ -141,6 +141,9 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 Modern POS 支持 UWP MSR 和扫描仪。 因此，当 Modern POS 准备好从这些设备之一输入，并且已连接属于这些设备类之一的设备时，可以使用该设备。 例如，如果在 Windows 10 计算机中插入一台即插即用条码扫描仪，并且为 Modern POS 配置了条码登录，将在登录页面上激活该条码扫描仪。 无需再执行任何设置。
 
 其他类的 POS 外围设备正在添加到 Windows，如现银箱和收据打印机类。 Modern POS 中对这些新设备的支持待定。
+
+> [!NOTE] 
+> 某些 USB 设备在由称为 [USB 选择性暂停](/windows-hardware/drivers/usbcon/usb-selective-suspend)的 Windows 10 电源管理功能管理时可能会无响应或不可靠。 如果 USB 外围设备无响应，可能需要禁用该设备的选择性暂停功能。 有关详细信息，请参阅[启用选择性暂停](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend)。 
 
 ### <a name="keyboard-wedge"></a>键盘 wedge
 

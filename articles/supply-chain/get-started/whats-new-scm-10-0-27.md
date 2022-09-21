@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ff92e6904b8042232159a0aea095d7a91c17d4b7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 3ce3b2f3524dbeb043717ed9ef5429ea0eea4b8a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124091"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427792"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10027-july-2022"></a>Dynamics 365 Supply Chain Management 10.0.27 的新增功能或更改（2022 年 7 月）
 
@@ -68,7 +68,7 @@ ms.locfileid: "9124091"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>财务和运营应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.27 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.27 的平台更新（2022 年 6 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md)。
+Microsoft Dynamics 365 Supply Chain Management 10.0.27 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.27 的平台更新（2022 年 7 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

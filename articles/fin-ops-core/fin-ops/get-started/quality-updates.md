@@ -2,7 +2,7 @@
 title: 主动质量更新
 description: 本文提供有关主动交付质量更新的信息。
 author: rashmansur
-ms.date: 08/23/2022
+ms.date: 09/12/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9d81cb15e9a127e7bea7ad9b5e0f50a1ee543f71
-ms.sourcegitcommit: 78e85ad49634cd31459fdb7325cb273352bf1501
+ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
+ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9338127"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473597"
 ---
 # <a name="proactive-quality-updates"></a>主动质量更新
 
@@ -58,12 +58,67 @@ ms.locfileid: "9338127"
 - **加强更改审查** – 目前，已经有一个额外的流程步骤来审批更改，以将其包含在质量更新中。 将增加对额外步骤的审查，以帮助减少可能出现的退化。 质量更新中不允许进行中断性变更，加强对更改的审查将有助于确保我们实现这一目标。
 - **可见性** – 我们将通过电子邮件和 Lifecycle Services (LCS) 发送通知，来告知即将进行的主动质量更新。 此外，支持团队和事件负责人将会了解主动部署质量更新的位置。
 - **版本回退** – 将使用外部测试来对主动质量更新中的所有更改进行分组。 如果在主动部署后需要回退，可以通过外部测试系统完成。
-- **沙盒同步指定** – 今天，只有不到 20% 的客户有多个沙盒，并在版本与生产相匹配的位置部署一个沙盒，来帮助进行故障排除。 在不久的将来，我们将为客户引入指定沙盒环境的能力，指定的沙盒环境不应与其他沙盒一起接收主动质量更新部署，而是应稍后与生产环境一起接收。 请注意，如果客户使用沙盒测试比其生产版本更新的版本，该沙盒将收到更新版本的质量更新。
-- 
-## <a name="when-will-proactive-quality-updates-start"></a>主动质量更新何时开始？
+- **沙盒同步指定** – 今天，只有不到 20% 的客户有多个沙盒，并在版本与生产相匹配的位置部署一个沙盒，来帮助进行故障排除。 如果客户使用沙盒测试比其生产版本更新的版本，该沙盒将收到更新版本的质量更新。
+
+## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>质量更新的推出路线图是怎样的？
 
 预计将于 2022 年 9 月或 10 月下旬开始为 Azure 公有云客户分发沙盒环境的主动质量更新。 到时，试用环境也将开始接收主动更新部署。 9 月，将向每个客户发送通知，告知他们其环境的预期计划。 仅受美国食品和药品管理局监管的客户可以对主动更新的分发流程设定例外。 我们仍在研究如何管理受监管的环境以及主权云和政府云客户。
 
 在接下来的六个月内，我们将逐步增加接收主动更新的沙盒环境的比例，直到包括所有指定的环境并逐步更新生产环境。 在整个期间内，我们将进行监控以确保部署过程是无缝的，并确保我们正在达到我们的非破坏性有效负载目标。
 
 由于客户将定期收到较小的有效负载，我们预期保持最新功能的流程会变得更简单。 随着我们展示出在不中断的情况下运行流程的能力，我们将调整更新部署的频率。 此流程已经在针对我们的 Dataverse 平台和应用程序有效地运行，并正在交付预期的服务质量改进。 我们渴望在财务和运营应用程序中迈出同样的一步。
+
+## <a name="when-will-quality-updates-start-for-production-environments"></a>生产环境的质量更新何时开始？
+目前，质量更新仅针对沙盒。 生产环境的更新将在 2022 年 11 月之后开始。
+
+## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>沙盒质量更新的计划是什么？
+有关每个区域的黑暗时间的信息，请参阅[主动质量更新的计划是什么？](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)。
+
+## <a name="how-are-the-dark-hours-handled-for-customers-that-have-one-finance-and-operations-apps-instance-but-are-active-in-multiple-time-zones"></a>对于有一个财务和运营应用实例但在多个时区处于活动状态的客户，黑暗时间是如何处理的？ 
+在存在财务和运营应用实例的黑暗时间之外没有特殊计划，因为我们计划使用 [nZDT](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-does-near-zero-downtime-maintenance-mean) 以破坏性最小的方式推出质量更新。
+
+## <a name="how-will-microsoft-ensure-the-quality-of-these-updates"></a>Microsoft 如何确保这些更新的质量？
+Microsoft 会努力保持发布管道足够高效，以提供小型有效负载，从而保持较低的验证成本。 质量更新中的每个修复都经过严格且安全的部署过程，这有助于提高质量和可靠性，从而减少对客户的影响。 部署将首先在沙盒环境中分阶段进行，然后是生产环境。 分阶段部署允许进行适当的监视来确定进一步部署是否安全。 如果在部署的每组客户中检测到问题，我们将停止推出，并确保推出的每个步骤都有足够的时间让问题浮出水面。 对于每个近期的质量更新，我们将通过更新公共文档和电子邮件来提供计划信息，以便客户可以提前计划。
+
+## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>客户可以推迟、重新计划或暂停质量更新吗？
+否。 质量更新的主要目标是确保为客户持续改进安全性、隐私、可靠性、可用性和性能等基础方面。 推迟或暂停更新，安全性、可用性和可靠性将面临风险。
+
+## <a name="how-can-one-know-the-set-of-changes-that-went-into-a-quality-update-payload"></a>如何得知质量更新有效负载中进行了一系列更改？
+导航到 **质量更新** 部分，您可以在 LCS 的 **环境详细信息** 页面查看质量更新版本中的所有知识库文章。 
+
+## <a name="what-is-the-process-if-a-critical-issue-is-found-after-a-quality-update"></a>如果在质量更新后发现关键问题，推出过程会有怎样的变化？
+关键问题或退化是一个或多个事件，通常会导致多个客户对我们的一项或多项服务的体验下降。 这些问题可能导致计划外停机，包括不可用、性能下降和对服务管理的干扰。 如果由于此类退化对客户产生广泛影响，我们将停止推出质量更新，直到我们能够传达并解决问题。 通常，下一次质量更新将进行必要的修复来恢复推出。
+
+如果一个客户环境受到影响，请联系 Microsoft 支持部门开立票证。 根据具体理由，我们将停止向该项目中的所有其他环境推出质量更新，直到问题得到缓解。
+
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>客户仍然可以从 LCS 手动应用修补程序更新吗？
+是。 为确保与修补程序的工作方式保持一致，修补程序更新仍可应用于 LCS 中的客户环境。 但是，重要的是要注意，作为质量更新的一部分部署的修补程序在部署更新之前会执行标准 SDP。 由于质量更高，这将降低退化风险。 我们建议您选择质量更新而不是手动应用修补程序，以提高可靠性。
+
+## <a name="can-customers-self-install-a-quality-update-build-by-themselves-ahead-of-the-schedule"></a>客户能否提前于计划自行安装质量更新版本？
+是。 您可以主动安装质量更新。 如果环境的当前内部版本等于或高于所安装的质量更新，Microsoft 将跳过更新。
+
+## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>如果某个环境在一周内有即将进行的计划每月服务更新，它是否仍会收到质量更新？
+- 如果在计划进行质量更新后的一周内计划了即将进行的服务更新，则不会应用质量更新。
+- 如果沙盒环境具有与即将进行的质量更新相同或更高的内部版本，将跳过更新。
+- 如果生产环境具有与即将进行的质量更新相同或更高的内部版本，将跳过更新。
+- 如果沙盒由于质量更新或手动更新到生产环境而具有相同或更高的内部版本，生产环境仍将收到每月服务更新的计划版本。 如果您不希望计划的生产环境更新到服务更新版本，您可以暂停 LCS 的服务更新。 
+- 我们建议您使用最新的质量更新版本来测试您对即将进行的服务更新所做的更改，以获得更好的稳定性和效果。
+
+## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>如果在应用质量更新后出现问题，环境能否恢复到以前的状态？
+应用质量更新后，在任何情况下都不会回滚。 只能通过提前安装补丁来缓解问题。
+
+## <a name="what-about-fda-regulation-and-gpx"></a>FDA 监管和 GPX 如何安排？
+针对需要接受 FDA 验证和监管的客户的计划仍在不断完善。 相信很快会有更多更新。 目前，所有此类客户都无需质量更新。
+
+## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>这些质量更新支持哪些版本的服务更新？
+版本低于 N-2 的客户不会收到质量更新。 
+
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>除了必须重新部署 MPOS 之外，使用零售组件部署财务和运营应用通常需要完成额外的工作。 这些质量更新将如何影响 RetailSDK？ 
+由于修补程序本身的性质不会在质量更新有效负载中发生变化，因此我们预计目前不会有任何与零售组件相关的额外影响。
+
+## <a name="is-there-any-impact-to-cloud-hosted-environments-che-"></a>对云托管的环境 (CHE) 有影响吗？ ? 
+否。
+
+## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Microsoft Dataverse 是否存在集成问题？ 
+否。
+

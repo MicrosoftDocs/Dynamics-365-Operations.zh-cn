@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287919"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476793"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -137,7 +137,29 @@ ER 配方设计器还可用于生成文件名来生成电子单据和控制文�
 > 
 > 根据此设置，为每笔借方付款生成的消息（**Ustrd** XML 元素）中将包含付款附注的文本，或当该文本为空时，则包含用于结算此付款的以逗号分隔的发票编号列表。
 
-## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>验证配置的公式
+## <a name="assistance-in-formulas-writing"></a>公式编写协助
+
+### <a name="data-sources-navigator"></a>数据源导航器
+
+您可以编辑表示结构化数据源元素的公式。 当您配置 ER 参数以将结构化数据源元素的路径显示为[相对路径](relative-path-data-bindings-er-models-format.md)时，“at”(@) 符号将在公式中[显示](er-formula-language.md#relative-path)，使用的分层树结构的绝对路径的其余部分不会显示。 绝对路径的其余部分指向可编辑元素的父元素。 在 Finance 版本 **10.0.30 及更高版本** 中，在 **公式设计器** 页面的 **数据源** 窗格中，您可以选择 **转到 @** 选项将数据源树的光标定位到作为可编辑元素父元素的元素。 所有折叠的升序元素的结构将在需要时自动地以递归方式展开。 这种方式的展开可以帮助您快速可视化可编辑公式的基本元素，注意数据源树中可编辑元素的同级元素，并在需要时在可编辑公式中使用这些元素中的每一个。
+
+![使用“转到 @”选项将数据源树的光标定位到作为公式设计器页面上可编辑元素的父元素的元素。](./media/er_formula-designer-data-sources-navigator.gif)
+
+### <a name="data-sources-picker"></a>数据源选取器
+
+在 **公式设计器** 页面左侧的 **数据源** 窗格中，选择要引入可编辑公式的数据源元素。 然后选择 **添加数据源**。 注意，所选元素将被添加到可编辑公式的文本中。
+
+> [!TIP]
+> 当您在默认公式编辑器中使用 **添加数据源** 选项时，所选元素始终会被添加到公式文本的末尾。 当您在[高级公式编辑器](er-advanced-formula-editor.md)中执行相同操作时，所选元素将被插入到公式文本中当前光标所在的位置。
+
+### <a name="built-in-functions-picker"></a>内置函数选取器
+
+在 **公式设计器** 页面右侧的 **函数** 窗格中，选择要引入可编辑公式的 ER 内置函数。 然后，选择 **添加函数**。 注意，所选函数将被添加到可编辑公式的文本中。
+
+> [!TIP]
+> 当您在默认公式编辑器中使用 **添加函数** 选项时，所选函数始终会被添加到公式文本的末尾。 当您在[高级公式编辑器](er-advanced-formula-editor.md)中执行相同操作时，所选函数将被插入到公式文本中当前光标所在的位置。
+
+### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>验证配置的公式
 
 在 **公式设计器** 页面，选择 **测试** 验证配置的公式如何工作。
 

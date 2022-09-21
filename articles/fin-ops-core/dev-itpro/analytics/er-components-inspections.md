@@ -2,7 +2,7 @@
 title: 检查配置的 ER 组件以防止运行时问题
 description: 本文说明如何检查配置的电子报告 (ER) 组件，以防止可能发生的运行时问题。
 author: kfend
-ms.date: 01/03/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
-ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277841"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476846"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>检查配置的 ER 组件以防止运行时问题
 
@@ -243,6 +243,15 @@ ER 使用以下类别为一致性检查检验分组：
 <td>
 <p>ORDERBY 函数的列表表达式无法查询。</p>
 <p><b>运行时错误：</b>不支持排序。 验证配置以获得有关此问题的更多详细信息。</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i19'>过时的应用程序项目</a></td>
+<td>数据完整性</td>
+<td>警告</td>
+<td>
+<p>元素 &lt;路径&gt; 被标为过时元素。<br>或<br>元素 &lt;路径&gt; 被标为过时元素，并显示消息 &lt;消息文本&gt;。</p>
+<p><b>运行时错误示例：</b>未找到类“&lt;路径&gt;”。</p>
 </td>
 </tr>
 </tbody>
@@ -942,6 +951,36 @@ ER 检查是否可以为 `ORDERBY` 函数中引用的数据源建立直接数据
 #### <a name="option-2"></a>选项 2
 
 将 **FilteredVendors** 数据源的表达式从 `ORDERBY("Query", Vendor, Vendor.AccountNum)` 更改为 `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`。 建议不要更改包含大量数据的表（事务表）的表达式，因为将提取所有记录，并且将在内存中排序所需的记录。 因此，这种方法可能会导致性能低下。
+
+## <a name="obsolete-application-artifact"></a><a id="i19"></a>过时的应用程序项目
+
+在设计 ER 模型映射组件或 ER 格式组件时，可以配置 ER 表达式来调用 ER 中的应用程序项目，如数据库表、类的方法等。在 Finance 版本 10.0.30 及更高版本中，您可以强制 ER 警告您引用的应用程序项目在源代码中被标记为已过时。 此警告可能很有用，因为通常过时的项目最终会从源代码中删除。 获知项目的状态可以在项目被从源代码中删除前防止您在可编辑 ER 组件中使用过时的项目，从而帮助防止在运行时从 ER 组件调用非现有应用程序项目时出错。
+
+在 **功能管理** 工作区中启用 **验证电子报告数据源的过时元素** 功能，以开始在检查可编辑 ER 组件期间评估应用程序项目的过时属性。 目前针对以下类型的应用程序项目评估过时属性：
+
+- 数据库表
+    - 表的字段
+    - 表的方法
+- 应用程序类
+    - 类的方法
+
+> [!NOTE]
+> 仅当数据源用于此 ER 组件的至少一个绑定时，才会在检查引用过时项目的数据源的可编辑 ER 组件期间出现警告。
+
+> [!TIP]
+> 当 [SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) 类用于通知编译器发出警告消息而不是错误时，检查警告会在设计时在 **模型映射设计器** 或 **格式设计器** 页面的 **详细信息** 快速选项卡上呈现指定的源代码。
+
+下图显示了当 `CompanyInfo` 应用程序表的过时 `DEL_Email` 字段通过使用配置的 `company` 数据源绑定到数据模型字段时出现的验证警告。
+
+![查看模型映射设计器页面“详细信息”快速选项卡中的验证警告。](./media/er-components-inspections-19a.png)
+
+### <a name="automatic-resolution"></a>自动解决
+
+没有用于自动修复此问题的选项。
+
+### <a name="manual-resolution"></a>手动解决
+
+通过删除与引用过时应用程序项目的数据源的所有绑定来修改配置的模型映射或格式。
 
 ## <a name="additional-resources"></a>其他资源
 

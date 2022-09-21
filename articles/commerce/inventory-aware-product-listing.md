@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-23
-ms.openlocfilehash: e33a4dd8650ee2e371c51c5a19e955f2d2bdade2
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 2a65dedf2da62fcd92169077d75a0f3b7832a86d
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405540"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473725"
 ---
 # <a name="inventory-aware-product-listing"></a>库存感知产品列表
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 本文介绍组织如何在其 Microsoft Dynamics 365 Commerce 电子商务网站上配置产品列表页，使其具有库存感知能力。 产品列表页包括类别登陆页面和搜索结果页面。
 

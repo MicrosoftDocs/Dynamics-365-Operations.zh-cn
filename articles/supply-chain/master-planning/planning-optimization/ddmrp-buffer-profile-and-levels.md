@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186637"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428136"
 ---
 # <a name="buffer-profile-and-levels"></a>缓冲区配置文件和级别
 
@@ -77,6 +77,14 @@ ms.locfileid: "9186637"
 
 - **ADU（过去）** = (29 + 11 + 23) ÷ 3 = 21
 
+计算平均每日使用量（过去）时会考虑以下交易：
+
+- 减少物料数量的交易（在数量小于零的 `inventtrans` 表中）
+- 状态为 *在单*、*订购预留*、*实际预留*、*已领料*、*已扣除* 或 *已售出* 的交易
+- 所选回溯期间内的交易（过去期间的平均每日使用量）
+- 仓库工作、隔离、销售报价单或对帐单以外的交易（`WHSWork`、`WHSQuarantine`、`SalesQuotation` 或 `Statement`）
+- 同一覆盖范围维度内的除转移日记帐以外的交易
+
 ### <a name="average-daily-usage-forward"></a>平均每日使用量（将来）
 
 对于新产品，您可能没有任何过去的使用数据。 因此，您以后可能会改用预测的 ADU（例如，基于预测的需求）。 下图显示了当计算展望未来三天（包括今天）时此方法的工作原理。
@@ -86,6 +94,11 @@ ms.locfileid: "9186637"
 在上图中，如果今天是 6 月 11 日上午，则接下来三天（6 月 11 日、12 日和 13 日）的 ADU 为 21.66。
 
 - **ADU（将来）** = (18 + 18 + 29) ÷ 3 = 21.66
+
+计算平均每日使用量（将来）时会考虑以下交易：
+
+- 在主计划中选择了预测的物料的预测交易
+- 所选将来期间内的交易（将来期间的平均每日使用量）
 
 ### <a name="average-daily-usage-blended"></a>平均每日使用量（混合）
 

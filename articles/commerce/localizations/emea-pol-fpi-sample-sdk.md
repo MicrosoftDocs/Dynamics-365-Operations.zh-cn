@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: b19c8d7a80ac772ae238191d1285a1ad80e6f611
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336645"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473950"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>波兰会计打印机整合示例的部署准则（旧版）
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > 仅当您使用 Microsoft Dynamics 365 Commerce 版本 10.0.28 或更早版本时，您才应该遵循本文中的指南。 从 Commerce 版本 10.0.29 开始，可以在 Commerce 软件开发工具包 (SDK) 中找到波兰的会计打印机集成示例。 有关更多信息，请参阅[配置渠道组件](./emea-pol-fpi-sample.md#configure-channel-components)。

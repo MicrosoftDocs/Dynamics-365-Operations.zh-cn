@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893169"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428028"
 ---
 # <a name="release-to-warehouse"></a>发放到仓库
 
@@ -34,7 +34,7 @@ ms.locfileid: "8893169"
 
 仓库 *工作* 是仓库工作人员执行的任何仓库操作。 通常，仓库工作工序包括至少两个连续操作：仓库工作人员在一个库位领取现有库存，然后将其存放到另一个库位。
 
-当您将订单发放到仓库时，系统将创建 *负荷行*，并将其组合为装运。 装运合并流程用于在发放到仓库流程期间自动合并装运。 有关详细信息，请参阅[装运合并策略](about-shipment-consolidation-policies.md)。
+当您将订单发放到仓库时，系统将创建 *负荷行*，并将其组合为装运。 装运合并流程用于在发放到仓库流程期间自动合并装运。 有关详细信息，请参阅[装运合并策略概述](about-shipment-consolidation-policies.md)。
 
 系统使用 *波次* 为装运创建领料工作和负荷。 必须为您要创建的波次类型和订单行的仓库提供 *波次模板*。 类型为 *装运* 的波次模板用于装运销售订单和转移单的物料。
 

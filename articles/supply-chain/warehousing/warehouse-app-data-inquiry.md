@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336596"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427840"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>使用 Warehouse Management 移动应用绕过查询数据
 
@@ -268,6 +268,6 @@ ms.locfileid: "9336596"
     ![使用“按供应商查找 PO”的采购收货，示例 2。](media/wma-purchase-receive-lookup-po-vendor-detours.png "使用“按供应商查找 PO”的采购收货，示例 2")
 
 > [!TIP]
-> 您可以从查询流（**主要 \> 查询 \> 按供应商查找 PO**）开始，通过选择列表中的一个卡来调用绕过以运行所需的流，而不是从 **采购收货** 菜单项进行查找来运行接收流。 若要使用此方法，您可以在 **移动设备步骤** 页上为 **步骤 ID** 值为 *GenericDataInquiryList* 的步骤定义绕过。 由于此流是一个绕过流，因此无法从中调用更多绕过。 因此，当您到达物料编号条目屏幕时，查找将不可用，因为系统当前仅支持一个级别的绕过。
+> 您可以从查询流（**主要 \> 查询 \> 按供应商查找 PO**）开始，通过选择列表中的一个卡来调用绕过以运行所需的流，而不是从 **采购收货** 菜单项进行查找来运行接收流。 若要使用此方法，您可以在 **移动设备步骤** 页上为 **步骤 ID** 值为 *GenericDataInquiryList* 的步骤定义绕过。 如果您的系统开启了 [*Warehouse Management 移动应用的多级绕过*](warehouse-app-detours.md)功能，您还可以根据需要添加额外的绕过（此功能增加了对最多两个级别的绕过的支持，并可以进行自定义来支持其他级别）。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

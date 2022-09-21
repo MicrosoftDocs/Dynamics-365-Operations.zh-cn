@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-02-01.
-ms.openlocfilehash: 52710252d78d34c444de2d40e16423868b12b5c1
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: d4e99854f5e3ab9a6ae802f4f6bcde7918f72e6d
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336637"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473759"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>波兰税控打印机集成示例
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 本文提供 Microsoft Dynamics 365 Commerce 中波兰的会计整合示例。
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
-ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
+ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9305214"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462349"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -40,18 +40,18 @@ ms.locfileid: "9305214"
 
 ![帮助窗格。](./media/help-pane-ops-help.png)
 
-## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com 中的“帮助”
+## <a name="help-on-microsoft-docs"></a>Microsoft Docs 上的“帮助”
 
-docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](/dynamics365/)) 是前面列出的应用的产品文档默认来源。 该站点提供以下功能：
+Microsoft Docs 上的（[Microsoft Dynamics 365 文档](/dynamics365/)）是前面列出的应用的产品文档默认来源。 该站点提供以下功能：
 
 - **访问最新的内容** – 该站点能让 Microsoft 以更快、更灵活的方式创建、交付和更新产品文档。 因此，您可以轻松访问最新技术信息。
 - **专家撰写的内容** – 站点上的内容对 Microsoft 内外的社区成员开放，允许做贡献。
 
-可以使用任何搜索引擎在 docs.microsoft.com 中查找内容。 若需获得最佳结果，建议使用站点搜索，如 **site:docs.microsoft.com dynamics 365 "search term"**。
+可以使用任何搜索引擎在 Microsoft Docs 中查找内容。 若需获得最佳结果，建议使用站点搜索，如 **site:docs.microsoft.com dynamics 365 "search term"**。
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>通过 RSS 源获取更改通知
 
-若要跨财务和运营应用订阅对 docs.microsoft.com 上的内容所做的所有更新的 RSS 源，请使用以下链接：
+若要跨财务和运营应用订阅对 Microsoft 技术文档的内容所做的所有更新的 RSS 源，请使用以下链接：
 
 [RSS 源](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -87,7 +87,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/](/dynamics365/)) 是
 
 YouTube 上的 Microsoft Dynamics 365 频道中包含[如何参与 Microsoft Dynamics 365 文档](https://youtu.be/m5djioozRbg)视频（上面所示）。
 
-有关详细信息，请参阅[文档贡献者指南](/contribute)，该指南由创建 docs.microsoft.com 站点的团队发布。
+有关详细信息，请参阅 [Microsoft Docs 参与者指南](/contribute)，该指南由创建 Microsoft Docs 站点的团队发布。
 
 > [!NOTE]
 > 目前，我们只接受向我们的英语内容贡献。
@@ -166,13 +166,13 @@ On the **System parameters** page, follow these steps:
 
 下表列出了我们的网站。 名称旁边具有星号 (\*) 的站点要求您使用与服务计划关联的帐户登录。
 
-| 站点 | 说明 |
+| 站点 | Description |
 |------|-------------|
-| [Docs.microsoft.com](/dynamics365/) | 此站点承载或链接到 Dynamics 365 的所有产品文档。 |
+| [Microsoft Dynamics 365 文档](/dynamics365/) | 此站点承载或链接到 Dynamics 365 的所有产品文档。 |
 | [Microsoft Learn](/learn/) | 此站点是免费的 Microsoft 电子学习站点。 |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | 此站点提供客户和其合作伙伴可以用此从售前到执行和运营阶段管理项目的基于云的协作工作区。 其在执行的所有阶段都很有用。 |
 | [支持博客](https://aka.ms/AXSupportBlog) | 此站点提供支持团队发布的提示和窍门。 |
-| [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | 此站点承载以前版本的内容。 |
+| [先前版本](/previous-versions/dynamics/) | 此站点承载以前版本的内容。 |
 | [Dynamics 社区](https://community.dynamics.com/) | 此站点承载博客、论坛和视频。 |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | 此站点提供评估和销售信息。 |
 
@@ -180,4 +180,3 @@ On the **System parameters** page, follow these steps:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

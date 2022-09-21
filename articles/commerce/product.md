@@ -2,7 +2,7 @@
 title: 在 POS 中添加产品建议
 description: 本文介绍如何在销售点 (POS) 设备上使用产品建议。
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872791"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460048"
 ---
 # <a name="add-product-recommendations-on-pos"></a>在 POS 中添加产品建议
 
@@ -37,7 +37,7 @@ ms.locfileid: "8872791"
 
 1. 在 **产品详细信息** 页面中：
 
-    - 如果售货员在查看跨不同渠道的早期交易记录时访问 **产品详细信息** 页面，建议服务将推荐更多可能搭配购买的物料。
+    - 如果售货员在查看跨不同渠道的早期交易记录时访问 **产品详细信息** 页面，建议服务将推荐更多可能搭配购买的物料。 根据服务的附加产品，零售商可以显示产品的 **购买相似外观产品** 和 **购买相似说明产品** 建议，以及针对以前购买过的用户的个性化建议。
 
     [![有关“产品详细信息”页面的建议。](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,21 +50,17 @@ ms.locfileid: "8872791"
 
     [![有关“交易”页面的建议。](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>配置 Commerce 以启用 POS 建议
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>配置 Commerce 以启用 POS 建议 
 
-要设置产品建议，请执行以下步骤：
+要设置产品建议，确认您已按照[启用产品建议](../commerce/enable-product-recommendations.md)中的步骤完成 Commerce 产品建议的预配过程。 默认情况下，在您完成预配步骤并且数据已成功修改后，建议会同时显示在 **产品详细信息** 页面和 **客户详细信息** 页面。 
 
-1. 确保设备已更新为 **10.0.6 build**。
-2. 按照有关如何为企业[启用产品建议](../commerce/enable-product-recommendations.md)的说明操作。
-3. 可选：若要在交易记录屏幕中显示建议，请转至 **屏幕布局**，选择您的屏幕布局，启动 **屏幕布局设计器**，然后将 **建议** 控件拖到所需位置。
-4. 转至 **商业参数**，选择 **机器学习**，然后在 **启用 POS 建议** 下选择 **是**。
-5. 若要在 POS 中查看建议，请运行全局配置作业 **1110**。 若要体现对 POS 屏幕布局设计器所做更改，请运行渠道配置作业 **1070**。
+## <a name="add-recommendations-to-the-transaction-screen"></a>向交易记录屏幕添加建议
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>排除您已启用了产品建议时遇到的问题
+1. 要向交易屏幕添加建议，请按照[向交易屏幕添加建议](add-recommendations-control-pos-screen.md)中的步骤操作。
+1. 要反映在 POS 屏幕布局设计器中所做的更改，在 Commerce headquarters 中运行渠道配置作业 **1070**。
 
-- 导航到 **商业参数** \> **建议列表** \> **禁用产品建议**，然后运行 **全局配置作业 \[9999\]**。 
-- 如果使用 **屏幕布局设计器** 为交易记录屏幕添加了 **建议控件**，请将其一并移除。
-- 如果还有其他问题，请参阅[产品建议常见问题](../commerce/faq-recommendations.md)获取详细信息。
+> [!NOTE] 
+> 如果要使用 RecoMock 逗号分隔值 (CSV) 文件启用 POS 建议，您必须在配置布局管理器之前将 CSV 文件部署到 Microsoft Dynamics Lifecycle Services (LCS) 资产库。 如果您使用 RecoMock CSV 文件，则不必启用建议。 CSV 文件仅用于演示目的。 建议希望模拟建议列表外观以用于演示目的而无需购买附加产品库存单位 (SKU) 的客户或解决方案架构师使用。
 
 ## <a name="additional-resources"></a>其他资源
 

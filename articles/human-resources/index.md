@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afe438767efa3082c49cc56f58c8bab9206e46e0
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: ad5f843e3bafa54a961908d9ebe5ab64e619e1bc
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228559"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475514"
 ---
 # <a name="human-resources-home-page"></a>人力资源主页
 
@@ -40,7 +40,7 @@ ms.locfileid: "9228559"
 - [薪酬管理](hr-compensation-overview.md)
 - [员工发展](hr-develop-performance-management-overview.md)
 - [学习](hr-learning-courses.md)
-- [工作流系统]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
+- [工作流系统](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 Human Resources 将人员和操作数据连接起来，以帮助您优化劳动力成本并关照员工。
 
@@ -51,7 +51,8 @@ Human Resources 将人员和操作数据连接起来，以帮助您优化劳动�
 ## <a name="additional-resources"></a>其他资源
 
 ### <a name="elearning-courses"></a>网络培训课程
-要了解在线课程和培训，请查看 [Microsoft Learn 上的 Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365)。
+
+要了解在线课程和培训，请查看 [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365)。
 
 ### <a name="videos"></a>视频
 

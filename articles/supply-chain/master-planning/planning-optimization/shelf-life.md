@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 95c905cbcc3c057dbccf2b7d6e894b1e99ddfba5
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 68a1ba2bfe90aaf0462917c405d483fa12bf8126
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337123"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428213"
 ---
 # <a name="master-planning-for-products-with-limited-shelf-life"></a>有限保质期的产品的主计划
 
@@ -298,8 +298,6 @@ SO1 将由 PPO1 的一个单位覆盖。 SO2 将由 PO2 覆盖，因为 PO2 的�
 ![示例 4：简单的FEFO，期限，提前期取决于数量。](media/fefo-example-4.png "示例 4：简单的FEFO，期限，提前期取决于数量")
 
 ## <a name="example-5-simple-fefo-requirement-10-negative-days"></a>示例 5：简单的 FEFO，要求，负 10 天
-
-<!-- KFM: This is more of a negative days example than a shelf life example. We should point out more explicitly how shelf life affects this situation (or maybe otherwise remove this example). -->
 
 此示例显示了为商品添加大量负天数时保质期的工作原理。 负数天数是在订购负库存商品的补货前您愿意等待的天数。 除非超过负天数，否则系统不会创建供应。
 

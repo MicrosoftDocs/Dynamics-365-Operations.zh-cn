@@ -1,5 +1,5 @@
 ---
-title: 装运合并政策
+title: 装运合并策略概述
 description: 本文概述灵活配置装运合并策略的功能。
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903889"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427920"
 ---
-# <a name="shipment-consolidation-policies"></a>装运合并政策
+# <a name="shipment-consolidation-policies-overview"></a>装运合并策略概述
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "8903889"
 
 查询用于识别应用的装运合并策略，而一组可编辑字段则决定如何在装运级别为装载行分组。 （此模式类似波次模板采用的模式。）此外，还已经向每个策略添加了一个 **与现有装运合并** 选项。 开启此选项后，*发放到仓库* 过程将通过在根据相同的合并策略创建的现有装运中进行搜索来查找要合并的装运。 在这种情况下，系统将选择现有装运或装载，而不是新建一个。 但是，系统将仅与状态为 *未结* 的现有装运合并；将不把属于状态为 *已发放* 或更高状态的波次发放的装运视为合并目标。
 
-当装运合并策略可用时，将隐藏 **仓库** 设置页上以前提供的 **发放到仓库时合并装运** 设置。 为了帮助您过渡到新装运合并功能，**装运合并策略** 页上的一项功能将创建一个默认策略，其中自动包含现有仓库的旧设置。 创建这个默认策略之后，将不再考虑 **仓库** 设置页中的 **发放到仓库时合并装运** 设置。
+当您的系统启用 *装运合并策略* 功能时，将隐藏 **仓库** 设置页上以前提供的 **发放到仓库时合并装运** 设置。 为了帮助您过渡到新装运合并功能，**装运合并策略** 页上的一项功能允许您创建一个默认策略，其中自动包含现有仓库的旧设置。 创建这个默认策略之后，将不再考虑 **仓库** 设置页中的 **发放到仓库时合并装运** 设置。 有关详细信息，请参阅[配置装运合并策略](configure-shipment-consolidation-policies.md)。
 
 可使用 **发放到仓库** 页按照覆盖履行策略的相同方法手动覆盖适用的合并策略。
 

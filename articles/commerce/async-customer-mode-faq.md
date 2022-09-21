@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 35c999695ed33c4fc9731a5b8dd4d679cf55fa44
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: bd5741aeb3278f1d40d63bb02ca57571a907dc21
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9229866"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474061"
 ---
 # <a name="asynchronous-customer-creation-mode-faq"></a>异步客户创建模式常见问题解答
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 本文提供 Microsoft Dynamics 365 Commerce 中异步客户创建模式的相关常见问题的解答。
 

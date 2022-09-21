@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280915"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476806"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>设计用于生成 Excel 格式文档的配置
 
@@ -186,6 +186,9 @@ ms.locfileid: "9280915"
 
 > [!NOTE]
 > 将把每个 Excel 图片和形状视为通过其右上角锚定到特定 Excel 单元格或范围。 如果要复制 Excel 图片或形状，必须将锚定的单元格或范围配置为复制的单元格或范围。
+
+> [!TIP]
+> 如果您计划在运行时使用具有自定义缩放比例和纵横比的图像，我们建议您将父 [Excel 文件组件](#excel-file-component)的选项 **保持图片缩放比例** 设置为 **是**，以在您正在使用的 Excel 模板中应用此缩放比例和纵横比作为该图像的占位符。
 
 若要详细了解如何嵌入图像和形状，请参阅[使用 ER 在生成的文档中嵌入图像和形状](electronic-reporting-embed-images-shapes.md)。
 

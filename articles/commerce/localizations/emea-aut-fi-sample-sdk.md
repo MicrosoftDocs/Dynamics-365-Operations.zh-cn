@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: f5f12dbd638c8228dbc63c1fae8f3dfffc7bfe9c
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 8d41dfb359a71f24d0cb0c5aa0114225cd28fe59
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313764"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473990"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>奥地利会计登记服务整合示例的部署准则（旧版）
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > 仅当您使用 Microsoft Dynamics 365 Commerce 版本 10.0.28 或更早版本时，您才必须遵循本文中的指南。 从 Commerce 版本 10.0.29 开始，可以在 Commerce 软件开发工具包 (SDK) 中找到奥地利的会计登记服务集成示例。 有关更多信息，请参阅[配置渠道组件](./emea-aut-fi-sample.md#configure-channel-components)。
