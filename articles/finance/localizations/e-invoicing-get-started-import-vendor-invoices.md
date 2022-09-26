@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283136"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524737"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>使用电子开票服务导入供应商发票
 
@@ -107,7 +107,8 @@ ms.locfileid: "9283136"
 2. 选择 **客户发票上下文模型**，然后选择 **创建配置** > **从名称派生：客户发票上下文模型，Microsoft** 以创建派生配置。
 3. 在 **草稿** 版本中，选择 **设计器**，然后在 **数据模型** 树中，选择 **将模型映射到数据源**。
 4. 在 **定义** 树中，选择 **DataChannel**，然后选择 **设计器**。
-5. 在 **数据源** 树中，展开 **$Context\_渠道** 容器。 在 **值** 字段中，选择 **编辑**，然后输入数据渠道名称。 这是在 RCS 中电子发票功能的数据渠道配置中给出的渠道名称。 
+5. 在 **数据源** 树中，展开 **$Context\_渠道** 容器。 
+6. 在 **值** 字段中，选择 **编辑** > **编辑公式**，然后输入数据渠道名称。 这是在 RCS 中电子发票功能的数据渠道配置中给出的渠道名称。 
 7. 选择 **保存**，然后关闭页面。
 8. 关闭该页面。
 9. 从 **客户发票上下文模型** 中选择刚才创建的派生配置，然后在 **版本** 快速选项卡中选择 **更改状态** > **已完成**。

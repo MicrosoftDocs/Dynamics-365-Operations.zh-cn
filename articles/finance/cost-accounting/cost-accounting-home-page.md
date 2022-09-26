@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 06cd3929fd93861c3e2dfd73913be5dc33111263
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 600ae16a9cd83730432b75b81a1cb2f3ffae827b
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853516"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539285"
 ---
 # <a name="cost-accounting-home-page"></a>成本核算主页
 
@@ -38,7 +38,7 @@ ms.locfileid: "8853516"
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [开始使用成本核算 (Learn)](/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[成本元素维度](cost-elements.md)  |
+|  [开始使用成本核算 (Learn)](/training/modules/get-started-cost-accounting-dyn365-finance/)  |[成本元素维度](cost-elements.md)  |
 |  [维度层次结构](dimension-hierarchy.md)  |[定义成本控制单元](./tasks/define-cost-control-units.md)| 
 | [分配基数](allocation-bases.md)|[创建成本分配政策并将其分配到成本控制单元](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [管理成本核算分类帐的数据源](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [处理和跟踪源数据](./tasks/process-trace-source-data.md)     | 

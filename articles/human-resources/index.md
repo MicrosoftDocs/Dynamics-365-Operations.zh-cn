@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ad5f843e3bafa54a961908d9ebe5ab64e619e1bc
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: a0710065765c907dc2cc3ef5eeec0414721f7779
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475514"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539101"
 ---
 # <a name="human-resources-home-page"></a>人力资源主页
 
@@ -52,7 +52,7 @@ Human Resources 将人员和操作数据连接起来，以帮助您优化劳动�
 
 ### <a name="elearning-courses"></a>网络培训课程
 
-要了解在线课程和培训，请查看 [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365)。
+要了解在线课程和培训，请查看 [Dynamics 365 Human Resources](/training/browse/?products=dynamics-human-resources&expanded=dynamics-365)。
 
 ### <a name="videos"></a>视频
 

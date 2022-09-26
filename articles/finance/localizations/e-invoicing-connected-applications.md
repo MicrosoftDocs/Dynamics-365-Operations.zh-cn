@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: aa6c80914301cc0403974a6acc5e95ff61c9c1a7
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277322"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524681"
 ---
 # <a name="connected-applications"></a>已连接的应用程序
 
@@ -35,7 +35,7 @@ ms.locfileid: "9277322"
 ## <a name="create-a-connected-application"></a>创建连接的应用程序
 
 1. 登录您的 RCS 帐户。
-2. 在 **全球化功能** 工作区的 **环境** 部分中，选择 **电子开票** 磁贴。
+2. 在 **全球化功能** 工作区中，在 **相关链接** 部分，选择 **环境设置**。
 3. 在 **环境设置** 页上的操作窗格上，选择 **相连应用程序**。
 4. 选择 **新建** 创建连接的应用程序。
 5. 在 **名称** 字段中，输入要连接的应用程序的名称。

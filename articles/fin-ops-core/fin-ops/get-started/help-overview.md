@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: fa1a120fac66997658908a61469d45e96bcc4912
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462349"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538829"
 ---
 # <a name="help-system"></a>帮助系统
 
@@ -40,14 +40,14 @@ ms.locfileid: "9462349"
 
 ![帮助窗格。](./media/help-pane-ops-help.png)
 
-## <a name="help-on-microsoft-docs"></a>Microsoft Docs 上的“帮助”
+## <a name="help-on-microsoft-learn"></a>Microsoft Learn 上的帮助
 
-Microsoft Docs 上的（[Microsoft Dynamics 365 文档](/dynamics365/)）是前面列出的应用的产品文档默认来源。 该站点提供以下功能：
+Microsoft Learn 上的（[Microsoft Dynamics 365 文档](/dynamics365/)）是前面列出的应用的产品文档默认来源。 该站点提供以下功能：
 
 - **访问最新的内容** – 该站点能让 Microsoft 以更快、更灵活的方式创建、交付和更新产品文档。 因此，您可以轻松访问最新技术信息。
 - **专家撰写的内容** – 站点上的内容对 Microsoft 内外的社区成员开放，允许做贡献。
 
-可以使用任何搜索引擎在 Microsoft Docs 中查找内容。 若需获得最佳结果，建议使用站点搜索，如 **site:docs.microsoft.com dynamics 365 "search term"**。
+可以使用任何搜索引擎在 Microsoft Learn 中查找内容。 若需获得最佳结果，建议使用站点搜索，如 **site:learn.microsoft.com dynamics 365 "search term"**。
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>通过 RSS 源获取更改通知
 
@@ -87,7 +87,7 @@ Microsoft Docs 上的（[Microsoft Dynamics 365 文档](/dynamics365/)）是前�
 
 YouTube 上的 Microsoft Dynamics 365 频道中包含[如何参与 Microsoft Dynamics 365 文档](https://youtu.be/m5djioozRbg)视频（上面所示）。
 
-有关详细信息，请参阅 [Microsoft Docs 参与者指南](/contribute)，该指南由创建 Microsoft Docs 站点的团队发布。
+有关详细信息，请参阅 [Microsoft Docs 参与者指南](/contribute)，该指南由创建 Microsoft Learn 站点的团队发布。
 
 > [!NOTE]
 > 目前，我们只接受向我们的英语内容贡献。
@@ -169,14 +169,11 @@ On the **System parameters** page, follow these steps:
 | 站点 | Description |
 |------|-------------|
 | [Microsoft Dynamics 365 文档](/dynamics365/) | 此站点承载或链接到 Dynamics 365 的所有产品文档。 |
-| [Microsoft Learn](/learn/) | 此站点是免费的 Microsoft 电子学习站点。 |
+| [Microsoft Learn 培训](/training/) | 此站点是免费的 Microsoft 电子学习站点。 |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | 此站点提供客户和其合作伙伴可以用此从售前到执行和运营阶段管理项目的基于云的协作工作区。 其在执行的所有阶段都很有用。 |
 | [支持博客](https://aka.ms/AXSupportBlog) | 此站点提供支持团队发布的提示和窍门。 |
 | [先前版本](/previous-versions/dynamics/) | 此站点承载以前版本的内容。 |
 | [Dynamics 社区](https://community.dynamics.com/) | 此站点承载博客、论坛和视频。 |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | 此站点提供评估和销售信息。 |
-
-
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

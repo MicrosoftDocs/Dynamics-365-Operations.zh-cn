@@ -12,12 +12,12 @@ ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5fe354d94f7cef15b944828e0e07ce4b50f7eb42
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 97e6ba8b26553ed7db78bfe8fb1e089d36f6cd8c
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9424512"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538668"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Dynamics 365 Finance 开发人员的学习目录
 
@@ -29,18 +29,18 @@ ms.locfileid: "9424512"
 
 | 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
-| [开始使用财务和运营应用](/learn/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2.2 小时 |
-| [开始使用 Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance 使企业用户能够适应快速变化的业务环境。 它为企业提供利用财务计划和预测的准确信息控制财务和管理资金所需的一切资源，并借助分析工具帮助他们掌握最新情况。 由于财务是任何一个企业的核心，因此熟悉 Dynamics 365 Finance 的功能很重要。 | 自由、自定进度的在线学习模块 | 1 小时 |
+| [开始使用财务和运营应用](/training/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2.2 小时 |
+| [开始使用 Dynamics 365 Finance](/training/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance 使企业用户能够适应快速变化的业务环境。 它为企业提供利用财务计划和预测的准确信息控制财务和管理资金所需的一切资源，并借助分析工具帮助他们掌握最新情况。 由于财务是任何一个企业的核心，因此熟悉 Dynamics 365 Finance 的功能很重要。 | 自由、自定进度的在线学习模块 | 1 小时 |
 
 ## <a name="core-development-concepts"></a>核心开发概念<a name="core-development-concepts"></a>
 
 | 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
-| [使用财务和运营应用进行开发的说明](/learn/paths/introduction-develop-finance-operations/) | 作为使用财务和运营应用的开发人员，牢牢掌握 Dynamics 365 生态系统和财务和运营应用的主要体系结构组件非常重要。 对核心开发人员概念的了解，包括技术能力、源代码、测试框架和报告工具，将为您进一步努力以培养可应用于财务和运营应用的开发技能提供支持。 | 自由、自定进度的在线学习路径 | 7.75 小时 |
-| [构建财务和运营应用](/learn/paths/build-finance-operations/) | 在财务和运营应用中进行开发需要对构建新元素和自定义财务和运营应用所需的任务有基本的了解。 这些任务包括了解 X++ 代码和 Visual Studio，以及能够创建和修改系统的基本元素。 | 自由、自定进度的在线学习路径 | 13 小时 |
-| [扩展财务和运营应用](/learn/paths/extending-finance-operations/) | 扩展允许开发人员通过对代码实现不影响基本代码的修改来对财务和运营应用中的用户体验进行更改。 除其他好处外，扩展还可以让开发人员更新财务和运营应用以遵守业务流程和所需的更改。 | 自由、自定进度的在线学习路径 | 2.5 小时 |
-| [连接财务和运营应用](/learn/paths/connect-finance-operations/) | 集成以及在财务和运营应用中访问数据的能力都是重要功能。 学会在财务和运营应用中构建和扩展代码的开发人员，可以通过了解数据集成以及连接到数据如何对用户产生积极影响来增强他们的开发知识。 | 自由、自定进度的在线学习路径 | 5.75 小时 |
-| [使用财务和运营应用迁移数据和上线](/learn/paths/migrate-data-go-live-finance-operations/) | 作为功能顾问，您必须了解如何准备要迁移的客户数据，使用数据管理，以及执行用户接受度测试以实行财务和运营应用。 | 自由、自定进度的在线学习路径 | 4 小时 |
+| [使用财务和运营应用进行开发的说明](/training/paths/introduction-develop-finance-operations/) | 作为使用财务和运营应用的开发人员，牢牢掌握 Dynamics 365 生态系统和财务和运营应用的主要体系结构组件非常重要。 对核心开发人员概念的了解，包括技术能力、源代码、测试框架和报告工具，将为您进一步努力以培养可应用于财务和运营应用的开发技能提供支持。 | 自由、自定进度的在线学习路径 | 7.75 小时 |
+| [构建财务和运营应用](/training/paths/build-finance-operations/) | 在财务和运营应用中进行开发需要对构建新元素和自定义财务和运营应用所需的任务有基本的了解。 这些任务包括了解 X++ 代码和 Visual Studio，以及能够创建和修改系统的基本元素。 | 自由、自定进度的在线学习路径 | 13 小时 |
+| [扩展财务和运营应用](/training/paths/extending-finance-operations/) | 扩展允许开发人员通过对代码实现不影响基本代码的修改来对财务和运营应用中的用户体验进行更改。 除其他好处外，扩展还可以让开发人员更新财务和运营应用以遵守业务流程和所需的更改。 | 自由、自定进度的在线学习路径 | 2.5 小时 |
+| [连接财务和运营应用](/training/paths/connect-finance-operations/) | 集成以及在财务和运营应用中访问数据的能力都是重要功能。 学会在财务和运营应用中构建和扩展代码的开发人员，可以通过了解数据集成以及连接到数据如何对用户产生积极影响来增强他们的开发知识。 | 自由、自定进度的在线学习路径 | 5.75 小时 |
+| [使用财务和运营应用迁移数据和上线](/training/paths/migrate-data-go-live-finance-operations/) | 作为功能顾问，您必须了解如何准备要迁移的客户数据，使用数据管理，以及执行用户接受度测试以实行财务和运营应用。 | 自由、自定进度的在线学习路径 | 4 小时 |
 | [Finance And Operations：开发 ALM (DYN766PAL)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-and-operations---development-alm-february-19-2020) | 此技术交流讨论开发应用程序生命周期管理的概念、工具和我们推荐的最佳实践。 我们将讨论 Lifecycle Services、Visual Studio 和 Azure DevOps 如何一起工作，以让您的解决方案代码库以业务流程为中心的方式持续交付，并为环境提供服务。 | 自由录制 Web 会议 | 52 分钟 |
 | [财务和运营：可扩展性 (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | 我们将提供有关 Microsoft 可扩展性计划的概述和更新。 我们将详细讨论各种用于扩展解决方案、深入了解元数据扩展性功能和增强与扩展代码的方法，包括通过强大的命令链功能。 | 自由录制 Web 会议 | 50 分钟 |
 | [Visual Studio Team Services (VSTS) 设置 (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | 此技术交流演练配置 VSTS 实例和项目以连接到开发/测试环境配置的 LCS 实施项目所需步骤。 | 自由录制 Web 会议 | 41 分钟 |
@@ -66,7 +66,7 @@ ms.locfileid: "9424512"
 
 | 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
-| [将 Dynamics AX 2012 升级到财务和运营应用](/learn/paths/upgrade-ax-2012-finance-operations/) | 了解将 Dynamics AX 2012 解决方案成功升级到财务和运营应用的最重要元素和最佳做法。 从发现关键体系结构差异、开始使用升级流程以及代码和数据升级工具的最初步骤到基于最新功能重新设计集成、分析和报告的最佳方法。 | 自由、自定进度的在线学习路径 | 7 小时 |
+| [将 Dynamics AX 2012 升级到财务和运营应用](/training/paths/upgrade-ax-2012-finance-operations/) | 了解将 Dynamics AX 2012 解决方案成功升级到财务和运营应用的最重要元素和最佳做法。 从发现关键体系结构差异、开始使用升级流程以及代码和数据升级工具的最初步骤到基于最新功能重新设计集成、分析和报告的最佳方法。 | 自由、自定进度的在线学习路径 | 7 小时 |
 | [将 AX2012 升级到财务和运营应用 - 2020 年 9 月 3 日](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/tax2012-to-finance-and-operations-apps-upgrade-september-3-2020) | 此技术交流提供有关如何将代码和数据从 Dynamics AX 2012 升级到财务和运营应用的概述。 | 技术交流（录制的网络研讨会） | 66 分钟 |
 | [用于从 AX2009 迁移到财务和运营应用的工具 (VIR809PAL)](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | 此会话讨论可用于帮助您从 AX2009 迁移到财务和运营的工具。 | 自由录制 Web 会议 | 55 分钟 |
 
@@ -87,6 +87,6 @@ ms.locfileid: "9424512"
 
 | 内容 | Description | 格式 |
 |---------|-------------|--------|
-|[考试 MB-500：Microsoft Dynamics 365：财务和运营应用开发人员](/learn/certifications/exams/mb-500) | 此考试衡量您完成以下技术任务的能力：计划体系结构和解决方案设计；应用开发人员工具；设计和开发 AOT 元素；开发和测试代码；实施报告；集成和管理数据解决方案；以及实现安全性和优化性能。 | 考试，成本取决于地区 |
+|[考试 MB-500：Microsoft Dynamics 365：财务和运营应用开发人员](/certifications/exams/mb-500) | 此考试衡量您完成以下技术任务的能力：计划体系结构和解决方案设计；应用开发人员工具；设计和开发 AOT 元素；开发和测试代码；实施报告；集成和管理数据解决方案；以及实现安全性和优化性能。 | 考试，成本取决于地区 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

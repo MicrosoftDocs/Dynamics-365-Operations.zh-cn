@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: 针对版本 10.0.28 的平台更新（2022 年 8 月）
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: 针对版本 10.0.27 的平台更新（2022 年 7 月）
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: 配置一体框开发环境
                   href: dev-tools/configure-developer-vm.md
+                - name: 保护一体框开发环境
+                  href: dev-tools/secure-developer-vm.md
                 - name: 开发和构建不允许管理员访问的 VM 的常见问题解答
                   href: sysadmin/VMs-no-admin-access.md
                 - name: 设置可下载的 VHD 以供首次使用

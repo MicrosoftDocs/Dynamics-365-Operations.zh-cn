@@ -2,7 +2,7 @@
 title: 更新流程
 description: Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)，可为应用程序和平台更改提供连续的非接触式服务更新。
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178433"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520802"
 ---
 # <a name="update-process"></a>更新流程
 
 _**适用于：** 独立基础结构中的 Human Resources_ 
 
 > [!NOTE]
-> 从 2022 年 7 月开始，无法在独立的 Human Resources 基础结构中预配新的 Human Resources 环境，因此无法在其中创建新的 Microsoft Dynamics Lifecycle Services (LCS) 项目。 客户可以在财务和运营基础结构上部署 Human Resources 环境。 有关详细信息，请参阅[在财务和运营基础结构中预配 Human Resources](/hr-admin-setup-provision-fo.md)。
+> 从 2022 年 7 月开始，无法在独立的 Human Resources 基础结构中预配新的 Human Resources 环境，因此无法在其中创建新的 Microsoft Dynamics Lifecycle Services (LCS) 项目。 客户可以在财务和运营基础结构上部署 Human Resources 环境。 有关详细信息，请参阅[在财务和运营基础结构中预配 Human Resources](hr-admin-setup-provision-fo.md)。
 
 > [!IMPORTANT]
 > 财务和运营应用基础结构上的更新和修补程序流程与 Human Resources 独立更新和修补程序流程不同。 有关更新流程的更多信息，请参阅[移至财务和运营的最新更新的流程](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md)。 有关修补程序的详细信息，请参阅[从 Lifecycle Services (LCS) 下载更新](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md)。 

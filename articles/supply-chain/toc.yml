@@ -206,8 +206,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: 疑难解答和常见问题解答
           href: supply-chain-management-troubleshooting.md
-        - name: 全球化
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio 概览
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: 全球化资源
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: 全球化服务
@@ -1637,6 +1639,8 @@
                   href: inventory/inventory-locations.md
                 - name: 库存状态
                   href: inventory/inventory-statuses.md
+                - name: 使用批处置代码将批次标记为可用或不可用
+                  href: inventory/batch-disposition-codes.md
                 - name: 创建新仓库布局
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: 维护条形码类型

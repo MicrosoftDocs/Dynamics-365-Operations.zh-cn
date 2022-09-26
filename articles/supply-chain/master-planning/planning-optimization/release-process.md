@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
-ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
+ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9403666"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542312"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>计划优化发布流程和发布历史记录
 
@@ -30,6 +30,8 @@ Microsoft 每月都会更新计划优化。 但是，根据业务要求，我们
 使用计划优化的环境会自动接收最新发布。 无需用户操作：系统将自动更新此服务。 但是，从未将中断性变更功能自动推送到环境中。 默认情况下，任何被视为中断性变更的更改都将被禁用，并且必须使用[功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)来显式启用。 因此，在您选择启用这些更改之前，这些更改不会显示在环境中。
 
 由于在您的环境中更新计划优化时未显示通知，因此您可以查看以下表中的发布说明，以确定何时发布更改及其引入的功能。 此表显示为计划优化发布的更改、这些更改是否与功能管理中的功能相关联，以及发布日期。
+
+<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
 
 | 更改 | 功能管理详细信息 | 发布日期 |
 |---|---|---|

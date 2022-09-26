@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347281"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542344"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化适应分析
 
@@ -62,7 +62,7 @@ ms.locfileid: "9347281"
 | --- | --- | --- | --- |
 | 行动 | 启用了行动计算的覆盖范围组：*\#* | 此功能现在受支持。 | 受支持 |
 | 基本日历 | 使用基本日历的日历：*\#* | 此功能现在受支持。 | 受支持 | 
-| 批处置代码 | 非计划用量批处置主数据：*\#* | 此功能待定。 当前，启用计划优化后将忽略批处置代码。 | 2022 年发布第 2 波 |
+| 批处置代码 | 非计划用量批处置主数据：*\#* | 此功能待定。 当前，启用计划优化后将忽略批处置代码。 | 2022 年发布第 2 波 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | 可承诺量 (CTP) | 交货日期控制设置为 CTP 的默认订单设置: *\#* | 在 Supply Chain Management 10.0.28 和更新版本中，运行动态计划后，名为 *用于计划优化的 CTP* 的流程会使确认的装运和收货日期可用。 对于较旧版本的 Supply Chain Management，启用计划优化时会忽略旧的 CTP 设置。 | 受支持 |
 | 将静态计划复制到动态计划 | 针对主计划参数启用了将静态计划复制到动态计划。 | 无论此设置如何，计划优化都不会将静态计划复制到动态计划。 通常，由于计划优化提供的速度和完全重新生成，此概念关系不大。 如果使用两个或多个计划，则应为每个计划触发主计划。 | N/A |
 | 确认 | 设置了自动确认时限的覆盖范围组：*\#* | 在版本 10.0.7 及更高版本中，在完成主计划后，作为单独的确认批处理作业支持确认（前提是在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用了 *计划优化自动确认* 功能）。 请注意，计划优化的自动确认基于订单日期（开始日期），而不是需求日期（结束日期）。 此行为可确保计划订单的确认在到期时间发生，而不必在确认时限内包括提前期。 | 受支持 |

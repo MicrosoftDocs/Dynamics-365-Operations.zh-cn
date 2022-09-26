@@ -12,12 +12,12 @@ ms.search.region: China (PRC)
 ms.author: kfend
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 56864a21a19584ccd7cbfc0c96ca5e43b226991f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 99c1715c2028dfb927c4cbab338464c2c733ac99
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284455"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538921"
 ---
 # <a name="support-for-finance-and-operations-operated-by-21vianet-in-china"></a>由 21Vianet 在中国运营的财务和运营的支持
 
@@ -32,7 +32,7 @@ ms.locfileid: "9284455"
 - [Supply Chain Management 的帮助资源](../../../supply-chain/index.md)
 - [财务和运营应用由世纪互联在中国运营](../deployment/china-local-deployment.md)
 - [Dynamics 社区](https://community.dynamics.com/)
-- [Microsoft Learn](/learn/)
+- [Microsoft Learn 培训](/training/)
 
 ## <a name="assisted-support"></a>协助式支持
 

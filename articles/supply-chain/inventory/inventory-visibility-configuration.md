@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423561"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542264"
 ---
 # <a name="configure-inventory-visibility"></a>配置 Inventory Visibility
 
@@ -53,6 +53,7 @@ ms.locfileid: "9423561"
 |---|---|
 | *OnHandReservation* | 使用此功能，您可以使用库存可见性创建预留、使用预留和/或取消预留指定的库存数量。 有关详细信息，请参阅[库存可见性预留](inventory-visibility-reservations.md)。 |
 | *OnHandMostSpecificBackgroundService* | 此功能提供产品的库存汇总以及所有维度。 将定期从库存可见性同步库存汇总数据。 默认同步频率为每 15 分钟一次，最高可设置为每 5 分钟一次。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#inventory-summary)。 |
+| *onHandIndexQueryPreloadBackgroundService* | 此功能可以预加载库存可见性现有库存查询来将现有库存列表与预选维度合并。 默认同步频率为每 15 分钟一次。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query)。 |
 | *OnhandChangeSchedule* | 此可选功能支持现有库存更改计划和可承诺 (ATP) 功能。 有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。 |
 | *分配* | 此可选功能使库存可见性能够进行库存保护（圈护）和超额销售控制。 有关详细信息，请参阅[库存可见性库存分配](inventory-visibility-allocation.md)。 |
 | *在库存可见性中启用仓库物料* | 此可选功能使库存可见性能够支持启用了仓库管理流程 (WMS)。 有关详细信息，请参阅 [WMS 物料的库存可见性支持](inventory-visibility-whs-support.md)。 |

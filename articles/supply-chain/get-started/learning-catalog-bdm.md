@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4c3289d034346fa21e31000fa4a2b4961a2d5304
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 46a2b36b61f7a2d10564109963942c384f9163c2
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423646"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539043"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>考虑了 Dynamics 365 Supply Chain Management 的业务决策者学习目录
 
@@ -29,16 +29,16 @@ ms.locfileid: "9423646"
 
 | 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
-| [Dynamics 365 和 Power Platform 基本原理](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
-| [开始使用财务和运营应用](/learn/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
+| [Dynamics 365 和 Power Platform 基本原理](/training/paths/dyn-power-plat-bus-app-fundamentals/) | 您是否有兴趣了解业务应用程序？ 请首先通过此学习路径了解 Dynamics 365 应用程序的使用方法。 了解云概念、Power Platform，以及如何开始使用 Dynamics 365 应用程序。 | 自由、自定进度的在线学习路径 | 5.5 小时 |
+| [开始使用财务和运营应用](/training/paths/get-started-finance-operations/) | 了解财务和运营应用如何支持企业管理其全球财务系统、运营业务流程和简化的供应链，从而让人员更快做出明智的决定。 无论您担任哪种角色，若要使用财务和运营应用，首先必须熟悉其功能和特性。 | 自由、自定进度的在线学习路径 | 2 小时 |
 | [课程 MB-900T01-A：Dynamics 365 基本原理](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | 此课程帮助学习者熟悉 Dynamics 365 功能和业务价值。 此课程介绍 Dynamics 365 应用程序、Power Platform、云概念、安全模型和许可注意事项。 | 教师指导的真人培训或在线培训，成本取决于地区和合作伙伴 | 1 天 |
-| [开始使用 Dynamics 365 Supply Chain Management 的资产管理](/learn/modules/get-started-asset-management/index) | 资产管理是 Dynamics 365 Supply Chain Management 中的一个模块，用于管理资产和维护作业。 可通过资产管理高效管理和执行与管理和处理公司中的多种设备（如机器、生产设备和汽车）有关的任务。 资产管理支持多个行业的解决方案。 | 自由、自定进度的在线学习模块 | 1 小时 |
-| [适用于 Dynamics 365 Supply Chain Management 的工程更改管理加载项入门](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management 通过预测性分析为员工和组织提供库存、仓库、制造、服务和后勤的统一视图，而预测性分析可以将数据转化为见解来更好地为战略决策提供支持。 | 自由、自定进度的在线学习模块 | 2 小时 |
+| [开始使用 Dynamics 365 Supply Chain Management 的资产管理](/training/modules/get-started-asset-management/index) | 资产管理是 Dynamics 365 Supply Chain Management 中的一个模块，用于管理资产和维护作业。 可通过资产管理高效管理和执行与管理和处理公司中的多种设备（如机器、生产设备和汽车）有关的任务。 资产管理支持多个行业的解决方案。 | 自由、自定进度的在线学习模块 | 1 小时 |
+| [适用于 Dynamics 365 Supply Chain Management 的工程更改管理加载项入门](/training/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management 通过预测性分析为员工和组织提供库存、仓库、制造、服务和后勤的统一视图，而预测性分析可以将数据转化为见解来更好地为战略决策提供支持。 | 自由、自定进度的在线学习模块 | 2 小时 |
 
 ## <a name="exam"></a>考试<a name="exam"></a>
 
 | 内容 | 说明 | 格式 |
 |---------|-------------|--------|
-| [Dynamics 365 基本原理](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | 证实您了解 Microsoft Dynamics 365、Power Platform、云概念、许可选项和部署与发布选项。 | 考试，成本取决于地区 |
+| [Dynamics 365 基本原理](/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | 证实您了解 Microsoft Dynamics 365、Power Platform、云概念、许可选项和部署与发布选项。 | 考试，成本取决于地区 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

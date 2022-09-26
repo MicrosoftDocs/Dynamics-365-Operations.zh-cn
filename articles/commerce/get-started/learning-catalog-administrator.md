@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8c6c62c724ce1788ab98df04505aad801d0e9a54
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: b6915a4e0136d8a4ee461763459df741b269db49
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423835"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538802"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Dynamics 365 Commerce 管理员学习目录
 
@@ -29,21 +29,21 @@ ms.locfileid: "9423835"
 
 | 内容 | Description | 格式 | Length |
 |---------|-------------|--------|--------|
-| [开始使用 Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/)| Dynamics 365 Commerce 基于经实践检验的 Dynamics 365 Retail 功能构建，提供统一后勤办公室、商店、呼叫中心和数字体验的综合性全渠道解决方案。 可使用 Dynamics 365 Commerce 通过更新后的客户参与建立品牌忠诚，通过提高员工生产效率提高收入，优化运营以减少成本和推动供应链效率，最终提高业务成果。 | 自由、自定进度的在线学习路径 | 2 小时   |
-| [开始使用 Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection 是一种基于云的解决方案，专为电子商务、实体商店和全渠道商家而设计，通过提供减少欺诈和滥用、减少运营费用和提高接受率，同时保护用户帐户免遭欺诈的工具和能力，来帮助保护商家的收入和声誉。 | 自由、自定进度的在线学习路径 | 35 分钟 |
+| [开始使用 Dynamics 365 Commerce](/training/paths/get-started-dynamics-365-commerce/)| Dynamics 365 Commerce 基于经实践检验的 Dynamics 365 Retail 功能构建，提供统一后勤办公室、商店、呼叫中心和数字体验的综合性全渠道解决方案。 可使用 Dynamics 365 Commerce 通过更新后的客户参与建立品牌忠诚，通过提高员工生产效率提高收入，优化运营以减少成本和推动供应链效率，最终提高业务成果。 | 自由、自定进度的在线学习路径 | 2 小时   |
+| [开始使用 Dynamics 365 Fraud Protection](/training/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection 是一种基于云的解决方案，专为电子商务、实体商店和全渠道商家而设计，通过提供减少欺诈和滥用、减少运营费用和提高接受率，同时保护用户帐户免遭欺诈的工具和能力，来帮助保护商家的收入和声誉。 | 自由、自定进度的在线学习路径 | 35 分钟 |
 
 ## <a name="commerce"></a>商业<a name="commerce"></a>
 
 | 内容 | 说明 | 格式 | 长度 |
 |---------|-------------|--------|--------|
-| [部署和扩展 Dynamics 365 Commerce](/learn/paths/deploy-dynamics-365-commerce/) | 此学习路径介绍如何使用适合每个零售商业务需求的正确拓扑，为成功实施 Commerce 部署 Dynamics 365 Commerce 环境并执行预配后步骤。 | 自由、自定进度的在线学习路径 | 5 小时   |
-| [在 Dynamics 365 Commerce 中配置和使用销售点 (POS)](/learn/paths/configure-use-pos-commerce/)         | 交易数据在销售点 (POS) 创建，然后上载到 Dynamics 365 Commerce Headquarters 进行处理。 此学习路径介绍如何安装和激活 POS，以及如何在 POS 中创建每日交易。 | 自由、自定进度的在线学习路径 | 4.5 小时 |
-| [在 Dynamics 365 Commerce 中配置和使用呼叫中心](/learn/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce 是一种全渠道解决方案，为呼叫中心渠道提供默认选择特定订单处理设置的功能，以及呼叫中心用户创建的销售订单的默认数据。                                  | 自由、自定进度的在线学习路径 | 2 小时   |
+| [部署和扩展 Dynamics 365 Commerce](/training/paths/deploy-dynamics-365-commerce/) | 此学习路径介绍如何使用适合每个零售商业务需求的正确拓扑，为成功实施 Commerce 部署 Dynamics 365 Commerce 环境并执行预配后步骤。 | 自由、自定进度的在线学习路径 | 5 小时   |
+| [在 Dynamics 365 Commerce 中配置和使用销售点 (POS)](/training/paths/configure-use-pos-commerce/)         | 交易数据在销售点 (POS) 创建，然后上载到 Dynamics 365 Commerce Headquarters 进行处理。 此学习路径介绍如何安装和激活 POS，以及如何在 POS 中创建每日交易。 | 自由、自定进度的在线学习路径 | 4.5 小时 |
+| [在 Dynamics 365 Commerce 中配置和使用呼叫中心](/training/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce 是一种全渠道解决方案，为呼叫中心渠道提供默认选择特定订单处理设置的功能，以及呼叫中心用户创建的销售订单的默认数据。                                  | 自由、自定进度的在线学习路径 | 2 小时   |
 
 ## <a name="e-commerce"></a>电子商务<a name="e-commerce"></a>
 
 | 内容 | 说明 | 格式 | 长度 |
 |---------|-------------|--------|--------|
-| [在 Dynamics 365 Commerce 中配置和使用电子商务](/learn/paths/configure-work-e-commerce/)              | Dynamics 365 Commerce 的在线渠道和电子商务站点支持零售商打造品牌的网络形象。 |
+| [在 Dynamics 365 Commerce 中配置和使用电子商务](/training/paths/configure-work-e-commerce/)              | Dynamics 365 Commerce 的在线渠道和电子商务站点支持零售商打造品牌的网络形象。 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

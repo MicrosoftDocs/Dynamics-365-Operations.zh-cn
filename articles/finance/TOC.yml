@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28（8 月）
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27（7 月）
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: 计算加拿大协调销售税
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: 全球化
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio 概览
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: 全球化资源
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: 全球化服务
@@ -1734,6 +1734,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: 计算和调整供应商发票上的销售税
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: 解销售税差额
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: 通过普通日记帐调整销售税
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: 对日记帐启用延期税金计算
@@ -2514,6 +2516,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: 在线开票系统
                   href: localizations/emea-hun-online-invoicing.md
+                - name: 增值税申报(匈牙利)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: 匈牙利的销售税报表
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: 匈牙利内部统计

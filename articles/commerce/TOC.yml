@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28（2022 年 7 月）
                   href: get-started/whats-new-commerce-10-0-28.md
-                - name: Commerce 10.0.27（2022 年 7 月）
-                  href: get-started/whats-new-commerce-10-0-27.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -1386,8 +1384,10 @@
               href: set-up-rfm-analysis.md
             - name: 在 Dynamics 365 Commerce 中设置 Microsoft Clarity
               href: set-up-clarity.md
-        - name: 全球化
+        - name: Globalization Studio
           items:
+            - name: Globalization Studio 概览
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/commerce
             - name: Commerce 渠道的会计集成概览
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: 设置 Commerce 渠道的会计集成

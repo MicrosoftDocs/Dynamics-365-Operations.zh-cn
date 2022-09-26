@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427866"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520742"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Dynamics 365 Supply Chain Management 10.0.29 预览版（2022 年 10 月）
 
@@ -35,7 +35,7 @@ ms.locfileid: "9427866"
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
 | 库存和物流 | [在库存可见性中分配和预留 WMS 物料](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | 即将推出 | 默认启用 |
-| 库存和物流 | [预加载简化的现有库存列表](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | 即将推出 | 默认启用 |
+| 库存和物流 | [预加载简化的现有库存列表](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [使用 Inventory Visibility 应用](../inventory/inventory-visibility-power-platform.md) | 通过服务配置启用 |
 | 按订单生产供应自动化 | [按订单生产供应自动化](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [按订单生产供应自动化](../master-planning/make-to-order-supply-automation.md) | 功能管理：<br>*按订单生产供应自动化* |
 | 计划 | [查看并应用 DDMRP 的详细见解](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [需求驱动材料要求计划概述](../master-planning/planning-optimization/ddmrp-overview.md) | 功能管理：<br>*(预览版)用于计划优化的 DDMRP* |
 | 生产控制 | [在过帐到日记帐前将成品设置为实际可用](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [在过帐到日记帐前将成品设置为实际可用](../production-control/deferred-posting.md) | 功能管理：<br>*(预览版)在过帐到日记帐前将成品设置为实际可用* |

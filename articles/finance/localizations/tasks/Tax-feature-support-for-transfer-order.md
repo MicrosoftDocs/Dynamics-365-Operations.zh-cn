@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: c55d0891ed37d63f89ee09759965ac443db20dc6
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203100"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542236"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>转移单的税务功能支持
 
@@ -63,7 +63,7 @@ ms.locfileid: "9203100"
         7. 选择 **保存**。
         
         创建税码 **BE-RC+21**。
-        1. 选择 **添加**，在 **税码** 字段中输入 **BE-RC-21**。
+        1. 选择 **添加**，在 **税码** 字段中输入 **BE-RC+21**。
         2. 在 **税种组分** 字段中选择 **按净额**。
         3. 选择 **保存**。
         4. 在 **比率** 表中选择 **添加**。
