@@ -1624,8 +1624,6 @@
                   href: sysadmin/security-reports.md
                 - name: 创建新用户
                   href: sysadmin/tasks/create-new-users.md
-                - name: 用户会话管理
-                  href: sysadmin/user-session-management.md
                 - name: 通过 Azure AD 条件访问按位置阻止访问
                   href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: 批量导入用户

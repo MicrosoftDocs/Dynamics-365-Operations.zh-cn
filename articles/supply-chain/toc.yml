@@ -1801,8 +1801,10 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: 保质期有限的产品的主计划
                   href: master-planning/planning-optimization/shelf-life.md
-                - name: 具有无限容量的计划
+                - name: 无限产能计划
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: 有限产能规划和计划编制
+                  href: master-planning/planning-optimization/finite-capacity.md
                 - name: 基于功能选择资源的计划
                   href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: 基于优先级的计划
@@ -1889,7 +1891,7 @@
                   href: master-planning/tasks/create-plan-site.md
                 - name: 日历和主计划
                   href: master-planning/supply-chain-calendars-master-planning.md
-                - name: 解决“找不到足够容量”计划编制引擎错误
+                - name: 解决“找不到足够产能”计划编制引擎错误
                   href: master-planning/not-enough-capacity-error-resolution.md
                 - name: 改善主计划性能
                   href: master-planning/master-planning-performance.md
