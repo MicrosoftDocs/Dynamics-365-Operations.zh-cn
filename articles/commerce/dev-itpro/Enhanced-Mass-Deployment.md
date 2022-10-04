@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387011"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589081"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>密封 Commerce 自助服务组件批量部署
 
@@ -47,7 +47,7 @@ ms.locfileid: "9387011"
 | -EnvironmentId | 环境 ID。 |
 | -HardwareStationAppInsightsInstrumentationKey | Hardware Station AppInsights 检测键。 |
 | 安装 | 一个指定是否应安装此安装程序提供的组件的参数。 此参数是执行安装的必需参数，没有前导短划线字符。 |
-| -InstallOffline | 对于 Modern POS，此参数指定还应安装和配置脱机数据库。 也使用 **-SQLServerName** 参数。 否则，安装程序将尝试查找满足先决条件的默认实例。 |
+| -InstallOffline | 对于 Modern POS，此参数指定还应安装和配置脱机数据库。 也使用 **-SQLServerName** 参数。 否则，安装程序将尝试查找满足先决条件的默认实例。 使用 Azure Active Directory (Azure AD) 身份验证时，POS 脱机将无法正常工作，因为始终需要在线连接。 |
 | -Port | 应与 Retail Server 虚拟目录关联并由其使用的端口。 如果未设置端口，将使用默认端口 443。 |
 | -Register | 收银机 ID，如 Headquarters 的 **收银机** 页面上所示。 |
 | -RetailServerAadClientId | Retail Server 在与 Headquarters 通信期间应使用的 Azure AD 客户端 ID。 |

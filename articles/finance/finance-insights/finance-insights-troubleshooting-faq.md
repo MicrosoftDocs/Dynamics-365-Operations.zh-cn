@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 331c714663d212471b72f1558e6183452ef7f394
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846906"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573160"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>解决 Finance Insights 设置问题
 
@@ -88,10 +88,14 @@ Dynamics 365 Finance 用户必须具有环境的 Microsoft Power Apps 用户帐�
 - 验证 Dynamics 365 Finance 许可证或等效许可证是否适用于正在安装加载项的用户。
 - 验证以下 Azure AD 应用是否已在 Azure AD 中注册： 
 
-  | 申请                  | 应用程序 ID           |
-  | ---------------------------- | ---------------- |
-  | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+    | 应用程序                  | 应用程序 ID           |
+    | ---------------------------- | ---------------- |
+    | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+    要验证应用程序是否已在 Azure AD 中注册，检查 **所有应用程序** 列表。 有关更多详细信息，请参阅[查看企业应用程序](/azure/active-directory/manage-apps/view-applications-portal)。
+  
+    如果应用程序未在 Azure AD 中注册，请联系支持人员。
+
 ## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>故障：错误，“我们未找到所选筛选器范围的任何数据。 请选择其他筛选器范围，然后重试。” 
 
 ### <a name="resolution"></a>解决方法

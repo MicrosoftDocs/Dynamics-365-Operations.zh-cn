@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 0f005352970ec3dadb178dfafeaf4f7e36f8c18d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279801"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573297"
 ---
 # <a name="get-started-with-tax-calculation"></a>开始使用税款计算
 
@@ -186,9 +186,9 @@ ms.locfileid: "9279801"
 
     | 税务组    | 税码           |
     | ------------ | ------------------- |
-    | DEU_Domestic | DEU_VAT19；DEU_VAT7 |
+    | DEU_Dom | DEU_VAT19；DEU_VAT7 |
     | DEU_EU       | DEU_Exempt          |
-    | BEL_Domestic | BEL_VAT21；BEL_VAT6 |
+    | BEL_Dom | BEL_VAT21；BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
 20. 在 **物料税组** 选项卡上，选择 **物料税组** 列，将其添加到矩阵中作为输入条件，然后添加行以维护物料税组主数据。
@@ -204,11 +204,11 @@ ms.locfileid: "9279801"
 
     下面是一个示例。
 
-    | 业务流程 | 发自 | 发往 | 税务组    |
+    | 业务流程 | 发自 | 装运地址 | 税务组    |
     | ---------------- | --------- | ------- | ------------ |
-    | 销售额            | DEU       | DEU     | DEU_Domestic |
+    | 销售额            | DEU       | DEU     | DEU_Dom |
     | 销售额            | DEU       | FRA     | DEU_EU       |
-    | 销售额            | BEL       | BEL     | BEL_Domestic |
+    | 销售额            | BEL       | BEL     | BEL_Dom |
     | 销售额            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]

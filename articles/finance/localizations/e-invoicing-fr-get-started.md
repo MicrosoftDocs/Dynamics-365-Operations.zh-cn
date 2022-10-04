@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-00-02
 ms.dyn365.ops.version: AX 10.0.29
-ms.openlocfilehash: 365316b204b6d76fa6ee6b2402fefee50c8ff3ef
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3ac4af8c131e35d9a499d0d558c7cce1d4872b37
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220640"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573270"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>开始使用适用于法国的电子开票加载项
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 本文提供的信息将帮助您开始使用适用于法国的电子开票。 指导您完成 Regulatory Configuration Service (RCS) 中与国家/地区相关的配置步骤。 这些步骤补充了[开始使用电子开票附加产品](e-invoicing-get-started.md)中描述的步骤。
 

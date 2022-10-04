@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542344"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591842"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化适应分析
 
@@ -94,7 +94,7 @@ ms.locfileid: "9542344"
 | 生产 | 具有产出的配方版本: *\#* | 此功能待定。 当前，启用计划优化后，与配方版本关联的产出将被忽略。 | 2022 年发布第 2 波 |
 | 生产 | 包括先后顺序的计划: *\#* | 此功能待定。 当前，无论此设置如何，启用计划优化后都会忽略先后顺序。 | 2022 年发布第 2 波 |
 | 生产 | 已下达的尚未开始的生产订单(计划的开始时间早于今日): *\#* | 此功能待定。 当前，如果生产订单延迟，主计划将假定它将在今天完成。 这与交货日期在过去但尚未完成的已下达生产订单有关。 | 未来波次 |
-| 生产 | 使用有限产能计划的资源：*\#* | 此功能待定。 当前，启用计划优化后，将忽略使用有限产能计划的资源。 计划根据产品的默认提前期完成。 | 2022 年发布第 2 波 |
+| 生产 | 使用有限产能计划的资源：*\#* | 此功能现在受支持。| 受支持 |
 | 生产 | 计划中使用的路线: *\#* | 此功能受支持。 | 受支持 |
 | 生产 | 使用分解的销售订单行预留：*\#* | 启用计划优化后，将不支持使用分解的销售订单行预留。 | 未来波次 |
 | 生产 | 使用生产订单分解的计划：*\#* | 启用计划优化后，将不支持使用生产订单分解的计划。 生产订单可以单独计划。 | 未来波次 |

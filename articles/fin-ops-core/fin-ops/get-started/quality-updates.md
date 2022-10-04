@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473597"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592038"
 ---
 # <a name="proactive-quality-updates"></a>主动质量更新
 
@@ -57,7 +57,7 @@ ms.locfileid: "9473597"
 - **架构** – 工具将确保质量更新版本仅包括可在服务在线时应用的架构更改。 此方法将有助于保持在近零停机的情况下应用更新的能力。
 - **加强更改审查** – 目前，已经有一个额外的流程步骤来审批更改，以将其包含在质量更新中。 将增加对额外步骤的审查，以帮助减少可能出现的退化。 质量更新中不允许进行中断性变更，加强对更改的审查将有助于确保我们实现这一目标。
 - **可见性** – 我们将通过电子邮件和 Lifecycle Services (LCS) 发送通知，来告知即将进行的主动质量更新。 此外，支持团队和事件负责人将会了解主动部署质量更新的位置。
-- **版本回退** – 将使用外部测试来对主动质量更新中的所有更改进行分组。 如果在主动部署后需要回退，可以通过外部测试系统完成。
+- **通过外部测试提供失败保护** – 只要在质量更新 bug 修复中适用，外部测试将用于保护代码更改，或使用与修复相关的现有功能外部测试。 如果在主动部署后需要回退或关闭更改，可以通过外部测试系统完成，以避免进一步失败。
 - **沙盒同步指定** – 今天，只有不到 20% 的客户有多个沙盒，并在版本与生产相匹配的位置部署一个沙盒，来帮助进行故障排除。 如果客户使用沙盒测试比其生产版本更新的版本，该沙盒将收到更新版本的质量更新。
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>质量更新的推出路线图是怎样的？
@@ -69,7 +69,7 @@ ms.locfileid: "9473597"
 由于客户将定期收到较小的有效负载，我们预期保持最新功能的流程会变得更简单。 随着我们展示出在不中断的情况下运行流程的能力，我们将调整更新部署的频率。 此流程已经在针对我们的 Dataverse 平台和应用程序有效地运行，并正在交付预期的服务质量改进。 我们渴望在财务和运营应用程序中迈出同样的一步。
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>生产环境的质量更新何时开始？
-目前，质量更新仅针对沙盒。 生产环境的更新将在 2022 年 11 月之后开始。
+目前，质量更新仅针对沙盒。 当我们从沙盒的主动更新中获得更具体的数据和指标时，我们将使用生产环境的开始日期更新此空间，以衡量生产环境的准备情况。
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>沙盒质量更新的计划是什么？
 有关每个区域的黑暗时间的信息，请参阅[主动质量更新的计划是什么？](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)。

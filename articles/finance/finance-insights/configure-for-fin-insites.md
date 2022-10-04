@@ -2,7 +2,7 @@
 title: Finance Insights 的配置
 description: 本文介绍的配置步骤用于让系统使用 Finance Insights 中的可用功能。
 author: ShivamPandey-msft
-ms.date: 01/27/2022
+ms.date: 09/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861407"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573169"
 ---
 # <a name="configuration-for-finance-insights"></a>Finance Insights 的配置
 
@@ -39,7 +39,7 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能以及 Datave
 1. 在 LCS 中，创建或更新 Dynamics 365 Finance 环境。 此环境需要应用版本 10.0.21 或更高版本。
 
     > [!NOTE]
-    > 此环境必须是高可用性 (HA) 环境。 （这种类型的环境也称为二级环境。）有关详细信息，请参阅[环境规划](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)。
+    > 此环境必须是高可用性 (HA) 环境。 （这种类型的环境也称为二级环境。）有关详细信息，请参阅[环境规划](/fin-ops-core/fin-ops/imp-lifecycle/environment-planning)。
 
 2. 如果您要在沙盒环境中配置 Finance Insights，可能必须将生产数据复制到该环境，预测才能够工作。 预测模型使用多年的数据来生成预测。 Contoso 演示数据包含的历史数据不足以充分定型预测模型。 
 
@@ -51,13 +51,16 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能以及 Datave
 
 - 您在 Power Portal 管理中心具有 **系统管理员** 和 **系统定制员** 访问权限。
 - Dynamics 365 Finance 许可证或等效许可证适用于正在安装 Finance Insights 加载项的用户。
+- 已在 Azure AD 中注册以下 Azure AD 应用。
 
-已在 Azure AD 中注册以下 Azure AD 应用。
+    |  应用程序                             | 应用程序 ID                               |
+    |------------------------------------------|--------------------------------------|
+    | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
 
-|  申请                             | 应用程序 ID                               |
-|------------------------------------------|--------------------------------------|
-| Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    
+    要验证应用程序是否已在 Azure AD 中注册，检查 **所有应用程序** 列表。 有关更多详细信息，请参阅[查看企业应用程序](/azure/active-directory/manage-apps/view-applications-portal)。
+  
+    如果应用程序未在 Azure AD 中注册，请联系支持人员。
+  
 ## <a name="configure-dataverse"></a>配置 Dataverse
 
 按照以下步骤为 Finance Insights 配置 Dataverse。

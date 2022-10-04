@@ -2,7 +2,7 @@
 title: 监管更新
 description: 本文提供 Microsoft Dynamics 365 Finance 的已计划和已发布监管更新的列表。
 author: VStamberg
-ms.date: 04/18/2022
+ms.date: 09/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 129e4e1d44018da206d0e797dcfd389c9e6adeba
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: fdfc10ea5bf330c3a739f8dfe86c56f16ca2c69e
+ms.sourcegitcommit: 2290799408b7567a97601bc4158f814d5bfd844c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206158"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "9596227"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -39,19 +39,14 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 
 |国家/地区|发放日期|发行版本|监管更新|
 |--------------------|---------------|-------|-------| 
-|      巴西         |   2022 年 3 月    | 10.0.27        |    针对非纳税人的 ICMS-DIFAL 运营征收（第 190/22 号补充法 ）  |
-|      巴西         |   2022 年 3 月         | 10.0.27         |    NF-e NT2021.004 v1.00 - 布局和验证规则更新  |
-|      巴西         |   2022 年 3 月         | 10.0.27         |    NF-e NT2021.004 v1.00 - 布局和验证规则更新 - 零售  |
-|      巴西         |   2022 年 4 月         | 10.0.27HF、10.0.28         |    SPED ECF - 布局 8  |
-|      东欧         |   2022 年 7 月         | 10.0.27HF、10.0.28HF、10.0.29         |    各主科目的总帐报表  |
-|      立陶宛|   2022 年 2 月 | 10.0.27 | Dynamics 365 Finance 中 2022-01-01 的 i.SAF 更改  |
-|      墨西哥         |   2022 年 3 月      | 10.0.27      |   CFDI 格式版本 4.0（发票和付款）  |
-|      墨西哥         |   2022 年 2 月      | 10.0.27      |   自 2022 年 1 月 1 日起，CFDI 4.0 版生效，3.3 版和 4.0 版共存期为 2022 年 1 月 1 日至 6 月 30 日。  |
-|      墨西哥         |   2022 年 3 月      | 10.0.27      |   CFDI 格式版本 4.0（预缴）  |
-|      波兰          |   2022 年 4 月     | 10.0.27HF、10.0.28     |   JPK_FA 版本 4（从 2022 年 4 月 1 日开始）、JPK_V7M - 从 2022 年 1 月开始的新架构版本 |
-|      俄罗斯          |   2022 年 6 月     | 10.0.27    |  有关可跟踪产品（在勾销显示器、冰箱和自用办公家具等购买的可追溯商品范围内）的工序的报告|
-|      新加坡      |   2022 年 7 月| 10.0.27HF、10.0.28HF、10.0.29 | TXT 格式的 IRAS 审计文件 (IAF)|
-|      西班牙      |   2022 年 3 月| 10.0.27 | Dynamics 365 Finance 2022 年 1 月 1 日的增值税申报模型 303 更改|
+|      巴西         |   2022 年 4 月         | 10.0.28         |    SPED ECF - 布局 8  |
+|      巴西         |   2022 年 6 月         | 10.0.30HF         |    EFD ICMS IPI - 版本 3.0.9  |
+|      巴西         |   2022 年 8 月         | 10.0.30         |    NF-e NT2021.004 v1.31 - 布局和验证规则更新  |
+|      东欧         |   2022 年 7 月         | 10.0.28HF、10.0.29         |    各主科目的总帐报表  |
+|      匈牙利         |   2022 年 7 月         | 10.0.30         |    使用 XML (2065A) 格式进行增值税申报与在 Excel 中预览。 XML 格式的采购发票附录 (2065M)  |
+|      波兰          |   2022 年 4 月     | 10.0.28     |   JPK_FA 版本 4 从 2022 年 4 月 1 日开始 |
+|      俄罗斯          |   2022 年 6 月     | 10.0.29    |  从州地址注册 (GAR) 导入地址数据|
+|      新加坡      |   2022 年 7 月| 10.0.28HF、10.0.29 | TXT 格式的 IRAS 审计文件 (IAF)|
 
 
 ## <a name="additional-resources"></a>其他资源
