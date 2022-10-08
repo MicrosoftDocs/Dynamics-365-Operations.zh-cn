@@ -2,19 +2,19 @@
 title: 捷克共和国的会计登记服务集成示例
 description: 本文提供 Microsoft Dynamics 365 Commerce 中捷克共和国的会计整合示例。
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-04-01
-ms.openlocfilehash: 3838792c0a420fb88ea9daab0a67c2e644c80681
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: de26b038009d8bf3518c67389c96aade19a0b65b
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313739"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631238"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>捷克共和国的会计登记服务集成示例
 
@@ -188,7 +188,7 @@ Microsoft 不会从 EFSTA 发布任何硬件、软件或文档。 有关如何�
 
 1. [设置会计登记流程](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)。 此外，请记下[特定于此会计登记服务整合示例](#set-up-the-registration-process)的会计登记流程的设置。
 1. [设置错误处理设置](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
-1. [启用已推迟会计登记的手动执行](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration)。
+1. [启用已推迟会计登记的手动执行](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration)。
 1. [配置渠道组件](#configure-channel-components)。
 
 ### <a name="set-up-the-registration-process"></a>设置登记流程

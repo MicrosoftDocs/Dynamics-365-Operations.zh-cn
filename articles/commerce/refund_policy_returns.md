@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286829"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627488"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>创建和更新渠道的退货和退款政策
 
@@ -36,12 +36,8 @@ ms.locfileid: "9286829"
 
 ## <a name="enable-return-policy"></a>启用退货政策
 
-要在 Commerce Headquarters 中启用渠道退货政策功能，请按照下列步骤操作。
+此功能默认情况下已打开。 您可以通过在功能名称列表中搜索 **启用渠道退货政策**，在 **功能管理** 工作区找到它。
 
-1. 转到 Dynamics 365 Commerce 中的 **功能管理** 工作区。
-1. 在功能名称列表中搜索 **启用渠道退货政策** 功能。
-1. 选择 **立即启用**。
-1. 在 **分配计划** 页面上，运行 **1110**（全局配置）作业以分配功能更改。
 
 ## <a name="configure-return-policy"></a>配置退货政策
 

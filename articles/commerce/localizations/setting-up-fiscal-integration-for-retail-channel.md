@@ -2,19 +2,19 @@
 title: 设置商业渠道的会计整合
 description: 本文提供为商业渠道设置会计整合功能的指南。
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276121"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631415"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>设置商业渠道的会计整合
 
@@ -30,9 +30,10 @@ ms.locfileid: "9276121"
 1. 查找并启用以下功能：
 
     - **来自 POS 收银机的直接会计集成** – 此功能通过添加创建将在销售点 (POS) 中运行的会计连接器的功能来扩展会计整合框架。 此类连接器与提供 HTTP 应用编程接口 (API) 的会计设备或服务进行通信，并且不需要商店中的专用物理机器。 例如，此功能支持移动设备的会计集成，而无需共享硬件站。
-    - **会计集成技术配置文件覆盖** - 此功能可以扩展会计整合的配置，并在 POS 收银机的设置页面上添加检查连接参数的功能。 启用此功能后，您可以覆盖技术配置文件的参数。
+    - **会计整合技术配置文件替代** – 此功能可以扩展会计整合的配置，并添加替代技术配置文件参数的功能。 例如，可以在单个 POS 收银机级别指定会计设备连接字符串。 此功能还增加了在 POS 收银机的 **设置** 页面上检查连接参数的可能性。 
     - **POS 收银机的会计登记状态** – 启用此功能后，您可以禁用特定 POS 收银机的会计登记流程。 如果对 POS 收银机禁用会计登记，则无法在该收银机上完成销售交易。
-    - **会计整合本地存储备份**- 此功能扩展会计集成框架的错误处理功能。 它还可以在数据丢失的情况下自动备份会计登记数据，以便在设备激活时恢复本地存储中的数据。
+    - **会计整合本地存储备份** – 此功能通过启用会计登记数据的自动备份扩展了会计整合框架的错误处理功能，以可以在激活设备时还原本地存储中的数据。
+    - **已推迟单据登记** - 此功能通过启用在会计登记失败时推迟会计登记，使用备用会计登记选项或稍后通过会计整合框架以外的方式完成会计登记的选项，扩展了会计整合框架的错误处理功能。
 
 ## <a name="set-up-commerce-parameters"></a>设置 Commerce 参数
 
@@ -286,16 +287,15 @@ ms.locfileid: "9276121"
     1. 添加新按钮，并设置 **打印会计 Z** 按钮属性。
     1. 在 **配送计划** 页，运行 **1090** 作业将更改传输到渠道数据库。
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>启用已推迟会计登记的手动执行
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>启用已推迟会计登记的手动执行
 
-若要启用已延迟会计登记的手动执行，应该向 POS 布局添加一个新按钮。
+若要启用已推迟会计登记的手动执行，应该向 POS 布局添加一个新按钮。
 
 - 在 **按钮网格** 页，请按照[使用按钮网格设计器将 POS 操作添加到 POS 布局](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)中的说明安装设计器、更新 POS 布局。
 
     1. 选择要更新的布局。
     1. 添加新按钮，并设置 **完成会计登记流程** 按钮属性。
     1. 在 **配送计划** 页，运行 **1090** 作业将更改传输到渠道数据库。
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>查看 POS 中的连接参数和其他信息
 

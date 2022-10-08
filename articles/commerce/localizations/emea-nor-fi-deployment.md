@@ -2,19 +2,19 @@
 title: 适用于挪威的收银机的部署指南
 description: 本文提供有关如何针对挪威 Microsoft Dynamics 365 Commerce 本地化启用收银机功能的指南。
 author: EvgenyPopovMBS
-ms.date: 08/23/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
-ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
+ms.openlocfilehash: 0e66ef93e65fecaca23f0434c386507a0672d251
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9345983"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631307"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>适用于挪威的收银机的部署指南
 
@@ -33,7 +33,7 @@ ms.locfileid: "9345983"
 
 1. [设置会计登记流程](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process)。 请务必记下[特定于挪威](#configure-the-fiscal-registration-process)的会计登记流程的设置。
 1. [设置错误处理设置](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
-1. [启用已推迟会计登记的手动执行](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration)。
+1. [启用已推迟会计登记的手动执行](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration)。
 1. [配置渠道组件](#configure-channel-components)。
 
 ### <a name="configure-the-fiscal-registration-process"></a>配置会计登记流程

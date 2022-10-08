@@ -2,19 +2,19 @@
 title: Commerce 渠道的会计集成概览
 description: 本文提供 Dynamics 365 Commerce 中可用的会计整合功能的概览。
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286491"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631228"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Commerce 渠道的会计集成概览
 
@@ -96,15 +96,19 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 会计整合框架在会计登记期间提供以下处理失败情况的选项：
 
 - **重试** – 操作员可以在失败能够快速解决时使用此选项，会计登记可以重新运行。 例如，此选项可以在会计设备未连接、税控打印机缺纸或税控打印机卡纸时使用。
-- **取消** – 此选项允许操作员在登记失败时延期当前交易或事件的会计登记。 登记延期后，操作员可以继续在 POS 上工作，并可以完成不需要会计登记的任何操作。 在需要会计登记的任何事件在 POS 中发生时（例如，打开新交易记录），错误处理对话框将自动显示以通知操作员上一项交易未正确登记并提供错误处理选项。
-- **跳过** – 操作可以在会计登记可在特定条件下忽略并且可以继续在 POS 上执行常规操作时使用此选项。 例如，当会计登记失败的销售交易可以在特殊的纸质日记帐中登记时，可以使用此选项。
-- **标记为已登记** – 当交易在会计设备中实际已登记（例如，财务收据已打印），但在会计响应保存到通道数据库时失败的情况下，操作员可以使用此选项。
-- **推迟** – 当交易记录因登记服务不可用而未登记时，操作员可以使用此选项。 
+- **取消** – 此选项允许操作员在登记失败时推迟当前交易或事件的会计登记。 登记推迟后，操作员可以继续在 POS 上工作，并可以完成不需要会计登记的任何操作。 在需要会计登记的任何事件在 POS 中发生时（例如，打开新交易记录），错误处理对话框将自动显示以通知操作员上一项交易未正确登记并提供错误处理选项。
+- **跳过** – 当无法完成当前交易或事件的会计登记（例如，如果会计打印机出现故障），**并且** 在特定条件下可以省略会计登记时，操作员可以使用此选项。 例如，当会计登记失败的销售交易可以在特殊的纸质日记帐中登记时，可以使用此选项。 跳过会计登记后，可以在 POS 上继续进行常规操作。 
+- **标记为已登记** – 当当前交易或事件在会计设备中实际已登记（例如，财务收据已打印），但在会计响应保存到渠道数据库时失败的情况下，操作员可以使用此选项。 将当前交易或事件标记为已登记后，可以在 POS 上继续进行常规操作。
+- **推迟** – 当交易因登记设备或服务不可用而未登记，**并且** 适用以下情况之一时，操作员可以使用此选项。
+    - 有备用会计登记选项，可以继续当前交易的会计登记过程。 例如，当在线会计登记服务不可用时，本地[会计登记](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode)可以作为该服务的备用选项。
+    - 会计登记可以稍后通过会计整合框架以外的方式完成。 例如，推迟的交易可以稍后通过[单独的功能](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode)在批处理中进行会计登记。
+    
+    推迟当前交易或事件后，可以在 POS 上继续进行常规操作。
 
-> [!NOTE]
-> 在使用前，**跳过**、**标记为已登记** 和 **推迟** 选项必须在会计登记流程中启用。 此外，必须向操作员授予相应权限。
+> [!WARNING]
+> **跳过**、**标记为已登记** 和 **推迟** 选项应被视为紧急选项，仅在特殊情况下使用。 与您的法律或税务顾问讨论这些错误处理选项，并在启用前做出正确的判断。 在使用前，这些选项必须在会计登记流程中启用。 为确保操作员不会按常规使用它们，必须向操作员授予相应的权限。
 
-**跳过**、**标记为已登记** 和 **推迟** 选项支持信息代码获取有关失败的一些具体信息，如失败原因或跳过会计登记或将交易标记为已登记的理由。 有关如何设置错误处理参数的更多详细信息，请参阅[设置错误处理设置](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
+当选择了 **跳过**、**标记为已登记** 或 **推迟** 选项时，将创建[会计交易](#storing-fiscal-response-in-fiscal-transaction)，但会计交易不包含会计响应。 这样，您可以捕获会计登记失败事件。 这些选项还支持信息代码捕获有关失败的一些具体信息，如失败原因或跳过会计登记或将交易标记为已登记的理由。 有关如何设置错误处理参数的更多详细信息，请参阅[设置错误处理设置](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
 
 ### <a name="optional-fiscal-registration"></a>可选会计登记
 
@@ -112,11 +116,7 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 
 ### <a name="manually-rerun-fiscal-registration"></a>手动重新运行会计登记
 
-如果失败后已推迟了交易记录或事件的会计登记（例如，如果操作员在错误处理对话框中选择了 **取消**），可以通过调用相应操作手动重新运行会计登记。 有关更多详细信息，请参阅[启用已推迟会计登记的手动执行](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration)。
-
-### <a name="postpone-option"></a>推迟选项
-
-如果当前步骤失败，**推迟** 选项可让您继续执行财务登记流程。 当存在会计登记备份选项时，可以使用此选项。
+如果失败后已推迟了交易或事件的会计登记（例如，如果操作员在错误处理对话框中选择了 **取消**），可以通过调用相应操作手动重新运行会计登记。 有关更多详细信息，请参阅[启用已推迟会计登记的手动执行](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration)。
 
 ### <a name="fiscal-registration-health-check"></a>会计登记运行状况检查
 
@@ -138,7 +138,7 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>在会计交易记录中存储会计响应
 
-当交易或事件的会计登记成功时，会计交易记录将在通道数据库中创建并链接到原始交易或事件。 同样，如果为失败的会计登记选择了 **跳过** 或 **标记为已登记** 选项，此信息将存储在会计交易记录中。 会计交易记录保留会计设备或服务的会计响应。 如果会计登记流程包括多个步骤，将为登记成功或失败的流程的每个步骤创建一个会计交易记录。
+当交易或事件的会计登记成功时，会计交易记录将在通道数据库中创建并链接到原始交易或事件。 同样，如果为失败的会计登记选择了 **跳过**、**标记为已登记** 或 **推迟** 选项，此信息将存储在会计交易中。 会计交易记录保留会计设备或服务的会计响应。 如果会计登记流程包括多个步骤，将为登记成功或失败的流程的每个步骤创建一个会计交易记录。
 
 会计交易记录通过 *P 作业* 与交易记录一起转移到总部。 在 **商店交易记录** 页的 **会计交易记录** 快速选项卡上，您可以查看链接到零售交易记录的会计交易记录。
 

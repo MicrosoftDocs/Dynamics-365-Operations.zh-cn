@@ -2,7 +2,7 @@
 title: Dynamics 365 Commerce 10.0.29（2022 年 10 月）的新增功能或更改
 description: 本文介绍 Microsoft Dynamics 365 Commerce 10.0.29 中的新增功能或更改的功能。
 author: josaw1
-ms.date: 08/17/2022
+ms.date: 09/29/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
-ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
+ms.openlocfilehash: 0629228516d688abf4dcd4280d1ad676f8f35331
+ms.sourcegitcommit: ce4e56d798281258479432ad821287a1cc8e26bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "9475895"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9601563"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Dynamics 365 Commerce 10.0.29（2022 年 10 月）的新增功能或更改
 
@@ -39,6 +39,7 @@ ms.locfileid: "9475895"
 | 电子商务 | 支持在电子商务中比较产品 | 允许购物者比较各种类别的产品，以便他们能为自己做出正确的购买决定。 此功能适用于企业对消费者 (B2C) 和 B2B 站点。 | 站点生成器 | 
 | 礼品卡 | 支持零售礼品卡表以实现跨公司数据共享 | Dynamics headquarters 支持为 Dynamics 架构中的特定表启用跨公司数据共享的功能。 在此功能中，Dynamics 365 Commerce 增加了对零售礼品卡表跨公司数据共享的支持。 因此，一家公司的礼品卡现在可以将其数据复制到环境中的另一家公司。 对原始公司礼品卡表所做的更改将共享到复制的公司礼品卡表。 | 开发人员 |
 | 全球化 | [为新的 Commerce SDK 启用 Commerce 本地化功能](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | 新功能提供了通过使用功能管理框架或参数从 Commerce headquarters 启用 Commerce 本地化功能的可能性。 会计整合示例现在包含在新的 Commerce SDK 中并支持独立打包。 此功能还让全球 Commerce 客户能够采用 Store Commerce 应用。<p><p>此版本包括[奥地利](../localizations/emea-aut-fi-sample.md)、[捷克共和国](../localizations/emea-cze-fi-sample.md)、[法国](../localizations/emea-fra-cash-registers.md)、[德国](../localizations/emea-deu-fi-sample.md)、[意大利](../localizations/emea-ita-fpi-sample.md)、[挪威](../localizations/emea-nor-cash-registers.md)和[波兰](../localizations/emea-pol-fpi-sample.md)的 Commerce 本地化功能和会计整合示例。 | 由管理员/制作者启用 |
+| 脱机 | [POS 脱机数据库压缩](../dev-itpro/implementation-considerations-offline.md#important-offline-features) | 此新功能通过在渠道[商店营业时间](../dev-itpro/store-hours.md)之外启用自动索引压缩来减少离线数据库的大小。 | 功能管理<p>*POS 脱机数据库压缩* |
 | 性能 | 删除“编辑客户”场景的 RTS 依赖项 | 高可用性和高性能是对销售点 (POS) 和电子商务渠道的默认期望。 为了帮助达到这些期望，在编辑客户信息时，Dynamics 365 Commerce 渠道不再需要依赖与 Commerce headquarters 的实时通信。 为异步和非异步客户异步编辑客户信息的功能有助于减少对 Commerce headquarters 的实时调用。 | 由管理员/制作者启用 |
 
 ## <a name="feature-state-changes-in-this-release"></a>此版本中的功能状态更改

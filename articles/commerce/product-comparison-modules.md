@@ -2,19 +2,19 @@
 title: 产品比较模块
 description: 本文介绍产品比较模块以及如何实现这些模块，以便客户可以在 Microsoft Dynamics 365 Commerce 电子商务网站上进行产品比较。
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474118"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618377"
 ---
 # <a name="product-comparison-modules"></a>产品比较模块
 
@@ -91,6 +91,19 @@ ms.locfileid: "9474118"
 1. 在右侧的属性窗格中，配置 **产品比较按钮** 模块属性。
 1. 选择 **保存**，然后选择 **预览** 以预览页面。
 1. 选择 **完成编辑** 签入页面，然后选择 **发布** 进行发布。
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>将产品比较预览面板模块添加到您网站上的页面
+
+产品比较预览面板模块为您的客户提供了查看他们添加到比较中或从中删除的产品的选项。 预览面板还提供了直接导航到比较页面或清除整个产品列表的选项。 
+
+我们建议您在启用了 **产品比较按钮** 的所有页面上启用预览面板。 此模块可以作为插槽添加到 **产品比较按钮**，也可以作为独立模块使用，您可以在任何页面上进行配置，即使没有添加或删除要比较的产品的功能。 
+
+您必须手动将产品比较预览面板模块添加到页面。 您应该只在页面上添加一个预览面板模块。 如果您将模块的多个实例添加到页面，将呈现第一个模块，其余实例将被忽略。
+
+![产品比较预览面板](./media/product-comparison-preview-panel-2.png)
+
+如果您指定产品比较限制，您可以选择在预览面板上启用灰色占位符，来指示还可以将多少产品添加到比较中。 灰色占位符在被添加到比较时会被替换为产品。 要配置产品比较限制并启用灰色占位符，在站点构建器中，转到 **站点设置 > 扩展**，然后在 **产品比较** 部分进行更改。 配置将应用于所有页面的所有预览面板。 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>指定要在比较托盘中显示的最大产品数
 
