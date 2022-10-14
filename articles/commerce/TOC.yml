@@ -394,9 +394,11 @@
                   items:
                     - name: Store Commerce 应用
                       href: dev-itpro/store-commerce.md
+                    - name: 适用于移动平台的 Store Commerce 应用
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: 将 Modern POS 迁移到 Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
-                    - name: 设备管理实施指南
+                    - name: 设备管理实施指导
                       href: implementation-considerations-devices.md
                     - name: 选择 Store Commerce 或 Cloud POS
                       href: MPOS-or-CPOS.md
