@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance 中已删除或弃用的功能
 description: 本文介绍 Dynamics 365 Finance 中已经删除或计划删除的功能。
 author: kfend
-ms.date: 06/29/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462293"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643786"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -32,6 +32,18 @@ ms.locfileid: "9462293"
 
 > [!NOTE]
 > [技术参考报告](/dynamics/s-e/global/axtechrefrep_61)中提供了有关财务和运营应用中的对象的详细信息。 可比较这些报告的不同版本，以了解财务和运营应用各版本中已更改或已删除的对象。
+
+## <a name="features-removed-or-deprecated-in-the-finance-10031-release"></a>Finance 10.0.31 版本中已经删除或弃用的功能
+
+### <a name="edifact-paymul-at-configuration-under-payment-model"></a>付款模型下的 EDIFACT PAYMUL (AT) 配置
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **弃用/移除的原因** | 已替换为基于 ISO 20022 pain.001.001.09 的新格式。 | 
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 应用程序 |
+| **部署选项**              | 所有 |
+| **Status**                         | 已弃用：奥地利的银行将在 2022 年 11 月之前弃用用于跨境支付的 EDICFACT-PAYMUL，将替换为 XML 版本 pain.001.001.09N。 全局配置存储库下添加了一个新配置，支持用户完成跨境付款请求。 |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Finance 10.0.30 版本中已经删除或弃用的功能
 

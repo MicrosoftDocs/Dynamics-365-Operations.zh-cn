@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 284aba91aa436ed1dfc02b5a93b4358ffc518017
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5026f234f1b2f38e7041098421d0261fd468db96
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428331"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643705"
 ---
 # <a name="deploy-an-iot-solution-on-azure"></a>在 Azure 上部署 IoT 解决方案
 
@@ -26,6 +26,14 @@ ms.locfileid: "9428331"
 Sensor Data Intelligence 使用来自连接到 Microsoft Azure 的传感器的数据。 要使 Azure 能够从您的传感器中检索数据并与 Dynamics 365 Supply Chain Management 共享，您必须在您的 Azure 订阅上部署物联网 (IoT) 解决方案。 以下体系结构图提供了解决方案及其组件的概览。
 
 ![Sensor Data Intelligence 体系结构图。](media/sdi-architecture.png "Sensor Data Intelligence 体系结构图")
+
+## <a name="video-instructions"></a>视频说明
+
+以下视频展示了如何[打开传感器数据智能功能](sdi-enable-feature.md)并部署所需的 Azure 资源。 本文的另一节内容以基于文本的格式提供相同的说明。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58g3I]
+
+## <a name="procedure"></a>过程
 
 按照以下步骤在 Azure 上部署所需资源。
 

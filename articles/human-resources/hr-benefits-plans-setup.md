@@ -2,7 +2,7 @@
 title: 创建福利计划
 description: 本文展示如何在 Dynamics 365 Human Resources 中设置福利计划。
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 09/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c8d4488f1782d80484a8b91f4ae7303fea0e464
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 001318be00efcda1e7ee07513e240059d3c5e135
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336866"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643929"
 ---
 # <a name="create-a-benefit-plan"></a>创建福利计划
 
@@ -42,8 +42,9 @@ ms.locfileid: "9336866"
    | **项目** | 指定要有选择地向其分配计划的项目。 |
    | **捆绑** | 指定要有选择地向其分配计划的捆绑。 |
    | **主提单** | 指定该计划是否为所分配到的捆绑中的主计划。 |
+   | **必需** | 指示需要选择该计划才能签出捆绑销售中的任何其他计划。 可以将多个计划标记为 **必需**. 在这种情况下，需要选择标记为 **必需** 的所有计划，来签出捆绑销售中的所有计划。|
    | **生效日期和时间** | 计划开始的日期和时间。 默认值为当前系统日期。 |
-   | **失效日期和时间** | 计划结束的日期和时间。 默认值为 12/31/2154，表示永不。 |
+   | **失效日期和时间** | 计划结束的日期和时间。 默认值为 12/31/2154，表示永不。  |
 
 4. 在 **配置** 选项卡中，根据要创建的计划类型为以下字段指定值：
 

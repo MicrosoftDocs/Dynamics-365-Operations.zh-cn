@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 5ef6a1574f55ad8a4222658887249db4a5490042
-ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
+ms.openlocfilehash: e3b200186096a49f800d5b650ac81a45fe5e9e30
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183831"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644133"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>云和本地功能的比较
 
@@ -119,6 +119,7 @@ ms.locfileid: "9183831"
 | 制造                        |                                                                                           | 是       | 是             |
 | 主计划和预测      |                                                                                           | 是       | 是             |
 |                                      | 计划优化                                                                     | 是       | 否              |
+|                                      | 需求预测                                                                        | 是       | 否              |
 | 移动应用、工作区和平台 |                                                                                           | 是       | 是             |
 | Office 集成                   |                                                                                           | 是       | 是             |
 | 组织管理          |                                                                                           | 是       | 是             |

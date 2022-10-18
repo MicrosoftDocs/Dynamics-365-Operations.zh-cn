@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357583"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671450"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>数据导入和导出作业概览
 
@@ -64,6 +64,9 @@ ms.locfileid: "9357583"
 
 ### <a name="set-the-data-format-for-the-job"></a>设置作业的数据格式
 选择一个实体后，必须选择要导出或导入的数据的格式。 使用 **数据源设置** 磁贴定义格式。 源数据格式是 **类型**、**文件格式**、**行分隔符** 和 **列分隔符** 的组合。 还有其他属性，但以上属性则是需要了解的关键属性。 下表列出了有效组合。
+
+> [!NOTE]
+> Excel 文件格式目前在政府社区云 (GCC) 的数据管理工作区不可用。
 
 | 文件格式            | 行/列分隔符                       | XML 样式                 |
 |------------------------|--------------------------------------------|---------------------------|

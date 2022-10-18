@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591842"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643719"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化适应分析
 
@@ -104,7 +104,7 @@ ms.locfileid: "9591842"
 | 安全宽限期 | 具有安全宽限期的主计划：*\#* | 此功能现在受支持。 有关更多信息，请参阅[安全宽限期](safety-margins.md) |  受支持 |
 | 安全存货履行 | “最小完成量”与“今日日期 + 采购时间”不同的物料覆盖率记录：*\#* | 计划优化始终使用 *今日日期 + 采购时间*。 进行此更改是为了为将来的简化计划设置做准备，并提供可行结果。 如果安全存货未包括采购时间，则为当前的低现有库存量创建的计划订单将始终会由于提前期而延迟。 此行为可能会导致严重的影响和不必要的计划订单。 最佳实践是更改设置，以使用 *今日日期 + 采购时间*。 更新主数据以避免触发警告。 | 无 |
 | 销售报价单 | 启用了销售报价单的主计划：*\#* | 此功能待定。 当前，启用计划优化后不会考虑报价单。 无论此设置如何，都将忽略。 | 2022 年发布第 2 波或更高版本 |
-| 保质期 | 启用了保质期的主计划: *\#* | 此功能待定。 当前，无论此设置如何，启用计划优化后都不会考虑保质期。 | 受支持 |
+| 保质期 | 启用了保质期的主计划: *\#* | 此功能现在受支持。 | 受支持 |
 
 ## <a name="additional-resources"></a>其他资源
 

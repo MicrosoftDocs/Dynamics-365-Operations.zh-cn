@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
-ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
+ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9592038"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671417"
 ---
 # <a name="proactive-quality-updates"></a>主动质量更新
 
@@ -71,11 +71,45 @@ ms.locfileid: "9592038"
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>生产环境的质量更新何时开始？
 目前，质量更新仅针对沙盒。 当我们从沙盒的主动更新中获得更具体的数据和指标时，我们将使用生产环境的开始日期更新此空间，以衡量生产环境的准备情况。
 
-## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>沙盒质量更新的计划是什么？
-有关每个区域的黑暗时间的信息，请参阅[主动质量更新的计划是什么？](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)。
+## <a name="what-is-the-schedule-for-sandbox-proactive-quality-updates"></a>沙盒主动质量更新的计划是什么？
+有关每个区域的黑暗时间的信息，请参阅[各个区域的计划内维护时段在什么时间？](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)。
+
+### <a name="proactive-quality-update-release-10028"></a>主动质量更新版本：10.0.28
+**应用版本：10.0.1265.89**
+**对应最新知识库文章：745340**
+
+| 站点 | 区域 | 已完成计划| 近期沙盒计划
+|---|---|---|---|
+| 站点 1 | 加拿大中部、加拿大东部、法国中部、印度中部、挪威东部、瑞士西部 | 2022 年 9 月 15 日到 9 月 18 日和 2022 年 9 月 19 日到 9 月 22 日 | 2022 年 10 月 7 日到 10 月 10 日 |
+| 站点 2 | 法国南部、印度南部、挪威西部、瑞士北部、南非北部、澳大利亚东部、英国南部、阿拉伯联合酋长国北部、日本东部、澳大利亚东南部、东南亚 | 2022 年 9 月 25 日到 9 月 28 日 | 2022 年 10 月 7 日到 10 月 10 日 |
+| 站点 3 | 东亚、英国西部、日本西部、巴西南部、西欧、美国东部、阿拉伯联合酋长国中部 | 2022 年 9 月 26 日到 9 月 29 日 | 2022 年 10 月 7 日到 10 月 10 日 |
+| 站点 4 | 北欧、美国中部、美国西部 | 2022 年 9 月 28 日到 10 月 1 日 | 2022 年 10 月 7 日到 10 月 10 日 |
+| 站点 5 | DoD、政府社区云、中国 | 未计划 | 未计划 |
+
+### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> 主动质量更新版本：10.0.29
+**应用版本：10.0.1326.70**
+**对应最新知识库文章：748926**
+
+| 站点 | 区域 | 近期沙盒计划
+|---|---|---|
+| 站点 1 | 加拿大中部、加拿大东部、法国中部、印度中部、挪威东部、瑞士西部 | 2022 年 10 月 14 日到 10 月 17 日 |
+| 站点 2 | 法国南部、印度南部、挪威西部、瑞士北部、南非北部、澳大利亚东部、英国南部、阿拉伯联合酋长国北部、日本东部、澳大利亚东南部、东南亚 | 2022 年 10 月 15 日到 10 月 18 日 |
+| 站点 3 | 东亚、英国西部、日本西部、巴西南部、西欧、美国东部、阿拉伯联合酋长国中部 | 2022 年 10 月 16 日到 10 月 19 日 |
+| 站点 4 | 北欧、美国中部、美国西部 | 2022 年 10 月 17 日到 10 月 20 日 |
+| 站点 5 | DoD、政府社区云、中国 | 未计划 |
+
+> [!IMPORTANT] 
+> Microsoft 将提前五天更新上述计划，并向计划接收这些质量更新的环境集发送电子邮件通知。 上述计划仅适用于已收到近期更新通知的环境。 有关每个区域的黑暗时间的信息，请参阅[各个区域的计划内维护时段在什么时间？](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)。
+>
+> 对于当前计划推出质量更新的每个地区组或 *站点*，计划显示的范围为四天。 质量更新仅从沙盒环境开始。 然后，随着成功部署沙盒的比例的增加，部署到生产环境将从提前通知客户开始。
+> 
+> 质量更新将始终以滚动方式进行，这样，我们可以根据计划针对一组环境执行，在第四天结束前完成一个站点的所有环境。 但是，这并不意味着环境更新会持续四天。 只意味着我们无法预先确定在四天范围内的给定日期更新哪些环境集。 所有更新都将在黑暗时间进行，停机时间几乎为零。 更新最终将在给定区域的黑暗时段内结束。
 
 ## <a name="how-are-the-dark-hours-handled-for-customers-that-have-one-finance-and-operations-apps-instance-but-are-active-in-multiple-time-zones"></a>对于有一个财务和运营应用实例但在多个时区处于活动状态的客户，黑暗时间是如何处理的？ 
 在存在财务和运营应用实例的黑暗时间之外没有特殊计划，因为我们计划使用 [nZDT](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-does-near-zero-downtime-maintenance-mean) 以破坏性最小的方式推出质量更新。
+
+## <a name="what-is-the-current-rollout-cadence-for-proactive-quality-updates"></a>主动质量更新的当前推出节奏是怎样的？
+对于每个支持的服务更新版本，主动质量更新 (PQU) 目前每月发布一次。 除非客户移到新的服务更新版本，否则对于指定的沙盒环境，每月只推送一次更新。 在这种情况下，他们可能会在现有培训中获得预先计划的 PQU，来获取新的服务更新。 2023 年全球推出完成后，这些更新的频率将会增加。 每当发布节奏发生变化时，您始终会至少提前一个月收到通知。
 
 ## <a name="how-will-microsoft-ensure-the-quality-of-these-updates"></a>Microsoft 如何确保这些更新的质量？
 Microsoft 会努力保持发布管道足够高效，以提供小型有效负载，从而保持较低的验证成本。 质量更新中的每个修复都经过严格且安全的部署过程，这有助于提高质量和可靠性，从而减少对客户的影响。 部署将首先在沙盒环境中分阶段进行，然后是生产环境。 分阶段部署允许进行适当的监视来确定进一步部署是否安全。 如果在部署的每组客户中检测到问题，我们将停止推出，并确保推出的每个步骤都有足够的时间让问题浮出水面。 对于每个近期的质量更新，我们将通过更新公共文档和电子邮件来提供计划信息，以便客户可以提前计划。
@@ -83,8 +117,20 @@ Microsoft 会努力保持发布管道足够高效，以提供小型有效负载�
 ## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>客户可以推迟、重新计划或暂停质量更新吗？
 否。 质量更新的主要目标是确保为客户持续改进安全性、隐私、可靠性、可用性和性能等基础方面。 推迟或暂停更新，安全性、可用性和可靠性将面临风险。
 
-## <a name="how-can-one-know-the-set-of-changes-that-went-into-a-quality-update-payload"></a>如何得知质量更新有效负载中进行了一系列更改？
-导航到 **质量更新** 部分，您可以在 LCS 的 **环境详细信息** 页面查看质量更新版本中的所有知识库文章。 
+## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>如何得知质量更新有效负载中进行了哪些更改？
+以下步骤是一个临时解决方案，我们会继续努力提供更好的解决方案，来确定进入质量更新有效负载的更改列表。 
+
+使用 KB#745340 进行 10.0.28 质量更新培训和使用相关的应用版本 10.0.1265.89。
+
+1. 在 LCS 中，打开您的沙盒的 **环境详细信息** 页面。 
+2. 在 **可用更新** 部分，选择 **查看更新** 显示最新的质量更新版本。 
+3. 将此版本导出到 CSV 或 Microsoft Excel 文件。
+4. 在导出的文件中，根据时间对信息进行排序（最早的信息在最前面），然后在 **更新 ID** 列中搜索 KB 编号 745340。 现在您应该能够看到 KB 的增量列表。
+ 
+ > [!NOTE]
+ > 必须在更新环境之前导出到 CSV 或 Excel 文件。 或者，您可以使用具有类似配置但未安装更新的环境，按照上述步骤操作。
+
+[![具有质量更新的环境的示例。](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
 ## <a name="what-is-the-process-if-a-critical-issue-is-found-after-a-quality-update"></a>如果在质量更新后发现关键问题，推出过程会有怎样的变化？
 关键问题或退化是一个或多个事件，通常会导致多个客户对我们的一项或多项服务的体验下降。 这些问题可能导致计划外停机，包括不可用、性能下降和对服务管理的干扰。 如果由于此类退化对客户产生广泛影响，我们将停止推出质量更新，直到我们能够传达并解决问题。 通常，下一次质量更新将进行必要的修复来恢复推出。
@@ -94,31 +140,34 @@ Microsoft 会努力保持发布管道足够高效，以提供小型有效负载�
 ## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>客户仍然可以从 LCS 手动应用修补程序更新吗？
 是。 为确保与修补程序的工作方式保持一致，修补程序更新仍可应用于 LCS 中的客户环境。 但是，重要的是要注意，作为质量更新的一部分部署的修补程序在部署更新之前会执行标准 SDP。 由于质量更高，这将降低退化风险。 我们建议您选择质量更新而不是手动应用修补程序，以提高可靠性。
 
-## <a name="can-customers-self-install-a-quality-update-build-by-themselves-ahead-of-the-schedule"></a>客户能否提前于计划自行安装质量更新版本？
+## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>客户能否提前于计划主动安装质量更新版本？
 是。 您可以主动安装质量更新。 如果环境的当前内部版本等于或高于所安装的质量更新，Microsoft 将跳过更新。
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>如果某个环境在一周内有即将进行的计划每月服务更新，它是否仍会收到质量更新？
-- 如果在计划进行质量更新后的一周内计划了即将进行的服务更新，则不会应用质量更新。
+- 如果在计划进行质量更新后的一周内计划了即将进行的服务更新，则不会对生产环境应用质量更新。
 - 如果沙盒环境具有与即将进行的质量更新相同或更高的内部版本，将跳过更新。
 - 如果生产环境具有与即将进行的质量更新相同或更高的内部版本，将跳过更新。
 - 如果沙盒由于质量更新或手动更新到生产环境而具有相同或更高的内部版本，生产环境仍将收到每月服务更新的计划版本。 如果您不希望计划的生产环境更新到服务更新版本，您可以暂停 LCS 的服务更新。 
 - 我们建议您使用最新的质量更新版本来测试您对即将进行的服务更新所做的更改，以获得更好的稳定性和效果。
 
+## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>如果一个环境在同一维护时段有即将执行的计划操作和计划的质量更新，它还会收到质量更新吗？
+如果与预先计划的操作（例如，时间点还原 (PITR)）有任何冲突，质量更新将重新安排到四天时段内的下一个可用维护时段。 有关计划的更多详细信息，请参阅[主动质量更新的计划是什么？](#schedule)。 
+
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>如果在应用质量更新后出现问题，环境能否恢复到以前的状态？
 应用质量更新后，在任何情况下都不会回滚。 只能通过提前安装补丁来缓解问题。
 
 ## <a name="what-about-fda-regulation-and-gpx"></a>FDA 监管和 GPX 如何安排？
-针对需要接受 FDA 验证和监管的客户的计划仍在不断完善。 相信很快会有更多更新。 目前，所有此类客户都无需质量更新。
+针对需要接受 FDA 验证和监管的客户的计划仍在不断完善。 相信很快会有更多更新。 目前，所有此类客户都无需质量更新。 要确保客户遵守 FDA 法规要求，请访问 [Microsoft Azure GPX 产品/服务](/azure/compliance/offerings/offering-gxp)。
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>这些质量更新支持哪些版本的服务更新？
-版本低于 N-2 的客户不会收到质量更新。 
+所有支持的服务更新版本的客户都有资格进行质量更新。 
 
 ## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>除了必须重新部署 MPOS 之外，使用零售组件部署财务和运营应用通常需要完成额外的工作。 这些质量更新将如何影响 RetailSDK？ 
 由于修补程序本身的性质不会在质量更新有效负载中发生变化，因此我们预计目前不会有任何与零售组件相关的额外影响。
 
-## <a name="is-there-any-impact-to-cloud-hosted-environments-che-"></a>对云托管的环境 (CHE) 有影响吗？ ? 
-否。
+## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>对云托管的环境 (CHE) 有影响吗？ 
+CHE 环境超出了质量更新范围，它们超出了 Microsoft 的权限范围
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Microsoft Dataverse 是否存在集成问题？ 
-否。
+Dataverse 的质量更新没有已知的集成问题。
 

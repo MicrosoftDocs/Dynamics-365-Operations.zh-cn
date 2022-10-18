@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: ff3944b987314a688a5829b05f8627479e3e79ed
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428285"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644049"
 ---
 # <a name="the-asset-maintenance-scenario"></a>资产维护场景
 
@@ -24,6 +24,12 @@ ms.locfileid: "9428285"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 *资产维护* 场景允许您使用传感器数据创建计数器记录。 计数器记录跟踪机器资产的使用情况，用作生成机器资产维护安排的输入。
+
+## <a name="video-instructions"></a>视频说明
+
+以下视频展示如何使用标准[演示数据](../../fin-ops-core/fin-ops/get-started/demo-data.md)设置和尝试处理资产维护场景。 本文的其余几节以基于文本的格式提供相同的说明。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58aRW]
 
 ## <a name="prepare-demo-data-for-the-asset-maintenance-scenario"></a>为资产维护场景准备演示数据
 

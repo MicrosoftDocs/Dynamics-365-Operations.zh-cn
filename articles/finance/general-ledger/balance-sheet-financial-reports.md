@@ -1,8 +1,8 @@
 ---
 title: 资产负债表财务报表
 description: 本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
-ms.author: jcart
+ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4aad297f401143388d682da175a6b14727a8f2f0
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880721"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643815"
 ---
 # <a name="balance-sheet-financial-reports"></a>资产负债表财务报表
 
@@ -33,9 +33,9 @@ ms.locfileid: "8880721"
 有两个默认的资产负债表。 在一个报表中，这些部分堆积起来。 在另一个报表中，这些部分是并行的。
 
 | 默认报表                       | 作用                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------|
-| 资产负债表 – 默认              | 提供组织的年度财务状况视图。                                                                 |
-| 并排资产负债表 – 默认 | 提供组织的年度财务状况视图。 资产和负债，以及股东权益是并排的。 |
+|--------------------------------------|--------------------------------------------------------------------------------------|
+| 资产负债表 – 默认              | 提供组织的年度财务状况视图。                    |
+| 资产负债表和收入报表并排 – 默认 | 并列提供组织的年度财务状况视图。 |
 
 ## <a name="building-blocks"></a>构建基块
 资产负债表财务报表使用以下构建基块。
@@ -43,7 +43,7 @@ ms.locfileid: "8880721"
 | 默认报表                       | 行定义                       | 列定义             |
 |--------------------------------------|--------------------------------------|-------------------------------|
 | 资产负债表 - 默认              | 资产负债表 - 默认              | YTD 和差异 - 默认    |
-| 并排资产负债表 – 默认 | 并排资产负债表 – 默认 | 本年迄今列 - 默认 |
+| 资产负债表和收入报表并排 – 默认 | 资产负债表和收入报表并排 – 默认 | 本年迄今列 - 默认 |
 
 ### <a name="row-definition"></a>行定义
 

@@ -2,7 +2,7 @@
 title: 配置资格规则和选项
 description: 本文介绍如何在 Microsoft Dynamics 365 Human Resources 的福利管理中设置资格规则和选项。
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336863"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644076"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>配置资格规则和选项 
 
@@ -175,6 +175,7 @@ ms.locfileid: "9336863"
    | **捆绑** | 捆绑的唯一标识符。 |
    | **说明** | 捆绑的描述。 |
    | **主提单** | 指示是否必须将捆绑中的其中一个计划标记为主计划。 必须在开放登记期间作为捆绑的一部分选择主计划，然后福利管理员才能确认员工的福利选择。 |
+   | **必需**| 指示需要选择该计划才能签出捆绑销售中的任何其他计划。 可以将多个计划标记为 **必需**. 在这种情况下，需要选择标记为 **必需** 的所有计划，来签出捆绑销售中的所有计划。|
    | **生效日期和时间** | 捆绑生效的日期和时间。 |
    | **失效日期** | 捆绑到期的日期。 默认为 12/31/2154，表示永不。 |
 

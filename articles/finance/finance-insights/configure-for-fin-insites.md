@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 07edea234839a477802e5cd875620509c8f92d69
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573169"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644106"
 ---
 # <a name="configuration-for-finance-insights"></a>Finance Insights 的配置
 
@@ -106,8 +106,4 @@ Finance Insights 组合了 Microsoft Dynamics 365 Finance 的功能以及 Datave
 > [!NOTE]
 > 如果 **Insights 预配状态检查** 流程未运行，请转到 **系统管理** > **查询** > **批处理作业**。 在 **流程自动化轮询系统** 字段中，将值更改为 **等待** 以启动流程。 
 > 
-## <a name="feedback-and-support"></a>反馈和支持
-
-如果您对提供反馈感兴趣，或者如果您需要支持，请向 [Finance Insights（预览）](mailto:fiap@microsoft.com)发送电子邮件。
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
