@@ -12,14 +12,12 @@
               items:
                 - name: “Supply Chain Management 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.31（2022 年 2 月）
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30（2022 年 11 月）
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29（2022 年 10 月）
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: Supply Chain Management 10.0.28（2022 年 8 月）
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: Supply Chain Management 10.0.27（2022 年 7 月）
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -1777,8 +1775,12 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: 主计划与需求预测
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: 主计划与供应预测
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: 使用采购贸易协议进行主计划
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: 根据报价和询价进行计划
+                  href: master-planning/planning-optimization/quotation-planning.md
                 - name: 计划优化使用的日期和时间参数
                   href: master-planning/planning-optimization/date-time-used.md
                 - name: 安全宽限期
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: 创建预定义的产品变型
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: 在 UI 中显示已翻译的产品名称和说明
+                  href: pim/show-translated-product-info.md
                 - name: 管理度量单位
                   href: pim/tasks/manage-unit-measure.md
                 - name: 按照产品变型的度量单位转换
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: 使用库位指令
                       href: warehousing/create-location-directive.md
+                    - name: 使用接受度测试对库位指令进行测试
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: 为仓库交易记录配置产品筛选器
                       href: warehousing/filters-and-filter-codes.md
                     - name: 库位库存限制

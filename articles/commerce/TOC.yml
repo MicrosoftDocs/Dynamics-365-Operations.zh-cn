@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: 将异步客户转换为同步客户
               href: convert-async-to-sync.md
+            - name: 审核客户操作同步
+              href: audit-async-customer-operations.md
             - name: 异步客户创建模式常见问题解答
               href: async-customer-mode-faq.md
             - name: 客户服务解决方案
@@ -1296,8 +1298,14 @@
                       href: cookie-consent-module.md
                 - name: 聊天模块
                   items:
-                    - name: Commerce 聊天模块
+                    - name: Commerce 聊天功能概览
+                      href: commerce-chat-overview.md
+                    - name: Commerce 聊天与 Customer Service 全渠道模块
                       href: commerce-chat-module.md
+                    - name: Commerce 聊天与 Power Virtual Agents 模块
+                      href: chat-module-pva.md
+                    - name: Commerce 聊天模块主动聊天参数
+                      href: chat-proactive-chat-parameters.md
             - name: 搜索
               items:
                 - name: 默认类别登陆页面和搜索结果页面概览

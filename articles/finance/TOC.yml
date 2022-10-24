@@ -12,6 +12,8 @@
               items:
                 - name: “Finance 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.31（1 月）
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: Finance 10.0.30（11 月）
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29（10 月）
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: 设置应付帐款发票匹配验证
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Invoice Capture 解决方案
+              items:
+                - name: Invoice Capture 概览
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: Invoice Capture 安装
+                  href: accounts-payable/install-invoice-capture.md
+                - name: 配置 Invoice Capture
+                  href: accounts-payable/config-invoice-capture.md
+                - name: Invoice Capture 配置组
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: Invoice Capture 映射规则
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: Invoice Capture 工作区
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: Invoice Capture 高级设置
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: Invoice Capture 仪表板
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: Invoice Capture 已接收文件
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: 供应商发票自动化
               items:
                 - name: 供应商自动开票流程概览
