@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-08-02
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7a8327552d9e6c38721fdac9ee1795e61f90f329
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: ee767a5d7c3dca2681861802ae42d7a07217c54d
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266477"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689332"
 ---
 # <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>在过帐到日记帐前将成品设置为实际可用
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 当工作人员将制造的物料报告为完工入库时，系统会将其登记为可用于进一步实际处理（如装运或储存）。 在此流程中，还将过帐一个或多个日记帐（如报告为完工入库日记帐、领料单日记帐和工艺卡日记帐）。 如果要在处理所有过帐之前使您的物料实际可用，则可以将系统设置为延迟日记帐过帐。 然后，延迟过帐由批处理作业进行管理，该作业将在系统资源允许时处理过帐。
 

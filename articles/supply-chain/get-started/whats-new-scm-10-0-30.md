@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429115"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689178"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Dynamics 365 Supply Chain Management 10.0.30 预览版（2022 年 11 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Dynamics 365 Supply Chain Management 10.0.30（2022 年 11 月）中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本文列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.30 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.1362，并按以下时间表提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.30 中的新增或更改的功能。 此版本的构建版本号为 10.0.1362，并按以下时间表提供：
 
 - **预览版本：** 2022 年 9 月
 - **版本的正式发布时间（自我更新）：** 2022 年 10 月
@@ -35,7 +34,7 @@ ms.locfileid: "9429115"
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
 | 制造 | [使用 Sensor Data Intelligence 监视设备](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensor Data Intelligence 主页](../sensor-data-intelligence/sdi-home-page.md) | 功能管理：<br>*(预览版)传感器数据智能* |
-| 仓库管理 | Warehouse Management 移动应用的多级绕过 <!-- KFM: Add link when RP updates --> | [为移动设备菜单项中的步骤配置绕过](../warehousing/warehouse-app-detours.md) | 功能管理：<br>*Warehouse Management 移动应用的多级绕过* |
+| 仓库管理 | [Warehouse Management 移动应用的多级绕过](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [为移动设备菜单项中的步骤配置绕过](../warehousing/warehouse-app-detours.md) | 功能管理：<br>*Warehouse Management 移动应用的多级绕过* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>此版本中包含的功能增强
 
@@ -52,7 +51,7 @@ ms.locfileid: "9429115"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Finance and Operations 应用的平台更新
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.30 的平台更新（2022 年 11 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md)。 <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 中包含平台更新。 要了解详细信息，请参阅[财务和运营应用版本 10.0.30 的平台更新（2022 年 11 月）](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md)。
 
 ### <a name="bug-fixes"></a>缺陷修复
 

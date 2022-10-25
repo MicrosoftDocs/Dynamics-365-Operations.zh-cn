@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428287"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690013"
 ---
 # <a name="the-production-delays-scenario"></a>生产延迟场景
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 如果生产完全降到特定阈值下，*生产延迟* 场景将生成通知。 在此场景中，将为生成的每个物料向 Microsoft Azure IoT 中心发送 *部件输出* 信号。 在 Dynamics 365 Supply Chain Management 中，订单延迟基于计划运行的生产订单时间量、应生成的物料数量、作业已运行的时间量和收到的 *部件输出* 信号数量计算。 如果作业的 *部件输出* 信号数量低于阈值，将生成延迟通知。
 

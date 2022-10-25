@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186658"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689480"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>需求驱动型材料要求计划 (DDMRP) 概述
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 多年来，公司使用物料需求计划 (MRP) 作为计算制造产品所需的材料和组件的方法。 但是，供应链现在已更改。 部件具有较长的提前期，因为它们越来越多地从海外采购。 因此，许多公司报告说遇到缺货或库存过剩的情况，因为他们不知道要存入多少库存。 还有更多的市场波动（有时预测不准确），客户在短提前期内需要产品。 因此，全世界都存在供应链短缺的问题。 此外，MRP 工具通常会为计划人员提供数千项待办操作。 因此，很难知道要关注的内容。 通常，许多此类问题的解决方案是切换到需求驱动型材料要求计划 (DDMRP)。
 

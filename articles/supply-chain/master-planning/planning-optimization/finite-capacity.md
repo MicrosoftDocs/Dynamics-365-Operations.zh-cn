@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c5eebe9ef6258b43daa7c7007ee28b0278fe5b09
-ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
+ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573129"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689685"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>有限产能规划和计划编制
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 有限产能是一种帮助您了解在考虑不同资源的限制时在特定时间段内可以完成多少工作的方法。 有限产能计划的目的是确保整个工厂的工作以平稳有效的节奏进行。
 

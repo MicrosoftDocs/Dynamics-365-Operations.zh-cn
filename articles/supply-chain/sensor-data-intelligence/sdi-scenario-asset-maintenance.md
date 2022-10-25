@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644049"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689392"
 ---
 # <a name="the-asset-maintenance-scenario"></a>资产维护场景
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 *资产维护* 场景允许您使用传感器数据创建计数器记录。 计数器记录跟踪机器资产的使用情况，用作生成机器资产维护安排的输入。
 
@@ -115,6 +116,9 @@ ms.locfileid: "9644049"
 1. 转到 **资产管理 \> 资产 \> 所有资产**。
 1. 查找并选择您想要检查的资产。 （如果您使用的是在本文前面创建的演示数据，选择 *AK-101*。）
 1. 在操作窗格上的 **资产** 选项卡上，在 **预防** 组中，选择 **计数器** 打开资产 *AK-101* 的计数器记录页面。
+
+> [!NOTE]
+> 计数器记录默认配置为每三个小时插入一次，这意味着传感器数据将按该时间间隔聚合。 您可以通过在 Azure 流分析组件中编辑查询来更改此间隔。
 
 ### <a name="generate-maintenance-work-orders"></a>生成维护工作订单
 

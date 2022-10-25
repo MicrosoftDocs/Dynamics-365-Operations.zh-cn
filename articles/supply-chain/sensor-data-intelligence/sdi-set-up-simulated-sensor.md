@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc8bd020a53214abab28ec51ffc6d6be74979932
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: f12d6e1d417a260477b1eb4e027b850d1862f51f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643968"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689796"
 ---
 # <a name="set-up-a-simulated-sensor-for-testing"></a>设置模拟传感器以进行测试
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 如果您想要在不安装任何物理传感器的情况下测试 Sensor Data Intelligence，您可以使用 *Raspberry PI Azure IoT 联机模拟器* 服务来模拟传感器信号，并将它们发送到您在 Microsoft Azure 上的物联网 (IoT) 解决方案。 有关模拟器的更多信息，请参阅[将 Raspberry Pi 联机模拟器连接到 Azure IoT 中心 (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)。
 

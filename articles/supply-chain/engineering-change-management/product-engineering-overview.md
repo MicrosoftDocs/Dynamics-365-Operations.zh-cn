@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: a01dfd72428c75d1bb24f32c73c9c799a6c5017e
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334856"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682498"
 ---
 # <a name="engineering-change-management-overview"></a>工程更改管理概述
 
@@ -73,6 +73,9 @@ ms.locfileid: "9334856"
 1. 必须同步数据库以确保正确更新配置键以反映您的更改。 执行以下步骤之一，具体取决于您所使用的环境类型：
     - **对于第 1 层（开发）环境**：在 Microsoft Visual Studio 中打开您的项目，然后选择 **Dynamics 365 \> 同步数据库 \> 同步**。
     - **对于第 2 层（及更高）环境**：将环境置于维护模式和退出维护模式后，数据库会自动同步，因此您可以跳过此步骤。
+
+> [!NOTE]
+> 要使用工程更改管理，必须在 **编号规则** 页面将物料清单编号规则和配方编号规则（如果您使用的是配方）设置为 *自动*。
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>开启更多工程更改管理功能
 

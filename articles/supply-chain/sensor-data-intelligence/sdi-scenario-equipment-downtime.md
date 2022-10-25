@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 1f2b424dccf1963a7917059d412b5df7937496ee
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 30fdfb898384aea4c1f8cb2f36f9e104cd316f90
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428286"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689631"
 ---
 # <a name="the-machine-status-scenario"></a>机器状态场景
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 *机器状态* 场景允许您使用传感器数据来监视设备的可用性。 如果您设置的传感器在机器资源上的生产作业产生输出时发送信号，但在指定的时间间隔内未收到传感器信号，主管的仪表板上会显示通知。
 

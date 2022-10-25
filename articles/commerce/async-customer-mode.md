@@ -2,19 +2,19 @@
 title: 异步客户创建模式
 description: 本文介绍 Microsoft Dynamics 365 Commerce 中的异步客户创建模式。
 author: gvrmohanreddy
-ms.date: 08/04/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 95102936871e15f8e525abca736fa75927569b34
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: b2926339021991f87dd3eadef94da3b500c954cf
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473698"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690281"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>异步客户创建模式
 
@@ -46,6 +46,7 @@ ms.locfileid: "9473698"
 | 在同步和异步客户创建之间实现均等性。 | 10.0.24 及更高版本 | <p>功能开关：**启用增强型异步客户创建**</p><p>功能详细信息：在异步创建客户时，能够捕获其他信息，如标题、默认客户的隶属关系以及辅助联系人信息（电话号码和电子邮件地址）</p> |
 | 用户友好型错误消息 | 10.0.28 及更高版本 | 如果用户在进行同步时无法立即编辑信息，则这些增强功能有助于改进用户友好型错误消息。 通过在 Commerce 站点生成器中的 **站点设置 \> 扩展** 中使用 **不允许异步客户修改某些 UI 元素** 设置，您可以启用这些增强功能。 |
 | 能够异步编辑客户信息 | 10.0.29 及更高版本 | <p>功能开关：**启用在异步模式下编辑客户**</p><p>功能详细信息：能够异步编辑客户数据</p><p>有关与异步编辑客户信息相关的问题的常见问题解答，请参阅[异步客户创建模式常见问题解答](async-customer-mode-faq.md)。</p> |
+| 审核客户管理操作的同步的功能 | 10.0.31 及更高版本 | 此增强功能允许用户审核 Commerce headquarters 中客户管理操作的同步。 还允许用户在需要时进行更改并同步数据。 |
 
 ### <a name="feature-switch-hierarchy"></a>开关功能层次结构
 

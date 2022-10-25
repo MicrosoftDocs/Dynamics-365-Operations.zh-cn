@@ -2,7 +2,7 @@
 title: 导入和导出税款计算
 description: 本文提供有关税款计算服务的导入和导出功能的信息。
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855164"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690225"
 ---
 # <a name="import-and-export-tax-calculations"></a>导入和导出税款计算
 
@@ -98,3 +98,21 @@ ms.locfileid: "8855164"
 2. 在 RCS 中，在 **税款计算** 功能页面上，在 **税组适用性** 选项卡上，选择 **添加** 在 **设置税组适用性** 网格的底部插入一个空记录。
 3. 选择 **Ctrl+V** 将复制的行粘贴到网格中。
 4. 选择 **保存**。
+
+## <a name="import-feature-demo-data"></a>导入功能演示数据
+
+按照以下步骤导入功能演示数据。
+
+1. 登录 [RCS](https://marketing.configure.global.dynamics.com/)。
+2. 在 **全球化功能** 工作区，选择 **功能**，然后选择 **税款计算** 磁贴。
+3. 选择 **导入**，然后在 **从全局存储库导入功能** 页面，选择 **同步**。 
+4. 在表中，选择 **税款计算功能演示数据** 功能，然后选择 **导入**。
+5. 选择 **查看** 可查看在导入功能中定义的税码、组和适用性规则。
+6. 在 Finance 中，切换到 **DEMF** 法人，然后转到 **税务** \> **设置** \> **税务配置** \> **税款计算参数**。
+7. 在 **常规** 选项卡上，选择 **启用税款计算服务**。
+8. 在 **功能设置名称** 字段中，选择 **税款计算功能演示数据**。
+9. 为新的演示税码选择 **结算期** 和 **分类帐过帐组**，然后选择 **确认**。
+10. 选择 **保存**。
+
+> [!NOTE]
+> **税款计算功能演示数据** 演示功能基于功能版本 **40.54.234**，专为 **DEMF** 演示法人设计。 确保 Finance 和 RCS 已升级到版本 10.0.26 或更高版本。

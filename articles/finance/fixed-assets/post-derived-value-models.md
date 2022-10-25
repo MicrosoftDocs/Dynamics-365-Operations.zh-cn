@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d4874642743ed8188e84052d94003051f2af7af
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: d0270ad1e66193832fb1139fca4439b36b5ffb84
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722679"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682849"
 ---
 # <a name="post-with-derived-books"></a>使用衍生帐簿过帐
 
@@ -34,7 +34,7 @@ ms.locfileid: "8722679"
 -   也可以为交易记录类型应用其他值。 例如，如果主要帐簿和衍生帐簿在销售或处置方面具有相同的间隔，则设置衍生帐簿时可以使用所有固定资产交易记录类型。
 
 > [!WARNING]
-> 衍生帐簿中已过帐的折旧金额应与主要帐簿中已过帐的金额相等。 如果帐簿之间的折旧方法不同，则使用衍生流程将不应生成折旧交易记录。 |
+> 衍生帐簿中已过帐的折旧金额应与主要帐簿中已过帐的金额相等。 如果帐簿之间的折旧方法不同，则使用衍生流程将不应生成折旧交易记录。 
 
 ## <a name="example"></a>示例 
 以下信息描述如何设置具有衍生帐簿功能的购置交易记录。

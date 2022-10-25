@@ -4,19 +4,19 @@ description: 本文介绍如何为 Warehouse Management 移动应用的任务流
 author: Mirzaab
 ms.date: 08/09/2022
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepSelectPromotedFields, WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 3451b1aec525cd0738af558b183f8676d20294a0
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: e2d65f20febaf9bd1d143414054b121f8decb7c0
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336056"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689822"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>为 Warehouse Management 移动应用中的步骤配置提升的字段
 

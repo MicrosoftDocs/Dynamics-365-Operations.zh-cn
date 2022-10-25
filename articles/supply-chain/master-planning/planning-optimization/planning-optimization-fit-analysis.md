@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643719"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689986"
 ---
 # <a name="planning-optimization-fit-analysis"></a>计划优化适应分析
 
@@ -62,7 +62,7 @@ ms.locfileid: "9643719"
 | --- | --- | --- | --- |
 | 行动 | 启用了行动计算的覆盖范围组：*\#* | 此功能现在受支持。 | 受支持 |
 | 基本日历 | 使用基本日历的日历：*\#* | 此功能现在受支持。 | 受支持 | 
-| 批处置代码 | 非计划用量批处置主数据：*\#* | 此功能待定。 当前，启用计划优化后将忽略批处置代码。 | 2022 年发布第 2 波 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| 批处置代码 | 非计划用量批处置主数据：*\#* | 此功能现在受支持。 有关更多信息，请参阅[使用批次处置代码将批次标记为可用或不可用](../../inventory/batch-disposition-codes.md) | 受支持 |
 | 可承诺量 (CTP) | 交货日期控制设置为 CTP 的默认订单设置: *\#* | 在 Supply Chain Management 10.0.28 和更新版本中，运行动态计划后，名为 *用于计划优化的 CTP* 的流程会使确认的装运和收货日期可用。 对于较旧版本的 Supply Chain Management，启用计划优化时会忽略旧的 CTP 设置。 | 受支持 |
 | 将静态计划复制到动态计划 | 针对主计划参数启用了将静态计划复制到动态计划。 | 无论此设置如何，计划优化都不会将静态计划复制到动态计划。 通常，由于计划优化提供的速度和完全重新生成，此概念关系不大。 如果使用两个或多个计划，则应为每个计划触发主计划。 | N/A |
 | 确认 | 设置了自动确认时限的覆盖范围组：*\#* | 在版本 10.0.7 及更高版本中，在完成主计划后，作为单独的确认批处理作业支持确认（前提是在 [功能管理](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中启用了 *计划优化自动确认* 功能）。 请注意，计划优化的自动确认基于订单日期（开始日期），而不是需求日期（结束日期）。 此行为可确保计划订单的确认在到期时间发生，而不必在确认时限内包括提前期。 | 受支持 |
@@ -104,7 +104,7 @@ ms.locfileid: "9643719"
 | 安全宽限期 | 具有安全宽限期的主计划：*\#* | 此功能现在受支持。 有关更多信息，请参阅[安全宽限期](safety-margins.md) |  受支持 |
 | 安全存货履行 | “最小完成量”与“今日日期 + 采购时间”不同的物料覆盖率记录：*\#* | 计划优化始终使用 *今日日期 + 采购时间*。 进行此更改是为了为将来的简化计划设置做准备，并提供可行结果。 如果安全存货未包括采购时间，则为当前的低现有库存量创建的计划订单将始终会由于提前期而延迟。 此行为可能会导致严重的影响和不必要的计划订单。 最佳实践是更改设置，以使用 *今日日期 + 采购时间*。 更新主数据以避免触发警告。 | 无 |
 | 销售报价单 | 启用了销售报价单的主计划：*\#* | 此功能待定。 当前，启用计划优化后不会考虑报价单。 无论此设置如何，都将忽略。 | 2022 年发布第 2 波或更高版本 |
-| 保质期 | 启用了保质期的主计划: *\#* | 此功能现在受支持。 | 受支持 |
+| 保质期 | 启用了保质期的主计划: *\#* | 此功能待定。 | 2022 年发布第 2 波 |
 
 ## <a name="additional-resources"></a>其他资源
 

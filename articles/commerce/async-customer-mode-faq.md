@@ -2,19 +2,19 @@
 title: 异步客户创建模式常见问题解答
 description: 本文提供 Microsoft Dynamics 365 Commerce 中异步客户创建模式的相关常见问题的解答。
 author: gvrmohanreddy
-ms.date: 08/04/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: bd5741aeb3278f1d40d63bb02ca57571a907dc21
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 64c895fb9f3e55f7680759fa72626be6660aa67c
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474061"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690194"
 ---
 # <a name="asynchronous-customer-creation-mode-faq"></a>异步客户创建模式常见问题解答
 
@@ -44,5 +44,10 @@ ms.locfileid: "9474061"
 
 确保已按照此处列出的操作顺序执行了以下操作。
 
-1. 在 Commerce Headquarters 中运行 CDX P 作业，以确保存储在 **RETAILASYNCCUSTOMERV2**、**RETAILASYNCADDRESSV2**、**RETAILASYNCCUSTOMERCONTACT**、**RETAILASYNCCUSTOMERAFFILIATION** 和 **RETAILASYNCCUSTOMERATTRIBUTEV2** 表中的异步客户数据在 Commerce headquarters 中可用。
+1. 在 Commerce Headquarters 中运行 CDX P 作业，以确保异步客户数据存储在 **RETAILASYNCCUSTOMERV2**、**RETAILASYNCADDRESSV2**、**RETAILASYNCCUSTOMERCONTACT**、**RETAILASYNCCUSTOMERAFFILIATION** 和 **RETAILASYNCCUSTOMERATTRIBUTEV2** 表中。
 1. 在 Commerce Headquarters 中运行 **同步客户和渠道请求** 批处理作业。 成功执行此批处理作业后，已从先前提及的表中成功处理的所有记录都会将 **OnlineOperationCompleted** 字段设置为 **1**。
+
+### <a name="how-do-i-know-which-customer-management-in-asynchronous-mode-operation-has-failed-and-how-do-i-make-changes-if-they-are-required"></a>我怎样能够知道异步模式操作中的哪些客户管理失败了？如果需要，我如何进行更改？
+
+要查看所有异步模式操作及其同步状态，在 Commerce headquarters 中，转到 **Retail 和 Commerce \> 客户 \> 客户同步状态**。 要进行更改，编辑特定操作，更新字段，选择 **保存**，然后选择 **同步** 同步更改。
+

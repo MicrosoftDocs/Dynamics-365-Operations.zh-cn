@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542272"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682660"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>计划优化不使用的参数
 
@@ -111,10 +111,8 @@ ms.locfileid: "9542272"
 
 - **常规** 快速选项卡：
 
-  - **包括现有库存** – 待定 *现有库存的消耗* 支持。
   - **替代现有** – 待定 *现有库存的消耗* 支持。
   - **消耗现有库存** – 待定 *现有库存的消耗* 支持。
-  - **包括库存交易** – 待定 *现有库存的消耗* 支持。
   - **包括销售报价单** – 待定 *销售报价单* 支持。
   - **包括询价** – 待定 *询价* 支持。
   - **使用保质期日期** – 待定 *保质期* 支持。
@@ -190,4 +188,3 @@ ms.locfileid: "9542272"
 
   - **可用库存** – 待定 *批处置代码* 支持。
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

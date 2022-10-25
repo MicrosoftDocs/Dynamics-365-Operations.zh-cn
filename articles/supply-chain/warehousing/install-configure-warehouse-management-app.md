@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335636"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682526"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接 Warehouse Management 移动应用
 
@@ -272,6 +272,7 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
         > [!IMPORTANT]
         > 请勿为此值使用反斜杠 (/)。
+        > 确保 HTTPS (SSL) 证书有效。
 
     - **Active Directory 租户** – 输入与 Supply Chain Management 服务器一起使用的 Azure AD 域名。 此值的格式为 `https://login.windows.net/<your-Azure-AD-domain-name>`。 下面是一个示例：`https://login.windows.net/contosooperations.onmicrosoft.com`。 有关如何查找 Azure AD 域名的详细信息，请参阅[查找用户的重要 ID](/partner-center/find-ids-and-domain-names)。
 

@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 62e06f2348ca3524beaaef5d8879c199db56696f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520742"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689275"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Dynamics 365 Supply Chain Management 10.0.29 预览版（2022 年 10 月）
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Dynamics 365 Supply Chain Management 10.0.29（2022 年 10 月）的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-本文列出了 Microsoft Dynamics 365 Supply Chain Management 预览版本 10.0.29 中的新增功能或更改的功能。 此版本的构建版本号为 10.0.1326，并按以下时间表提供：
+本文列出了 Microsoft Dynamics 365 Supply Chain Management 版本 10.0.29 中的新增或更改的功能。 此版本的构建版本号为 10.0.1326，并按以下时间表提供：
 
 - **版本预览：** 2022 年 8 月
 - **版本的正式发布时间（自行更新）：** 2022 年 9 月

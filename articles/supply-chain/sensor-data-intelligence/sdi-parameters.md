@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 4a6665cc078e54da4ebb7920ec8826352ab7a816
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5240537e3a6526ceb35253b9e68f46b1753c6a37
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428291"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689365"
 ---
 # <a name="sensor-data-intelligence-parameters"></a>Sensor Data Intelligence 参数
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 **Sensor Data Intelligence 参数** 页面提供了一些可用于配置此功能的设置。 这些设置包括 Azure 连接参数和用于因响应传感器度量而发送给用户的警报消息的生存期参数。
 

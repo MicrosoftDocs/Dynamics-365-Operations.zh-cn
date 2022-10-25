@@ -2,19 +2,19 @@
 title: Customer Service 全渠道商业聊天模块
 description: 本文介绍了 Microsoft Dynamics 365 Commerce 中的 Customer Service 全渠道商业聊天模块。
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473801"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690308"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Customer Service 全渠道商业聊天模块
 
@@ -82,6 +82,9 @@ ms.locfileid: "9473801"
 1. 在 **选择模块** 对话框中，选择您之前创建的聊天片段，然后选择 **确定**。
 1. 选择 **保存**，选择 **完成编辑** 签入片段，然后选择 **发布** 进行发布。
 
+> [!NOTE]
+> 要获取配置参数的完整列表，请参阅[商业聊天模块主动聊天参数](chat-proactive-chat-parameters.md)。
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>将 Commerce headquarters 添加为 Customer Service 全渠道的应用程序选项卡
 
 您可以在 Customer Service 全渠道中为 Commerce headquarters 添加应用程序选项卡。 然后，人工代理可以使用 Customer Service 全渠道代理体验的用户界面，轻松访问 Dynamics 365 Commerce 客户服务模块，该模块包含客户的上下文信息及其销售订单信息。 此外，客户服务代理可以下新订单、发起退货和验证订单状态信息。
@@ -115,6 +118,9 @@ ms.locfileid: "9473801"
 1. 打开您为代理创建的工作流，然后在 **高级设置** 下选择 **默认会话**。
 1. 在 **应用程序选项卡** 下，选择 **添加现有应用程序选项卡**，然后添加您之前创建的新应用程序选项卡。 此步骤可确保当代理收到来自您的电子商务网站的传入聊天呼叫时，将出现一个在 iFrame 模块中加载 Commerce headquarters 的应用程序选项卡。
 
+> [!NOTE]
+> 您无法修改工作流中的默认聊天会话模板。 因此，您可能需要创建新模板或复制现有模板来进行更新。 有关详细信息，请参阅[将模板与工作流关联](/dynamics365/app-profile-manager/associate-templates)。
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>在 Dynamics 365 Customer Service 全渠道中添加上下文变量
 
 要在 Dynamics 365 Customer Service 全渠道中添加上下文变量，请按照下列步骤操作。
@@ -128,3 +134,11 @@ ms.locfileid: "9473801"
 
 > [!NOTE]
 > 如果您想要从电子商务渠道读取登录用户的电子邮件地址和姓名，您可以添加 **电子邮件** 和 **姓名** 作为 **文本** 类型的上下文变量，并添加 **AccountNumber** 上下文变量。
+
+## <a name="additional-resources"></a>其他资源
+
+[商业聊天功能概述](commerce-chat-overview.md)
+
+[Power Virtual Agents 商业聊天模块](chat-module-pva.md)
+
+[商业聊天模块主动聊天参数](chat-proactive-chat-parameters.md)

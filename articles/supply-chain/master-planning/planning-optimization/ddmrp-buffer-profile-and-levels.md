@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: d254b949d31d0b15141646503c64760062b77fc7
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428136"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689136"
 ---
 # <a name="buffer-profile-and-levels"></a>缓冲区配置文件和级别
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 在标识分离点（您将战略性地保留在存货中的关键物料）后，您必须决定每个分离点的库存量（缓冲区）。 此任务是需求驱动材料资源计划 (DDMRP) 的第二步。
 

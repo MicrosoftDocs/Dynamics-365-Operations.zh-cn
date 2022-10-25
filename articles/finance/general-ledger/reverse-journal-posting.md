@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284842"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680376"
 ---
 # <a name="reverse-journal-posting"></a>冲销日记帐过帐
 
@@ -37,7 +37,7 @@ ms.locfileid: "9284842"
 可分别冲销日记帐行。 通过冲销日记帐过帐，也可以冲销整个财务日记帐。 若要冲销日记帐： 
 
 - 筛选已过帐日记帐，然后打开日记帐的 **行** 视图。
-- 选择页面顶部的 **冲销** 菜单。
+- 选择页面顶部的 **冲销整个日记帐** 菜单。
 - 将看到凭证总数和凭证行，以及正在冲销的行的总量。
 - 如果选择 **是**，则使用现有交易记录日期，如果选择 **否**，则输入新交易记录日期。 在某些情况下，原始交易记录的期间可能已关闭，您必须为冲销输入新的交易记录日期。
 - 如果选择 **否**，请为冲销输入交易记录日期。 

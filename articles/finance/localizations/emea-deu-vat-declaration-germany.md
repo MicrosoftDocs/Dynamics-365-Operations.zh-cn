@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269395"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689452"
 ---
 # <a name="vat-declaration-germany"></a>增值税申报（德国）
 
@@ -198,7 +198,8 @@ ms.locfileid: "9269395"
 
    运行 **报告结算期的销售税** 时会打印此格式。 当您选择 **销售税付款** 页面上的 **打印** 时，也会打印此格式。
 
-4. 在 **税务主管机构** 页面上，选择税务主管机构，然后在 **报表布局** 字段中选择 **默认**。
+4. 如果必须报告更正，在 **特别报告** 部分，将 **包括更正** 设置为 **是**。
+5. 在 **税务主管机构** 页面上，选择税务主管机构，然后在 **报表布局** 字段中选择 **默认**。
 
 如果您要在具有[多个增值税登记](emea-reporting-for-multiple-vat-registrations.md)的法人中配置增值税申报，请按照以下步骤操作：
 
