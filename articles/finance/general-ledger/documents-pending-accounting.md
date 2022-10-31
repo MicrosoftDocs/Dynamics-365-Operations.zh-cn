@@ -13,22 +13,20 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: e915c248abd1c842f8f01490a49db9b824644a29
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: f37d46659b2fc5bf9933719811a7b90cc4e80f52
+ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9424357"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709240"
 ---
 # <a name="documents-pending-accounting"></a>单据的待定会计
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
 本文将介绍如何使用 **单据的待定会计** 页面上的功能。
 
-Microsoft Dynamics 365 Finance 10.0.30 推出了 **增强的原始单据会计框架性能** 功能。 此功能改进了原始单据（已启用单据过帐）的过帐流程，从普通发票的过帐流程开始。
+Microsoft Dynamics 365 Finance 10.0.30 推出了 **增强的原始凭证会计框架性能** 功能。 此功能改进了原始凭证（已启用单据过帐）的过帐流程，从普通发票的过帐流程开始。
 
 启用此功能后，子分类帐单据的过帐会与创建传输到总帐的完整会计明细的会计生成或 *分录* 流程分开进行。 例如，在普通发票过帐流程中，首先记录 **应收帐款** 模块中的客户发票后，然后生成完整会计。 而使用此增强的性能功能，即使会计生成延迟，也能更快地记录客户发票。
 

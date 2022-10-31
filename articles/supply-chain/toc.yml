@@ -12,7 +12,7 @@
               items:
                 - name: “Supply Chain Management 新增功能或更改”主页
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31（2022 年 2 月）
+                - name: Supply Chain Management 10.0.31（2023 年 2 月）
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30（2022 年 11 月）
                   href: get-started/whats-new-scm-10-0-30.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: USMCA 原产地证明
               href: transportation/usmca-certification-of-origin.md
+            - name: 商业发票
+              href: transportation/commercial-invoice.md
             - name: 创建提单
               href: transportation/create-bill-of-lading.md
             - name: 计划货运运输路线
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: 包装装运集装箱
                       href: warehousing/packing-containers.md
+                    - name: 打印集装箱标签
+                      href: warehousing/print-container-labels.md
                     - name: 出站集装箱装箱和装运处理的包装工作
                       href: warehousing/packing-work.md
+                    - name: 使用 Warehouse Management 移动应用将物料装入集装箱
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: 示例场景 - 使用 Warehouse Management 移动应用将物料装入集装箱
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: 设置领料短缺的物料重新分配
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: 系统导向的工作序列
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: 对未结工作列表的系统分组
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: 牌照标签的文档路线选择布局
+                    - name: 文档路线选择标签布局
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: GS1 条形码和 QR 码
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到财务和运营应用
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: 仓库遥测
+              items:
+                - name: 借助 Application Insights 启用仓库遥测
+                  href: warehousing/application-insights-warehousing.md
+                - name: 监控移动设备的使用情况和性能
+                  href: warehousing/application-insights-wma.md
         - name: Supply Chain Management 开发
           items:
             - name: 甘特图控件开发指南

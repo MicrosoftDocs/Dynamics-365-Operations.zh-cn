@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: 针对版本 10.0.29 的平台更新（2022 年 10 月）
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: 针对版本 10.0.28 的平台更新（2022 年 8 月）
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: 已删除或弃用的功能
               items:
                 - name: “已删除或弃用的功能”主页
@@ -1605,7 +1603,11 @@
             - name: 许可证代码和 Configuration Key 报表
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: 跨公司数据共享
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: 支持数据共享的表
+              href: sysadmin/drs-srs-tables.md
+            - name: 面向开发人员的数据共享
+              href: sysadmin/drs-srs-dev.md
             - name: 维护模式
               href: sysadmin/maintenance-mode.md
             - name: 预配置系统帐户

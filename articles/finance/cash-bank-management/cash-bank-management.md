@@ -2,7 +2,7 @@
 title: 现金和银行管理主页
 description: 您可使用现金和银行管理来维护法人的银行帐户以及与这些银行帐户关联的财务票据。
 author: angelad116
-ms.date: 10/26/2017
+ms.date: 10/24/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e49c9f514e79552dda2e7a6e10c7d84fa2560c2e
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 5d33f6e2fc62b6df8ed59dd19b807e86825c5e46
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151960"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716036"
 ---
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 

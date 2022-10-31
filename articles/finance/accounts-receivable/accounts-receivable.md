@@ -1,8 +1,8 @@
 ---
 title: 应收帐款主页
 description: 使用应收帐款可以跟踪客户发票和收入付款。
-author: kfend
-ms.date: 08/18/2017
+author: abruer
+ms.date: 10/24/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
-ms.author: kfend
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef08d7880a0695527cbfb4ba4e11aae05aec7fc8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: e7c92ae7972344a6c740f5d4d94334ba0e81fd7e
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065356"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715570"
 ---
 # <a name="accounts-receivable-home-page"></a>应收帐款主页
 
