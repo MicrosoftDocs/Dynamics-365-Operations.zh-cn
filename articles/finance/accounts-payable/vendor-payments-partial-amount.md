@@ -1,8 +1,8 @@
 ---
 title: 部分金额的供应商付款
 description: 有时您可以向低于发票金额的供应商付款。 本文介绍处理此情况不同的选项。
-author: abruer
-ms.date: 08/22/2017
+author: angelad116
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 14321
 ms.assetid: 9a17075e-5325-4d55-a1e5-1791b8c460a0
 ms.search.region: Global
-ms.author: shpandey
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1be00ef4bd432bc0252e0588a3108b5b0f570e4
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: deb150e35a80cc4c49f46dfc55822625db83cbda
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716261"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715370"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>部分金额的供应商付款
 

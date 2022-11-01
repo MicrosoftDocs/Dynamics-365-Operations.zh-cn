@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682526"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714750"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接 Warehouse Management 移动应用
 
@@ -63,6 +63,8 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
 - **Android**：[仓库管理 (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
     如果您下载预览版，需要执行一些额外的步骤进行安装。 有关详细信息，请参阅[测试 Android 应用](/appcenter/distribution/testers/testing-android)。
+
+有关如何安装从 App Center 下载的内部版本的信息，请参阅[安装内部版本](/appcenter/distribution/installation)。
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>在 Azure Active Directory 中创建 Web 服务应用程序
 

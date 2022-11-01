@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336176"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708716"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -164,7 +164,7 @@ ms.locfileid: "9336176"
 - **允许锁定触摸屏** – 将此选项设置为 *是* 以允许工作人员锁定生产车间执行界面的触摸屏，以便他们可以净化屏幕。 当此选项设置为 *是* 时，将向登录页面添加 **锁定屏幕以净化** 按钮。 当工作人员选择此按钮时，触摸屏会暂时锁定以防止意外输入。 还显示了倒计时计时器。 然后，工作人员可以安全地净化设备和屏幕。 倒计时完成后，触摸屏将自动解锁。
 - **屏幕锁定持续时间** – 当 **允许锁定触摸屏** 选项设置为 *是* 时，请使用此选项指定触摸屏应该锁定进行净化的秒数。 持续时间必须在 5 到 120 秒之间。
 - **生成牌照** – 将此选项设置为 *是*，每次工作人员使用生产车间执行界面报告为已完工入库时，都会生成新牌照。 牌照编号根据在 **仓库管理参数** 页面上设置的编号规则生成。 当此选项设置为 *否* 时，工作人员必须在报告为已完工入库时指定一个现有牌照。
-- **打印标签** – 将此选项设置为 *是*，以在工作人员使用生产车间执行界面报告为已完工入库时打印牌照标签。 标签的配置在文档路线中设置，如[牌照标签的文档路线选择布局](../warehousing/document-routing-layout-for-license-plates.md)中所述。
+- **打印标签** – 将此选项设置为 *是*，以在工作人员使用生产车间执行界面报告为已完工入库时打印牌照标签。 标签的配置在文档路线中设置，如[文档路线标签布局](../warehousing/document-routing-layout-for-license-plates.md)中所述。
 
 ### <a name="the-tab-selection-fasttab"></a>“选项卡选择”快速选项卡
 

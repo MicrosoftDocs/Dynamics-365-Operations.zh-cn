@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279891"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710827"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>完成、发布和部署全球化功能
 
@@ -59,8 +59,8 @@ ms.locfileid: "9279891"
 2. 在页面右侧的 **版本** 选项卡上，选择您要部署到服务环境或连接的应用程序的电子开票功能版本。 所选版本的状态必须为 **完成** 或 **已发布**。
 3. 选择 **部署**，然后选择以下一个或全部两个选项定义部署目标：
 
-    - **相连应用程序** – 应用程序设置提供的配置将被写入之前与其关联的 Microsoft Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 的实例中。
-    - **服务环境** – 电子开票功能版本被部署到服务环境。 然后，电子开票就可以接收和处理 Finance 或 Supply Chain Management 发送的电子单据。
+    - **相连应用程序** – 此项为可选，但如果您希望将应用程序设置提供的配置写入之前与其关联的 Microsoft Dynamics 365 Finance 或 Dynamics 365 Supply Chain Management 的实例中，则必须使用此项。 跳过此类型部署将需要手动配置在 Finance 或 Supply Chain Management 的应用程序设置中定义的参数。
+    - **服务环境** – 将电子开票功能版本部署到服务环境。 然后，电子开票就可以接收和处理 Finance 或 Supply Chain Management 发送的电子单据。
 
 > [!NOTE]
 > 通常，您将更改必须部署到服务环境的电子报告 (ER) 功能的参数。 对连接的应用程序的更改会很少。 只有在更改应用程序的相应参数时，才应将新版本部署到连接的应用程序。

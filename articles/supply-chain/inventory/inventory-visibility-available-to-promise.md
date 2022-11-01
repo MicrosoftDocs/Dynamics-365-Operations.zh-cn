@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856184"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719283"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>库存可见性现有库存更改计划与可承诺
 
@@ -205,6 +205,7 @@ ms.locfileid: "8856184"
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | 创建多个更改事件。 |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | 使用 `POST` 方法查询。 |
 | `/api/environment/{environmentId}/onhand` | `GET` | 使用 `GET` 方法查询。 |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | 使用 `POST` 方法进行精确查询。 |
 
 有关详细信息，请参阅[库存可见性公共 API](inventory-visibility-api.md)。
 
@@ -394,6 +395,8 @@ Body:
 > [!NOTE]
 > 无论请求正文中的 `returnNegative` 参数是设置为 *true* 还是 *false*，当您查询计划现有库存更改和 ATP 时，结果都将包含负值。 将包括这些负值，因为如果仅计划需求订单，或者如果供应数量小于需求数量，计划现有库存更改数量将为负数。 如果不包括负值，结果会令人困惑。 有关此选项以及它如何适用于其他类型的查询的详细信息，请参阅[库存可见性公共 API](inventory-visibility-api.md#query-with-post-method)。
 
+### <a name="query-by-using-the-post-method"></a>使用 POST 方法查询
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-以下示例显示如何使用 `POST` 方法创建可以提交到库存可见性的请求正文。
+以下示例显示如何使用 `POST` 方法创建可以提交到库存可见性的索引查询请求正文。
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ Body:
 }
 ```
 
-### <a name="get-method-example"></a>GET 方法示例
+### <a name="query-by-using-the-get-method"></a>使用 GET 方法查询
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-以下示例显示如何作为 `GET` 请求创建请求 URL。
+以下示例显示如何作为 `GET` 请求创建索引查询请求 URL。
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 此 `GET` 请求的结果与上一示例中 `POST` 请求的结果完全相同。
 
+### <a name="exact-query-by-using-the-post-method"></a>使用 POST 方法进行精确查询
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+以下示例显示如何使用 `POST` 方法创建可以提交到库存可见性的精确查询请求正文。
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>查询结果示例
 
-前两个查询示例都可能生成以下回复。 对于此示例，系统配置了以下设置：
+前面的任何查询示例都可能生成以下回复。 对于此示例，系统配置了以下设置：
 
 - **ATP 计算度量值**：*iv.onhand = pos.inbound – pos.outbound*
 - **计划期间**：*7*

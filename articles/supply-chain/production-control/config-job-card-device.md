@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860716"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708609"
 ---
 # <a name="configure-job-card-for-devices"></a>配置设备的作业卡
 
@@ -73,7 +73,7 @@ ms.locfileid: "8860716"
 - **资源组** - 选择要用作显示给每个工作人员的作业列表的默认筛选条件的资源组。 设备最初将仅显示在所选资源组下分组的资源上计划的作业。 如果 **允许工作人员设置个人筛选器** 启用，工作人员将能够编辑此值，否则，此筛选器会始终在此设备配置处于活动状态时应用。
 - **资源** - 选择要用作显示给每个工作人员的作业列表的默认筛选条件的资源。 设备最初将仅显示在所选资源上计划的作业。 如果 **允许工作人员设置个人筛选器** 启用，工作人员将能够编辑此值，否则，此筛选器会始终在此设备配置处于活动状态时应用。
 - **生成牌照** - 将此项设置为 **是**，每次工作人员使用作业卡设备报告完工入库时，都会生成新牌照。 牌照编号根据在 **仓库管理参数** 页设置的编号规则生成。 设置为 **否** 时，工作人员必须在报告完工入库时指定一个现有牌照。
-- **打印标签** - 将此项设置为 **是**，当工作人员使用作业卡设备报告完工入库时，将打印牌照标签。 标签的配置在文档路线中设置，如[牌照标签的文档路线选择布局](../warehousing/document-routing-layout-for-license-plates.md)中所述。
+- **打印标签** - 将此项设置为 **是**，当工作人员使用作业卡设备报告完工入库时，将打印牌照标签。 标签的配置在文档路线中设置，如[文档路线标签布局](../warehousing/document-routing-layout-for-license-plates.md)中所述。
 
 <a name="assigned-users"></a>
 

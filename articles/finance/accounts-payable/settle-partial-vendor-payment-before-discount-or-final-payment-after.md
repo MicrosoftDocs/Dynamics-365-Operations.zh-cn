@@ -1,8 +1,8 @@
 ---
 title: 在折扣日期之前结算部分付款，在折扣日期之后结算最后付款
 description: 本文向您介绍执行多个部分付款的情况，部分在现金折扣期间内，其他在现金折扣期间外。
-author: abruer
-ms.date: 06/20/2017
+author: angelad116
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
-ms.author: shpandey
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e249be4024ee6581060e3890795770054c6ab67
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 59ad9b9e7e75027fc46658c901da7a70520a1332
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871353"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715745"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>在折扣日期之前结算部分付款，在折扣日期之后结算最后付款
 

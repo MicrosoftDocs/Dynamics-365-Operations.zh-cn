@@ -1,6 +1,6 @@
 ---
-title: 导入销售订单、报价和退货时重新计算行净额
-description: 本文介绍在导入销售订单、报价单和退货时系统是否以及如何重新计算行净额。 它还解释了如何控制不同版本的 Microsoft Dynamics 365 Supply Chain Management 中的行为。
+title: 导入销售订单和报价单时重新计算行净额
+description: 本文介绍在导入销售订单和报价单时系统是否以及如何重新计算行净额。 它还解释了如何控制不同版本的 Microsoft Dynamics 365 Supply Chain Management 中的行为。
 author: Henrikan
 ms.date: 08/05/2022
 ms.topic: article
@@ -11,25 +11,25 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: edda0c016130e2a273adf8f3d3e00e2d3ae9d5c6
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335546"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719326"
 ---
-# <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>导入销售订单、报价和退货时重新计算行净额
+# <a name="recalculate-line-net-amounts-when-importing-sales-orders-and-quotations"></a>导入销售订单和报价单时重新计算行净额
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍在导入销售订单、报价单和退货时系统是否以及如何重新计算行净额。 它还解释了如何控制不同版本的 Microsoft Dynamics 365 Supply Chain Management 中的行为。
+本文介绍在导入销售订单和报价单时系统是否以及如何重新计算行净额。 它还解释了如何控制不同版本的 Microsoft Dynamics 365 Supply Chain Management 中的行为。
 
 ## <a name="how-updates-to-net-line-amounts-are-calculated-on-import"></a>如何在导入时计算对净行金额的更新
 
-Supply Chain Management 版本 10.0.23 引入了[缺陷修复 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418)。 此缺陷修复更改了导入现有销售订单、退货和报价单的更新时可更新或重新计算行上的 **净额** 字段的条件。 在版本 10.0.29 中，您可以通过打开 *导入时计算行净额* 功能来替换此缺陷修复。 此功能具有相似的作用，但它提供了一个全局设置，可以在必要时恢复为旧行为。 尽管新行为使系统以更直观的方式工作，但它可能会在满足以下所有条件的特定情况下产生意外结果：
+Supply Chain Management 版本 10.0.23 引入了[缺陷修复 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418)。 此缺陷修复更改了导入现有销售订单和报价单的更新时可更新或重新计算行上的 **净额** 字段的条件。 在版本 10.0.29 中，您可以通过打开 *导入时计算行净额* 功能来替换此缺陷修复。 此功能具有相似的作用，但它提供了一个全局设置，可以在必要时恢复为旧行为。 尽管新行为使系统以更直观的方式工作，但它可能会在满足以下所有条件的特定情况下产生意外结果：
 
 - 使用 Open Data Protocol (OData) 通过 *销售订单行 V2*、*销售报价单行 V2* 或 *退货单行* 实体导入用于更新现有记录的数据，包括使用双重写入、经 Excel 导入/导出功能以及某些第三方集成的情况。
-- 实施的 [贸易协议评估政策](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper)制定了一项更改政策，此政策限制对销售订单行、销售报价行和/或退货单行上的 **净额** 字段进行更新。
+- 实施的 [贸易协议评估政策](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper)制定了一项更改政策，此政策限制对销售订单行、销售报价行和/或退货单行上的 **净额** 字段进行更新。 请注意，对于退货单行，始终会计算 **净额** 字段，不能手动设置。
 - 导入的数据包括：对行上的 **净额** 字段所做的更改，或者将导致对一个或多个现有行记录重新计算行上的 **净额** 字段值的更改（如单价、数量或折扣）。
 
 在这些特定情况下，贸易协议评估政策的作用是限制更新行上的 **净额** 字段。 此限制称为 *更改政策*。 由于此政策的缘故，当您使用用户界面编辑或重新计算字段时，系统会提示您确认是否要进行更改。 但是，在导入记录时，系统必须为您做出选择。 在版本 10.0.23 之前，系统始终将行净额保持不变，除非传入行净额为 0（零）。 但是，在较新的版本中，系统始终根据需要更新或重新计算净额，除非已明确指示系统不要执行此操作。 虽然新行为更合乎逻辑，但如果您已在运行采取旧行为的流程或集成，那么这可能会给您带来问题。 本文介绍如何还原到旧行为（如果必须）。

@@ -2,7 +2,7 @@
 title: 预付款账单与预付款
 description: 本文介绍和对比组织可以用于预付款（预先付款）的两种方法。
 author: abruer
-ms.date: 10/26/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227765"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715821"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>预付款账单与预付款
 

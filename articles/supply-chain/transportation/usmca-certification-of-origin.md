@@ -6,18 +6,19 @@ ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
+ms.search.form: WHSShipPlanningListPage, WHSShipmentDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336536"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714689"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA 原产地认证
 
@@ -57,7 +58,7 @@ USMCA 原产地认证文档包含以下数据元素：
 要为装运打印 USMCA 原产地认证文档，请执行以下操作：
 
 1. 执行以下选项之一：
-    - 转到 **运输管理 > 装运 > 所有装运**，选择要为其打印文档的装运。
+    - 转到 **运输管理 \> 计划 \> 装运 \> 所有装运**，选择要为其打印文档的装运。
     - 打开您要为其打印文档的装运的 **装运详细信息** 页（有多种方法可以访问此页，包括从 **所有装运** 页）。
 1. 在操作窗格上，打开 **装运** 选项卡，从 **打印** 组，选择 **USMCA 原产地证书**。
 1. **原产地证书** 对话框将打开。 进行以下小节中所述的设置，然后选择 **确定** 生成文档。

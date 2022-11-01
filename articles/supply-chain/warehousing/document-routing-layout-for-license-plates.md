@@ -1,5 +1,5 @@
 ---
-title: 牌照标签的文档路线选择布局
+title: 文档路线标签布局
 description: 本文介绍如何使用格式设置方法打印标签上的值。
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847866"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708636"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>牌照标签的文档路线选择布局
+# <a name="document-routing-label-layout"></a>文档路线标签布局
 
 [!include [banner](../includes/banner.md)]
 
+本文介绍如何为牌照、集装箱和波次标签创建布局。 另外还提供使用用于创建布局的 Zebra 编程语言 (ZPL) 的指南。
 
-文档路线选择布局定义牌照标签的布局，以及其上印刷的数据。 请在设置移动设备菜单项和工作模板时配置打印触发点。
+文档路线标签布局定义标签的布局方式以及标签上打印的数据。 请在设置移动设备菜单项和工作模板时配置打印触发点。
 
-在典型方案中，仓库验收员在记录到达收货区的托盘内容之后立即打印牌照标签。 将把物理标签应用于托盘。 然后可在后续入库处理流程和将来的出站操作中将其用于验证。
+本文中的信息适用于所有文档路线标签布局，包括[牌照标签](tasks/license-plate-label-printing.md)、[集装箱标签](print-container-labels.md)和[波次标签](configure-wave-label-printing.md)布局。
 
-如果打印设备可以解读收到的文本，您可以打印极为复杂的标签。 例如，其中包含条形码的 Zebra 编程语言 (ZPL) 布局可能类似以下示例。
+如果打印设备可以解读收到的文本，您可以打印极为复杂的标签。 例如，其中包含条形码的 ZPL 布局可能类似以下示例。
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,11 +46,9 @@ ms.locfileid: "8847866"
 ^PQ1,,,Y^XZ
 ```
 
-在标签打印流程中，此示例中的文本 `$LicensePlateId$` 将替换为数据值。
+在标签打印流程中，此示例中的文本 `$LicensePlateId$` 将替换为数据值。 几种广泛使用的标签生成工具可帮助您设置标签布局的文本的格式。 这些工具中许多都支持 `$FieldName$` 格式。 此外，Microsoft Dynamics 365 Supply Chain Management 在文档路线选择布局的字段映射中使用特殊格式设置逻辑。
 
 若要查看将打印的值，请转到 **仓库管理 \> 查看和报表 \> 牌照标签**。
-
-几种广泛使用的标签生成工具可帮助您设置标签布局的文本的格式。 这些工具中许多都支持 `$FieldName$` 格式。 此外，Microsoft Dynamics 365 Supply Chain Management 在文档路线选择布局的字段映射中使用特殊格式设置逻辑。
 
 ## <a name="turn-on-this-feature-for-your-system"></a>为您的系统启用此功能
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>有关如何打印标签的详细信息
 
-有关如何设置和打印标签的详细信息，请参阅[启用牌照标签打印](tasks/license-plate-label-printing.md)。
+有关如何设置和打印标签的详细信息，请参阅以下文章：
 
+- [牌照标签打印](tasks/license-plate-label-printing.md)
+- [打印集装箱标签](print-container-labels.md)
+- [波次标签打印](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

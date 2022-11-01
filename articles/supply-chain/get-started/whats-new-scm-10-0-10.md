@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 62f771f6eda949f13536e700ef13a118881886ef
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: c377a910cca8bbf1fd640b6c9a99810be1a8d40f
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123521"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708686"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Dynamics 365 Supply Chain Management 10.0.10（2020 年 5 月）中的新增功能或更改
 
@@ -39,7 +39,7 @@ ms.locfileid: "9123521"
 
 - [用于仓库管理的入站负荷管理增强功能](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - 有关详细信息，请参阅[仓库对采购订单入站负荷的处理](../warehousing/inbound-load-handling.md)。
 
-- [用于仓库管理的标签打印增强](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - 有关详细信息，请参阅[牌照标签的文档路线选择布局](../warehousing/document-routing-layout-for-license-plates.md)。
+- [用于仓库管理的标签打印增强](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - 有关详细信息，请参阅[文档路线标签布局](../warehousing/document-routing-layout-for-license-plates.md)。
 
 - [主计划在启用预处理筛选器后包括具有现有库存量的物料](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 

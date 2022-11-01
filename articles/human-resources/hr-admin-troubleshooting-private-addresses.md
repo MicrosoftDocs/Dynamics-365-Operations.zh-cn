@@ -2,7 +2,7 @@
 title: 通过安全角色访问专用地址
 description: 本文说明如何解决客户无法访问专用地址这一问题。
 author: twheeloc
-ms.date: 08/19/2021
+ms.date: 09/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7102bbcbecec0d88351e796e2c63663d956b86f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c1db052937b03817f22b37c50b9f1b319579cb2
+ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849672"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9702095"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>通过安全角色访问专用地址
 

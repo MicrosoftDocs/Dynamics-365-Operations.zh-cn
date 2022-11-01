@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Supply Chain Management 10.0.30 预览版（2022 年 11 月）
+title: Dynamics 365 Supply Chain Management 10.0.30（2022 年 11 月）中的新增功能或更改
 description: 本文介绍 Microsoft Dynamics 365 Supply Chain Management 10.0.30 中的新增功能或更改的功能。
 author: kamaybac
 ms.date: 09/08/2022
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
+ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689178"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714790"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Dynamics 365 Supply Chain Management 10.0.30（2022 年 11 月）中的新增功能或更改
 
@@ -55,7 +55,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.30 中包含平台更新。 
 
 ### <a name="bug-fixes"></a>缺陷修复
 
-有关版本 10.0.29 中各更新内的缺陷修复的信息，请登录 Lifecycle Services (LCS)，然后查看[知识库文章](https://fix.lcs.dynamics.com/Issue/Details?bugId=745468)。
+有关版本 10.0.30 中各更新内的缺陷修复的信息，请登录 Lifecycle Services (LCS)，然后查看[知识库文章](https://fix.lcs.dynamics.com/Issue/Details?bugId=745468)。
 
 ### <a name="dynamics-365-and-industry-clouds-2022-release-wave-1-plan"></a>Dynamics 365 和行业云：2022 版本第 1 波计划
 

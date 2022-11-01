@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423587"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719307"
 ---
 # <a name="inventory-visibility-public-apis"></a>Inventory Visibility 公共 API
 
@@ -47,6 +47,7 @@ ms.locfileid: "9423587"
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | 过帐 | [创建多个计划现有库存更改](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | 过帐 | [使用过帐方法查询](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | 获取 | [使用获取方法查询](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/exactquery | 过帐 | [使用 post 方法进行精确查询](#exact-query-with-post-method) |
 | /api/environment/{environmentId}/allocation/allocate | 过帐 | [创建一个分配事件](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/unallocate | 过帐 | [创建一个取消分配事件](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/reallocate | 过帐 | [创建一个重新分配事件](inventory-visibility-allocation.md#using-allocation-api) |
@@ -690,6 +691,80 @@ Query(Url Parameters):
 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
+```
+
+### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a>使用 post 方法进行精确查询
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+在此请求的正文部分中，`dimensionDataSource` 是可选参数。 如果未设置此参数，会将 `filters` 中的 `dimensions` 视为 *基础维度*。 `filters` 有四个必填字段：`organizationId`、`productId`、`dimensions` 和 `values`。
+
+- `organizationId` 中应仅包含一个值，但它仍然是数组。
+- `productId` 中可以包含一个或多个值。 如果它是空数组，将返回所有产品。
+- 在 `dimensions` 数组中，`siteId` 和 `locationId` 是必需的，但可以按任何顺序与其他元素一起出现。
+- `values` 可以包含与 `dimensions` 对应的一个或多个不同的值元组。
+
+`filters` 中的 `dimensions` 将被自动添加到 `groupByValues`。
+
+`returnNegative` 参数控制结果中是否包含负条目。
+
+以下示例显示示例正文内容。
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "dimensions": ["siteId", "locationId", "colorId"],
+        "values" : [
+            ["iv_postman_site", "iv_postman_location", "red"],
+            ["iv_postman_site", "iv_postman_location", "blue"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
+```
+
+以下示例显示如何查询多个站点和位置的所有产品。
+
+```json
+{
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": [],
+        "dimensions": ["siteId", "locationId"],
+        "values" : [
+            ["iv_postman_site_1", "iv_postman_location_1"],
+            ["iv_postman_site_2", "iv_postman_location_2"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
 ```
 
 ## <a name="available-to-promise"></a>可承诺

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 171b9f1dcb1d4ece63bc0beeb71f45b9f8ae7bba
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 118b1c79d23cd1b5044ede9aa9c469409cd22166
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220530"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708775"
 ---
 # <a name="pack-containers-for-shipment"></a>装入集装箱以进行装运
 
@@ -34,7 +34,9 @@ ms.locfileid: "9220530"
 - [确认并转移](confirm-and-transfer.md)
 - [设置不同的包装和存储维度](packing-vs-storage-dimensions.md)
 - [出站集装箱装箱和装运处理的包装工作](packing-work.md)
-<!-- KFM: Add link to upcoming topic when available (10.0.31): [Manual packing on the Warehouse management mobile app](manual-packing-on-the-warehouse-management-mobile-app.md) -->
+- [使用 Warehouse Management 移动应用将物料装入集装箱](warehouse-app-packing-containers.md)
+- [示例场景 – 使用 Warehouse Management 移动应用将物料装入集装箱](warehouse-app-pack-containers-scenario.md)
+- [打印集装箱标签](print-container-labels.md)
 
 ## <a name="set-up-your-warehouse-to-use-manual-packing-operations"></a>设置仓库以使用手动装箱操作
 

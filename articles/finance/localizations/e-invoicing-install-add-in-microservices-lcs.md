@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: a837b85d4893f2915b5fbb5ffaae8eb95f19bc0e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 938b00192acc0ff5534239f2f280792471181fad
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272246"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710800"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>在 Lifecycle Services 中安装微服务的加载项
 
@@ -35,7 +35,7 @@ ms.locfileid: "9272246"
 2. 在该项目中，在 **环境** 仪表板上，选择您的已部署环境。 所选环境必须正在运行。
 3. 在 **Power Platform 集成** 选项卡上，在 **环境加载项** 部分，选择 **安装新加载项**。
 4. 选择 **电子开票**。
-5. 在 **AAD 应用程序 ID** 字段中，输入 **091c98b0-a1c9-4b02-b62c-7753395ccabe**。 此值是一个固定值。 确保仅输入全局唯一标识符 (GUID)。 不要包含任何其他符号，如空格、逗号、句点或引号。
+5. 在 **AAD 应用程序 ID** 字段中，输入固定值 **091c98b0-a1c9-4b02-b62c-7753395ccabe**。 此值始终是固定的。 确保仅输入全局唯一标识符 (GUID)。 不要包含任何其他符号，如空格、逗号、句点或引号。
 6. 在 **AAD 租户 ID** 字段中，输入您的 Azure 订阅帐户的租户 ID。 您指定的 Azure Active Directory (Azure AD) 租户应该是用于 Regulatory Configuration Service (RCS) 的同一个租户。
 7. 查看条款和条件，然后选中相应的复选框。
 8. 选择 **安装**。 几分钟后，状态应从 **正在安装** 变为 **已安装**。 可能必须刷新页面才能看到此更改。

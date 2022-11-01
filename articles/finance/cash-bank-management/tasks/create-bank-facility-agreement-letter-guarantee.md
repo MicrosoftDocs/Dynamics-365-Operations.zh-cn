@@ -7,17 +7,17 @@ ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee3f65c1f4b369ac751236625f5d184b22ba1b29
-ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
+ms.openlocfilehash: 8e3e0e998c3654f19d2fe3f3fa0c8c7e853c8d0a
+ms.sourcegitcommit: 3ec9030e7e5608af021769902f8ee7c3692f1b64
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337526"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9715075"
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>创建保函的银行信贷协议
 

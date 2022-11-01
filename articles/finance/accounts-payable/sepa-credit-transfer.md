@@ -1,7 +1,7 @@
 ---
 title: SEPA 贷方转帐概览
 description: 此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。
-author: sunfzam
+author: mrolecki
 ms.date: 06/20/2017
 ms.topic: overview
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 671594b1ac6f10fae7c95ed9210e16f168e8dea1
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871440"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716066"
 ---
 # <a name="sepa-credit-transfer-overview"></a>SEPA 贷方转帐概览
 

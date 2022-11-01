@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849581"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714728"
 ---
 # <a name="manage-changes-to-engineering-products"></a>管理工程产品的更改
 
@@ -141,6 +141,8 @@ ms.locfileid: "8849581"
 ### <a name="create-a-change-order-from-a-change-request"></a>根据更改请求创建更改订单
 
 审查工程更改请求的工程师可以直接从 **工程更改请求** 页面创建工程更改订单。 在操作窗格的 **更改请求** 选项卡上，在 **工程更改订单** 组中，选择 **复制链接和产品**。
+
+确保为新的工程更改订单选择正确的公司。 如果更改订单会导致工程产品本身发生更改（新版本、新产品或新变型），则必须将更改订单分配给工程公司。 如果只需要进行本地更改（**影响** 设置为 *无*），可以将更改订单分配给本地公司，更改将应用于当前产品。
 
 ## <a name="engineering-change-orders"></a>工程更改订单
 

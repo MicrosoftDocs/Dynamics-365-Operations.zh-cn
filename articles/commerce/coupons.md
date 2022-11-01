@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-30
-ms.openlocfilehash: 2594848948b141015adfaa4ec27e2c2b4cc4dcd2
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 20427a04a552ddec013daa6576ec64ab7046e95f
+ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410752"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9709751"
 ---
 # <a name="coupons"></a>优惠券
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 本文概述 Microsoft Dynamics 365 Commerce 中的优惠券相关功能。
 
