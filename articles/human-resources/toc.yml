@@ -4,6 +4,18 @@
       items:
         - name: Dynamics 365 Human Resources 主页
           href: index.md
+        - name: Human Resources 基础结构合并
+          items:
+            - name: Human Resources 基础结构合并概览
+              href: hr-infrastructure-merge.md
+            - name: Human Resources 基础结构客户迁移
+              href: hr-cust-migration.md
+            - name: Human Resources 基础结构合并常见问题解答
+              href: hr-infrastructure-merge-faq.md
+            - name: Human Resources 客户迁移常见问题解答
+              href: customer-migration.md
+            - name: Human Resources 基础结构合并已知问题
+              href: hr-migration-issues.md
         - name: 新增功能或更改
           items:
             - name: 财务和运营应用新增功能或更改
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: 实施常见问题解答
                   href: hr-admin-go-live-faq.md
-                - name: Human Resources 基础结构合并常见问题解答
-                  href: hr-infrastructure-merge-faq.md
-                - name: Human Resources 客户迁移常见问题解答
-                  href: customer-migration.md
                 - name: 文档资源
                   items:
                     - name: 帮助系统

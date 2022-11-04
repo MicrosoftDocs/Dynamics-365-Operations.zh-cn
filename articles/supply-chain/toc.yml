@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: 设置采购类别层次结构的策略
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: 供应风险评估
+              items:
+                - name: 供应风险评估概览
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: 配置供应风险评估
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: 用于发现和处理供应商风险的可行工作区
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Power BI 风险分析和性能排名报表
+                  href: procurement/supply-risk-assessment-reports.md
             - name: 产品收货和开票
               items:
                 - name: 针对采购订单的物料收货

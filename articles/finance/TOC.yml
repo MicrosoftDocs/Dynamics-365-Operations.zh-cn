@@ -690,22 +690,16 @@
               href: cash-bank-management/reconcile-bank-account.md
             - name: 高级银行对帐
               items:
-                - name: 高级银行对帐流程
+                - name: 高级银行对帐设置流程
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: 设置高级银行对帐导入流程
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: 使用电子报告设置高级银行对帐导入流程
                   href: accounts-payable/import-bai2-er.md
                 - name: 设置银行对帐匹配规则
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: 使用高级银行对帐对银行对帐单进行对帐
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: 高级银行对帐 MT940 导入 - 综合数据实体升级
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: 高级银行对帐概览
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: 银行对帐单文件导入疑难解答
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: 更新银行日记帐组合实体
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: 成本核算

@@ -334,13 +334,17 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: 部署常见问题解答
                       href: deployment/deploymentFAQ.md
+                    - name: 迁移环境
+                      href: deployment/geo-to-geo-migrations.md
                     - name: 自助服务部署的已知问题
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: 部署的维护操作
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: 更新环境
                       href: deployment/updateenvironment-newinfrastructure.md
-                    - name: 对通过自助服务部署所部署的环境进行故障排除
+                    - name: 迁移环境
+                      href: deployment/geo-to-geo-migrations.md
+                    - name: 对通过自助服务部署所部署的环境进行疑难解答
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: 自助服务环境中的计划内维护常见问题解答
                       href: deployment/plannedmaintenance-selfservice.md
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: 项目入门
               href: lifecycle-services/project-onboarding.md
+            - name: 项目迁移经理
+              href: lifecycle-services/project-migration-manager.md
             - name: 订阅估算器
               href: lifecycle-services/subscription-estimator.md
             - name: 配置安全性
