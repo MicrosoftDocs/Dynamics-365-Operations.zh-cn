@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: 实现 Commerce 商店技术堆栈的现代化（白皮书）
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Commerce 脱机实施和故障排除
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: 发布在线商店目录
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI 内容
@@ -396,12 +394,16 @@
                   items:
                     - name: Store Commerce 应用
                       href: dev-itpro/store-commerce.md
+                    - name: Store Commerce 应用功能
+                      href: store-commerce-capabilities.md
                     - name: 适用于移动平台的 Store Commerce 应用
                       href: dev-itpro/store-commerce-mobile.md
                     - name: 将 Modern POS 迁移到 Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: 设备管理实施指导
                       href: implementation-considerations-devices.md
+                    - name: Commerce 脱机实施和故障排除
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: 选择 Store Commerce 或 Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: 在线和离线 POS 操作
