@@ -2,7 +2,7 @@
 title: 模板和布局概览
 description: 本文介绍 Microsoft Dynamics 365 Commerce 中的模板和布局。
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277925"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733376"
 ---
 # <a name="templates-and-layouts-overview"></a>模板和布局概览
 
@@ -66,7 +66,13 @@ ms.locfileid: "9277925"
 
 站点和品牌管理员的一个重要初始步骤是，确定子布局和页面作者的约束与灵活性之间的正确平衡。 如果使用模板，此平衡完全可配置。 它影响页面元素是集中更新（在元素中锁定），还是留给页面层次结构中更下方的单个子级别。
 
-若要开始使用模板，请[使用模板](work-with-templates.md)。
+### <a name="relationship-between-template-defaults-and-page-content"></a>模板默认值和页面内容之间的关系
+
+模板的主要功能是在创建页面时简化模块创作体验。 除了在编辑页面时，其他情况下，即使在模板中设置甚至锁定了模块默认值，也没有从页面的模块配置到模板默认值的进一步数据连接。 模板控制页面结构的创作体验，页面创建后，模板默认值不再链接到该页面上的可本地化内容。 换言之，在模板中设置的模块默认值控制子页面的创作体验。 在创建和编辑页面后，它们不再控制这些页面上的内容。
+
+将[片段](work-with-fragments.md)添加到模板时，会出现上述行为的唯一例外情况。 片段可用于随时在模板或布局的所有子页面上动态添加或编辑可本地化内容，即使是在从给定模板创建了很多页面之后。 每当应在所有子页面上动态添加、删除或编辑可本地化内容时，最佳做法是在模板和布局中使用片段。 例如，片段应用于页眉、页脚、通用元数据/脚本或任何其他必须可集中编辑且在所有子页面中相同的内容。 片段提供了一种使用模板和布局来控制所有子页面内容的方法。
+
+要开始使用模板，请参阅[使用模板](work-with-templates.md)。
 
 ## <a name="layouts"></a>布局
 

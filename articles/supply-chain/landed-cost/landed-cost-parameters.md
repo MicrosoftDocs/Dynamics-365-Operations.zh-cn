@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871969"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725513"
 ---
 # <a name="landed-cost-parameters-setup"></a>登陆成本参数设置
 
@@ -125,14 +125,11 @@ ms.locfileid: "8871969"
 
 **登陆成本参数** 页的 **编号规则** 选项卡列出登陆成本所需的但不在法人之间共享的每个参考编号规则类型。 对于列表中的每个参考，选择一个编号规则代码。
 
-> [!NOTE]
-> 在多公司配置中，必须为每个公司（法人）创建不同的编号规则。
 
 ## <a name="shared-number-sequences-tab"></a>共享编号规则选项卡
 
 **登陆成本参数** 页的 **共享编号规则** 选项卡列出在登陆成本的法人之间共享的每个参考编号规则类型。 当前，列表中只有一个编号规则。 此编号规则用于航行 ID。
 
-在 **所有航行** 页上，用户可以查看所有法人的所有航行。 但是，要编辑和处理航行，用户必须位于所选记录的法人中。
 
 ## <a name="feature-visibility-tab"></a>功能可见性选项卡
 

@@ -2,7 +2,7 @@
 title: 销售点 (POS) 联机和脱机操作
 description: 本文提供有关 Dynamics 365 Commerce 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272841"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728268"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
@@ -101,7 +101,7 @@ ms.locfileid: "9272841"
 | 212  | 汽油特惠卡信息                                   | 此操作不受支持。                                                                                                                                                                                | 不适用 | 不适用     | 不适用 | 不适用    | 不适用  |
 | 213  | 贷项通知单支付                                   | 接受商店签发的贷项通知单（凭证）。                                                                                                                                                          | 是            | 是                | 否             | 否                | 否              |
 | 214  | 礼品卡支付                                     | 接受商店签发的礼品卡。                                                                                                                                                                      | 是            | 是                | 否             | 否                | 否              |
-| 215  | 兑现礼品卡                                | 此操作不受支持。                                                                                                                                                                                | 是            | 是                | 否             | 否                | 否              |
+| 215  | 兑现礼品卡                                | 如果在配置的兑现限额内，使用礼品卡余额全额进行信用交易。                                                                                                                                                                              | 是            | 是                | 否             | 否                | 否              |
 | 216  | 信用卡全额支付                                    | 此操作不受支持。                                                                                                                                                                                | 不适用 | 不适用     | 不适用 | 不适用    | 不适用  |
 | 217  | 支票全额支付                                   | 此操作不受支持。                                                                                                                                                                                | 不适用 | 不适用     | 不适用 | 不适用    | 不适用  |
 | 218  | 客户帐户全额支付                        | 此操作不受支持。                                                                                                                                                                                | 不适用 | 不适用     | 不适用 | 不适用    | 不适用  |

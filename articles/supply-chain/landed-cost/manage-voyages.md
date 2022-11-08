@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905854"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725461"
 ---
 # <a name="manage-voyages"></a>管理航行
 
@@ -29,7 +29,8 @@ ms.locfileid: "8905854"
 **所有航行** 页提供航行详细信息、交货和成本计算信息，以及有关物料、采购订单和转移单的信息。 要打开 **所有航行** 页，转到 **登陆成本 \> 航行 \> 所有航行**。 此页面显示所有当前航行的列表。 您可以使用操作窗格上的按钮创建、删除和使用航行。 在列表中选择任意航行查看它的详细信息。
 
 > [!NOTE]
-> 装运集装箱和帐页将链接到航行。 采购订单行将链接到装运集装箱。 如果装运集装箱和帐页关闭，它们也可以直接链接到航行。 此外，在此处输入的成本将分摊到所有附加的采购订单行。
+> 装运集装箱和帐页将链接到航行。 采购订单行将链接到装运集装箱。 此外，在此处输入的成本将分摊到所有附加的采购订单行。
+> 登陆成本不支持项目采购订单。
 
 ## <a name="action-pane"></a>操作窗格
 

@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281446"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734236"
 ---
 # <a name="order-lookup-module"></a>订单查找模块
 
@@ -44,6 +44,12 @@ ms.locfileid: "9281446"
 ## <a name="add-an-order-lookup-module-to-a-page"></a>向页面添加订单查找模块
 
 可将订单查找模块添加到电子商务站点的任何页面主体中。 如果要使用订单查找模块启用来宾结帐订单查找功能，请务必将其添加到不需要用户登录的页面。 若要在 Commerce 站点构建器树视图中查找页面的 **需要登录?** 设置，请选择 **默认页面(必需)** 槽 ，然后查看右窗格底部。
+
+
+> [!NOTE]
+> 要启用订单查找功能，请确保在 **许可证配置** > **配置密钥** 下启用了 **报价单** 密钥。
+>
+> ![必须启用报价单许可证密钥配置](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 4f381f1ec0ea08f18db3cac474e8990906364504
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 757e83887e318dd6aa54106fb78305f1d94e0f90
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286883"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734235"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>启用来宾结帐订单查找功能
 
@@ -73,6 +73,11 @@ Commerce 模块库中的订单查找模块用于呈现来宾用户用于查找�
 在与订单相关的电子邮件中，您可以提供一个链接或按钮，将客户带到他们订单的订单详细信息页面。 要添加此链接或按钮，创建一个指向您的电子商务站点上订单详细信息页面的 HTML 超链接，并将订单确认 ID 和客户的电子邮件地址作为 URL 参数传递，如下例所示。
 
 `<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
+
+> [!NOTE]
+> 要启用订单查找功能，请确保在 **许可证配置** > **配置密钥** 下启用了 **报价单** 密钥。
+>
+>![必须启用报价单许可证密钥配置](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>其他资源
 

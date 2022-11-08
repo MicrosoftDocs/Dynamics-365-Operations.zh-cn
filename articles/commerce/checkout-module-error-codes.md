@@ -2,19 +2,19 @@
 title: 结帐模块错误参考代码
 description: 本文介绍 Microsoft Dynamics 365 Commerce 中面向用户的错误消息中显示的结帐模块错误参考代码。
 author: BrianShook
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-09-20
-ms.openlocfilehash: cd8269a71e56f23dbe3782ec3ffc69ec3ea6b151
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: 952cb932522b4e0bb91be985e4f8974cb6cd8bc0
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709644"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728237"
 ---
 # <a name="checkout-module-error-reference-codes"></a>结帐模块错误参考代码
 
@@ -31,9 +31,13 @@ Dynamics 365 Commerce 引入了标准化的错误参考，这些参考可以包�
 - 环境或付款连接器配置中需要考虑的信息
 - 如果需要额外帮助，可以在支持案例中引用的信息
 
+## <a name="prerequisites"></a>先决条件
+
+要启用下面列出的结帐模块错误参考代码，在您的站点的站点构建器中，转到 **站点设置 \> 扩展**，在 **购物车和结帐** 部分，选择 **启用增强的在线渠道错误显示消息**。 
+
 ## <a name="checkout-module-error-reference-codes"></a>结帐模块错误参考代码
 
-使用下表获取有关客户提供或在线商店中遇到的错误代码参考的更多详细信息。
+使用下表获取有关客户提供或在线商店中遇到的错误代码参考的更多详细信息。 向右滚动可查看 **错误描述** 列。
 
 | 错误代码 | 动态关联的错误代码 | 错误描述 |
 | ---------- | ------------------------------ | ----------------- |

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a6f883da07bd1d3a6b0379f1582dc8556e166ff
-ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
+ms.openlocfilehash: 0e11d26ebe084762a8616c8aa0aa041a87306473
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151074"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734350"
 ---
 # <a name="human-resources-customer-migration"></a>Human Resources 客户迁移
 
@@ -40,7 +40,7 @@ ms.locfileid: "9151074"
 每家公司的过渡将取决于该公司当前的配置，以及迁移到财务和运营基础结构的准备情况。 我们建议客户与其 Microsoft 合作伙伴一起确定最佳前进路径。
 
 - 使用 Dynamics 365 Finance 中的 **Human Resources** 模块的组织将能够在常规 One Version 更新过程启用 Dynamics 365 Human Resources 中的新功能。 新功能计划从 2022 年 1 月开始正式发布。
-- 使用 Dynamics 365 Human Resources 的组织将有权访问可用于完成基础结构合并的工具。 在过渡时，Microsoft 将与客户合作以帮助防止任何服务中断。 从迁移工具可用时开始，客户将有 12 到 18 个月的时间进行过渡。
+- 使用 Dynamics 365 Human Resources 的组织将有权访问可用于完成基础结构合并的工具。 在过渡时，Microsoft 将与客户合作以帮助防止任何服务中断。 从迁移工具可用时开始，客户将有 12 个月的时间进行转换。
 - 同时使用 Dynamics 365 Human Resources 和 **Human Resources** 模块的组织可以将其独立的 Human Resources 基础结构迁移到财务和运营基础结构上。 另一个选项是使用合并工具将环境引入单个环境。 合并这两个环境没有任何要求或时间表。
 
 有关最新信息，请定期查看[发布计划](/dynamics365/release-plans/)。
@@ -166,4 +166,4 @@ Microsoft 仍在确定 FastTrack 将提供具体工具和资源来帮助合并�
 
 ## <a name="licensing-impact"></a>许可影响
 
-有关如何影响许可的详细信息，请参阅 [Dynamics 365 Human Resources 基础结构合并常见问题解答](hr-infrastructure-merge-faq.md#licensing-impact)。
+有关如何影响许可的详细信息，请参阅 [Dynamics 365 Human Resources 基础结构合并](hr-infrastructure-merge.md#licensing)。
