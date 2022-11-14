@@ -541,7 +541,11 @@
                     - name: 招聘工作应聘者
                       href: hr-personnel-recruit.md
         - name: 任务管理
-          href: hr-task-mgmt.md
+          items:
+            - name: 概览
+              href: hr-task-mgmt.md
+            - name: 任务管理升级
+              href: hr-task-update.md
         - name: 休假和缺勤
           items:
             - name: 概览
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: 管理工作人员便利设施
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: 人力资源开发
+    - name: Human Resources 开发
       items:
         - name: 概览
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: 自定义字段
           href: hr-developer-custom-fields.md
+        - name: 开发和自定义
+          items:
+            - name: 性别基枚举
+              href: enum-exten.md
         - name: 设置数据集成
           items:
             - name: 选择数据集成技术

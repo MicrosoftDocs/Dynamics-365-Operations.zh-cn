@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: 产品和帮助中的语言和区域设置描述符
                   href: help/language-locale.md
-                - name: 针对帮助进行扩展、自定义和协作
+                - name: 针对帮助进行扩展和协作
                   href: help/contributor-guide.md
             - name: 财务和运营应用区域服务
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: 管理对法人的网络打印机的访问权限
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: 使用 Application Insights 进行监控和遥测
+              items:
+                - name: 概览
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: 安全性
               items:
                 - name: 基于角色的安全性
