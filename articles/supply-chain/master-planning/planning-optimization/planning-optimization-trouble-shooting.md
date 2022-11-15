@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f078fda02a11eb2073738d59b45f81698b707653
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37c38ab9cec8ae3c9d4decf8043b43ea2251083e
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889510"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739721"
 ---
 # <a name="troubleshoot-planning-optimization"></a>计划优化故障排除 
 
@@ -37,13 +37,13 @@ ms.locfileid: "8889510"
 
 ## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a>启用计划优化后计划批处理作业失败
 
-启用计划优化时，将自动禁用内置主计划引擎。 如果在启用了计划优化的情况下触发了为内置 Supply Chain Management 计划引擎创建的主计划批处理作业，这些作业将失败。 可能会收到如下错误消息：*启用了计划优化时此操作触发了不支持的主计划*。
+启用计划优化时，将自动禁用已弃用的主计划引擎。 如果在启用了计划优化的情况下触发了为已弃用的主计划引擎创建的主计划批处理作业，这些作业将失败。 可能会收到如下错误消息：*启用了计划优化时此操作触发了不支持的主计划*。
 
-**解决方法**：取消为内置 Supply Chain Management 计划引擎创建的所有主计划批处理作业。
+**解决方法**：取消为已弃用的主计划引擎创建的所有主计划批处理作业。
 
 ## <a name="planning-optimization-results-are-different-from-earlier-results"></a>计划优化结果与之前结果不同
 
-计划优化在某些方面与内置主计划设计不同。 这也可能是待定功能导致的。
+计划优化在某些方面与已弃用的主计划引擎的设计不同。 这也可能是待定功能导致的。
 
 **解决方法**：运行计划优化适应分析，然后在引用相关文档了解影响时分析结果。 有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。
 
@@ -63,9 +63,8 @@ ms.locfileid: "8889510"
 
 ## <a name="additional-resources"></a>其他资源
 
-[开始使用计划优化](get-started.md)
-
-[计划优化适应分析](planning-optimization-fit-analysis.md)
+- [开始使用主计划](get-started.md)
+- [计划优化适应分析](planning-optimization-fit-analysis.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

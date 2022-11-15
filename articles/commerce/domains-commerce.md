@@ -2,19 +2,19 @@
 title: Dynamics 365 Commerce 中的域
 description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中处理域。
 author: BrianShook
-ms.date: 09/09/2022
+ms.date: 11/08/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: f1a2de7984aad7d291b8a4dc68f5690d57ebe6cc
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465185"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750672"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Dynamics 365 Commerce 中的域
 
@@ -95,6 +95,12 @@ ms.locfileid: "9465185"
 
 如果在提供了多个域的环境中不指定域查询字符串，Commerce 将使用您提供的第一个域。 例如，如果路径“fabrikam”是在站点设置期间提供的第一个路径，则可以使用 URL `https://xyz.dynamics365commerce.ms` 访问为 `www.fabrikam.com` 发布的站点内容站点。
 
+您还可以添加自定义域。 要完成此任务，在环境的项目 Commerce 管理页面上，在 **电子商务** 副标题下，选择 **+ 添加自定义域**。 滑块会显示现有自定义域并提供添加新自定义域的选项。
+
+## <a name="update-which-commerce-scale-unit-is-used"></a>更新所使用的 Commerce Scale Unit
+
+Commerce 使用的 Commerce Scale Unit (CSU) 通常在最初创建环境时选择。 Commerce 允许您更改您的环境使用的 CSU 实例，让您可以通过自助服务功能更好地维护您的体系结构，并减少联系客户支持的需要。 要更新 CSU 实例，转到您的环境的项目 Commerce 管理页面，然后选择 **更新缩放单元**。 使用 **新 Commerce Scale Unit** 滑块从您的环境可用的 CSU 列表中选择新的 CSU 实例。
+
 ## <a name="traffic-forwarding-in-production"></a>生产中的流量转发
 
 可以在 commerce.dynamics.com 终结点本身使用域查询字符串参数模拟多个域。 但是如果需要投入生产，则必须将自定义域的流量转发到 `<e-commerce tenant name>.dynamics365commerce.ms` 终结点。
@@ -103,9 +109,9 @@ ms.locfileid: "9465185"
 
 若要使用前门服务或 CDN 设置自定义域，有两个选择：
 
-- 设置 Azure Front Door 之类前门服务以处理前端流量和连接到您的 Commerce 环境。 这样可以更好地控制域和证书管理以及更精细的安全策略。
+- 设置像 Azure Front Door 这样的 Front Door 服务来处理前端流量并连接到您的 Commerce 环境，从而更好地控制域和证书管理以及更精细的安全策略。
 
-- 使用 Commerce 提供的 Azure Front Door 实例。 这需要与 Dynamics 365 Commerce 团队协调操作以验证域和获取生产域的 SSL 证书。
+- 使用 Commerce 提供的 Azure Front Door 实例，这需要与 Dynamics 365 Commerce 团队协调操作以验证域和获取生产域的 SSL 证书。
 
 > [!NOTE]
 > 如果您使用外部 CDN 或 Front Door 服务，请确保请求以 Commerce 提供的主机名登陆 Commerce 平台，但带有 X-Forwarded-Host (XFH) 标头 \<custom-domain\>。 例如，如果您的 Commerce 终结点是 `xyz.dynamics365commerce.ms`，自定义域是 `www.fabrikam.com`，转发请求的主机头应该是 `xyz.dynamics365commerce.ms`，XFH 标头应该是 `www.fabrikam.com`。
@@ -115,7 +121,7 @@ ms.locfileid: "9465185"
 若要使用 Commerce 提供的 Azure Front Door 实例，必须创建服务请求以获取 Commerce 入职团队的 CDN 设置协助。 
 
 - 您将需要提供公司名称、生产域、环境 ID 和生产电子商务租户名称。 
-- 您将需要确认这是现有域（用于当前活动站点）还是新域。 
+- 您将需要确认此服务请求是针对现有域（用于当前活动站点）还是新域。 
 - 如果是新域，则一个步骤即可完成域验证和 SSL 证书。 
 - 如果是为现有网站提供支持的域，则需要执行多步流程来建立域验证和 SSL 证书。 此流程需要为期 7 个工作日的服务级别协议 (SLA) 以启用域，因为其中包含多个顺序步骤。
 

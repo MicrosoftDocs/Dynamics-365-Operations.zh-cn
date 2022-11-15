@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1f486406df22b4e9b92a0302e4e7ce7816517f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4989a05f4647ac836b78692da7f63396dbef788
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878952"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741004"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>站点和仓库覆盖范围主计划，仓库不是必需的
 
@@ -47,15 +47,11 @@ ms.locfileid: "8878952"
 
 ## <a name="additional-resources"></a>其他资源
 
-[主计划和多站点功能概览](master-plan-multisite-functionality.md)
-
-[站点覆盖范围的主计划（仓库必需）](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-
-[站点和仓库覆盖范围的主计划（仓库必需）](master-plan-site-coverage-warehouse-mandatory.md)
-
-[站点和仓库覆盖范围的主计划（仓库非必需）](master-plan-site-coverage-warehouse-not-mandatory.md)
-
-[确定物料清单版本](master-plan-bom-version-determined.md)
+- [主计划和多站点功能概览](master-plan-multisite-functionality.md)
+- [站点覆盖范围的主计划（仓库必需）](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+- [站点和仓库覆盖范围的主计划（仓库必需）](master-plan-site-coverage-warehouse-mandatory.md)
+- [站点和仓库覆盖范围的主计划（仓库非必需）](master-plan-site-coverage-warehouse-not-mandatory.md)
+- [确定物料清单版本](master-plan-bom-version-determined.md)
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: 内部公司计划
-description: 本文介绍内部公司计划，并说明如何在 Microsoft Dynamics 365 Supply Chain Management 中使用计划优化配置内部公司计划。
+description: 本文介绍内部公司计划，并说明如何在 Microsoft Dynamics 365 Supply Chain Management 中配置内部公司计划。
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6ef551e1c2c4d90510f967855a5aa61646dc8eab
-ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
+ms.openlocfilehash: 3d1c82aa3810b37b06b9d9157e73588fc1727348
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9538557"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740024"
 ---
 # <a name="intercompany-planning"></a>内部公司计划
 
@@ -29,7 +29,7 @@ ms.locfileid: "9538557"
 
 对于某些组织，物流工序取决于组织中的其他法人（公司）。 由于每个法人都有单独的会计科目表，因此使用内部公司销售和采购来处理这些工序。
 
-本文介绍内部公司计划，并说明如何在 Microsoft Dynamics 365 Supply Chain Management 中使用计划优化配置内部公司计划。
+本文介绍内部公司计划，并说明如何在 Microsoft Dynamics 365 Supply Chain Management 中配置内部公司计划。
 
 本文使用以下重要的内部公司术语：
 

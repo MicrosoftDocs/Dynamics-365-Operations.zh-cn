@@ -2,7 +2,7 @@
 title: 配置生产车间执行界面
 description: 本文介绍了如何为生产车间执行界面创建一个或多个配置。 当您打开生产车间执行界面时，它将自动加载特定于浏览器和设备的选定配置和作业筛选器。 在配置中，设置必须适用于特定使用情况的策略。
 author: johanhoffmann
-ms.date: 08/05/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
-ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
+ms.openlocfilehash: 641b293617df608bc07b97c077dbcd05664f8e2a
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9708716"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748678"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>配置生产车间执行界面
 
@@ -85,17 +85,19 @@ ms.locfileid: "9708716"
 
 要使用此功能，必须为您的系统打开它。 从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 从 Supply Chain Management 版本 10.0.29 开始，此功能是强制性的，无法关闭。 如果您运行的版本早于 10.0.29，管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *在生产车间执行界面中显示完整序列、批处理和牌照编号* 功能来打开或关闭此功能。
 
-
 从 Supply Chain Management 版本 10.0.25 开始，此功能默认开启。 管理员可以通过在 [功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区中搜索 *在生产车间执行界面中显示完整序列、批处理和牌照编号* 功能来打开或关闭此功能。
 
 ### <a name="register-material-consumption"></a>登记物料消耗量
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
 此功能使工人能够使用生产车间执行界面来登记材料消耗、批号和序列号。 一些制造商，尤其是加工行业的制造商，必须明确登记每个批次或生产订单的材料消耗量。 例如，工作人员可能会使用秤来称量他们工作时消耗的材料量。 为确保完整的材料可追溯性，这些组织还必须登记生产每个产品时消耗材料的批号。
 
 此功能有两个版本。 一个版本支持 *未* 启用使用仓库管理流程 (WMS) 的物料。 另一个版本支持 *启用* 以使用 WMS 的物料。 要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下一项或全部两项功能（按此顺序），具体取决于您是否有启用了 WMS 的物料：
 
 - *在生产车间执行界面（非 WMS）上登记物料消耗量*
-- *在生产车间执行界面（启用了 WMS）上登记物料消耗量*
+- *(预览版)在生产车间执行界面(启用了 WMS)上登记物料消耗量*
 
 > [!IMPORTANT]
 > 您可以单独使用非 WMS 功能。 但是，如果使用 WMS，则必须启用全部两项功能。
@@ -138,6 +140,25 @@ ms.locfileid: "9708716"
 
 - *生产车间执行界面上的其他配置*
 
+### <a name="enable-the-my-jobs-tab"></a>启用“我的工作”选项卡
+
+**我的作业** 选项卡让工作人员可以轻松查看专门分配给他们的所有未开始和未完成的作业。 在有时或总是将工作分配给特定工作人员（人工资源）而不是其他类型的资源（如机器）的公司中，它很有用。
+
+要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+
+- *生产车间执行界面上的“我的工作”选项卡*
+
+### <a name="enable-use-of-a-numpad-on-the-sign-in-page"></a>启用在登录页中使用数字键盘
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+此功能允许管理员将 numpad 控件添加到生产车间执行界面的登录页面。 然后，工作人员可以使用数字键盘输入他们的标记 ID 或个人编号登录。
+
+要使用此功能，在[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)中打开以下功能：
+
+- *启用在登录页中使用数字键盘*
+
 ## <a name="work-with-production-floor-execution-configurations"></a>使用生产车间执行配置
 
 要创建和维护生产车间执行配置，请转到 **生产控制 \> 设置 \> 制造执行 \> 配置生产车间执行**。 **配置生产车间执行** 页面显示现有配置的列表。 在此页面上，您可以执行以下操作：
@@ -161,6 +182,7 @@ ms.locfileid: "9708716"
 - **锁定员工** – 当此选项设置为 *否* 时，在工作人员进行登记（例如新作业）后，他们将立即注销。 然后，界面将返回到登录页面。 当此选项设置为 *是* 时，工作人员将在生产车间执行界面保持登录状态。 但是，工作人员可以手动注销，以便其他工作人员可以在生产车间执行界面继续在同一系统用户帐户下运行的同时登录。 有关这些帐户的类型的详细信息，请参阅[指定的用户](config-job-card-device.md#assigned-users)。
 - **使用实际登记时间** – 将此选项设置为 *是* 以将每个新登记的时间设置为工作人员提交登记时的确切时间。 当此选项设置为 *否* 时，改为使用登录时间。 如果您在工作人员通常在更长时间内保持登录状态的情况下已将 **锁定员工** 和/或 **单个工作人员** 选项设置为 *是*，通常需要将此选项设置为 *是*。
 - **单个工作人员** – 如果只有一个工作人员使用此配置已激活的每个生产车间执行界面，请将此选项设置为 *是*。 当此选项设置为 *是* 时，**锁定员工** 选项将自动设置为 *是*。 另外，此设置消除了工作人员使用锁屏提醒 ID（或其他类似 ID）登录的要求（和能力）。 工作人员改为使用链接到 *已登记时间的工作人员*（在 *工作人员* 表中）的系统用户帐户登录到 Microsoft Dynamics 365 Supply Chain Management，并同时以该工作人员的身份登录到生产车间执行界面。
+- **启用数字键盘** – 将此选项设置为 *是* 可向登录屏幕添加数字键盘，允许工作人员使用触摸屏数字键盘输入标记 ID 或个人编号。 将此选项设置为 *否* 将隐藏数字键盘。
 - **允许锁定触摸屏** – 将此选项设置为 *是* 以允许工作人员锁定生产车间执行界面的触摸屏，以便他们可以净化屏幕。 当此选项设置为 *是* 时，将向登录页面添加 **锁定屏幕以净化** 按钮。 当工作人员选择此按钮时，触摸屏会暂时锁定以防止意外输入。 还显示了倒计时计时器。 然后，工作人员可以安全地净化设备和屏幕。 倒计时完成后，触摸屏将自动解锁。
 - **屏幕锁定持续时间** – 当 **允许锁定触摸屏** 选项设置为 *是* 时，请使用此选项指定触摸屏应该锁定进行净化的秒数。 持续时间必须在 5 到 120 秒之间。
 - **生成牌照** – 将此选项设置为 *是*，每次工作人员使用生产车间执行界面报告为已完工入库时，都会生成新牌照。 牌照编号根据在 **仓库管理参数** 页面上设置的编号规则生成。 当此选项设置为 *否* 时，工作人员必须在报告为已完工入库时指定一个现有牌照。

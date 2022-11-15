@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689480"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740842"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>需求驱动型材料要求计划 (DDMRP) 概述
 
@@ -44,6 +44,6 @@ DDMRP 通常由具有多级物料清单 (BOM) 的制造商使用。 但是，它
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 中的 DDMRP
 
-DDMRP 包含在 Microsoft Dynamics 365 Supply Chain Management 中，无需其他许可证费用。 在 Supply Chain Management 中，DDMRP 功能已添加到现有 **主计划** 模块。 但是，它要求您使用计划优化加载项。 
+DDMRP 包含在 Microsoft Dynamics 365 Supply Chain Management 中，无需其他许可证费用。 在 Supply Chain Management 中，DDMRP 功能已添加到现有 **主计划** 模块。 但是，它要求您使用计划优化加载项。
 
 DDMRP 与 Supply Chain Management 中的现有计划设置集成，并与这些设置一起使用，以便为您的业务生成正确的计划配置。 它由一个与周期、最小值/最大值、需求等完全不同的新覆盖范围代码控制。 它不是新模块，并且不会替换现有计划功能。 但是，它确实为您提供了更多可使用的功能。

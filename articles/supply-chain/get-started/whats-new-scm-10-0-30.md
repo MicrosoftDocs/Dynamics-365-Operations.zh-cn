@@ -2,7 +2,7 @@
 title: Dynamics 365 Supply Chain Management 10.0.30（2022 年 11 月）中的新增功能或更改
 description: 本文介绍 Microsoft Dynamics 365 Supply Chain Management 10.0.30 中的新增功能或更改的功能。
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714790"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748456"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Dynamics 365 Supply Chain Management 10.0.30（2022 年 11 月）中的新增功能或更改
 
@@ -33,6 +33,7 @@ ms.locfileid: "9714790"
 
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
+| 库存和物流 | [跟踪分配中的软性预留数量](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [库存可见性库存分配](../inventory/inventory-visibility-allocation.md) |  通过[服务配置](../inventory/inventory-visibility-configuration.md)启用 |
 | 制造 | [使用 Sensor Data Intelligence 监视设备](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensor Data Intelligence 主页](../sensor-data-intelligence/sdi-home-page.md) | 功能管理：<br>*(预览版)传感器数据智能* |
 | 仓库管理 | [Warehouse Management 移动应用的多级绕过](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [为移动设备菜单项中的步骤配置绕过](../warehousing/warehouse-app-detours.md) | 功能管理：<br>*Warehouse Management 移动应用的多级绕过* |
 

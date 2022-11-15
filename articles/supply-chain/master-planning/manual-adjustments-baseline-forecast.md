@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e602e6d46f928fd5376a6a6d4f94bb4a726d92b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3b2cc172e551096492f2aebfd8b81eb3f9c471b
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844958"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741249"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>对基准预测进行手动调整
 
@@ -75,9 +75,8 @@ ms.locfileid: "8844958"
 
 ## <a name="additional-resources"></a>其他资源
 
-[监控预测准确性](monitor-forecast-accuracy.md)
-
-[生成统计基准预测](generate-statistical-baseline-forecast.md)
+- [监控预测准确性](monitor-forecast-accuracy.md)
+- [生成统计基准预测](generate-statistical-baseline-forecast.md)
 
 
 

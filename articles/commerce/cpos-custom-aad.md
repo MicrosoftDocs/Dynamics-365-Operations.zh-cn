@@ -2,22 +2,19 @@
 title: 将 CPOS 配置为使用自定义 Azure AD 应用
 description: 本文介绍如何将云 POS (CPOS) 配置为使用自定义 Azure Active Directory (Azure AD) 应用。
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9222962"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746252"
 ---
 # <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>将 CPOS 配置为使用自定义 Azure AD 应用
 
@@ -52,6 +49,9 @@ ms.locfileid: "9222962"
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>在 Azure AD 中设置自定义 CPOS 应用
 
+> [!IMPORTANT]
+> 如果您要升级在 Commerce 版本 10.0.21 之前创建的现有自定义 CPOS Azure AD 应用，请按照[升级在 Commerce 版本 10.0.21 之前创建的现有自定义 CPOS Azure AD 应用](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021)中的步骤操作。
+
 若要在 Azure AD 中创建和配置自定义 CPOS 应用，请执行以下步骤。
 
 1. 使用任何 Azure AD 用户帐户登录到 [Azure Active Directory 管理中心](https://aad.portal.azure.com)。 用户帐户不必具有管理员权限。
@@ -68,12 +68,25 @@ ms.locfileid: "9222962"
 1. 在 **清单** 部分中，将 **oauth2AllowIdTokenImplicitFlow** 和 **oauth2AllowImplicitFlow** 参数设置为 **true**，然后选择 **保存**。
 1. 在 **令牌配置** 部分中，按照这些步骤添加两项声明：
 
-    - 选择 **添加其他声明**。 将 **令牌类型** 字段设置为 **ID**，然后选择 **sid** 声明。 选择 **添加**。
-    - 选择 **添加其他声明**。 将 **令牌类型** 字段设置为 **访问**，然后选择 **sid** 声明。 选择 **添加**。
+    1. 选择 **添加其他声明**。 将 **令牌类型** 字段设置为 **ID**，然后选择 **sid** 声明。 选择 **添加**。
+    1. 选择 **添加其他声明**。 将 **令牌类型** 字段设置为 **访问**，然后选择 **sid** 声明。 选择 **添加**。
 
 1. 在 **API 权限** 部分，选择 **添加权限**。
 1. 在 **我的组织使用的 API** 选项卡上，搜索您在[在 Azure AD 中设置自定义 Retail Server 应用](#set-up-a-custom-retail-server-app-in-azure-ad)部分中创建的 Retail Server 应用。 然后，选择 **添加权限**。
 1. 在 **概览** 部分的 **应用程序（客户端）ID** 字段中记下该值。
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>升级在 Commerce 版本 10.0.21 之前创建的现有自定义 CPOS Azure AD 应用
+
+要升级在 Commerce 版本 10.0.21 之前创建的现有自定义 CPOS Azure AD 应用，请按照下列步骤操作。 
+
+1. 在 Azure 门户中打开您的自定义 CPOS Azure AD 应用。
+1. 选择 **身份验证** 选项卡。
+1. 复制并保存 **Web** 类型的原始重定向 URI，以备以后使用，然后将其删除。
+1. 选择 **添加平台**，然后选择 **单页应用程序 (SPA)**。
+1. 将上面复制的原始 Web 重定向 URI 添加到 SPA 平台。
+1. 在 **令牌配置** 部分中，按照这些步骤添加两项声明：
+    1. 选择 **添加其他声明**。 将 **令牌类型** 字段设置为 **ID**，然后选择 **sid** 声明。 选择 **添加**。
+    1. 选择 **添加其他声明**。 将 **令牌类型** 字段设置为 **访问**，然后选择 **sid** 声明。 选择 **添加**。
 
 ## <a name="update-the-cpos-configuration-file"></a>更新 CPOS 配置文件
 

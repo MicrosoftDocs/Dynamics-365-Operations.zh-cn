@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: eb21dc5ca474a87fcabe2dda2a06dda7aa42ebc2
+ms.sourcegitcommit: 719600437fc0895efac374f954a895e4c951da6e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728268"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9736873"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
@@ -42,6 +42,7 @@ ms.locfileid: "9728268"
 
 > [!NOTE]
 > 下面列出的工序适用于最新版本的 Commerce。 某些工序可能已更改或可能不在以前版本中提供。
+> 有关离线功能和配置的更多详细信息，请参阅 [Commerce 脱机实施和故障排除](dev-itpro/implementation-considerations-offline.md)一文。
 
 | ID   | 操作​                                         | Description                                                                                                                                                                                                    | 用户操作    | 交易记录屏幕 | 欢迎屏幕 | 脱机可用？ | 区域特定 |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |

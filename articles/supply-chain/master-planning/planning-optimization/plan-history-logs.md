@@ -1,6 +1,6 @@
 ---
 title: 查看计划历史记录和计划日志
-description: 本文说明如何查看由计划优化功能触发的计划作业的历史记录。
+description: 本文介绍如何查看计划作业的历史记录。
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863931"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740923"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>查看计划历史记录和计划日志
 
 [!include [banner](../../includes/banner.md)]
 
-本文说明如何在 Microsoft Dynamics 365 Supply Chain Management 中查看由计划优化功能触发的计划作业的历史记录。
+本文介绍如何在 Microsoft Dynamics 365 Supply Chain Management 中查看计划作业的历史记录。
 
 要查看计划的历史记录，请依次转到 **主计划** \> **设置** \> **计划** \> **主计划** 并选择 **历史记录** 打开计划。 历史记录列出了所选计划的所有作业。 该列表包括已完成和活动的作业。
 
@@ -47,14 +47,6 @@ ms.locfileid: "8863931"
     - 如果您使用的是旧窗体：在操作窗格上，在 **批处理作业** 选项卡上，选择 **日志**。
 
 1. 选择 **消息详细信息** 打开 **消息详细信息** 窗格，您可以在其中查看处理过程中捕获的所有警告和错误。
-
-## <a name="related-resources"></a>相关资源
-
-- [计划优化概览](planning-optimization-overview.md)
-- [开始使用计划优化](get-started.md)
-- [计划优化拟合分析](planning-optimization-fit-analysis.md)
-- [将筛选器应用于计划](plan-filters.md)
-- [取消计划作业](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

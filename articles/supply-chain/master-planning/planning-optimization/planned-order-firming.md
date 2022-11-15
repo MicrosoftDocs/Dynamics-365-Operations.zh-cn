@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335336"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740514"
 ---
 # <a name="firm-planned-orders"></a>确定计划订单
 
@@ -33,7 +33,7 @@ ms.locfileid: "9335336"
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>启用本文中所述的功能
 
-大多数计划订单功能在使用计划优化的 Microsoft Dynamics 365 Supply Chain Management 的所有标准安装中都有提供。 但是，本文中所述的一些功能必须先在“功能管理”中打开，然后才能够使用。
+大多数计划订单功能在 Microsoft Dynamics 365 Supply Chain Management 的所有标准安装中都有提供。 但是，本文中所述的一些功能必须先在“功能管理”中打开，然后才能够使用。
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>打开或关闭并行确认计划订单
 
@@ -91,7 +91,7 @@ ms.locfileid: "9335336"
 
 ## <a name="auto-firm-planned-orders"></a>自动确认计划订单
 
-自动确认可以使您作为主计划流程的一部分确认计划订单。 您可以为覆盖范围组、单个物料以及物料与主计划的组合定义确认时限。 然后，在主计划运行期间，如果订单日期在指定的确认时限内，将自动确认计划订单。 由计划优化和内置主计划操作生成的计划订单以不同的方式处理订单日期（即开始日期）。
+自动确认可以使您作为主计划流程的一部分确认计划订单。 您可以为覆盖范围组、单个物料以及物料与主计划的组合定义确认时限。 然后，在主计划运行期间，如果订单日期在指定的确认时限内，将自动确认计划订单。 由计划优化和已弃用的主计划引擎生成的计划订单以不同的方式处理订单日期（即开始日期）。
 
 > [!NOTE]
 > 计划采购订单的自动确认仅适用于与供应商关联的物料。
@@ -99,13 +99,13 @@ ms.locfileid: "9335336"
 > 如果启用了更改跟踪，已确认的派生订单（即分包采购订单）的状态将为 *正在审核*。
 
 > [!IMPORTANT]
-> 必须先在系统中打开 [*计划优化自动确认* 功能](#enable-features)，才能将本节中所述的功能与计划优化一起使用，如本文开头所述。 自动确认始终可以与内置的主计划引擎一起使用。
+> 必须先在系统中打开 [*计划优化自动确认* 功能](#enable-features)，才能将本节中所述的功能与计划优化一起使用，如本文开头所述。 自动确认始终可以与已弃用的主计划引擎一起使用。
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>使用计划优化与内置计划引擎进行自动确认
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>使用计划优化与已弃用的主计划引擎进行自动确认
 
-计划优化和内置计划引擎都可以用来自动确认计划订单。 不过，也存在某些重要差异。 例如，计划优化使用订单日期（即开始日期）来确定要确认的计划订单，而内置计划引擎则使用要求日期（即结束日期）。 下表总结了它们之间的不同。
+计划优化和已弃用的主计划引擎都可以用来自动确认计划订单。 不过，也存在某些重要差异。 例如，计划优化使用订单日期（即开始日期）来确定要确认的计划订单，而已弃用的主计划引擎则使用要求日期（即结束日期）。 下表总结了它们之间的不同。
 
-| 功能 | 计划优化 | 内置计划引擎 |
+| 功能 | 计划优化 | 已弃用的主计划引擎 |
 |---|---|---|
 | **日期基数** | 自动确认基于订单日期（开始日期）。 | 自动确认基于需求日期（结束日期）。 |
 | **提前期** | 由于订单日期（开始日期）触发确认，因此您不必将提前期视为确认时限的一部分。 | 为了帮助确保及时确认订单，确认时限必须长于提前期。 |

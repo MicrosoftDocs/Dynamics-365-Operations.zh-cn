@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689685"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740078"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>有限产能规划和计划编制
 
@@ -28,9 +28,8 @@ ms.locfileid: "9689685"
 
 与无限装载方法相比，有限产能规划和计划编制为生产过程创建更实际的计划。 如果资源没有足够的产能，交货日期将被推迟，当有足够的产能时，将安排工作。
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>有限产能规划的计划优化支持
-
-有限产能规划和计划编制以几乎相同的方式工作，无论您是使用计划优化还是内置计划引擎。 但是，计划优化不使用 **瓶颈时间** 时限参数。 当您使用计划优化时，瓶颈资源始终使用与非瓶颈资源相同的时限计划（如有限产能时限所示）。
+> [!NOTE]
+> 有限产能规划和计划编制以几乎相同的方式工作，无论您是使用计划优化还是已弃用的主计划引擎。 但是，计划优化不使用 **瓶颈时间** 时限参数。 当您使用计划优化时，瓶颈资源始终使用与非瓶颈资源相同的时限计划（如有限产能时限所示）。
 
 ## <a name="set-up-finite-capacity-functionality"></a>设置有限产能功能
 

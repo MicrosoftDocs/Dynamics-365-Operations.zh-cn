@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: b95f131a45c11748cfd4c66c47e5a51c765ed486
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124781"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740402"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Dynamics 365 Supply Chain Management 10.0.22（2021 年 11 月）中的新增功能或更改
 
@@ -53,7 +53,7 @@ ms.locfileid: "9124781"
 |---|---|
 | 工程更改管理 | [工程更改管理概述](../engineering-change-management/product-engineering-overview.md)现在列出了功能管理中可用的所有相关可选功能 |
 | 主计划 | [需求预测设置](../master-planning/demand-forecasting-setup.md) |
-| 主计划 | [净需求和计划优化限定标准信息](../master-planning/planning-optimization/net-requirements.md) |
+| 主计划 | [净需求和限定标准信息](../master-planning/planning-optimization/net-requirements.md) |
 | 仓库管理 | [发放到仓库](../warehousing/release-to-warehouse-process.md)提供整个发放到仓库流程的详细概览 |
 
 ## <a name="additional-resources"></a>其他资源

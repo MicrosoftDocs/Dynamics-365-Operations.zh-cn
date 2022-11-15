@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689768"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740815"
 ---
 # <a name="visual-and-collaborative-execution"></a>可视化和协作执行
 
@@ -34,7 +34,7 @@ ms.locfileid: "9689768"
 1. 选择设置为分离点的已发布物料。 （有关详细信息，请参阅[库存定位](ddmrp-inventory-positioning.md)。）
 1. 在操作窗格上，在 **计划** 选项卡上，选择 **物料覆盖范围**。
 1. 在 **物料覆盖范围** 页面上，选择创建分离点的物料覆盖范围记录。 （此记录将显示为创建分离点而设置的覆盖范围组的名称。）
-1. 选择 **现有量** 选项卡。此选项卡包含一个图表，其中显示了随时间变化的现有数量，以及每次运行计划优化时针对特定期间记录的现有量水平值。 该选项卡还包括一个表，此表显示每个记录的现有量水平属于以下哪个类别：
+1. 选择 **现有量** 选项卡。此选项卡包含一个图表，其中显示了随时间变化的现有数量，以及每次运行主计划时针对特定期间记录的现有量水平值。 该选项卡还包括一个表，此表显示每个记录的现有量水平属于以下哪个类别：
 
     - **极低** - 小于该期间最小值的一半。
     - **低** - 介于最小值和最小值的一半之间。

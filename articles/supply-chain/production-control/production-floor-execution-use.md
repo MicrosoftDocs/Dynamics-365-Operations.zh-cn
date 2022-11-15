@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 876ee36c75a31ca89a9351d0ee1484e66076b6aa
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069777"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748705"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>工作人员如何使用生产车间执行界面
 
@@ -146,9 +146,6 @@ ms.locfileid: "9069777"
 在这种情况下，工作人员可以通过在报表进度对话框中选择 **联产品变体** 来指定要报告的联产品和数量。 然后，工作人员可以在定义为联产品的所有已发布产品中进行选择。
 
 ### <a name="reporting-catch-weight-items"></a>报告实际称重物料
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
 
 工作人员可以使用生产车间执行界面报告为实际称重物料创建的批次订单的进度。 批次订单是从配方创建的，配方可以定义为将实际称重物料作为配方物料、联产品和副产品。 另外还可以定义一个配方，使其具有针对实际称重定义的成分的配方行。 实际称重物料使用两种度量单位来跟踪库存：实际称重数量和库存数量。 例如，在食品行业，可以将盒装肉定义为一个实际称重物料，其中实际称重数量用于跟踪盒数，库存数量用于跟踪盒重量。
 

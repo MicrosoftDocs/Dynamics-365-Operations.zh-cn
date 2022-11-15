@@ -1,6 +1,6 @@
 ---
 title: 安全宽限期
-description: 本文介绍如何对适用于 Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项使用安全宽限期。
+description: 本文介绍主计划期间安全宽限期的工作原理。
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335186"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740433"
 ---
 # <a name="safety-margins"></a>安全宽限期
 
 [!include [banner](../../includes/banner.md)]
 
-本文介绍如何对适用于 Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项使用安全宽限期。
+本文介绍主计划期间安全宽限期的工作原理。
 
 ## <a name="safety-margins-overview"></a>安全宽限期概述
 
@@ -165,12 +165,5 @@ ms.locfileid: "9335186"
 例如，一件商品的提前期为一天，收货宽限期为三天。 此商品的销售订单根据需要设置为今天。 在此情况下，延迟的计算方法为 *提前期* + *收货宽限期* = 四天。 因此，如果今天是 8 月 14 日，则四天的延迟会导致交货日期为 8 月 18 日。 下图显示此示例。
 
 ![延迟计算示例。](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>其他资源
-
-[开始使用计划优化](get-started.md)
-
-[计划优化适应分析](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
