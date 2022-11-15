@@ -1,6 +1,6 @@
 ---
 title: 具有需求预测的主计划
-description: 本文介绍如何使用计划优化在主计划期间包括需求预测。
+description: 本文介绍如何在主计划期间包括需求预测。
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878981"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739775"
 ---
-# <a name="master-planning-with-demand-forecasts"></a>具有需求预测的主计划
+# <a name="master-planning-with-demand-forecasts"></a>主计划与需求预测
 
 [!include [banner](../../includes/banner.md)]
 
-您可以将需求预测与计划优化一起使用，以在主计划中考虑预期需求。 您可以使用 Microsoft Dynamics 365 Supply Chain Management 中的需求预测功能手动创建、导入或生成需求预测。 有关需求预测的详细信息，请参阅[需求预测概述](../introduction-demand-forecasting.md)。
+您可以使用需求预测来在主计划中说明预期需求。 您可以使用 Microsoft Dynamics 365 Supply Chain Management 中的需求预测功能手动创建、导入或生成需求预测。 有关需求预测的详细信息，请参阅[需求预测概述](../introduction-demand-forecasting.md)。
 
 > [!NOTE]
 > 计划优化不支持单独的预测计划。 因此，在使用计划优化时，**主计划参数** 页面上的 **当前预测计划** 设置无效。
@@ -50,7 +50,7 @@ ms.locfileid: "8878981"
     - **预测时段** – 如果您将 **预测计划** 选项设置为 *是*，请指定应该应用需求预测的天数（从今天开始）。
 
     > [!IMPORTANT]
-    > 计划优化尚不支持 **预测计划** 设置。
+    > 计划优化不支持 **预测计划** 设置。
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>设置覆盖范围组以包括需求预测
 
