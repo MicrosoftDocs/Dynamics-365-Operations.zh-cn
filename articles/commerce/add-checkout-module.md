@@ -2,7 +2,7 @@
 title: 结帐模块
 description: 本文介绍如何向页面添加结帐模块和设置必需的属性。
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280466"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746217"
 ---
 # <a name="checkout-module"></a>结帐模块
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 本文介绍如何向页面添加结帐模块和设置必需的属性。
 
@@ -104,6 +105,8 @@ ms.locfileid: "9280466"
 1. 选择 **完成编辑** 签入片段，然后选择 **发布** 进行发布。
 1. 创建一个使用新结帐片段的模板。
 1. 创建一个使用新模板的结帐页。
+
+> [注意] 如 [店面结帐中的增强支付功能](./dev-itpro/enhanced-sca.md)中所述，使用单个付款授权时，在结帐页面的 **结帐信息** 部分，确认结帐部分容器位于最后。 这可确保在最终付款结帐和订单完成操作之前，结帐页面收集到所有必需的信息。 
 
 ## <a name="additional-resources"></a>其他资源
 

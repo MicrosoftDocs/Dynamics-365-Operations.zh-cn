@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335276"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740584"
 ---
 # <a name="priority-based-planning"></a>基于优先级的计划
 
 [!include [banner](../../includes/banner.md)]
 
-本文介绍 Microsoft Dynamics 365 Supply Chain Management 的基于优先级的计划功能。 此功能增加了对需求驱动计划的支持，这是[需求驱动型材料要求计划 (DDMRP)](ddmrp-overview.md) 的一个步骤。 基于优先级的计划使计划优化能够生成由计划优先级而非要求日期驱动的计划订单。
+本文介绍 Microsoft Dynamics 365 Supply Chain Management 的基于优先级的计划功能。 此功能增加了对需求驱动计划的支持，这是[需求驱动型材料要求计划 (DDMRP)](ddmrp-overview.md) 的一个步骤。 基于优先级的计划使系统能够生成由计划优先级而非要求日期驱动的计划订单。
 
 基于优先级的计划可让您确定补货订单的优先级，以确保紧急需求优先于不太重要的需求。 例如，短缺补货订单将优先于标准重填补货订单。 系统可以自动将较大的订单拆分为单独的小订单，订单行按优先级分组。 然后，它可以首先处理所有高优先级订单。
 
@@ -37,11 +37,11 @@ ms.locfileid: "9335276"
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>在何处以及如何分配计划优先级
 
-有关供应和需求的 *计划优先级* 信息是基于优先级的计划的主干。 计划优先级定义需求或供应行的重要性。 当 **覆盖范围代码** 字段设置为 *优先级* 时，计划优化将使用它。
+有关供应和需求的 *计划优先级* 信息是基于优先级的计划的主干。 计划优先级定义需求或供应行的重要性。 当 **覆盖范围代码** 字段设置为 *优先级* 时，主计划将使用它。
 
 计划优先级通常是一个 0（零）到 100 之间的数字，其中 0 代表重要性最高。 它在 **计划优先级** 字段中显示和设置。 您可以在以下页面找到此字段：**需求预测行**、**销售订单详细信息**、**采购订单详细信息**、**转移单详细信息** 和 **计划订单详细信息**。
 
-当相关物料或覆盖范围组的 **覆盖范围代码** 字段设置为 *优先级* 时，计划优化在计算计划优先级时将使用需求驱动方法平衡供应与需求，对于每个已发布产品，将考虑为 **物料覆盖范围** 页面上的 **最小值**、**再订购点** 和 **最大值** 字段设置的值。
+当相关物料或覆盖范围组的 **覆盖范围代码** 字段设置为 *优先级* 时，主计划在计算计划优先级时将使用需求驱动方法平衡供应与需求，对于每个已发布产品，将考虑为 **物料覆盖范围** 页面上的 **最小值**、**再订购点** 和 **最大值** 字段设置的值。
 
 > [!NOTE]
 > *优先级* 值仅在启用了计划优化时可用于 **覆盖范围代码** 字段。

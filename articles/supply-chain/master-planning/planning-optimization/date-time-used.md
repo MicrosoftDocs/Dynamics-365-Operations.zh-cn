@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885890"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740896"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>计划优化使用的日期和时间参数
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885890"
 
 本文提供有关计划优化在运行期间使用的日期和时间参数的信息。
 
-内置主计划引擎在所有计算中使用交易日期，但计划优化使用转换为日期的日期和时间值。 此行为差异可能导致以下情况：未包括在运行主计划当天午夜创建的预测交易，因为计划优化认为是在当前日期之前创建的，此为举例。
+已弃用的主计划引擎在所有计算中使用交易日期，但计划优化使用转换为日期的日期和时间值。 此行为差异可能导致以下情况：未包括在运行主计划当天午夜创建的预测交易，因为计划优化认为是在当前日期之前创建的，此为举例。
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>发货和需求交易的参数
 
