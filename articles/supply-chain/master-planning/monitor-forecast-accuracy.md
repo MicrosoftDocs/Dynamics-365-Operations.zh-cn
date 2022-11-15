@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ebde5ab90b9345b3d6f28ea98650b3b29021c304
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 76248d87533fd233b255060aa278c76e13719700
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893343"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740731"
 ---
 # <a name="monitor-forecast-accuracy"></a>监控预测准确性
 
@@ -40,9 +40,8 @@ Supply Chain Management 计算以下类型的预测准确性：
 
 ## <a name="additional-resources"></a>其他资源
 
-[授权调整后的预测](authorize-adjusted-forecast.md)
-
-[在计算需求预测时，需从历史交易记录数据中删除离群值](remove-historical-outliers-calculating-demand-forecast.md)
+- [授权调整后的预测](authorize-adjusted-forecast.md)
+- [在计算需求预测时，需从历史交易记录数据中删除离群值](remove-historical-outliers-calculating-demand-forecast.md)
 
 
 

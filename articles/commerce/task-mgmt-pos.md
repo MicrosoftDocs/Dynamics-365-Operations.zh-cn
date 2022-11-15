@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 22a71fe66042a9ad189fd6a83a2666dfa64d35d0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 595a51eba1d0cd432d4f4de9405bf9f30a1ae00c
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281988"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746027"
 ---
 # <a name="task-management-in-pos"></a>POS 中的任务管理
 
@@ -36,6 +36,7 @@ ms.locfileid: "9281988"
 - **任务状态** – 更改所选任务的状态。
 - **筛选** – 默认情况下，仅显示有效任务。 但是，通过应用过滤器，经理可以查看所有任务，甚至是已完成或已取消的任务。
 - **新建任务** – 在现有任务列表下创建任务，或创建单一用途任务。
+- **编辑任务** – 编辑任务的详细信息。
 
 商店工作人员可以通过使用命令栏中的按钮，在 POS 应用程序中执行以下任务操作：
 

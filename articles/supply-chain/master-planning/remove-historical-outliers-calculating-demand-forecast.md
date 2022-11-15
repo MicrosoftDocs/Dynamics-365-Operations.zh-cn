@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99ce8a5bb633cbe8f019299f15650e3ccd5f4314
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d4e42e566cef774c1a25cf48ec131b74924868d0
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468964"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741086"
 ---
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>在计算需求预测时，需从历史交易记录数据中删除离群值
 
@@ -41,9 +41,8 @@ ms.locfileid: "8468964"
 
 ## <a name="additional-resources"></a>其他资源
 
-[需求预测概览](introduction-demand-forecasting.md)
-
-[监控预测准确性](monitor-forecast-accuracy.md)
+- [需求预测概览](introduction-demand-forecasting.md)
+- [监控预测准确性](monitor-forecast-accuracy.md)
 
 
 

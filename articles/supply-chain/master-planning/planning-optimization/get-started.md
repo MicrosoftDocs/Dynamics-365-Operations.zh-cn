@@ -1,6 +1,6 @@
 ---
-title: 开始使用计划优化
-description: 本文说明如何开始使用计划优化功能。
+title: 开始使用主计划
+description: 本文说明如何开始使用 Dynamics 365 Supply Chain Management 中的主计划功能。
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,27 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295916"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740321"
 ---
-# <a name="get-started-with-planning-optimization"></a>开始使用计划优化
+# <a name="get-started-with-master-planning"></a>开始使用主计划
 
 [!include [banner](../../includes/banner.md)]
 
-正如[之前宣布](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios)的那样，计划优化计划替换现有的内置主计划引擎。
-
-如果当前使用内置的主计划引擎，则应该立即开始计划迁移到计划优化。 立即开始很重要，否则在强制弃用时您的操作可能会受到影响（尽管目前尚未计划强制弃用）。 我们强烈建议您在计划优化支持您所需的功能后立即完成迁移，以便您可以开始利用新服务提供的很多性能改进和其他新功能。
-
-计划优化功能当前不支持 Supply Chain Management 中内置的计划引擎中提供的所有功能。 因此，重要的是要评估计划优化中当前可用的功能集是否满足您的要求。 计划优化功能当前在 Dynamics Lifecycle Services (LCS) 中默认未启用，因此您有机会在启用该功能之前进行评估。
-
-> [!NOTE]
-> 如果您的主计划流程不包括生产（主计划生成的计划生产订单）并且您需要版本 10.0.15 以上的内置主计划引擎，则需要在迁移到计划优化过程中请求一个例外。 从版本 10.0.16 开始，当运行内置主计划而不生成计划生产订单时，环境中将显示一条错误。 应该将计划优化用于在主计划期间不生成计划生产订单的所有新部署。 运行内置主计划引擎而不生成计划生产订单的现有环境的所有者将收到一封邮件，其中包含有关例外流程的详细信息。 我们建议您与合作伙伴一起评估和计划迁移到计划优化。
-
-在打开计划优化之前，强烈建议您评估计划优化拟合分析的结果。 有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。
+Supply Chain Management 中的主计划由 Dynamics 365 Supply Chain Management 的名为“计划优化加载项”的外部服务提供。 本主题介绍如何获取和设置该服务。
 
 ## <a name="availability"></a>可用性
 
@@ -108,31 +99,15 @@ Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大
 **使用计划优化** 选项的设置确定哪个计划引擎用于主计划：
 
 - **是** – 计划优化用于主计划。
-- **否** – 内置 Supply Chain Management 计划引擎用于主计划。
+- **否** – 已弃用的主计划引擎用于主计划。
 
-此设置适用于所有法人（公司）。 无法在某些法人中使用计划优化，也无法在其他法人中使用内置主计划。
+此设置适用于所有法人（公司）。 无法在某些法人中使用计划优化，也无法在其他法人中使用已弃用的主计划引擎。
 
 > [!NOTE]
-> 如果在 **使用计划优化** 选项设置为 **是** 的情况下触发了为内置 Supply Chain Management 计划引擎创建的现有计划批处理作业，这些作业将失败。
+> 如果在 **使用计划优化** 选项设置为 **是** 的情况下触发了为已弃用的主计划引擎创建的现有计划批处理作业，这些作业将失败。
 
 ### <a name="integration-with-the-setup"></a>与设置集成
 
 如果打开了计划优化，则使用计划优化加载项来完成主计划。 在这种情况下，主计划结果和功能会受到影响。
 
-## <a name="additional-resources"></a>其他资源
-
-[预览条款和条件](https://go.microsoft.com/fwlink/?linkid=2015274)
-
-[计划优化概览](planning-optimization-overview.md)
-
-[计划优化拟合分析](planning-optimization-fit-analysis.md)
-
-[查看计划历史记录和计划日志](plan-history-logs.md)
-
-[将筛选器应用于计划](plan-filters.md)
-
-[取消计划作业](cancel-planning-job.md)
-
-
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

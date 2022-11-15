@@ -1,6 +1,6 @@
 ---
 title: 使用负现有数量进行计划
-description: 本文介绍在使用计划优化时如何处理负现有量。
+description: 本文说明负现有库存量的处理。
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856126"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741114"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>使用负现有数量进行计划
 
@@ -29,7 +29,7 @@ ms.locfileid: "8856126"
 
 如果系统显示负聚合现有数量，计划引擎将把该数量视为 0（零），以帮助避免超额供应。 下面是此功能的工作原理：
 
-1. 计划优化功能聚合较低级别覆盖范围维度的现有数量。 （例如，如果 *库位* 不是覆盖范围维度，则计划优化聚合 *仓库* 级别的现有数量。）
+1. 主计划聚合较低级别覆盖范围维度的现有数量。 （例如，如果 *位置* 不是覆盖范围维度，主计划会聚合 *仓库* 级别的现有数量。）
 1. 如果最低级别覆盖范围维度的聚合现有数量为负，系统将假设现有数量的确为 0（零）。
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ ms.locfileid: "8856126"
 - 存在数量为 *10* 件的 产品 *FG* 的销售订单。
 - 按现有库存量实际预留了销售订单数量。
 
-然后，您调整产品 *FG* 的数量，以便现有库存量变为 5。 由于现有产品库存为 5，因此现在针对不可用的现有数量预留了销售订单数量（如果现有量为 0，则情况类似，在这种情况下，将针对负库存预留销售订单 ）。 如果现在运行主计划，将创建 *FG* 数量为 5 的计划订单来供应销售订单，因为计划优化将始终使用现有供应或创建新计划订单来供应实际预留。
-
-## <a name="related-resources"></a>相关资源
-
-- [计划优化概览](planning-optimization-overview.md)
-- [开始使用计划优化](get-started.md)
-- [计划优化拟合分析](planning-optimization-fit-analysis.md)
-- [查看计划历史记录和计划日志](plan-history-logs.md)
-- [取消计划作业](cancel-planning-job.md)
+然后，您调整产品 *FG* 的数量，以便现有库存量变为 5。 由于现有产品库存为 5，因此现在针对不可用的现有数量预留了销售订单数量（如果现有量为 0，则情况类似，在这种情况下，将针对负库存预留销售订单 ）。 如果现在运行主计划，将创建 *FG* 数量为 5 的计划订单来供应销售订单，因为主计划将始终使用现有供应或创建新计划订单来供应实际预留。
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

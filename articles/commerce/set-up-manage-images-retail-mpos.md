@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287503"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751908"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>设置和管理 Modern POS (MPOS) 的图像
 
@@ -160,7 +160,7 @@ Modern POS (MPOS) 中显示的图像必须在外部承载（Commerce 之外）�
     [![目录图像库页面。](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> 目前，库不会显示媒体模板图像 URL 的图像预览。 对于目录、工作人员、客户和类别实体，如果用户通过此页面明确提供 URL，我们建议您指明哪个图像是默认图像，因为 Commerce Scale Unit 客户端对每个目录、客户、工作人员和类别仅显示一个图像。 如果用户未指定默认图像，系统将确定默认图像并将其发送到商业服务调用方（MPOS 或 Ecommerce）。
+> 只有公开和匿名访问的图像会在 POS 上呈现。 POS 支持呈现外部托管的图像，但要求图像作为内联八位字节流返回到不带标头的 GET 请求。 使用匿名访问策略时，特别是对于需要请求头同时包含主机和用户代理标头的 SharePoint 托管的图像，将返回“已禁止”响应。 因此，当前默认不支持使用 SharePoint 作为主机进行图像管理。 **目录图像** 库页面不会显示媒体模板图像 URL 的图像预览。 由于 Commerce Scale Unit (CSU) 客户端为每个目录、客户、工作人员和类别实体仅显示一个图像，因此如果您通过此页面为目录、工作人员、客户和类别实体明确提供 URL，我们建议您指明哪个图像是默认图像。 如果您不指定默认图像，系统将确定默认图像并将其发送到 Commerce 服务调用方（MPOS 或电子商务）。
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>从“预览”页面覆盖目录产品图像的图像 URL
 
