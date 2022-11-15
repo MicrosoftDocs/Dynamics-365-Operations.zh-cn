@@ -2,23 +2,23 @@
 title: 配置任务管理
 description: 本文介绍如何在 Microsoft Dynamics 365 Commerce 中配置任务管理功能。
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282753"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746054"
 ---
 # <a name="configure-task-management"></a>配置任务管理
 
@@ -80,7 +80,11 @@ ms.locfileid: "9282753"
 
 ![POS 操作页面中的任务管理操作。](media/HQ-POS-Tasks-Notifications.png)
 
-有关如何配置 POS 通知的详细信息，请参阅[在销售点 (POS) 中显示订单通知](notifications-pos.md)。
+有关如何配置 POS 通知的详细信息，请参阅[在销售点 (POS) 中显示订单通知](notifications-pos.md)一文。
+
+> [!NOTE]
+> 保存更改时，将显示以下警告消息：**如果操作 ID 等于或少于 4000，则操作参数将不会在按钮网格设计器中启用。如果您正在创建自定义操作并希望从按钮网格设计器中传入参数，则使用大于 4000 的操作 ID。** 选择 **关闭** 关闭对话。
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>配置 POS 应用程序主页中的“任务”磁贴
 

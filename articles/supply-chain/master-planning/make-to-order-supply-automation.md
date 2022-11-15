@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220527"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740186"
 ---
 # <a name="make-to-order-supply-automation"></a>按订单生产供应自动化
 
@@ -32,12 +32,6 @@ ms.locfileid: "9220527"
 - 增强内部公司信息流。 更新了采购订单，以便包括交货模式、交货条款和外部物料编号的字段。 此更改可确保详细需求信息可以流向供应公司。
 
 本文介绍了如何设置和使用每个增强功能。
-
-> [!NOTE]
-> 本文中描述的所有增强功能都适用于使用内置主计划的系统。 Microsoft Dynamics 365 Supply Chain Management 的计划优化加载项也支持以下两项增强功能：
->
-> - 主计划的延迟容差
-> - 对主计划期间使用的限定标准序列的控制
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>打开“按订单生产供应自动化”功能
 
@@ -73,7 +67,7 @@ ms.locfileid: "9220527"
 
 这些选项在 **主计划参数** 页面的 **标准更新** 选项卡上的 **更新标记** 字段中也可用，您在此页面中定义 **确认** 对话框的默认选择。
 
-有关详细信息，请参阅[通过计划优化进行库存标记](planning-optimization/marking.md)。
+有关详细信息，请参阅[库存标记](planning-optimization/marking.md)。
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>在主计划级别设置延迟容差（负天数）
 

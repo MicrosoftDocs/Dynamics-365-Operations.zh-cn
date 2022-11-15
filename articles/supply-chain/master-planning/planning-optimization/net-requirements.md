@@ -1,6 +1,6 @@
 ---
-title: 计划优化的净需求和限定标准信息
-description: 本文提供计划优化中有关计算出的净需求的信息和限定标准信息。
+title: 净需求和限定标准信息
+description: 本文提供有关计算出的净需求的信息和限定标准信息。
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888519"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748430"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>计划优化的净需求和限定标准信息
+# <a name="net-requirements-and-pegging-information"></a>净需求和限定标准信息
 
 [!include [banner](../../includes/banner.md)]
 
-在计划优化中运行主计划时，务必了解其输出、现有供应如何满足需求以及生成特定供应的原因。 您可以使用 **净需求** 页面更好地了解主计划生成的计算需求。
+运行主计划时，务必了解其输出、现有供应如何满足需求以及生成特定供应的原因。 您可以使用 **净需求** 页面更好地了解主计划生成的计算需求。
 
-**净需求** 页显示计划优化为产品计算的净需求。 它还显示在主计划运行期间应用的覆盖范围设置、按交易记录类型列出的需求明细以及限定标准信息。
+**净需求** 页显示主计划为产品计算的净需求。 它还显示在主计划运行期间应用的覆盖范围设置、按交易记录类型列出的需求明细以及限定标准信息。
 
 ## <a name="open-the-net-requirements-page"></a>打开“净需求”页面
 
@@ -64,8 +64,8 @@ ms.locfileid: "8888519"
 操作窗格上提供以下命令：
 
 - **更新 \> 主计划** – 直接从 **净需求** 页面运行主计划。
-- **更新 \> 预测计划** – 直接从 **净需求** 页面运行预测计划。 计划优化尚不支持此操作。
-- **更新 \> 连续性计划** - 直接从 **净需求** 页面运行连续性计划。 计划优化尚不支持此操作。
+- **更新 \> 预测计划** – 直接从 **净需求** 页面运行预测计划。 计划优化不支持此操作。
+- **更新 \> 连续性计划** - 直接从 **净需求** 页面运行连续性计划。 计划优化不支持此操作。
 
 ## <a name="example-scenario"></a>示例场景
 
@@ -133,8 +133,6 @@ ms.locfileid: "8888519"
     ![销售订单的限定标准信息](media/pegging-planned-purchase-order.png "销售订单的限定标准信息")
 
 > [!NOTE]
-> 由于计划优化尚不支持某些功能，因此 *净需求* 页面中未包含 *安全库存* 和 **到期的批处理** 需求类型。 有关详细信息，请参阅[计划优化拟合分析](planning-optimization-fit-analysis.md)。
->
-> 如果您正在使用内置主计划引擎，则支持批次控制的产品。 对于批次控制的产品，**净需求** 页上显示了过期的现有库存量，但此库存量未与需求要求关联。 在 *净需求* 页上，此类型的已过期现有量行显示为 **到期的批处理** 需求行。
+> **净需求** 页面上不包括 *安全存货* 需求。
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

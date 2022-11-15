@@ -2,22 +2,22 @@
 title: 在 Microsoft Teams 和 Dynamics 365 Commerce POS 之间同步任务管理
 description: 本文介绍如何在 Microsoft Teams 和 Dynamics 365 Commerce 销售点 (POS) 之间同步任务管理。
 author: gvrmohanreddy
-ms.date: 02/17/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f7a26f1625ca9414a43f895ff37f697d573a36aa
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f339ae031f11ad850dab47f84bc9823cf6776e74
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268266"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746089"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>在 Microsoft Teams 和 Dynamics 365 Commerce POS 之间同步任务管理
 
@@ -30,6 +30,21 @@ Teams 集成的主要目的之一是在 POS 应用程序和 Teams 之间同步�
 由于 Planner 用作 Teams 中任务的存储库，因此 Teams 和 Dynamics 365 Commerce 之间必须存在链接。 通过使用给定商店团队的特定计划 ID 来建立此链接。
 
 以下过程显示了如何在 POS 和 Teams 应用程序之间设置任务管理同步。
+
+## <a name="link-pos-and-teams-for-task-management"></a>链接 POS 和 Teams 以进行任务管理
+
+若要在 Commerce Headquarters 中链接 POS 和 Microsoft Teams 应用程序以进行任务管理，请按照下列步骤操作。
+
+> [!NOTE]
+> 在尝试将任务管理与 Teams 集成之前，请确保您已启用 [Dynamics 365 Commerce 和 Microsoft Teams 集成](enable-teams-integration.md)。 
+
+1. 转到 **Retail 和 Commerce \> 任务管理 \> 与 Microsoft Teams 的任务集成**。
+1. 在操作窗格上，选择 **编辑**。
+1. 将 **启用任务管理集成** 选项设置为 **是**。
+1. 在操作窗格上，选择 **保存**。
+1. 在操作窗格上，选择 **设置任务管理**。 您应该收到一条通知，指示将创建名为 **Teams 预配** 的批处理作业。
+1. 转到 **系统管理 \> 查询 \> 批处理作业**，查找具有描述 **Teams 预配** 的最新作业。 等待此作业完成运行。
+1. 运行 **CDX 作业 1070** 以将计划 ID 和商店引用发布到 Retail Server。
 
 ## <a name="publish-a-test-task-list-in-teams"></a>在 Teams 中发布测试任务列表
 
@@ -50,20 +65,8 @@ Teams 集成的主要目的之一是在 POS 应用程序和 Teams 之间同步�
 
 有关详细信息，请参阅[发布任务列表以创建和跟踪组织中的工作](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df)。
 
-## <a name="link-pos-and-teams-for-task-management"></a>链接 POS 和 Teams 以进行任务管理
-
-若要在 Commerce Headquarters 中链接 POS 和 Microsoft Teams 应用程序以进行任务管理，请按照下列步骤操作。
-
 > [!NOTE]
-> 在尝试将任务管理与 Microsoft Teams 集成之前，请确保您已启用 [Dynamics 365 Commerce 和 Microsoft Teams 集成](enable-teams-integration.md)。 
-
-1. 转到 **Retail 和 Commerce \> 任务管理 \> 与 Microsoft Teams 的任务集成**。
-1. 在操作窗格上，选择 **编辑**。
-1. 将 **启用任务管理集成** 选项设置为 **是**。
-1. 在操作窗格上，选择 **保存**。
-1. 在操作窗格上，选择 **设置任务管理**。 您应该收到一条通知，指示将创建名为 **Teams 预配** 的批处理作业。
-1. 转到 **系统管理 \> 查询 \> 批处理作业**，查找具有描述 **Teams 预配** 的最新作业。 等待此作业完成运行。
-1. 运行 **CDX 作业 1070** 以将计划 ID 和商店引用发布到 Retail Server。
+> 在 Teams 中成功发布任务列表后，任务将显示在 POS 中。 POS 经理和收银员然后需要打开 Azure AD 登录 POS。 有关详细信息，请参阅[为 POS 登录启用 Azure Active Directory 身份验证](aad-pos-logon.md)一文。 
 
 ## <a name="additional-resources"></a>其他资源
 

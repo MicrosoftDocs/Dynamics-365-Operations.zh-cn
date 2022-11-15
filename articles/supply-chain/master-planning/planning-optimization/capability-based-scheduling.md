@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335396"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739890"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>基于能力安排资源选择
 
@@ -43,7 +43,7 @@ ms.locfileid: "9335396"
 - **生效** – 指定应用资源或能力分配的第一个日期。 在计划期间，系统不会使用具有过期能力分配的资源或能力，即使该资源满足要求。
 - **到期** – 指定应用资源或能力分配的最后一个日期。 在计划期间，系统不会使用具有过期能力分配的资源或能力，即使该资源满足要求。
 - **级别** – 指定资源必须具备的能力的熟练程度。 然后，如果您为资源或能力要求指定 **所需最低级别** 值，计划引擎会在资源选择期间考虑熟练程度。 系统将仅选择所需能力等于或超过资源要求中指定的最低级别的资源。
-- **优先级** – 计划优化尚不支持此字段。 但是，如果您使用内置计划引擎，可以在资源或能力分配中使用 **优先级** 字段来定义资源优先级。 然后，如果在 **计划参数** 页上的 **主要资源选择** 字段中选择了 *优先级*，系统在计划期间将首先选择具有最高优先级的资源（即 **优先级** 字段中的最小数值）。
+- **优先级** – 计划优化尚不支持此字段。 但是，如果您使用已弃用的主计划引擎，可以在资源或能力分配中使用 **优先级** 字段来定义资源优先级。 然后，如果在 **计划参数** 页上的 **主要资源选择** 字段中选择了 *优先级*，系统在计划期间将首先选择具有最高优先级的资源（即 **优先级** 字段中的最小数值）。
 
 ## <a name="example"></a>示例
 

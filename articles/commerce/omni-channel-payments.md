@@ -2,7 +2,7 @@
 title: 全渠道付款概述
 description: 本文提供有关 Dynamics 365 Commerce 中的全渠道付款的概述。
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881701"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746117"
 ---
 # <a name="omni-channel-payments-overview"></a>全渠道付款概述
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 本文提供有关 Dynamics 365 Commerce 中的全渠道付款的概述。 其中包括丰富的受支持方案列表、有关功能的信息、设置、疑难解答和某些典型问题的说明。
 
@@ -169,9 +170,9 @@ ms.locfileid: "8881701"
 6. 在搜索栏中，输入 **西雅图**，然后选择 **西雅图** 商店提货。 
 7. 选择 **确定** 接受当前日期作为提货日期。
 9. 选择 **卡支付** 启动付款。
-10. 为卡付款支付存款结欠金额。 
+10. 为卡付款支付存款结欠金额。
 11. 在付款终端完成存款付款。 
-12. 支付存款后，选择使用同一张卡履行的选项，然后等待订单完成。 
+12. 支付存款后，选择使用同一张卡履行的选项，然后等待订单完成。 如果支付了 100% 的保证金（在上面的步骤 10 中），会立即从卡捕获资金，在开票时不会提供授权令牌，因为资金已捕获，跟踪状态为已支付。
 13. 启动西雅图商店的 POS。
 14. 在 POS 中的欢迎页，选择 **提货订单** 操作查看店内提货订单。 
 15. 从在引用店面中创建的订单选择一行或多行，然后选择 **提货**。
@@ -198,7 +199,7 @@ ms.locfileid: "8881701"
 8. 选择 **卡支付** 启动付款。
 9. 为卡付款支付存款结欠金额。 
 10. 在付款终端完成存款付款。 
-11. 支付存款后，选择使用同一张卡履行的选项，然后等待订单完成。
+11. 支付存款后，选择使用同一张卡履行的选项，然后等待订单完成。 如果支付了 100% 的保证金（在上面的步骤 9 中），会立即从卡捕获资金，在开票时不会提供授权令牌，因为资金已捕获，跟踪状态为已支付。
 
 为订单提货、包装和在后端开票时，将把在 POS 中提供的付款详细信息用于捕获正在装运给客户的获取的资金。 
 

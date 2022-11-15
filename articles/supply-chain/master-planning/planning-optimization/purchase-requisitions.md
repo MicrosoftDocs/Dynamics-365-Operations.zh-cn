@@ -1,6 +1,6 @@
 ---
 title: 采购申请
-description: 本文介绍计划优化中如何支持采购申请。
+description: 本文介绍采购申请。
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867889"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740676"
 ---
 # <a name="purchase-requisitions"></a>采购申请
 
@@ -59,7 +59,7 @@ ms.locfileid: "8867889"
 1. 对要设置已审核的申请时限的其他每个主计划重复步骤 2 和 3。
 
 > [!IMPORTANT]
-> **即将推出：** 计划优化尚不支持已审核的申请时限。 在支持之前，您在 **已审核的申请时限(天)** 字段中输入的所有值都将被忽略。
+> 计划优化不支持已审核的申请时限。 在支持之前，您在 **已审核的申请时限(天)** 字段中输入的所有值都将被忽略。
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>独立供应，不考虑覆盖范围代码
 
