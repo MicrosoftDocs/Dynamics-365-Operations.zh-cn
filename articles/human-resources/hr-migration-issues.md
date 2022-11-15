@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28c2c10a9293d00e26dfcc80ab08b89a122a6135
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733440"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752682"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Dynamics 365 Human Resources 基础结构合并已知问题
 
@@ -44,10 +44,3 @@ ms.locfileid: "9733440"
 
 Teams 中现有的 Human Resources 应用目前正在转移到 Microsoft Power Platform 解决方案。 有关详细信息，请参阅 [Teams 中的 Human Resources 应用](hr-admin-teams-leave-app.md)。
 
-## <a name="licensing"></a>许可授权
-
-Dynamics 365 Human Resources 的许可在以下方面没有变化： 
-
-- **最少许可证购买数量要求**
-- **生产环境和沙盒环境的许可证** – 如果您现有的独立 Human Resources 许可证包含一个生产环境和一个沙盒环境，财务和运营基础结构上可用的许可证数量将相同，无需额外费用。
-- **其他沙盒许可证** – 如果您为独立 Human Resources 应用程序购买了额外的沙盒许可证，财务和运营基础结构上的沙盒环境可用的许可证数量将相同，无需额外费用。 
