@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: f1e2cfca47d507c8de7f9323bb8e4262a0e90949
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 8ba9a6d24923b66259bc8b6cc688ec667cb000de
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689150"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740294"
 ---
 # <a name="demand-driven-planning"></a>需求驱动型计划
 
@@ -55,4 +55,4 @@ ms.locfileid: "9689150"
 此示例会生成数量为 130 的计划采购订单，该数量等于最大水平减去净流。 基于占最大数量的百分比，为计划订单分配的优先级为 53.07。 由于在 6 月 20 日找到了这些值，因此系统创建了日期为 6 月 20 日加上物料分离提前期（此示例中为五个工作日）的计划订单。 因此，由于五个工作日是从今天开始的一周时间，因此计划订单的日期为 6 月 27 日。
 
 > [!NOTE]
-> 计划优化使用 DDMRP 仅计算分离的物料。 所有其他物料均使用标准物料需求计划 (MRP) 进行计算。
+> 主计划使用 DDMRP 仅计算分离的物料。 所有其他物料均使用标准物料需求计划 (MRP) 进行计算。

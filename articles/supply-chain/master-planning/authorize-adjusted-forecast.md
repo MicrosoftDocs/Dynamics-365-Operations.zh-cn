@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b5523fe993955b4a9c0b0e639509530f298da7a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4954b70e56482e419d81485b544cb5d0b4e4a3ce
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468657"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740703"
 ---
 # <a name="authorize-an-adjusted-forecast"></a>授权调整后的预测
 
@@ -41,9 +41,8 @@ ms.locfileid: "8468657"
 
 ## <a name="additional-resources"></a>其他资源
 
-[对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
-
-[监控预测准确性](monitor-forecast-accuracy.md)
+- [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
+- [监控预测准确性](monitor-forecast-accuracy.md)
 
 
 
