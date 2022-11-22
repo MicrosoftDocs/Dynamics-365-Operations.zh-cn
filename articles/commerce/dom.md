@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878503"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764170"
 ---
 # <a name="distributed-order-management-dom"></a>分配的订单管理 (DOM)
 
@@ -68,9 +68,9 @@ DOM 使用混合整数编程 (MIP) 和预测分析模型在批次级别和单个
         > [!NOTE]
         > 提供了简化求解器，这样零售商无需部署特殊许可证即可试用 DOM 功能。 组织不应在生产环境中使用简化求解器。
         >
-        > 生产求解器可提高性能（例如一次运行中可以处理的订单和订单行数）和结果汇聚（因为在某些情况下，一批订单可能不会产生最佳结果）。 某些规则（例如 **部分订单** 规则和 **最大位置数** 规则）需要生产求解器。
+        > 生产求解器可提高性能（例如一次运行中可以处理的订单和订单行数）和结果汇聚（因为在某些情况下，一批订单可能不会产生最佳结果）。 此 **部分订单** 规则需要生产求解器。
 
-6. 返回 **Retail 和 Commerce \> 分配的订单管理 \> 设置 \> DOM 参数**。
+6. 返回 **零售和商业 \> 分配的订单管理 \> 设置 \> DOM 参数**。
 7. 在 **编号规则** 选项卡上，为各个 DOM 实体分配所需的编号规则。
 
     > [!NOTE]

@@ -302,11 +302,13 @@
                       href: hr-admin-troubleshooting-integration.md
             - name: 设置 Human Resources
               items:
-                - name: 配置 Human Resources 参数
+                - name: 配置人力资源参数
                   href: hr-setup-parameters.md
-                - name: 配置 Human Resources 共享参数
+                - name: 配置人力资源共享参数
                   href: hr-setup-shared-parameters.md
-                - name: 设置 Human Resources 工作流
+                - name: 按照法人限制对工作人员的访问权限
+                  href: hr-advanced-security.md
+                - name: 设置人力资源工作流
                   href: hr-workflow-manage-employee-information.md
                 - name: 了解日期和时间字段
                   href: hr-setup-date-time-fields.md
@@ -848,6 +850,8 @@
               href: hr-admin-integration-common-data-service.md
             - name: 配置 Dataverse 虚拟表
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: 虚拟表集成的安全性
+              href: hr-security-config.md
             - name: 配置与 Finance 的集成
               href: hr-admin-integration-finance.md
             - name: 创建从 Human Resources 到其他环境的链接

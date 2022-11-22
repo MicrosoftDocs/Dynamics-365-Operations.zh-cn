@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
-ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
+ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9751922"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752739"
 ---
 # <a name="year-end-activities-faq"></a>年终活动常见问题解答 
 
@@ -94,6 +94,23 @@ ms.locfileid: "9751922"
  
 - 模块：总帐
 - 功能名称：用于重新生成财务维度集的性能改进
+
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>应付帐款：做出了哪些更改以支持 2022 年 1099 年终报告？
+
+#### <a name="update-to-all-1099-forms"></a>更新全部 1099 表格
+对 2022 纳税年度的全部 1099 表格进行了以下更改：
+
+  - 2021 年，年份会在 1099 表格中固定显示。 自 2022 年起，年份会由报告进行填充。 
+
+#### <a name="1099-misc"></a>1099-MISC
+对 2022 纳税年度的 1099-MISC 表格进行了以下更新：
+
+ - 13 栏：现可显示《海外帐户税收合规法案》(FATCA) 的归档要求。 
+ - 14 栏：现可用于报告超额的金色降落伞付款。 
+ - 15 栏：现可用于报告不合格的延期薪酬收入 (NQDC) 计划中的付款。 
+ - 16 栏：现可用于报告州预扣税。
+ - 17 栏：现可用于报告付款人的税号。
+ - 18 栏：现可用于报告州应税所得额。 
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>应付帐款：做出了哪些更改以支持 2021 年 1099 年终报告？
 

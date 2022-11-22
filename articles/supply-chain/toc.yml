@@ -3395,7 +3395,9 @@
           items:
             - name: 仓库管理概览
               href: warehousing/warehouse-management-overview.md
-            - name: 收货仓库工序
+            - name: 开始设置仓库管理模块
+              href: warehousing/get-started-with-setting-up-module.md
+            - name: 入站仓库工序
               items:
                 - name: 仓库对采购订单入站负荷的处理
                   href: warehousing/inbound-load-handling.md

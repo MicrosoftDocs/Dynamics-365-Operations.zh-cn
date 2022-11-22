@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: 使用 Adyen 配置 Google Pay
                           href: dev-itpro/google-pay-adyen.md
+                        - name: 使用 Adyen 设置 Apple Pay
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: “面向 Adyen 的 Dynamics 365 Payment Connector”疑难解答
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: 使用 Adyen 连接器保存在线付款方式
@@ -602,6 +604,8 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: 设置付款发票方案
                       href: payinvoice.md
+                    - name: Dynamics 365 Commerce 中的预付款
+                      href: dev-itpro/prepayments-commerce.md
                     - name: 重复付款预防
                       href: duplicate-payment-protection.md
                     - name: 全渠道付款概览

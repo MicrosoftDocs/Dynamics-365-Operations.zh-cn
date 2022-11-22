@@ -430,7 +430,7 @@
                   href: accounts-receivable/rev-rec-bundles.md
                 - name: 收入确认重新分配
                   href: accounts-receivable/rev-rec-reallocation.md
-                - name: 收入确认重新分配 - 方案 1
+                - name: 收入确认重新分配方案 1
                   href: accounts-receivable/rev-rec-reallocation-scenario-1.md
                 - name: 收入确认重新分配方案 2
                   href: accounts-receivable/rev-rec-reallocation-scenario-2.md
@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: 区分分类帐结算与年终结算
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: 自动化分类帐结算
+                  href: general-ledger/auto-settle.md
                 - name: 总帐的外币重估
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: 总帐科目余额

@@ -1652,6 +1652,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: 将用户分配给安全角色
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Active Directory 安全组
+                  href: sysadmin/active-directory-security-group.md
                 - name: 使用数据管理导入或导出自定义的安全配置
                   href: sysadmin/import-export-customized-security.md
                 - name: 任务录制的安全诊断
