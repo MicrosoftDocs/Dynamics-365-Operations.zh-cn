@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
-ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
+ms.openlocfilehash: 4b986461e90b356580da8a136c1da95e7dc64696
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "9740321"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780404"
 ---
 # <a name="get-started-with-master-planning"></a>开始使用主计划
 
@@ -31,7 +31,7 @@ Supply Chain Management 中的主计划由 Dynamics 365 Supply Chain Management 
 
 ## <a name="availability"></a>可用性
 
-Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大、巴西、欧洲、法国、英国、澳大利亚、亚太、日本和印度。 如果您尝试从其他地理区域安装加载项，则 LCS 将显示一条消息，指明不支持该地理区域。 有关 Azure 地区和相关区域的详细信息，请参阅 [Azure 地区](https://azure.microsoft.com/global-infrastructure/geographies/#geographies)。
+Planning Optimization 当前在以下 Azure 地域中可用：美国、加拿大、巴西、欧洲、法国、英国、挪威、瑞士、澳大利亚、亚太、日本和印度。 如果您尝试从其他地理区域安装加载项，则 LCS 将显示一条消息，指明不支持该地理区域。 有关 Azure 地区和相关区域的详细信息，请参阅 [Azure 地区](https://azure.microsoft.com/global-infrastructure/geographies/#geographies)。
 
 请注意，Planning Optimization 不支持 Dynamics 365 Supply Chain Management 的本地部署。
 

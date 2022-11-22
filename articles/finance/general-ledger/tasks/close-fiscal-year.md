@@ -2,7 +2,7 @@
 title: 结算会计年度
 description: 此过程介绍将余额转移到新会计年度的年终结算的步骤。
 author: aprilolson
-ms.date: 07/11/2019
+ms.date: 11/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4d52e6789a96defaf1d0132fe97fc183a05af207
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717465"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779792"
 ---
 # <a name="close-the-fiscal-year"></a>结算会计年度
 
@@ -40,7 +40,7 @@ ms.locfileid: "8717465"
 
 5. 为 **将会计年度状态设置为永久关闭** 选项选择 **是** 或 **否**。
 
-如果设置为 **是**，将把会计年度设置为“永久关闭”。 由于不能重新打开已永久关闭的年度，所以最好是将此选项设置为 **否**。  
+如果设置为 **是**，将把会计年度设置为 **永久关闭**。 由于不能重新打开已永久关闭的年度，所以最好是将此选项设置为 **否**。  
 
 6. 为 **必须在年终结算期间填写凭证号** 选项选择 **是** 或 **否**。
 

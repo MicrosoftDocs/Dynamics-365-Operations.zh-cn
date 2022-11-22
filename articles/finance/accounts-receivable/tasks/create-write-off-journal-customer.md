@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713662"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775291"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>创建客户的勾销日记帐
 
@@ -48,9 +48,9 @@ ms.locfileid: "8713662"
 7. 转到 **导航窗格 > 模块 > 总帐 > 日记帐条目 > 普通日记帐**。
 8. 选择包含您勾销条目的日记帐批号。 创建单行以预留客户余额。 创建单行或多行以过帐勾销至勾销帐户。  
 9. 关闭该页面。
-10. 关闭该页面。
 
-## <a name="write-off-transactions-from-the-collections-form"></a>从收款窗体勾销交易。
+
+## <a name="write-off-transactions-from-the-collections-page"></a>从收款页面勾销交易
 1. 转到 **贷记和收款 > 收款 > 帐龄余额**。
 2. 选择您要勾销交易记录的客户的名称。 例如，选择 Cave Wholesales (US-004)。
 3. 标记第一个交易行。
@@ -63,7 +63,7 @@ ms.locfileid: "8713662"
 10. 转到 **总帐 > 日记帐条目 > 普通日记帐**。
 11. 选择包含您勾销条目的日记帐批号。 创建单行以预留客户余额。 创建单行或多行以过帐勾销至勾销帐户。  
 12. 关闭该页面。
-13. 关闭该页面。
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>从“未结客户发票”页勾销发票
 1. 转至 **导航窗格 > 应收帐款 > 发票 > 未结客户发票**。

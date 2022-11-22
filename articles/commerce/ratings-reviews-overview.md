@@ -2,24 +2,19 @@
 title: 评分和评价概览
 description: 本文介绍 Microsoft Dynamics 365 Commerce 中的评分和评价。
 author: gvrmohanreddy
-ms.date: 10/01/2019
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: gmohanv
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.assetid: ''
-ms.search.industry: ''
-ms.openlocfilehash: 612a3ca480049febac352ed9215ec9de83bbecf6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1f0d3ed5d95ad49cb09cf1f89d0f4c8c07620b92
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268992"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785127"
 ---
 # <a name="ratings-and-reviews-overview"></a>评分和评价概览
 
@@ -42,6 +37,11 @@ Dynamics 365 Commerce 中的评分和评价解决方案使用 Azure Cognitive Se
 评分和评价解决方案提供小组件，这些小组件在产品列表、搜索结果、产品详细信息页和其他位置显示评分汇总。 这些小组件显示完整的评价列表，还提供排序和筛选选项。
 
 评分和评价解决方案还提供商业智能 (BI) 模板，该模板中包含一组度量，用于提供有关评分和评价的见解。 可以导出评分和评价数据，以便进行更深入的分析。
+
+以下视频提供了对 Dynamics 365 Commerce 中的评分和评价功能的概述。
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wS]
 
 ## <a name="additional-resources"></a>其他资源
 

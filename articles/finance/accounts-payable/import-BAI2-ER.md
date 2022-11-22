@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: bfc1c2021387ed35e6ccb513167e896eddef2eaf
+ms.sourcegitcommit: ea79bf014bbf495ac8e28db29502c8bd85a75f32
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752712"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9759592"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>使用电子报告设置高级银行对帐导入
 
@@ -37,6 +37,9 @@ ms.locfileid: "9752712"
 5. 在配置列表中，找到 **高级银行对帐单模型 \> ABR BAI2 格式**。
 6. 选择 **BAI2** 格式。
 7. 在 **版本** 快速选项卡上，选择最新版本，然后选择 **导入**。
+
+>[!NOTE]
+>**BAI2 银行对帐单模型** 以后将弃用。 
 
 ## <a name="set-up-the-bank-statement-format"></a>设置银行对帐单格式
 

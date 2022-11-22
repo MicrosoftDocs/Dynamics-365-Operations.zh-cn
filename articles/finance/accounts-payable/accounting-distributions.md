@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
-ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
+ms.openlocfilehash: 4330c86ee9ae35ce0f2c7bb85db533a39eafac46
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9588945"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779573"
 ---
 # <a name="accounting-distributions"></a>会计分配
 
@@ -51,7 +51,7 @@ ms.locfileid: "9588945"
     -   您可以在 **引用** 中查看当前凭证会计状态。 状态针对整个凭证，并指示凭证是在进行中或已完成。
 -   **查看分配** – 查看凭证中所有行和货币金额的会计分配。 您无法从此视图修改会计分配。
 
-在版本 10.0.13 中，添加了一项功能，可以验证会计分配表以确保正确设置新字段。 此功能称为 **使用原始凭证会计框架对凭证数据进行附加验证**。 此功能将在版本 10.0.29 中默认打开。 
+添加了一项功能，可以验证会计分配表以确保正确设置新字段。 此功能称为 **使用原始凭证会计框架对凭证数据进行附加验证**。 此功能在版本 10.0.29 中默认打开。 
 
 有关详细信息，请参阅[会计分配和供应商的子分类日记帐条目](accounting-distributions-subledger-journal-entries-vendor-invoices.md)。
 

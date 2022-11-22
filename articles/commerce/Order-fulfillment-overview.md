@@ -1,35 +1,37 @@
 ---
 title: 商店订单履行
-description: 本文概括介绍了商店订单履行。
+description: 本文概括介绍 Microsoft Dynamics 365 Commerce 中的商店订单履行。
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854970"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785064"
 ---
 # <a name="store-order-fulfillment"></a>商店订单履行
 
 [!include [banner](includes/banner.md)]
+
+本文概括介绍 Microsoft Dynamics 365 Commerce 中的商店订单履行。
 
 许多零售商希望通过让商店填写订单的方式优化订单履行。 商店级别的订单履行有助于缓解特定商店的存货过剩情况，或者当商店产能过剩或与客户之间的装运距离较短时，从物流的角度而言具有必要性。 为了解决此需求，在销售点提供了统一订单履行操作。
 
 要在特定商店履行的订单在订单标头或行上指定了商店的仓库。
 
 销售点中的订单履行操作是销售点中用于处理订单的一个统一工作区。 这里包括从接受订单，到将订单标记为已装运或发起商店提货在内的一切操作。
+
+以下视频提供了对 Dynamics 365 Commerce 中的商店履行功能的概述和演示。
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>访问销售点中的统一订单履行
 

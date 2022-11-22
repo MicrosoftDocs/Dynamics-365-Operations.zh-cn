@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c83ac47bc5e7f7ed223c772591cf8a7c1e63a40
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: b3cc07a1f0ba444250eddcf892681e2ca63e9c1a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715489"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780442"
 ---
 # <a name="correct-a-free-text-invoice"></a>更正普通发票
 
@@ -28,7 +28,11 @@ ms.locfileid: "9715489"
 
 本文说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。
 
-若要更正已过帐的普通发票，请打开已过帐的普通发票。 在 **发票** 页上，选择 **取消**，然后选择 **更正发票**。 选择一个原因代码，添加注释，并且为新的已更正发票选择日期。 您可以修改已更正发票并将其过帐。 
+要更正已过帐的普通发票： 
+1. 打开已过帐的普通发票。 
+2. 在 **发票** 页上，选择 **取消**，然后选择 **更正发票**。 
+3. 选择一个原因代码，添加注释，并且为新的已更正发票选择日期。
+4. 您可以修改已更正发票并将其过帐。 
 
 在您过帐已更正发票时，会为一个等于原始发票金额的贷方金额创建取消发票。 因此，原始发票和取消发票的组合余额为 0（零）。 会比对原始发票结算取消发票。 
 

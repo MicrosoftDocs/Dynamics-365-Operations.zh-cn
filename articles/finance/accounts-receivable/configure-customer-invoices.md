@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
-ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
+ms.openlocfilehash: a0d1221e07f6dc4a5a99aa205c4a7f6fb367f000
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129503"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780438"
 ---
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
@@ -31,11 +31,10 @@ ms.locfileid: "9129503"
 **普通发票** 与销售订单无关。 它包含包括会计科目、自由文本描述和您输入的销售额的订单行。 您无法在此类发票上输入物料编号。 您必须输入相应的增值税信息。 销售的主科目在每个发票行上指示，这样可以通过单击 **普通发票** 页上的 **分摊金额** 分配给多个会计科目。 此外，将客户余额从用于普通发票的过帐模板过帐到汇总科目。
 
 有关详细信息，请参阅：
-
-[创建普通发票](../accounts-receivable/create-free-text-invoice-new.md)
-[创建普通发票模板](../accounts-receivable/create-free-text-invoice-template-new.md)
-[将普通发票模板分配给客户](tasks/assign-free-text-invoice-template-customer.md)
-[生成和过帐重复执行普通发票](tasks/post-recurring-free-text-invoices.md)
+ - [创建普通发票](../accounts-receivable/create-free-text-invoice-new.md)
+ - [创建普通发票模板](../accounts-receivable/create-free-text-invoice-template-new.md)
+ - [将普通发票模板分配给客户](tasks/assign-free-text-invoice-template-customer.md)
+ - [生成和过帐重复执行普通发票](tasks/post-recurring-free-text-invoices.md)
 
 
 **估价单** 是一种在过帐发票前作为对实际发票金额的评估而准备的发票。 您可为用于销售订单的客户发票或普通发票打印 **估价单**。 
@@ -89,7 +88,13 @@ ms.locfileid: "9129503"
  - 选中 **根据发票交付信息进行拆分** 选项可以在过帐时为每个销售订单行交货地址创建一份发票。 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>为没有价格和成本的销售订单行过帐到收入帐户
-对于没有价格和成本的销售订单行，您可以选择更新 **总帐** 中的 **收入** 帐户。 若要设置或查看此信息，请转到 **应收帐款参数** 页的 **分类帐和销售税** 选项卡上的 **为零价格和零成本销售订单发票行过帐到收入帐户** 参数。 （**应收帐款 > 设置 > 应收帐款参数**）。 对于没有价格和成本的销售订单发票行，请选择 **是** 以更新 **收入** 帐户。 如果选择此选项，凭证将包含 **客户余额** 和 **收入** 过帐类型的 0.00 条目。 收入帐户在 **库存过帐** 参数页面上的 **销售订单** 帐户定义选项卡上定义。如果未选择此选项，则没有价格或成本信息的行将不会过帐到 **收入** 帐户。 凭证将包含 **客户余额** 过帐类型的 0.00 条目。
+对于没有价格和成本的销售订单行，您可以选择更新 **总帐** 中的 **收入** 帐户。 
+
+要设置或查看此信息：
+1. 转到 **应收帐款参数** 页的 **分类帐和销售税** 选项卡上的 **为零价格和零成本销售订单发票行过帐到收入帐户** 参数。 （**应收帐款 > 设置 > 应收帐款参数**）。 
+2. 对于没有价格和成本的销售订单发票行，请选择 **是** 以更新 **收入** 帐户。 
+ - 如果选择此选项，凭证将包含 **客户余额** 和 **收入** 过帐类型的 0.00 条目。 收入帐户在 **库存过帐** 参数页面上的 **销售订单** 帐户定义选项卡上定义。 
+ - 如果未选择此选项，没有价格或成本信息的行将不会过帐到 **收入** 帐户。 凭证将包含 **客户余额** 过帐类型的 0.00 条目。
 
 ## <a name="line-creation-sequence-number-information"></a>行创建序列号信息
 在过帐客户发票行时，您将可以选择创建序列行创建序列号。 过帐过程中分配了行创建序列号。 通过允许非连续编号，您可以帮助提高客户发票过帐的性能。 要求进行序列排序的第三方集成可能会使用行创建序列号。 请咨询 IT 部门，了解可与行创建序列号集成的任何扩展。

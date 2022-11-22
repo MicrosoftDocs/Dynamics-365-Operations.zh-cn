@@ -2,7 +2,7 @@
 title: WMS 物料的 Inventory Visibility 支持
 description: 本文介绍针对为仓库管理流程（WHS 物料）启用的物料的库存可见性支持。
 author: yufeihuang
-ms.date: 03/10/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 54ce637d2d7b590988f7590eae5248276bcc4b96
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: bed402ecf20c19e81b2687efd90dba600460971a
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066601"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762731"
 ---
 # <a name="inventory-visibility-support-for-wms-items"></a>WMS 物料的 Inventory Visibility 支持
 
@@ -45,17 +45,17 @@ WMS 物料是为 WMS 启用并且在也启用了 WMS 的仓库中处理的物料
 
 ## <a name="when-to-use-the-feature"></a>何时使用此功能
 
-我们建议您在满足以下所有条件的情况下针对库存可见性使用高级 WMS 功能：
+我们建议您在满足以下所有条件的情况下针对库存可见性使用 WMS 功能：
 
 - 您正在将 Supply Chain Management 数据与库存可见性同步。
 - 您正在 Supply Chain Management 中使用 WMS。
-- 用户在仓库级别之外的级别对 WMS 物料进行预留（例如，因为您正在进行仓库工作）。
+- 用户在低于仓库级别的级别（例如，在牌照级别，因为您在处理仓库工作）对 WMS 物料进行预留。
 
 在其他情况下，无论是否启用库存可见性的高级 WMS 功能，现有查询结果都相同。 此外，如果您在这些情况下未启用该功能，则性能会更好，因为计算更少，开销也更少。
 
-## <a name="enable-the-advanced-wms-feature-for-inventory-visibility"></a>启用库存可见性的高级 WMS 功能
+## <a name="enable-the-wms-feature-for-inventory-visibility"></a>启用库存可见性的 WMS 功能
 
-要启用库存可见性的高级 WMS 功能，请执行以下步骤。
+要启用库存可见性的 WMS 功能，请执行以下步骤。
 
 1. 以管理员身份登录到 Supply Chain Management 环境
 1. 打开[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区，按此顺序启用以下功能：
@@ -65,7 +65,7 @@ WMS 物料是为 WMS 启用并且在也启用了 WMS 的仓库中处理的物料
 
 1. 转到 **库存管理 \> 设置 \> 库存可见性集成参数**。
 1. 在 **启用 WMS 物料** 选项卡上，将 **启用 WMS 物料** 选项设置为 *是*。
-1. 登录到 Power Apps。
+1. 登录您的 Power Apps 环境，然后打开 **库存可见性**。
 1. 打开 **配置** 页，然后在 **功能管理** 选项卡上，打开 *AdvancedWHS* 功能。
 1. 在 Supply Chain Management 中，转到 **库存管理 \> 定期任务 \> 库存可见性集成**。
 1. 在操作窗格上，选择 **禁用** 以暂时禁用库存可见性。
@@ -82,21 +82,24 @@ WMS 物料的查询结果与非 WMS 物料的结果基本相同。 唯一的区�
 - `ReservOrdered`
 - `ReservPhysical`
 
-所有其他物理度量的计算方式与禁用库存可见性的高级 WMS 功能时完全一样。
+所有其他物理度量的计算方式与禁用库存可见性的 WMS 功能时完全一样。
 
 有关 WMS 物料的现有计算的工作原理的详细信息，请参阅 [Warehouse Management 中的预留](https://www.microsoft.com/download/details.aspx?id=43284)白皮书。
 
-导出到 Dataverse 的数据实体还不能更新 WMS 物料的数量。 数据实体中显示的数量对于非 WMS 物料和不受 WMS 逻辑影响的数量（即，除了 `fno` 数据源中的 `AvailPhysical`, `AvailOrdered`, `ReservPhysical` 和 `ReservOrdered` 以外的其他度量）均正确。
+## <a name="on-hand-list-view-and-data-entity-for-wms-items"></a>WMS 物料的现有量列表视图和数据实体
 
-禁止更改存储在 Supply Chain Management 数据源中的 WMS 物料数量。 对于库存可见性的其他功能，强制执行了此限制以帮助防止冲突。
+**预加载库存可见性摘要** 页面提供了 *现有库存索引查询预加载结果* 实体的视图。 与 *库存摘要* 实体不同，*现有库存索引查询预加载结果* 实体提供产品的现有库存量列表以及选定的维度。 库存可见性每 15 分钟同步一次预加载的摘要数据。
 
-## <a name="soft-reservations-on-wms-items-in-inventory-visibility"></a>库存可见性中 WMS 物料的软预留
+如果您对 WMS 物料使用库存可见性，想要查看 WMS 物料的现有量列表，建议您启用 *预加载库存可见性摘要* 功能（另请参阅[预加载简化的现有量查询](inventory-visibility-power-platform.md#preload-streamlined-onhand-query)）。 Dataverse 中的相应数据实体存储您的查询预加载结果，结果每 15 分钟更新一次。 数据实体的名称是 `Onhand Index Query Preload Result`。
 
-一般情况下，支持对 WMS 物料进行[软预留](inventory-visibility-reservations.md)。 您可以在软预留计算中包括与 WMS 相关的物理度量。 
+> [!IMPORTANT]
+> Dataverse 实体是只读的。 您可以在库存可见性实体中查看和导出数据，但 **不要进行修改**。
 
-在一个已知限制中，WHS 物料目前不支持 *可供预留* 计算。 因此，如果在发生软预留的当前维度之上存在预留，则 *可供预留* 计算不正确。 在 [软预留 API](inventory-visibility-api.md#create-one-reservation-event) 中禁用 **ifCheckAvailForReserv** 选项时，将不会影响软预留。
+禁止更改存储在 Supply Chain Management 数据源 (`fno`) 中的 WMS 物料数量。 此行为与库存可见性的其他功能的行为一致。 强制执行此限制可以帮助防止冲突。
 
-此约束也适用于基于软预留（例如分配）的功能和自定义。
+## <a name="wms-item-compatibility-for-other-functions-in-inventory-visibility"></a>WMS 物料与库存可见性中其他功能的兼容性
+
+支持 WMS 物料的[软预留](inventory-visibility-reservations.md)和[库存分配](inventory-visibility-allocation.md)。 您可以在软预留和分配计算中包括与 WMS 相关的实际度量。
 
 ## <a name="calculate-available-to-promise-quantities"></a>计算可承诺数量
 

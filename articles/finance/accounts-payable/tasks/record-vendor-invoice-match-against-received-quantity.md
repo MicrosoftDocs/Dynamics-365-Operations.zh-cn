@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: debf8ca47666252633e67e2592acd5a4e4122403
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109910"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778664"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>记录供应商发票和匹配接收的数量
 
@@ -32,7 +32,7 @@ ms.locfileid: "8109910"
 
 
 ## <a name="create-a-purchase-order"></a>创建采购订单
-1. 转到“所有采购订单”。
+1. 转到 **所有采购订单**。
 2. 单击 **新建**。
 3. 在 **供应商帐户** 字段中，单击下拉按钮以打开查找。
 4. 在 **供应商帐户** 字段中，键入一个值。

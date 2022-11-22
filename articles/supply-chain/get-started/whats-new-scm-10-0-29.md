@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d12932f35b3b451577d38948f60bc3a73c10e2a0
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 8f6ba18096cffe907c339ad525c99535bc5ee568
+ms.sourcegitcommit: 7745c4bd3ab3aace4b4cb814eaf0cfdbae4a0cbd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714825"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9784683"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Dynamics 365 Supply Chain Management 10.0.29（2022 年 10 月）的新增功能或更改
 
@@ -33,7 +33,7 @@ ms.locfileid: "9714825"
 
 | 特征区域 | 功能 | 更多信息… | 启用者: ，时间:  |
 |---|---|---|---|
-| 库存和物流 | [在库存可见性中分配和预留 WMS 物料](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | 即将推出 | 默认启用 |
+| 库存和物流 | [在库存可见性中分配和预留 WMS 物料](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | [WMS 物料的库存可见性支持](../inventory/inventory-visibility-whs-support.md) | 默认启用 |
 | 库存和物流 | [预加载简化的现有库存列表](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [使用 Inventory Visibility 应用](../inventory/inventory-visibility-power-platform.md) | 通过服务配置启用 |
 | 按订单生产供应自动化 | [按订单生产供应自动化](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [按订单生产供应自动化](../master-planning/make-to-order-supply-automation.md) | 功能管理：<br>*按订单生产供应自动化* |
 | 计划 | [查看并应用 DDMRP 的详细见解](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [需求驱动材料要求计划概述](../master-planning/planning-optimization/ddmrp-overview.md) | 功能管理：<br>*(预览版)用于计划优化的 DDMRP* |

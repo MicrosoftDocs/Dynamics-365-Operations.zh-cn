@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
-ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
+ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9752290"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775398"
 ---
 # <a name="proactive-quality-updates"></a>主动质量更新
 
@@ -112,7 +112,7 @@ ms.locfileid: "9752290"
 | 站点 1 | 加拿大中部、加拿大东部、法国中部、印度中部、挪威东部、瑞士西部 | 2022 年 10 月 14 日到 10 月 17 日，2022 年 11 月 2 日到 11 月 5 日 | 2022 年 11 月 13 日到 11 月 16 日 |
 | 站点 2 | 法国南部、印度南部、挪威西部、瑞士北部、南非北部、澳大利亚东部、英国南部、阿拉伯联合酋长国北部、日本东部、澳大利亚东南部、东南亚 | 2022 年 10 月 15 日到 10 月 18 日，2022 年 11 月 2 日到 11 月 5 日 | 2022 年 11 月 13 日到 11 月 16 日 |
 | 站点 3 | 东亚、英国西部、日本西部、巴西南部、西欧、美国东部、阿拉伯联合酋长国中部 | 2022 年 10 月 16 日到 10 月 19 日，2022 年 11 月 2 日到 11 月 5 日 | 2022 年 11 月 13 日到 11 月 16 日 |
-| 站点 4 | 北欧、美国中部、美国西部 | 2022 年 10 月 17 日到 10 月 20 日，2022 年 11 月 2 日到 11 月 5 日 | 2022 年 11 月 13 日到 11 月 16 日 |
+| 站点 4 | 北欧、美国中部、美国西部 | 2022 年 10 月 17 日到 10 月 20 日，2022 年 11 月 2 日到 11 月 5 日 | 2022 年 11 月 15 日到 11 月 18 日 |
 | 站点 5 | DoD、政府社区云、中国 | 未计划 | 未计划 |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> 主动质量更新版本：10.0.30

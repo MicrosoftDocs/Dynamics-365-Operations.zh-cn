@@ -2,7 +2,7 @@
 title: 配置 Inventory Visibility
 description: 本文介绍如何配置库存可见性。
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542264"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9765702"
 ---
 # <a name="configure-inventory-visibility"></a>配置 Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
-
 
 本文介绍如何在 Power Apps 中使用库存可见性应用配置库存可见性。
 
@@ -53,18 +52,23 @@ ms.locfileid: "9542264"
 |---|---|
 | *OnHandReservation* | 使用此功能，您可以使用库存可见性创建预留、使用预留和/或取消预留指定的库存数量。 有关详细信息，请参阅[库存可见性预留](inventory-visibility-reservations.md)。 |
 | *OnHandMostSpecificBackgroundService* | 此功能提供产品的库存汇总以及所有维度。 将定期从库存可见性同步库存汇总数据。 默认同步频率为每 15 分钟一次，最高可设置为每 5 分钟一次。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#inventory-summary)。 |
-| *onHandIndexQueryPreloadBackgroundService* | 此功能可以预加载库存可见性现有库存查询来将现有库存列表与预选维度合并。 默认同步频率为每 15 分钟一次。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query)。 |
+| *onHandIndexQueryPreloadBackgroundService* | 此功能可以预加载库存可见性现有库存查询来将现有库存列表与预选维度合并。 默认同步频率为每 15 分钟一次。 有关详细信息，请参阅[预加载简化的现有量查询](inventory-visibility-power-platform.md#preload-streamlined-onhand-query)。 |
 | *OnhandChangeSchedule* | 此可选功能支持现有库存更改计划和可承诺 (ATP) 功能。 有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。 |
 | *分配* | 此可选功能使库存可见性能够进行库存保护（圈护）和超额销售控制。 有关详细信息，请参阅[库存可见性库存分配](inventory-visibility-allocation.md)。 |
 | *在库存可见性中启用仓库物料* | 此可选功能使库存可见性能够支持启用了仓库管理流程 (WMS)。 有关详细信息，请参阅 [WMS 物料的库存可见性支持](inventory-visibility-whs-support.md)。 |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>查找服务终结点
 
-如果不知道正确的库存可见性服务终结点，请在 Power Apps 中打开 **配置** 页，然后在右上角选择 **显示服务终结点**。 页面将显示正确的服务终结点。
+如果不知道正确的库存可见性服务终结点，请在 Power Apps 中打开 **配置** 页，然后在右上角选择 **显示服务详细信息**。 页面将显示正确的服务终结点。 您还可以在 Microsoft Dynamics Lifecycle Services 中查找终结点，如[根据 Lifecycle Services 环境查找终结点](inventory-visibility-api.md#endpoint-lcs)中所述。
+
+> [!NOTE]
+> 使用不正确的终结点可能会导致库存可见性安装失败，并会在 Supply Chain Management 与库存可见性同步时出现错误。 如果您不确定您的终结点是哪一个，请联系您的系统管理员。 终结点 URL 使用以下格式：
+>
+> `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>数据源配置
 
-各数据源表示您的数据的来源系统。 示例数据源名称包括 `fno`（代表“Dynamics 365 财务和运营应用”）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
+各数据源表示您的数据的来源系统。 示例数据源名称包括 `fno`（对应 Supply Chain Management）和 `pos`（代表“销售点”）。 默认情况下，Supply Chain Management 在库存可见性中设置为默认数据源 (`fno`)。
 
 > [!NOTE]
 > `fno` 数据源是为 Supply Chain Management 预留的。 如果您的库存可见性加载项与 Supply Chain Management 环境集成，我们建议您不要删除数据源中与 `fno` 相关的配置。
@@ -73,7 +77,7 @@ ms.locfileid: "9542264"
 
 1. 登录您的 Power Apps 环境，然后打开 **库存可见性**。
 1. 打开 **管理** 页面。
-1. 在 **数据源** 选项卡上，选择 **新建数据源** 以添加数据源。
+1. 在 **数据源** 选项卡上，选择 **新建数据源** 添加数据源（例如，`ecommerce` 或另一个有意义的数据源 ID）。
 
 > [!NOTE]
 > 添加数据源时，请务必先验证数据源名称、实际度量和维度映射，然后再更新库存可见性服务的配置。 选择 **更新配置** 之后，不能修改这些设置。
@@ -88,11 +92,11 @@ ms.locfileid: "9542264"
 
 维度配置的目的是根据维度组合标准化用于发布事件和查询的多系统集成。 库存可见性提供可从数据源的维度映射的基础维度的列表。 三十三个维度可供映射。
 
-- 默认情况下，如果将 Supply Chain Management 用作一个数据源，将把 13 个维度映射到 Supply Chain Management 标准维度。 其他十二个维度（`inventDimension1` 到 `inventDimension12`）映射到 Supply Chain Management 中的自定义维度。 其余八个维度是可映射到外部数据源的扩展维度。
+- 如果将 Supply Chain Management 用作一个数据源，13 个维度会默认映射到 Supply Chain Management 标准维度。 其他 12 个维度（`inventDimension1` 到 `inventDimension12`）还会映射到 Supply Chain Management 中的自定义维度。 其余 8 个维度（`ExtendedDimension1` 到 `ExtendedDimension8`）是可映射到外部数据源的扩展维度。
 - 如果不将 Supply Chain Management 用作一个数据源，则可以自由映射维度。 下表显示可用维度的完整列表。
 
 > [!NOTE]
-> 如果默认维度列表中无您的维度，而您正在使用外部数据源，建议您使用 `ExtendedDimension1` 到 `ExtendedDimension8` 执行映射。
+> 如果您使用 Supply Chain Management，当更改 Supply Chain Management 和库存可见性之间的默认维度映射时，更改后的维度不会同步数据。 因此，如果您的维度不在默认维度列表中，而您正在使用外部数据源，建议您使用 `ExtendedDimension1` 到 `ExtendedDimension8` 执行映射。
 
 | 维度类型 | 基础维度 |
 |---|---|
@@ -114,11 +118,11 @@ ms.locfileid: "9542264"
 | System | `Empty` |
 
 > [!NOTE]
-> 上表中列出的维度类型仅供参考。 不必在库存可见性中定义它们。
+> 上表中列出的维度类型仅供您参考。 不必在库存可见性中定义它们。
 >
-> 可以为 Supply Chain Management 预留库存（自定义）维度。 在此情况下，可以改用扩展维度。
+> 可以为 Supply Chain Management 预留库存（自定义）维度。 在此情况下，改用扩展维度。
 
-外部系统可以通过其 RESTful API 访问库存可见性。 对于集成，库存可见性允许您配置 _外部数据源_，以及从 _外部维度_ 映射到 _基础维度_。 下面是维度映射表的示例。
+外部系统可以通过其 RESTful API 访问库存可见性。 对于集成，库存可见性允许您配置 *外部数据源*，以及从 *外部维度* 映射到 *基础维度*。 下面是维度映射表的示例。
 
 | 外部维度 | 基础维度 |
 |---|---|
@@ -134,20 +138,21 @@ ms.locfileid: "9542264"
 
 1. 登录您的 Power Apps 环境，然后打开 **库存可见性**。
 1. 打开 **管理** 页面。
-1. 在 **数据源** 选项卡上的 **维度映射** 部分中，选择 **添加** 添加维度映射。
+1. 在 **数据源** 选项卡上，选择要进行维度映射的数据源。 然后，在 **维度映射** 部分，选择 **添加** 添加维度映射。
+
     ![添加维度映射](media/inventory-visibility-dimension-mapping.png "添加维度映射")
 
 1. 在 **维度名称** 字段中，指定源维度。
 1. 在 **目标基础维度** 字段中，选择库存可见性中要映射的维度。
 1. 选择 **保存**。
 
-例如，如果您的数据源中包含产品颜色维度，则可以将其映射到 `ColorId` 基础维度，以便在 `exterchannel` 数据源中添加一个 `ProductColor` 自定义维度。 然后将其映射到 `ColorId` 基础维度。
+例如，您已经创建了一个名为 `ecommerce` 的数据源，其包含一个产品颜色维度。 在这种情况下，要进行映射，您可以首先将 `ProductColor` 添加到 `ecommerce` 数据源中的 **维度名称** 字段中，然后在 **目标基础维度** 字段中选择 `ColorId`。
 
 ### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>实际度量
 
 当数据源将库存更改发布到库存可见性时，它将使用 *实际度量* 发布该更改。 实际度量用于修改数量和反映库存状态。 可以根据要求定义自己的实际度量。 查询可以基于实际度量。
 
-库存可见性提供一列链接到 Supply Chain Management（`fno` 数据源）的默认实际度量。 这些默认实际度量取自 Supply Chain Management 的 **现有库存列表** 页（**库存管理 \> 查询和报表 \> 现有库存列表**）中的库存交易记录状态。 下表提供实际度量的示例。
+库存可见性提供映射到 Supply Chain Management（`fno` 数据源）的默认实际度量的列表。 这些默认实际度量取自 Supply Chain Management 的 **现有库存列表** 页（**库存管理 \> 查询和报表 \> 现有库存列表**）中的库存交易记录状态。 下表提供实际度量的示例。
 
 | 实际度量名称 | 说明 |
 |---|---|
@@ -163,16 +168,16 @@ ms.locfileid: "9542264"
 | `PostedQty` | 已过帐的数量 |
 | `QuotationIssue` | 报价发出量 |
 | `QuotationReceipt` | 报价收据 |
-| `Received` | 已收到 |
+| `Received` | 已接收 |
 | `Registered` | 已登记 |
 | `ReservOrdered` | 订单预留 |
 | `ReservPhysical` | 实际预留 |
 
-如果数据源为 Supply Chain Management，则不必重新创建默认实际度量。 但是，对于外部数据源，您可以通过执行以下步骤创建新的实际度量。
+如果您的数据源为 Supply Chain Management，则不必重新创建默认实际度量。 但是，对于外部数据源，您可以通过执行以下步骤创建新的实际度量。
 
 1. 登录您的 Power Apps 环境，然后打开 **库存可见性**。
 1. 打开 **管理** 页面。
-1. 在 **数据源** 选项卡的 **实际度量** 部分中，选择 **添加**，指定源度量名称，然后保存更改。
+1. 在 **数据源** 选项卡上，选择要添加实际度量的数据源（例如，`ecommerce` 数据源）。 然后，在 **实际度量** 部分，选择 **添加**，指定度量名称（例如，如果要将此数据源中返回的数量记录到库存可见性中，则为 `Returned`）。 保存所做的更改。
 
 ### <a name="calculated-measures"></a>计算度量
 
@@ -181,7 +186,7 @@ ms.locfileid: "9542264"
 > [!IMPORTANT]
 > 计算的度量是实际度量的构成部分。 其公式只能包含不重复的实际度量，而不能包含计算的度量。
 
-通过此配置，可以定义一组添加或减去的修饰符，以获取聚合输出数量总值。
+通过此配置，您可以定义一组计算度量公式，其中包括加法或减法的修饰符，来获取聚合输出数量总值。
 
 若要设置自定义计算度量，请执行以下步骤。
 
@@ -191,7 +196,7 @@ ms.locfileid: "9542264"
 1. 为新的计算度量值设置以下字段：
 
     - **新建计算度量值名称** – 输入计算度量值的名称。
-    - **数据源** – 选择与新修饰符关联的数据源。 查询系统是数据源。
+    - **数据源** – 选择要包含新的计算度量的数据源。 查询系统是数据源。
 
 1. 选择 **添加** 将修饰符添加到新计算度量值。
 1. 为新修饰符设置以下字段：
@@ -200,15 +205,21 @@ ms.locfileid: "9542264"
     - **数据源** – 选择应在其中找到提供修饰符值的度量值的数据源。
     - **度量值** – 选择为修饰符提供值的度量值（从所选数据源）的名称。
 
-1. 重复步骤 5 到 6，直到您添加了所有必需的修饰符。
+1. 重复步骤 5 到 6，直到您添加了所有必需的修饰符并完成了计算度量的公式。
 1. 选择 **保存**。
 
-例如，您可能具有以下查询结果。
+例如，一家时装公司跨三个数据源运营：
+
+- `pos` – 对应商店渠道。
+- `fno` – 对应 Supply Chain Management。
+- `ecommerce` – 对应您的 Web 渠道。
+
+如果没有计算度量，当您在站点 1、仓库 11 和 `Red` 的 `ColorID` 维度值下查询产品 D0002（机柜）时，可能会得到以下查询结果，其中显示每个预配置的实际度量下的库存数量。 但是，您无法了解数据源中可用于预留的总数。
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -224,7 +235,7 @@ ms.locfileid: "9542264"
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
@@ -239,22 +250,22 @@ ms.locfileid: "9542264"
 
 | 消耗系统 | 计算度量 | 数据源 | 实际度量 | 计算类型 |
 |---|---|---|---|---|
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `received` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `scheduled` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `issued` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `reserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `received` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `scheduled` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `issued` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `reserved` | `Subtraction` |
 
 使用此计算公式时，新查询结果中将包括自定义度量。
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -270,13 +281,13 @@ ms.locfileid: "9542264"
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
                 "reserved": 40.0
             },
-            "CustomChannel": {
+            "CrossChannel": {
                 "MyCustomAvailableforReservation": 220.0
             }
         }
@@ -304,7 +315,7 @@ ms.locfileid: "9542264"
 
 大多数时间，现有库存查询不会仅处于最高的“总计”级别。 相反，您还可能希望查看基于库存维度聚合的结果。
 
-库存可见性通过允许您设置 _索引_ 来提高查询性能，从而提供灵活性。 这些索引基于维度或维度的组合。 索引由 *集号*、*维度* 和 *层次结构* 构成，如下表中的定义。
+库存可见性通过允许您设置 *索引* 来提高查询性能，从而提供灵活性。 这些索引基于维度或维度的组合。 索引由 *集号*、*维度* 和 *层次结构* 构成，如下表中的定义。
 
 | 姓名 | 说明 |
 |---|---|
@@ -334,15 +345,15 @@ ms.locfileid: "9542264"
 
 下表提供此示例的可用库存列表。
 
-| 物料 | ColorId | SizeId | StyleId | 数量 |
+| 项目 | ColorId | SizeId | StyleId | Quantity |
 |---|---|---|---|---|
-| T 恤杉 | 黑色 | 小 | 宽 | 1 |
-| T 恤杉 | 黑色 | 小 | 常规 | 2 |
-| T 恤杉 | 黑色 | 大 | 宽 | 3 |
-| T 恤杉 | 黑色 | 大 | 常规 | 4 |
-| T 恤杉 | 红色 | 小 | 宽 | 5 |
-| T 恤杉 | 红色 | 小 | 常规 | 6 |
-| T 恤杉 | 红色 | 大 | 常规 | 7 |
+| D0002 | 黑色 | 小 | 宽 | 1 |
+| D0002 | 黑色 | 小 | 常规 | 2 |
+| D0002 | 黑色 | 大 | 宽 | 3 |
+| D0002 | 黑色 | 大 | 常规 | 4 |
+| D0002 | 红色 | 小 | 宽 | 5 |
+| D0002 | 红色 | 小 | 常规 | 6 |
+| D0002 | 红色 | 大 | 常规 | 7 |
 
 下表显示如何设置索引层次结构。
 
@@ -356,29 +367,29 @@ ms.locfileid: "9542264"
 
 - `()` – 按全部分组
 
-    - T 恤杉，28
+    - D0002，28
 
 - `(ColorId)` – 按 `ColorId` 分组
 
-    - T 恤杉，黑色，10
-    - T 恤杉，红色，18
+    - D0002，黑色，10
+    - D0002，红色，18
 
 - `(ColorId, SizeId)` – 按 `ColorId` 和 `SizeId` 的组合分组
 
-    - T 恤杉，黑色，小，3
-    - T 恤杉，黑色，大，7
-    - T 恤杉，红色，小，11
-    - T 恤杉，红色，大，7
+    - D0002，黑色，小，3
+    - D0002，黑色，大，7
+    - D0002，红色，小，11
+    - D0002，红色，大，7
 
 - `(ColorId, SizeId, StyleId)` – 按 `ColorId`、`SizeId` 和 `StyleId` 的组合分组
 
-    - T 恤杉，黑色，小，宽，1
-    - T 恤杉，黑色，小，正常，2
-    - T 恤杉，黑色，大，宽，3
-    - T 恤杉，黑色，大，正常，4
-    - T 恤杉，红色，小，宽，5
-    - T 恤杉，红色，小，正常，6
-    - T 恤杉，红色，大，正常，7
+    - D0002，黑色，小，宽，1
+    - D0002，黑色，小，正常，2
+    - D0002，黑色，大，宽，3
+    - D0002，黑色，大，正常，4
+    - D0002，红色，小，宽，5
+    - D0002，红色，小，正常，6
+    - D0002，红色，大，正常，7
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>预留配置（可选）
 
@@ -397,35 +408,35 @@ ms.locfileid: "9542264"
 
 若要定义软预留映射，请按照以下步骤操作。
 
-1. 定义用作软预留度量的实际度量（例如 `SoftReservOrdered`）。
-1. 在 **配置** 页的 **计算度量** 选项卡上，定义其中包含要映射到实际度量的计算公式的 *可预留* (AFR) 计算度量。 例如，可设置 `AvailableToReserve`（可预留），以使其映射到之前定义的 `SoftReservOrdered` 实际度量。 这样就可以发现哪些具有 `SoftReservOrdered` 库存状态的数量可预留。 下表显示 AFR 计算公式。
+1. 定义用作软预留度量的实际度量（例如 `SoftReservPhysical`）。
+1. 在 **配置** 页的 **计算度量** 选项卡上，定义其中包含要映射到实际度量的计算公式的 *可预留* (AFR) 计算度量。 例如，可设置 `AvailableToReserve`（可预留），以使其映射到之前定义的 `SoftReservPhysical` 实际度量。 这样就可以发现哪些具有 `SoftReservPhysical` 库存状态的数量可预留。 下表显示 AFR 计算公式。
 
     | 计算类型 | 数据源 | 实际度量 |
     |---|---|---|
     | 增加额 | `fno` | `AvailPhysical` |
     | 增加额 | `pos` | `Inbound` |
     | 减 | `pos` | `Outbound` |
-    | 减 | `iv` | `SoftReservOrdered` |
+    | 减 | `iv` | `SoftReservPhysical` |
 
-    我们建议您设置计算度量，以使其包含预留度量所基于的实际度量。 这样，计算度量数量将受预留度量数量的影响。 因此，在此示例中，`iv` 数据源的 `AvailableToReserve` 计算度量应包含来自 `iv` 且形式为组件的  `SoftReservOrdered` 实际度量。
+    我们建议您设置计算度量，以使其包含预留度量所基于的实际度量。 这样，计算度量数量将受预留度量数量的影响。 因此，在此示例中，`iv` 数据源的 `AvailableToReserve` 计算度量应包含来自 `iv` 且形式为组件的  `SoftReservPhysical` 实际度量。
 
 1. 打开 **管理** 页面。
-1. 在 **软预留映射** 选项卡上，设置从实际度量到计算度量的映射。 对于上一个示例，可以使用以下设置将 `AvailableToReserve` 映射到之前定义的 `SoftReservOrdered` 实际度量。
+1. 在 **软预留映射** 选项卡上，设置从实际度量到计算度量的映射。 对于上一个示例，可以使用以下设置将 `AvailableToReserve` 映射到之前定义的 `SoftReservPhysical` 实际度量。
 
     | 实际度量数据源 | 实际度量 | 可预留数据源 | 可预留计算度量 |
     |---|---|---|---|
-    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+    | `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
     > [!NOTE]
     > 如果不能编辑 **软预留映射** 选项卡，可能需要在 **功能管理** 选项卡上开启 *OnHandReservation* 功能。
 
-现在，在 `SoftReservOrdered` 中进行预留时，库存可见性将自动查找 `AvailableToReserve` 及其相关计算公式以执行预留验证。
+现在，在 `SoftReservPhysical` 中进行预留时，库存可见性将自动查找 `AvailableToReserve` 及其相关计算公式以执行预留验证。
 
 例如，您在库存可见性中具有以下现有库存。
 
 ```json
 {
-    "productId": "T-shirt",
+    "productId": "D0002",
     "dimensions": {
         "SiteId": "1",
         "LocationId": "11",
@@ -433,7 +444,7 @@ ms.locfileid: "9542264"
     },
     "quantities": {
         "iv": {
-            "SoftReservOrdered": 90
+            "SoftReservPhysical": 90
         },
         "fno": {
             "availphysical": 70.0,
@@ -448,14 +459,14 @@ ms.locfileid: "9542264"
 
 在此示例中，将采用以下计算：
 
-`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservOrdered`  
+`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservPhysical`  
 = 70 + 50 – 20 – 90  
 = 10
 
-因此，如果尝试对 `iv.SoftReservOrdered` 进行预留，并且数量小于或等于 `AvailableToReserve` (10)，则可进行预留。
+因此，如果尝试对 `iv.SoftReservPhysical` 进行预留，并且数量小于或等于 `AvailableToReserve` (10)，软预留请求将成功。
 
 > [!NOTE]
-> 调用预留 API 时，可以通过在请求正文中指定 `ifCheckAvailForReserv` 布尔值参数来控制预留验证。 值为 `True` 表示需要验证，而值为 `False` 则表示不需要验证。 默认值为 `True`。
+> 调用预留 API 时，可以通过在请求正文中指定 `ifCheckAvailForReserv` 布尔值参数来控制预留验证。 值 `True` 意味着需要验证，而值 `False` 意味着不需要验证（虽然您最终可能会得到负 `AvailableToReserve` 数量，但系统仍会允许您进行软预留）。 默认值为 `True`。
 
 ### <a name="soft-reservation-hierarchy"></a>软预留层次结构
 
@@ -488,18 +499,21 @@ ms.locfileid: "9542264"
 
 ## <a name="complete-and-update-the-configuration"></a>完成和更新配置
 
-完成配置后，必须将所有更改提交给库存可见性。 若要提交更改，请在 Power Apps 的 **配置** 页右上角中选择 **更新配置**。
+完成配置后，必须将所有更改提交给库存可见性。 按照以下步骤提交更改。
 
-首次选择 **更新配置** 时，系统会请求您的凭据。
+1. 在 Power Apps 中，在 **配置** 页面上，选择右上角的 **更新配置**。 
+1. 系统要求提供登录凭据。 输入以下值：
 
-- **客户端 ID** – 您为库存可见性创建的 Azure 应用程序 ID。
-- **租户 ID** – 您的 Azure 租户 ID。
-- **客户端密钥** – 您为库存可见性创建的 Azure 应用程序密钥。
+    - **客户端 ID** – 您为库存可见性创建的 Azure 应用程序 ID。
+    - **租户 ID** – 您的 Azure 租户 ID。
+    - **客户端密钥** – 您为库存可见性创建的 Azure 应用程序密钥。
 
-登录后，库存可见性服务中将更新配置。
+    有关这些凭据以及如何查找凭据的更多信息，请参阅[安装和设置库存可见性](inventory-visibility-setup.md)。
 
-> [!NOTE]
-> 请务必先验证数据源名称、实际度量和维度映射，然后再更新库存可见性服务的配置。 选择 **更新配置** 之后，不能修改这些设置。
+    > [!IMPORTANT]
+    > 务必先验证数据源名称、实际度量和维度映射，然后再更新配置。 更新后，您将无法修改这些设置。
+
+1. 登录后，再次选择 **更新配置**。 系统将应用您的设置并显示更改的内容。
 
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>默认配置示例
 
@@ -694,13 +708,19 @@ ms.locfileid: "9542264"
 
 将为 `fno` 数据源配置以下实际度量：
 
-- `Ordered`
 - `Arrived`
-- `AvailPhysical`
 - `PhysicalInvent`
 - `ReservPhysical`
+- `onorder`
+- `notspecified`
+- `availordered`
+- `availphysical`
+- `picked`
+- `postedqty`
+- `quotationreceipt`
+- `received`
+- `ordered`
 - `ReservOrdered`
-- `OnOrder`
 
 #### <a name="configuration-of-the-pos-data-source"></a>“pos”数据源的配置
 
@@ -766,7 +786,7 @@ ms.locfileid: "9542264"
 
 | 实际度量数据源 | 实际度量 | 可预留数据源 | 可预留计算度量 |
 |---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+| `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
 #### <a name="reservation-hierarchy"></a>预留层次结构
 
@@ -778,35 +798,5 @@ ms.locfileid: "9542264"
 | `LocationId` | 2 |
 | `ColorId` | 3 |
 | `SizeId` | 4 |
-| `StyleId` | 5 |
-| `BatchId` | 6 |
-| `SerialId` | 7 |
-| `StatusId` | 8 |
-| `LicensePlateId` | 9 |
-| `WMSLocationId` | 10 |
-| `WMSPalletId` | 11 |
-| `ConfigId` | 12 |
-| `VersionId` | 13 |
-| `CustomDimension1` | 14 |
-| `CustomDimension2` | 15 |
-| `CustomDimension3` | 16 |
-| `CustomDimension4` | 17 |
-| `CustomDimension5` | 18 |
-| `CustomDimension6` | 19 |
-| `CustomDimension7` | 20 |
-| `CustomDimension8` | 21 |
-| `CustomDimension9` | 22 |
-| `CustomDimension10` | 23 |
-| `CustomDimension11` | 24 |
-| `CustomDimension12` | 25 |
-| `ExtendedDimension1` | 26 |
-| `ExtendedDimension2` | 27 |
-| `ExtendedDimension3` | 28 |
-| `ExtendedDimension4` | 29 |
-| `ExtendedDimension5` | 30 |
-| `ExtendedDimension6` | 31 |
-| `ExtendedDimension7` | 32 |
-| `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

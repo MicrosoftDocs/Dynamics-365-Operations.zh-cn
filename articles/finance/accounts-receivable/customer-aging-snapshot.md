@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: e4ccc8ac9b5374ca0713167a17b8704727c687fd
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643676"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775228"
 ---
 # <a name="customer-aging-snapshots"></a>客户帐龄快照
 
@@ -31,9 +31,10 @@ ms.locfileid: "9643676"
 **客户信用和收款** 工作区也显示客户帐龄。 有关详细信息，请参阅[信用和收款管理 Power BI 内容](credit-collections-power-bi.md)。
 
 > [!NOTE]
-> 为了帮助减少创建帐龄快照所需的时间，在 **功能管理** 工作区打开以下功能：**客户帐龄性能增强** 
-> **客户池的客户帐龄性能增强**  
-> 启用这两项功能后，可以在创建帐龄快照时使用 **客户池**。 
+> 为了帮助减少创建帐龄快照所需的时间，请在 **功能管理** 工作区打开以下功能： 
+> - **客户帐龄性能增强** 
+> - **客户池的客户帐龄性能增强**  
+>启用这两项功能后，可以在创建帐龄快照时使用 **客户池**。 
 
 创建客户帐龄快照时，请使用以下字段输入有关它的信息：
 

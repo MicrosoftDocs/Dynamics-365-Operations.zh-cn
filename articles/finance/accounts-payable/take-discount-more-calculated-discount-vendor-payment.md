@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27a6ec8fdba495535227d9d893d59edac5588985
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: cd74c6677f80a9075449908411350f1c81b95b02
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715686"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778349"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>获取比供应商付款的计算折扣更多的折扣
 
@@ -32,13 +32,13 @@ ms.locfileid: "9715686"
 
 | 标记     | 使用现金折扣 | 凭证   | 帐户 | 日期      | 到期日期  | 开票 | 交易记录币种金额 | 货币 | 要结算的金额 |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| 已选择 | 标准            | Inv-10040 | 3051    | 6/29/2015 | 7/29/2015 | 10040   | 1,000.00                       | 美元      | 940.00           |
+| 已选择 | 标准            | Inv-10040 | 3051    | 2020 年 6 月 29 日 | 2020 年 7 月 29 日 | 10040   | 1,000.00                       | USD      | 940.00           |
 
 折扣信息显示在 **结算交易记录** 页的底部。
 
 | 字段                        | 值     |
 |------------------------------|-----------|
-| 现金折扣日期           | 7/12/2015 |
+| 现金折扣日期           | 2020 年 7 月 12 日 |
 | 现金折扣金额         | 60.00     |
 | 使用现金折扣            | 标准    |
 | 提取了现金折扣          | 0.00      |

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 7ef93b81ce37128f7ff400eb4034ffea01756038
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068981"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779845"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>子分类帐转移到总帐
 
@@ -35,7 +35,7 @@ ms.locfileid: "9068981"
 - **异步** – 立即安排将子分类帐会计条目转移到总分类帐。 只要有资源可在服务器上处理此请求，就会记录总帐凭证。
 - **计划批处理** – 必须转移的子分类帐会计条目被添加到总帐的处理队列中。 队列中的条目将按条目的接收顺序进行处理。 如果有资源可在服务器上处理此批处理作业，每个总帐凭证将在计划的时间更新科目。
 
-在 10.0.8 版本中，进行了改进以增强 **异步** 选项的性能。 在功能名称 **子分类帐转移到总帐性能优化** 下启用了此功能。
+进行了改进以增强 **异步** 选项的性能。 在功能名称 **子分类帐转移到总帐性能优化** 下启用了此功能。
 
 异步转移子分类帐批次的功能可以帮助改进数据从子分类帐到总帐的转移。 通过对更小的一组交易进行分组，然后按组转移交易，此功能可以更高效地处理交易。 分组交易后，批处理服务器的资源将被更高效地利用。
 

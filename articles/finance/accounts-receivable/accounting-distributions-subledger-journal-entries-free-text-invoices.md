@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712277"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778403"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>会计分配和普通发票的子分类帐条目
 
@@ -30,9 +30,9 @@ ms.locfileid: "8712277"
 
 ## <a name="accounting-distributions"></a>会计分配
 
-您可以使用“普通发票”页中的以下按钮查看和更改普通发票的每笔金额的会计分配。
+您可以使用 **普通发票** 页中的以下按钮查看和更改普通发票的每笔金额的会计分配。
 
--   **分摊金额** — 查看和更改单独行和任何子行的会计分配，例如税金或费用。 您还可以直接从“销售税交易记录”页或“费用交易记录”页查看和更改子行的会计分配。
+-   **分摊金额** — 查看和更改单独行和任何子行的会计分配，例如税金或费用。 您还可以直接从 **销售税交易记录** 页或 **费用交易记录** 页查看和更改子行的会计分配。
     -   更改普通发票抬头金额，如费用或币种化整金额。
     -   更改普通发票行金额。
 -   **查看分配** - 查看文档中所有行的会计分配。 您无法从此视图更改会计分配。
@@ -120,7 +120,7 @@ ms.locfileid: "8712277"
 </table>
 
 ## <a name="distributing-taxes"></a>分配税
-无法在计算税金之前创建税金会计分配。 若要计算增值税，必须完成“普通发票”窗体中的以下任务之一：
+无法在计算税金之前创建税金会计分配。 若要计算增值税，必须完成 **普通发票** 页中的以下任务之一：
 -   查看增值税。
 -   查看发票合计。
 -   查看现金流。

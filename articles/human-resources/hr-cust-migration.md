@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733434"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760354"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources 客户迁移
 
@@ -38,13 +38,12 @@ ms.locfileid: "9733434"
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Dataverse 环境备份（沙盒）
 
-1. 可选但推荐：使用 Human Resources 生产环境的副本刷新现有的 Human Resources 沙盒环境。
-2. 使用 Power Platform 管理中心[创建新的 Dataverse 环境](/power-platform/admin/create-environment#create-an-environment-with-a-database)。
+ - 可选但推荐：使用 Human Resources 生产环境的副本刷新现有的 Human Resources 沙盒环境。
+ - 使用 Power Platform 管理中心创建新的 Dataverse 环境。
+ - 将链接到独立 Human Resources 应用的现有 Dataverse 环境复制到您在上一步中创建的环境中。
 
-    > [!NOTE]
-    > 添加数据库时，确保将 **启用 Dynamics 365 应用** 选项设置为 **是**。
-
-3. 将链接到独立 Human Resources 应用的[现有 Dataverse 环境复制](/power-platform/admin/copy-environment)到您在上一步中创建的环境中。
+> [!NOTE]
+> 添加数据库时，确保将 **启用 Dynamics 365 应用** 选项设置为 **是**。 有关详细信息，请参阅[准备 Power Platform 环境](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Dataverse 容量
 
@@ -89,9 +88,9 @@ ms.locfileid: "9733434"
 #### <a name="prepare-a-power-platform-environment"></a>准备 Power Platform 环境
 
 > [!NOTE]
-> 此步骤仅适用于沙盒环境迁移。 当您迁移生产环境时，附加到生产环境的现有 Power Platform 管理中心环境将继续运行。
+> 此步骤仅适用于沙盒环境迁移。 当您迁移生产环境时，附加到生产环境的现有 Power Platform 管理中心环境将继续运行。 添加数据库时，确保将 **启用 Dynamics 365 应用** 按钮设置为 **是**。 
 
-- 在 Power Platform 管理中心，[创建 Power Platform 环境](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center)用于沙盒迁移，或选择现有环境。
+- 在 Power Platform 管理中心，[创建一个带有数据库的环境](/power-platform/admin/create-environment#create-an-environment-with-a-database)来用于沙盒迁移，或选择现有环境。
 - [复制环境](/power-platform/admin/copy-environment)刷新用于映射的 Power Platform 环境。
 
 #### <a name="migrate-the-sandbox-environment"></a>迁移沙盒环境

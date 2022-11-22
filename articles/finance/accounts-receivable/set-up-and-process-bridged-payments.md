@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb563008f156e1bfa6e4e9a705e9170342719ce7
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887968"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775160"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>设置和处理过渡付款
 
 [!include [banner](../includes/banner.md)]
 
-过渡付款是分两步过帐到总帐的付款。 通常，当付款方式设置为 **银行**，并且您必须仅在交易清除银行后才将交易过帐到银行帐户时，应该使用此方法。 但是，您也可以将其用于分类帐科目。 在这种情况下，系统会在处理过渡过帐时将金额从一个主科目转移到另一个主科目。
+过渡付款是分两步过帐到总帐的付款。 通常，当付款方式设置为 **银行**，并且您必须仅在交易清除银行后才将交易过帐到银行帐户时，应该使用此方法。 但是，您也可以将其用于分类帐科目。 在这种情况下，将在处理过渡过帐时将金额从一个主科目转移到另一个主科目。
 
 您可以从应付帐款或应收帐款创建过渡付款。 尽管本文说明了如何为应收帐款配置过渡过帐，但应付帐款交易的步骤是相似的。
 

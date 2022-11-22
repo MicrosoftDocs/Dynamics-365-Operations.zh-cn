@@ -2,23 +2,23 @@
 title: 将子公司数据导出到文件
 description: 本文说明如何为从 Microsoft Dynamics 365 Finance 导出数据，然后将其导入到合并的法人作准备。
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 11/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30d69f9a2813621df410a29568644f264392fb49
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876144"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779953"
 ---
 # <a name="export-subsidiary-data-to-files"></a>将子公司数据导出到文件
 
@@ -32,14 +32,14 @@ ms.locfileid: "8876144"
 
     | 字段                             | 说明 |
     |-----------------------------------|-------|
-    | 主帐户                      | 指定要合并的帐户。 要包括所有帐户，请将此字段留空。 |
-    | 使用合并帐户         | 如果您指定了合并帐户，请将此选项设置为 **是**。 |
-    | 选择合并帐户的来源 | 选择 **主帐户** 或 **合并帐户组**。 |
-    | 合并帐户组       | 为您选择的合并帐户选择合并帐户组。 |
-    | 合并期间              | 为合并指定“开始”和“结束”日期。 |
-    | 包括实际金额            | 将此选项设置为 **是** 将包括实际金额。 |
-    | 包括预算金额            | 将此选项设置为 **是** 将在合并中包括预算金额。 |
-    | 预算模型                     | 指定要包括的预算模型。 |
+    | **主科目**                      | 指定要合并的帐户。 要包括所有帐户，请将此字段留空。 |
+    | **使用合并帐户**         | 如果您指定了合并帐户，请将此选项设置为 **是**。 |
+    | **选择合并帐户的来源** | 选择 **主帐户** 或 **合并帐户组**。 |
+    | **合并帐户组**       | 为您选择的合并帐户选择合并帐户组。 |
+    | **合并期间**              | 为合并指定“开始”和“结束”日期。 |
+    | **包括实际金额**            | 将此选项设置为 **是** 将包括实际金额。 |
+    | **包括预算金额**            | 将此选项设置为 **是** 将在合并中包括预算金额。 |
+    | **预算模型**                     | 指定要包括的预算模型。 |
 
 3. 在 **财务维度** 选项卡上，指定合并的详细信息：
 

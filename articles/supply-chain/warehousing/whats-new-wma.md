@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702187"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764231"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
 本文列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="version-20370"></a>版本 2.0.37.0
+
+此版本引入了以下新增功能、修复和改进：
+- 添加了一个用户设置，让工作人员可以选择应用显示产品照片的位置（在卡和步骤标题中、仅在步骤标题中或根本不显示）。 
+- 通过减小步骤横幅和数量输入旋转图标的大小改进了详细信息卡的屏幕布局，从而为其他内容留出更多空间。 
+- 改进了在 Honeywell Thor 设备上运行时的用户界面。 
+- 改进了全屏模式（仅适用于带有硬件键盘的设备）。 
+- 改进了按优先级或子优先级（DataPriority 或 DisplaySubPriority）对详细信息卡和自定义页面进行排序的结果。 
+- 增加了更多语言支持。 
+- 改进了稳定性。 
+- 改进了几个图像和图标。 
 
 ## <a name="version-20350"></a>版本 2.0.35.0
 

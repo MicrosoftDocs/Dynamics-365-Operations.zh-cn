@@ -2,26 +2,19 @@
 title: POS 中的传入库存操作
 description: 本文介绍销售点 (POS) 入站库存操作的功能。
 author: hhainesms
-ms.date: 09/17/2020
+ms.date: 11/16/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: hhaines
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.9
-ms.custom: ''
-ms.assetid: ''
-ms.search.industry: Retail
-ms.search.form: ''
-ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 7999c8409c71c7ccf9c1d44bd86ddca6f5e8f6ff
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288344"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785010"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>POS 中的传入库存操作
 
@@ -31,6 +24,11 @@ ms.locfileid: "9288344"
 
 > [!NOTE]
 > 在 Commerce 版本 10.0.10 及更高版本中，POS 应用程序中中与接收商店库存和采购订单及转移单有关的所有新功能将添加到 **入站操作** POS 操作中。 如果您正在使用 POS 中的领料和收货操作，建议您指定策略从该操作迁移到新的入站和出站操作。 虽然此产品中不会移除领料和收货操作，但是在版本 10.0.9 之后，从功能角度到性能角度，都不会再对其进行更多投入。
+
+以下视频提供了对 Dynamics 365 Commerce 中的商店库存业务流程和功能的概述。
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSx]
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>先决条件：配置异步单据框架
 

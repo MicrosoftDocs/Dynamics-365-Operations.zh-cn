@@ -2,25 +2,25 @@
 title: 财务期间结帐工作区
 description: 本文提供财务期间结帐工作区和相关配置的概览。
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865703"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780034"
 ---
 # <a name="financial-period-close-workspace"></a>财务期间结帐工作区
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865703"
 
 本文提供 **财务期间结帐** 工作区和相关配置的概览。
 
-财务期间结帐工作区
+## <a name="financial-period-close-workspace"></a>财务期间结帐工作区
 
 **财务期间结帐** 工作区用于跨公司、区域和人员跟踪财务结帐流程。 根据 **财务期间结帐** 工作区的视图，您将看到结帐计划的所有任务和状态，或仅分配给您的任务。 
 
@@ -101,7 +101,7 @@ ms.locfileid: "8865703"
 
 您还必须定义要与结算计划关联的公司。 如果模板任务分配给多个公司，单独的任务将为结算计划中的每个公司创建并且分配给模板任务。 
 
-在结算计划完成后，为其选择 **已关闭** 选项。 任务历史记录将仍然在 **所有财务期间结帐任务** 列表页显示，但是结算计划将从工作区中删除。 在结算计划标记为 **已关闭** 后，您不能为其添加任务、编辑任务或从中删除任务。
+在结算计划完成后，选择 **已关闭** 选项。 任务历史记录将仍然在 **所有财务期间结帐任务** 列表页显示，但是结算计划将从工作区中删除。 在结算计划标记为 **已关闭** 后，您不能为其添加任务、编辑任务或从中删除任务。
 
 
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c45133091a86da773d7f63addd460abd92aae7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4525534f906322c7fe4c232f0f6da5b308829087
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868335"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775207"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>审核应付帐款中的账单和关键数据
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868335"
 
 在您从供应商处收到针对采购订单上的货物或服务的发票时，该业务流程可能要求首先接收货物或服务，然后才能对发票进行审核以便付款。 在您开始前，请确保选择发票匹配 Configuration Key。 
 
-在 **应付帐款参数** 页面，确保已选择“启用发票匹配验证”选项，已设置 **过帐发票差异** 字段为 **请求批准**，以及已设置 **行匹配政策** 字段为 **三向匹配**。
+在 **应付帐款参数** 页面，确保已选择 **启用发票匹配验证** 选项，已将 **过帐发票差异** 字段设置为 **要求审核**，以及已将 **行匹配政策** 字段设置为 **三向匹配**。
 
 该程序适用于 USMF 演示公司。 应付帐款经理或会计经理将执行以下步骤。
 

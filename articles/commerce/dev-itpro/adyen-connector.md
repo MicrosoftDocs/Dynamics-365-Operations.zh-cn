@@ -2,7 +2,7 @@
 title: “面向 Adyen 的 Dynamics 365 Payment Connector”概览
 description: 本文概述了适用于 Adyen 的 Microsoft Dynamics 365 付款连接器。
 author: rassadi
-ms.date: 10/27/2022
+ms.date: 11/16/2022
 ms.topic: overview
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -12,13 +12,12 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2019-01-01
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 931fc69cda8daa2e06b6f1155fbf0369fd2bca55
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: 6c819e8cf9f5dcb7895ac2633decf0a925c08f2d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728301"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9784984"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-overview"></a>“面向 Adyen 的 Dynamics 365 Payment Connector”概览
 
@@ -96,6 +95,11 @@ Microsoft Dynamics 365 Finance 版本8.1.3（2019 年 1 月）或更高版本以
 
 ### <a name="supported-payment-terminals"></a>支持的付款终端
 适用于 Adyen 的 Dynamics 365 付款连接器利用与设备无关的 [Adyen 付款终端 API](https://www.adyen.com/blog/introducing-the-terminal-api)。 它支持此应用程序编程接口 (API) 支持的所有付款终端。 有关支持的付款终端的完整列表，请访问 [Adyen POS 终端](https://www.adyen.com/pos-payments/terminals)页面。
+
+以下视频介绍了 Adyen Castles SE1 Android 付款终端的功能。
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bKeM]
 
 ### <a name="supported-payment-instruments"></a>支持的付款方式
 

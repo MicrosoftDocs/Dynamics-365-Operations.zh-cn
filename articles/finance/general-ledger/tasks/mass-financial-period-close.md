@@ -2,7 +2,7 @@
 title: 批量财务期间结帐
 description: 本文显示如何暂停期间，或一次性永久关闭一个期间或多个法人。
 author: aprilolson
-ms.date: 08/16/2019
+ms.date: 11/16/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8a85d512842b27f2d74507be16a8f2819f483e0d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872432"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779802"
 ---
 # <a name="mass-financial-period-close"></a>批量财务期间结帐
 
@@ -26,7 +26,11 @@ ms.locfileid: "8872432"
 
 本文显示如何暂停期间，或一次性永久关闭一个期间或多个法人。 此外，此任务将显示如何把用户组过帐限制到特定模块。
 
-1. 在导航窗格中，转到 **总帐 > 期间关闭 > 分类帐日历**。 请注意，显示的法人列表取决于该页中选择的会计日历。 将仅显示使用所选会计日历的法人。
+1. 在导航窗格中，转到 **总帐 > 期间关闭 > 分类帐日历**。 
+
+>[!NOTE]
+> 显示的法人列表取决于该页中选择的会计日历。 将仅显示使用所选会计日历的法人。
+
 2. 选择 **编辑**。
 3. 选择要修改其状态的期间。
 4. 选择要更新其状态的法人。 可以通过选中网格左上方的复选标记快速选中所有法人。  

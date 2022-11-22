@@ -2,7 +2,7 @@
 title: 合并公司中的币种重估
 description: 本文描述如何重估合并公司中的币种。
 author: aprilolson
-ms.date: 10/02/2018
+ms.date: 10/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fbbc1d0a7ae5b7e288710c99a6af362b3db3d36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c05ef0d4d05d5113d3b858dafe49ee9c1c7211d9
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888995"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779654"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>合并公司中的币种重估
 
@@ -39,31 +39,31 @@ ms.locfileid: "8888995"
 ## <a name="original-transactions"></a>原始交易记录
 ### <a name="cash-receipt-transactions-in-usmf"></a>USMF 中的现金收据交易记录
 
-| 日期       | 会计科目               | 货币 | 金额 |
+| 日期       | 分类帐帐户               | 货币 | 时长 |
 |------------|------------------------------|----------|--------|
-| 10/11/2015 | 110110 – 现金                | 美元      | 500    |
-| 10/11/2015 | 130100 – 应收帐款 | 美元      | -500   |
+| 2020 年 10 月 11 日 | 110110 – 现金                | USD      | 500    |
+| 2020 年 10 月 11 日 | 130100 – 应收帐款 | USD      | -500   |
 
 ## <a name="exchange-rates"></a>汇率
 
 | 原始币种 | 目标币种 | 开始日期 | 汇率 |
 |---------------|-------------|------------|---------------|
-| 欧元           | 美元         | 10/1/2015  | 200           |
-| 欧元           | 美元         | 11/1/2015  | 150           |
-| 欧元           | 美元         | 12/1/2012  | 100           |
+| EUR           | USD         | 2020 年 10 月 1 日  | 200           |
+| EUR           | USD         | 2020 年 11 月 1 日  | 150           |
+| EUR           | USD         | 2017 年 12 月 1 日  | 100           |
 
-## <a name="perform-the-consolidation-for-october-2015"></a>执行合并（2015 年 10 月）
+## <a name="perform-the-consolidation-for-october-2020"></a>执行合并（2020 年 10 月）
 ### <a name="balances-in-the-consolidation-company"></a>合并公司中的余额
 
-| 会计科目 | 货币 | 金额 | 计算    |
+| 分类帐帐户 | 货币 | 金额 | 计算    |
 |----------------|----------|--------|----------------|
 | 110110         | 欧元      | 250    | 500 美元 × 50%  |
 | 130100         | 欧元      | -250   | -500 美元 × 50% |
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a>执行科目的币种重估（2015 年 10 月 1 日 - 2015 年 11 月 30 日）
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-november-30-2020"></a>执行科目的币种重估（2020 年 10 月 1 日 - 2020 年 11 月 30 日）
 ### <a name="balances-in-the-consolidation-company"></a>合并公司中的余额
 
-| 会计科目 | 货币 | 金额  | 计算                        |
+| 分类帐帐户 | 货币 | 金额  | 计算                        |
 |----------------|----------|---------|------------------------------------|
 | 110110         | 欧元      | 333.33  | 原金额为 500 × 66.6667%  |
 | 130100         | 欧元      | -333.33 | 原金额为 -500 × 66.6667% |
@@ -72,10 +72,10 @@ ms.locfileid: "8888995"
 
 您将看到申报币种金额的其他交易记录。
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a>执行科目的币种重估（2015 年 10 月 1 日 - 2015 年 12 月 31 日）
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-december-31-2020"></a>执行科目的币种重估（2020 年 10 月 1 日 - 2020 年 12 月 31 日）
 ### <a name="balances-in-the-consolidation-company"></a>合并公司中的余额
 
-| 会计科目 | 货币 | 金额  | 计算                                          |
+| 分类帐帐户 | 货币 | 金额  | 计算                                          |
 |----------------|----------|---------|------------------------------------------------------|
 | 110110         | 欧元      | 500.00  | 原金额为 500 × 1                           |
 | 130100         | 欧元      | -500.00 | 原金额为 -500 × 1                          |

@@ -2,25 +2,25 @@
 title: 年终结算
 description: 本文描述运行总帐年终结算流程所需设置和步骤。
 author: kweekley
-ms.date: 12/06/2021
+ms.date: 11/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e1c7722b560246fb597f0b7f91a70afecf69e22
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883204"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779735"
 ---
 # <a name="year-end-close"></a>年终结算
 
@@ -62,7 +62,7 @@ ms.locfileid: "8883204"
 
 ## <a name="define-year-end-close-templates"></a>定义年终结算模板
 
-配置系统之后，可以运行年终结算流程。 在 **年终结算模板设置** 页上，可以为将为其运行年终结算流程的法人组定义模板。 此模板在每个年终结算中重复使用，但是如果您的组织变动，可以修改此模板。
+配置完成之后，可以运行年终结算流程。 在 **年终结算模板设置** 页上，可以为将为其运行年终结算流程的法人组定义模板。 此模板在每个年终结算中重复使用，但是如果您的组织变动，可以修改此模板。
 
 首先，为模板设置 **组名称** 字段，并选择会计日历。 组名称应标识所含法人组。 在确定法人组时，请记住，只有为法人选择了相同的会计日历时，才能将法人包括在同一组中。 例如，可以根据地理位置设置模板，可以为北美法人、欧洲、中东和非洲 (EMEA) 法人以及亚太地区 (APAC) 法人创建单独的组。
 

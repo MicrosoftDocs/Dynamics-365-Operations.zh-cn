@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405426"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757159"
 ---
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
@@ -50,7 +50,7 @@ ms.locfileid: "9405426"
 | 在操作窗格或菜单中关闭一个选项卡        | Esc                              |
 | 模拟右键单击                          | Shift+F10                        |
 | 打开上下文菜单    | Ctrl+F10                         |
-| 在窗体/对话框中执行默认按钮 | Alt+Enter                        |
+| 在页面/对话框中执行默认按钮 | Alt+Enter                        |
 | 单击按钮或磁贴                          | Enter 或 Space                   |
 | 查看计数磁贴的刷新信息       | Alt+向上箭头                     |
 | 查看当前可用的快捷方式              | Alt+Shift+K                      |
@@ -85,13 +85,13 @@ ms.locfileid: "9405426"
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | 打开用于当前列的网格筛选                                                                          | Ctrl+G                   |
 | 关闭用于当前列的网格筛选                                                                         | Esc                      |
-| 打开“筛选器”窗格（或如果“筛选器”窗格已打开，在“筛选器”窗格和主窗体之间切换） | Alt+M、F 或 Ctrl+F3       |
+| 打开筛选器窗格（或如果筛选器窗格已打开，在筛选器窗格和主页之间切换） | Alt+M、F 或 Ctrl+F3       |
 | 关闭“筛选器”窗格（焦点在“筛选器”窗格内）                                                               | Esc                      |
 | 打开高级筛选/排序                                                                                        | Ctrl+Shift+F3            |
 | 应用快速筛选器（当焦点位于快速筛选器时）                                                              | Enter                    |
 | 应用网格筛选器（当焦点位于列标题的筛选器字段时）                                             | Enter                    |
 
-## <a name="form-shortcuts"></a>窗体快捷方式
+## <a name="page-shortcuts"></a>页面快捷方式
 
 | 要执行的操作                                    | 按              |
 |-----------------------------------------------|-------------------|
@@ -100,7 +100,7 @@ ms.locfileid: "9405426"
 | 保存记录                                   | Alt+S 或 Ctrl+S   |
 | 还原（恢复）                              | Ctrl+Shift+F5     |
 | 数据刷新                                  | Shift+F5          |
-| 移到窗体中的第一个可见字段   | Alt+Shift+F       |
+| 移到页面上的第一个可见字段   | Alt+Shift+F       |
 | 开关编辑模式                              | F2                |
 | 附加文档                             | Ctrl+Shift+A      |
 | 导出至 Excel                               | Ctrl+Shift+E      |
@@ -108,13 +108,13 @@ ms.locfileid: "9405426"
 | 移到下一个记录（在网格外）      | Ctrl+向下箭头   |
 | 移到第一个记录（在网格外）     | Ctrl+Home         |
 | 移到最后一个记录（在网格外）      | Ctrl+End          |
-| 闭关窗体（单击“后退”）                   | Esc               |
-| 关闭具有显示保存的窗体             | Shift+Esc         |
-| 关闭窗体，放弃所有未保存的更改 | Alt+Shift+Q       |
+| 关闭页面（选择返回按钮）<br><br>**注意：** 如果有弹出窗口（工具提示、日期选取器、下拉列表等）打开，第一次使用 Esc 将关闭弹出窗口。       | Esc               |
+| 关闭具有显式保存的页面             | Shift+Esc         |
+| 关闭页面并放弃所有未保存的更改 | Alt+Shift+Q       |
 
-## <a name="form-navigation-shortcuts"></a>窗体导航快捷方式
+## <a name="page-navigation-shortcuts"></a>页面导航快捷方式
 
-| 要执行的操作                                          | 按                                        |
+| 要执行的操作                                          | 按                                         |
 |-----------------------------------------------------|----------------------------------------------|
 | 移到下一个/上一个字段                     | Tab / Shift+Tab                              |
 | 移到下一个/上一个选项卡                       | Alt+Shift+右箭头/Alt+Shift+左箭头 |
@@ -192,13 +192,13 @@ ms.locfileid: "9405426"
 | 打开帮助窗格                                                            | Ctrl+?                     |
 | 打开跟踪分析器                                                         | Alt+Shift+T                |
 | 移到导航窗格                                                   | Alt + F1                     |
-| 将窗体添加到收藏夹/从收藏夹中删除窗体（焦点在导航窗格中的窗体上）   | Shift+F                    |
+| 将页面添加到收藏夹/从收藏夹中删除页面（焦点在导航窗格中的页面上）   | Shift+F                    |
 | 移动到标准操作窗格                                              | Alt+M、A 或 Ctrl+F6         |
 | 移到筛选器窗格（可能包括将其打开）                        | Alt+M、F 或 Ctrl+F3         |
 | 将焦点移到页面内容（焦点在筛选器窗格内）                | Alt+M、M 或 Ctrl+F3         |
-| 移到详细信息窗体上的导航列表（可能包括将其打开）    | Alt+M、S 或 Ctrl+F8         |
+| 移到导航列表（可能包括将其打开）    | Alt+M、S 或 Ctrl+F8         |
 | 将焦点移到页面内容（焦点在导航列表内）            | Alt+M、M 或 Ctrl+F8         |
-| 关闭“详细信息”窗体中导航列表（焦点在导航列表内） | Esc                        |
+| 关闭导航列表（焦点在导航列表内） | Esc                        |
 | 移到主页内容（焦点在其他窗格内）                    | Alt+M、M                    |
 | 移到速见表窗格（可能包括将其打开）                       | Alt+M、B 或 Ctrl+F2         |
 | 移动到下一功能标注                                              | Alt+M、C                    |

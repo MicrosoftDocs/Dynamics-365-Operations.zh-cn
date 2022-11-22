@@ -2,26 +2,22 @@
 title: 会员概览
 description: 本文描述 Dynamics 365 Commerce 内的会员能力，以及相应的帮助零售商轻松开始会员计划的设置步骤。
 author: josaw1
-ms.date: 07/21/2020
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.region: global
+ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.custom: 16201,  ""intro-internal
+ms.custom: 16201, "intro-internal"
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
-ms.search.industry: Retail
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
-ms.openlocfilehash: e1b2a5ec6d1a2b925ccae07b5217fbb24a2e6a10
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 17742bb5c0091804fc6f43bb2aabb7af73229890
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277980"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9784956"
 ---
 # <a name="loyalty-overview"></a>会员概览
 
@@ -36,6 +32,11 @@ ms.locfileid: "9277980"
 - 定义收益规则以标识客户为获得奖励必须完成的活动。 您还可以定义兑现规则以标识客户何时如何可以兑现奖励。
 - 从您会员计划参与者的所有渠道签发会员卡，并将会员卡链接到一个或多个客户可以参与的会员计划。 您还可以将客户记录链接到会员卡，从而使客户可以合并来自多个卡的积分和兑现积分。
 - 手动调整会员卡或将会员奖励从一个卡转移到另一个卡以满足或奖励客户。
+
+以下视频提供了对 Dynamics 365 Commerce 中的会员功能的概述和演示。
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wW]
 
 ## <a name="setting-up-loyalty-programs"></a>设置会员计划
 

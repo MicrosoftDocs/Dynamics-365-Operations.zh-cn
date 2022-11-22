@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ad75439bf3dfa1ed33e35fa9cfee153012e9f60
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4c441d197957674d68c4c92b454a9dca91d76ea0
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716794"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775153"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>使用供应商发票的 AP 中的重要发票数据
 
@@ -68,7 +68,10 @@ ms.locfileid: "8716794"
 17. 在 **单价** 字段中，输入一个数字。 由于单位价格匹配，因而状态更新为“已通过”。 如果您的政策允许有差异，或匹配只是一个警告，您仍然可以过帐发票。  
 18. 关闭该页面。
 19. 单击 **过帐**。
-20. 关闭窗体。 请注意，采购订单不再列为“已接收但未开票”。  
+20. 关闭该页面。 
+
+>[!Note] 
+>采购订单不会再列为“已接收但未开票”。  
 
 
 

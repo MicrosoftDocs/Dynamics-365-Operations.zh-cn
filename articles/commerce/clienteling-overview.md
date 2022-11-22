@@ -2,28 +2,23 @@
 title: 客户服务解决方案概览
 description: 本文提供商店应用程序中可用的新客户服务解决方案功能的概览。
 author: bebeale
-ms.date: 02/01/2021
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "260624"
 - intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc7daeb27c25efa21fd34b0456af8892074056d5
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885603"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785037"
 ---
 # <a name="clienteling-overview"></a>客户服务解决方案概览
 
@@ -31,6 +26,11 @@ ms.locfileid: "8885603"
 
 
 许多零售商，尤其是高端专业零售商，都希望其销售助理与重要客户建立长期关系。 助理需要了解这些客户的好恶、购买历史、产品偏好以及重要日期，例如周年纪念日和生日。 助理需要一个可以捕获这些信息并在需要时轻松找到它们的地方。 如果可以在单个视图中获得这些信息，助理则可以轻松地定位满足特定条件的客户。 例如，他们可以找到所有喜欢购买手提包的客户，或者近期有重要事件（例如生日或周年纪念日）的客户。
+
+以下视频演示了 Dynamics 365 Commerce 中客户服务的示例场景。
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSP]
 
 ## <a name="client-book"></a>客户端帐簿
 
