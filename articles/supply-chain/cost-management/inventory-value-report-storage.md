@@ -2,21 +2,21 @@
 title: 库存值报表
 description: 本文说明如何设置、生成和使用库存值报表。 这些报表提供有关您的库存实际和财务数量和金额的详细信息。
 author: JennySong-SH
-ms.date: 08/05/2022
+ms.date: 11/28/2022
 ms.topic: article
-ms.search.form: InventValueProcess, InventValueReportSetup
+ms.search.form: InventValueProcess, InventValueReportSetup, InventValueExecutionHistory, DataManagementWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6b21f6a7856526863914aac73d50e5c3a70605e8
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334916"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806398"
 ---
 # <a name="inventory-value-reports"></a>库存值报表
 
@@ -129,7 +129,7 @@ ms.locfileid: "9334916"
     - **直接外包** – 将此选项设置为 *是* 将显示 WIP 的直接外包成本。 此信息对于转包很有用。
     - **详细程度** – 为报表选择视图选项：
 
-        - *交易* – 在报表上查看所有相关交易。 请注意，当您查看包含大量交易的报表时，您可能会遇到性能问题。 因此，如果您想使用此查看选项，我们建议您使用 **库存值报表存储** 报表。
+        - *交易* – 在报表上查看所有相关交易。 当您查看包含大量交易的报表时，您可能会遇到性能问题。 因此，如果您想使用此查看选项，我们建议您使用 **库存值报表存储** 报表。
         - *总计* – 查看总结果。
 
     - **包括期初余额** – 将此选项设置为 *是* 将显示期初余额。 此选项仅在 **详细程度** 字段设置为 *交易* 时可用。
@@ -172,7 +172,7 @@ ms.locfileid: "9334916"
     - 使用 **筛选** 字段按几个可用列中任何一列的任何值筛选报表。
     - 使用查看菜单（位于 **筛选** 字段上方）保存和加载您喜欢的排序和筛选选项组合。
 
-## <a name="export-an-inventory-value-report-storage-report"></a>导出库存值报表存储报表
+## <a name="export-an-inventory-value-report-storage-report"></a><a name="export-stored-report"></a>导出库存值报表存储报表
 
 生成的所有报表都存储在 **库存值** 数据实体中。 可使用 Supply Chain Management 的标准数据管理功能将此实体中的数据导出到任何支持的数据格式，如 CSV 或 Excel 格式。
 
@@ -203,6 +203,34 @@ ms.locfileid: "9334916"
 1. 在出现的 **执行摘要** 页上，您可以查看导出作业的状态和导出的实体的列表。 在 **实体处理状态** 部分，选择列表中的 **库存值** 实体，然后选择 **下载文件** 下载从该实体导出的数据。
 
 有关如何使用数据管理导出数据的详细信息，请参阅[数据导入和导出作业概述](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)。
+
+## <a name="delete-stored-inventory-value-reports"></a>删除存储的库存值报表
+
+随着存储的库存价值报表数量的增加，报表最终可能会开始过多占用您的数据库的空间。 这种情况会影响系统性能并导致更高的数据存储成本。 因此，您有时可能不得不通过删除旧报表来清理报表。
+
+> [!IMPORTANT]
+> 在删除以前生成的任何库存值报表之前，我们强烈建议您首先[导出报表](#export-stored-report)并将其存储在外部，因为以后可能无法再重新生成这些报表。 存在此限制是因为当您生成库存值报表时，系统会从今天开始逆向工作，按照相反顺序处理每个库存交易记录。 如果您在生成报表时尝试回溯的时间太久，要处理的交易记录量最终可能会变得非常大，以至于系统在完成报表生成之前就会超时。 您可以生成新报表的过去时间跨度取决于相关时间跨度内系统中的库存交易记录数。
+
+### <a name="delete-one-report-at-a-time"></a>一次删除一个报表
+
+按照以下步骤一次删除一个存储的报表。
+
+1. [导出](#export-stored-report)您打算删除的报表，将其存储在外部位置供将来参考。
+1. 转到 **成本管理 \> 查询和报表 \> 库存值报表存储**。
+1. 在列表窗格中，选择要删除的报表。
+1. 在操作窗格上，选择 **删除**。
+1. 一条警告消息会提醒您备份生成的报表。 如果您已准备好继续删除，选择 **是**。
+
+### <a name="delete-several-reports-at-the-same-time"></a>同时删除多个报表
+
+按照以下步骤同时删除多个存储的报表。
+
+1. [导出](#export-stored-report)您打算删除的所有报表，将其存储在外部位置供将来参考。
+1. 转到 **成本管理 \> 库存会计 \> 清理 \> 库存值报表数据清理**。
+1. 在 **库存值报表数据清理** 对话框中，在 **删除此时间前执行的库存值报表** 字段中，选择应删除所有库存值报表的截止日期。
+1. 在 **要包括的记录** 快速选项卡上，您可以设置其他筛选条件来限制要删除的报表集。 选择 **筛选器** 打开标准查询编辑器对话，您可以在其中定义要删除的报表的属性。
+1. 在 **在后台运行** 快速选项卡上，您可以指定删除报表的方式、时间和频率。 这些字段的工作方式与它们用于 Supply Chain Management 中其他类型的[后台作业](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md)时一样。 但是，您通常会在每次需要时手动运行此作业。
+1. 选择 **确定** 删除指定的报表。
 
 ## <a name="generate-a-standard-inventory-value-report"></a>生成标准库存值报表
 

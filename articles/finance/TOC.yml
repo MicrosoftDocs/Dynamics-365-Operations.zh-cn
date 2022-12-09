@@ -1606,7 +1606,9 @@
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
                         - name: 开始使用适用于波兰的电子开票
                           href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
-                        - name: 开始使用适用于沙特阿拉伯的电子开票
+                        - name: 开始使用适用于沙特阿拉伯的电子开票 - 阶段 1
+                          href: localizations/e-invoicing-sa-get-started-phase-one.md
+                        - name: 开始使用适用于沙特阿拉伯的电子开票 - 阶段 2
                           href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
                         - name: 引入适用于沙特阿拉伯的电子开票
                           href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance

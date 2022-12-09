@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 30d3cc0bbd97cd006f12d06cda64ee63cb42252e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b0c454745bc02a101514d44a20bd47dad0c548d5
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902507"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815675"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>区分分类帐结算与年终结算
 

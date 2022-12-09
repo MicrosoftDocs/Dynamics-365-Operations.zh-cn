@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680349"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799618"
 ---
 # <a name="financial-dimensions"></a>财务维度
 
@@ -136,6 +136,12 @@ ms.locfileid: "9680349"
 - 可通过派生的维度值实体导入应该为每个驱动维度派生的值。
 
 使用实体导入数据时，如果该实体导入维度，则除非实体特意覆盖这些维度，否则导入期间将应用派生维度规则。
+
+## <a name="financial-dimension-service"></a>财务维度服务
+
+财务维度服务加载项在您的 Microsoft Dynamics Lifecycle Services 环境中可用。 当您使用数据管理框架导入具有大量行的日记帐时，它会提供改进的性能。 要使用此服务，您必须在 **财务维度服务参数** 页面启用。 目前，此服务仅适用于 500 行或更多行的导入日记帐。 此外，目前它只能处理在日记帐行上设置了 **分类帐** 科目类型的普通日记帐。 当前不支持日记帐行上的其他科目类型，如 **客户**、**供应商** 和 **银行**。 系统中设置了派生维度时不会调用此服务。
+
+当使用与数据导入并行运行的新服务导入日记帐时，财务维度服务将提供改进的性能。 它仅在日记帐中的主科目和财务维度数据上运行，将生成在日记帐行的分类帐科目字符串字段中指定的维度组合。 处理过程会将此字符串转换为结构化数据存储，财务维度框架在产品的其余部分使用此结构化数据存储进行验证、汇总报告和查询。 有关财务维度数据摘要报告的更多信息，请参阅[财务维度集](financial-dimension-sets.md)。
 
 有关详细信息，请参阅以下主题：
 

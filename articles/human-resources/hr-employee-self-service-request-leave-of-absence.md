@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51c6cb7c5706bb4bd7080c7f7d679e49771443d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e6c98246e94670dd5f882fcbbd1f269e57f66faf
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869827"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805279"
 ---
 # <a name="request-a-leave-of-absence"></a>申请休假
 
@@ -51,6 +51,22 @@ ms.locfileid: "8869827"
 1. 在 **员工自助服务** 工作区中，在 **休息时间余额** 磁贴中选择 **更多** (...)。
 
 2. 要查看您的休假请求，请选择 **查看休假**。
+
+## <a name="update-a-leave-of-absence-request"></a>更新休假请求
+
+1. 在 **员工自助服务** 工作区中，在 **休假** 磁贴中选择 **更多 (...)**。
+2. 选择要更新的休假申请，然后选择 **更新休假**。
+3. 在 **结束日期** 字段中，适当更新值来延长或缩短休假时间。
+4. 结束日期确认后，将 **确认结束日期** 选项设置为 **是**。
+5. 在 **确认结束日期** 选项设置为 **是** 后，您可以上载重返工作岗位通知。 然后选中复选框确认已上载重返工作岗位通知。
+6. 选择 **提交** 更新休假申请。
+
+## <a name="cancel-a-leave-of-absence-request"></a>取消休假申请
+
+1. 在 **员工自助服务** 工作区中，在 **休假** 磁贴中选择 **更多 (...)**。
+2. 选择要取消的休假申请，然后选择 **更新休假**。
+3. 将 **取消休假** 选项设置为 **是**。
+4. 选择 **提交** 取消休假申请。
 
 ## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>从其他系统或旧系统导入休假请求
 

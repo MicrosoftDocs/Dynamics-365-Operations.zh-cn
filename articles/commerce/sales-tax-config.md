@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.author: gmohanv
+ms.author: stuharg
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c899bd020ec9536a906a98635a6c70fac1355789
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276708"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819261"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>为在线订单配置销售税
 
@@ -33,6 +33,8 @@ ms.locfileid: "9276708"
 ## <a name="destination-based-taxes-for-online-orders"></a>在线订单的基于目的地的税务
 
 通常，装运到客户地址的在线订单的税金由目的地定义。 每个销售税组都有一个基于零售目的地的税务配置，在此配置中，您的企业可以通过分层形式定义目的地详细信息，例如国家/地区、省/自治区/直辖市、县和城市。
+
+**基于零售目的地的税** 的配置可在 **税收模块 > 间接税 > 销售税 > 销售税务组** 部分找到。
 
 ### <a name="orders-delivered-to-customer-address"></a>交货到客户地址的订单
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-07-12
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 24aed03172446fd97865b719497c51281231cf69
-ms.sourcegitcommit: b37596f943f6469af6c1590d74211a66a2900ece
+ms.openlocfilehash: 54d1aa9e20470b55c8085b41b65804b948846b7a
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9138715"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806510"
 ---
 # <a name="supply-chain-management-troubleshooting-and-faqs"></a>Supply Chain Management 疑难解答和常见问题解答
 
@@ -46,6 +46,7 @@ ms.locfileid: "9138715"
 - [产品信息管理常见问题解答](pim/product-information-faq.md)
 - [销售订单常见问题解答](sales-marketing/sales-orders-faq.md)
 - [计划销售历史记录数据清理](sales-marketing/sales-update-history-cleanup-performance-improvements.md)
+- [DDMRP 常见问题](master-planning/planning-optimization/ddmrp-faqs.md)
 
 以下常见问题解答文章讨论与所有财务和运营应用（包括 Supply Chain Management）共享的平台相关的问题：
 

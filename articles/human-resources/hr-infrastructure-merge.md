@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f79ef3ed5db7583eb44b99e49c010778ce8524d1
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: e68b28bfde35b51605aa0b653265da6261b69a90
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733439"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819234"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge"></a>Dynamics 365 Human Resources 基础结构合并 
 
@@ -85,11 +85,12 @@ Dynamics 365 Human Resources 是一个独立的应用程序，目前使用与其
 
     - 配置
     - 安全角色（包括自定义角色）
-    - 工作流
+    - 工作流（包括通知）
     - 个性化和已保存视图
     - 交易记录
     - 自定义字段
     - 附件
+    - 预警
 
 - 数据管理 – 提供您自己的数据库 (BYOD)。
 - 功能管理 - 启用/禁用的功能。

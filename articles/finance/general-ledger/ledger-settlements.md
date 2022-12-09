@@ -2,7 +2,7 @@
 title: 分类帐结算
 description: 本文说明如何使用分类帐结算页面结算分类帐交易和冲销结算。
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6357629f83873437eb62a4839fafd8efd98fffc1
+ms.sourcegitcommit: 9041fa6e00ecbdf1a1880659d9bdfff4d888f20e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902478"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9800623"
 ---
 # <a name="ledger-settlements"></a>分类帐结算
 
@@ -90,7 +90,12 @@ ms.locfileid: "8902478"
     > [!IMPORTANT]
     > 具有相同结算 ID 的所有交易记录将全部冲销，即使未进行标记。 例如，已标记和结算了四个行。 所有四个行具有相同的结算 ID。 如果您标记这四个行中的一个，然后选择 **冲销已标记的交易记录**，这四个行将全部被冲销。
 
+## <a name="unmark-for-selected-users"></a>对所选用户取消标记
+选择 **对所选用户取消标记** 可按用户 ID 取消对所有法人的分类帐已结算交易的标记。 例如，这将允许会计经理取消对在完成结算前因休假离开的用户或已离开组织的用户的交易的标记。 此操作将允许其他用户标记这些交易以进行结算。
 
+
+## <a name="unmark-all-transactions"></a>取消标记所有交易记录
+选择 **取消标记所有交易记录** 可取消对所有用户和所有法人的所有分类帐已结算交易的标记。 管理员角色可以使用此操作。
 
 
 

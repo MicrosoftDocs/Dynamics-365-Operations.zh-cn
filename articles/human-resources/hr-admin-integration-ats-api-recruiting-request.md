@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872259"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806367"
 ---
 # <a name="recruiting-request"></a>招聘请求
 
@@ -68,7 +68,7 @@ ms.locfileid: "8872259"
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ ms.locfileid: "8872259"
 | **状态**<br>mshr_status<br>*RecruitingRequestStatus* 选项集 | 读/写<br>必填<br> | 指示招聘请求的状态。 |
 | **说明**<br>mshr_description<br>*字符串* | 读/写<br>必填 | 描述请求。 |
 | **招聘请求位置 ID**<br>mshr_recruitingrequestlocationid<br>*字符串* | 读/写<br>可选 | 与此请求关联的工作位置的用户可读的唯一标识符。 |
-| **招聘位置 ID 值**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | 只读<br>可选<br>外键：mshr_hcmrecruitingrequestlocationentity 实体的 mshr_hcmrecruitingrequestlocationentityid | 系统生成的用于标识为请求选择的招聘请求位置的 GUID 值。 |
+| **招聘位置 ID 值**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | 只读<br>可选<br>外键：mshr_hcmrecruitingrequestlocationentity 实体的 mshr_hcmrecruitingrequestlocationentityid | 系统生成的用于标识为请求选择的招聘请求位置的 GUID 值。 |
 | **注释**<br>mshr_comments<br>*字符串* | 读/写<br>可选 | 供招聘经理和招聘人员使用的关于请求的注释。 |
 | **工作 ID**<br>mshr_jobid<br>*字符串* | 写入一次<br>必填 |   由与此请求关联的所有职位共享的工作的用户可读唯一标识符。 |
 | **工作 ID 值**<br>_mshr_fk_job_id_value<br>*GUID* | 只读<br>必填<br>外键：mshr_hcmjobentity 实体的 mshr_hcmjobentityid | 系统生成的由与招聘请求关联的所有职位共享的工作的唯一标识符。 |

@@ -2,7 +2,7 @@
 title: 在波次期间计划波次标签打印
 description: 本文介绍了如何设置和使用基于任务的波次标签打印功能。
 author: perlynne
-ms.date: 06/09/2021
+ms.date: 12/02/2022
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e788e5a9206e46ada6490d4a0196c7ea8ca6af15
+ms.sourcegitcommit: 04e42c495d018e457fb3b038cadc4fe75ecbba12
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889448"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822354"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>在波次期间计划波次标签打印
 
@@ -32,7 +32,6 @@ ms.locfileid: "8889448"
 
 若要使用本文中描述的功能，必须为您的系统打开这些功能。 使用[功能管理](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)工作区按以下顺序打开功能：
 
-1. *波次标签打印* – 为波次标签打印启用波次流程方法时需要此功能。
 1. *组织范围内的工作锁定* - 手动和自动配置计划的工作创建时需要此功能。 （从 Supply Chain Management 版本 10.0.21 开始，此功能是强制性的，因此默认情况下处于开启状态，无法再次关闭。）
 1. *基于任务的波次标签打印* – 将波次标签打印拆分为单独的交易范围时需要此功能。
 

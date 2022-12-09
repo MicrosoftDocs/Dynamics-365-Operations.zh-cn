@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4843d9555b86c4ebe1edfe2da763f305357a7423
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 16548572cd70129efcc7dacf0236f3eb4b252d88
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715632"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804039"
 ---
 # <a name="set-up-centralized-payments"></a>设置集中的付款
 
@@ -34,7 +34,10 @@ ms.locfileid: "9715632"
 -   设置内部公司会计。
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>为集中付款设置组织的层次结构。
-您必须为集中付款设置组织的层次结构。 将相同的组织层次结构用于处理集中的供应商付款和集中的客户付款。 **注意：** 对于集中付款，该层次结构的结构不会产生影响。 层次结构中的任何法人都将能代表层次结构中的任何其他法人处理付款。 在 **组织层次结构** 页上，您可以创建一个新的组织层次结构。 在 **用途** 字段中，必须选择 **集中付款**。 
+您必须为集中付款设置组织的层次结构。 将相同的组织层次结构用于处理集中的供应商付款和集中的客户付款。 
+
+>[!Note] 
+>对于集中付款，该层次结构的结构不会产生影响。 层次结构中的任何法人都将能代表层次结构中的任何其他法人处理付款。 在 **组织层次结构** 页上，您可以创建一个新的组织层次结构。 在 **用途** 字段中，必须选择 **集中付款**。 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>为集中付款设置内部公司帐户
 在对照其他法人中的发票结算当前法人中的付款交易记录时，将为每个法人创建相应的应付和应收交易记录。 您必须指定过帐任何适用现金折扣和已有损益金额的法人。 在开始前，确定您将使用哪一法人处理供应商和客户付款。 如果一个法人处理供应商付款，另一个法人处理客户付款，您必须切换到各法人。 在 **内部公司会计** 页上，可以为将代表其处理付款的法人选择内部公司关系记录。 

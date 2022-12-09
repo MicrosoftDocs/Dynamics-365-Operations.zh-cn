@@ -2,7 +2,7 @@
 title: 暂停休假
 description: 可以在 Dynamics 365 Human Resources 中暂停员工的休假。
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93b530aeef6fd14b56ac846e3bb0ad4080d67587
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c8262fb34175f6f9326d6be82c922b2170fc5a7
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895893"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805252"
 ---
 # <a name="suspend-leave"></a>暂停休假
 
 >[!Important]
 >本文中提到的功能目前对独立 Dynamics 365 Human Resources 上的客户可用。 在 Finance 版本 10.0.26 之后，部分或全部功能将作为未来版本的一部分在 Finance 基础结构上提供。
 
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-可以暂停员工的休假，以便停止处理所选休假类型的休假应计项目。 
+可以暂停员工的休假，以便停止处理所选休假类型的休假应计。
 
 ## <a name="suspend-leave-and-absence-for-an-employee"></a>暂停员工的休假和缺勤
 
@@ -44,6 +43,9 @@ ms.locfileid: "8895893"
 5. （可选）也可以为暂停添加 **注释**。 
 
 如果在已暂停员工的休假时处理应计项目，则不会为暂停该团队休假类型执行累积。
+
+> [!NOTE]
+> 休假申请将暂停休息时间申请，但休息时间申请不会暂停休假申请。
 
 ## <a name="see-also"></a>请参阅
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0691c65e6a499f713952070811cefaa7a213af7b
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901275"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787545"
 ---
 # <a name="ledger-allocation-rules"></a>分类帐分配规则
 
@@ -28,7 +28,7 @@ ms.locfileid: "8901275"
 
 本文提供有关分类帐分配规则的信息。 介绍这些分配规则的各个组件和可为其使用的分配方法。
 
-分类帐分配规则用于自动计算并生成分配日记帐和科目分录，以便分配分类帐余额或固定金额。 分配方法可以是可变的，也可以是固定的。 以下分配方法可用于分类帐分配规则：
+分类帐分配规则用于自动计算并生成分配日记帐和科目分录，以便分配分类帐余额或固定金额。 分配方法可以是可变的，也可以是固定的。 分配基于交易币种值。 例如，过帐外币损益会计条目来调整会计和申报币种金额。 这些条目不受分配规则的约束，因为它们的交易币种值为 0.00。 以下分配方法可用于分类帐分配规则：
 
 -   **基础** – 此可变方法在分配取决于实际分类帐余额时使用，基于筛选条件。 例如，可以基于每个部门的销售额相对于各部门总销售额的比例分配公司广告成本。
 -   **固定百分比** 和 **固定权重**– 对于这些方法，分配百分比或权重是直接针对规则定义的。 例如，可以分配广告支出，以便部门 A 收到 70% 的广告支出，部门 B 收到 30%。

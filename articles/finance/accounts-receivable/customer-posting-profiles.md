@@ -2,7 +2,7 @@
 title: 客户过帐模板
 description: 本文介绍客户过帐模板，它控制到总帐的客户交易记录过帐。
 author: JodiChristiansen
-ms.date: 12/22/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04cf5b8656bccde974fb1adfdf830080e2f52436
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891686"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799564"
 ---
 # <a name="customer-posting-profiles"></a>客户过帐模板
 
@@ -58,15 +58,15 @@ ms.locfileid: "8891686"
 </thead>
 <tbody>
 <tr>
-<td>过帐模板</td>
+<td><strong>过帐模板</strong></td>
 <td>输入过帐模板的代码。 例如，您可以创建两个过帐模板以便用本国币种获取客户余额的一个科目，用外币获取客户余额的另一个科目。 您可以对本国币种调用一个科目，对外币调用另一个科目。</td>
 </tr>
 <tr>
-<td>Description</td>
+<td><strong>描述</strong></td>
 <td>输入过帐模板的描述。 这仅用于当您在该页面中查看过帐模板时，更好地标识它。</td>
 </tr>
 <tr>
-<td>帐户编码</td>
+<td><strong>帐户编码</strong></td>
 <td>指定该过帐模板是应用于单个客户、一组客户还是所有客户：
 <ul>
 <li><b>表</b> – 过帐模板应用于单个客户。 在<b>帐户/组编号</b>字段中选择客户帐户。</li>
@@ -76,33 +76,33 @@ ms.locfileid: "8891686"
 </td>
 </tr>
 <tr>
-<td>帐户/组编号</td>
+<td><strong>帐户/组编号</strong></td>
 <td>如果在<b>帐户代码</b>字段中选择了<b>表</b>，请选择与该过帐模板相关的客户的帐号。 如果选择了<b>组</b>，请选择客户组。 如果选择<b>全部</b>，则将此字段保留为空。</td>
 </tr>
 <tr>
-<td>汇总帐户</td>
+<td><strong>汇总帐户</strong></td>
 <td>选择将用作与该过帐模板相关的客户的应收帐款交易帐户的主帐户。 此帐户是<b>客户余额</b>过帐类型的帐户。</td>
 </tr>
 <tr>
-<td>付款的流动性帐户</td>
-<td>选择用于现金流量预测的流动性会计科目。 此字段只有在启用现金流量预测时才出现。</td>
+<td><strong>付款的流动性帐户</strong></td>
+<td>选择用于现金流量预测的<strong>流动性会计科目</strong>。 此字段只有在启用现金流量预测时才出现。</td>
 </tr>
 <tr>
-<td>销售税预付款</td>
+<td><strong>销售税预付款</strong></td>
 <td><p>选择预付款的销售税帐户。</p>
 <p><strong>注意：</strong>使用<b>应收帐款参数</b>页指定在将付款标记为预付款时使用的过帐模板。</p>
 </td>
 </tr>
 <tr>
-<td>折扣负债帐户</td>
+<td><strong>折扣负债帐户</strong></td>
 <td>选择折扣负债科目。</td>
 </tr>
 <tr>
-<td>催款单序列</td>
+<td><strong>催款单序列</strong></td>
 <td>选择的催款单序列的标识，以用于过帐模板分配到的客户。</td>
 </tr>
 <tr>
-<td>利息代码</td>
+<td><strong>利息代码</strong></td>
 <td>选择利息代码，以用于为过帐模板分配到的客户计算利息。</td>
 </tr>
 </tbody>

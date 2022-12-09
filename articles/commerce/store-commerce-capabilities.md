@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9725630"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788504"
 ---
 # <a name="store-commerce-app-capabilities"></a>Store Commerce 应用功能
 
@@ -41,7 +41,7 @@ Store Commerce 应用由 Commerce Scale Unit (CSU) 提供支持，可以提供�
 
 | 功能 | Description | 文档 | 补充内容 |
 |---|---|---|---|
-| 多种外形规格 | Store Commerce 应用支持多种设备外形规格，如 PC、平板电脑和移动设备。 响应式用户界面 (UI) 让布局能够自动调整大小，适应屏幕大小。 | [视觉对象配置](pos-screen-layouts.md) | |
+| 多种外形规格 | Store Commerce 应用支持多种设备外形规格，如 PC、平板电脑和移动设备。 响应式用户界面 (UI) 让布局能够自动调整大小，适应屏幕大小。 | [视觉对象配置](pos-screen-layouts.md) |  |
 | 跨平台 | Store Commerce 应用在 Web、Windows、iOS 和 Android 平台上受支持。 | [平台](dev-itpro/hybridapp.md) | |
 | 品牌 | 屏幕设计器可让您自定义屏幕布局来满足您的业务要求。 此外，可以根据员工角色创建主题、布局、颜色和图像，然后可以在用户之间共享，以实现品牌一致性和易用性。 | [视觉对象配置](pos-screen-layouts.md) | [视频](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | 拓扑 | 根据网络可用性，支持不同的店内拓扑。 | <p>[拓扑](dev-itpro/retail-modern-pos-architecture.md)</p><p>[信息图](dev-itpro/retail-in-store-topology.md)</p> | |
@@ -77,7 +77,7 @@ Store Commerce 应用由 Commerce Scale Unit (CSU) 提供支持，可以提供�
 | 产品搜索 | 按名称搜索产品，使用品牌、价格和材料等产品属性细化搜索。 此功能由 Azure 认知搜索提供支持。 | [云助力的搜索](cloud-powered-search-overview.md) | |
 | 产品详细信息页面 | 丰富的产品详细信息页面可以包括图像、描述、产品属性和推荐产品。 建议由建议服务提供支持。 | | |
 | 产品比较 | 比较多种产品，帮助客户选择一种添加到交易中。 | | |
-| 无限通道 | 轻松查找其他商店的库存，然后创建订单。 | [查找库存](pos-inventory-lookup-operation.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| 无限通道 | 轻松查找其他商店的库存，然后创建订单。 | [查找库存](pos-inventory-lookup-operation.md) | <p>[技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 | 推荐 | 使用建议服务追加销售和交叉销售产品。 此服务使用专利技术根据购买趋势以及新到货、相似外观和畅销等特征提出建议。 这些建议可在产品详细信息页面、**客户详细信息** 页面和 **交易** 页面上找到。 | [推荐](product-recommendations.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>客户关系
@@ -88,8 +88,8 @@ Store Commerce 应用由 Commerce Scale Unit (CSU) 提供支持，可以提供�
 | 客户属性 | 客户属性框架允许根据业务要求捕获额外的客户相关数据。 | [属性](dev-itpro/customer-attributes.md) | |
 | 客户详细信息页面 | 丰富的客户详细信息页面提供客户跨所有渠道交互的全渠道视图。 这些交互包括购买、愿望列表和会员积分。 | | |
 | 云助力的客户搜索 | 按姓名、电话号码、电子邮件地址、会员卡、地址等搜索客户。 | [云助力的搜索](pos-search-improvements.md#customer-search) | |
-| 会员和奖励 | 客户可以加入会员计划，跨渠道赚取和兑换会员积分。 | [忠诚度](set-up-customer-loyalty-program.md) | |
-| 客户服务解决方案 | 使用客户手册管理关键客户，在客户配置文件中跟踪活动和注释。 Dynamics 365 Customer Insights 集成让商店员工可以了解每个客户的下一个最佳行为。 | [客户服务解决方案](clienteling-overview.md#activities-and-notes) | |
+| 会员和奖励 | 客户可以加入会员计划，跨渠道赚取和兑换会员积分。 | [忠诚度](set-up-customer-loyalty-program.md) | [视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| 客户服务解决方案 | 使用客户手册管理关键客户，在客户配置文件中跟踪活动和注释。 Dynamics 365 Customer Insights 集成让商店员工可以了解每个客户的下一个最佳行为。 | [客户服务解决方案](clienteling-overview.md#activities-and-notes) | [视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>定价和折扣
 
@@ -132,8 +132,8 @@ Store Commerce 应用由 Commerce Scale Unit (CSU) 提供支持，可以提供�
 | 订单属性 | 订单属性框架允许根据业务要求捕获额外的订单相关信息。 | [属性](dev-itpro/order-attributes.md) | |
 | 直接交货 | 项目可以标记为由供应商直接交付到客户地址。 直接交货也称作直接出货。 | [直接交货](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | 报价单 | 商店员工可以为客户创建报价单，并可以指定特殊价格、手动折扣和报价单有效期。 | [报价单](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| 履行 | 商店可以领取、包装和装运订单。 可以将装箱单添加到准备装运的包裹中。 | [履行](order-fulfillment-overview.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| 分配的订单管理 | Store Commerce 应用支持智能订单履行优化，优化可以根据业务性质、客户类型、订单来源和订单交货方式配置业务策略。 | [DOM](dom.md) | |
+| 履行 | 商店可以领取、包装和装运订单。 可以将装箱单添加到准备装运的包裹中。 | [履行](order-fulfillment-overview.md) | <p>[技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[视频](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| 分配的订单管理 | Store Commerce 应用支持智能订单履行优化，优化可以根据业务性质、客户类型、订单来源和订单交货方式配置业务策略。 | [DOM](dom.md) | [视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>库存管理
 
@@ -141,12 +141,12 @@ Store Commerce 应用由 Commerce Scale Unit (CSU) 提供支持，可以提供�
 |---|---|---|---|
 | 集中采购配送 | 简化从配送中心到多个商店或仓库的可用库存分配。 | [集中采购配送](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | 越库配送 | 简化将传入采购订单的库存分配到多个商店或仓库。 | [越库配送](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| 入站库存 | 通过采购订单从供应商处接收库存，或通过转移单从另一个仓库接收库存。 创建入站采购订单或转移单请求。 | [传入](pos-inbound-inventory-operation.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| 出站库存 | 通过转移单将库存运送到另一个仓库，并创建出站转移单请求。 | [传出](pos-outbound-inventory-operation.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| 查找库存 | 检查各商店和仓库的产品现有库存，并检查未来日期的可承诺 (ATP) 库存。 | [查找库存](pos-inventory-lookup-operation.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| 库存调整 | 调整进出商店仓库的库存以满足特定的业务要求，无需使用销售、收货或重新盘点。 | [库存调整](work-with-store-inventory.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| 存货盘点 | 盘点实际库存，并调整系统记帐库存以与其匹配。 | [盘点](work-with-store-inventory.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| 库存变动 | 在商店内的两个位置之间移动库存。 | [变动](work-with-store-inventory.md) | [技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| 入站库存 | 通过采购订单从供应商处接收库存，或通过转移单从另一个仓库接收库存。 创建入站采购订单或转移单请求。 | [传入](pos-inbound-inventory-operation.md) | <p>[技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| 出站库存 | 通过转移单将库存运送到另一个仓库，并创建出站转移单请求。 | [传出](pos-outbound-inventory-operation.md) | <p>[技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| 查找库存 | 检查各商店和仓库的产品现有库存，并检查未来日期的可承诺 (ATP) 库存。 | [查找库存](pos-inventory-lookup-operation.md) | <p>[技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| 库存调整 | 调整进出商店仓库的库存以满足特定的业务要求，无需使用销售、收货或重新盘点。 | [库存调整](work-with-store-inventory.md) | <p>[技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| 存货盘点 | 盘点实际库存，并调整系统记帐库存以与其匹配。 | [盘点](work-with-store-inventory.md) | <p>[技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| 库存变动 | 在商店内的两个位置之间移动库存。 | [变动](work-with-store-inventory.md) | <p>[技术交流](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[视频](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>财务
 

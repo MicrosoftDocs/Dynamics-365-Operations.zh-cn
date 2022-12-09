@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 151991b399a30087c484262706e414e4e294bf7f
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 86020d9088d8135c83716128a77090608536a78f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715416"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804009"
 ---
 # <a name="create-checks-that-have-blank-status"></a>创建具有空白状态的支票
 
@@ -35,7 +35,7 @@ ms.locfileid: "9715416"
 
 若要打开 **支票** 页面，请转到 **现金和银行管理 \> 银行帐户 \> 银行帐户**，然后在操作窗格的 **管理付款** 选项卡的 **相关信息** 组中，选择 **支票**。 或者，请转到 **现金和银行管理 \> 查询和报表 \> 支票**。
 
-然后，若要创建具有 **空白** 状态的支票，请在操作窗格中选择 **创建空白支票**。 当系统创建空白支票时，关联的银行帐户将会暂时禁用。 此行为将会降低在创建空白支票时生成付款的风险。 处理完成后，关联的银行帐户将重新激活。
+然后，若要创建具有 **空白** 状态的支票，请在“操作”窗格中选择 **创建空白支票**。 创建空白支票时，关联的银行帐户将会暂时禁用。 此行为将会降低在创建空白支票时生成付款的风险。 处理完成后，关联的银行帐户将重新激活。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

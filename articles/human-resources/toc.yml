@@ -564,12 +564,14 @@
               href: hr-leave-and-absence-plans.md
             - name: 将工作人员分配给休假计划
               href: hr-leave-and-absence-enroll.md
-            - name: 累积休假和缺勤计划
+            - name: 应计休假和缺勤计划
               href: hr-leave-and-absence-accrue.md
             - name: 暂停休假
               href: hr-leave-and-absence-suspend-leave.md
-            - name: 休假申请
+            - name: 休假请求
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: 创建开放式长期休假
+              href: hr-create-open-leave-absence.md
             - name: 管理员工休假
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: 查看休假和缺勤分析

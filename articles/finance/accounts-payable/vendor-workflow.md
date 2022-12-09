@@ -2,7 +2,7 @@
 title: 供应商工作流
 description: 修改供应商信息和使用工作流进行审核。
 author: sunfzam
-ms.date: 08/24/2018
+ms.date: 11/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1801e3d90bbf80c59bb62329acc593d2c66a179c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: cfc255265df48e4a47aee4f13016356fb4775aa7
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735658"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799456"
 ---
 # <a name="vendor-workflow"></a>供应商工作流
 
@@ -46,7 +46,7 @@ ms.locfileid: "8735658"
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>更改供应商信息并将更改提交给工作流
 
-更改为工作流启用的字段时，将显示 **建议的更改** 页。 此页面显示字段的原始值和您输入的新值。 将把您更改的字段恢复为原始值。 还会通过状态消息告知您尚未提交您的更改。 
+更改为工作流启用的字段时，将显示 **建议的更改** 页。 此页面显示字段的原始值和您输入的新值。 将把您更改的字段恢复为原始值。 将通过状态消息告知您尚未提交您的更改。 
 
 只要更改了为工作流启用的字段，都将把该字段添加到 **建议的更改** 页上的列表中。 若要放弃字段的建议值，请使用列表中该字段旁边的 **放弃** 按钮。 若要放弃所有更改，请使用页面底部的 **放弃所有更改** 按钮。 选择 **确定** 关闭页面。
 

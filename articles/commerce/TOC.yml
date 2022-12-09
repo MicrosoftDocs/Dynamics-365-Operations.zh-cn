@@ -1011,7 +1011,23 @@
                 - name: 批量上传 URL 重定向
                   href: upload-bulk-redirects.md
                 - name: 在 Commerce 中设置 B2C 租户
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: 设置 B2C 租户
+                      href: set-up-B2C-tenant.md
+                    - name: 创建或链接到现有 Azure AD B2C 租户
+                      href: create-link-aad-b2c-tenant.md
+                    - name: 创建 B2C 应用程序
+                      href: create-b2c-app.md
+                    - name: 创建用户流策略
+                      href: create-user-flow-policies.md
+                    - name: 添加社交标识提供者
+                      href: add-social-identity-providers.md
+                    - name: 使用 Azure AD B2C 信息更新 Commerce headquarters
+                      href: update-hq-aad-b2c-info.md
+                    - name: 在站点生成器中配置 B2C 租户
+                      href: config-b2c-tenant-site-builder.md
+                    - name: 其他 B2C 信息
+                      href: additional-b2c-info.md
                 - name: 设置用户登录自定义页面
                   href: custom-pages-user-logins.md
                 - name: 启用标识记录与客户帐户的自动链接
@@ -1570,6 +1586,8 @@
               items:
                 - name: 为沙特阿拉伯生成 QR 码并将其打印在收据上
                   href: localizations/emea-sau-qr-code.md
+                - name: 为沙特阿拉伯生成并提交简化的电子发票
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: 瑞典
               items:
                 - name: 收银机功能
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: 在线订单的税金计算错误
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: 与默认付款服务相关的订单同步错误
+                - name: 异步订单同步问题
                   href: troubleshoot/synchronization-error.md
             - name: 付款处理
               items:

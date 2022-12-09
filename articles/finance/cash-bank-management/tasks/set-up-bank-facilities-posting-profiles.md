@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bfdef0cd535f47bb1df9fb7494043d3dd519c5b
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 0987ae1e9cfbb1e2d2a957a5fd1ad82257292c0a
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779872"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804093"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>设置保函的银行设施和过帐模板
 
@@ -58,7 +58,7 @@ ms.locfileid: "9779872"
 10. 在 **融资组** 字段中，单击下拉按钮以打开查找。
 11. 在列表中，找到并选择所需记录。
 12. 在列表中，单击所选行中的链接。
-13. 在 **融资性质字段中，选择一个选项。
+13. 在 **资金融通性质** 字段中，选择一个选项。
 14. 单击 **保存**。
 15. 关闭该页面。
 

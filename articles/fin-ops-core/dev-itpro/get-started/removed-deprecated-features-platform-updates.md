@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 6283e07b87dc169d3cbaa71a371839ab9b2d6150
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9785091"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799028"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>已删除或弃用的平台功能
 
@@ -71,10 +71,10 @@ ms.locfileid: "9785091"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **弃用/移除的原因** | 我们将删除以下密码套件列表以符合我们当前的安全协议。<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **被另一个功能取代？**   | 从 2023 年 1 月 31 日开始，客户只能使用我们的 [标准密码套件](/power-platform/admin/server-cipher-tls-requirements)。 此更改将影响与我们的服务器通信的客户端和服务器，例如，这可能会影响不符合我们标准密码套件的第三方集成。 |
+| **被另一个功能取代？**   | 从 2023 年 1 月开始，客户只能使用我们的 [标准密码套件](/power-platform/admin/server-cipher-tls-requirements)。 此更改将影响与我们的服务器通信的客户端和服务器，例如，这可能会影响不符合我们标准密码套件的第三方集成。 |
 | **影响的产品区域**         | 财务和运营应用 |
 | **部署选项**              | 云部署 |
-| **Status**                         | 已弃用。 客户必须在 2023 年 1 月 31 日之前升级其服务器。 有关配置 TLS 密码套件顺序的详细信息，请参阅 [管理传输层安全性 (TLS)](/windows-server/security/tls/manage-tls)。  |
+| **Status**                         | 已弃用。 客户必须在 2023 年 1 月之前升级其服务器。 有关配置 TLS 密码套件顺序的详细信息，请参阅 [管理传输层安全性 (TLS)](/windows-server/security/tls/manage-tls)。  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>功能弃用从 2022 年 6 月开始生效

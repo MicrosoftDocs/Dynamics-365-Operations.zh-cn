@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780439"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788532"
 ---
 # <a name="create-a-free-text-invoice"></a>创建普通发票
 
@@ -69,6 +69,8 @@ ms.locfileid: "9780439"
     * 可以更改发票打印的计时。 选择 **当前** 以在更新各发票时打印。 选择 **之后** 则在更新所有发票后打印。
     * 若要更改过帐前如何验证客户的信用额度，请更改 **信用额度类型** 字段中的值。
     * 当 **应收帐款参数** 页的 **更新** 选项卡上出错时，可以选择停止普通发票过帐（**应收帐款 > 设置 > 应收帐款参数**）。 针对 **出现第一个错误时停止过帐普通发票** 参数选择 **是**，以在发生错误时停止过帐普通发票。 如果成批过帐，则错误将停止过帐流程，批处理状态将设置为 **错误**。 如果未选择此选项，则过帐流程将跳过具有过帐错误的发票，并将继续过帐其他发票。 如果批量过帐，则过帐错误将不会阻止过帐其他发票。 批处理状态将为 **已结束**。 可在批处理作业历史记录中审核详细过帐流程报表。
+    * 在 Microsoft Dynamics 365 Finance 10.0.30 中，**针对总计计算的普通发票过帐改进** 功能可以使应用更高效地运行，以此来提高过帐性能。 启用此功能后，过帐将保存计算出的总计，而不是在过帐过程中多次重新计算总计。 
+    * 在 Microsoft Dynamics 365 Finance 10.0.31 中，**普通发票批处理过帐流程改进** 功能可以使应用更高效地运行，以此来提高过帐性能。 启用此功能后，过帐将使用跨固定数量的线程自行管理批量过帐工作负荷的模式，而不是跨无限数量的线程分配固定数量的文档。
     * 若要打印发票，请将选项设置为 **是**。
     * 若要过帐发票，请将选项设置为 **是**。 您可以打印未过帐的发票。
 

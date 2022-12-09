@@ -1,26 +1,21 @@
 ---
 title: 分配的订单管理 (DOM)
-description: 本文将介绍 Dynamics 365 Commerce 中的“分配的订单管理 (DOM)”功能。
+description: 本文将介绍 Microsoft Dynamics 365 Commerce 中的“分配的订单管理 (DOM)”功能。
 author: josaw1
-ms.date: 02/08/2022
+ms.date: 11/16/2022
 ms.topic: index-page
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: cfb89544580141ed397d27886f51fd0f1ac138d2
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764170"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785171"
 ---
 # <a name="distributed-order-management-dom"></a>分配的订单管理 (DOM)
 
@@ -35,6 +30,11 @@ DOM 使用混合整数编程 (MIP) 和预测分析模型在批次级别和单个
 下图显示了 DOM 系统中销售订单的生命周期。
 
 ![DOM 情景下的销售订单生命周期。](./media/flow.png "DOM 情景下的销售订单生命周期")
+
+以下视频概述了 Dynamics 365 Commerce 中的 DOM 功能。
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRYl]
 
 ## <a name="set-up-dom"></a>设置 DOM
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-10-01
 ms.dyn365.ops.version: 10.0.31
-ms.openlocfilehash: 05ccd9794ffeba6a09d6fec0a57ffad2b59707ad
-ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
+ms.openlocfilehash: ed4325095163415d05a56128cb1f0334440fe0e5
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "9709852"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787518"
 ---
 # <a name="preview-of-dynamics-365-commerce-10031-february-2023"></a>Dynamics 365 Commerce 10.0.31 预览（2023 年 2 月）
 
@@ -38,6 +38,7 @@ ms.locfileid: "9709852"
 | 付款 | [使用适用于 Adyen 的 Dynamics 365 付款连接器支持 Apple Pay](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-apple-pay-dynamics-365-payment-connector-adyen)  | 使用支持的设备或浏览器时，电子商务客户可以在购物车和结帐页面使用 Apple Pay。 | 开发人员选择加入 |
 | 付款  |  Commerce 增加了限制用户在整个 Commerce headquarters 用户界面如何与定期付款令牌交互的功能。 付款窗体（如 **呼叫中心销售订单** 页面）不再显示客户以前使用的定期付款令牌来用于新交易。 在处理新交易的付款时，只有在 Commerce **客户付款** 屏幕输入或在通过销售订单付款时与客户协定的确定的“存档卡”会显示给呼叫中心或 Commerce headquarters 用户。 | [限制付款令牌的使用](../dev-itpro/limit-token-usage.md)  |  功能管理<p>*将付款令牌限制为仅用于订单上下文*  |
 | POS | [从 POS 创建采购订单](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/create-purchase-orders-pos)  |  改进了销售点 (POS) 应用中的入站库存操作，允许用户创建、编辑和确认采购订单请求。 |  功能管理<p>*在 POS 中创建采购订单请求的功能*   |
+| 可用的其他语言 | 还有四种语言可用 | 首选语言列表中有四种新语言可供用户选择：韩语、葡萄牙语（葡萄牙）、越南语和中文（繁体）。 要选择此选项，转到 **用户选项 \> 首选项 \> 语言和国家/地区首选项**。 | 本地化偏好 |  
 
 
 

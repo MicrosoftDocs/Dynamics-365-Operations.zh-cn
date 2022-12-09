@@ -2,7 +2,7 @@
 title: 更新流程
 description: Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)，可为应用程序和平台更改提供连续的非接触式服务更新。
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520802"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819288"
 ---
 # <a name="update-process"></a>更新流程
 
@@ -41,7 +41,7 @@ Microsoft Dynamics 365 Human Resources 是一款真正的服务型软件 (SaaS)�
 
 Human Resources 更新将自动应用于所有环境。 Human Resources 提供两种类型的发布：
 
-- **服务更新**：每两周更新一次，其中包括缺陷修复和新功能。 服务更新在发布时还包括适用的平台更新。 有关平台版本的详细信息，请参阅[平台更新的新增功能或更改](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md)。 更新跨区域在全球分期推出。 有关更新的详细信息，请参阅 [Dynamics 365 Human Resources 的新增功能或更改](hr-admin-whats-new.md)。
+- **服务更新**：服务更新包括发布时适用的平台更新。 除了基于异常的更新之外，定期服务更新会在 Dynamics 365 Finance 平台更新正式发布 (GA) 后进行。 有关平台版本的详细信息，请参阅[平台更新的新增功能或更改](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md)。 更新跨区域在全球分期推出。 有关更新的详细信息，请参阅 [Dynamics 365 Human Resources 的新增功能或更改](hr-admin-whats-new.md)。
 
 - **Dataverse 解决方案更新**：根据需要，这些更新大约每六周进行一次。 这些更新包括 Dataverse 中的新实体和对现有实体的更改。 这些更新与每两周更新发布在相同的区域，需要大约六周时间在所有数据中心完成复制。 解决方案更新可能与每两周服务更新一致，也可能不一致。
 
@@ -55,15 +55,6 @@ Human Resources 更新将自动应用于所有环境。 Human Resources 提供�
 - **紧急修复**：本质上是独立的主动和被动修补程序，可能包括仅配置或代码更改以解决实时的站点问题，可能在每两周服务更新发布之外进行
 
 在内部环境中对发布进行审查、测试和验证。 版本签核后，将被部署到生产中。
-
-## <a name="release-cadence-exceptions-in-2021"></a>2021 年的发布频率例外情况
-
-因为考虑到了假期，所以 2021 年 11 月和 12 月的发布计划如下所示：
-
-- 11 月发布：11 月 1 日 - 11 月 14 日
-- 12 月发布：11 月 29 日 - 12 月 12 日
- 
-将在 2022 年 1 月 10 日恢复两周发布频率。
 
 ## <a name="communications"></a>通信
 

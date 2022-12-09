@@ -2,7 +2,7 @@
 title: 财务报表设计器中的行定义
 description: 行定义是报表组件或构建基块，在财务报表上指定每一行的内容。
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274684"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802437"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>财务报表设计器中的行定义
 
@@ -30,11 +30,11 @@ ms.locfileid: "9274684"
 
 ## <a name="create-a-row-definition"></a>创建行定义
 
-1. 在报表设计器的导航窗格中，单击 **行定义**。
+1. 在 Report designer 的导航窗格中，单击 **行定义**。
 2. 在 **文件** 菜单上，单击 **新建**，然后单击 **行定义**。 有关每个单元格内容的详细信息，请参阅[修改行定义单元格](modify-row-definition-cells-financial-reporting.md)。
 
 ## <a name="open-a-row-definition"></a>打开行定义
-1. 在报表设计器的导航窗格中，单击 **行定义**。
+1. 在 Report designer 的导航窗格中，单击 **行定义**。
 2. 双击要打开的行定义的名称。
 3. 要查看与行定义关联的任何构建基块，请右键单击行定义，然后选择 **关联**。
 
@@ -71,9 +71,9 @@ ms.locfileid: "9274684"
 
 要向行定义添加维度，请完成下列步骤。
 
-1. 在报表设计器中，单击 **行定义**，然后打开行定义以修改。
-2. 在 **编辑** 菜单上，单击 **从维度插入行**。
-3. 在 **从维度插入行** 对话框的 **维度** 行中，选择要转移到行定义的维度所在的单元格，然后单击 **所有 &&&**。
+1. 在 Report designer 中，单击 **行定义**，然后打开行定义以修改。
+2. 在 **编辑** 菜单上，单击 **插入维度中的行**。
+3. 在 **插入维度中的行** 对话框的 **维度** 行中，选择要转移到行定义的维度所在的单元格，然后单击 **所有 &&&**。
 4. 要将行定义限制到特定维度值范围，请在 **维度范围起始值** 单元格中输入起始维度值，然后在 **维度范围结束值** 单元格中输入结束维度值。 若要包含所选维度的所有值，请将这些单元格保留为空。
 
     > [!NOTE]
@@ -94,9 +94,9 @@ ms.locfileid: "9274684"
 
 要在资产负债表中调整化整，请完成下列步骤。
 
-1. 在报表设计器中，单击 **行定义**，然后打开行定义以修改。
-2. 在 **编辑** 菜单上，单击 **化整调整**。
-3. 在 **化整调整** 对话框中，输入下列值：
+1. 在 Report designer 中，单击 **行定义**，然后打开行定义以修改。
+2. 在 **编辑** 菜单上，单击 **舍入调整**。
+3. 在 **舍入调整** 对话框中，输入下列值：
 
     - **化整调整行** – 应调整以平衡资产负债表的行的行代码。
     - **总资产行** - 资产负债表中包含总资产的行的行代码。
@@ -124,7 +124,7 @@ ms.locfileid: "9274684"
 <td><strong>创建字体样式</strong></td>
 <td>
 <ol>
-<li>在报表设计器的<strong>格式</strong>菜单上，单击<strong>样式和格式</strong>。</li>
+<li>在 Report designer 的<strong>格式</strong>菜单上，单击<strong>样式和格式</strong>。</li>
 <li>在<strong>样式和格式</strong>对话框中单击<strong>新建</strong>，然后为新样式输入一个唯一名称。</li>
 <li>选择字体，然后单击<strong>确定</strong>。</li>
 </ol>
@@ -134,7 +134,7 @@ ms.locfileid: "9274684"
 <td><strong>修改字体样式</strong></td>
 <td>
 <ol>
-<li>在报表设计器的<strong>格式</strong>菜单上，单击<strong>样式和格式</strong>。</li>
+<li>在 Report designer 的<strong>格式</strong>菜单上，单击<strong>样式和格式</strong>。</li>
 <li>在<strong>样式和格式</strong>对话框中选择要修改的样式，然后单击<strong>修改</strong>。</li>
 <li>选择字体，然后单击<strong>确定</strong>。</li>
 </ol>
@@ -144,7 +144,7 @@ ms.locfileid: "9274684"
 <td><strong>应用字体样式</strong></td>
 <td>
 <ol>
-<li>在报表设计器中，在定义或列定义中，或在页眉和页脚中，选择一个或多个行单元格。</li>
+<li>在 Report designer 中，在定义或列定义中，或在页眉和页脚中，选择一个或多个行单元格。</li>
 <li>在工具栏的<strong>样式</strong>列表中，选择字体样式。</li>
 </ol>
 </td>
@@ -156,7 +156,7 @@ ms.locfileid: "9274684"
 
 在行定义中指定的格式将覆盖列定义和报表定义中指定的格式。 可以通过使用格式工具栏上的控件来修改文本格式。 这些控件是标准的 Microsoft Windows 控件。
 
-1. 在报表设计器中，打开要修改的行定义。
+1. 在 Report designer 中，打开要修改的行定义。
 2. 选择要设置格式的单元格。 要选择多个单元格，请在选择单元格的同时按住 Ctrl 键。
 3. 单击要应用的格式的工具栏按钮。 例如，若要缩进行，请选择行，然后单击工具栏上的 **增加缩进** ![增加缩进。](media/indent.gif "增加缩进") 。
 
@@ -166,19 +166,19 @@ ms.locfileid: "9274684"
 
 ### <a name="change-the-width-of-a-column-in-the-view-pane"></a>更改列在视图窗格中的宽度
 
-1. 在报表设计器中，打开要修改的行定义。
+1. 在 Report designer 中，打开要修改的行定义。
 2. 在 **格式** 菜单上，选择 **列宽**。
 3. 在 **列宽** 对话框中，输入值，然后单击 **确定**。 或者，您还可拖动列标题单元格的右边界来更改列宽。
 
 ### <a name="hide-columns-in-the-view-pane"></a>在视图窗格中隐藏列
 
-1. 在报表设计器中，打开要修改的行定义。
+1. 在 Report designer 中，打开要修改的行定义。
 2. 选择要最小化的一列或多列。
 3. 右键单击，然后单击 **隐藏**。
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>在视图窗格中显示所有隐藏列
 
-1. 在报表设计器中，打开要修改的行定义。
+1. 在 Report designer 中，打开要修改的行定义。
 2. 右键单击要显示的最小化列，然后单击 **取消隐藏**。
 
 

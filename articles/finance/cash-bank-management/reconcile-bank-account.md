@@ -14,12 +14,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 12de50f26127c54c2f82ace43487de10e7125aea
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779519"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804202"
 ---
 # <a name="reconcile-a-bank-account"></a>银行帐户对帐
 
@@ -63,11 +63,11 @@ ms.locfileid: "9779519"
 
 ## <a name="cancel-bank-statement-reconciliation"></a>取消银行对帐单对帐 
 
-可通过取消银行对帐单对帐功能取消银行对帐单对帐。 若要使用此功能，请启用 **功能管理** 工作区中的 **取消银行对帐单对帐** 功能。 还需要启用 **允许编辑银行对帐单** 参数。 方法是，转到 **现金和银行管理 > 设置 > 现金和银行管理参数 > 银行对帐**。
+可通过 **取消银行对帐单对帐** 功能取消银行对帐单对帐。 若要使用此功能，请启用 **功能管理** 工作区中的 **取消银行对帐单对帐** 功能。 还需要启用 **允许编辑银行对帐单** 参数。 方法是，转到 **现金和银行管理 > 设置 > 现金和银行管理参数 > 银行对帐**。
  
 银行对帐单对帐只能按照其输入时间顺序取消。 取消银行对帐单对帐时，将冲销新交易记录和冲销，并将其他所有交易记录标记为未对帐。
  
-若要取消银行对帐单对帐，请选择银行对帐单，然后选择 **银行对帐单 > 取消银行对帐**。 在 **取消银行对帐** 页上，提供 **原因代码**、**原因注释** 和 **取消日期**。 选择 **确定** 开始取消。 请注意，银行对帐单取消日期必须在银行对帐单日期当天或之后。 取消了银行对帐单对帐之后，将使用提供的 **取消日期** 更新银行对帐单的 **取消日期** 字段。 选择 **交易记录** 按钮查看取消了其对帐的交易记录。
+若要取消银行对帐单对帐，请选择银行对帐单，然后选择 **银行对帐单 > 取消银行对帐**。 在 **取消银行对帐** 页上，提供 **原因代码**、**原因注释** 和 **取消日期**。 选择 **确定** 开始取消。 请注意，银行对帐单取消日期必须在银行对帐单日期当天或之后。 取消银行对帐单对帐之后，将使用提供的 **取消日期** 更新银行对帐单的 **取消日期** 字段。 选择 **交易记录** 按钮查看取消了其对帐的交易记录。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

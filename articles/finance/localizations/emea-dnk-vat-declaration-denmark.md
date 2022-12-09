@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: a47b2b98d86daf50876c783f879362ec1addb579
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 99c8b7a35258116adfe7433e884564d64dbf140f
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272131"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812124"
 ---
 # <a name="vat-declaration-denmark"></a>增值税申报（丹麦）
 
@@ -47,6 +47,7 @@ ms.locfileid: "9272131"
 |-------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 进项增值税                                                                                 | 税额          | **InputVAT**</br> **DomesticVATUseTax**（也在“销项增值税”框中报告过）</br>**PurchaseGoodsAbroadUseTax**（也在“国外购买的货物等增值税” 框中报告过）</br>**PurchaseServicesAbroadUseTax**（“在国外购买且需要支付冲销费用的服务的增值税”框中也报告过）</br>**PurchaseGoodsEUUseTax**（也在“国外购买的货物等增值税” 框中报告过）</br> **PurchaseServicesEUUseTax**（“在国外购买且需要支付冲销费用的服务的增值税”框中也报告过） |
 | 石油和罐装液化气税                                                                  | 税额          | **OilGasDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 能源/电力税                                                                    | 税额          | **PowerElectricityDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | 天然气和城市煤气税                                                             | 税额          | **NaturalTownGasDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | 碳税                                                                               | 税额          | **CarbonDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | CO2Duty                                                                                   | 税额          | **CO2Duty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
