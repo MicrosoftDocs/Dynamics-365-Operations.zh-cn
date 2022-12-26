@@ -922,7 +922,7 @@
           items:
             - name: 对帐单概览
               href: retail-statements.md
-            - name: Commerce 过账参数
+            - name: Commerce 过帐参数
               href: commerce-posting-parameters.md
             - name: 验证用于进行对帐单计算的商店交易记录
               href: valid-checker.md
@@ -1422,6 +1422,8 @@
               href: set-up-rfm-analysis.md
             - name: 在 Dynamics 365 Commerce 中设置 Microsoft Clarity
               href: set-up-clarity.md
+            - name: 设置操作见解
+              href: dev-itpro/operational-insights.md
         - name: Globalization Studio
           items:
             - name: Globalization Studio 概览
@@ -3056,6 +3058,12 @@
               items:
                 - name: 设置电子商务开发环境，针对第 1 层 Retail Server VM 进行调试
                   href: troubleshoot/set-up-dev-environment-debugging.md
+            - name: 商店财务
+              items:
+                - name: Z 报表的数据对帐问题
+                  href: troubleshoot/z-report-issues.md
+                - name: 由于库存不可用或更新冲突导致的对帐单过帐错误
+                  href: troubleshoot/inventory-errors-posting.md
     - name: 财务和运营应用开发和管理
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

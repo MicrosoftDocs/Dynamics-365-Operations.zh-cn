@@ -1809,7 +1809,9 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: 生产规划
                   href: master-planning/planning-optimization/production-planning.md
-                - name: 保质期有限的产品的主计划
+                - name: 设置报废以计算原材料需求
+                  href: master-planning/scrap-calculations.md
+                - name: 有限保质期产品的主计划
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: 无限产能计划
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
@@ -2355,7 +2357,7 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: 创建单个公司的已发布产品
                   href: pim/tasks/create-released-product-single-company.md
-                - name: 使用数据实体
+                - name: 产品数据实体
                   href: pim/data-entities.md
                 - name: 产品生命周期状态
                   items:

@@ -1168,9 +1168,11 @@
                   href: general-ledger/general-ledger-statement-by-main-account.md
                 - name: 税务标准审计文件 (SAF-T) 电子报告
                   href: general-ledger/standard-audit-file.md
-            - name: 期间结束关闭
+                - name: 分类帐结算查询
+                  href: general-ledger/ledger-settlement-inquiry.md
+            - name: 期间结束结算
               items:
-                - name: 在期间结束时关闭总帐
+                - name: 在期间结束时结算总帐
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: 财务期间结帐工作区
                   href: general-ledger/financial-period-close-workspace.md
@@ -1187,7 +1189,19 @@
                 - name: 分类帐结算
                   href: general-ledger/ledger-settlements.md
                 - name: 区分分类帐结算与年终结算
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                  items:
+                    - name: 区分分类帐结算与年终结算
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: 准备了解年终结算前的分类帐结算
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: 准备了解年终结算后的分类帐结算
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: 了解分类帐结算功能和申报币种余额不足
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: 使用查询窗口了解年终结算前的分类帐结算功能
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: 使用查询窗口了解年终结算后的分类帐结算功能
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
                 - name: 自动化分类帐结算
                   href: general-ledger/auto-settle.md
                 - name: 总帐的外币重估

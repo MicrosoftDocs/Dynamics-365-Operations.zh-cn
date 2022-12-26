@@ -32,6 +32,8 @@
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Dynamics 365 Human Resources（独立版）新增功能
                   items:
+                    - name: 2022 年 12 月 Dynamics 365 Human Resources（独立版）新增功能
+                      href: hr-whats-new-2022-12-12.md
                     - name: 2021 年 Dynamics 365 Human Resources（独立版）新增功能存档
                       href: hr-admin-whats-new.md
                     - name: 2021 年 11 月 29 日
@@ -110,6 +112,8 @@
                   href: hr-admin-integration-common-data-service-virtual-entities.md
                 - name: Human Resources 虚拟表常见问题解答
                   href: hr-admin-virtual-entity-faq.md
+                - name: 配置与 Dataverse 的集成
+                  href: hr-dataverse-integration.md
                 - name: 配置与 Finance 的集成
                   href: hr-admin-integration-finance.md
                 - name: 配置与 Dayforce 的集成
