@@ -2,7 +2,7 @@
 title: Dynamics 365 Human Resources 客户迁移到财务和运营基础结构
 description: 本文介绍 Microsoft Dynamics 365 Human Resources 的客户向财务和运营基础结构的迁移。
 author: twheeloc
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
-ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
+ms.openlocfilehash: ab9680c2d1caa08c15aed325f4153aac6eae63c3
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2022
-ms.locfileid: "9760354"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831712"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources 客户迁移
 
@@ -43,7 +43,7 @@ ms.locfileid: "9760354"
  - 将链接到独立 Human Resources 应用的现有 Dataverse 环境复制到您在上一步中创建的环境中。
 
 > [!NOTE]
-> 添加数据库时，确保将 **启用 Dynamics 365 应用** 选项设置为 **是**。 有关详细信息，请参阅[准备 Power Platform 环境](hr-cust-migration.md#prepare-a-power-platform-environment)
+> 添加数据库时，确保将 **启用 Dynamics 365 应用** 选项设置为 **是**。 有关详细信息，请参阅[准备 Power Platform 环境](hr-cust-migration.md#prepare-a-power-platform-environment)。
 
 ### <a name="dataverse-capacity"></a>Dataverse 容量
 
@@ -67,7 +67,7 @@ ms.locfileid: "9760354"
 7. 选中复选框同意条款和条件。
 8. 选择 **创建**。
 
-创建新的 Lifecycle Services 项目后，按照以下步骤进行设置和配置。
+创建新的 Lifecycle Services 项目后，按照以下步骤设置和配置项目。
 
 1. 选择 **项目加入** 完成项目加入。 有关详细信息，请参阅[项目入门](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md)。
 
@@ -158,6 +158,7 @@ ms.locfileid: "9760354"
 
 - 应完成订阅估算器。
 - 应完成实施[准备评估](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md)。
+- 在 Lifecycle Services 中启动生产迁移的用户应该在 Power Platform 上具有系统管理员角色。 
 
 #### <a name="migrate-the-production-environment"></a>迁移生产环境
 

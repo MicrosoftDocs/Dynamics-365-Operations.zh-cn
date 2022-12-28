@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: 3fe21df8be010ace3070ad08ed95f3d3efc7b01d
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752682"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838547"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Dynamics 365 Human Resources 基础结构合并已知问题
 
@@ -43,4 +43,8 @@ ms.locfileid: "9752682"
 ## <a name="teams-integration"></a>Teams 集成
 
 Teams 中现有的 Human Resources 应用目前正在转移到 Microsoft Power Platform 解决方案。 有关详细信息，请参阅 [Teams 中的 Human Resources 应用](hr-admin-teams-leave-app.md)。
+
+## <a name="dual-write-integration"></a>双写入集成
+
+双重写入是一种现成基础结构，其提供 Customer Engagement 应用与财务和运营应用之间的近实时交互。 如果您的组织使用双重写入进行集成，您可能会受到所发现的一些问题的影响。 有关 Dataverse 表和问题的更多信息，请参阅 [Dataverse 表](hr-developer-entities.md)。
 

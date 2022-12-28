@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 25d13aa26565e5753b87c843b43cf46f8276b642
+ms.sourcegitcommit: 6c05bcd27e6ee72f01cb66e2cfd1e929e0365830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643786"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "9854071"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Dynamics 365 Finance 中已删除或弃用的功能
 
@@ -124,11 +124,10 @@ ms.locfileid: "9643786"
 | **部署选项**              | 全部 |
 | **Status**                         | 已弃用：到 2022 年 12 月 1 日，我们计划不再支持 **增值税申报模型** 下的 **增值税申报 (AT)** 电子报告 (ER) 格式。 而是在 **税申报** 模型下引入新的 **增值税申报 XML (AT)** 和 **增值税申报 Excel (AT)** 格式。 |
 
-### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>德国 ELSTER 申报（基于申报代码设计）
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes-electronic-tax-declaration-log-menu-item-and-page-electronic-tax-declaration-setup-menu-item-and-page-german-report-layout-taxreport_de-ssrs-format"></a>德国 ELSTER 申报（基于申报代码设计）、\"电子纳税申报日志\"菜单项和页面、 \"电子纳税申报设置\"菜单项和页面、德国报表版式 (TaxReport_DE) SSRS 格式
 
 [VAT 报表](../localizations/emea-de-vat-declaration.md)</br>
 [设置德国的电子纳税申报设置](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
-[VAT 申报的电子传输 (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -136,9 +135,9 @@ ms.locfileid: "9643786"
 | **被另一个功能取代？**   | 是 |
 | **影响的产品区域**         | 申请 |
 | **部署选项**              | 全部 |
-| **Status**                         | 已弃用：到 2022 年 12 月 1 日，我们计划不再支持 **Elster (DE)** 和 **Elster 模型** 电子报告 (ER) 格式。 而是在 **税申报** 模型下引入新的 **增值税申报 XML (DE)** 和 **增值税申报 Excel (DE)** 格式。 |
+| **Status**                         | 已弃用：到 2022 年 12 月 1 日，我们将不再支持 **Elster (DE)** 电子报告 (ER) 格式和 **Elster 模型**。 而是在 **税申报** 模型下引入新的 **增值税申报 XML (DE)** 和 **增值税申报 Excel (DE)** ER 格式。 我们也将不再支持 **税务** \> **申报** \> **销售税** \> **电子纳税申报日志** 菜单项和页面、**税务** \> **设置** \> **销售税** \> **电子纳税申报设置** 菜单项和页面、**税务** \> **设置** \> **销售税** \> **电子纳税证书** 菜单项和页面，以及德国报表版式 (TaxReport\_DE) SQL Server Reporting Services (SSRS) 格式。 [电子消息](../general-ledger/electronic-messaging.md)功能支持德国的增值税申报流程。 如需了解更多信息，请参阅[德国增值税申报](../localizations/emea-deu-vat-declaration-germany.md)。 |
 
-### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>荷兰 OB 申报（基于申报代码设计）
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes-electronic-ob-declaration-menu-item-and-page-dutch-report-layout-taxreport_nl-ssrs-format"></a>荷兰 OB 申报（基于申报代码设计）、\"电子 OB 申报\"菜单项和页面、荷兰报表版式 (TaxReport_NL) SSRS 格式
 
 [OB 申报](../localizations/emea-nl-vat-declaration.md)
 
@@ -148,7 +147,7 @@ ms.locfileid: "9643786"
 | **被另一个功能取代？**   | 是 |
 | **影响的产品区域**         | 申请 |
 | **部署选项**              | 全部 |
-| **Status**                         | 已弃用：到 2022 年 12 月 1 日，我们计划不再支持 **OB 申报 (NL)** 和 **OB 申报模型** 电子报告 (ER) 格式。 而是在 **税申报** 模型下引入新的 **增值税申报 XML (NL)** 和 **增值税申报 Excel (NL)** 格式。 |
+| **Status**                         | 已弃用：到 2022 年 12 月 1 日，我们将不再支持 **OB 申报 (NL)** 电子报告 (ER) 格式和 **OB 申报模型**。 而是在 **税申报** 模型下引入新的 **增值税申报 XML (NL)** 和 **增值税申报 Excel (NL)** ER 格式。 我们也将不再支持 **税务** \> **申报** \> **销售税** \> **电子 OB 申报** 菜单项和页面，以及荷兰报表版式 (TaxReport_NL) SSRS 格式。 [电子消息](../general-ledger/electronic-messaging.md)功能支持荷兰的增值税申报流程。 如需了解更多信息，请参阅[荷兰增值税申报](../localizations/emea-nl-vat-declaration-netherlands.md)。 |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Finance 10.0.20 版本中已经删除或弃用的功能
 

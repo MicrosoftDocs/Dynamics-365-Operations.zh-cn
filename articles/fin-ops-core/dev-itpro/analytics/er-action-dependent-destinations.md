@@ -2,7 +2,7 @@
 title: 配置依赖操作的 ER 目标
 description: 本文介绍如何为配置为生成出站文档的电子报告 (ER) 格式配置依赖操作的目标。
 author: kfend
-ms.date: 02/09/2021
+ms.date: 12/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 10.0.17
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
-ms.openlocfilehash: babd123e4c8007e3adc545bb92a2dc83bab93f4e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 80a432a431891c02e4bf5c71cfe2bd9642c41c75
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286238"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843789"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>配置依赖操作的 ER 目标
 
@@ -32,7 +32,7 @@ ms.locfileid: "9286238"
 
 ## <a name="make-action-dependent-er-destinations-available"></a>让依赖操作的 ER 目标可用
 
-要在当前的 Finance 实例中配置依赖操作的 ER 目标，并启用 [新](er-apis-app10-0-17.md) ER API，打开 [功能管理](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace)工作区，然后打开 **配置特定的 ER 目标以用于不同的 PM 操作** 功能。 要在运行时将已配置的 ER 目标用于 [特定](#reports-list-wave1)报表，请启用功能 **根据特定于用户操作的 ER 目标路由 PM 报表的输出(第 1 波)**。
+要在当前的 Finance 实例中配置依赖操作的 ER 目标，并启用 [新](er-apis-app10-0-17.md) ER API，打开 [功能管理](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace)工作区，然后打开 **配置特定的 ER 目标以用于不同的 PM 操作** 功能。 要在运行时将已配置的 ER 目标用于报表，请启用 **根据特定于用户操作的 ER 目标路由 PM 报表的输出(第 1 波)** 功能。
 
 ## <a name="configure-action-dependent-er-destinations"></a>配置依赖操作的 ER 目标
 
@@ -89,6 +89,51 @@ ER 格式运行时，如果用户操作已由具有适当[权限](electronic-rep
 > [!NOTE]
 > 如果您为正在运行的 ER 格式的多个组件配置了 ER 目标，将为每个已配置的 ER 格式组件单独提供一个选项。
 
+如果多种 ER 格式适合用作所选文档的报告模板，则所有适用的 ER 报告模板的所有 ER 目标都将显示在对话框中，并可在运行时进行手动调整。
+
+如果没有 [SQL Server 报告服务 (SSRS)](SSRS-report.md) 报告模板适用于所选文档，则会动态隐藏打印管理目标的标准选项。
+
+从 Finance 版本 **10.0.31** 开始，您可以在运行时为以下业务文档手动更改分配的 ER 目标：
+
+- 客户帐户对帐单
+- 利息单
+- 催款单
+- 客户付款通知
+- 供应商付款通知
+
+要激活在运行时更改 ER 目标的功能，请启用 [功能管理](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace)工作区中的 **允许在运行时调整 ER 目标** 功能。
+
+> [!IMPORTANT]
+> 对于 **客户付款通知** 和 **供应商付款通知** 报告，手动更改 ER 目标的功能仅在 **ForcePrintJobSettings** 外部测试版启用后才可用。
+
+[![在运行时调整 ER 目标。](./media/ERdestinaiotnChangeUI.jpg)](./media/ERdestinaiotnChangeUI.jpg)
+
+> [!NOTE]
+> 在 **使用打印管理目标** 选项设置为 **是** 时，系统使用为特定 ER 报告配置的默认 ER 目标。 在对话框中进行的所有手动更改都将被忽略。 将 **使用打印管理目标** 选项设置为 **否**，以在即将运行报告之前将文档处理到对话框中定义的 ER 目标。
+
+以下业务文档在运行时未假定用户明确选择操作：
+
+- 客户帐户对帐单
+- 利息单
+- 催款单
+- 客户付款通知
+- 供应商付款通知
+
+以下逻辑用于确定在处理上述报告时使用哪个操作：
+
+- 如果启用了 **ForcePrintJobSettings** 外部测试版：
+
+    - 如果 **使用打印管理目标** 选项设置为 **是**，则使用 **打印** 操作。
+    - 如果 **使用打印管理目标** 选项设置为 **否**，则使用 **查看** 操作。
+
+- 如果未启用 **ForcePrintJobSettings** 外部测试版：
+
+    - 如果 **使用打印管理目标** 选项设置为 **是**，则对 **客户付款通知** 和 **供应商付款通知** 报告使用 **打印** 操作。
+    - 如果 **使用打印管理目标** 选项设置为 **否**，则对 **客户付款通知** 和 **供应商付款通知** 报告始终使用默认的 SSRS 报告模板。
+    - **打印** 操作始终用于 **客户帐户对帐单**、**利息单** 和 **催款单注释** 报告。
+
+对于前面的逻辑，可以使用 **打印** 或 **查看** 操作来配置依赖于操作的 ER 报告目标。 在运行时，对话框中只会筛选为特定操作配置的 ER 目标。
+
 ## <a name="verify-the-provided-user-action"></a>验证提供的用户操作
 
 执行特定用户操作时，可以验证为正在运行的 ER 格式提供了哪些用户操作（如果有）。 当您必须配置依赖操作的 ER 目标，但是您不确定提供了哪个用户操作代码（如果有）时，此验证很重要。 例如，当您开始发布普通发票，并将 **发布普通发票** 对话框中的 **打印发票** 选项设置为 **是** 时，您可以将 **使用打印管理目标** 选项设置为 **是** 或 **否**。
@@ -104,20 +149,6 @@ ER 格式运行时，如果用户操作已由具有适当[权限](electronic-rep
 7. 如果为 ER 格式运行提供了任何操作，请查看必须包含呈现所提供的用户操作代码的记录的日志条目。
 
     ![电子报告运行日志页面，其中包含有关为筛选出的 ER 格式运行提供的用户操作代码的信息。](./media/er-destination-action-dependent-03.png)
-
-## <a name=""></a><a name="reports-list-wave1">业务文档列表（第 1 波）</a>
-
-以下业务文档列表由功能 **根据特定于用户操作的 ER 目标路由 PM 报表的输出(第 1 波)** 控制：
-
-- 客户发票（普通发票）
-- 客户发票（销售发票）
-- 采购订单
-- 采购订单采购查询
-- 销售订单确认
-- 催款单
-- 利息单
-- 供应商付款通知
-- 询价
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -2,23 +2,23 @@
 title: 银行外币重估
 description: 本文概述银行外币重估流程。 其中包括有关该流程的设置、运行、计算，以及重估交易记录的冲销的信息。
 author: angelad116
-ms.date: 05/16/2019
+ms.date: 12/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8efec304e745332c332030b33363403869870532
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 2d5e8a36d3b4d44c9ad0454db94164adebf80997
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151422"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887251"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>银行外币重估
 
@@ -39,17 +39,8 @@ ms.locfileid: "9151422"
 - 在 **分类帐** 页面上，指定汇率类型。 如果汇率类型在主科目上未定义，则在外币重估期间将使用此汇率类型。
 - 在 **分类帐** 页面上，指定币种重估的已有收益、已有损失、或有利润和或有损失。 结算应收帐款和应付帐款时，将使用已有收益科目和已有损失科目。 将使用或有收益科目和或有损失科目重新评估未结交易记录和总帐主科目。
 - 在 **币种重估科目** 页面上，为每个币种和公司选择不同的币种重估科目。 如果未定义任何科目，则使用 **分类帐** 页面中的科目。
+- 在 **现金和银行管理参数** 页面上的 **编号规则** 选项卡上，添加外币重估的编号规则。
 
-## <a name="enable-foreign-currency-revaluation"></a>启用外币重估
-
-必须开启银行外币重估功能，才能处理外币重估。
-
-1. 转到 **现金和银行管理 \> 设置 \>现金和管理银行参数**。
-2. 在 **常规** 选项卡的 **外币重估** 下，将 **启用银行重估** 选项设置为 **是**，以便为当前实体启用此功能。 
-3. 在 **编号规则** 选项卡上，添加外币重估的编号规则。
-4. 刷新浏览器以在区域页面的 **定期任务** 部分中显示 **外币重估**。
-
-必须为每个将使用外币重估的法人开启此功能。 如果为您分配了系统管理员角色或功能管理员角色，您可以通过在 **功能管理** 工作表中建立建立名称为 **启用不包含参数的空白重估** 的功能来消除此步骤。
 
 > [!NOTE]
 > 如果您的实体使用俄罗斯、波兰或匈牙利国家/区域代码，您已经可以进行银行外币重估。 不能使用其他国家或地区使用的外币重估。

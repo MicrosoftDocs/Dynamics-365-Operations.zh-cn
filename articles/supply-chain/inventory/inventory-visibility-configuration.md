@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 2a368535c9644e174d1a2460ac0891c9dc1b1b3f
+ms.sourcegitcommit: 44f0b4ef8d74c86b5c5040be37981e32eb43e1a8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9765702"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "9850015"
 ---
 # <a name="configure-inventory-visibility"></a>配置 Inventory Visibility
 
@@ -32,6 +32,7 @@ ms.locfileid: "9765702"
 - [分区配置](#partition-configuration)
 - [产品索引层次结构配置](#index-configuration)
 - [预留配置（可选）](#reservation-configuration)
+- [查询预加载配置（可选）](#query-preload-configuration)
 - [默认配置示例](#default-configuration-sample)
 
 ## <a name="prerequisites"></a>先决条件
@@ -52,10 +53,13 @@ ms.locfileid: "9765702"
 |---|---|
 | *OnHandReservation* | 使用此功能，您可以使用库存可见性创建预留、使用预留和/或取消预留指定的库存数量。 有关详细信息，请参阅[库存可见性预留](inventory-visibility-reservations.md)。 |
 | *OnHandMostSpecificBackgroundService* | 此功能提供产品的库存汇总以及所有维度。 将定期从库存可见性同步库存汇总数据。 默认同步频率为每 15 分钟一次，最高可设置为每 5 分钟一次。 有关详细信息，请参阅[库存汇总](inventory-visibility-power-platform.md#inventory-summary)。 |
-| *onHandIndexQueryPreloadBackgroundService* | 此功能可以预加载库存可见性现有库存查询来将现有库存列表与预选维度合并。 默认同步频率为每 15 分钟一次。 有关详细信息，请参阅[预加载简化的现有量查询](inventory-visibility-power-platform.md#preload-streamlined-onhand-query)。 |
+| *OnHandIndexQueryPreloadBackgroundService* | 此功能会根据您预先配置的维度定期获取和存储一组现有库存摘要数据。 它提供的库存摘要仅包括与您的日常业务相关的维度，并且与为仓库管理流程 (WMS) 启用的项兼容。 有关详细信息，请参阅[打开和配置预加载的现有查询](#query-preload-configuration)和 [预加载简化的现有查询](inventory-visibility-power-platform.md#preload-streamlined-onhand-query)。 |
 | *OnhandChangeSchedule* | 此可选功能支持现有库存更改计划和可承诺 (ATP) 功能。 有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。 |
 | *分配* | 此可选功能使库存可见性能够进行库存保护（圈护）和超额销售控制。 有关详细信息，请参阅[库存可见性库存分配](inventory-visibility-allocation.md)。 |
 | *在库存可见性中启用仓库物料* | 此可选功能使库存可见性能够支持启用了仓库管理流程 (WMS)。 有关详细信息，请参阅 [WMS 物料的库存可见性支持](inventory-visibility-whs-support.md)。 |
+
+> [!IMPORTANT]
+> 我们建议您使用 *OnHandIndexQueryPreloadBackgroundService* 功能或 *OnHandMostSpecificBackgroundService* 功能，而不是同时使用这两种功能。 启用这两个功能将影响性能。
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>查找服务终结点
 
@@ -178,6 +182,15 @@ ms.locfileid: "9765702"
 1. 登录您的 Power Apps 环境，然后打开 **库存可见性**。
 1. 打开 **管理** 页面。
 1. 在 **数据源** 选项卡上，选择要添加实际度量的数据源（例如，`ecommerce` 数据源）。 然后，在 **实际度量** 部分，选择 **添加**，指定度量名称（例如，如果要将此数据源中返回的数量记录到库存可见性中，则为 `Returned`）。 保存所做的更改。
+
+### <a name="extended-dimensions"></a>扩展的维度
+
+想要在数据源中使用外部数据源的客户可以通过为 `InventOnHandChangeEventDimensionSet` 和 `InventInventoryDataServiceBatchJobTask` 类创建[类扩展](../../fin-ops-core/dev-itpro/extensibility/class-extensions.md)来利用 Dynamics 365 提供的可扩展性。
+
+请务必在创建扩展后与数据库同步，以便将自定义字段添加到 `InventSum` 表中。 然后，您可以参考本文前面的“维度”部分，以将您的自定义维度映射到库存系统内 `BaseDimensions` 中八个扩展维度中的任意一个。
+
+> [!NOTE] 
+> 有关创建扩展的更多详细信息，请参阅[可扩展性主页](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)。
 
 ### <a name="calculated-measures"></a>计算度量
 
@@ -496,6 +509,30 @@ ms.locfileid: "9765702"
 ## <a name="available-to-promise-configuration-optional"></a>可承诺配置（可选）
 
 您可以设置库存可见性，以可以计划将来的现有库存更改并计算可承诺 (ATP) 数量。 ATP 是可用的并且可以在下一个期间向客户承诺的物料数量。 使用此计算可以大大提高您的订单履行能力。 要使用此功能，您必须在 **功能管理** 选项卡上启用它，然后在 **ATP 设置** 选项卡上进行设置。有关详细信息，请参阅[库存可见性现有库存更改计划与可承诺](inventory-visibility-available-to-promise.md)。
+
+## <a name="turn-on-and-configure-preloaded-on-hand-queries-optional"></a><a name="query-preload-configuration"></a>打开并配置预加载的现有查询（可选）
+
+库存可见性会根据您预先配置的维度定期获取和存储一组现有库存摘要数据。 这功能提供了以下优点：
+
+- 一个更清晰的视图，用于存储仅包含与您的日常业务相关的维度的库存摘要。
+- 与为仓库管理流程 (WMS) 启用的项兼容的库存摘要。
+
+请参阅[预加载简化的现有库存查询](inventory-visibility-power-platform.md#preload-streamlined-onhand-query)，了解有关如何在设置后使用此功能的更多信息。
+
+> [!IMPORTANT]
+> 我们建议您使用 *OnHandIndexQueryPreloadBackgroundService* 功能或 *OnHandMostSpecificBackgroundService* 功能，而不是同时使用这两种功能。 启用这两个功能将影响性能。
+
+请按照以下步骤设置此功能：
+
+1. 登录到库存可见性 Power App。
+1. 转到 **配置 \> 功能管理和设置**。
+1. 如果 *OnHandIndexQueryPreloadBackgroundService* 功能已启用，则我们建议您暂时关闭它，因为清理过程可能需要很长时间才能完成。 您将在此过程的后面再次打开它。
+1. 打开 **预加载设置** 选项卡。
+1. 在 **第 1 步：清理预加载存储** 部分，选择 **清理** 以清理数据库，并使其准备就绪以接受您的新分组依据设置。
+1. 在 **第 2 步：设置分组依据值** 部分，在 **结果分组依据** 字段中，输入以逗号分隔的字段名称列表，您可以根据这些字段名称对查询结果进行分组。 一旦预加载存储数据库中有数据，您将无法更改此设置，直到您清理数据库为止，如上一步所述。
+1. 转到 **配置 \> 功能管理和设置**。
+1. 打开 *OnHandIndexQueryPreloadBackgroundService* 功能。
+1. 在 **配置** 页右上角中选择 **更新配置** 以提交更改。
 
 ## <a name="complete-and-update-the-configuration"></a>完成和更新配置
 

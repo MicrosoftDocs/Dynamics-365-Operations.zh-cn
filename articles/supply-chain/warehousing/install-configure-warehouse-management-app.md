@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714750"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838464"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>安装和连接 Warehouse Management 移动应用
 
@@ -58,10 +58,10 @@ Windows 和 Google Android 操作系统均支持仓库管理移动应用。 若�
 
 作为从应用商店安装的替代方法，您可以从 Microsoft App Center 下载应用。 App Center 提供可以旁加载的可安装包。 除了当前版本外，App Center 还允许您下载以前的版本，而且可以提供包含您可以试用的即将发布功能的预览版本。要从 Microsoft App Center 下载仓库管理移动应用的当前、先前或预览版本，请使用以下链接之一：
 
-- **Windows (UWP)**：[仓库管理 (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP)**：[仓库管理 (Windows)](https://aka.ms/wma-windows-official-release)  
     有关如何在 Windows 设备上安装下载的包然后设置所需证书的说明，请参阅[从 App Center 安装版本](/appcenter/distribution/installation)。
 
-- **Android**：[仓库管理 (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android**：[仓库管理 (Android)](https://aka.ms/wma-android-official-release)  
     如果您下载预览版，需要执行一些额外的步骤进行安装。 有关详细信息，请参阅[测试 Android 应用](/appcenter/distribution/testers/testing-android)。
 
 有关如何安装从 App Center 下载的内部版本的信息，请参阅[安装内部版本](/appcenter/distribution/installation)。

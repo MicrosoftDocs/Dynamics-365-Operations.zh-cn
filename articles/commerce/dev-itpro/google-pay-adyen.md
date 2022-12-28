@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c3f049946c66fcd8560f7c08a4cb2beab0dcd5b2
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: cdf950fc7b3720543d93e108d4e3c3c2ab254e09
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9115023"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838383"
 ---
 # <a name="configure-google-pay-with-adyen"></a>配置 Google Pay 与 Adyen
 
@@ -90,11 +90,6 @@ Google Pay 是一种数字钱包付款方式。 有关如何设置 Google Pay �
 
 1. 设置完连接器属性后，运行 **1070（渠道配置）** 分发计划作业。
 
-## <a name="configure-commerce-pos-for-google-pay"></a>为 Google Pay 配置 Commerce POS
-
-POS 配置将硬件配置文件的 **EFT 服务** 字段的设置用于面向 Adyen 的 Dynamics 365 Payment Connector。 有关如何在 Commerce Headquarters 中为面向 Adyen 的 Dynamics 365 Payment Connector 配置电子资金转移 (EFT) 服务的信息，请参阅[设置 Dynamics 365 POS 硬件配置文件](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile)部分。
-
-Adyen 连接器的处理器映射捕获 Google Pay 在 POS 终端上使用的钱包卡类型。
 
 ### <a name="use-the-payment-express-module-with-google-pay"></a>将快速付款模块与 Google Pay 搭配使用
 
@@ -223,6 +218,12 @@ Commerce 快速付款模块将与支持的付款方式搭配使用，通过在�
 结帐模块还在结帐期间呈现交货模式时使用交货选项模块。 有关详细信息，请参阅[交货选项模块](../delivery-options-module.md)。
 
 交货方式在添加到在线商店中的 **交货方式** 列表时显示。
+
+## <a name="configure-commerce-pos-for-google-pay"></a>为 Google Pay 配置 Commerce POS
+
+POS 配置将硬件配置文件的 **EFT 服务** 字段的设置用于面向 Adyen 的 Dynamics 365 Payment Connector。 有关如何在 Commerce Headquarters 中为面向 Adyen 的 Dynamics 365 Payment Connector 配置电子资金转移 (EFT) 服务的信息，请参阅[设置 Dynamics 365 POS 硬件配置文件](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile)。
+
+Adyen 连接器的处理器映射捕获 Google Pay 在 POS 终端上使用的钱包卡类型。
 
 ## <a name="additional-resources"></a>其他资源
 

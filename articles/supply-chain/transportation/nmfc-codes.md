@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 522e4d4e26b04b5ca1dd317e433c5a20ff3cb12e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c173057b8e1357790e780469c5806afb857be62a
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893256"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838309"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>全国汽车货运分类 (NMFC) 代码
 
@@ -57,7 +57,7 @@ NMFC 代码与每个小于货车荷载 (LTL) 装运物料关联。 例如，可�
 
 下面的示例演示如何设置可以用于不同产品的两个不同的 NMFC 代码。
 
-1. 转到 **仓库管理 \> 设置 \> 库存 \> NMFC 代码**。
+1. 转到 **仓库管理 \> 设置 \> 库存 \> NMFC 代码** 或 **运输管理 \> 设置 \> 运输标准 \> NMFC 代码**。
 1. 在操作窗格上，选择 **新建**。
 1. 在新行中，设置以下值：
 

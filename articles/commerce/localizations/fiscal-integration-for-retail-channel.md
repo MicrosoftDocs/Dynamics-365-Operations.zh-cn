@@ -2,19 +2,19 @@
 title: Commerce 渠道的会计集成概览
 description: 本文提供 Dynamics 365 Commerce 中可用的会计整合功能的概览。
 author: EvgenyPopovMBS
-ms.date: 10/04/2022
+ms.date: 12/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
-ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
+ms.openlocfilehash: 3f1b555a016a56cc41ab397e3708f20482f25f09
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "9631228"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831850"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Commerce 渠道的会计集成概览
 
@@ -172,19 +172,17 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 - [瑞典的控制单元集成示例](./emea-swe-fi-sample.md)
 - [德国的会计登记服务集成示例](./emea-deu-fi-sample.md)
 - [俄罗斯税控打印机集成示例](./rus-fpi-sample.md)
+- [挪威数字签名示例](./emea-nor-cash-registers.md)
 
 以下会计整合功能也通过使用会计集成框架来实现，但该功能可即装即用，并且未包含在 Commerce SDK 中：
 
 - [巴西的会计登记](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
 - [法国数字签名](./emea-fra-cash-registers.md)
 
-以下会计整合功能也在 Commerce SDK 中可用，但当前不利用会计整合框架。 在以后的更新中已计划了将此功能迁移到会计整合框架。
-
-- [挪威数字签名](./emea-nor-cash-registers.md)
-
 Commerce SDK 中提供的以下旧版会计整合功能不使用会计整合框架，将在以后的更新中弃用：
 
 - [瑞典的控制单元集成示例（旧）](./retail-sdk-control-unit-sample.md)
 - [法国数字签名（旧版）](./emea-fra-deployment.md)
+- [挪威数字签名（旧版）](./emea-nor-loc-deployment-guidelines.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

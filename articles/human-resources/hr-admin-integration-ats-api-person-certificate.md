@@ -2,7 +2,7 @@
 title: 人员证书
 description: 本文介绍 Dynamics 365 Human Resources 的“人员证书”实体。
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3c3be061cb8a18a19729932352c82ff3b787000
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f9d5a8c83d9714a4d10dec16e66ab87b794b074
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897913"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887309"
 ---
 # <a name="person-certificate"></a>人员证书
 
@@ -53,17 +53,20 @@ ms.locfileid: "8897913"
 
 ## <a name="properties"></a>属性
 
-| 属性<br>**物理名称**<br>**_类型_** | 使用 | 说明 |
+| 属性<br>**物理名称**<br>**_类型_** | 使用 | Description |
 | --- | --- | --- |
-| **人员证书实体 ID**<br>mshr_hcmpersoncertificateentityid<br>*GUID* | 只读<br>必填 | 系统生成的人员证书实体记录的唯一标识符。 |
-| **当事方编号**<br>mshr_partynumber<br>*字符串* | 读/写<br>必填 | 应聘者的当事方（人员）ID。 |
-| **人员 ID 值**<br>_mshr_fk_person_id_value<br>*GUID* | 只读<br>必填<br>外键：mshr_dirpersonentity 的 mshr_dirpersonentityid | 系统生成的当事方（人员）实体记录的标识符。 |
 | **证书类型 ID**<br>mshr_certificatetypeid<br>*字符串* | 读/写<br>必填 |  Human Resources 中定义的证书类型的标识符。 |
-| **证书类型 ID 值**<br>_mshr_fk_certificatetype_id_value<br>*GUID* | 只读<br>必填<br>外键：mshr_hcmcertificatetypeentity 的 mshr_hcmcertificatetypeentityid | 系统生成的关联实体中证书类型的唯一标识符。 |
 | **开始日期**<br>mshr_startdate<br>*日期/时间* | 读/写<br>必填 | 颁发证书的日期。 |
 | **结束日期**<br>mshr_enddate<br>*日期/时间* | 读/写<br>可选 | 证书到期的日期。 |
 | **说明**<br>mshr_notes<br>*字符串* | 读/写<br>可选 | 招聘经理和招聘人员使用的说明。 |
+| **当事方编号**<br>mshr_partynumber<br>*字符串* | 读/写<br>必填 | 应聘者的当事方（人员）ID。 |
 | **主要字段**<br>mshr_primaryfield<br>*字符串* | 只读<br>必填 |  用作实体记录的标识符的字段。 当事方编号、证书类型 ID 和开始日期的组合。 |
+| **证书类型 ID 值**<br>_mshr_fk_certificatetype_id_value<br>*GUID* | 只读<br>必填<br>外键：mshr_hcmcertificatetypeentity 的 mshr_hcmcertificatetypeentityid | 系统生成的关联实体中证书类型的唯一标识符。 |
+| **人员 ID 值**<br>_mshr_fk_person_id_value<br>*GUID* | 只读<br>必填<br>外键：mshr_dirpersonentity 的 mshr_dirpersonentityid | 系统生成的当事方（人员）实体记录的标识符。 |
+| **人员证书实体 ID**<br>mshr_hcmpersoncertificateentityid<br>*GUID* | 只读<br>必填 | 系统生成的人员证书实体记录的唯一标识符。 |
+
+
+
 
 ## <a name="see-also"></a>请参阅
 

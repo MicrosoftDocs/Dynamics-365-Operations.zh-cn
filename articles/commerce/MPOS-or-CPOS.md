@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0e1092c0c5c49c6a99dd441c75f545fc831c0b03
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276446"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831548"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>选择 Store Commerce 或 Cloud POS
 
@@ -70,8 +70,8 @@ Store Commerce 是一个在设备上安装和服务的桌面应用程序。
 | POS 应用程序            | Commerce Scale Unit | 脱机可用 | 本地 HWS 支持 |
 |----------------------------|---------------------|-------------------|-------------------|
 | 适用于 Windows 的 Store Commerce | 云或 RSSU       | 是               | 是               |
-| 适用于 Android 的 Store Commerce | 云或 RSSU       | 否                | 是               |
-| 适用于 iOS 的 Store Commerce     | 云或 RSSU       | 否                | 否                |
+| 适用于 Android 的 Store Commerce | 云或 RSSU       | 否                | 有               |
+| 适用于 iOS 的 Store Commerce     | 云或 RSSU       | 否                | 有               |
 | 云 POS                  | 云或 RSSU       | 否                | 否                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
@@ -88,10 +88,10 @@ Commerce Scale Unit 是承载 CRT 的组件。 CRT 包含 POS 使用的所有业
 
 | POS 应用程序            | 本地 HWS OPOS | 网络外设 | 共享的 HWS 支持 |
 |----------------------------|----------------|---------------------|--------------------|
-| 适用于 Windows 的 Store Commerce | 是            | 是                 | 是                |
-| 适用于 Android 的 Store Commerce | 否             | 是                 | 是                |
-| 适用于 iOS 的 Store Commerce     | 否             | 否                  | 是                |
-| 云 POS                  | 否             | 否                  | 是                |
+| 适用于 Windows 的 Store Commerce | 是            | 有                 | 有                |
+| 适用于 Android 的 Store Commerce | 否             | 有                 | 有                |
+| 适用于 iOS 的 Store Commerce     | 否             | 有                 | 有                |
+| 云 POS                  | 否             | 否                  | 有                |
 
 有关硬件工作站的详细信息，请参阅[配置和安装 Retail 硬件工作站](retail-hardware-station-configuration-installation.md)。
 

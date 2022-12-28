@@ -2,7 +2,7 @@
 title: Dataverse 表
 description: Microsoft Dynamics 365 Human Resources 使用 Dataverse 实现可扩展性和集成方案。
 author: twheeloc
-ms.date: 01/25/2021
+ms.date: 12/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 702a4063e45dfc64f1edb4351f9bf80491338502
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 51be30f10c8e5f5e962f54f720f66c712a785835
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692245"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838574"
 ---
 # <a name="dataverse-tables"></a>Dataverse 表
 
@@ -35,105 +35,110 @@ Microsoft Dynamics 365 Human Resources 使用 Dataverse 实现可扩展性和集
 
 下列 Dataverse 表基于 Human Resources 实体提供。
 
+有关已知问题的更多信息，请参阅 [Lifecycle Services (LCS) 中的问题搜索](/dev-itpro/lifecycle-services/issue-search-lcs)。
+
 ## <a name="benefit-tables"></a>福利表
 
-| 姓名 | 表 |
-| --- | --- |
-| 福利计算频率 | cdm_benefitcalculationfrequency |
-| 福利计算频率付薪期间 | cdm_benefitcalculationfrequencypayperiod |
-| 福利计算比率 | cdm_benefitcalculationrate |
-| 福利计算比率详细信息 | cdm_benefitcalculationratedetail |
-| 福利选项 | cdm_benefitoption |
-| 福利计划 | cdm_benefitplan（未启用自定义字段支持） |
-| 福利类型 | cdm_benefittype |
+| Name | 表 | 已知问题  | Status |
+| --- | --- |    --------|----------  |
+| 福利计算频率 | cdm_benefitcalculationfrequency |     |     |
+| 福利计算频率付薪期间 | cdm_benefitcalculationfrequencypayperiod |     |     |
+| 福利计算比率 | cdm_benefitcalculationrate |    |     |
+| 福利计算比率详细信息 | cdm_benefitcalculationratedetail |753225 | 已解析  |
+| 福利选项 | cdm_benefitoption |    |     |
+| 福利计划 | cdm_benefitplan（未启用自定义字段支持） |    |     |
+| 福利类型 | cdm_benefittype |    |     |
 
 ## <a name="business-process-tasks-tables"></a>业务流程任务表
 
-| 姓名 | 表 |
-| --- | --- |
-| 业务流程日历 | cdm_businessprocesscalendar |
-| 业务流程组分配 | cdm_businessprocessgroupassignment |
-| 业务流程库任务组 | cdm_businessprocesslibrarytaskgroup |
-| 业务流程阶段 | cdm_businessprocessstage |
-| 核对清单模板标题 | cdm_businessprocesstemplateheader |
-| 核对清单模板任务 | cdm_businessprocesstemplatetask |
+| Name | 表 |已知问题  | Status |
+| --- | --- |   --------|----------   |
+| 业务流程日历 | cdm_businessprocesscalendar | 751867 | 已解析 |
+| 业务流程组分配 | cdm_businessprocessgroupassignment | 751869  751863 | 可用|
+| 业务流程库任务组 | cdm_businessprocesslibrarytaskgroup |751866 | 已关闭 |
+| 业务流程阶段 | cdm_businessprocessstage |      |     |
+| 核对清单模板标题 | cdm_businessprocesstemplateheader |     |     |
+| 核对清单模板任务 | cdm_businessprocesstemplatetask |      |     |
 
 ## <a name="compensation-tables"></a>薪酬表
 
-| 姓名 | 表 |
-| --- | --- |
-| 固定薪酬计划 | cdm_compensationfixedplan |
-| 薪酬网格 | cdm_compensationgrid |
-| 薪酬级别 | cdm_compensationlevel |
-| 薪酬付薪频率 | cdm_compensationpayfrequency |
-| 薪酬参考点设置 | cdm_compensationreferencepointsetup |
-| 薪酬参考点设置行 | cdm_compensationreferencepointsetupline |
-| 薪酬区域 | cdm_compensationregion |
-| 薪酬结构 | cdm_compensationstructure |
-| 可变薪酬计划 | cdm_compensationvariableplan |
-| 可变薪酬计划级别 | cdm_compensationvariableplanlevel |
-| 可变薪酬计划类型 | cdm_compensationvariableplantype |
-| 固定薪酬事件 | cdm_fixedcompensationevent |
-| 股份行权规则 | cdm_vestingrule |
-| 工作人员固定薪酬 | cdm_workerfixedcompensation |
+| Name | 表 |已知问题  | Status |
+| --- | --- | ----------      | -------    |
+| 固定薪酬计划 | cdm_compensationfixedplan |754453 | 已关闭 |
+| 薪酬网格 | cdm_compensationgrid |             |     |
+| 薪酬级别 | cdm_compensationlevel |           |     |
+| 薪酬付薪频率 | cdm_compensationpayfrequency |                  |     |
+| 薪酬参考点设置 | cdm_compensationreferencepointsetup |               |     |
+| 薪酬参考点设置行 | cdm_compensationreferencepointsetupline |             |     |
+| 薪酬区域 | cdm_compensationregion |                   |     |
+| 薪酬结构 | cdm_compensationstructure |    754456        | 已关闭    |
+| 可变薪酬计划 | cdm_compensationvariableplan |               |     |
+| 可变薪酬计划级别 | cdm_compensationvariableplanlevel |                |     |
+| 可变薪酬计划类型 | cdm_compensationvariableplantype |               |     |
+| 固定薪酬事件 | cdm_fixedcompensationevent |               |     |
+| 股份行权规则 | cdm_vestingrule |              |     |
+| 工作人员固定薪酬 | cdm_workerfixedcompensation |              |     |
 
 ## <a name="organization-tables"></a>组织表
 
-| 姓名 | 表 |
-| --- | --- |
-| 部门 | cdm_department |
-| 雇用 | cdm_employment |
-| 公司 | cdm_company |
-| 职位 | cdm_job |
-| 工作职能 | cdm_jobfunction |
-| 工作职位 | cdm_jobposition |
-| 职位类型 | cdm_positiontype |
-| 职位工作人员分配 | cdm_positionworkerassignmentmap |
-| 工作职位维度 | cdm_jobpositiondimension|
-| 工作类型 | cdm_jobtype |
-| 语言 | cdm_language |
-| 职位 | cdm_title |
+| Name | 表 |已知问题  | Status |
+| --- | --- | ----------      | -------    |
+| 部门 | cdm_department |  752194    | 已关闭    |
+| 雇用 | cdm_employment | 762414  |  已关闭  |
+| 公司 | cdm_company |  |     |
+| 职务 | cdm_job |  |     |
+| 工作职能 | cdm_jobfunction |        |     |
+| 工作职位 | cdm_jobposition | 752214      | 已关闭    |
+| 职位类型 | cdm_positiontype |            |     |
+| 职位工作人员分配 | cdm_positionworkerassignmentmap | 752224    |  已关闭   |
+| 工作职位维度 | cdm_jobpositiondimension|       |     |
+| 工作类型 | cdm_jobtype |      |     |
+| 语言 | cdm_language |        |     |
+| 职位 | cdm_title |       |     |
 
 > [!NOTE]
 > **职位类型**、**职位工作人员分配** 和 **雇用** 的财务维度提供到 Dataverse 的单向集成。 财务维度更新现在不能从 Dataverse 同步到 Human Resources。 
 
 ## <a name="leave-and-absence-tables"></a>休假和缺勤表
 
-| 姓名 | 表 |
-| --- | --- |
-| 休假银行交易记录 | cdm_leavebanktransaction |
-| 休假登记 | cdm_leaveenrollment |
-| 休假计划 | cdm_leaveplan |
-| 休假请求 | cdm_leaverequest |
-| 休假请求详细信息 | cdm_leaverequestdetail |
-| 休假类型 | cdm_leavetype |
-| 休假类型原因代码 | cdm_leavetypereasoncode |
+| Name | 表 | 已知问题  | Status |
+| --- | --- |   ----------      | -------    |
+| 休假银行交易记录 | cdm_leavebanktransaction |  752252    |    已解析 |
+| 休假登记 | cdm_leaveenrollment |  752934    |已关闭     |
+| 休假计划 | cdm_leaveplan |   752232   |   已关闭  |
+| 休假请求 | cdm_leaverequest | 753207     | 已关闭    |
+| 休假请求详细信息 | cdm_leaverequestdetail | 753207     |   已关闭  |
+| 休假类型 | cdm_leavetype |      |     |
+| 休假类型原因代码 | cdm_leavetypereasoncode |         |     |
+
+>[!NOTE]
+>只有在使用 **功能管理** 的 Microsoft Dynamics 365 Finance 中启用了 **在单个休假计划上配置多个休假类型** 功能时，使用 Dataverse 休假表和缺勤表的双重写入集成才可用。 
 
 ## <a name="payroll-tables"></a>工资表
 
-| 姓名 | 表 |
-| --- | --- |
-| 付薪周期 | cdm_paycycle |
-| 付薪期间 | cdm_payperiod |
-| 工资单收入代码 | cdm_payrollearningcode |
-| 银行帐户付款 | cdm_bankaccountdisbursement |
-| 税区 | cdm_taxregion |
+| Name | 表 |已知问题  | Status |
+| --- | --- |  ----------      | -------    |
+| 付薪周期 | cdm_paycycle |    |     |
+| 付薪期间 | cdm_payperiod |          |     |
+| 工资单收入代码 | cdm_payrollearningcode |   754458        |   已关闭  |
+| 银行帐户付款 | cdm_bankaccountdisbursement |    751904     |   已关闭  |
+| 税区 | cdm_taxregion |          |     |
 
 ## <a name="worker-tables"></a>工作人员表
 
-| 姓名 | 表 |
-| --- | --- |
-| 工作线程 | cdm_worker |
-| 工作人员地址 | cdm_workeraddress |
-| 工作人员个人详细信息 | cdm_workerpersonaldetail |
-| 工作人员标识号 | cdm_workerpersonidentificationnumber |
-| 工作人员标识类型 | cdm_workerpersonidentificationtype |
-| 工作日历 | cdm_workcalendar |
-| 工作日历天 | cdm_workcalendarday |
-| 工作日历的假日 |cdm_workcalendarholiday |
-| 工作日历假期行 | cdm_workcalendarholidayline |
-| 工作日历时间间隔 | cdm_workcalendartimeinterval（未启用自定义字段支持） |
-| 工作人员银行帐户 | cdm_workerbankaccount |
+| Name | 表 |已知问题  | Status |
+| --- | --- |----------      | -------    |
+| 工作人员 | cdm_worker |    751906    |    已关闭 |
+| 工作人员地址 | cdm_workeraddress |   754465     |已关闭     |
+| 工作人员个人详细信息 | cdm_workerpersonaldetail |   751906     |   已关闭  |
+| 工作人员标识号 | cdm_workerpersonidentificationnumber |  766704      |   已关闭  |
+| 工作人员标识类型 | cdm_workerpersonidentificationtype |        |     |
+| 工作日历 | cdm_workcalendar |        |     |
+| 工作日历天 | cdm_workcalendarday |        |     |
+| 工作日历的假日 |cdm_workcalendarholiday |        |     |
+| 工作日历假期行 | cdm_workcalendarholidayline |        |     |
+| 工作日历时间间隔 | cdm_workcalendartimeinterval（未启用自定义字段支持） |        |     |
+| 工作人员银行帐户 | cdm_workerbankaccount |        |     |
 
 ## <a name="worker-setup-tables"></a>工作人员设置表
 

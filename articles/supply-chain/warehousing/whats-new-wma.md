@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 61d3ebc85d3c3d20bb17acd7364adc04cd2f3f94
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764231"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843672"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Warehouse Management 移动应用中的新增功能或更改
 
 [!include [banner](../includes/banner.md)]
 
 本文列出了 Microsoft Dynamics 365 Supply Chain Management 的 Warehouse Management 移动应用的每个已发布版本的新增功能、修复、改进和已知问题。
+
+## <a name="version-20390"></a>版本 2.0.39.0
+
+此版本引入了以下新增功能、修复和改进：
+- 提高了稳定性。 
+- **自定义** 页面的字段不再根据其优先级和子优先级设置自动排序。  
+- 该应用现在使用每个字段的优先级和子优先级设置来标识页面的主要字段。 主要字段显示在步骤标题中。 
+- 修复了 Android 上不隐藏软键盘的问题。
+- 修复了在 *移动* 流中打开时数量旋转图标显示不正确的值的问题。 
+- 修复了只读数量旋转图标值未正确居中的问题。 
+- 修复了无法从 **关于** 页面打开网页的问题。 
+- *自动* 颜色主题现在根据移动设备操作系统中设置的全局主题采用默认外观（浅色或深色）。
 
 ## <a name="version-20370"></a>版本 2.0.37.0
 

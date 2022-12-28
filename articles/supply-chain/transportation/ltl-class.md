@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c1c7233b637b84ec901d7f83ae00f8a04895edb
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857190"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838410"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>小于货车荷载 (LTL) 类
 
@@ -54,7 +54,7 @@ ms.locfileid: "8857190"
 
 下面的示例演示如何设置可以用于不同类型产品的两个不同的 LTL 类。
 
-1. 转到 **仓库管理 \> 设置 \> 库存 \> LTL 类**。
+1. 转到 **仓库管理 \> 设置 \> 库存 \> LTL 类** 或 **运输管理 \> 设置 \> 运输标准 \> LTL 类**。
 1. 在操作窗格上，选择 **新建**。
 1. 在新行中，设置以下值：
 

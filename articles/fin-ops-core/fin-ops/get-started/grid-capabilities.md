@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 6d14bba13dbf701a8c27c10ac2d318b071092bc1
+ms.sourcegitcommit: 77ffeccffff28fbb6ff576864d7abddd412cdab6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405457"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "9852365"
 ---
 # <a name="grid-capabilities"></a>网格功能
 
@@ -225,6 +225,7 @@ ms.locfileid: "9405457"
 ### <a name="open-issues"></a>未解决问题
 - 启用 **新网格控件** 功能后，某些页面将继续使用现有的网格控件。 在以下情况下会发生这种情况：
  
+    - [已解决] 问题 762533：在卡片列表中选择一行时出现意外的客户端错误。
     - [已解决] 页面上存在以多列呈现的卡列表。
         - 从版本 10.0.30 开始，**新建 grid 控件** 支持这种类型的卡列表。 可以删除出于此目的对 forceLegacyGrid() 进行的任何使用。 
     - [已解决] 页面上存在分组卡列表。

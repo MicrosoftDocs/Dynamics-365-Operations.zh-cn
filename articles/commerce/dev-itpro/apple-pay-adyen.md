@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: 0949b9d7a4b181605d43956932b4fc095940bd64
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 896847cee696e221b2114f7f28a0b56e73fc911b
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780349"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838221"
 ---
 # <a name="set-up-apple-pay-with-adyen-in-dynamics-365-commerce"></a>在 Dynamics 365 Commerce 中使用 Adyen 设置 Apple Pay
 
@@ -102,13 +102,6 @@ Apple Pay 是一种数字钱包付款方式。 有关如何设置 Apple Pay 付�
 
 1. 输入商家信息后，运行 **1070** 渠道配置分配计划作业。
 
-## <a name="configure-commerce-pos-for-apple-pay"></a>为 Commerce POS 配置 Apple Pay
-
-POS 配置将硬件配置文件的 **EFT 服务** 字段的配置用于适用于 Adyen 的 Dynamics 365 付款连接器。 在 Commerce headquarters 中，为适用于 Adyen 的 Dynamics 365 付款连接器配置 EFT 服务，如[“设置 Dynamics 365 POS 硬件配置文件”一节](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile)中所述。
-
-确保将 **ApplePay** 添加到 **支持的支付方式** 字段中的支付方式列表中。 使用分号 (;) 分隔列表中的支付方式。
-
-Adyen 连接器的处理器映射将捕获 Apple Pay 在 POS 终端上使用的钱包卡类型。
 
 ### <a name="configure-content-security-policies-in-site-builder"></a>在站点构建器中配置内容安全策略
 
@@ -138,6 +131,14 @@ Adyen 连接器的处理器映射将捕获 Apple Pay 在 POS 终端上使用的�
 **Apple Pay** 付款按钮仅在支持的 Apple Pay 设备（支持 Apple Pay 的 iPhone、iPad 和 Safari 浏览器）上显示。 如果用户不使用这些设备，**Apple Pay** 付款按钮将在视图中隐藏。
 
 当用户选择 **Apple Pay** 付款按钮时，将出现 **Apple Pay** 对话框。 在那里，用户可以通过他们的 Apple Pay 设备或浏览器进行身份验证。 **Apple Pay** 对话框会显示用户针对其 Apple Wallet 配置的订单金额和付款方式的摘要。 用户可以查看这些详细信息，然后选择 **支付** 完成付款。 付款完成后，用户将被定向到 **订单完成** 站点页面，页面上将显示已完成交易的详细订单摘要。
+
+## <a name="configure-commerce-pos-for-apple-pay"></a>为 Commerce POS 配置 Apple Pay
+
+POS 配置将硬件配置文件的 **EFT 服务** 字段的配置用于适用于 Adyen 的 Dynamics 365 付款连接器。 在 Commerce headquarters 中，为适用于 Adyen 的 Dynamics 365 付款连接器配置 EFT 服务，如[设置 Dynamics 365 POS 硬件配置文件](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile)中所述。
+
+确保将 **ApplePay** 添加到 **支持的支付方式** 字段中的支付方式列表中。 使用分号 (;) 分隔列表中的支付方式。
+
+Adyen 连接器的处理器映射将捕获 Apple Pay 在 POS 终端上使用的钱包卡类型。
 
 ## <a name="additional-resources"></a>其他资源
 

@@ -2,7 +2,7 @@
 title: 为客户订单启用多种提货交货方式
 description: 本文介绍 Microsoft Dynamics 365 Commerce 中的功能，可让您创建要在商店提货的客户订单。
 author: hhainesms
-ms.date: 06/07/2021
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,29 +12,29 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 555ae3900bd7f9c66366f19a6eb2f12503898c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e4d8883b3dc1c4a0e12bcb00b6441f76d73da92e
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858900"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831576"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>为客户订单启用多种提货交货方式
 
 [!include [banner](includes/banner.md)]
 
 
-在 Microsoft Dynamics 365 Commerce 版本 10.0.16 及更高版本中，组织可以定义多种交货方式，以供购物者或销售助理创建将在商店提货的订单时进行选择。 这样，组织可以向购物者提供多种提货选项。 例如，许多零售商现在针对其订单向购物者提供店内提货或懒人提货的选项。 Commerce 支持配置这些不同的提货交货方式。 然后，用户可以在任何受支持的 Commerce 渠道（电子商务、呼叫中心或商店）中创建客户订单时利用它们。
+在 Microsoft Dynamics 365 Commerce 中，组织可以定义多种交货方式，以供购物者或销售助理创建将在商店提货的订单时进行选择。 这样，组织可以向购物者提供多种提货选项。 例如，许多零售商现在针对其订单向购物者提供店内提货或懒人提货的选项。 Commerce 支持配置这些不同的提货交货方式。 然后，用户可以在任何受支持的 Commerce 渠道（电子商务、呼叫中心或商店）中创建客户订单时利用它们。
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>启用和配置多种提货交货方式
 
-若要使用此功能，请在 Commerce 总部中在 **功能管理** 工作区中打开 **支持多种提货交货方式** 功能。 打开该功能后，需要其他配置。
+Commerce headquarters 内 **功能管理** 工作区中的 **支持多种提货交货方式** 功能是必备功能，应在环境中启用。
 
-在 Commerce 版本 10.0.15 及更早版本中，组织只能定义一种交货方式作为指定的提货交货方式。 此定义在 **Commerce 参数** 页面上完成。 在版本 10.0.16 及更高版本中，当您打开 **支持多种提货交货方式** 功能时，之前在 **Commerce 参数** 页面上定义为提货交货方式的交货方式将自动复制到提货交货方式的新配置中。
+如果您之前在 **Commerce 参数** 页面上定义了提货交货方式，则该模式将出现在提货交货方式的当前配置中。
 
 ![Commerce 参数页面上的提货交货方式。](media/multiplepickupparameter.png)
 
-打开 **支持多种提货交货方式** 功能后，您可以在 **Commerce 参数** 页面的 **客户订单** 选项卡上，在 **交货方式** 快速选项卡的 **提货交货方式** 网格中，定义多种提货交货方式。
+您可以在 **Commerce 参数** > **客户订单** 选项卡 > **交货方式** 快速选项卡中的 **提货交货方式** 网络中定义多个提货交货方式。  
 
 **自提交货方式** 和 **电子交货方式** 字段以及 **仅显示装运订单的承运人模式选项** 选项已重新位于此快速选项卡上。
 
@@ -47,8 +47,6 @@ ms.locfileid: "8858900"
 > [!NOTE]
 > 除了在打开 **支持多种提货交货方式** 功能时复制到 **提货交货方式** 网格的现有提货交货方式外，对于您创建的每个其他提货交货方式配置，您应该配置新的交货方式。 当您将交货方式添加到 **提货交货方式** 网格时，Commerce 会验证是否有任何活动的未结销售行已使用它们。 如果找到任何未结销售行，您将收到错误消息。 直到使用交货方式的所有未结销售行已结算（已开票或已取消），才将其视为提货交货方式。
 
-> [!IMPORTANT]
-> 在 **Commerce 参数** 页面上定义多种提货交货方式后，**支持多种提货交货方式** 功能将成为强制性功能，无法再关闭。 如果必须关闭此功能，请从 **提货交货方式** 窗格中删除除一个之外的所有提货交货方式。 如果仅定义了一种提货交货方式，该功能将不再视为强制性功能，并且可以关闭。
 
 ### <a name="e-commerce-site-configurations"></a>电子商务站点配置
 

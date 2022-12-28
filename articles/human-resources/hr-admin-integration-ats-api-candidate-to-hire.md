@@ -2,7 +2,7 @@
 title: 可雇用的应聘者
 description: 本文介绍 Dynamics 365 Human Resources 的“可雇用的应聘者”实体。
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6c9fb66be920114f08a1f4444695eaa7db4cd42c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c243bdf81beabe9e1ee429227a6edf4d4864bfb
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848362"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831985"
 ---
 # <a name="candidate-to-hire"></a>可雇用的应聘者
 
@@ -72,6 +72,8 @@ ms.locfileid: "8848362"
             "_mshr_fk_reasoncode_id_value": "Guid",
             "mshr_militaryserviceenddate": "Guid",
             "mshr_militaryservicestartdate": "Guid"
+            "mshr_militaryserviceenddate": "Date",
+            "mshr_militaryservicestartdate": "Date"
         }
 ```
 

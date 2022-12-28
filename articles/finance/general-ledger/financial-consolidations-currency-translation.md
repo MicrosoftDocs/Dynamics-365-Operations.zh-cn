@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b2f5f56e757e89339c12fd41c59848b4c987a2f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846848"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831825"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>财务合并和货币折算概览
 
@@ -64,7 +64,7 @@ Finance 使用一个法人处理一项合并。 它支持单实例合并，但�
 - 合并涉及多个申报币种
 
 ## <a name="legal-entity-setup"></a>设置法人
-必须先设置法人，才能处理合并。 运行的合并数量不受限制，而所有数据将从源公司的记帐币种折算为为合并公司定义的币种。 因此，对于以下组织结构，如果必须首先将所有北美公司折算为美元 (USD)，然后折算为欧元 (EUR)（这是父公司的币种），则必须至少有两个合并公司。
+必须先设置法人，才能处理合并。 运行的合并数量不受限制，而所有数据将从源公司的会计币种或申报币种折算为为合并公司定义的币种。 因此，对于以下组织结构，如果必须首先将所有北美公司折算为美元 (USD)，然后折算为欧元 (EUR)（这是父公司的币种），则必须至少有两个合并公司。
 
 ![组织结构。](./media/organizational-structure.png "组织结构")
 
